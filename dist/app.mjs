@@ -55,14 +55,6 @@ function topicGrid(destination, items) {
   </li>`).join("")}</ul>`;
 }
 
-function homeArtwork() {
-  const covers = ["nucci", "lenza", "forgioni-antitruste"]
-    .map(id => books.find(book => book.id === id)).filter(Boolean);
-  return `<div class="hero-artwork" aria-hidden="true">
-    ${covers.map(book => `<div class="hero-artwork-cover">${cover(book)}</div>`).join("")}
-  </div>`;
-}
-
 function home() {
   const themeCounts = new Map(catalog.map(({ course, topics }) => [course.id, topics.length]));
   const ordered = [...courses].sort((a, b) => themeCounts.get(b.id) - themeCounts.get(a.id));
@@ -78,7 +70,7 @@ function home() {
         <a href="#livros/dolo-eventual">Dolo eventual</a><a href="#livros/omissao-impropria">Omissão imprópria</a>
       </div>
     </div>
-    ${homeArtwork()}
+    <div class="hero-artwork" aria-hidden="true"><span></span></div>
   </section>
   <section class="catalog-section shell" aria-labelledby="topics-title">
     <div class="section-heading"><h2 id="topics-title">Explore o acervo</h2></div>

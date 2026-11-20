@@ -13,30 +13,40 @@
 
   .hero-artwork {
     display: grid;
+    place-items: center;
     position: relative;
-    isolation: isolate;
-    aspect-ratio: 4 / 5;
-    grid-template-columns: minmax(0, 1fr);
-    justify-items: center;
-    align-items: center;
+    aspect-ratio: 1;
+    border: 1px solid rgb(201 242 103 / 18%);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(201 242 103 / 7%), transparent 72%);
+    box-shadow: 0 0 0 1.6rem rgb(201 242 103 / 2%), 0 0 0 3.2rem rgb(201 242 103 / 1%);
     pointer-events: none;
   }
 
   .hero-artwork::before {
     content: "";
     position: absolute;
-    z-index: -1;
-    inset: 2% -5%;
-    background: radial-gradient(ellipse, rgb(201 242 103 / 10%), transparent 68%);
+    inset: 15%;
+    border: 1px solid rgb(201 242 103 / 13%);
+    border-radius: 50%;
   }
 
-  .hero-artwork-cover {
-    grid-area: 1 / 1;
-    width: 47%;
-    filter: drop-shadow(0 .8rem 1.15rem rgb(0 0 0 / 38%));
+  .hero-artwork::after {
+    content: "";
+    position: absolute;
+    width: .45rem;
+    height: .45rem;
+    border-radius: 50%;
+    top: 25%;
+    right: 25%;
+    background: var(--lime);
+    box-shadow: 0 0 .8rem rgb(201 242 103 / 45%);
   }
 
-  .hero-artwork-cover:nth-child(1) { transform: translate(-39%, 8%) rotate(-17deg); }
-  .hero-artwork-cover:nth-child(2) { transform: translate(39%, 6%) rotate(14deg); }
-  .hero-artwork-cover:nth-child(3) { transform: translateY(-9%) rotate(-4deg); }
+  .hero-artwork span {
+    width: 26%;
+    aspect-ratio: 1;
+    background: url("../trelia.svg") center / contain no-repeat;
+    opacity: .19;
+  }
 }
