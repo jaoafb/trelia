@@ -1443,6 +1443,7 @@ export default {
       "instituicao": "Cade",
       "tipo": "texto_integral",
       "url": "https://cdn.cade.gov.br/Portal/centrais-de-conteudo/publicacoes/guias-do-cade/guia-para-analise-de-atos-de-concentracao-horizontal.pdf",
+      "url_alternativa": "https://www.gov.br/cade/pt-br/centrais-de-conteudo/publicacoes-institucionais/guias-do-cade",
       "conferida_em": "2026-11-20"
     },
     {
@@ -1451,6 +1452,7 @@ export default {
       "instituicao": "Cade",
       "tipo": "texto_integral",
       "url": "https://cdn.cade.gov.br/Portal/centrais-de-conteudo/publicacoes/guias-do-cade/guia-compliance-versao-oficial.pdf",
+      "url_alternativa": "https://www.gov.br/cade/pt-br/centrais-de-conteudo/publicacoes-institucionais/guias-do-cade",
       "conferida_em": "2026-11-20"
     },
     {

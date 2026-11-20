@@ -46,7 +46,7 @@ function newEdition(item) {
     .filter(Boolean).join(" · ") || (item.ano ? String(item.ano) : "Edição");
   return { id: item.id, isbn: item.isbn13 || undefined, name, year: item.ano,
     format: item.formato, access, source: proof.url, sourceLabel: "Abrir " + access.toLowerCase(),
-    provenance: proof.instituicao };
+    provenance: proof.instituicao, alternateUrl: proof.url_alternativa };
 }
 
 function editionIsbns(edition) {
@@ -89,13 +89,14 @@ export function applyCuratedBooks(books, records) {
 function coverageReference(item) {
   const proof = source(item.fonte_id);
   const action = "Abrir " + sourceType[proof.tipo].toLowerCase();
+  const provenance = { url: proof.url, action, alternateUrl: proof.url_alternativa };
   const location = item.localizacao;
-  if (!location?.pagina_inicial && !location?.secao) return { url: proof.url, action, detail: item.evidencia };
+  if (!location?.pagina_inicial && !location?.secao) return { ...provenance, detail: item.evidencia };
   const pages = [location.pagina_inicial, ...(location.paginas_adicionais ?? [])].filter(Boolean);
   const where = pages.length
     ? (pages.length === 1 ? "Página " : "Páginas ") + pages.join(" e ")
     : location.secao;
-  return { url: proof.url, action, where, section: pages.length ? location.secao : undefined,
+  return { ...provenance, where, section: pages.length ? location.secao : undefined,
     precision: pages.length ? "Paginação da obra" : "Localização confirmada", detail: item.evidencia };
 }
 
@@ -110,7 +111,7 @@ export function applyCuratedTopics(topics, books) {
     const proofs = reviewed ? explanation.fontes.map(item => {
       const proof = source(item.fonte_id);
       return { title: proof.titulo, by: proof.instituicao, url: proof.url,
-        type: sourceType[proof.tipo], note: item.recorte };
+        type: sourceType[proof.tipo], note: item.recorte, alternateUrl: proof.url_alternativa };
     }) : [];
     byId.set(item.id, {
       id: item.id, area: item.area_id, title: item.titulo, readingTitle: item.titulo,

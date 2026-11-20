@@ -136,20 +136,6 @@ h1:focus, main:focus { outline: none; }
   padding-bottom: 122px;
   position: relative;
 }
-.hero::after {
-  content: "";
-  position: absolute;
-  width: 340px;
-  height: 340px;
-  right: -130px;
-  top: 40px;
-  border: 1px solid rgba(201, 242, 103, 0.16);
-  border-radius: 50%;
-  box-shadow:
-    0 0 0 42px rgba(201, 242, 103, 0.015),
-    0 0 0 86px rgba(201, 242, 103, 0.01);
-  pointer-events: none;
-}
 .eyebrow,
 .section-kicker {
   color: var(--lime);
@@ -967,11 +953,6 @@ h1:focus, main:focus { outline: none; }
     padding-top: 52px;
     padding-bottom: 58px;
   }
-  .hero::after {
-    width: 220px;
-    height: 220px;
-    right: -140px;
-  }
   .hero h1 {
     font-size: 44px;
     letter-spacing: -2.7px;
@@ -1205,7 +1186,6 @@ h1:focus, main:focus { outline: none; }
 .footer-feedback:hover { color: var(--lime); }
 .hero { isolation: isolate; }
 main { overflow-x: clip; }
-.hero::after { pointer-events: none; }
 .topic-grid { list-style: none; }
 .catalog-course-heading {
   display: flex;

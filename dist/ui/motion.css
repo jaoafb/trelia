@@ -1,0 +1,43 @@
+@media (prefers-reduced-motion: no-preference) {
+  .hero-main,
+  .results-heading,
+  .page-heading,
+  .guide-main > h1,
+  .empty-state {
+    animation: page-enter 220ms ease-out;
+  }
+
+  .inline-reference-result > *,
+  #edition-result > .location-card {
+    animation: reference-refresh 180ms ease-out;
+  }
+
+  .topic-card,
+  .primary-button,
+  .search-box button {
+    transition: background-color 150ms ease, border-color 150ms ease, transform 150ms ease;
+  }
+
+  .topic-arrow {
+    transition: transform 150ms ease, color 150ms ease;
+  }
+
+  .primary-button:active,
+  .search-box button:active {
+    transform: scale(.98);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .topic-card:hover { transform: translateY(-2px); }
+  }
+}
+
+@keyframes page-enter {
+  from { opacity: .75; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes reference-refresh {
+  from { opacity: .65; }
+  to { opacity: 1; }
+}

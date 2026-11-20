@@ -1,0 +1,60 @@
+.hero-artwork { display: none; }
+
+@media (min-width: 1050px) {
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(15rem, 25vw, 19rem);
+    align-items: center;
+    gap: clamp(2rem, 4vw, 4rem);
+  }
+
+  .hero-main { min-width: 0; }
+  .hero h1 { font-size: clamp(3rem, 5.3vw, 5rem); }
+
+  .hero-artwork {
+    display: grid;
+    place-items: center;
+    position: relative;
+    aspect-ratio: 1;
+    border: 1px solid rgb(201 242 103 / 18%);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(201 242 103 / 7%), transparent 72%);
+    box-shadow: 0 0 0 1.6rem rgb(201 242 103 / 2%), 0 0 0 3.2rem rgb(201 242 103 / 1%);
+    pointer-events: none;
+  }
+
+  .hero-artwork::before {
+    content: "";
+    position: absolute;
+    inset: 15%;
+    border: 1px solid rgb(201 242 103 / 13%);
+    border-radius: 50%;
+  }
+
+  .hero-artwork::after {
+    content: "";
+    position: absolute;
+    inset: calc(15% - .25rem);
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 50% .25rem, var(--lime) .17rem, transparent .23rem);
+    filter: drop-shadow(0 0 .35rem rgb(201 242 103 / 55%));
+    transform: rotate(45deg);
+  }
+
+  .hero-artwork span {
+    width: 26%;
+    aspect-ratio: 1;
+    background: url("../trelia.svg") center / contain no-repeat;
+    opacity: .19;
+  }
+}
+
+@media (min-width: 1050px) and (prefers-reduced-motion: no-preference) {
+  .hero-artwork::after { animation: hero-orbit 4.5s ease-out; }
+}
+
+@keyframes hero-orbit {
+  from { transform: rotate(-100deg); }
+  to { transform: rotate(45deg); }
+}
