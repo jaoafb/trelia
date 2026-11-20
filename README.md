@@ -1,6 +1,12 @@
 # Trelia.
 
-Busque um tema e encontre livros para estudá-lo, com edição, capítulo ou página quando a fonte confirma a localização. O acervo publicado inicial cobre três temas de Direito Penal I.
+Busque um tema, compare os livros indicados e veja onde começar a leitura na sua edição. A Trelia informa o capítulo, a seção ou a página conforme a fonte disponível.
+
+**[Abrir a Trelia](https://trelia.vercel.app/)** · **[Planejar a expansão do acervo](data/catalogo/BRIEF-EXPANSAO.md)**
+
+O acervo inicial cobre três temas de Direito Penal I. Para experimentar, busque **“dolo eventual”**, abra o guia do Nucci e selecione **14ª edição · 2018**. A referência aponta para as páginas **192 e 200** e inclui o link para o sumário.
+
+O site usa HTML, CSS e módulos JavaScript. A Vercel serve `dist/` diretamente. O importador e a fila de curadoria ficam fora da pasta publicada.
 
 ## Rodar localmente
 
