@@ -1,0 +1,43 @@
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+}
+.hero-main { min-width: 0; }
+
+.hero-reading {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4.25rem minmax(0, 1fr);
+  gap: .9rem;
+  max-width: 30rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+}
+.hero-reading:hover { border-color: var(--lime-dark); }
+.hero-reading-info { min-width: 0; }
+.hero-reading-info h2 {
+  margin: .4rem 0 .3rem;
+  font: 600 clamp(1.25rem, 3vw, 1.65rem)/1.2 Manrope, sans-serif;
+}
+.hero-reading-info > p:not(.section-kicker) { color: var(--muted); font-size: .875rem; }
+.hero-reading-reference { display: flex; flex-wrap: wrap; gap: .25rem .75rem; margin-top: .7rem; }
+.hero-reading-reference strong { color: var(--text); font-weight: 600; }
+.hero-reading-link { display: inline-flex; align-items: center; gap: .5rem; color: var(--lime); margin-top: .75rem; font-size: .875rem; font-weight: 600; }
+.hero-reading-link .icon { width: 1rem; height: 1rem; }
+
+@media (min-width: 1050px) {
+  .hero { grid-template-columns: minmax(0, 1fr) clamp(15rem, 23vw, 19rem); align-items: center; gap: clamp(2rem, 4vw, 4rem); }
+  .hero h1 { font-size: clamp(3rem, 5.3vw, 5rem); }
+  .hero-reading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.4rem;
+    background: radial-gradient(ellipse at 50% 10%, rgb(201 242 103 / 9%), transparent 65%), var(--surface);
+  }
+  .hero-reading-cover { width: 8.75rem; margin-inline: auto; transform: rotate(-5deg); }
+  .hero-reading-cover .trelia-cover { box-shadow: .4rem .65rem 1.7rem rgb(0 0 0 / 45%); }
+}

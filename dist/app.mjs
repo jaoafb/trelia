@@ -17,6 +17,10 @@ function external(url, label) {
   return `<a class="external-link" href="${h(url)}" target="_blank" rel="noopener noreferrer"><span class="external-label">${h(label)}</span> ${externalIcon}</a>`;
 }
 
+function officialAlternative(source) {
+  return source.alternateUrl ? external(source.alternateUrl, "Ver guias no site do Cade") : "";
+}
+
 function search(value = "", compact = true) {
   return `<form id="search-form" class="search-box${compact ? " search-compact" : ""}" role="search">
     ${searchIcon}
@@ -51,12 +55,31 @@ function topicGrid(destination, items) {
   </li>`).join("")}</ul>`;
 }
 
+function homeReadingExample() {
+  const topic = topics.find(item => item.id === "erro-de-tipo");
+  const book = books.find(item => item.id === "nucci");
+  const edition = book?.editions.find(item => item.id === "nucci-18");
+  const ref = edition && topic?.refs[edition.id];
+  if (!ref) return "";
+  return `<a class="hero-reading" href="${guideLink(topic, book, edition)}">
+    <div class="hero-reading-cover">${cover(book)}</div>
+    <div class="hero-reading-info">
+      <p class="section-kicker">Uma leitura do acervo</p>
+      <h2>${h(topic.title)}</h2>
+      <p>${h(book.title)} · ${h(book.author)}</p>
+      <p class="hero-reading-reference">${h(editionLabel(edition))} <strong>${h(ref.where)}</strong></p>
+      <span class="hero-reading-link">Abrir indicação ${arrow}</span>
+    </div>
+  </a>`;
+}
+
 function home() {
   const themeCounts = new Map(catalog.map(({ course, topics }) => [course.id, topics.length]));
   const ordered = [...courses].sort((a, b) => themeCounts.get(b.id) - themeCounts.get(a.id));
   const featured = ordered.filter(course => themeCounts.get(course.id) >= 5);
   const inProgress = ordered.filter(course => themeCounts.get(course.id) < 5);
   return `<section class="hero shell">
+    <div class="hero-main">
     <p class="eyebrow"><span></span> Leituras por assunto</p>
     <h1>Encontre o trecho certo.<br><em>Comece a estudar.</em></h1>
     <p class="hero-copy">Descubra quais livros consultar e onde começar a leitura, sem perder tempo procurando.</p>
@@ -64,6 +87,8 @@ function home() {
     <div class="search-examples"><span>Experimente:</span>
       <a href="#livros/dolo-eventual">Dolo eventual</a><a href="#livros/omissao-impropria">Omissão imprópria</a>
     </div>
+    </div>
+    ${homeReadingExample()}
   </section>
   <section class="catalog-section shell" aria-labelledby="topics-title">
     <div class="section-heading"><h2 id="topics-title">Explore o acervo</h2></div>
@@ -91,7 +116,8 @@ function editionReference(topic, book, edition) {
   const details = [ref?.section ?? ref?.precision, edition.isbn && "ISBN " + edition.isbn].filter(Boolean);
   return `<strong>${h(ref?.where ?? "Localização a conferir")}</strong>
     ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
-    ${external(source.url, specific ? source.action : ref ? "Ver fonte" : "Ver fonte da indicação")}`;
+    ${external(source.url, specific ? source.action : ref ? "Ver fonte" : "Ver fonte da indicação")}
+    ${officialAlternative(source)}`;
 }
 
 function readingCard(topic, book, first) {
@@ -129,7 +155,7 @@ function topicBooks(topic, query, preferredBook) {
     <h2 id="explanation-title">${question ? "Resposta breve" : "Entender o tema"}</h2>
     <p>${h(topic.answer)}</p>
     ${topic.sources.length ? `<details class="explanation-sources"><summary>Fontes da explicação</summary>
-      <ul>${topic.sources.map(source => `<li>${external(source.url, source.title)}</li>`).join("")}</ul>
+      <ul>${topic.sources.map(source => `<li>${external(source.url, source.title)}${officialAlternative(source)}</li>`).join("")}</ul>
     </details>` : ""}
   </section>` : "";
   const related = (topic.relatedTopics ?? []).map(id => topics.find(item => item.id === id));
@@ -162,6 +188,7 @@ function locationCard(topic, book, edition) {
       <div><span>${h(ref.precision)}</span><strong class="detail-text">${h(ref.detail)}</strong></div></div>
       ${external(ref.url, ref.action)}` : `<p class="warning-message">Localização a conferir para esta edição.</p>
       ${external(source.url, specific ? source.action : "Ver fonte sobre a cobertura")}`}
+    ${officialAlternative(source)}
   </div>`;
 }
 
@@ -182,7 +209,7 @@ function topicGuide(topic, book, edition) {
         </div>` : ""}
         ${topic.sources.length ? `<section class="guide-sources" aria-labelledby="sources-title"><div class="section-heading"><h2 id="sources-title">Fontes abertas</h2></div>
           <ul>${topic.sources.map(source => `<li class="bibliography-card"><div><span class="book-type">${h(source.type)}</span>
-            <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${external(source.url, "Abrir fonte")}</div></li>`).join("")}</ul>
+            <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${external(source.url, "Abrir fonte")}${officialAlternative(source)}</div></li>`).join("")}</ul>
         </section>` : ""}
       </section>
       <aside class="guide-book">${cover(book)}
@@ -231,7 +258,7 @@ function bookPage(book, searchedIsbn) {
           ${edition.isbn ? `<p class="author">ISBN ${h(edition.isbn)}</p>` : edition.isbns?.length ? `<p class="author">ISBNs do registro · ${h(edition.isbns.join(" · "))}</p>` : ""}
           ${edition.access ? `<p class="bibliography-desc">${h(edition.access)}${edition.bookAccess ? " · " + h(edition.bookAccess) : ""}</p>
             ${references.some(topic => topic.refs[edition.id]) ? "" : '<p class="bibliography-desc">Localização a conferir.</p>'}` : ""}</div>
-        <div class="edition-access">${external(edition.source, edition.sourceLabel)}
+        <div class="edition-access">${external(edition.source, edition.sourceLabel)}${officialAlternative(edition)}
           ${edition.isbn && !book.imported && !book.provenance ? external("https://www.amazon.com.br/s?k=" + edition.isbn, "Buscar na Amazon") : ""}</div></article>`).join("")}
     </section>
     ${references.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Guias que usam esta obra</h2></div>
