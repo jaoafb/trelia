@@ -35,9 +35,9 @@
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-content: center;
   align-items: center;
-  min-height: 4.75rem;
+  min-height: 6rem;
   gap: .7rem;
-  padding: .85rem 1rem;
+  padding: 1rem 1.15rem;
   border: 1px solid var(--line);
   border-radius: var(--panel-radius);
   background: var(--panel-background);
@@ -60,4 +60,14 @@
 .catalog-section .topic-arrow {
   width: 1.65rem;
   height: 1.65rem;
+}
+
+.catalog-section .more-courses .topic-card {
+  min-height: 4.5rem;
+  padding: .75rem 1rem;
+  background: var(--surface);
+}
+
+@media (max-width: 600px) {
+  .catalog-section > .topic-grid .topic-card { min-height: 5.25rem; }
 }
