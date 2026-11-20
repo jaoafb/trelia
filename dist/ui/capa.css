@@ -33,7 +33,10 @@
   font: 600 clamp(.55rem, 13cqi, 2.35rem)/1.12 Georgia, serif;
   -webkit-line-clamp: 6;
 }
-.trelia-cover-title-long { font-size: clamp(.5rem, 10cqi, 1.85rem); }
+.trelia-cover-title-long {
+  font-size: clamp(.5rem, 9.5cqi, 1.7rem);
+  -webkit-line-clamp: 5;
+}
 .trelia-cover-footer { display: grid; gap: .3em; font-size: clamp(.4rem, 5.6cqi, .95rem); line-height: 1.25; }
 .trelia-cover-area, .trelia-cover-author { -webkit-line-clamp: 2; }
 .trelia-cover-title, .trelia-cover-area, .trelia-cover-author {
@@ -55,6 +58,7 @@
 .bibliography-card.book-edition-card { grid-template-columns: minmax(0, 1fr) auto; }
 
 @media (max-width: 600px) {
+  .trelia-cover-title { -webkit-line-clamp: 4; }
   .book-profile { grid-template-columns: 4.5rem minmax(0, 1fr); }
   .book-profile h1 { font-size: clamp(1.5rem, 6vw, 2.15rem); letter-spacing: -.035em; }
   .book-card { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .75rem; }
