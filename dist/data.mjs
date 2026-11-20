@@ -1,5 +1,6 @@
 const code = "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.pdf";
 const nucciContents = "https://sumarios.grupogen.com.br/jur/FOR/9786559642816_SUM.pdf";
+const cunhaContents = "https://juspodivmdigital.com.br/cdn/pdf/JUS4997-Sumario.pdf";
 
 export const books = [
   {
@@ -34,7 +35,7 @@ export const books = [
 
 export const topics = [
   {
-    id: "dolo-eventual", title: "Dolo eventual e culpa consciente", category: "Teoria do crime",
+    id: "dolo-eventual", readingTitle: "dolo eventual e culpa consciente", title: "Dolo eventual e culpa consciente", category: "Teoria do crime",
     aliases: ["dolo eventual", "culpa consciente", "dolo indireto", "diferença entre dolo e culpa", "dolo e culpa", "assumir o risco", "previsão do resultado", "artigo 18", "art 18"],
     intro: "As duas hipóteses podem envolver a previsão do resultado. A distinção está na atitude diante dessa possibilidade.",
     answer: "No dolo eventual, a pessoa prevê o resultado e assume o risco de produzi-lo. Na culpa consciente, prevê o resultado, mas confia que conseguirá evitá-lo ou que ele não ocorrerá. Ao ler um caso, procure os fatos que sustentam essa diferença. Prever o resultado, por si só, não resolve a classificação.",
@@ -47,10 +48,11 @@ export const topics = [
       "nucci-22": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[0].source, action: "Ver sumário da editora" },
       "nucci-22-epub": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[1].source, action: "Ver sumário da editora" },
       "nucci-18": { where: "Páginas 167 e 174", detail: "Capítulo XIV, item 5 para o conceito e item 13 para a comparação com culpa consciente.", precision: "Páginas verificadas no sumário", url: nucciContents, action: "Ver sumário da edição" },
+      "cunha-2026": { where: "Página 327", detail: "O índice aponta uma pergunta sobre a diferença entre dolo eventual e culpa consciente.", precision: "Página verificada no sumário", url: cunhaContents + "#page=17", action: "Ver índice da editora" },
     },
   },
   {
-    id: "omissao-impropria", title: "Omissão imprópria e dever de agir", category: "Conduta e resultado",
+    id: "omissao-impropria", readingTitle: "omissão imprópria e dever de agir", title: "Omissão imprópria e dever de agir", category: "Conduta e resultado",
     aliases: ["omissão imprópria", "crime omissivo impróprio", "crimes omissivos", "omissão própria", "dever de agir", "posição de garantidor", "garantidor", "salva-vidas", "artigo 13", "art 13"],
     intro: "Em que circunstâncias a falta de ação pode levar à responsabilização pelo resultado?",
     answer: "Na omissão imprópria, o ponto de partida é verificar se a pessoa devia e podia agir para evitar o resultado. O art. 13, § 2º, aponta três origens para esse dever: obrigação legal de cuidado, proteção ou vigilância, responsabilidade assumida de impedir o resultado, ou criação anterior do risco.",
@@ -61,10 +63,11 @@ export const topics = [
     ],
     refs: {
       "nucci-18": { where: "Página 156", detail: "Capítulo XIII, item 5.3, sobre o nexo causal nos crimes omissivos próprios e impróprios.", precision: "Página verificada no sumário", url: nucciContents, action: "Ver sumário da edição" },
+      "bitencourt-2026": { where: "Capítulo XV", detail: "A Omissão e Suas Formas.", precision: "Capítulo verificado", url: books[2].editions[0].source, action: "Ver sumário da editora" },
     },
   },
   {
-    id: "tentativa", title: "Tentativa e desistência voluntária", category: "Iter criminis",
+    id: "tentativa", readingTitle: "tentativa e desistência voluntária", title: "Tentativa e desistência voluntária", category: "Iter criminis",
     aliases: ["tentativa", "crime tentado", "desistência voluntária", "iter criminis", "circunstâncias alheias", "artigo 14", "artigo 15", "art 14", "art 15"],
     intro: "O que muda quando a execução é interrompida pela própria pessoa ou por uma circunstância externa?",
     answer: "Na tentativa, a execução começa e a consumação deixa de ocorrer por circunstâncias alheias à vontade da pessoa. Na desistência voluntária, a própria pessoa decide interromper a execução quando ainda podia prosseguir. Nessa hipótese, o art. 15 prevê que ela responde pelos atos já praticados.",
@@ -76,6 +79,7 @@ export const topics = [
       "nucci-22": { where: "Capítulo XVIII", detail: "Crime Consumado e Tentativa", precision: "Capítulo verificado", url: books[0].editions[0].source, action: "Ver sumário da editora" },
       "nucci-22-epub": { where: "Capítulo XVIII", detail: "Crime Consumado e Tentativa", precision: "Capítulo verificado", url: books[0].editions[1].source, action: "Ver sumário da editora" },
       "nucci-18": { where: "Páginas 249 e 262", detail: "Capítulo XVIII, item 2 para tentativa e item 3 para desistência voluntária e arrependimento eficaz.", precision: "Páginas verificadas no sumário", url: nucciContents, action: "Ver sumário da edição" },
+      "cunha-2026": { where: "Páginas 525 e 533", detail: "Itens 4, sobre tentativa, e 5.1, sobre desistência voluntária.", precision: "Páginas verificadas no sumário", url: cunhaContents + "#page=9", action: "Ver sumário da editora" },
     },
   },
 ];
@@ -90,7 +94,7 @@ export function normalize(value) {
     .replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-const ignored = new Set(["a", "as", "o", "os", "um", "uma", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "para", "por", "qual", "quais", "que", "como", "sobre", "queria", "quero", "livro", "livros", "onde", "encontro"]);
+const ignored = new Set(["a", "as", "o", "os", "um", "uma", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "para", "por", "qual", "quais", "que", "como", "sobre", "queria", "quero", "livro", "livros", "obra", "obras", "leitura", "leituras", "bibliografia", "indica", "recomende", "onde", "encontro"]);
 const entries = [
   { ...course, type: "Disciplina", route: "penal-i", note: "Escolha um livro para acompanhar a matéria." },
   ...topics.map(item => ({ ...item, type: "Guia de dúvida", route: "duvida/" + item.id, note: item.intro })),
@@ -102,6 +106,7 @@ export function findEntries(query) {
   const compact = normalized.replace(/ /g, "");
   if (!normalized) return [];
   const terms = normalized.split(" ").filter(term => !ignored.has(term));
+  const requestsBooks = /\b(?:livros?|obras?|leituras?|bibliografia)\b/.test(normalized);
   return entries.map(item => {
     const keys = [item.title, ...item.aliases].map(normalize);
     const exact = keys.some(key => key === normalized || (/^\d{13}$/.test(compact) && key === compact));
@@ -109,6 +114,10 @@ export function findEntries(query) {
     const words = new Set(keys.flatMap(key => key.split(" ")));
     const overlap = terms.filter(term => words.has(term)).length;
     const score = exact ? 1000 : phrases.length ? 100 + Math.max(...phrases.map(k => k.length)) : terms.length > 0 && overlap === terms.length ? 20 + overlap : 0;
-    return { item, score };
+    const entry = requestsBooks && item.type === "Guia de dúvida"
+      ? { ...item, route: "livros/" + item.id, type: "Livros por assunto",
+          title: "Livros sobre " + item.readingTitle, note: "Veja as obras, edições e os trechos localizados." }
+      : item;
+    return { item: entry, score };
   }).filter(hit => hit.score > 0).sort((a,b) => b.score - a.score).map(hit => hit.item);
 }

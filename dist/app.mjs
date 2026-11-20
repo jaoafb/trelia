@@ -17,7 +17,7 @@ function external(url, label, className = "text-link") {
 function search(value = "", heading = false) {
   return `<form id="search-form" class="search-form" role="search">
     <label class="sr-only" for="search-input">Buscar matéria, livro ou dúvida</label>
-    <div class="search-box">${searchIcon}<input id="search-input" name="query" type="search" placeholder="Ex.: Penal I ou dolo eventual" value="${h(value)}" required maxlength="160" autocomplete="off"></div>
+    <div class="search-box">${searchIcon}<input id="search-input" name="query" type="search" placeholder="Ex.: livros sobre dolo eventual" value="${h(value)}" required maxlength="160" autocomplete="off"></div>
     <button class="${heading ? "search-button" : "primary"}" type="submit">Buscar</button>
   </form>`;
 }
@@ -56,7 +56,7 @@ function home() {
       <h1>O que você quer<br class="hero-break"> <em>estudar hoje?</em></h1>
       <p>Escolha uma leitura para a disciplina ou encontre uma fonte para sua dúvida.</p>
       ${search("", true)}
-      <div class="examples"><span>Experimente</span><a href="#penal-i">Penal I</a><a href="#duvida/dolo-eventual">Dolo eventual</a></div>
+      <div class="examples"><span>Experimente</span><a href="#penal-i">Penal I</a><a href="#duvida/dolo-eventual">Dolo eventual</a><a href="#livros/dolo-eventual">Livros sobre dolo eventual</a></div>
     </div>
     <div class="hero-art" aria-hidden="true">
       <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
@@ -94,6 +94,12 @@ function sourceCard(source) {
   return `<li class="source-card"><div><p class="eyebrow">${h(source.type)}</p><h3>${h(source.title)}</h3><p class="subtle">${h(source.by)}</p><p>${h(source.note)}</p></div>${external(source.url, "Abrir fonte")}</li>`;
 }
 
+function editionLabel(edition) {
+  return edition.year && !edition.name.includes(String(edition.year))
+    ? edition.name + " · " + edition.year
+    : edition.name;
+}
+
 function locationCard(ref) {
   if (!ref) return `<div class="locator-result"><p>Página ou seção ainda sem confirmação nessa edição.</p><p class="subtle">As fontes abertas acima já permitem consultar o tema.</p></div>`;
   return `<div class="locator-result"><p class="eyebrow">${h(ref.precision)}</p><strong>${h(ref.where)}</strong><p>${h(ref.detail)}</p>${external(ref.url, ref.action)}</div>`;
@@ -114,11 +120,41 @@ function topicPage(topic) {
         <h2 id="localizar">Onde está no livro?</h2>
         <a class="text-link" href="#livro/nucci">Manual de Direito Penal · Nucci</a>
         <label for="edition">Qual edição você tem?</label>
-        <select id="edition">${editions.map(edition => `<option value="${edition.id}" ${edition.id === first.id ? "selected" : ""}>${edition.name} · ${edition.year} · ${edition.format}</option>`).join("")}</select>
+        <select id="edition">${editions.map(edition => `<option value="${edition.id}" ${edition.id === first.id ? "selected" : ""}>${h(editionLabel(edition))} · ${h(edition.format)}</option>`).join("")}</select>
         <div id="edition-result" aria-live="polite">${locationCard(topic.refs[first.id])}</div>
+        <p class="topic-reading-link"><a class="text-link" href="#livros/${topic.id}">Ver livros sobre este assunto</a></p>
       </aside>
     </div>
     <section class="section more" aria-labelledby="mais-guias"><div class="section-head"><h2 id="mais-guias">Outras dúvidas de Penal I</h2></div><div class="topics">${topics.filter(item => item !== topic).map(topicCard).join("")}</div></section>`;
+}
+
+function topicBooksPage(topic) {
+  const title = "Livros sobre " + topic.readingTitle;
+  const matches = books.map(book => ({
+    book,
+    editions: book.editions.filter(edition => topic.refs[edition.id]),
+  })).filter(match => match.editions.length);
+
+  return `${crumbs(title, true)}
+    <section class="page-hero"><p class="eyebrow">Direito Penal I · Leituras por assunto</p>
+      <h1>${h(title)}</h1>
+      <p>Veja em qual edição e em que parte de cada livro o assunto aparece.</p>
+      <p class="topic-reading-link"><a class="text-link" href="#duvida/${topic.id}">Ler a explicação e ver fontes abertas</a></p>
+    </section>
+    <section class="section" aria-labelledby="topic-books-title">
+      <div class="section-head"><h2 id="topic-books-title">Obras com referência verificada</h2></div>
+      <div class="books">${matches.map(({ book, editions }) => `<article class="book-card">
+        <div class="book-card-top">${bookCover(book)}<div>
+          <h3><a href="#livro/${book.id}">${h(book.title)}</a></h3>
+          <p class="subtle author">${h(book.author)}</p>
+        </div></div>
+        <ul class="reading-editions">${editions.map(edition => `<li>
+          <p class="eyebrow">${h(editionLabel(edition))} · ${h(edition.format)}</p>
+          ${locationCard(topic.refs[edition.id])}
+        </li>`).join("")}</ul>
+        <a class="text-link" href="#livro/${book.id}">Ver ficha e opções de acesso</a>
+      </article>`).join("")}</div>
+    </section>`;
 }
 
 function bookPage(book) {
@@ -126,7 +162,7 @@ function bookPage(book) {
   return `${crumbs(book.short, true)}
     <section class="page-hero book-hero"><div>${bookCover(book)}</div><div><p class="eyebrow">${h(book.label)}</p><h1>${h(book.title)}</h1><p class="book-by">${h(book.author)}</p><p>${h(book.reason)}</p></div></section>
     <section class="section" aria-labelledby="edicoes"><div class="section-head"><h2 id="edicoes">Edições e acesso</h2></div><ul class="sources editions">${book.editions.map(e => `<li class="source-card">
-      <div><p class="eyebrow">${h(e.format)}</p><h3>${h(e.name)}${e.year ? " · " + e.year : ""}</h3><p class="subtle">ISBN ${h(e.isbn)}</p></div><div class="edition-links">
+      <div><p class="eyebrow">${h(e.format)}</p><h3>${h(editionLabel(e))}</h3><p class="subtle">ISBN ${h(e.isbn)}</p></div><div class="edition-links">
       ${external(e.source, e.sourceLabel)}
       ${external("https://www.amazon.com.br/s?k=" + e.isbn, "Buscar na Amazon")}
       </div></li>`).join("")}</ul></section>
@@ -166,6 +202,9 @@ function render(moveFocus = true) {
     document.querySelector("#edition").addEventListener("change", event => {
       document.querySelector("#edition-result").innerHTML = locationCard(topic.refs[event.target.value]);
     });
+  } else if (kind === "livros" && topic) {
+    root.innerHTML = topicBooksPage(topic);
+    title = "Livros sobre " + topic.readingTitle;
   } else if (kind === "livro" && book) {
     root.innerHTML = bookPage(book);
     title = book.title;

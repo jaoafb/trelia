@@ -183,3 +183,8 @@ dialog::backdrop { background: #1e1329a6; }
   .search-box { padding-inline: .45rem; gap: .35rem; }
   .search-button { padding-inline: .55rem; }
 }
+.topic-reading-link { margin-top: .8rem; }
+.reading-editions { display: grid; gap: .65rem; list-style: none; margin: 0; padding: 0; }
+.reading-editions li { background: #f6f1fb; border-radius: .65rem; padding: .72rem .8rem; }
+.reading-editions .locator-result { padding: 0; margin: .15rem 0 0; border: 0; }
+.reading-editions .locator-result .eyebrow { margin: 0; letter-spacing: 0; font-weight: 500; }
