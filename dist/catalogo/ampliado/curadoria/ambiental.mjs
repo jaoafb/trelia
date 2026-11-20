@@ -1,4 +1,4 @@
-// Gerado por scripts/gerar_catalogo_ampliado.py.
+// GERADO por scripts/gerar_catalogo_ampliado.py — não edite à mão
 export default {
   "course": {
     "id": "ambiental",

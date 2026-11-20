@@ -1289,6 +1289,7 @@ main { overflow-x: clip; }
 .more-courses { margin-top: 1.5rem; }
 .more-courses summary { cursor: pointer; color: var(--lime); padding-block: .7rem; }
 .more-courses[open] summary { margin-bottom: .8rem; }
+.course-status { display: block; margin-top: .25rem; color: var(--muted); font-size: .8rem; font-weight: 400; }
 .search-status { margin-top: 1rem; color: var(--muted); }
 .catalog-course-heading h2 { font: 600 1.45rem/1.3 "Manrope", sans-serif; }
 .topic-shortcuts { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-bottom: 1rem; }
