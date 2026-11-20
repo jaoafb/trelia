@@ -16,8 +16,8 @@ function external(url, label, className = "text-link") {
 
 function search(value = "", heading = false) {
   return `<form id="search-form" class="search-form" role="search">
-    <label class="sr-only" for="search-input">Buscar matéria, livro ou dúvida</label>
-    <div class="search-box">${searchIcon}<input id="search-input" name="query" type="search" placeholder="Ex.: livros sobre dolo eventual" value="${h(value)}" required maxlength="160" autocomplete="off"></div>
+    <label class="sr-only" for="search-input">Buscar assunto, disciplina ou livro</label>
+    <div class="search-box">${searchIcon}<input id="search-input" name="query" type="search" placeholder="Ex.: dolo eventual" value="${h(value)}" required maxlength="160" autocomplete="off"></div>
     <button class="${heading ? "search-button" : "primary"}" type="submit">Buscar</button>
   </form>`;
 }
@@ -36,8 +36,8 @@ function bookCard(book) {
   </article>`;
 }
 
-function topicCard(topic) {
-  return `<a class="topic-card" href="#duvida/${topic.id}">
+function topicCard(topic, destination = "duvida") {
+  return `<a class="topic-card" href="#${destination}/${topic.id}">
     <span class="tile-icon topic-icon">${noteIcon}</span><span class="eyebrow">${h(topic.category)}</span>
     <h3>${h(topic.title)}</h3><p>${h(topic.intro)}</p>
   </a>`;
@@ -53,10 +53,10 @@ function home() {
   return `<section class="hero">
     <div class="hero-copy">
       <p class="hero-label"><span></span> Biblioteca de estudo</p>
-      <h1>O que você quer<br class="hero-break"> <em>estudar hoje?</em></h1>
-      <p>Escolha uma leitura para a disciplina ou encontre uma fonte para sua dúvida.</p>
+      <h1>Encontre livros<br class="hero-break"> <em>sobre um assunto.</em></h1>
+      <p>Busque um tema e veja quais obras o abordam e em que parte de cada edição ele aparece.</p>
       ${search("", true)}
-      <div class="examples"><span>Experimente</span><a href="#penal-i">Penal I</a><a href="#duvida/dolo-eventual">Dolo eventual</a><a href="#livros/dolo-eventual">Livros sobre dolo eventual</a></div>
+      <div class="examples"><span>Experimente</span><a href="#livros/dolo-eventual">Dolo eventual</a><a href="#livros/omissao-impropria">Omissão imprópria</a><a href="#penal-i">Penal I</a></div>
     </div>
     <div class="hero-art" aria-hidden="true">
       <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
@@ -67,11 +67,11 @@ function home() {
   </section>
   <section class="entry-grid" aria-label="Caminhos de estudo">
     <a class="entry-card" href="#penal-i"><span class="tile-icon area-icon">${bookIcon}</span><div><h2>Estudar uma área</h2><p>Compare leituras para acompanhar Direito Penal I.</p></div><span class="entry-action">Ver leituras</span></a>
-    <a class="entry-card" href="#duvidas"><span class="tile-icon question-icon">${searchIcon}</span><div><h2>Resolver uma dúvida</h2><p>Encontre a explicação e vá à fonte.</p></div><span class="entry-action">Ver guias</span></a>
+    <a class="entry-card" href="#duvidas"><span class="tile-icon question-icon">${searchIcon}</span><div><h2>Consultar um guia</h2><p>Leia uma explicação breve e consulte as fontes.</p></div><span class="entry-action">Ver guias</span></a>
   </section>
   <section class="section" aria-labelledby="topics-title">
-    <div class="section-head"><div><p class="eyebrow">Direito Penal I</p><h2 id="topics-title">Dúvidas de estudo</h2></div></div>
-    <div class="topics">${topics.map(topicCard).join("")}</div>
+    <div class="section-head"><div><p class="eyebrow">Direito Penal I</p><h2 id="topics-title">Leituras por assunto</h2></div></div>
+    <div class="topics">${topics.map(topic => topicCard(topic, "livros")).join("")}</div>
   </section>`;
 }
 
@@ -81,13 +81,13 @@ function coursePage() {
     <section class="section" aria-labelledby="livros-title"><div class="section-head"><h2 id="livros-title">Leituras por objetivo</h2></div>
       <div class="books">${books.map(bookCard).join("")}</div>
     </section>
-    <section class="section" aria-labelledby="guia-title"><div class="section-head"><h2 id="guia-title">Guias da disciplina</h2></div><div class="topics">${topics.map(topicCard).join("")}</div></section>`;
+    <section class="section" aria-labelledby="guia-title"><div class="section-head"><h2 id="guia-title">Guias da disciplina</h2></div><div class="topics">${topics.map(topic => topicCard(topic)).join("")}</div></section>`;
 }
 
 function topicList() {
   return `${crumbs("Guias de dúvidas")}
     <section class="page-hero"><p class="eyebrow">Direito Penal I</p><h1>Guias de dúvidas</h1><p>Escolha um tema para ver a explicação, consultar as fontes e localizar a leitura no livro.</p></section>
-    <section class="section" aria-label="Temas disponíveis"><div class="topics">${topics.map(topicCard).join("")}</div></section>`;
+    <section class="section" aria-label="Temas disponíveis"><div class="topics">${topics.map(topic => topicCard(topic)).join("")}</div></section>`;
 }
 
 function sourceCard(source) {
@@ -125,7 +125,7 @@ function topicPage(topic) {
         <p class="topic-reading-link"><a class="text-link" href="#livros/${topic.id}">Ver livros sobre este assunto</a></p>
       </aside>
     </div>
-    <section class="section more" aria-labelledby="mais-guias"><div class="section-head"><h2 id="mais-guias">Outras dúvidas de Penal I</h2></div><div class="topics">${topics.filter(item => item !== topic).map(topicCard).join("")}</div></section>`;
+    <section class="section more" aria-labelledby="mais-guias"><div class="section-head"><h2 id="mais-guias">Outras dúvidas de Penal I</h2></div><div class="topics">${topics.filter(item => item !== topic).map(topic => topicCard(topic)).join("")}</div></section>`;
 }
 
 function topicBooksPage(topic) {
@@ -166,7 +166,7 @@ function bookPage(book) {
       ${external(e.source, e.sourceLabel)}
       ${external("https://www.amazon.com.br/s?k=" + e.isbn, "Buscar na Amazon")}
       </div></li>`).join("")}</ul></section>
-    ${references.length ? `<section class="section" aria-labelledby="neste-livro"><div class="section-head"><h2 id="neste-livro">Guias que usam esta obra</h2></div><div class="topics">${references.map(topicCard).join("")}</div></section>` : ""}`;
+    ${references.length ? `<section class="section" aria-labelledby="neste-livro"><div class="section-head"><h2 id="neste-livro">Guias que usam esta obra</h2></div><div class="topics">${references.map(topic => topicCard(topic)).join("")}</div></section>` : ""}`;
 }
 
 function resultsPage(query) {

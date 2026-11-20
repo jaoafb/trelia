@@ -94,7 +94,7 @@ export function normalize(value) {
     .replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-const ignored = new Set(["a", "as", "o", "os", "um", "uma", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "para", "por", "qual", "quais", "que", "como", "sobre", "queria", "quero", "livro", "livros", "obra", "obras", "leitura", "leituras", "bibliografia", "indica", "recomende", "onde", "encontro"]);
+const ignored = new Set(["a", "as", "o", "os", "um", "uma", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "para", "por", "qual", "quais", "que", "como", "quando", "me", "explica", "explique", "entenda", "conceito", "guia", "sobre", "queria", "quero", "livro", "livros", "obra", "obras", "leitura", "leituras", "bibliografia", "indica", "recomende", "onde", "encontro"]);
 const entries = [
   { ...course, type: "Disciplina", route: "penal-i", note: "Escolha um livro para acompanhar a matéria." },
   ...topics.map(item => ({ ...item, type: "Guia de dúvida", route: "duvida/" + item.id, note: item.intro })),
@@ -107,6 +107,8 @@ export function findEntries(query) {
   if (!normalized) return [];
   const terms = normalized.split(" ").filter(term => !ignored.has(term));
   const requestsBooks = /\b(?:livros?|obras?|leituras?|bibliografia)\b/.test(normalized);
+  const requestsExplanation = /^(?:o que|qual|quais|como|quando|por que|me explica|explique|entenda|diferenca entre|conceito de|guia)\b/.test(normalized);
+  const showTopicBooks = requestsBooks || !requestsExplanation;
   return entries.map(item => {
     const keys = [item.title, ...item.aliases].map(normalize);
     const exact = keys.some(key => key === normalized || (/^\d{13}$/.test(compact) && key === compact));
@@ -114,7 +116,7 @@ export function findEntries(query) {
     const words = new Set(keys.flatMap(key => key.split(" ")));
     const overlap = terms.filter(term => words.has(term)).length;
     const score = exact ? 1000 : phrases.length ? 100 + Math.max(...phrases.map(k => k.length)) : terms.length > 0 && overlap === terms.length ? 20 + overlap : 0;
-    const entry = requestsBooks && item.type === "Guia de dúvida"
+    const entry = showTopicBooks && item.type === "Guia de dúvida"
       ? { ...item, route: "livros/" + item.id, type: "Livros por assunto",
           title: "Livros sobre " + item.readingTitle, note: "Veja as obras, edições e os trechos localizados." }
       : item;

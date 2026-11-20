@@ -2,8 +2,9 @@
 
 ## Produto
 
-O Caderno de Leitura ajuda estudantes a escolher o que ler e a localizar fontes para dúvidas concretas. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
+O Caderno de Leitura ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
 
+- **Encontrar livros por assunto.** Abra a seleção de livros ao buscar um tema. Para cada obra, mostre a edição, onde o tema aparece e por que a leitura ajuda. Ofereça o guia associado para quem quiser uma explicação breve.
 - **Estudar uma área.** Organize poucas obras por finalidade. Explique para quem serve cada indicação, o que cobre e onde pode ser consultada.
 - **Resolver uma dúvida.** Ofereça uma explicação breve, uma fonte para conferência e a localização na obra quando houver evidência para aquela edição.
 - **Encontrar o material.** Identifique o tipo de acesso confirmado, como texto aberto, prévia, acesso institucional ou compra. Ordene por pertinência ao estudo. Quando houver comissão, identifique o link e mantenha a ordenação editorial.

@@ -39,7 +39,7 @@ Resultados vazios, cliques e feedback podem ajudar a priorizar se forem coletado
 - **Entrega** — A menor alteração que resolve a situação.
 - **Aceite** — Dado um ponto de partida real, qual resultado aparece e como conferir.
 
-**Exemplo.** O estudante digitou “posição de garantidor”. O aceite é abrir o guia de omissão imprópria como primeiro resultado e conseguir consultar o art. 13, § 2º, a partir do guia.
+**Exemplo.** O estudante digitou “posição de garantidor”. O aceite é abrir as leituras sobre omissão imprópria como primeiro resultado e conseguir chegar ao guia e ao art. 13, § 2º, pela lista de livros.
 
 ## Primeiro ciclo sugerido
 
