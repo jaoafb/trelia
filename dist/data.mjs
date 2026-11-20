@@ -1,5 +1,6 @@
 const code = "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.pdf";
 const nucciContents = "https://sumarios.grupogen.com.br/jur/FOR/9786559642816_SUM.pdf";
+const nucci2018Contents = "https://bdjur.stj.jus.br/bitstreams/7aeacac9-e1d9-4988-8d76-dc2d56c2e091/download";
 const cunhaContents = "https://juspodivmdigital.com.br/cdn/pdf/JUS4997-Sumario.pdf";
 
 export const books = [
@@ -11,6 +12,7 @@ export const books = [
       { id: "nucci-22", year: 2026, name: "22ª edição", format: "Impresso", isbn: "9788530999223", source: "https://www.grupogen.com.br/livro-manual-de-direito-penal-volume-unico-22-edicao-2026-guilherme-nucci-editora-forense-9788530999223", sourceLabel: "Ver na editora" },
       { id: "nucci-22-epub", year: 2026, name: "22ª edição", format: "E-book", isbn: "9788530999230", source: "https://www.grupogen.com.br/e-book-manual-de-direito-penal-volume-unico-22-edicao-2026-guilherme-nucci-editora-forense-9788530999230", sourceLabel: "Ver na editora" },
       { id: "nucci-18", year: 2022, name: "18ª edição", format: "Impresso", isbn: "9786559642816", source: nucciContents, sourceLabel: "Ver sumário da edição" },
+      { id: "nucci-14", year: 2018, name: "14ª edição", format: "Impresso", isbn: "9788530977528", source: nucci2018Contents, sourceLabel: "Ver sumário no STJ" },
     ],
   },
   {
@@ -49,6 +51,7 @@ export const topics = [
       "nucci-22": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[0].source, action: "Ver sumário da editora" },
       "nucci-22-epub": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[1].source, action: "Ver sumário da editora" },
       "nucci-18": { where: "Páginas 167 e 174", detail: "Capítulo XIV, item 5 para o conceito e item 13 para a comparação com culpa consciente.", precision: "Páginas verificadas no sumário", url: nucciContents, action: "Ver sumário da edição" },
+      "nucci-14": { where: "Páginas 192 e 200", detail: "Capítulo XIV, item 5 para o conceito e item 13 para a comparação com culpa consciente.", precision: "Páginas verificadas no sumário", url: nucci2018Contents, action: "Ver sumário no STJ" },
       "cunha-2026": { where: "Página 327", detail: "O índice aponta uma pergunta sobre a diferença entre dolo eventual e culpa consciente.", precision: "Página verificada no sumário", url: cunhaContents + "#page=17", action: "Ver índice da editora" },
     },
   },

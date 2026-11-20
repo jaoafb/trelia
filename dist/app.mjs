@@ -149,11 +149,12 @@ function topicBooksPage(topic) {
           <summary><span class="when-closed">Ler resumo completo</span><span class="when-open">Fechar resumo</span>${chevronIcon}</summary>
           <p>${h(topic.answer)}</p>
           <p class="subtle">${h(topic.focus)}</p>
+          <button type="button" class="text-link reading-jump">Ir para os livros indicados</button>
           <a class="text-link" href="#duvida/${topic.id}">Ler a explicação e ver fontes abertas</a>
         </details>
       </aside>
       <section class="reading-books" aria-labelledby="topic-books-title">
-        <h2 id="topic-books-title">Livros indicados</h2>
+        <h2 id="topic-books-title" tabindex="-1">Livros indicados</h2>
         <div class="reading-cards">${matches.map(({ book, editions }) => `<article class="reading-book">
           <div class="reading-book-info">
             <h3><a href="#livro/${book.id}">${h(book.title)}</a></h3>
@@ -226,6 +227,11 @@ function render(moveFocus = true) {
   } else if (kind === "livros" && topic) {
     root.innerHTML = topicBooksPage(topic);
     title = "Livros sobre " + topic.readingTitle;
+    root.querySelector(".reading-jump").addEventListener("click", () => {
+      const booksHeading = root.querySelector("#topic-books-title");
+      booksHeading.focus({ preventScroll: true });
+      booksHeading.scrollIntoView();
+    });
   } else if (kind === "livro" && book) {
     root.innerHTML = bookPage(book);
     title = book.title;

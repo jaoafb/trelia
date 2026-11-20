@@ -200,6 +200,7 @@ dialog::backdrop { background: #1e1329a6; }
 .reading-explanation { margin-top: .35rem; }
 .reading-explanation summary { color: var(--plum); font-weight: 700; min-height: 2.75rem; }
 .reading-explanation a { display: block; margin-top: .75rem; }
+.reading-jump { display: none; }
 .reading-explanation .when-open, .reading-explanation[open] .when-closed { display: none; }
 .reading-explanation[open] .when-open { display: inline; }
 .reading-explanation[open] { padding-bottom: .45rem; }
@@ -235,6 +236,7 @@ details[open] > summary .disclosure-icon { transform: rotate(180deg); }
 }
 @media (max-width: 46rem) {
   .reading-layout { grid-template: "summary" "books" / minmax(0, 1fr); }
+  .reading-jump { display: block; margin-top: .75rem; padding: 0; border: 0; background: transparent; min-height: 2.75rem; text-align: left; }
   .reading-header { margin-block: .95rem 1.2rem; }
   .reading-header h1 { text-wrap: initial; }
   .reading-summary { padding: .85rem .95rem .45rem; }
