@@ -55,7 +55,7 @@ export const editorial = {
     },
   },
   "omissao-impropria": {
-    answer: "Na omissão própria, o tipo penal descreve a própria falta de ação, como deixar de prestar socorro nas condições do art. 135. Na omissão imprópria, a pessoa pode responder pelo resultado que deixou de impedir, desde que tivesse o dever jurídico de evitá-lo e pudesse agir, conforme o art. 13, § 2º.",
+    readingOrder: ["nucci", "bitencourt", "zaffaroni-pierangeli"],
     aliases: ["Qual a diferença entre omissão própria e imprópria?", "diferença entre omissão própria e imprópria", "crime omissivo"],
     sources: [{ title: "Código Penal · arts. 13 e 135", by: "Presidência da República", type: "Texto oficial", note: "Compare o dever de impedir o resultado com o tipo de omissão de socorro.", url: codigoPenal }],
     refs: {
@@ -66,7 +66,9 @@ export const editorial = {
       },
     },
     recommendations: {
-      "zaffaroni-pierangeli": { reason: "Use para aprofundar a estrutura dos tipos omissivos e a posição de garantidor." },
+      nucci: { reason: "Comece pelo item sobre nexo causal para comparar como a omissão própria e a imprópria se relacionam com o resultado." },
+      bitencourt: { reason: "Escolha o capítulo dedicado à omissão e suas formas para estudar o tema no contexto da teoria geral do delito." },
+      "zaffaroni-pierangeli": { reason: "Aprofunde a omissão imprópria se sua dúvida é de onde vem o dever de quem ocupa a posição de garantidor." },
     },
   },
 };

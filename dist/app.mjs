@@ -106,7 +106,8 @@ function readingCard(topic, book, first) {
   const recommendation = topic.recommendations[book.id];
   const edition = defaultReadingEdition(topic, book);
   const role = first ? "Comece por aqui" : { aprofundamento: "Aprofundamento", contexto: "Contexto" }[recommendation.role];
-  return `<article class="book-card">
+  const preview = first && topic.id === "omissao-impropria" && book.id === "nucci";
+  return `<article class="book-card${preview ? " book-card-preview" : ""}">
     ${cover(book)}
     <div class="book-details">
       <div class="book-intro">

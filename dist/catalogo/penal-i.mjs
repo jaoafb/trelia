@@ -56,11 +56,11 @@ export const topics = [
     },
   },
   {
-    id: "omissao-impropria", readingTitle: "omissão imprópria e dever de agir", title: "Omissão imprópria e dever de agir", category: "Conduta e resultado",
-    aliases: ["omissão imprópria", "crime omissivo impróprio", "crimes omissivos", "omissão própria", "dever de agir", "posição de garantidor", "garantidor", "salva-vidas", "artigo 13", "art 13"],
-    intro: "Em que circunstâncias a falta de ação pode levar à responsabilização pelo resultado?",
-    summary: "A omissão pode levar à responsabilização pelo resultado quando a pessoa devia e podia agir para evitá-lo.",
-    answer: "Na omissão imprópria, o ponto de partida é verificar se a pessoa devia e podia agir para evitar o resultado. O art. 13, § 2º, aponta três origens para esse dever: obrigação legal de cuidado, proteção ou vigilância, responsabilidade assumida de impedir o resultado, ou criação anterior do risco.",
+    id: "omissao-impropria", readingTitle: "omissão própria e imprópria", title: "Omissão própria e imprópria", category: "Conduta e resultado",
+    aliases: ["omissão imprópria", "omissão imprópria e dever de agir", "crime omissivo impróprio", "crimes omissivos", "omissão própria", "dever de agir", "posição de garantidor", "garantidor", "salva-vidas", "artigo 13", "art 13"],
+    intro: "O que distingue a omissão própria da imprópria?",
+    summary: "Na omissão própria, a lei descreve a falta de ação como crime. Na imprópria, a pessoa pode responder pelo resultado que devia e podia evitar.",
+    answer: "Na omissão própria, a lei descreve a falta de ação como crime, como deixar de prestar assistência nas situações do art. 135 do Código Penal. Na omissão imprópria, a pessoa pode responder pelo resultado que deixou de impedir quando tinha o dever jurídico e a possibilidade de agir para evitá-lo, conforme o art. 13, § 2º.",
     focus: "Ao ler um caso, identifique primeiro de onde viria o dever de agir. Depois, examine o que a pessoa podia fazer nas circunstâncias.",
     sources: [
       { title: "Código Penal · art. 13, § 2º", by: "Câmara dos Deputados", type: "Texto oficial", note: "Leia as alíneas a, b e c para localizar as fontes do dever de agir.", url: code + "#page=3" },
@@ -68,6 +68,7 @@ export const topics = [
     ],
     refs: {
       "nucci-18": { where: "Página 156", detail: "Capítulo XIII, item 5.3, sobre o nexo causal nos crimes omissivos próprios e impróprios.", precision: "Página verificada no sumário", url: nucciContents, action: "Ver sumário da edição" },
+      "9788530987664": { where: "Página 160", detail: "Capítulo XIII, item 5.3, sobre o nexo causal nos crimes omissivos próprios e impróprios.", precision: "Página verificada no sumário", url: "https://sumarios.grupogen.com.br/jur/FOR/9788530987664_SUM.pdf", action: "Ver sumário da edição" },
       "bitencourt-2026": { where: "Capítulo XV", detail: "A Omissão e Suas Formas.", precision: "Capítulo verificado", url: books[2].editions[0].source, action: "Ver sumário da editora" },
     },
   },

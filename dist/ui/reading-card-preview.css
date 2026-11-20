@@ -1,0 +1,74 @@
+.book-card-preview {
+  display: grid;
+  grid-template-columns: clamp(6.5rem, 13vw, 10rem) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(1rem, 3vw, 2rem);
+  padding: clamp(1rem, 3vw, 2rem);
+  border-radius: 1.1rem;
+  background: linear-gradient(135deg, rgb(201 242 103 / 4%), transparent 60%), var(--surface);
+}
+
+.book-card-preview > .trelia-cover {
+  box-shadow: .3rem .65rem 1.3rem rgb(0 0 0 / 24%);
+}
+
+.book-card-preview .book-intro h2 {
+  font-size: clamp(1.35rem, 2.6vw, 2.15rem);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+
+.book-card-preview .author { margin-top: .35rem; }
+
+.book-card-preview .reading-reason {
+  max-width: 60ch;
+  margin: .75rem 0 0;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.book-card-preview .reading-reference {
+  margin: 1rem 0 0;
+  padding: .9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: .75rem;
+  background: var(--bg);
+}
+
+.book-card-preview .reference-icon { display: none; }
+.book-card-preview .inline-reference > span { color: var(--lime); }
+.book-card-preview .inline-reference select { background: var(--surface-2); }
+
+.book-card-preview .inline-reference-result {
+  display: grid;
+  justify-items: start;
+  margin-top: .55rem;
+}
+
+.book-card-preview .inline-reference-result strong { margin-top: 0; }
+.book-card-preview .inline-reference-result p { margin-top: .15rem; }
+.book-card-preview .inline-reference-result .external-link {
+  margin: .25rem 0 0;
+  color: var(--lime);
+}
+
+@media (min-width: 850px) {
+  .book-card-preview .inline-reference {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 1rem;
+  }
+
+  .book-card-preview .inline-reference-result {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    margin-top: 0;
+    padding-inline-start: 1rem;
+    border-inline-start: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 600px) {
+  .book-card-preview { grid-template-columns: 4.5rem minmax(0, 1fr); }
+  .book-card-preview .reading-reference { margin-top: 0; }
+}

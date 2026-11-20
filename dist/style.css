@@ -1206,13 +1206,35 @@ main { overflow-x: clip; }
 .topic-shortcuts button { min-height: 2.75rem; }
 .topic-explanation {
   border: 1px solid var(--line);
-  border-left: 2px solid var(--lime);
-  background: var(--surface);
-  padding: clamp(1.2rem, 3vw, 2rem);
-  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgb(201 242 103 / 4%), transparent 65%), var(--surface);
+  padding: clamp(1rem, 2.6vw, 1.75rem);
+  margin-bottom: 1.25rem;
 }
-.topic-explanation h2 { font: 600 clamp(1.4rem, 3vw, 1.9rem)/1.2 "Manrope", sans-serif; }
-.topic-explanation p { max-width: 74ch; margin-top: .75rem; color: var(--text); }
+
+.topic-explanation h2 {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  font: 700 .875rem/1.25 "Manrope", sans-serif;
+}
+
+.topic-explanation h2::before {
+  content: "";
+  flex: 0 0 .42rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--lime);
+}
+
+.topic-explanation p {
+  max-width: 72ch;
+  margin-top: .65rem;
+  color: var(--text);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
 .topic-explanation ul { list-style: none; display: flex; flex-wrap: wrap; gap: .75rem 1rem; margin-top: 1rem; }
 .topic-explanation .external-link { margin-top: 0; }
 .topic-explanation li { min-width: 0; max-width: 100%; }
@@ -1272,10 +1294,39 @@ main { overflow-x: clip; }
 .topic-results .results-heading h1 { font-size: clamp(1.75rem, 5vw, 2.75rem); margin-top: .35rem; }
 .topic-results .results-heading > p:last-child { margin-top: .5rem; }
 .topic-results .topic-shortcuts { margin-bottom: .5rem; }
-.topic-results .topic-explanation { padding: .85rem 1rem; margin-bottom: 1rem; }
-.topic-results .topic-explanation h2 { font-size: 1rem; }
-.topic-results .topic-explanation p { margin-top: .4rem; }
 .topic-results #topic-books-title > .book-card:first-child { margin-top: 0; }
 .reading-role { display: inline-block; margin-bottom: .65rem; color: var(--lime); }
-.explanation-sources { margin-top: .5rem; color: var(--muted); font-size: .875rem; }
-.explanation-sources summary { width: fit-content; padding: .25rem 0; cursor: pointer; }
+.explanation-sources { margin-top: .85rem; color: var(--muted); font-size: .875rem; }
+
+.topic-explanation .explanation-sources > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  min-height: 2.75rem;
+  padding: .4rem .8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg);
+  list-style: none;
+  cursor: pointer;
+}
+
+.topic-explanation .explanation-sources > summary::-webkit-details-marker { display: none; }
+.topic-explanation .explanation-sources > summary:hover { color: var(--text); border-color: var(--lime-dark); }
+
+.topic-explanation .explanation-sources > summary::before {
+  content: none;
+}
+
+.topic-explanation .explanation-sources > summary::after {
+  content: "";
+  width: .4rem;
+  aspect-ratio: 1;
+  border: solid var(--lime);
+  border-width: 0 1.5px 1.5px 0;
+  transform: translateY(-.1rem) rotate(45deg);
+}
+
+.topic-explanation .explanation-sources[open] > summary::after {
+  transform: translateY(.1rem) rotate(225deg);
+}
