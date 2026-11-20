@@ -1,0 +1,114 @@
+const code = "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.pdf";
+const nucciContents = "https://sumarios.grupogen.com.br/jur/FOR/9786559642816_SUM.pdf";
+
+export const books = [
+  {
+    id: "nucci", author: "Guilherme de Souza Nucci", short: "Nucci", title: "Manual de Direito Penal",
+    cover: "violet", label: "Manual para a disciplina",
+    reason: "Use como livro de referência para acompanhar a teoria do crime e voltar aos temas à medida que aparecem nas aulas.",
+    editions: [
+      { id: "nucci-22", year: 2026, name: "22ª edição", format: "Impresso", isbn: "9788530999223", source: "https://www.grupogen.com.br/livro-manual-de-direito-penal-volume-unico-22-edicao-2026-guilherme-nucci-editora-forense-9788530999223", sourceLabel: "Ver na editora" },
+      { id: "nucci-22-epub", year: 2026, name: "22ª edição", format: "E-book", isbn: "9788530999230", source: "https://www.grupogen.com.br/e-book-manual-de-direito-penal-volume-unico-22-edicao-2026-guilherme-nucci-editora-forense-9788530999230", sourceLabel: "Ver na editora" },
+      { id: "nucci-18", year: 2022, name: "18ª edição", format: "Impresso", isbn: "9786559642816", source: nucciContents, sourceLabel: "Ver sumário da edição" },
+    ],
+  },
+  {
+    id: "cunha", author: "Rogério Sanches Cunha", short: "Cunha", title: "Manual de Direito Penal – Parte Geral",
+    cover: "sage", label: "Foco na Parte Geral",
+    reason: "Escolha esta edição se você quer um manual dedicado à Parte Geral. Consulte o sumário para comparar a organização dos temas com a da sua disciplina.",
+    editions: [{ id: "cunha-2026", year: 2026, name: "Edição de 2026", format: "Impresso", isbn: "9788544269954", source: "https://www.editorajuspodivm.com.br/manual-de-direito-penal-volume-unico-parte-geral-2026-cunha", sourceLabel: "Ver na editora" }],
+  },
+  {
+    id: "bitencourt", author: "Cezar Roberto Bitencourt", short: "Bitencourt", title: "Tratado de Direito Penal – Parte Geral, vol. 1",
+    cover: "gold", label: "Aprofundamento",
+    reason: "Consulte para desenvolver uma pesquisa doutrinária ou comparar o tratamento de um tema com o seu manual de referência.",
+    editions: [{ id: "bitencourt-2026", year: 2026, name: "32ª edição", format: "Impresso", isbn: "9786551771194", source: "https://www.grupogen.com.br/livro-tratado-de-direito-penal-parte-geral-vol-1-32-edicao-2026-cezar-roberto-bitencourt-saraiva-jur-9786551771194", sourceLabel: "Ver na editora" }],
+  },
+  {
+    id: "rodriguez", author: "Víctor Gabriel Rodríguez", short: "Rodríguez", title: "Laboratório de Direito Penal",
+    cover: "rose", label: "Prática com casos",
+    reason: "Use depois da leitura teórica para aplicar os conceitos a casos criados para simulações de julgamento. A ficha editorial descreve dez casos da Parte Geral.",
+    editions: [{ id: "rodriguez-book", year: null, name: "Edição impressa", format: "Impresso", isbn: "9788563182401", source: "https://www.bookinfometadados.com.br/books/view/9788563182401", sourceLabel: "Ver ficha editorial" }],
+  },
+];
+
+export const topics = [
+  {
+    id: "dolo-eventual", title: "Dolo eventual e culpa consciente", category: "Teoria do crime",
+    aliases: ["dolo eventual", "culpa consciente", "dolo indireto", "diferença entre dolo e culpa", "dolo e culpa", "assumir o risco", "previsão do resultado", "artigo 18", "art 18"],
+    intro: "As duas hipóteses podem envolver a previsão do resultado. A distinção está na atitude diante dessa possibilidade.",
+    answer: "No dolo eventual, a pessoa prevê o resultado e assume o risco de produzi-lo. Na culpa consciente, prevê o resultado, mas confia que conseguirá evitá-lo ou que ele não ocorrerá. Ao ler um caso, procure os fatos que sustentam essa diferença. Prever o resultado, por si só, não resolve a classificação.",
+    focus: "Comece pela distinção do art. 18 entre crime doloso e culposo. A comparação com a culpa consciente é desenvolvida pela doutrina.",
+    sources: [
+      { title: "Dolo eventual e culpa consciente", by: "Conversando com o Nucci · GEN Jurídico", type: "Áudio aberto", note: "Uma introdução à distinção com o próprio autor.", url: "https://blog.grupogen.com.br/juridico/areas-de-interesse/penal/dolo-eventual-e-culpa-consciente/" },
+      { title: "Código Penal · art. 18", by: "Câmara dos Deputados", type: "Texto oficial", note: "Compare os incisos I e II.", url: code + "#page=4" },
+    ],
+    refs: {
+      "nucci-22": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[0].source, action: "Ver sumário da editora" },
+      "nucci-22-epub": { where: "Capítulo XIV", detail: "Elementos Subjetivos do Crime: Dolo e Culpa", precision: "Capítulo verificado", url: books[0].editions[1].source, action: "Ver sumário da editora" },
+      "nucci-18": { where: "Páginas 167 e 174", detail: "Capítulo XIV, item 5 para o conceito e item 13 para a comparação com culpa consciente.", precision: "Páginas verificadas no sumário", url: nucciContents, action: "Ver sumário da edição" },
+    },
+  },
+  {
+    id: "omissao-impropria", title: "Omissão imprópria e dever de agir", category: "Conduta e resultado",
+    aliases: ["omissão imprópria", "crime omissivo impróprio", "crimes omissivos", "omissão própria", "dever de agir", "posição de garantidor", "garantidor", "salva-vidas", "artigo 13", "art 13"],
+    intro: "Em que circunstâncias a falta de ação pode levar à responsabilização pelo resultado?",
+    answer: "Na omissão imprópria, o ponto de partida é verificar se a pessoa devia e podia agir para evitar o resultado. O art. 13, § 2º, aponta três origens para esse dever: obrigação legal de cuidado, proteção ou vigilância, responsabilidade assumida de impedir o resultado, ou criação anterior do risco.",
+    focus: "Ao ler um caso, identifique primeiro de onde viria o dever de agir. Depois, examine o que a pessoa podia fazer nas circunstâncias.",
+    sources: [
+      { title: "Código Penal · art. 13, § 2º", by: "Câmara dos Deputados", type: "Texto oficial", note: "Leia as alíneas a, b e c para localizar as fontes do dever de agir.", url: code + "#page=3" },
+      { title: "Omissão imprópria no Informativo 681", by: "Superior Tribunal de Justiça", type: "Jurisprudência", note: "Busque por “conduta omissiva imprópria” para ler um caso sobre a posição de garantidor.", url: "https://scon.stj.jus.br/docs_internet/informativos/PDF/Inf0681.pdf" },
+    ],
+    refs: {
+      "nucci-18": { where: "Página 156", detail: "Capítulo XIII, item 5.3, sobre o nexo causal nos crimes omissivos próprios e impróprios.", precision: "Página verificada no sumário", url: nucciContents, action: "Ver sumário da edição" },
+    },
+  },
+  {
+    id: "tentativa", title: "Tentativa e desistência voluntária", category: "Iter criminis",
+    aliases: ["tentativa", "crime tentado", "desistência voluntária", "iter criminis", "circunstâncias alheias", "artigo 14", "artigo 15", "art 14", "art 15"],
+    intro: "O que muda quando a execução é interrompida pela própria pessoa ou por uma circunstância externa?",
+    answer: "Na tentativa, a execução começa e a consumação deixa de ocorrer por circunstâncias alheias à vontade da pessoa. Na desistência voluntária, a própria pessoa decide interromper a execução quando ainda podia prosseguir. Nessa hipótese, o art. 15 prevê que ela responde pelos atos já praticados.",
+    focus: "Leia os arts. 14, II, e 15 juntos. No enunciado, procure o fato que interrompeu a execução.",
+    sources: [
+      { title: "Código Penal · arts. 14 e 15", by: "Câmara dos Deputados", type: "Texto oficial", note: "Comece pelo inciso II do art. 14 e continue até o art. 15.", url: code + "#page=4" },
+    ],
+    refs: {
+      "nucci-22": { where: "Capítulo XVIII", detail: "Crime Consumado e Tentativa", precision: "Capítulo verificado", url: books[0].editions[0].source, action: "Ver sumário da editora" },
+      "nucci-22-epub": { where: "Capítulo XVIII", detail: "Crime Consumado e Tentativa", precision: "Capítulo verificado", url: books[0].editions[1].source, action: "Ver sumário da editora" },
+      "nucci-18": { where: "Páginas 249 e 262", detail: "Capítulo XVIII, item 2 para tentativa e item 3 para desistência voluntária e arrependimento eficaz.", precision: "Páginas verificadas no sumário", url: nucciContents, action: "Ver sumário da edição" },
+    },
+  },
+];
+
+export const course = {
+  id: "penal-i", title: "Direito Penal I",
+  aliases: ["penal 1", "penal i", "direito penal", "primeiro semestre penal", "livro de direito penal", "manual de penal", "teoria geral do crime", "parte geral", "dpu0206"],
+};
+
+export function normalize(value) {
+  return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+const ignored = new Set(["a", "as", "o", "os", "um", "uma", "de", "do", "da", "dos", "das", "e", "em", "no", "na", "para", "por", "qual", "quais", "que", "como", "sobre", "queria", "quero", "livro", "livros", "onde", "encontro"]);
+const entries = [
+  { ...course, type: "Disciplina", route: "penal-i", note: "Escolha um livro para acompanhar a matéria." },
+  ...topics.map(item => ({ ...item, type: "Guia de dúvida", route: "duvida/" + item.id, note: item.intro })),
+  ...books.map(item => ({ ...item, type: "Livro", route: "livro/" + item.id, aliases: [item.author, item.short, ...item.editions.map(e => e.isbn)], note: item.author })),
+];
+
+export function findEntries(query) {
+  const normalized = normalize(query);
+  const compact = normalized.replace(/ /g, "");
+  if (!normalized) return [];
+  const terms = normalized.split(" ").filter(term => !ignored.has(term));
+  return entries.map(item => {
+    const keys = [item.title, ...item.aliases].map(normalize);
+    const exact = keys.some(key => key === normalized || (/^\d{13}$/.test(compact) && key === compact));
+    const phrases = keys.filter(key => key.includes(" ") && (" " + normalized + " ").includes(" " + key + " "));
+    const words = new Set(keys.flatMap(key => key.split(" ")));
+    const overlap = terms.filter(term => words.has(term)).length;
+    const score = exact ? 1000 : phrases.length ? 100 + Math.max(...phrases.map(k => k.length)) : terms.length > 0 && overlap === terms.length ? 20 + overlap : 0;
+    return { item, score };
+  }).filter(hit => hit.score > 0).sort((a,b) => b.score - a.score).map(hit => hit.item);
+}
