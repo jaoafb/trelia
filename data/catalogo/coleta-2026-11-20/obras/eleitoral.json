@@ -1,0 +1,519 @@
+[
+  {
+    "id": "rvbi-2f62dd903a569c4a169b",
+    "titulo": "Codigo eleitoral",
+    "autores": [
+      "Citadini, Antonio Roque"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d3611a-c52f-51dd-82d6-cfba7aa476bc",
+        "data_registro_rvbi": "2026-07-29T06:23:25Z",
+        "titulo": "Codigo eleitoral",
+        "subtitulo": "anotado e comentado",
+        "autores": [
+          "Citadini, Antonio Roque"
+        ],
+        "edicao": "3. ed. atual",
+        "volume": null,
+        "ano": 1986,
+        "editoras": [
+          "M. Limonad"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Legislação eleitoral Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-40f0d0371e771a0d9c58",
+    "titulo": "Comentários as eleições 1992",
+    "autores": [
+      "Rollo, Alberto"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/035d2176-ffae-5ef1-967c-32ca60bf348e",
+        "data_registro_rvbi": "2026-07-30T11:12:53Z",
+        "titulo": "Comentários as eleições 1992",
+        "subtitulo": "comentários a lei n. 8.214/91, Impugnação de Mandato Eletivo, Inelegibilidades",
+        "autores": [
+          "Rollo, Alberto"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1992,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502010864"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito eleitoral jurisprudência Brasil",
+          "Legislação eleitoral Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-65f0c09795610951ec41",
+    "titulo": "Direito eleitoral",
+    "autores": [
+      "Ramayana, Marcos"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0255f2a0-0cfb-5373-82fd-f6948d7639a9",
+        "data_registro_rvbi": "2026-07-29T16:15:25Z",
+        "titulo": "Direito eleitoral",
+        "subtitulo": null,
+        "autores": [
+          "Ramayana, Marcos"
+        ],
+        "edicao": "4. ed., rev. e atual. até a ec nº 46/2005",
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Impetus"
+        ],
+        "isbns": [
+          "9788576261223"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação de impugnação de mandato eletivo Brasil",
+          "Ação de impugnação de registro de candidatura Brasil",
+          "Alistamento eleitoral Brasil",
+          "Crime eleitoral Brasil",
+          "Direito eleitoral história Brasil",
+          "Direitos políticos Brasil",
+          "Justiça eleitoral Brasil",
+          "Processo eleitoral Brasil",
+          "Propaganda eleitoral Brasil",
+          "Recurso (direito eleitoral) Brasil",
+          "Sistema eleitoral Brasil",
+          "Votação Brasil",
+          "Direito eleitoral Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-09-30;9504",
+            "rótulo_original": "LEI-009504 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a1abfe58d92076084abe",
+    "titulo": "Direito eleitoral brasileiro",
+    "autores": [
+      "Cândido, Joel José"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/032557e6-ac5e-5fc0-b2b8-bb23f403c14e",
+        "data_registro_rvbi": "2026-08-04T16:28:28Z",
+        "titulo": "Direito eleitoral brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Cândido, Joel José"
+        ],
+        "edicao": "14. ed. rev., atual. e ampl",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Edipro"
+        ],
+        "isbns": [
+          "9788572836760"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Legislação eleitoral Brasil",
+          "Direito eleitoral Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/outubro/880764/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1965-07-15;4737",
+            "rótulo_original": "LEI-004737 (1965)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-09-30;9504",
+            "rótulo_original": "LEI-009504 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-fade465b375493d7f4d2",
+    "titulo": "Direito eleitoral internacional e comunitário",
+    "autores": [
+      "Born, Rogério Carlos"
+    ],
+    "areas": [
+      "Eleitoral",
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0002b082-7afe-5526-a771-518d1f40fbd7",
+        "data_registro_rvbi": "2026-08-04T16:17:35Z",
+        "titulo": "Direito eleitoral internacional e comunitário",
+        "subtitulo": null,
+        "autores": [
+          "Born, Rogério Carlos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536220727"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito comunitário",
+          "Direito eleitoral Brasil",
+          "Direito eleitoral Portugal",
+          "Direitos políticos",
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2009/marco/825720/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4219bb6b4562bfe620d3",
+    "titulo": "Eleições 2006",
+    "autores": [],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02880781-f0c5-5087-89d0-691b7eab7933",
+        "data_registro_rvbi": "2026-08-02T18:05:25Z",
+        "titulo": "Eleições 2006",
+        "subtitulo": "instruções do TSE",
+        "autores": [],
+        "edicao": "4. ed",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Tribunal Superior Eleitoral, Secretaria de gestão da informação"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito eleitoral legislação Brasil",
+          "Legislação eleitoral Brasil",
+          "Eleição Brasil 2006"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-09-30;9504",
+            "rótulo_original": "LEI-009504 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e86a600d4e35ab73b137",
+    "titulo": "Entenda o direito",
+    "autores": [
+      "Danelon, Thaméa"
+    ],
+    "areas": [
+      "Eleitoral",
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/012c36de-39c4-47f4-9f25-8a0fe60a2863",
+        "data_registro_rvbi": "2026-08-14T22:28:06Z",
+        "titulo": "Entenda o direito",
+        "subtitulo": "pílulas jurídicas para o cidadão comum",
+        "autores": [
+          "Danelon, Thaméa"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "E.D.A"
+        ],
+        "isbns": [
+          "9786584784055"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Eleitoral",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito estudo de caso Brasil",
+          "Processo penal doutrinas e controvérsias Brasil",
+          "Processo eleitoral doutrinas e controvérsias Brasil",
+          "Julgamento (processo penal) Brasil",
+          "Investigação criminal Brasil",
+          "Corrupção Brasil",
+          "Princípio da segurança jurídica Brasil",
+          "Comissão parlamentar de inquérito (CPI) natureza jurídica Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/handle/2011/214792",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c6950b2cf54bf8680319",
+    "titulo": "Instituições de direito eleitoral",
+    "autores": [
+      "Costa, Adriano Soares da"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/019ecc44-508f-5923-b3c8-e8af0cc7ad58",
+        "data_registro_rvbi": "2026-08-01T10:34:15Z",
+        "titulo": "Instituições de direito eleitoral",
+        "subtitulo": "teoria da inelegibilidade, direito processual eleitoral, comentários à Lei eleitoral",
+        "autores": [
+          "Costa, Adriano Soares da"
+        ],
+        "edicao": "4. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2000,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788573084030"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito eleitoral Brasil",
+          "Inelegibilidade Brasil",
+          "Justiça eleitoral Brasil",
+          "Recurso (direito eleitoral) Brasil",
+          "Elegibilidade Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-09-30;9504",
+            "rótulo_original": "LEI-009504 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "zilio-eleitoral",
+    "titulo": "Manual de Direito Eleitoral",
+    "autores": [
+      "Rodrigo López Zilio"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Eleitoral",
+        "obra_id": "zilio-eleitoral",
+        "titulo": "Manual de Direito Eleitoral",
+        "autoria": "Rodrigo López Zilio",
+        "ano": "2026",
+        "numero_edicao": "12",
+        "volume": "Único",
+        "formato": "Impresso",
+        "isbn13": "9788544273098",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio",
+        "funcao_editorial": "Referência para o estudo das eleições",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-eaaf2479998604d9b022",
+    "titulo": "Reforma política",
+    "autores": [
+      "organizador: Erick Wilson Pereira ; prefácio: Claudio Pacheco Prates Lamachia ; apresentação: Luiz Fux"
+    ],
+    "areas": [
+      "Eleitoral"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029c1d5b-4978-5fb5-834a-23cda3d6eaa7",
+        "data_registro_rvbi": "2026-08-04T11:28:06Z",
+        "titulo": "Reforma política",
+        "subtitulo": "Brasil república : em homenagem ao ministro Celso de Mello",
+        "autores": [
+          "organizador: Erick Wilson Pereira ; prefácio: Claudio Pacheco Prates Lamachia ; apresentação: Luiz Fux"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Conselho Federal",
+          "OAB"
+        ],
+        "isbns": [
+          "9788579660702"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Eleitoral",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Cidadania Brasil",
+          "Democracia Brasil",
+          "Direito eleitoral Brasil",
+          "Mandato eletivo Brasil",
+          "Participação política Brasil",
+          "Participação popular Brasil",
+          "Partido político história Brasil",
+          "Pluripartidarismo Brasil",
+          "Propaganda eleitoral Brasil",
+          "Reforma eleitoral Brasil",
+          "Reforma política Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2018/julho/1114007/SUMARIO.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/130603",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

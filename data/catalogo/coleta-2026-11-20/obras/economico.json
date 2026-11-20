@@ -1,0 +1,978 @@
+[
+  {
+    "id": "rvbi-76fe14e66c14760ce13e",
+    "titulo": "A liberdade econômica",
+    "autores": [
+      "Thamay, Rennan Faria Krüger"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/030d3dfd-62ea-55dd-b71f-ba3662fe5570",
+        "data_registro_rvbi": "2026-07-29T09:32:47Z",
+        "titulo": "A liberdade econômica",
+        "subtitulo": "uma análise material e processual da Lei nº 13.874/2019",
+        "autores": [
+          "Thamay, Rennan Faria Krüger"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9786550652883"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito da concorrência Brasil",
+          "Estabilização econômica Brasil",
+          "Liberdade de comércio legislação Brasil",
+          "Livre iniciativa Brasil",
+          "Ordem econômica Brasil",
+          "Princípio da segurança jurídica Brasil",
+          "Liberdade de comércio doutrinas e controvérsias Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://next-proview.thomsonreuters.com/launchapp/title/rt/monografias/239352291",
+            "rótulo_original": "Acesso somente para usuários da biblioteca do Tribunal de Justiça do Distrito Federal e dos Territórios Acesso em: 19 abr. 2024"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://proview.thomsonreuters.com",
+            "rótulo_original": "Versão eletrônica restrita a usuários do Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2020/outubro/1171072/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/148439",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-09-20;13874",
+            "rótulo_original": "LEI-013874 (2019)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-249b28cf43cc962cb61f",
+    "titulo": "A Ordem econômica na constituição de 1988",
+    "autores": [
+      "Grau, Eros Roberto"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02452b3e-2e45-5ea3-97c4-522dbd3d89ce",
+        "data_registro_rvbi": "2026-08-04T00:33:27Z",
+        "titulo": "A Ordem econômica na constituição de 1988",
+        "subtitulo": "interpretação e crítica",
+        "autores": [
+          "Grau, Eros Roberto"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 1997,
+        "editoras": [
+          "Malheiros"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-44efc1f46d3255cb88ac",
+    "titulo": "Abusos do poder econômico",
+    "autores": [
+      "Shieber, Benjamin M"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/016e3429-9200-58f1-93f5-1a3a07d86a04",
+        "data_registro_rvbi": "2026-07-31T09:50:59Z",
+        "titulo": "Abusos do poder econômico",
+        "subtitulo": "direito e experiência antitruste no Brasil e nos E.U.A",
+        "autores": [
+          "Shieber, Benjamin M"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1966,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Abuso do poder econômico aspectos constitucionais Brasil",
+          "Política antitruste direito comparado Brasil Estados Unidos",
+          "Direito da concorrência direito comparado Brasil Estados Unidos"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-dcd368715651a8d49543",
+    "titulo": "Comentários a Lei antitruste",
+    "autores": [
+      "Cretella Júnior, José"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01db2aff-a143-5c03-b07d-90e6966531eb",
+        "data_registro_rvbi": "2026-07-29T20:17:53Z",
+        "titulo": "Comentários a Lei antitruste",
+        "subtitulo": "Lei n. 8.884, de 11.06.1994",
+        "autores": [
+          "Cretella Júnior, José"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 1996,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530903176"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Abuso do poder econômico legislação Brasil",
+          "Crime econômico Brasil",
+          "Direito econômico Brasil",
+          "Ministério público federal",
+          "Monopólio legislação Brasil",
+          "Truste legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1987-01-16;93941",
+            "rótulo_original": "DEC-093941 (1987)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1995-08-23;1602",
+            "rótulo_original": "DEC-001602 (1995)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1962-09-10;4137",
+            "rótulo_original": "LEI-004137 (1962)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1976-12-15;6404",
+            "rótulo_original": "LEI-006404 (1976)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1985-07-24;7347",
+            "rótulo_original": "LEI-007347 (1985)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-03-14;8002",
+            "rótulo_original": "LEI-008002 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-09-11;8078",
+            "rótulo_original": "LEI-008078 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-27;8137",
+            "rótulo_original": "LEI-008137 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-01-08;8158",
+            "rótulo_original": "LEI-008158 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1992-06-02;8429",
+            "rótulo_original": "LEI-008429 (1992)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-05-27;8880",
+            "rótulo_original": "LEI-008880 (1994)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-06-11;8884",
+            "rótulo_original": "LEI-008884 (1994)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1993-05-20;75",
+            "rótulo_original": "LCP-000075 (1993)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-75c7bd9741ca92031f2e",
+    "titulo": "Constituição econômica, direito econômico e direito comparado",
+    "autores": [
+      "Giovani Clark, Ricardo A. L. Camargo (organizadores)"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d7a9fa-f263-5afb-9019-79baa54f5f7c",
+        "data_registro_rvbi": "2026-07-31T16:06:47Z",
+        "titulo": "Constituição econômica, direito econômico e direito comparado",
+        "subtitulo": "estudos em homenagem ao professor Washington Peluso Albino de Souza pelo centenário de seu nascimento",
+        "autores": [
+          "Giovani Clark, Ricardo A. L. Camargo (organizadores)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Sergio Antonio Fabris Editor"
+        ],
+        "isbns": [
+          "9788575256794"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito econômico direito comparado",
+          "Política econômica aspectos constitucionais Brasil",
+          "Direito econômico Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2019/janeiro/1134921/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9bf9b02b07e7920e79e9",
+    "titulo": "Contribuições",
+    "autores": [
+      "Marcelo Magalhães Peixoto, Leonardo Ogassawara de Araújo Branco, Michell Przepiorka (coordenadores) ; Abhner Youssif Mota Arabi [e outros]"
+    ],
+    "areas": [
+      "Econômico",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0317bee5-27b5-5f49-9287-bad62b051ebe",
+        "data_registro_rvbi": "2026-08-02T16:29:08Z",
+        "titulo": "Contribuições",
+        "subtitulo": "evolução jurisprudencial no CARF, STJ e STF",
+        "autores": [
+          "Marcelo Magalhães Peixoto, Leonardo Ogassawara de Araújo Branco, Michell Przepiorka (coordenadores) ; Abhner Youssif Mota Arabi [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "MP Editora"
+        ],
+        "isbns": [
+          "9788578980818"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contribuição especial aspectos constitucionais Brasil",
+          "Contribuição social Brasil",
+          "Correção monetária Brasil",
+          "Imunidade tributária Brasil",
+          "Intervenção do Estado na economia Brasil",
+          "Isenção tributária Brasil",
+          "Receita tributária Brasil",
+          "Substituição tributária Brasil",
+          "Direito tributário Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2023/março/1231561/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e911e97c5abdfd12d7ac",
+    "titulo": "Curso de economia",
+    "autores": [
+      "Nusdeo, Fábio"
+    ],
+    "areas": [
+      "Econômico",
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0175cc79-dbd7-537f-a278-86d8c76d4e35",
+        "data_registro_rvbi": "2026-08-01T09:34:19Z",
+        "titulo": "Curso de economia",
+        "subtitulo": "introdução ao direito econômico",
+        "autores": [
+          "Nusdeo, Fábio"
+        ],
+        "edicao": "9. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520359105"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          },
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Desenvolvimento econômico",
+          "Economia de mercado",
+          "Economia internacional",
+          "Finanças públicas",
+          "Macroeconomia",
+          "Microeconomia",
+          "Direito econômico"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://proview.thomsonreuters.com",
+            "rótulo_original": "Versão eletrônica restrita ao Centro de Documentação e Informação da Câmara dos Deputados"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/90374",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1742ac88886ae6371206",
+    "titulo": "Direito antitruste",
+    "autores": [
+      "Gaban, Eduardo Molan"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010a7afa-384e-5ed8-852c-f3ef35f04516",
+        "data_registro_rvbi": "2026-08-04T16:11:36Z",
+        "titulo": "Direito antitruste",
+        "subtitulo": "o combate aos cartéis",
+        "autores": [
+          "Gaban, Eduardo Molan"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502073272"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Cartel",
+          "Direito da concorrência Brasil",
+          "Ordem econômica Brasil",
+          "Política antitruste Estados Unidos",
+          "Direito da concorrência"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/47766",
+            "rótulo_original": "Sumário na BDjur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-06-11;8884",
+            "rótulo_original": "LEI-008884 (1994)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-88c97eaab1cda2bc3569",
+    "titulo": "Direito antitruste brasileiro",
+    "autores": [
+      "Coelho, Fábio Ulhoa"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02d70513-972b-5a0b-bb1a-5da507b89557",
+        "data_registro_rvbi": "2026-07-30T22:16:49Z",
+        "titulo": "Direito antitruste brasileiro",
+        "subtitulo": "comentários a lei n. 8.884/94",
+        "autores": [
+          "Coelho, Fábio Ulhoa"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1995,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502015708"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Truste legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-06-11;8884",
+            "rótulo_original": "LEI-008884 (1994)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-92adef408048ea234d11",
+    "titulo": "Direito de defesa da concorrência",
+    "autores": [
+      "Cunha, Ricardo Thomazinho da"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0183c3be-a2c4-5c94-9a33-9e2ec89b160d",
+        "data_registro_rvbi": "2026-08-04T09:33:52Z",
+        "titulo": "Direito de defesa da concorrência",
+        "subtitulo": "Mercosul e União Européia",
+        "autores": [
+          "Cunha, Ricardo Thomazinho da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Manole"
+        ],
+        "isbns": [
+          "9788520417188"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Concorrência internacional",
+          "Direito da concorrência",
+          "Integração econômica Países do Mercosul",
+          "Ordem econômica",
+          "Direito da concorrência comparado Países do Mercosul Países da União Europeia"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4b54d6abcb2a2e4f3ac8",
+    "titulo": "Direito econômico",
+    "autores": [
+      "Petter, Lafayete Josué"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/015d6575-ea4f-5e5f-a1fb-3c47da11afce",
+        "data_registro_rvbi": "2026-07-30T22:01:51Z",
+        "titulo": "Direito econômico",
+        "subtitulo": null,
+        "autores": [
+          "Petter, Lafayete Josué"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Verbo Jurídico"
+        ],
+        "isbns": [
+          "9788576990819"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito da concorrência Brasil",
+          "Integração econômica Países do Mercosul",
+          "Intervenção do Estado na economia Brasil",
+          "Ordem econômica aspectos constitucionais Brasil",
+          "Política antitruste Brasil",
+          "Direito econômico"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-06-11;8884",
+            "rótulo_original": "LEI-008884 (1994)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c2d31acf5f8e27dcef8e",
+    "titulo": "Direito econômico",
+    "autores": [
+      "Mario Gomes Schapiro, coordenador ; Alessandro V. M. Oliveira [e outros]"
+    ],
+    "areas": [
+      "Econômico",
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/013e5c39-d1f9-53a0-8c9c-211ee64f521b",
+        "data_registro_rvbi": "2026-07-30T11:19:25Z",
+        "titulo": "Direito econômico",
+        "subtitulo": "direito e economia na regulação setorial",
+        "autores": [
+          "Mario Gomes Schapiro, coordenador ; Alessandro V. M. Oliveira [e outros]"
+        ],
+        "edicao": "1. ed., 2. tiragem",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Saraiva",
+          "FGV"
+        ],
+        "isbns": [
+          "9788502076686"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "título"
+          },
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Energia elétrica Brasil",
+          "Farmacêutico mercado Brasil",
+          "Política de saúde Brasil",
+          "Propriedade intelectual Brasil",
+          "Saneamento básico regulação Brasil",
+          "Saúde pública política Brasil",
+          "Telecomunicações regulação Brasil",
+          "Transporte aéreo regulação Brasil",
+          "Transporte terrestre regulação Brasil",
+          "Direito econômico Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/abr./848099/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "vilela-economico",
+    "titulo": "Direito Econômico — Sinopses para Concursos",
+    "autores": [
+      "Danilo Vieira Vilela"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Econômico",
+        "obra_id": "vilela-economico",
+        "titulo": "Direito Econômico — Sinopses para Concursos",
+        "autoria": "Danilo Vieira Vilela",
+        "ano": "2026",
+        "numero_edicao": "8",
+        "volume": "31 da coleção",
+        "formato": "Impresso",
+        "isbn13": "9788544274644",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/sinopses-para-concursos-v31-direito-economico-2026-vilela",
+        "funcao_editorial": "Revisão da atuação estatal",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-8496b174c0a5340a0959",
+    "titulo": "Direito penal econômico",
+    "autores": [
+      "Almeida, Arnaldo Quirino de"
+    ],
+    "areas": [
+      "Econômico",
+      "Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02d30f9b-378b-55c6-9816-12b9a55cd06e",
+        "data_registro_rvbi": "2026-08-01T16:14:38Z",
+        "titulo": "Direito penal econômico",
+        "subtitulo": "e autoria no crime tributário praticado em nome e no interesse da pessoa jurídica",
+        "autores": [
+          "Almeida, Arnaldo Quirino de"
+        ],
+        "edicao": "2. ed., rev. e ampl",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Conceito"
+        ],
+        "isbns": [
+          "9788578744090"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Penal",
+            "evidência": "título"
+          },
+          {
+            "nome": "Econômico",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crime econômico Brasil",
+          "Direito penal econômico doutrinas e controvérsias Brasil",
+          "Ordem econômica Brasil",
+          "Direito penal econômico Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2012/dezembro/944335/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-91de9e7ddcfb37863781",
+    "titulo": "Governar sem fronteiras",
+    "autores": [
+      "Arnaud, André-Jean"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/003cd54b-3825-5b34-9773-c4fa1c103a50",
+        "data_registro_rvbi": "2026-08-04T17:28:42Z",
+        "titulo": "Governar sem fronteiras",
+        "subtitulo": "entre globalização e pós-globalização",
+        "autores": [
+          "Arnaud, André-Jean"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788537501474"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Análise econômica do direito",
+          "Desenvolvimento socioeconômico aspectos jurídicos",
+          "Direito econômico internacional",
+          "Globalização da economia",
+          "Sociologia jurídica"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "http://www.stf.gov.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2008/marco/794343/sumario.htm",
+            "rótulo_original": null
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5579d7cd537941e0075a",
+    "titulo": "Kandir x gandra",
+    "autores": [
+      "Kandir, Antonio"
+    ],
+    "areas": [
+      "Econômico",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010d3cf2-0c84-5b61-bf70-f8e86e0a4292",
+        "data_registro_rvbi": "2025-10-30T06:46:04Z",
+        "titulo": "Kandir x gandra",
+        "subtitulo": "o papel do estado na economia",
+        "autores": [
+          "Kandir, Antonio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1991,
+        "editoras": [
+          "Instituto Tancredo Neves"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Econômico",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Distribuição de renda Brasil",
+          "Reforma tributária Brasil",
+          "Intervenção do Estado na economia Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "bensoussan-gouvea-luz",
+    "titulo": "Manual de Direito Econômico",
+    "autores": [
+      "Fabio Bensoussan, Marcus de Freitas Gouvêa e Reinaldo Diogo Luz"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Econômico",
+        "obra_id": "bensoussan-gouvea-luz",
+        "titulo": "Manual de Direito Econômico",
+        "autoria": "Fabio Bensoussan, Marcus de Freitas Gouvêa e Reinaldo Diogo Luz",
+        "ano": "2026",
+        "numero_edicao": "9",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544271858",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-economico-2026-bensoussan-gouvea-luz",
+        "funcao_editorial": "Manual de referência para ordem econômica e concorrência",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "forgioni-antitruste",
+    "titulo": "Os Fundamentos do Antitruste",
+    "autores": [
+      "Paula A. Forgioni"
+    ],
+    "areas": [
+      "Econômico"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Econômico",
+        "obra_id": "forgioni-antitruste",
+        "titulo": "Os Fundamentos do Antitruste",
+        "autoria": "Paula A. Forgioni",
+        "ano": "2025",
+        "numero_edicao": "14",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9786526028636",
+        "fonte_bibliografica": "https://www.livrariart.com.br/os-fundamentos-do-antitruste-14a-edicao-9786526028636/p",
+        "funcao_editorial": "Aprofundamento em defesa da concorrência",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  }
+]

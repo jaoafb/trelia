@@ -1,0 +1,291 @@
+[
+  {
+    "id": "rvbi-d0aa8b95c77fbe671bf4",
+    "titulo": "1.000 perguntas e respostas de direito civil",
+    "autores": [
+      "Cretella Júnior, José"
+    ],
+    "areas": [
+      "Agrário",
+      "Civil"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01f1228f-b192-5528-9e34-9aae32ae8f43",
+        "data_registro_rvbi": "2026-07-31T21:00:27Z",
+        "titulo": "1.000 perguntas e respostas de direito civil",
+        "subtitulo": "para as provas das faculdades de direito, para os exames da OAB - Ordem dos Advogados do Brasil, para concursos públicos, para o provão do MEC",
+        "autores": [
+          "Cretella Júnior, José"
+        ],
+        "edicao": "12. ed",
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530918170"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Civil",
+            "evidência": "título"
+          },
+          {
+            "nome": "Agrário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito agrário Brasil problemas, exercícios etc",
+          "Direito autoral Brasil problemas, exercícios etc",
+          "Direito das coisas Brasil problemas, exercícios etc",
+          "Direito das obrigações Brasil problemas, exercícios etc",
+          "Direito das sucessões Brasil problemas, exercícios etc",
+          "Direito patrimonial Brasil problemas, exercícios etc",
+          "Responsabilidade civil Brasil problemas, exercícios etc",
+          "Direito civil Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-82ccc653e041dcf1c46c",
+    "titulo": "Direito agrário para concursos",
+    "autores": [
+      "Marques, Benedito Ferreira"
+    ],
+    "areas": [
+      "Agrário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01e82444-8d55-5264-a0be-10bdf90465e9",
+        "data_registro_rvbi": "2026-07-31T17:51:08Z",
+        "titulo": "Direito agrário para concursos",
+        "subtitulo": null,
+        "autores": [
+          "Marques, Benedito Ferreira"
+        ],
+        "edicao": "2. ed. rev. e atual",
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "AB"
+        ],
+        "isbns": [
+          "9788574981161"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Agrário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito agrário legislação Brasil",
+          "Política agrária Brasil",
+          "Posse da terra Brasil",
+          "Reforma agrária Brasil",
+          "Terra devoluta Brasil",
+          "Direito agrário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-efd93a8897097c6d93f0",
+    "titulo": "Estatuto da terra",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Agrário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d86b77-e574-5da6-80e7-37294d729b34",
+        "data_registro_rvbi": "2026-07-29T16:09:40Z",
+        "titulo": "Estatuto da terra",
+        "subtitulo": null,
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 1985,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Agrário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito agrário Brasil legislação",
+          "Reforma agrária Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-218b6951613b4df99ed6",
+    "titulo": "Institutos basicos do direito agrario",
+    "autores": [
+      "Borges, Paulo Torminn"
+    ],
+    "areas": [
+      "Agrário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02b04d42-592e-58ae-844e-719ef3369aed",
+        "data_registro_rvbi": "2026-09-02T22:43:18Z",
+        "titulo": "Institutos basicos do direito agrario",
+        "subtitulo": null,
+        "autores": [
+          "Borges, Paulo Torminn"
+        ],
+        "edicao": "6. ed. rev. e ampl., Acrescentada de um Capitulo sobre os Institutos do Direito Agrario na Cf de 1988",
+        "volume": null,
+        "ano": 1991,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502007994"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Agrário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito agrário legislação Brasil",
+          "Direito agrário Brasil",
+          "Direito agrário"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3833ee45e7688fbfacf0",
+    "titulo": "O uso da terra no direito agrário",
+    "autores": [
+      "Rizzardo, Arnaldo"
+    ],
+    "areas": [
+      "Agrário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/025df0e3-b626-52b9-9c8d-b300b57fd513",
+        "data_registro_rvbi": "2026-08-02T07:50:48Z",
+        "titulo": "O uso da terra no direito agrário",
+        "subtitulo": "loteamentos, desmembramentos, acesso as terras rurais, usucapião especial (Lei nº 6969)",
+        "autores": [
+          "Rizzardo, Arnaldo"
+        ],
+        "edicao": "2. ed., rev. e ampl",
+        "volume": null,
+        "ano": 1983,
+        "editoras": [
+          "Aide"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Agrário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Loteamento",
+          "Usucapião",
+          "Direito agrário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1979-12-19;6766",
+            "rótulo_original": "LEI-006766 (1979)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1034e393ea75daa84071",
+    "titulo": "Princípios de direito agrário",
+    "autores": [
+      "Gelse Bidart, Afonso"
+    ],
+    "areas": [
+      "Agrário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/023284fa-014d-5712-9083-eaa5bac608b3",
+        "data_registro_rvbi": "2025-12-17T01:47:18Z",
+        "titulo": "Princípios de direito agrário",
+        "subtitulo": null,
+        "autores": [
+          "Gelse Bidart, Afonso"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1983,
+        "editoras": [
+          "CNPq",
+          "Fundação Petrônio Portella"
+        ],
+        "isbns": [
+          "9788570530035"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Agrário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito agrário"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://dspace.mj.gov.br/handle/1/14517",
+            "rótulo_original": "Versão eletrônica 11 fev. 2025"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

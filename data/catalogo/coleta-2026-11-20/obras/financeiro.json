@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "rvbi-d4f03245048e6d226e4a",
+    "titulo": "A Lei 4.320 comentada",
+    "autores": [
+      "Machado Junior, J. Teixeira"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d18c9a-31aa-5cb5-881c-3fdcc06ff8d0",
+        "data_registro_rvbi": "2026-07-29T11:34:04Z",
+        "titulo": "A Lei 4.320 comentada",
+        "subtitulo": null,
+        "autores": [
+          "Machado Junior, J. Teixeira"
+        ],
+        "edicao": "32. ed",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "IBAM"
+        ],
+        "isbns": [
+          "9788574030197"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Controle orçamentário Brasil",
+          "Despesa pública Brasil",
+          "Direito financeiro Brasil",
+          "Execução orçamentária Brasil",
+          "Orçamento público Brasil",
+          "Finanças públicas legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1964-03-17;4320",
+            "rótulo_original": "LEI-004320 (1964)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101",
+            "rótulo_original": "LCP-000101 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3a25a702e333bba2abc8",
+    "titulo": "A terceira via e a responsabilidade fiscal",
+    "autores": [
+      "Crusius, Yeda"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034a218c-c4e6-521d-843f-373641e8f710",
+        "data_registro_rvbi": "2025-10-30T14:15:25Z",
+        "titulo": "A terceira via e a responsabilidade fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Crusius, Yeda"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "Camara dos Deputados, Coordenação de Publicações"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Responsabilidade fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4631bf209e14c5705437",
+    "titulo": "Administração financeira e orçamentária",
+    "autores": [
+      "Papariello Júnior, Vincenzo"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0287bd19-8ac6-5b5c-b0aa-63792fa29e68",
+        "data_registro_rvbi": "2026-08-03T00:14:30Z",
+        "titulo": "Administração financeira e orçamentária",
+        "subtitulo": "CESPE : questões comentadas e organizadas por assunto",
+        "autores": [
+          "Papariello Júnior, Vincenzo"
+        ],
+        "edicao": "3. ed., rev. e atual",
+        "volume": null,
+        "ano": 2013,
+        "editoras": [
+          "Gen, Método"
+        ],
+        "isbns": [
+          "9788530949570"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito financeiro Brasil problemas, exercícios etc",
+          "Finanças públicas Brasil problemas, exercícios etc",
+          "Orçamento público Brasil problemas, exercícios etc",
+          "Administração financeira Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101",
+            "rótulo_original": "LCP-000101 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b0eee20eaa5d4efe02da",
+    "titulo": "Apontamentos de direito financeiro brasileiro",
+    "autores": [
+      "Barros, José Mauricio Fernandes Pereira de"
+    ],
+    "areas": [
+      "Financeiro",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01389a6b-1117-561c-910f-5135bab1be81",
+        "data_registro_rvbi": "2026-07-29T09:25:26Z",
+        "titulo": "Apontamentos de direito financeiro brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Barros, José Mauricio Fernandes Pereira de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1855,
+        "editoras": [
+          "Eduardo and Henrique Laemmert"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Finanças públicas Brasil",
+          "Direito financeiro Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "http://www2.senado.leg.br/bdsf/handle/id/227343",
+            "rótulo_original": "Texto integral (PDF) na Biblioteca Digital do Senado Federal"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-adedc6e5ade49d29b1bd",
+    "titulo": "Classificação funcional-programatica",
+    "autores": [],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0125bbc1-5e4c-5edb-8a08-6f310f11f484",
+        "data_registro_rvbi": "2025-12-17T01:19:25Z",
+        "titulo": "Classificação funcional-programatica",
+        "subtitulo": "portaria n. 9, de 28 de janeiro de 1974",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1974,
+        "editoras": [
+          "Secretaria de Orçamento e Finanças"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Orçamento Brasil",
+          "Finanças públicas legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-56df35d910ad1cefe2b7",
+    "titulo": "Contas regionais do Brasil 2002",
+    "autores": [],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0266a7d5-55d2-5f70-975a-2235e35f6c3f",
+        "data_registro_rvbi": "2026-08-02T08:05:44Z",
+        "titulo": "Contas regionais do Brasil 2002",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "IBGE, Coordenação de Contas Nacionais"
+        ],
+        "isbns": [
+          "9788524037887"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Finanças públicas Brasil",
+          "Contas nacionais Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0d388972fdaa962e3c74",
+    "titulo": "Controle da eficiência do gasto orçamentário",
+    "autores": [
+      "Bliacheriene, Ana Carla"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02df6c0a-b629-55ca-a12f-d57e08c12b7a",
+        "data_registro_rvbi": "2026-08-02T09:00:03Z",
+        "titulo": "Controle da eficiência do gasto orçamentário",
+        "subtitulo": null,
+        "autores": [
+          "Bliacheriene, Ana Carla"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Fórum"
+        ],
+        "isbns": [
+          "9788545001461"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração pública controle aspectos constitucionais Brasil",
+          "Bens públicos controle Brasil",
+          "Execução orçamentária Brasil",
+          "Orçamento público Brasil",
+          "Políticas públicas controle Brasil",
+          "Despesa pública Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.forumconhecimento.com.br/v2/livro/L1404/E1456",
+            "rótulo_original": "Acesso restrito aos computadores da Câmara dos Deputados"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-da439d6c2454697d0ecc",
+    "titulo": "Curso de direito financeiro e tributário",
+    "autores": [
+      "Torres, Ricardo Lobo"
+    ],
+    "areas": [
+      "Financeiro",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0156f57b-51f3-5fe8-ba47-2db9bbf7bec4",
+        "data_registro_rvbi": "2026-07-31T19:38:54Z",
+        "titulo": "Curso de direito financeiro e tributário",
+        "subtitulo": null,
+        "autores": [
+          "Torres, Ricardo Lobo"
+        ],
+        "edicao": "11. ed. atual. até a publicação da Emenda Constitucional n. 42, de 19.12.2003",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Renovar"
+        ],
+        "isbns": [
+          "9788571474215"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crédito público Brasil",
+          "Crédito tributário Brasil",
+          "Empréstimo público Brasil",
+          "Fiscalização financeira e orçamentária Brasil",
+          "Orçamento público Brasil",
+          "Sistema tributário Brasil",
+          "Tributação Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01bb1325-2d40-5246-b6a2-a74d718fdaae",
+        "data_registro_rvbi": "2026-08-02T23:03:40Z",
+        "titulo": "Curso de direito financeiro e tributario",
+        "subtitulo": null,
+        "autores": [
+          "Torres, Ricardo Lobo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Renovar"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Orçamento público Brasil",
+          "Direito financeiro Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c77948e04c670f3f0b29",
+    "titulo": "Direito financeiro",
+    "autores": [
+      "Piscitelli, Tathiane dos Santos"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02720596-f421-536e-97f2-b2cc68fe611a",
+        "data_registro_rvbi": "2026-08-04T12:53:29Z",
+        "titulo": "Direito financeiro",
+        "subtitulo": "esquematizado",
+        "autores": [
+          "Piscitelli, Tathiane dos Santos"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530940126"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito financeiro Brasil problemas, exercícios etc",
+          "Direito financeiro Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-53245154e06abf6201bb",
+    "titulo": "Direito financeiro na jurisprudência do Supremo Tribunal Federal",
+    "autores": [
+      "Marcus Lívio Gomes, Marcus Abraham, Heleno Taveira Torres, coordenadores ; Luiz Fux [e outros]"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007c40e6-cba7-5e05-9136-ced221442192",
+        "data_registro_rvbi": "2026-07-30T12:29:30Z",
+        "titulo": "Direito financeiro na jurisprudência do Supremo Tribunal Federal",
+        "subtitulo": "homenagem ao ministro Marco Aurélio",
+        "autores": [
+          "Marcus Lívio Gomes, Marcus Abraham, Heleno Taveira Torres, coordenadores ; Luiz Fux [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536255743"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito financeiro jurisprudência Brasil",
+          "Direito financeiro Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/jspui/handle/2011/101261",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-7c286f2597d6e478fc51",
+    "titulo": "DNER",
+    "autores": [
+      "Prado, Lafayette"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01b65ef9-1c96-51f2-8f75-8b80be9b572b",
+        "data_registro_rvbi": "2026-07-31T00:17:40Z",
+        "titulo": "DNER",
+        "subtitulo": "A revolução e o julgamento das contas",
+        "autores": [
+          "Prado, Lafayette"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 1975,
+        "editoras": [
+          "DNER"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Finanças públicas Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-607bf319dfc085ed72f5",
+    "titulo": "Economia do setor público no Brasil",
+    "autores": [
+      "organizadores Ciro Biderman, Paulo Arvate ; consultoria editorial Honório Kume, João Sicsú"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/017b49a3-742f-59d1-97e1-7a687f91c27c",
+        "data_registro_rvbi": "2026-08-03T22:10:06Z",
+        "titulo": "Economia do setor público no Brasil",
+        "subtitulo": null,
+        "autores": [
+          "organizadores Ciro Biderman, Paulo Arvate ; consultoria editorial Honório Kume, João Sicsú"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Elsevier"
+        ],
+        "isbns": [
+          "9788535215304"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Condições econômicas Brasil",
+          "Política econômica Brasil",
+          "Finanças públicas Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8d5c883d438a874ae94c",
+    "titulo": "Finanças públicas",
+    "autores": [
+      "Matias-Pereira, José"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03232e0e-de36-5c9a-bb72-d61074aec11a",
+        "data_registro_rvbi": "2026-08-02T01:14:56Z",
+        "titulo": "Finanças públicas",
+        "subtitulo": "a política orçamentária no Brasil",
+        "autores": [
+          "Matias-Pereira, José"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522421015"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Estado (ciência política)",
+          "Orçamento público Brasil",
+          "Política orçamentária Brasil",
+          "Teoria econômica",
+          "Finanças públicas Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d618c85c6ad47e8b47cf",
+    "titulo": "Finanças públicas",
+    "autores": [
+      "Banco Central do Brasil"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e092de-bda3-5949-a299-5f3ac0c93c0a",
+        "data_registro_rvbi": "2026-07-30T19:26:18Z",
+        "titulo": "Finanças públicas",
+        "subtitulo": "sumário dos planos brasileiros de estabilização e glossário de instrumentos e normas relacionados à política econômico-financeira",
+        "autores": [
+          "Banco Central do Brasil"
+        ],
+        "edicao": "6. ed., rev",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Banco Central do Brasil, Diretoria de Política Econômica, Departamento econômico"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Plano econômico Brasil 1986-2001",
+          "Políticas públicas Brasil",
+          "Programa de governo Brasil",
+          "Finanças públicas Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-99860eaa69e3039be65d",
+    "titulo": "Formação bruta de capital fixo do setor publico no nordeste do brasil, 1960-1974",
+    "autores": [],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01118028-373f-523f-bf9d-0e1feb12300a",
+        "data_registro_rvbi": "2025-10-30T06:44:13Z",
+        "titulo": "Formação bruta de capital fixo do setor publico no nordeste do brasil, 1960-1974",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1976,
+        "editoras": [
+          "Sudene"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Capital (economia)",
+          "Finanças públicas Brasil, Região Nordeste",
+          "Formação de capital Brasil, Região Nordeste",
+          "Investimento público Brasil, Região Nordeste",
+          "Desenvolvimento econômico Brasil, Região Nordeste"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a41397e45257697dc977",
+    "titulo": "Gestão financeira no setor público",
+    "autores": [
+      "Karoly, Istvan"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03660bf1-0c73-53f5-93a8-83fbb26b3019",
+        "data_registro_rvbi": "2026-07-29T13:18:53Z",
+        "titulo": "Gestão financeira no setor público",
+        "subtitulo": null,
+        "autores": [
+          "Karoly, Istvan"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2014,
+        "editoras": [
+          "FGV"
+        ],
+        "isbns": [
+          "9788522513932"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração financeira Brasil",
+          "Déficit",
+          "Despesa pública Brasil",
+          "Execução orçamentária Brasil",
+          "Orçamento público Brasil",
+          "Superávit",
+          "Finanças públicas Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-47af76a4474fb9943dfd",
+    "titulo": "Juros, Correção Monetária, Danos Financeiros Irreparáveis",
+    "autores": [
+      "Cançado, Romualdo Wilson"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0293f0dd-0c33-5a74-b8a1-32701e1de507",
+        "data_registro_rvbi": "2026-07-31T13:24:06Z",
+        "titulo": "Juros, Correção Monetária, Danos Financeiros Irreparáveis",
+        "subtitulo": "uma abordagem jurídico-econômica",
+        "autores": [
+          "Cançado, Romualdo Wilson"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788573083019"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Correção monetária Brasil",
+          "Direito financeiro Brasil",
+          "Inflação Brasil",
+          "Juros compensatórios Brasil",
+          "Juros de mora Brasil",
+          "Taxa de juros Brasil",
+          "Juros Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-aaab8bdbe1029d0aec09",
+    "titulo": "Lei de responsabilidade fiscal",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01dc4b28-edf2-5f87-8f9e-a3654e70d5dc",
+        "data_registro_rvbi": "2026-08-03T03:20:14Z",
+        "titulo": "Lei de responsabilidade fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Senado Federal, Subsecretaria de Edições Técnicas"
+        ],
+        "isbns": [
+          "9788570183187"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Responsabilidade fiscal legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "http://www2.senado.leg.br/bdsf/handle/id/496318",
+            "rótulo_original": "Texto integral (PDF) na Biblioteca Digital do Senado Federal"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01a007ce-a305-5700-ae3b-0808af93c0fc",
+        "data_registro_rvbi": "2026-07-29T23:29:37Z",
+        "titulo": "Lei de responsabilidade fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "4. ed",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Senado Federal, Gabinete do Senador Rodolpho Tourinho"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Responsabilidade fiscal Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e157299cb6b39c76f21c",
+    "titulo": "Lei de responsabilidade fiscal",
+    "autores": [
+      "Khair, Amir"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0237d77c-93bc-531b-853d-496e974308a9",
+        "data_registro_rvbi": "2026-07-29T20:38:10Z",
+        "titulo": "Lei de responsabilidade fiscal",
+        "subtitulo": "guia de orientação para as prefeituras",
+        "autores": [
+          "Khair, Amir"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2001,
+        "editoras": [
+          "BNDES",
+          "FINAME, BNDESPAR"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração municipal Brasil",
+          "Competência tributária Brasil",
+          "Despesa pública Brasil",
+          "Dívida pública municipal Brasil",
+          "Finanças públicas Brasil",
+          "Responsabilidade administrativa Brasil",
+          "Responsabilidade fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101",
+            "rótulo_original": "LCP-000101 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-65629603295064ec0995",
+    "titulo": "Leis da transparência",
+    "autores": [],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/016da11e-82a9-571e-90d9-8e7436299856",
+        "data_registro_rvbi": "2026-08-04T08:07:01Z",
+        "titulo": "Leis da transparência",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Senado Federal, Senador João Capiberibe"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acesso à informação Brasil legislação",
+          "Administração pública responsabilidade tributária Brasil",
+          "Controle orçamentário Brasil",
+          "Execução orçamentária Brasil",
+          "Responsabilidade fiscal Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724",
+            "rótulo_original": "DEC-007724 (2012)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527",
+            "rótulo_original": "LEI-012527 (2011)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101",
+            "rótulo_original": "LCP-000101 (2000)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2009-05-27;131",
+            "rótulo_original": "LCP-000131 (2009)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-20e7c4542551ef8dcd87",
+    "titulo": "Leis, decretos, resoluções",
+    "autores": [
+      "Moçambique"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/012daeba-565c-53ce-8305-667708722906",
+        "data_registro_rvbi": "2026-07-31T15:20:23Z",
+        "titulo": "Leis, decretos, resoluções",
+        "subtitulo": null,
+        "autores": [
+          "Moçambique"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "[Editora não identificada]"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contencioso administrativo legislação Moçambique",
+          "Despesa pública fiscalização legislação Moçambique",
+          "Orçamento público legislação Moçambique",
+          "Tribunal administrativo legislação Moçambique"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "leite-financeiro",
+    "titulo": "Manual de Direito Financeiro",
+    "autores": [
+      "Harrison Leite"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Financeiro",
+        "obra_id": "leite-financeiro",
+        "titulo": "Manual de Direito Financeiro",
+        "autoria": "Harrison Leite",
+        "ano": "2026",
+        "numero_edicao": "15",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544270752",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite",
+        "funcao_editorial": "Introdução ao orçamento e à atividade financeira estatal",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-266141f1af4edbf8b895",
+    "titulo": "O ajuste fiscal de médio prazo",
+    "autores": [
+      "Rigolon, Francisco José Zagari"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00d1c299-10bb-56ad-9912-49a61b75ec9e",
+        "data_registro_rvbi": "2025-12-17T01:57:39Z",
+        "titulo": "O ajuste fiscal de médio prazo",
+        "subtitulo": "o que vai acontecer quando as receitas extraordinárias acabarem?",
+        "autores": [
+          "Rigolon, Francisco José Zagari"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "BNDES"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Finanças públicas Brasil",
+          "Política fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-85d99d9d10d6b4d8d71b",
+    "titulo": "O Aprimoramento da atuação do congresso nacional no processo orçamentario",
+    "autores": [
+      "Cedraz, Aroldo"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/022313a6-f0b4-5759-b2c5-72aed0a9d09b",
+        "data_registro_rvbi": "2026-07-29T04:55:43Z",
+        "titulo": "O Aprimoramento da atuação do congresso nacional no processo orçamentario",
+        "subtitulo": "versão preliminar",
+        "autores": [
+          "Cedraz, Aroldo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1998,
+        "editoras": [
+          "Congresso Nacional"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Fiscalização orçamentária Brasil",
+          "Orçamento público Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9eb54d8c8b327fcc2d7a",
+    "titulo": "Pacote fiscal para 1999",
+    "autores": [
+      "Recktenvald, Gervásio"
+    ],
+    "areas": [
+      "Financeiro",
+      "Previdenciário",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0165012f-1acb-51f1-8762-43b301d08e40",
+        "data_registro_rvbi": "2026-08-01T21:02:16Z",
+        "titulo": "Pacote fiscal para 1999",
+        "subtitulo": "aspectos jurídicos e contábeis : teoria e prática",
+        "autores": [
+          "Recktenvald, Gervásio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "Síntese"
+        ],
+        "isbns": [
+          "9788571310131"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Finanças públicas legislação Brasil",
+          "Imposto de renda legislação Brasil",
+          "Previdência social legislação Brasil",
+          "Tributo legislação Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-12-15;20",
+            "rótulo_original": "EMC-000020 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-17;9701",
+            "rótulo_original": "LEI-009701 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-17;9703",
+            "rótulo_original": "LEI-009703 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-20;9711",
+            "rótulo_original": "LEI-009711 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-25;9715",
+            "rótulo_original": "LEI-009715 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-27;9717",
+            "rótulo_original": "LEI-009717 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-11-27;9718",
+            "rótulo_original": "LEI-009718 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-12-11;9732",
+            "rótulo_original": "LEI-009732 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1999-01-19;9779",
+            "rótulo_original": "LEI-009779 (1999)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:medida.provisoria:1999-01-28;1807",
+            "rótulo_original": "MPV-001807 (1999)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-75646897f6c62dd3ef1f",
+    "titulo": "Regime jurídico dos servidores públicos civis da União",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/001229ae-e5c4-50c6-be1f-6a36dda8d1ff",
+        "data_registro_rvbi": "2026-08-04T05:42:23Z",
+        "titulo": "Regime jurídico dos servidores públicos civis da União",
+        "subtitulo": "lei 8.112, de 11-12-90",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "9. ed. atual. até 18/07/2007",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536216515"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Advogado-Geral da União Brasil súmulas",
+          "Emenda constitucional Brasil legislação",
+          "Reforma administrativa Brasil legislação",
+          "Reforma da previdência Brasil legislação",
+          "Responsabilidade fiscal Brasil legislação",
+          "Servidor público regime jurídico jurisprudência Brasil legislação",
+          "Servidor público Brasil legislação",
+          "Tribunal regional federal Brasil súmulas",
+          "Tribunal supremo Brasil súmulas",
+          "Servidor público regime jurídico Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2002-01-11;4081",
+            "rótulo_original": "DEC-004081 (2002)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-06-04;19",
+            "rótulo_original": "EMC-000019 (1998)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-12-15;20",
+            "rótulo_original": "EMC-000020 (1998)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2003-12-19;41",
+            "rótulo_original": "EMC-000041 (2003)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2005-07-05;47",
+            "rótulo_original": "EMC-000047 (2005)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-11;8112",
+            "rótulo_original": "LEI-008112 (1990)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a99d91b4955e5941cc62",
+    "titulo": "Responsabilidade fiscal",
+    "autores": [
+      "Fernandes, Jorge Ulisses Jacoby"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/015db2aa-b39c-5e90-926c-ca2dd79012fe",
+        "data_registro_rvbi": "2026-07-30T00:29:40Z",
+        "titulo": "Responsabilidade fiscal",
+        "subtitulo": "na função do ordenador de despesas, na terceirização de mão-de-obra, na função do controle administrativo, questões práticas",
+        "autores": [
+          "Fernandes, Jorge Ulisses Jacoby"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2001,
+        "editoras": [
+          "Brasília jurídica"
+        ],
+        "isbns": [
+          "9788574691657"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração pública Brasil",
+          "Contas nacionais legislação Brasil",
+          "Despesa pública legislação Brasil",
+          "Dívida pública legislação Brasil",
+          "Ordenador de despesas Brasil",
+          "Responsabilidade fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1967-02-27;201",
+            "rótulo_original": "DEL-000201 (1967)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1916-01-01;3071",
+            "rótulo_original": "LEI-003071 (1916) ART 00015, ART 00178 PAR 10"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1950-04-10;1079",
+            "rótulo_original": "LEI-001079 (1950)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1964-03-17;4320",
+            "rótulo_original": "LEI-004320 (1964)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1965-06-29;4717",
+            "rótulo_original": "LEI-004717 (1965)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-11;8112",
+            "rótulo_original": "LEI-008112 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1992-06-02;8429",
+            "rótulo_original": "LEI-008429 (1992)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1993-06-21;8666",
+            "rótulo_original": "LEI-008666 (1993)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1999-01-29;9784",
+            "rótulo_original": "LEI-009784 (1999)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-10-19;10028",
+            "rótulo_original": "LEI-010028 (2000)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1990-05-18;64",
+            "rótulo_original": "LCP-000064 (1990)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2000-05-04;101",
+            "rótulo_original": "LCP-000101 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-cd3d19926521005ccc05",
+    "titulo": "Tabellas explicativas e rectificadas do orçamento da despesa do Ministério da Viação e Obras Públicas para o exercício de 1924",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Financeiro"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03622f4c-6c64-50d5-9685-8c8839cd6434",
+        "data_registro_rvbi": "2026-08-02T21:41:41Z",
+        "titulo": "Tabellas explicativas e rectificadas do orçamento da despesa do Ministério da Viação e Obras Públicas para o exercício de 1924",
+        "subtitulo": "organizadas de accordo com art. 196 da Lei n. 4.793 de 7 de janeiro de 1924",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1924,
+        "editoras": [
+          "Imprensa Nacional"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Financeiro",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Orçamento público Brasil 1924",
+          "Despesa pública Brasil 1924"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

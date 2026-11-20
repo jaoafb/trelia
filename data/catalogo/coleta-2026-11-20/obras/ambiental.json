@@ -1,0 +1,1505 @@
+[
+  {
+    "id": "rvbi-aefc4ec91892ec7bbd53",
+    "titulo": "A Corte Internacional de Justiça e a proteção do meio ambiente",
+    "autores": [
+      "Prado, Rafael"
+    ],
+    "areas": [
+      "Ambiental",
+      "Direitos Humanos",
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/031ab6b7-ce51-55cb-b3a6-499c5a80432a",
+        "data_registro_rvbi": "2026-08-04T11:13:13Z",
+        "titulo": "A Corte Internacional de Justiça e a proteção do meio ambiente",
+        "subtitulo": null,
+        "autores": [
+          "Prado, Rafael"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Arraes"
+        ],
+        "isbns": [
+          "9786559290642"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Direitos Humanos",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Alto-mar",
+          "Conservação da natureza",
+          "Dano ambiental",
+          "Direitos humanos",
+          "Proteção ambiental",
+          "Reparação do dano (direito ambiental)",
+          "Tribunal internacional aspectos ambientais",
+          "Direito ambiental (direito internacional privado)"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/168741",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3d29f718631606cab1e0",
+    "titulo": "A responsabilidade penal da pessoa jurídica e o dano ambiental",
+    "autores": [
+      "Gómez-Jara Díez, Carlos"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0061e88a-906b-5a34-83a7-e2b010671c1e",
+        "data_registro_rvbi": "2026-07-31T18:34:32Z",
+        "titulo": "A responsabilidade penal da pessoa jurídica e o dano ambiental",
+        "subtitulo": "a aplicação do modelo construtivista de autorresponsabilidade à Lei 9.605/98",
+        "autores": [
+          "Gómez-Jara Díez, Carlos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2013,
+        "editoras": [
+          "Livr. do Advogado"
+        ],
+        "isbns": [
+          "9788573488289"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crime ambiental legislação Brasil",
+          "Pessoa jurídica responsabilidade penal Brasil",
+          "Crime ambiental responsabilidade penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2013/outubro/969368/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/191429",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-02-12;9605",
+            "rótulo_original": "LEI-009605 (1998)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-bd86fa7cef81cbb6afe7",
+    "titulo": "Ambiente jurídico",
+    "autores": [
+      "Álvaro Mirra [e outros]"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0210e496-b245-59c6-a8a0-1579b505bdf5",
+        "data_registro_rvbi": "2026-08-01T19:51:53Z",
+        "titulo": "Ambiente jurídico",
+        "subtitulo": null,
+        "autores": [
+          "Álvaro Mirra [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788538405306"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Política ambiental Brasil",
+          "Proteção ambiental Brasil",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1981-08-31;6938",
+            "rótulo_original": "LEI-006938 (1981)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-01-08;9433",
+            "rótulo_original": "LEI-009433 (1997)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://repobiblio.agu.gov.br/Livro/Forum/2018/LV-Alvaro-luiz-valery-mirra-ambiente-juridico.pdf",
+            "rótulo_original": "Versão eletrônica (PDF) Acesso restrito – AGU"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9f0d2bb6cc6c2019ab7f",
+    "titulo": "Avaliação e perícia ambiental",
+    "autores": [
+      "Sandra Batista da Cunha, Antonio José Texeira Guerra (organizadores)"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01c7242e-bd9b-567a-b3fd-39436b3069b6",
+        "data_registro_rvbi": "2026-08-01T00:47:29Z",
+        "titulo": "Avaliação e perícia ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Sandra Batista da Cunha, Antonio José Texeira Guerra (organizadores)"
+        ],
+        "edicao": "5. ed",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Bertrand Brasil"
+        ],
+        "isbns": [
+          "9788528606980"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Licenciamento ambiental Brasil",
+          "Meio ambiente legislação Brasil",
+          "Proteção ambiental avaliação",
+          "Degradação ambiental"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6623f844ed15aea1c880",
+    "titulo": "Compensação ambiental e financiamento de áreas protegidas",
+    "autores": [
+      "Godoy, Larissa Ribeiro da Cruz"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/030f94a0-5a22-52f2-aa4f-a77f4fc08f1d",
+        "data_registro_rvbi": "2026-07-30T23:36:47Z",
+        "titulo": "Compensação ambiental e financiamento de áreas protegidas",
+        "subtitulo": null,
+        "autores": [
+          "Godoy, Larissa Ribeiro da Cruz"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Sergio Antonio Fabris"
+        ],
+        "isbns": [
+          "9788575256442"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Área de proteção ambiental (APA) controle Brasil",
+          "Área de proteção ambiental (APA) controle Estados Unidos",
+          "Compensação ambiental Brasil",
+          "Conservação da natureza Brasil",
+          "Proteção ambiental",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/92938",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-07-18;9985",
+            "rótulo_original": "LEI-009985 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d3c5ac8888d2c5323558",
+    "titulo": "Conflitos ambientais globais",
+    "autores": [
+      "Gerent, Juliana"
+    ],
+    "areas": [
+      "Ambiental",
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/025ba220-4e99-5d15-8c7c-6c77aef65de1",
+        "data_registro_rvbi": "2026-07-29T03:31:36Z",
+        "titulo": "Conflitos ambientais globais",
+        "subtitulo": "mecanismos e procedimentos para a solução de contravérsias",
+        "autores": [
+          "Gerent, Juliana"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536258201"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público",
+          "Meio ambiente tratado",
+          "Proteção ambiental",
+          "Direito ambiental"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2c949fa94feef38515b3",
+    "titulo": "Curso jurídico de direito ambiental",
+    "autores": [
+      "Fernanda Aparecida Mendes e Silva Garcia Assumpção: coordenadora"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/027932f6-b5b4-5300-ab1c-2c44d616e49b",
+        "data_registro_rvbi": "2026-08-04T14:57:45Z",
+        "titulo": "Curso jurídico de direito ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Fernanda Aparecida Mendes e Silva Garcia Assumpção: coordenadora"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Tribunal de Justiça do Estado de Minas Gerais"
+        ],
+        "isbns": [
+          "9788598923215"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito ambiental Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1074157",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0ba0d02456bb22159635",
+    "titulo": "Dano moral & licenciamento ambiental de barragens hidrelétricas",
+    "autores": [
+      "Rezende, Leonardo Pereira"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01a819c6-4080-5688-a62e-403d06818244",
+        "data_registro_rvbi": "2026-08-04T03:36:18Z",
+        "titulo": "Dano moral & licenciamento ambiental de barragens hidrelétricas",
+        "subtitulo": null,
+        "autores": [
+          "Rezende, Leonardo Pereira"
+        ],
+        "edicao": "1. ed., 2. tiragem",
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536203331"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0088933879b86580e061",
+    "titulo": "Direito à comunicação e licenciamento ambiental",
+    "autores": [
+      "Barroso, Ricardo Cavalcante"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02a4dfb6-7195-59f5-b4ec-c6b7ed5068ab",
+        "data_registro_rvbi": "2026-07-31T13:17:05Z",
+        "titulo": "Direito à comunicação e licenciamento ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Barroso, Ricardo Cavalcante"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9786555103311"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito à informação aspectos ambientais Brasil",
+          "Impacto ambiental controle Brasil",
+          "Licenciamento ambiental Pernambuco estudo de caso",
+          "Risco ambiental aspectos jurídicos Brasil",
+          "Licenciamento ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/156224",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-23e8fe6d31e049c34ac3",
+    "titulo": "Direito ambiental",
+    "autores": [
+      "Garcia, Leonardo"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00dcd110-833c-595d-ab10-d7f3c44a7729",
+        "data_registro_rvbi": "2026-08-04T03:25:12Z",
+        "titulo": "Direito ambiental",
+        "subtitulo": "princípios; competências constitucionais; Lei nº 6.938/1981; Lei nº 12.651/2012 (Novo Código Florestal) ; Lei nº 9.985/2000 ; Lei nº 9.985/2000; Lei nº 9.605/1998 ; Conforme a Lei Complementar nº 140, de 08 de dezembro de 2011(Nova Lei de Competências Ambientais) : dicas para realização de provas de concursos artigo por artigo, com questões de concursos e jurisprudência do STF e STJ inseridas",
+        "autores": [
+          "Garcia, Leonardo"
+        ],
+        "edicao": "5. ed., rev., ampl. e atual",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788577616480"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crime ambiental Brasil",
+          "Direito ambiental aspectos constitucionais Brasil",
+          "Direito ambiental Brasil problemas, exercícios etc",
+          "Proteção ambiental Brasil",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1981-08-31;6938",
+            "rótulo_original": "LEI-006938 (1981)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-02-12;9605",
+            "rótulo_original": "LEI-009605 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-07-18;9985",
+            "rótulo_original": "LEI-009985 (2000)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2012-05-25;12651",
+            "rótulo_original": "LEI-012651 (2012)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-362f45df37d17809279b",
+    "titulo": "Direito ambiental",
+    "autores": [
+      "Sette, Marli Teresinha Deon"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033a14e2-a91c-5ae6-a06b-41d1b7e5fa72",
+        "data_registro_rvbi": "2026-08-04T10:26:49Z",
+        "titulo": "Direito ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Sette, Marli Teresinha Deon"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "MP Ed"
+        ],
+        "isbns": [
+          "9788578980238"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1981-08-31;6938",
+            "rótulo_original": "LEI-006938 (1981)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4885a85554309e25d4d4",
+    "titulo": "Direito ambiental",
+    "autores": [
+      "Guerra, Sidney"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00c702c0-9721-5a2e-b9b6-a0e4edb8cd91",
+        "data_registro_rvbi": "2026-07-29T04:53:23Z",
+        "titulo": "Direito ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Guerra, Sidney"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Freitas Bastos"
+        ],
+        "isbns": [
+          "9788535300178"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Política ambiental Brasil",
+          "Proteção ambiental legislação Brasil",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1981-08-31;6938",
+            "rótulo_original": "LEI-006938 (1981)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1985-07-24;7347",
+            "rótulo_original": "LEI-007347 (1985)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-02-12;9605",
+            "rótulo_original": "LEI-009605 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-07-18;9985",
+            "rótulo_original": "LEI-009985 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8dedbfef2566dd93209f",
+    "titulo": "Direito ambiental",
+    "autores": [
+      "coordenadores Mário Werneck [e outros] ; [autores Abraão Soares dos Santos [e outros]"
+    ],
+    "areas": [
+      "Ambiental",
+      "Civil",
+      "Constitucional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/028c6e3e-1565-59de-8334-f72271fe9f8a",
+        "data_registro_rvbi": "2026-08-02T03:45:49Z",
+        "titulo": "Direito ambiental",
+        "subtitulo": "temas atuais visto por nós advogados",
+        "autores": [
+          "coordenadores Mário Werneck [e outros] ; [autores Abraão Soares dos Santos [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788573088212"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          },
+          {
+            "nome": "Constitucional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Civil",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação popular",
+          "Água proteção",
+          "Arguição de descumprimento de preceito fundamental",
+          "Biotecnologia responsabilidade civil",
+          "Dano (direito civil)",
+          "Direito à vida",
+          "Direito ambiental Brasil",
+          "Educação ambiental",
+          "Fauna",
+          "Favela natureza jurídica Brasil",
+          "Federalismo (direito constitucional)",
+          "Impacto ambiental",
+          "Licenciamento ambiental",
+          "Meio ambiente aspectos jurídicos",
+          "Meio ambiente Brasil legislação",
+          "Nexo de causalidade",
+          "Pessoa jurídica responsabilidade penal",
+          "Política ambiental Brasil",
+          "Propriedade privada",
+          "Ruído Brasil",
+          "Direito ambiental"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1965-09-15;4771",
+            "rótulo_original": "LEI-004771 (1965)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-02-12;9605",
+            "rótulo_original": "LEI-009605 (1998)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ccedcc4f98a000fb83e4",
+    "titulo": "Direito ambiental",
+    "autores": [
+      "Santos, Saint' Clair Honorato"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02ca2568-d6f2-5648-bff7-d500f29eb60d",
+        "data_registro_rvbi": "2026-08-03T19:29:09Z",
+        "titulo": "Direito ambiental",
+        "subtitulo": "unidades de conservação, limitações administrativas",
+        "autores": [
+          "Santos, Saint' Clair Honorato"
+        ],
+        "edicao": "2. ed.(2003) atual. de acordo com a Lei 9.985/00; 5. tiragem",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788573942644"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito ambiental jurisprudência Brasil",
+          "Direito de propriedade Brasil",
+          "Estação ecológica Brasil",
+          "Propriedade direito comparado",
+          "Propriedade Brasil",
+          "Proteção ambiental aspectos constitucionais Brasil",
+          "Proteção ambiental direito comparado"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e7bbe2a829a12abf1321",
+    "titulo": "Direito ambiental e cidadania",
+    "autores": [
+      "Jonatas Luiz Moreira de Paula, [coordenador ; Ana Carolina Couto Matheus e outros]"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01219d2a-d0de-5d7d-b625-984915fcc9b7",
+        "data_registro_rvbi": "2026-07-30T11:16:44Z",
+        "titulo": "Direito ambiental e cidadania",
+        "subtitulo": null,
+        "autores": [
+          "Jonatas Luiz Moreira de Paula, [coordenador ; Ana Carolina Couto Matheus e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "JH Mizuno"
+        ],
+        "isbns": [
+          "9788589857895"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crime ambiental Brasil",
+          "Desenvolvimento sustentável Brasil",
+          "Devido processo legal Brasil",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-67a0fd5e15847b847abf",
+    "titulo": "Direito animal à luz do pensamento sistêmico-complexo",
+    "autores": [
+      "Souza, Rafael Speck de"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010f62ab-4316-5063-b9d0-920d185a96ad",
+        "data_registro_rvbi": "2026-07-29T07:04:23Z",
+        "titulo": "Direito animal à luz do pensamento sistêmico-complexo",
+        "subtitulo": "um enfoque integrador ecologizado para se pensar a proteção dos animais",
+        "autores": [
+          "Souza, Rafael Speck de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2019,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788551914137"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Animal proteção Brasil",
+          "Bioética",
+          "Direito ambiental Brasil",
+          "Direito animal aspectos constitucionais Brasil",
+          "Ética",
+          "Filosofia do direito",
+          "Meio ambiente aspectos sociais",
+          "Direito animal"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1157098",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/136942",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988 ART 00225 PAR 01"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8d8dfd512fd4d69fcd9d",
+    "titulo": "Direito e desenvolvimento na Amazônia",
+    "autores": [
+      "coordenadores: Jean Carlos Dias, José Claudio Monteiro de Brito Filho, José Henrique Mouta Araújo"
+    ],
+    "areas": [
+      "Ambiental",
+      "Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033b17bf-960f-5694-be7c-98deb894256c",
+        "data_registro_rvbi": "2026-10-29T12:48:15Z",
+        "titulo": "Direito e desenvolvimento na Amazônia",
+        "subtitulo": "estudos interdisciplinares e interinstitucionais",
+        "autores": [
+          "coordenadores: Jean Carlos Dias, José Claudio Monteiro de Brito Filho, José Henrique Mouta Araújo"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2019,
+        "editoras": [
+          "Qualis"
+        ],
+        "isbns": [
+          "9786501264585",
+          "9786500597448",
+          "9786587383477",
+          "9786587383736",
+          "9788570270757"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Penal",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito Amazônia coletânea",
+          "Direito penal ambiental Amazônia coletânea",
+          "Direito ambiental Amazônia coletânea",
+          "Políticas públicas Amazônia coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2021/abril/1185883/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2021/fevereiro/1185883_V2/sumario.pdf",
+            "rótulo_original": "Capa e sumário v. 2"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2022/julho/1185883_V3/sumario.pdf",
+            "rótulo_original": "Capa e sumário V.3"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2023/outubro/1185883_V4/sumario.pdf",
+            "rótulo_original": "Capa e sumário V.4"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/165296",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2025/abril/in00000835319_v5.pdf",
+            "rótulo_original": "Capa e sumário v.5"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e5806ae062948262a350",
+    "titulo": "Direitos fundamentais & relações sociais no mundo contemporâneo",
+    "autores": [
+      "Antonio G. Moreira Maués, Fernando Facury Scaff, José Claudio Monteiro de Brito Filho, coordenadores ; colaboradores: Ângela Maroja [e outros]"
+    ],
+    "areas": [
+      "Ambiental",
+      "Constitucional",
+      "Direitos Humanos"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0126d049-8c68-5d66-947f-a1fdcd24d455",
+        "data_registro_rvbi": "2026-07-31T15:34:14Z",
+        "titulo": "Direitos fundamentais & relações sociais no mundo contemporâneo",
+        "subtitulo": null,
+        "autores": [
+          "Antonio G. Moreira Maués, Fernando Facury Scaff, José Claudio Monteiro de Brito Filho, coordenadores ; colaboradores: Ângela Maroja [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536210940"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Constitucional",
+            "evidência": "título"
+          },
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Direitos Humanos",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Biodiversidade Peru",
+          "Controle de constitucionalidade Brasil",
+          "Desenvolvimento sustentável",
+          "Direito ambiental Peru",
+          "Direito constitucional Europa legislação",
+          "Direitos e garantias individuais Brasil",
+          "Direitos e garantias individuais Europa",
+          "Direitos humanos Brasil",
+          "Integração regional aspectos econômicos Europa",
+          "Integração regional aspectos sociais Europa",
+          "Meio ambiente Brasil",
+          "Direitos e garantias individuais"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0a24452be7f15df8b8ee",
+    "titulo": "Energia e meio ambiente",
+    "autores": [
+      "Alexandre Oheb Sion, coordenador"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/025718d6-be4c-55af-a655-8bb72c9d02b6",
+        "data_registro_rvbi": "2026-08-13T22:28:49Z",
+        "titulo": "Energia e meio ambiente",
+        "subtitulo": "tomo II",
+        "autores": [
+          "Alexandre Oheb Sion, coordenador"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Synergia"
+        ],
+        "isbns": [
+          "9786586214543"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Energia elétrica aspectos ambientais Brasil",
+          "Energia elétrica aspectos jurídicos Brasil",
+          "Impacto ambiental Brasil",
+          "Licenciamento ambiental Brasil",
+          "Recursos energéticos Brasil",
+          "Direito ambiental Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2023/agosto/1241962_V2/sumario.pdf",
+            "rótulo_original": "Capa e sumário V.2"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/179327",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a3d562d4fae9a414f9b1",
+    "titulo": "Estudos sobre direitos fundamentais",
+    "autores": [
+      "Canotilho, J. J. Gomes"
+    ],
+    "areas": [
+      "Ambiental",
+      "Civil",
+      "Constitucional",
+      "Internacional",
+      "Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/026f4979-8301-5288-83aa-2bda0f14150c",
+        "data_registro_rvbi": "2026-07-29T11:09:56Z",
+        "titulo": "Estudos sobre direitos fundamentais",
+        "subtitulo": null,
+        "autores": [
+          "Canotilho, J. J. Gomes"
+        ],
+        "edicao": "1. ed., 3. tiragem",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Coimbra editora",
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520332979"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Constitucional",
+            "evidência": "título"
+          },
+          {
+            "nome": "Penal",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Civil",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Devido processo legal",
+          "Direito à saúde",
+          "Direito ambiental aspectos constitucionais Portugal",
+          "Direito autoral Portugal",
+          "Direito civil Portugal",
+          "Direito constitucional Portugal",
+          "Direito penal Alemanha",
+          "Direitos culturais",
+          "Direitos da personalidade",
+          "Direitos e garantias individuais aspectos constitucionais Portugal",
+          "Direitos econômicos e sociais",
+          "Liberdade",
+          "Ônus da prova",
+          "Proteção jurisdicional",
+          "República",
+          "Serviço postal privatização",
+          "Telecomunicações privatização",
+          "Terrorismo (direito internacional penal)",
+          "Tutela jurisdicional",
+          "Violação de correspondência",
+          "Direitos e garantias individuais"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "farias-licenciamento",
+    "titulo": "Licenciamento Ambiental: Aspectos Teóricos e Práticos",
+    "autores": [
+      "Talden Farias"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Ambiental",
+        "obra_id": "farias-licenciamento",
+        "titulo": "Licenciamento Ambiental: Aspectos Teóricos e Práticos",
+        "autoria": "Talden Farias",
+        "ano": "2026",
+        "numero_edicao": "11",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544276280",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias",
+        "funcao_editorial": "Estudo específico de licenciamento",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-463ca7ed13224ca01cc8",
+    "titulo": "Manual de direito ambiental",
+    "autores": [
+      "Trennepohl, Terence"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0139e427-6a3a-5ca3-810c-2486838c08e9",
+        "data_registro_rvbi": "2026-07-31T12:38:47Z",
+        "titulo": "Manual de direito ambiental",
+        "subtitulo": null,
+        "autores": [
+          "Trennepohl, Terence"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788547227791"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Biossegurança Brasil",
+          "Crime ambiental Brasil",
+          "Degradação ambiental Brasil",
+          "Direito ambiental Brasil problemas, exercícios etc",
+          "Mudança do clima Brasil",
+          "Política ambiental Brasil",
+          "Produto transgênico Brasil",
+          "Proteção ambiental Brasil",
+          "Direito ambiental"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f77cffe4e943a547a256",
+    "titulo": "O direito ambiental internacional",
+    "autores": [
+      "Silva, Solange Teles da"
+    ],
+    "areas": [
+      "Ambiental",
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0123fdf5-43cf-5c09-a440-de484b1a19f0",
+        "data_registro_rvbi": "2026-07-31T07:11:34Z",
+        "titulo": "O direito ambiental internacional",
+        "subtitulo": null,
+        "autores": [
+          "Silva, Solange Teles da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788538400646"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Desenvolvimento sustentável",
+          "Direito internacional público tratado",
+          "Gestão ambiental",
+          "Meio ambiente",
+          "Organização internacional",
+          "Organização não governamental",
+          "Política ambiental",
+          "Proteção ambiental",
+          "Tratado Amazônia",
+          "Direito ambiental"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/agosto/878553/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-7b5a1695b952620a021c",
+    "titulo": "O direito e a hipercomplexidade",
+    "autores": [
+      "Fagundez, Paulo Roney Ávila"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02f3ff41-452d-5126-a35f-73fabb24179b",
+        "data_registro_rvbi": "2026-07-29T21:47:57Z",
+        "titulo": "O direito e a hipercomplexidade",
+        "subtitulo": null,
+        "autores": [
+          "Fagundez, Paulo Roney Ávila"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788536103693"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aids aspectos jurídicos Brasil",
+          "Comportamento sexual aspectos jurídicos",
+          "Direito ambiental aspectos jurídicos Brasil",
+          "Ética aspectos jurídicos",
+          "Ética filosofia",
+          "Filosofia do direito",
+          "Hermenêutica Brasil",
+          "Holismo",
+          "Saúde aspectos jurídicos Brasil",
+          "Teoria do direito"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8fd243fafef2a8e7653f",
+    "titulo": "O FNO como possibilidade de desenvolvimento sustentável",
+    "autores": [
+      "Marques, Glauce Tadaiesky"
+    ],
+    "areas": [
+      "Ambiental"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0237fc43-9449-5c1f-a20a-63bd4924bcf1",
+        "data_registro_rvbi": "2026-08-03T14:22:44Z",
+        "titulo": "O FNO como possibilidade de desenvolvimento sustentável",
+        "subtitulo": "uma análise da atuação do gestor financeiro",
+        "autores": [
+          "Marques, Glauce Tadaiesky"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Paka-Tatu"
+        ],
+        "isbns": [
+          "9788587945426"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Desenvolvimento sustentável Amazônia",
+          "Direito ambiental Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5a24009a7eb576969344",
+    "titulo": "Responsabilidade civil por dano ao meio ambiente",
+    "autores": [
+      "Lemos, Patrícia Faga Iglecias"
+    ],
+    "areas": [
+      "Ambiental",
+      "Civil"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03653889-24a5-520e-9074-e27381adb3a2",
+        "data_registro_rvbi": "2026-08-02T04:46:43Z",
+        "titulo": "Responsabilidade civil por dano ao meio ambiente",
+        "subtitulo": null,
+        "autores": [
+          "Lemos, Patrícia Faga Iglecias"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "J. de Oliveira"
+        ],
+        "isbns": [
+          "9788574534190"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Civil",
+            "evidência": "título"
+          },
+          {
+            "nome": "Ambiental",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Proteção ambiental direito comparado Estados Unidos Itália Argentina",
+          "Proteção ambiental Brasil",
+          "Responsabilidade civil do Estado Brasil",
+          "Reparação do dano (direito ambiental) responsabilidade civil Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

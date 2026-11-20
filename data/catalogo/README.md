@@ -9,6 +9,10 @@ Este lote testa a expansão para Constitucional, Civil, Processo Civil, Administ
 
 O JSON preserva o estado produzido pelo importador. As decisões editoriais ficam no CSV. Ambos estão fora de `dist/`, a pasta servida pelo site.
 
+Para gerar as fichas bibliográficas pesquisáveis do piloto, execute `python scripts/gerar_fichas_rvbi.py` na raiz. O gerador organiza os registros por área, publica o link MARC de origem e preserva os ISBNs declarados. Registros com mais de um ISBN mantêm a lista da ficha até a confirmação do formato de cada um. A importação bibliográfica não cria recomendações temáticas.
+
+Os textos de orientação e as recomendações complementares ficam em `dist/catalogo/editorial.mjs`. Uma recomendação liga tema e obra, guarda o motivo editorial e aponta para a evidência da cobertura. A localização, quando confirmada, fica na referência da edição correspondente. Os guias citam suas fontes separadamente.
+
 ## Gerar outro lote
 
 Use Python 3 na raiz do repositório. O importador usa a biblioteca padrão.

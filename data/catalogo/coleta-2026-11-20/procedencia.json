@@ -1,0 +1,39 @@
+{
+  "data_coleta": "2026-11-20",
+  "fonte_rvbi": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/vocabulario-controlado-basico-e-classificacao-decimal-de-direito",
+  "resumo": {
+    "registros_lidos": 16000,
+    "paginas_coletadas": 160,
+    "registros_rvbi_incluidos": 1105,
+    "obras_agrupadas_estimativa": 1065,
+    "obras_da_base_anterior": 31,
+    "crescimento_em_obras_agrupadas": 1034,
+    "edicoes_editoriais": 47,
+    "isbns_distintos": 939,
+    "obras_por_area_inclui_sobreposicao": {
+      "Administrativo": 75,
+      "Agrário": 6,
+      "Ambiental": 28,
+      "Civil": 170,
+      "Constitucional": 121,
+      "Consumidor": 29,
+      "Digital": 10,
+      "Direitos Humanos": 73,
+      "Econômico": 23,
+      "Eleitoral": 10,
+      "Empresarial": 58,
+      "Financeiro": 34,
+      "Internacional": 61,
+      "Penal": 104,
+      "Previdenciário": 51,
+      "Processo Civil": 136,
+      "Processo Penal": 85,
+      "Processo do Trabalho": 13,
+      "Propriedade Intelectual": 25,
+      "Trabalho": 91,
+      "Tributário": 74,
+      "Urbanístico": 5
+    },
+    "novas_indicacoes_curadas": 17
+  }
+}

@@ -1,0 +1,1795 @@
+[
+  {
+    "id": "rvbi-e1efabc3e4166956b030",
+    "titulo": "30 anos do Estatuto da criança e do adolescente",
+    "autores": [
+      "Eliana dos Santos Alves Nogueira [e outros]"
+    ],
+    "areas": [
+      "Internacional",
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00c138ec-8060-50ed-92d7-e0277dd37170",
+        "data_registro_rvbi": "2026-07-31T12:16:36Z",
+        "titulo": "30 anos do Estatuto da criança e do adolescente",
+        "subtitulo": "a proteção integral sob a ótica do direito e do processo do trabalho",
+        "autores": [
+          "Eliana dos Santos Alves Nogueira [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "RTM"
+        ],
+        "isbns": [
+          "9786555090123"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Adolescente direitos e deveres Brasil",
+          "Competência (justiça do trabalho) Brasil",
+          "Contrato de aprendizagem Brasil",
+          "Direito internacional do trabalho",
+          "Direitos da criança Brasil",
+          "Profissionalização Brasil",
+          "Trabalho do menor Brasil",
+          "Trabalho infantil Brasil",
+          "Direitos do menor Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/150069",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-07-13;8069",
+            "rótulo_original": "LEI-008069 (1990)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-69420469270dec728e60",
+    "titulo": "Adoção internacional",
+    "autores": [
+      "Nazo, Georgette N"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029aaa51-1901-5fb8-b798-52feadbd7126",
+        "data_registro_rvbi": "2026-03-24T00:27:27Z",
+        "titulo": "Adoção internacional",
+        "subtitulo": "valor e importância das convenções internacionais vigentes no Brasil",
+        "autores": [
+          "Nazo, Georgette N"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1997,
+        "editoras": [
+          "Oliveira Mendes"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Adoção (direito internacional privado) Brasil",
+          "Adoção (direito internacional privado)",
+          "Adoção tratado Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-419d9755bde75d17b730",
+    "titulo": "Adoção Transnacional",
+    "autores": [
+      "Costa, Tarcísio José Martins"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/030df40f-89c9-5d07-a3a5-0dfd00f683e6",
+        "data_registro_rvbi": "2026-08-02T01:31:38Z",
+        "titulo": "Adoção Transnacional",
+        "subtitulo": "um estudo sociojurídico e comparativo da legislação atual",
+        "autores": [
+          "Costa, Tarcísio José Martins"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1998,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788573082159"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Adoção direito comparado",
+          "Adoção história",
+          "Adoção legislação",
+          "Direito internacional privado",
+          "Adoção"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1987-07-13;7613",
+            "rótulo_original": "LEI-007613 (1987)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d95eef554d6ec1d72d29",
+    "titulo": "Aspectos da ordem publica em direito internacional privado",
+    "autores": [
+      "Mendonça, Otávio"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/011e5200-5d0d-5934-81a4-e272806185e0",
+        "data_registro_rvbi": "2026-10-28T20:51:27Z",
+        "titulo": "Aspectos da ordem publica em direito internacional privado",
+        "subtitulo": null,
+        "autores": [
+          "Mendonça, Otávio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1951,
+        "editoras": [
+          "Oficinas Graf. da Rev. da Veterinaria"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ordem pública (direito internacional privado)"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c03fb05851a5708257c8",
+    "titulo": "Convenção coletiva de trabalho no direito brasileiro",
+    "autores": [
+      "Oliveira, Paulo Eduardo Vieira de"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00290749-f48f-5297-a2b5-37a9df190240",
+        "data_registro_rvbi": "2026-07-30T18:12:54Z",
+        "titulo": "Convenção coletiva de trabalho no direito brasileiro",
+        "subtitulo": "setor privado",
+        "autores": [
+          "Oliveira, Paulo Eduardo Vieira de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1996,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788573220834"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acordo coletivo de trabalho Brasil",
+          "Contrato coletivo de trabalho Brasil",
+          "Direito internacional do trabalho",
+          "Direito sindical Brasil",
+          "Negociação coletiva de trabalho Brasil",
+          "Normas internacionais do trabalho",
+          "Sindicato Brasil",
+          "Convenção coletiva de trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1943-05-01;5452",
+            "rótulo_original": "DEL-005452 (1943)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8ff75f94606d3c2a42f1",
+    "titulo": "Convenção de Haia",
+    "autores": [
+      "Tiburcio, Carmen"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02763df9-6ccd-5bee-a93e-e2b15144b1fd",
+        "data_registro_rvbi": "2026-03-24T01:14:58Z",
+        "titulo": "Convenção de Haia",
+        "subtitulo": "seqüestro internacional de menores",
+        "autores": [
+          "Tiburcio, Carmen"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Escola da Magistratura Regional Federal da 2ª Região"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público",
+          "Menor sequestro"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b8ed3105c7f8201b124b",
+    "titulo": "Curso de direito do trabalho",
+    "autores": [
+      "Leite, Carlos Henrique Bezerra"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/021ac985-43ea-5ce9-9043-150457f6ef62",
+        "data_registro_rvbi": "2026-11-17T23:40:16Z",
+        "titulo": "Curso de direito do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Leite, Carlos Henrique Bezerra"
+        ],
+        "edicao": "15. ed",
+        "volume": null,
+        "ano": 2023,
+        "editoras": [
+          "SaraivaJur"
+        ],
+        "isbns": [
+          "9786553626959"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional do trabalho",
+          "Direito sindical Brasil",
+          "Jurisprudência trabalhista Brasil",
+          "Legislação trabalhista Brasil",
+          "Direito do trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://integrada.minhabiblioteca.com.br/books/9786553626966",
+            "rótulo_original": "Acesso somente para usuários da biblioteca do Tribunal de Justiça do Distrito Federal e dos Territórios Acesso em: 9 maio 2023"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-01-12;9958",
+            "rótulo_original": "LEI-009958 (2000)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2017-07-13;13467",
+            "rótulo_original": "LEI-013467 (2017)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-09-20;13874",
+            "rótulo_original": "LEI-013874 (2019)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2020-07-06;14020",
+            "rótulo_original": "LEI-014020 (2020)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2020-08-19;14043",
+            "rótulo_original": "LEI-014043 (2020)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2020-08-24;14047",
+            "rótulo_original": "LEI-014047 (2020)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-dd754ca34f0c64a6128a",
+    "titulo": "Curso de direito internacional privado",
+    "autores": [
+      "Castro, Augusto Olympio Gomes de"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00f5884e-42e9-5f63-b56f-9a47476648b1",
+        "data_registro_rvbi": "2026-08-04T11:11:03Z",
+        "titulo": "Curso de direito internacional privado",
+        "subtitulo": null,
+        "autores": [
+          "Castro, Augusto Olympio Gomes de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1920,
+        "editoras": [
+          "Leite Ribeiro and Maurillo"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional privado"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d9ea28c7a9e9925fcada",
+    "titulo": "Curso de direito internacional público",
+    "autores": [
+      "Lambert, Jean Marie"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029152e4-e644-5bbb-8b87-e0ed6670272e",
+        "data_registro_rvbi": "2026-08-01T00:21:12Z",
+        "titulo": "Curso de direito internacional público",
+        "subtitulo": null,
+        "autores": [
+          "Lambert, Jean Marie"
+        ],
+        "edicao": "5. ed",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Kelps"
+        ],
+        "isbns": [
+          "9788590154174"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b69f1d77f1a446ddc520",
+    "titulo": "De olho na rua",
+    "autores": [
+      "Curvo, Isabelle Carvalho"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01fd84ac-aa2e-5484-80ac-16a4c6c134dc",
+        "data_registro_rvbi": "2026-01-16T17:50:02Z",
+        "titulo": "De olho na rua",
+        "subtitulo": "informalidades e as fronteiras do direito do trabalho",
+        "autores": [
+          "Curvo, Isabelle Carvalho"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "RTM"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Capitalismo",
+          "Condições de trabalho Brasil",
+          "Direito internacional do trabalho",
+          "Justiça do trabalho",
+          "Trabalho aspectos sociais",
+          "Vendedor ambulante Brasil",
+          "Trabalho informal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "https://hdl.handle.net/20.500.12178/254548",
+            "rótulo_original": "Texto integral (PDF) na JusLaboris / Tribunal Superior do Trabalho"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-690bbed7eb60bf0b9fa3",
+    "titulo": "Direito da integração e relações internacionais",
+    "autores": [
+      "Luiz Otávio Pimentel (organizador)"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0265974e-d4be-590e-ad09-eb3946e749f8",
+        "data_registro_rvbi": "2026-08-02T23:54:44Z",
+        "titulo": "Direito da integração e relações internacionais",
+        "subtitulo": "Alca, Mercosul e UE",
+        "autores": [
+          "Luiz Otávio Pimentel (organizador)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2001,
+        "editoras": [
+          "Fundação Boiteux"
+        ],
+        "isbns": [
+          "9788587995063"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Arbitragem internacional",
+          "Comércio eletrônico legislação Países do Mercosul",
+          "Controvérsia internacional",
+          "Globalização da economia",
+          "Integração econômica",
+          "Relações internacionais Países da União Europeia América Latina",
+          "Resolução de conflitos Países do Mercosul",
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1490179bbbc679c97f0b",
+    "titulo": "Direito internacional",
+    "autores": [
+      "Barroso, Darlan"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02b90d1d-33a7-5dee-9951-ca548e846150",
+        "data_registro_rvbi": "2026-08-02T22:27:36Z",
+        "titulo": "Direito internacional",
+        "subtitulo": null,
+        "autores": [
+          "Barroso, Darlan"
+        ],
+        "edicao": "3. ed., rev., ampl",
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520336885"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional privado",
+          "Direito internacional público",
+          "Direito internacional"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/28006",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2001-09-19;3927",
+            "rótulo_original": "DEC-003927 (2001)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-dd3b5318c3ed470edf77",
+    "titulo": "Direito internacional do trabalho",
+    "autores": [
+      "Alvarenga, Rúbia Zanotelli de"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00b4b0a5-5fb3-51f3-a996-68fb69088af5",
+        "data_registro_rvbi": "2026-07-31T06:52:58Z",
+        "titulo": "Direito internacional do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Alvarenga, Rúbia Zanotelli de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "Dialética"
+        ],
+        "isbns": [
+          "9786525262048"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Fontes do direito",
+          "Hierarquia das leis Brasil",
+          "Normas internacionais do trabalho",
+          "Tratado",
+          "Direito internacional do trabalho"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-21ec83d12fd838628c45",
+    "titulo": "Direito internacional dos refugiados",
+    "autores": [
+      "coordenadores Nádia de Araújo, Guilherme Assis de Almeida ; Alice Leal Wolf Geremberg [e outros]"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e25d8c-f737-56c7-b35b-cb366aa1e045",
+        "data_registro_rvbi": "2026-08-03T11:35:47Z",
+        "titulo": "Direito internacional dos refugiados",
+        "subtitulo": "uma perspectiva brasileira",
+        "autores": [
+          "coordenadores Nádia de Araújo, Guilherme Assis de Almeida ; Alice Leal Wolf Geremberg [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2001,
+        "editoras": [
+          "Renovar"
+        ],
+        "isbns": [
+          "9788571472389"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-793fb7eb57f6e645e72a",
+    "titulo": "Direito internacional na Constituição da República Federativa do Brasil de 1988 segundo a jurisprudência",
+    "autores": [
+      "Nohmi, Antônio Marcos"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0278e2b2-9880-5a3a-a98b-c7a1fbce46eb",
+        "data_registro_rvbi": "2026-08-01T01:42:04Z",
+        "titulo": "Direito internacional na Constituição da República Federativa do Brasil de 1988 segundo a jurisprudência",
+        "subtitulo": null,
+        "autores": [
+          "Nohmi, Antônio Marcos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "D´Plácido"
+        ],
+        "isbns": [
+          "9788584253357"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público jurisprudência Brasil",
+          "Jurisprudência aspectos constitucionais Brasil",
+          "Direito internacional público aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8d9061badc2325f39285",
+    "titulo": "Direito internacional público",
+    "autores": [
+      "Aras, Vladimir"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01a0a504-98a1-5230-8df0-974b7f148095",
+        "data_registro_rvbi": "2026-07-31T22:59:12Z",
+        "titulo": "Direito internacional público",
+        "subtitulo": null,
+        "autores": [
+          "Aras, Vladimir"
+        ],
+        "edicao": "2. ed., rev., atual. e reform",
+        "volume": null,
+        "ano": 2023,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9786559646494"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Conflito internacional",
+          "Direito internacional público interpretação",
+          "Direito internacional aspectos ambientais",
+          "Estado (ciência política)",
+          "Imunidade (direito internacional público)",
+          "Integração regional",
+          "Migrante aspectos jurídicos",
+          "Organização internacional",
+          "Responsabilidade internacional do Estado",
+          "Tratado",
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://stj.minhabiblioteca.com.br",
+            "rótulo_original": "Versão eletrônica restrita a usuários do Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/175073",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "portela-internacional",
+    "titulo": "Direito Internacional Público e Privado",
+    "autores": [
+      "Paulo Henrique Gonçalves Portela"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Internacional",
+        "obra_id": "portela-internacional",
+        "titulo": "Direito Internacional Público e Privado",
+        "autoria": "Paulo Henrique Gonçalves Portela",
+        "ano": "2026",
+        "numero_edicao": "18",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544270646",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela",
+        "funcao_editorial": "Introdução aos dois ramos do Direito Internacional",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-d7a2468eb5572cdabe7d",
+    "titulo": "Direito internacional, terrorismo e aviação civil",
+    "autores": [
+      "Casella, Paulo Borba"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/017180e4-e8a3-5896-9af3-f8cb6c1f2aaf",
+        "data_registro_rvbi": "2026-07-31T07:02:21Z",
+        "titulo": "Direito internacional, terrorismo e aviação civil",
+        "subtitulo": null,
+        "autores": [
+          "Casella, Paulo Borba"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Quartier Latin"
+        ],
+        "isbns": [
+          "9788576741688"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aviação",
+          "Contrafação",
+          "Contrafação Brasil",
+          "Direito internacional aéreo",
+          "Terrorismo internacional",
+          "Terrorismo",
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-416a801e2caab72fa39d",
+    "titulo": "Direito tributário internacional",
+    "autores": [
+      "Kinchescki, Cristiano"
+    ],
+    "areas": [
+      "Internacional",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03008238-056d-5d50-98e5-8abd38e0fa88",
+        "data_registro_rvbi": "2026-08-01T21:33:48Z",
+        "titulo": "Direito tributário internacional",
+        "subtitulo": "os tratados de direito tributário e a ordem jurídica nacional",
+        "autores": [
+          "Kinchescki, Cristiano"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Conceito"
+        ],
+        "isbns": [
+          "9788578741754"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público",
+          "Direito tributário tratado regime jurídico",
+          "Direito tributário tratado Brasil",
+          "Legislação tributária Brasil",
+          "Princípio da legalidade natureza fiscal Brasil",
+          "Sistema tributário Brasil",
+          "Direito tributário tratado"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/38848",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966) ART 00098"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1554677b941568df0dd6",
+    "titulo": "Direito tributário internacional do Brasil",
+    "autores": [
+      "Xavier, Alberto"
+    ],
+    "areas": [
+      "Internacional",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01ef457b-5cb3-511a-ab7f-9624912d7334",
+        "data_registro_rvbi": "2026-08-02T09:45:29Z",
+        "titulo": "Direito tributário internacional do Brasil",
+        "subtitulo": "tributação das operações internacionais",
+        "autores": [
+          "Xavier, Alberto"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 1994,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530902360"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário",
+          "Imposto de renda",
+          "Tributação (direito internacional privado)"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-18d4e1602762915cb18a",
+    "titulo": "Estudos de direito internacional",
+    "autores": [
+      "Wagner Menezes (coordenador)"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/031ca074-0541-56d5-8708-c6fcf6dc4ca8",
+        "data_registro_rvbi": "2026-07-30T02:14:35Z",
+        "titulo": "Estudos de direito internacional",
+        "subtitulo": "anais do 9º Congresso Brasileiro de Direito Internacional, 2011",
+        "autores": [
+          "Wagner Menezes (coordenador)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536234526"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público Brasil congresso coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/8420",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029f5244-1833-556b-81f3-5bd12457c53e",
+        "data_registro_rvbi": "2026-08-02T16:37:38Z",
+        "titulo": "Estudos de direito internacional",
+        "subtitulo": "anais do 3º Congresso Brasileiro de Direito Internacional, 2005",
+        "autores": [
+          "Wagner Menezes (coordenador)"
+        ],
+        "edicao": "1. ed., 2. tiragem",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536210636"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional privado Brasil congresso coletânea",
+          "Direito internacional público Brasil congresso coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-503208d1e849e27580d6",
+    "titulo": "Estudos de direito internacional",
+    "autores": [
+      "Wagner Menezes (organizador)"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0156d6a6-1357-52e5-a7e9-d21acdc59c0a",
+        "data_registro_rvbi": "2026-08-02T04:27:21Z",
+        "titulo": "Estudos de direito internacional",
+        "subtitulo": "anais do 2º Congresso Brasileiro de Direito Internacional",
+        "autores": [
+          "Wagner Menezes (organizador)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536207841",
+          "9788536207858"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional privado Brasil congresso coletânea",
+          "Direito internacional público Brasil congresso coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d19699282437437ce6e4",
+    "titulo": "Iniciação ao direito do trabalho",
+    "autores": [
+      "Nascimento, Amauri Mascaro"
+    ],
+    "areas": [
+      "Internacional",
+      "Previdenciário",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e74cd2-fc17-5632-856e-056445022341",
+        "data_registro_rvbi": "2026-11-13T16:43:31Z",
+        "titulo": "Iniciação ao direito do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Nascimento, Amauri Mascaro"
+        ],
+        "edicao": "28. ed rev. e atual",
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788536102054"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Conflito trabalhista Brasil",
+          "Contrato individual de trabalho Brasil",
+          "Direito do trabalho história Brasil",
+          "Direito do trabalho Brasil questionário",
+          "Direito internacional do trabalho",
+          "Direito sindical Brasil",
+          "Jornada de trabalho Brasil",
+          "Justiça do trabalho Brasil",
+          "Legislação trabalhista Brasil",
+          "Ordenamento jurídico Brasil",
+          "Previdência social Brasil",
+          "Relação de emprego Brasil",
+          "Salário Brasil",
+          "Direito do trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/73996",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0b794888d0c6ca8889c1",
+    "titulo": "Jurisprudência brasileira de direito internacional privado",
+    "autores": [
+      "Alexandre Couto Silva [e outros]"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01aee1a3-002d-5eb1-815a-4225c160b3ff",
+        "data_registro_rvbi": "2026-07-30T21:16:21Z",
+        "titulo": "Jurisprudência brasileira de direito internacional privado",
+        "subtitulo": "1985-1995",
+        "autores": [
+          "Alexandre Couto Silva [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1995,
+        "editoras": [
+          "Universidade Federal de Minas Gerais, Faculdade de Direito"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional privado jurisprudência Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9ec83d52b56f8111ce3c",
+    "titulo": "Manual de direito do trabalho",
+    "autores": [
+      "Jorge Neto, Francisco Ferreira"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/031628a1-d08b-5f6e-9b5a-082765de6ff9",
+        "data_registro_rvbi": "2026-07-30T03:02:20Z",
+        "titulo": "Manual de direito do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Jorge Neto, Francisco Ferreira"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788573873580"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração pública Brasil",
+          "Contrato de trabalho Brasil",
+          "Direito do trabalho história Brasil",
+          "Direito internacional do trabalho",
+          "Relação de trabalho Brasil",
+          "Direito do trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-bf523b4a04555151a771",
+    "titulo": "Manual de direito do trabalho",
+    "autores": [
+      "Garcia, Gustavo Filipe Barbosa"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0313a8bf-de19-57c3-b2d7-3e07266e7cef",
+        "data_registro_rvbi": "2026-08-03T08:52:42Z",
+        "titulo": "Manual de direito do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Garcia, Gustavo Filipe Barbosa"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Gen",
+          "Método"
+        ],
+        "isbns": [
+          "9788530930813"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contrato de trabalho Brasil",
+          "Direito internacional do trabalho",
+          "Jornada de trabalho Brasil",
+          "Política salarial Brasil",
+          "Relação de trabalho Brasil",
+          "Segurança do trabalho Brasil",
+          "Trabalho feminino Brasil",
+          "Trabalho infantil Brasil",
+          "Direito do trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c34e59ca9571b92e6b94",
+    "titulo": "Manual de direito do trabalho",
+    "autores": [
+      "Prazeres, Irley Aparecida Correia"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007c4aca-742e-5ecf-b03e-29c7d9c799c7",
+        "data_registro_rvbi": "2026-07-29T08:42:12Z",
+        "titulo": "Manual de direito do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Prazeres, Irley Aparecida Correia"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Rideel"
+        ],
+        "isbns": [
+          "9788533950757"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contrato de trabalho suspensão Brasil",
+          "Contrato de trabalho Brasil",
+          "Direito internacional do trabalho",
+          "Direito sindical Brasil",
+          "Greve Brasil",
+          "Segurança do trabalho Brasil",
+          "Direito do trabalho Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-215df30d085ba97e283b",
+    "titulo": "Negociação coletiva transnacional na União Europeia",
+    "autores": [
+      "Buggenhout, Gothardo Backx van"
+    ],
+    "areas": [
+      "Internacional",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0002747d-042f-45bd-8333-f389c6eb842b",
+        "data_registro_rvbi": "2026-08-04T02:56:08Z",
+        "titulo": "Negociação coletiva transnacional na União Europeia",
+        "subtitulo": null,
+        "autores": [
+          "Buggenhout, Gothardo Backx van"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [
+          "9789894028345"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Negociação coletiva de trabalho Países da União Europeia",
+          "Direito do trabalho história Países da União Europeia",
+          "Direito do trabalho aspectos políticos Países da União Europeia",
+          "Direito comunitário Países da União Europeia",
+          "Dumping social Países da União Europeia",
+          "Empresa multinacional Países da União Europeia",
+          "Relação de trabalho Países da União Europeia",
+          "Trabalhador proteção Países da União Europeia",
+          "Sindicato Países da União Europeia"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9b41f28aab129b2c93e4",
+    "titulo": "O Direito internacional dos refugiados e o Brasil",
+    "autores": [
+      "Annoni, Danielle"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01fba1a9-5a92-5e53-8c6f-117d7a8ea081",
+        "data_registro_rvbi": "2026-08-01T13:03:29Z",
+        "titulo": "O Direito internacional dos refugiados e o Brasil",
+        "subtitulo": null,
+        "autores": [
+          "Annoni, Danielle"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536240398"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito de asilo história",
+          "Direito internacional público",
+          "Refugiado",
+          "Refugiado proteção história"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=961961",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-07-22;9474",
+            "rótulo_original": "LEI-009474 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8256263127c3e7381be4",
+    "titulo": "OMC e indústria nacional",
+    "autores": [
+      "Brogini, Gilvan Damiani"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0028b4bc-2fc4-5614-a418-09487eb9beea",
+        "data_registro_rvbi": "2026-08-01T06:35:44Z",
+        "titulo": "OMC e indústria nacional",
+        "subtitulo": "as salvaguardas para o desenvolvimento",
+        "autores": [
+          "Brogini, Gilvan Damiani"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Aduaneiras"
+        ],
+        "isbns": [
+          "9788571294233"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Comércio exterior",
+          "Desenvolvimento econômico",
+          "Indústria",
+          "Salvaguarda (direito internacional público) Países em desenvolvimento"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9a613fd7838591222a51",
+    "titulo": "Princípios do Unidroit e sua aplicabilidade aos contratos internacionais de transporte marítimo e de compra e venda de mercadorias",
+    "autores": [
+      "Pereira, Jailson"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02736d48-b522-5ab4-a364-a2091e39138f",
+        "data_registro_rvbi": "2026-08-02T01:15:31Z",
+        "titulo": "Princípios do Unidroit e sua aplicabilidade aos contratos internacionais de transporte marítimo e de compra e venda de mercadorias",
+        "subtitulo": null,
+        "autores": [
+          "Pereira, Jailson"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Appris"
+        ],
+        "isbns": [
+          "9788581925547"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Comércio internacional normas",
+          "Direito internacional privado",
+          "Interpretação dos contratos",
+          "Transporte marítimo internacional contratação",
+          "Contrato comercial"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b9e665bc1aa431e2af02",
+    "titulo": "Raul Fernandes",
+    "autores": [
+      "Fernandes, Raul"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/011f01f7-3b2a-5d9b-a0d5-587d50de528a",
+        "data_registro_rvbi": "2026-07-29T08:59:14Z",
+        "titulo": "Raul Fernandes",
+        "subtitulo": "nonagésimo aniversário",
+        "autores": [
+          "Fernandes, Raul"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1967,
+        "editoras": [
+          "Ministério das Relações Exteriores, Comissão Nacional Incubida das Comemorações Oficiais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito internacional público",
+          "Político Brasil biografia",
+          "Relações exteriores Brasil",
+          "Diplomata Brasil biografia"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0dacb66dec3e814351b8",
+    "titulo": "Repertório da prática brasileira do direito internacional público",
+    "autores": [
+      "Trindade, Antônio Augusto Cançado"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e1bcc3-dbaf-514c-af0b-484d97537e4d",
+        "data_registro_rvbi": "2026-07-31T05:56:19Z",
+        "titulo": "Repertório da prática brasileira do direito internacional público",
+        "subtitulo": "(período 1889-1898)",
+        "autores": [
+          "Trindade, Antônio Augusto Cançado"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Fundação Alexandre de Gusmão"
+        ],
+        "isbns": [
+          "9788576313670"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "História diplomática Brasil",
+          "Organização internacional",
+          "Política externa Brasil",
+          "Direito internacional público"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/192981",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e2ee7ed833d42e11570e",
+    "titulo": "Terrorismo e justiça penal",
+    "autores": [
+      "Antonio Scarance Fernandes, Marcos Zilli, coordenadores"
+    ],
+    "areas": [
+      "Internacional"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02aadec3-287e-51d2-8ba3-f9b0750e9930",
+        "data_registro_rvbi": "2025-07-30T10:14:42Z",
+        "titulo": "Terrorismo e justiça penal",
+        "subtitulo": "reflexões sobre a eficiência e o garantismo",
+        "autores": [
+          "Antonio Scarance Fernandes, Marcos Zilli, coordenadores"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2014,
+        "editoras": [
+          "Fórum"
+        ],
+        "isbns": [
+          "9788577008445"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Internacional",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Segurança internacional",
+          "Terrorismo internacional coletânea",
+          "Terrorismo (direito internacional penal) coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.forumconhecimento.com.br/v2/livro/L1220/E1253",
+            "rótulo_original": "Acesso restrito aos computadores da Câmara dos Deputados"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

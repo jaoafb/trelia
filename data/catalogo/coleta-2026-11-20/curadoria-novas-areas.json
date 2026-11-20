@@ -1,0 +1,575 @@
+{
+  "edicoes": [
+    {
+      "area": "Econômico",
+      "obra_id": "bensoussan-gouvea-luz",
+      "titulo": "Manual de Direito Econômico",
+      "autoria": "Fabio Bensoussan, Marcus de Freitas Gouvêa e Reinaldo Diogo Luz",
+      "ano": "2026",
+      "numero_edicao": "9",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544271858",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-economico-2026-bensoussan-gouvea-luz",
+      "funcao_editorial": "Manual de referência para ordem econômica e concorrência",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Econômico",
+      "obra_id": "vilela-economico",
+      "titulo": "Direito Econômico — Sinopses para Concursos",
+      "autoria": "Danilo Vieira Vilela",
+      "ano": "2026",
+      "numero_edicao": "8",
+      "volume": "31 da coleção",
+      "formato": "Impresso",
+      "isbn13": "9788544274644",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/sinopses-para-concursos-v31-direito-economico-2026-vilela",
+      "funcao_editorial": "Revisão da atuação estatal",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Econômico",
+      "obra_id": "forgioni-antitruste",
+      "titulo": "Os Fundamentos do Antitruste",
+      "autoria": "Paula A. Forgioni",
+      "ano": "2025",
+      "numero_edicao": "14",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9786526028636",
+      "fonte_bibliografica": "https://www.livrariart.com.br/os-fundamentos-do-antitruste-14a-edicao-9786526028636/p",
+      "funcao_editorial": "Aprofundamento em defesa da concorrência",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Ambiental",
+      "obra_id": "farias-licenciamento",
+      "titulo": "Licenciamento Ambiental: Aspectos Teóricos e Práticos",
+      "autoria": "Talden Farias",
+      "ano": "2026",
+      "numero_edicao": "11",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544276280",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias",
+      "funcao_editorial": "Estudo específico de licenciamento",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Empresarial",
+      "obra_id": "campinho-falencia",
+      "titulo": "Curso de Direito Comercial — Falência e Recuperação de Empresa",
+      "autoria": "Sérgio Campinho",
+      "ano": "2026",
+      "numero_edicao": "16",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9786584004641",
+      "fonte_bibliografica": "https://www.grupogen.com.br/livro-curso-de-direito-comercial-falencia-e-recuperacao-de-empresa-16-edicao-2026-sergio-campinho-saraiva-jur-9786584004641",
+      "funcao_editorial": "Leitura sistemática de recuperação e falência",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Empresarial",
+      "obra_id": "salomao-santos-recuperacao",
+      "titulo": "Recuperação Judicial, Extrajudicial e Falência — Teoria e Prática",
+      "autoria": "Luis Felipe Salomão e Paulo Penalva Santos",
+      "ano": "2026",
+      "numero_edicao": "9",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788530999698",
+      "fonte_bibliografica": "https://www.grupogen.com.br/livro-recuperacao-judicial-extrajudicial-e-falencia-teoria-e-pratica-9-edicao-2026-luis-felipe-salomao-e-paulo-penalva-santos-editora-forense-9788530999698",
+      "funcao_editorial": "Exemplos de aplicação e jurisprudência",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Digital",
+      "obra_id": "tamer-dados",
+      "titulo": "Manual de Direito da Proteção de Dados Pessoais",
+      "autoria": "Mauricio Tamer",
+      "ano": "2025",
+      "numero_edicao": "1",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9786553629943",
+      "fonte_bibliografica": "https://www.grupogen.com.br/livro-manual-de-direito-da-protecao-de-dados-pessoais-1-edicao-2025-mauricio-tamer-saraiva-jur-9786553629943",
+      "funcao_editorial": "Estudo das bases legais e da LGPD",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Processo Penal",
+      "obra_id": "rangel-processo-penal",
+      "titulo": "Direito Processual Penal",
+      "autoria": "Paulo Rangel",
+      "ano": "2027",
+      "numero_edicao": "31",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544279267",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/direito-processual-penal-2027-paulo-rangel",
+      "funcao_editorial": "Referência sobre prova no processo penal",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Previdenciário",
+      "obra_id": "cardoso-previdenciario",
+      "titulo": "Manual de Direito Previdenciário",
+      "autoria": "Phelipe Cardoso",
+      "ano": "2026",
+      "numero_edicao": "7",
+      "volume": "Único",
+      "formato": "Impresso",
+      "isbn13": "9788544271131",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso",
+      "funcao_editorial": "Visão sistemática dos regimes previdenciários",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Previdenciário",
+      "obra_id": "garcia-previdenciario",
+      "titulo": "Manual de Direito Previdenciário",
+      "autoria": "Gustavo Filipe Barbosa Garcia",
+      "ano": "2026",
+      "numero_edicao": "10",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544269237",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-2026-garcia",
+      "funcao_editorial": "Introdução à seguridade social",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Consumidor",
+      "obra_id": "melo-dano-moral-consumo",
+      "titulo": "Dano Moral nas Relações de Consumo",
+      "autoria": "Nehemias Domingos de Melo",
+      "ano": "2026",
+      "numero_edicao": "4",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544277737",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/dano-moral-nas-relacoes-de-consumo-2026-melo",
+      "funcao_editorial": "Aprofundamento em responsabilidade nas relações de consumo",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Consumidor",
+      "obra_id": "netto-consumidor",
+      "titulo": "Manual de Direito do Consumidor à luz da Jurisprudência do STJ",
+      "autoria": "Felipe Braga Netto",
+      "ano": "2026",
+      "numero_edicao": "21",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544270042",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-do-consumidor-a-luz-da-jurisprudencia-do-stj-2026-netto",
+      "funcao_editorial": "Leitura de doutrina e jurisprudência sobre consumo",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Financeiro",
+      "obra_id": "leite-financeiro",
+      "titulo": "Manual de Direito Financeiro",
+      "autoria": "Harrison Leite",
+      "ano": "2026",
+      "numero_edicao": "15",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544270752",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite",
+      "funcao_editorial": "Introdução ao orçamento e à atividade financeira estatal",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Eleitoral",
+      "obra_id": "zilio-eleitoral",
+      "titulo": "Manual de Direito Eleitoral",
+      "autoria": "Rodrigo López Zilio",
+      "ano": "2026",
+      "numero_edicao": "12",
+      "volume": "Único",
+      "formato": "Impresso",
+      "isbn13": "9788544273098",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio",
+      "funcao_editorial": "Referência para o estudo das eleições",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    },
+    {
+      "area": "Internacional",
+      "obra_id": "portela-internacional",
+      "titulo": "Direito Internacional Público e Privado",
+      "autoria": "Paulo Henrique Gonçalves Portela",
+      "ano": "2026",
+      "numero_edicao": "18",
+      "volume": "",
+      "formato": "Impresso",
+      "isbn13": "9788544270646",
+      "fonte_bibliografica": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela",
+      "funcao_editorial": "Introdução aos dois ramos do Direito Internacional",
+      "acesso_publico": "Ficha editorial pública",
+      "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+      "status_revisao": "Edição conferida em fonte editorial"
+    }
+  ],
+  "temas": [
+    {
+      "area": "Econômico",
+      "tema_id": "ordem-economica",
+      "busca": "O que é a ordem econômica na Constituição?",
+      "sinonimos": [
+        "ordem econômica constitucional",
+        "Constituição econômica"
+      ],
+      "introducao_rascunho": "A ordem econômica é o conjunto de princípios e regras que orienta a atividade econômica e a atuação do Estado. Uma leitura introdutória pode começar pela relação entre livre iniciativa, livre concorrência e os demais princípios constitucionais.",
+      "status_guia": "Rascunho para revisão de texto e fontes",
+      "fontes_guia": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm#art170"
+      ]
+    },
+    {
+      "area": "Econômico",
+      "tema_id": "intervencao-estado-economia",
+      "busca": "Como o Estado intervém na economia?",
+      "sinonimos": [
+        "intervenção estatal na economia",
+        "intervenção direta e indireta"
+      ],
+      "introducao_rascunho": "A distinção entre intervenção direta e indireta ajuda a organizar o estudo. Compare as situações em que o Estado exerce uma atividade econômica com aquelas em que orienta ou regula a atividade de outros agentes.",
+      "status_guia": "Rascunho para revisão de texto e fontes",
+      "fontes_guia": [
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm#art173"
+      ]
+    },
+    {
+      "area": "Econômico",
+      "tema_id": "defesa-concorrencia",
+      "busca": "O que é defesa da concorrência?",
+      "sinonimos": [
+        "antitruste",
+        "direito concorrencial",
+        "defesa da concorrência"
+      ],
+      "introducao_rascunho": "O Direito da Concorrência estuda como preservar a competição nos mercados. Duas perguntas de partida são como analisar os efeitos de uma fusão e como avaliar uma conduta que possa prejudicar a concorrência.",
+      "status_guia": "Rascunho para revisão de texto e fontes",
+      "fontes_guia": [
+        "https://www.gov.br/cade/pt-br/acesso-a-informacao/perguntas-frequentes/perguntas-sobre-defesa-da-concorrencia"
+      ]
+    },
+    {
+      "area": "Ambiental",
+      "tema_id": "licenciamento-ambiental",
+      "busca": "Onde estudar licenciamento ambiental?",
+      "sinonimos": [
+        "licenciamento ambiental",
+        "licença ambiental"
+      ],
+      "introducao_rascunho": "O licenciamento é um procedimento de avaliação ambiental. Para começar, vale distinguir o procedimento, os estudos que o instruem e as licenças que podem resultar dele.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Empresarial",
+      "tema_id": "recuperacao-judicial",
+      "busca": "Onde estudar recuperação judicial de empresas?",
+      "sinonimos": [
+        "recuperação judicial",
+        "reorganização da empresa"
+      ],
+      "introducao_rascunho": "A recuperação judicial reúne mecanismos para reorganizar a atividade empresarial diante de uma crise. Comece pela abertura do processo e depois compare o papel do plano, dos credores e do juízo.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Digital",
+      "tema_id": "bases-legais-lgpd",
+      "busca": "Quais são as bases legais da LGPD?",
+      "sinonimos": [
+        "bases legais de tratamento",
+        "consentimento",
+        "legítimo interesse"
+      ],
+      "introducao_rascunho": "As bases legais são hipóteses que autorizam o tratamento de dados pessoais em contextos diferentes. Para estudar o tema, compare primeiro consentimento e legítimo interesse e depois veja as demais hipóteses.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Processo Penal",
+      "tema_id": "cadeia-custodia",
+      "busca": "O que é cadeia de custódia da prova?",
+      "sinonimos": [
+        "cadeia de custódia",
+        "cadeia de custódia da prova"
+      ],
+      "introducao_rascunho": "O tema trata da documentação do percurso de um vestígio. Acompanhar esse percurso ajuda a entender como se examinam a origem e a integridade da prova.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Previdenciário",
+      "tema_id": "regimes-previdenciarios",
+      "busca": "Onde estudar os regimes previdenciários?",
+      "sinonimos": [
+        "regimes previdenciários",
+        "RGPS",
+        "RPPS",
+        "previdência complementar"
+      ],
+      "introducao_rascunho": "Uma forma de começar é distinguir o Regime Geral, os regimes próprios de servidores e a previdência complementar. Depois, compare quem cada regime abrange e como ele se organiza.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Previdenciário",
+      "tema_id": "seguridade-social",
+      "busca": "Qual a relação entre seguridade social e previdência?",
+      "sinonimos": [
+        "seguridade social",
+        "previdência assistência e saúde"
+      ],
+      "introducao_rascunho": "O estudo da seguridade social abrange previdência, saúde e assistência social. Vale identificar a função de cada uma antes de aprofundar regras de benefícios.",
+      "status_guia": "Rascunho para revisão de texto e fontes"
+    },
+    {
+      "area": "Consumidor",
+      "tema_id": "dano-moral-consumo",
+      "busca": "Onde estudar dano moral nas relações de consumo?",
+      "sinonimos": [
+        "dano moral do consumidor",
+        "responsabilidade nas relações de consumo"
+      ],
+      "introducao_rascunho": null,
+      "status_guia": "Em aberto"
+    },
+    {
+      "area": "Financeiro",
+      "tema_id": "orcamento-publico",
+      "busca": "Onde estudar orçamento público?",
+      "sinonimos": [
+        "orçamento público",
+        "orçamento estatal",
+        "atividade financeira do Estado"
+      ],
+      "introducao_rascunho": null,
+      "status_guia": "Em aberto"
+    },
+    {
+      "area": "Eleitoral",
+      "tema_id": "inelegibilidades",
+      "busca": "Onde estudar inelegibilidades eleitorais?",
+      "sinonimos": [
+        "inelegibilidades",
+        "condições de elegibilidade"
+      ],
+      "introducao_rascunho": null,
+      "status_guia": "Em aberto"
+    },
+    {
+      "area": "Internacional",
+      "tema_id": "internacional-publico-privado",
+      "busca": "Qual a diferença entre Direito Internacional Público e Privado?",
+      "sinonimos": [
+        "direito internacional público e privado",
+        "introdução ao direito internacional"
+      ],
+      "introducao_rascunho": null,
+      "status_guia": "Em aberto"
+    }
+  ],
+  "indicacoes": [
+    {
+      "tema_id": "ordem-economica",
+      "obra_id": "bensoussan-gouvea-luz",
+      "isbn13": "9788544271858",
+      "motivo_editorial": "Manual de referência para ordem econômica e concorrência",
+      "localizacao": "Cap. 3",
+      "pagina_inicial": 133,
+      "fonte": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf#page=2",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "intervencao-estado-economia",
+      "obra_id": "bensoussan-gouvea-luz",
+      "isbn13": "9788544271858",
+      "motivo_editorial": "Manual de referência para ordem econômica e concorrência",
+      "localizacao": "Cap. 3, seção 3",
+      "pagina_inicial": 168,
+      "fonte": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf#page=2",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "intervencao-estado-economia",
+      "obra_id": "vilela-economico",
+      "isbn13": "9788544274644",
+      "motivo_editorial": "Revisão da atuação estatal",
+      "localizacao": "Cap. 3, intervenção direta",
+      "pagina_inicial": 121,
+      "fonte": "https://juspodivmdigital.com.br/cdn/pdf/JUS5300-Sumario.pdf#page=2",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "defesa-concorrencia",
+      "obra_id": "bensoussan-gouvea-luz",
+      "isbn13": "9788544271858",
+      "motivo_editorial": "Manual de referência para ordem econômica e concorrência",
+      "localizacao": "Cap. 10",
+      "pagina_inicial": 671,
+      "fonte": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf#page=6",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "defesa-concorrencia",
+      "obra_id": "forgioni-antitruste",
+      "isbn13": "9786526028636",
+      "motivo_editorial": "Aprofundamento em defesa da concorrência",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.livrariart.com.br/os-fundamentos-do-antitruste-14a-edicao-9786526028636/p",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "licenciamento-ambiental",
+      "obra_id": "farias-licenciamento",
+      "isbn13": "9788544276280",
+      "motivo_editorial": "Estudo específico de licenciamento",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "recuperacao-judicial",
+      "obra_id": "campinho-falencia",
+      "isbn13": "9786584004641",
+      "motivo_editorial": "Leitura sistemática de recuperação e falência",
+      "localizacao": "Cap. 10",
+      "pagina_inicial": null,
+      "fonte": "https://www.grupogen.com.br/livro-curso-de-direito-comercial-falencia-e-recuperacao-de-empresa-16-edicao-2026-sergio-campinho-saraiva-jur-9786584004641",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "recuperacao-judicial",
+      "obra_id": "salomao-santos-recuperacao",
+      "isbn13": "9788530999698",
+      "motivo_editorial": "Exemplos de aplicação e jurisprudência",
+      "localizacao": "Cap. I",
+      "pagina_inicial": null,
+      "fonte": "https://www.grupogen.com.br/livro-recuperacao-judicial-extrajudicial-e-falencia-teoria-e-pratica-9-edicao-2026-luis-felipe-salomao-e-paulo-penalva-santos-editora-forense-9788530999698",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "bases-legais-lgpd",
+      "obra_id": "tamer-dados",
+      "isbn13": "9786553629943",
+      "motivo_editorial": "Estudo das bases legais e da LGPD",
+      "localizacao": "Caps. 8 a 10",
+      "pagina_inicial": null,
+      "fonte": "https://www.grupogen.com.br/livro-manual-de-direito-da-protecao-de-dados-pessoais-1-edicao-2025-mauricio-tamer-saraiva-jur-9786553629943",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "cadeia-custodia",
+      "obra_id": "rangel-processo-penal",
+      "isbn13": "9788544279267",
+      "motivo_editorial": "Referência sobre prova no processo penal",
+      "localizacao": "Seção 6.14",
+      "pagina_inicial": 532,
+      "fonte": "https://juspodivmdigital.com.br/cdn/pdf/JUS5855-Sumario.pdf#page=7",
+      "evidencia": "Entrada do sumário editorial desta edição"
+    },
+    {
+      "tema_id": "regimes-previdenciarios",
+      "obra_id": "cardoso-previdenciario",
+      "isbn13": "9788544271131",
+      "motivo_editorial": "Visão sistemática dos regimes previdenciários",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "seguridade-social",
+      "obra_id": "garcia-previdenciario",
+      "isbn13": "9788544269237",
+      "motivo_editorial": "Introdução à seguridade social",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-2026-garcia",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "dano-moral-consumo",
+      "obra_id": "melo-dano-moral-consumo",
+      "isbn13": "9788544277737",
+      "motivo_editorial": "Aprofundamento em responsabilidade nas relações de consumo",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/dano-moral-nas-relacoes-de-consumo-2026-melo",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "orcamento-publico",
+      "obra_id": "leite-financeiro",
+      "isbn13": "9788544270752",
+      "motivo_editorial": "Introdução ao orçamento e à atividade financeira estatal",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "inelegibilidades",
+      "obra_id": "zilio-eleitoral",
+      "isbn13": "9788544273098",
+      "motivo_editorial": "Referência para o estudo das eleições",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "internacional-publico-privado",
+      "obra_id": "portela-internacional",
+      "isbn13": "9788544270646",
+      "motivo_editorial": "Introdução aos dois ramos do Direito Internacional",
+      "localizacao": null,
+      "pagina_inicial": null,
+      "fonte": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela",
+      "evidencia": "Escopo descrito na ficha editorial; localização em aberto"
+    },
+    {
+      "tema_id": "ordem-economica",
+      "obra_id": "barroso",
+      "isbn13": "9786551771613",
+      "motivo_editorial": "Complementa o manual com o enquadramento constitucional da atividade econômica.",
+      "localizacao": "Parte VI, cap. I",
+      "pagina_inicial": null,
+      "fonte": "https://www.grupogen.com.br/livro-curso-de-direito-constitucional-contemporaneo-14-edicao-2026-luis-roberto-barroso-saraiva-jur-9786551771613",
+      "evidencia": "Sumário da ficha do impresso, capítulo sobre a ordem econômica na Constituição."
+    }
+  ]
+}

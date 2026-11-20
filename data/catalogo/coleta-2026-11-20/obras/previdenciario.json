@@ -1,0 +1,2516 @@
+[
+  {
+    "id": "rvbi-da51c0820badce127c4d",
+    "titulo": "Acidentes do trabalho e doenças ocupacionais",
+    "autores": [
+      "Monteiro, Antonio Lopes"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00fa3cd6-9b7f-462d-a91b-36b836c6713d",
+        "data_registro_rvbi": "2026-11-16T21:35:09Z",
+        "titulo": "Acidentes do trabalho e doenças ocupacionais",
+        "subtitulo": "conceito, processos de conhecimento e de execução e suas questões polêmicas",
+        "autores": [
+          "Monteiro, Antonio Lopes"
+        ],
+        "edicao": "12. edição",
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Saraiva jur"
+        ],
+        "isbns": [
+          "9786553628595"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acidente do trabalho Brasil",
+          "Doença profissional Brasil",
+          "Indenização por acidente Brasil",
+          "Acidente do trabalho jurisprudência Brasil",
+          "Assédio moral acidentário Brasil",
+          "Distúrbios osteomusculares relacionados ao trabalho (Dort) Brasil",
+          "Doença profissional jurisprudência Brasil",
+          "Previdência social legislação Brasil",
+          "Seguro de acidente do trabalho Brasil",
+          "Reforma trabalhista Brasil",
+          "Prescrição trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2017-07-13;13467",
+            "rótulo_original": "LEI-013467 (2017)"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1428571",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a309686c6eada3b2100b",
+    "titulo": "Ações regressivas acidentárias",
+    "autores": [
+      "Maciel, Fernando"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/020dea36-4a3b-567e-ada8-9e040e5b6d3c",
+        "data_registro_rvbi": "2026-11-18T21:08:59Z",
+        "titulo": "Ações regressivas acidentárias",
+        "subtitulo": null,
+        "autores": [
+          "Maciel, Fernando"
+        ],
+        "edicao": "3. ed., rev., ampl. e atual. de acordo com o novo Código de processo civil",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788536185736"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação de acidente do trabalho Brasil",
+          "Ação regressiva Brasil",
+          "Acidente do trabalho jurisprudência Brasil",
+          "Ônus da prova Brasil",
+          "Segurança do trabalho Brasil",
+          "Previdência social Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991) ART 00120"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c6d0b5dfcc2794aff2aa",
+    "titulo": "Aposentadoria especial",
+    "autores": [
+      "Ribeiro, Maria Helena Carreira Alvim"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Processo Civil"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/006f242b-997d-5c59-a64f-97a7ad686f75",
+        "data_registro_rvbi": "2026-08-01T04:33:16Z",
+        "titulo": "Aposentadoria especial",
+        "subtitulo": "regime geral da previdência social",
+        "autores": [
+          "Ribeiro, Maria Helena Carreira Alvim"
+        ],
+        "edicao": "9. ed., rev. e atual. de acordo com o novo CPC",
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536279596"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aposentado direitos e deveres Brasil",
+          "Aposentadoria especial legislação Brasil",
+          "Aposentadoria especial Brasil normas",
+          "Direito previdenciário Brasil",
+          "Insalubridade Brasil",
+          "Previdência social legislação Brasil",
+          "Previdência social Brasil normas",
+          "Aposentadoria especial Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/52183",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1999-05-06;3048",
+            "rótulo_original": "DEC-003048 (1999)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-12-15;20",
+            "rótulo_original": "EMC-000020 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/009d4b82-9a8c-504c-978b-73186df0e26c",
+        "data_registro_rvbi": "2026-08-03T08:17:40Z",
+        "titulo": "Aposentadoria especial",
+        "subtitulo": "regime geral da previdência social",
+        "autores": [
+          "Ribeiro, Maria Helena Carreira Alvim"
+        ],
+        "edicao": "5. ed., rev. e atual",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536239569"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          },
+          {
+            "nome": "Processo Civil",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aposentadoria especial jurisprudência Brasil",
+          "Aposentadoria especial legislação Brasil",
+          "Categoria profissional aposentadoria Brasil",
+          "Competência (processo civil) Brasil",
+          "Justiça federal competência Brasil",
+          "Mandado de segurança Brasil",
+          "Previdência social Brasil",
+          "Trabalhador aposentadoria Brasil",
+          "Tutela antecipada Brasil",
+          "Aposentadoria especial Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/52183",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1960-08-26;3807",
+            "rótulo_original": "LEI-003807 (1960)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2001-12-27;10358",
+            "rótulo_original": "LEI-010358 (2001)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9962cfc3659271d59f6f",
+    "titulo": "Auxílio-reclusão",
+    "autores": [
+      "Alcântara, Marcelino Alves de"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0298f0f6-a722-59c7-b870-4fa2fa046302",
+        "data_registro_rvbi": "2026-07-29T03:52:40Z",
+        "titulo": "Auxílio-reclusão",
+        "subtitulo": "teoria e prática",
+        "autores": [
+          "Alcântara, Marcelino Alves de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2019,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536289106"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Auxílio-reclusão Brasil",
+          "Benefício previdenciário Brasil",
+          "Preso direitos e deveres Brasil",
+          "Seguridade social Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1151211",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2019/setembro/1151211/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1999-05-06;3048",
+            "rótulo_original": "DEC-003048 (1999)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2003-05-08;10666",
+            "rótulo_original": "LEI-010666 (2003)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:medida.provisoria:2019-01-18;871",
+            "rótulo_original": "MPV-000871 (2019)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4f090ff4a0ca1e8a56d2",
+    "titulo": "Comentários à Lei de benefícios da previdência social",
+    "autores": [
+      "Serau Junior, Marco Aurélio"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00aa6d42-4d9d-5ab8-b951-3ce2b79fb412",
+        "data_registro_rvbi": "2026-07-31T11:52:35Z",
+        "titulo": "Comentários à Lei de benefícios da previdência social",
+        "subtitulo": "Lei 8.213, de 24 de julho de 1991",
+        "autores": [
+          "Serau Junior, Marco Aurélio"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9786556056890"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito previdenciário jurisprudência Brasil",
+          "Direito previdenciário legislação Brasil",
+          "Previdência social Brasil",
+          "Reforma da previdência Brasil",
+          "Seguridade social Brasil",
+          "Benefício previdenciário legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/160683",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c0791423da733adca253",
+    "titulo": "Consolidação das leis da previdência social e legislação complementar",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0213f8f2-6b9e-568a-acb2-ea4f3169aaaf",
+        "data_registro_rvbi": "2026-07-29T17:35:13Z",
+        "titulo": "Consolidação das leis da previdência social e legislação complementar",
+        "subtitulo": "aprovada pelo decreto n. 89312, de 23 de janeiro de 1984 (D.O. 24-01-1984), substitui a CLPS de 1976",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "41. ed. 2. tiragem",
+        "volume": null,
+        "ano": 1987,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1d3b04de45f43d927ca3",
+    "titulo": "Contribuições sociais no sistema tributário",
+    "autores": [
+      "Melo, José Eduardo Soares de"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02524797-5f03-5669-a97a-bbf40ba9fdc5",
+        "data_registro_rvbi": "2026-08-02T09:36:31Z",
+        "titulo": "Contribuições sociais no sistema tributário",
+        "subtitulo": null,
+        "autores": [
+          "Melo, José Eduardo Soares de"
+        ],
+        "edicao": "6. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Malheiros"
+        ],
+        "isbns": [
+          "9788539200283"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          },
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Alíquota Brasil",
+          "Capacidade contributiva Brasil",
+          "Confisco Brasil",
+          "Contribuição de melhoria Brasil",
+          "Imposto de importação Brasil",
+          "Imunidade tributária Brasil",
+          "Isenção tributária Brasil",
+          "Legislação tributária Brasil",
+          "Parafiscalidade Brasil",
+          "Princípio constitucional Brasil",
+          "Princípio da anterioridade tributária Brasil",
+          "Salário-educação Brasil",
+          "Seguridade social Brasil",
+          "Seguro de acidente do trabalho Brasil",
+          "Tributo aspectos constitucionais Brasil",
+          "Tributo jurisprudência Brasil",
+          "Contribuição social Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/setembro/885693/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-65b95dd79dce40777213",
+    "titulo": "Curso de direito previdenciário",
+    "autores": [
+      "Eduardo, Ítalo Romano"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0324f91b-fcaf-54f7-b965-0085c4fc2d21",
+        "data_registro_rvbi": "2026-07-29T13:39:40Z",
+        "titulo": "Curso de direito previdenciário",
+        "subtitulo": "teoria, jurisprudência e mais de 1.200 questões",
+        "autores": [
+          "Eduardo, Ítalo Romano"
+        ],
+        "edicao": "4. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Elsevier",
+          "Campus"
+        ],
+        "isbns": [
+          "9788535228137"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário controle judicial Brasil",
+          "Previdência social beneficiamento Brasil",
+          "Seguridade social financiamento Brasil",
+          "Seguridade social história Brasil",
+          "Seguridade social jurisprudência Brasil",
+          "Direito previdenciário Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4b5db59835ae5e3f2512",
+    "titulo": "Curso prático de imposto de renda pessoa jurídica e tributos conexos",
+    "autores": [
+      "Neves, Silvério das"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d89547-6283-5d42-b36d-edb8ee04e93b",
+        "data_registro_rvbi": "2026-07-29T23:33:42Z",
+        "titulo": "Curso prático de imposto de renda pessoa jurídica e tributos conexos",
+        "subtitulo": "(CSLL, PIS e Cofins)",
+        "autores": [
+          "Neves, Silvério das"
+        ],
+        "edicao": "13. ed., atual., rev. e ampl",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Frase"
+        ],
+        "isbns": [
+          "9788587065575"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contribuinte (pessoa jurídica) Brasil",
+          "Direito tributário Brasil",
+          "Escrituração contábil Brasil",
+          "Seguridade social Brasil",
+          "Imposto de renda Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5cf54daf8b8d8d6a54b5",
+    "titulo": "Direito previdenciário",
+    "autores": [
+      "Pinto, Sabrina Bonfim de Arruda"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03047b00-520c-510d-a7e7-d463378c04e3",
+        "data_registro_rvbi": "2026-08-02T04:34:37Z",
+        "titulo": "Direito previdenciário",
+        "subtitulo": "argumentos econômicos e sociais no âmbito do direito fundamental à previdência social",
+        "autores": [
+          "Pinto, Sabrina Bonfim de Arruda"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2019,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536290393"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Análise econômica Brasil",
+          "Desenvolvimento econômico Brasil",
+          "Direito previdenciário aspectos constitucionais Brasil",
+          "Direitos e garantias individuais Brasil",
+          "Exclusão social Brasil",
+          "Princípio da reserva do possível Brasil",
+          "Reforma da previdência Brasil",
+          "Seguridade social Brasil",
+          "Direito previdenciário aspectos sociais Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/138929",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2a00d9faf992b7747f54",
+    "titulo": "Direito previdenciário sistematizado",
+    "autores": [
+      "Amado, Frederico Augusto Di Trindade"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01af1df9-695c-5477-984c-4b03c25189c2",
+        "data_registro_rvbi": "2026-08-01T10:28:04Z",
+        "titulo": "Direito previdenciário sistematizado",
+        "subtitulo": null,
+        "autores": [
+          "Amado, Frederico Augusto Di Trindade"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788577613335"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário Brasil",
+          "Contribuição previdenciária Brasil",
+          "Direito previdenciário Brasil problemas, exercícios etc",
+          "Previdência complementar Brasil",
+          "Previdência social Brasil",
+          "Seguridade social Brasil",
+          "Direito previdenciário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9e8c9be3ccf10fd084bc",
+    "titulo": "Economia e seguridade social",
+    "autores": [
+      "Serau Junior, Marco Aurélio"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00d0b1f8-c4ee-51bf-8720-dd375a387093",
+        "data_registro_rvbi": "2026-07-29T17:18:15Z",
+        "titulo": "Economia e seguridade social",
+        "subtitulo": "análise econômica do direito : seguridade social",
+        "autores": [
+          "Serau Junior, Marco Aurélio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536229140"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Assistência social Brasil",
+          "Benefício previdenciário Brasil",
+          "Previdência complementar Brasil",
+          "Seguridade social aspectos econômicos Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca/servicos/novas_aquisicoes/aquisicoes/naquis.asp?area=0&boletim=125",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f9f17454f980e4579750",
+    "titulo": "Emendas à Constituição de 1946",
+    "autores": [],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/014d6663-9cc1-5aa5-af70-6e3b00bf2aad",
+        "data_registro_rvbi": "2026-07-30T18:35:49Z",
+        "titulo": "Emendas à Constituição de 1946",
+        "subtitulo": "n. 11 : estabilidade financeira da previdência social",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1970,
+        "editoras": [
+          "Câmara dos Deputados"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social aspectos econômicos Brasil",
+          "Emenda constitucional Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-236ec668527ad39815ef",
+    "titulo": "Esta Terra tem dono",
+    "autores": [
+      "Geara, Amadeu"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01400990-c0aa-5b00-adcd-ba4c17433d81",
+        "data_registro_rvbi": "2026-08-01T03:20:50Z",
+        "titulo": "Esta Terra tem dono",
+        "subtitulo": null,
+        "autores": [
+          "Geara, Amadeu"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1982,
+        "editoras": [
+          "Camara dos Deputados, Coordenação de Publicações"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Política e governo discursos etc Brasil",
+          "Previdência social discursos etc Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-be44696a8e9825dce24b",
+    "titulo": "Exerça seus direitos",
+    "autores": [
+      "Lopes, Iriny"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03653de1-40c8-5c96-8d60-c6a53c8730c6",
+        "data_registro_rvbi": "2026-08-02T14:14:45Z",
+        "titulo": "Exerça seus direitos",
+        "subtitulo": null,
+        "autores": [
+          "Lopes, Iriny"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Câmara dos Deputados"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direitos da criança Brasil",
+          "Direitos da mulher Brasil",
+          "Direitos econômicos e sociais Brasil",
+          "Previdência social Brasil",
+          "Segurança pública Brasil",
+          "Direitos e garantias individuais Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-128655a4cefaf4253692",
+    "titulo": "Guia de prática previdenciária administrativa",
+    "autores": [
+      "Lazzari, João Batista"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00671271-82cd-54eb-a3cd-64f42217ac9b",
+        "data_registro_rvbi": "2026-08-02T10:00:07Z",
+        "titulo": "Guia de prática previdenciária administrativa",
+        "subtitulo": null,
+        "autores": [
+          "Lazzari, João Batista"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530970772"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário Brasil",
+          "Direito previdenciário Brasil",
+          "Previdência social jurisprudência Brasil",
+          "Previdência social legislação Brasil",
+          "Seguridade social Brasil",
+          "Previdência social Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-035c2fa3805ee083b832",
+    "titulo": "IAPSEB",
+    "autores": [],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01237041-2e6b-5502-b72f-f9d4a43b2d58",
+        "data_registro_rvbi": "2026-07-29T12:28:10Z",
+        "titulo": "IAPSEB",
+        "subtitulo": "decreto n. 19.988 de 21 de outubro de 1966",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1967,
+        "editoras": [
+          "Imprensa Oficial da Bahia"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Assistência social Bahia",
+          "Seguridade social Bahia",
+          "Servidor público Bahia",
+          "Previdência social regulamento Bahia"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-55769c5ea40345c2e0b4",
+    "titulo": "Julgamento com perspectiva de gênero",
+    "autores": [
+      "coordenadoras: Tani Mara Wurster, Clara da Mota Santos Pimenta Alves"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/001d9796-13d1-5bb6-9513-c67a7f1c6c00",
+        "data_registro_rvbi": "2026-08-04T10:24:02Z",
+        "titulo": "Julgamento com perspectiva de gênero",
+        "subtitulo": "um guia para o direito previdenciário",
+        "autores": [
+          "coordenadoras: Tani Mara Wurster, Clara da Mota Santos Pimenta Alves"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Migalhas"
+        ],
+        "isbns": [
+          "9786586708134"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Identidade de gênero aspectos jurídicos Brasil",
+          "Igualdade de gênero aspectos jurídicos Brasil",
+          "Raça aspectos jurídicos",
+          "Relações de gênero julgamento Brasil estudo de caso",
+          "Direito previdenciário aspectos sociais Brasil estudo de caso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "http://ajufe.org.br/images/pdf/CARTILHA_-_JULGAMENTO_COM_PERSPECTIVA_DE_G%C3%8ANERO_2020.pdf",
+            "rótulo_original": "Versão eletrônica (PDF) Acesso em: 30 abr. 2021"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/156243",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2196a62590db4d18da38",
+    "titulo": "Legislação previdenciária",
+    "autores": [
+      "organização, notas e revisão por Iara P. Fontoura, Emilio Sabatovski"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033f2ced-c133-5321-b8fe-ec066139b254",
+        "data_registro_rvbi": "2026-07-31T18:39:55Z",
+        "titulo": "Legislação previdenciária",
+        "subtitulo": null,
+        "autores": [
+          "organização, notas e revisão por Iara P. Fontoura, Emilio Sabatovski"
+        ],
+        "edicao": "22. ed., atual. até 24/09/2007",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536217222"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Assistência social legislação Brasil",
+          "Benefício previdenciário legislação Brasil",
+          "Contribuição previdenciária legislação Brasil",
+          "Previdência social regulamento Brasil",
+          "Reforma da previdência Brasil 1998",
+          "Reforma da previdência Brasil 2003",
+          "Reforma da previdência Brasil 2005",
+          "Seguridade social legislação Brasil",
+          "Previdência social legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1999-05-06;3048",
+            "rótulo_original": "DEC-003048 (1999)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-12-15;20",
+            "rótulo_original": "EMC-000020 (1998)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2003-12-19;41",
+            "rótulo_original": "EMC-000041 (2003)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2005-07-05;47",
+            "rótulo_original": "EMC-000047 (2005)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8212",
+            "rótulo_original": "LEI-008212 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "cardoso-previdenciario",
+    "titulo": "Manual de Direito Previdenciário",
+    "autores": [
+      "Phelipe Cardoso"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Previdenciário",
+        "obra_id": "cardoso-previdenciario",
+        "titulo": "Manual de Direito Previdenciário",
+        "autoria": "Phelipe Cardoso",
+        "ano": "2026",
+        "numero_edicao": "7",
+        "volume": "Único",
+        "formato": "Impresso",
+        "isbn13": "9788544271131",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso",
+        "funcao_editorial": "Visão sistemática dos regimes previdenciários",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "garcia-previdenciario",
+    "titulo": "Manual de Direito Previdenciário",
+    "autores": [
+      "Gustavo Filipe Barbosa Garcia"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Previdenciário",
+        "obra_id": "garcia-previdenciario",
+        "titulo": "Manual de Direito Previdenciário",
+        "autoria": "Gustavo Filipe Barbosa Garcia",
+        "ano": "2026",
+        "numero_edicao": "10",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544269237",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-2026-garcia",
+        "funcao_editorial": "Introdução à seguridade social",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-56b6abaa6b87d79f39ce",
+    "titulo": "Manual de direito previdenciário",
+    "autores": [
+      "Castro, Carlos Alberto Pereira de"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0309cc55-7999-5d1b-8f51-893285627d47",
+        "data_registro_rvbi": "2026-08-01T16:21:49Z",
+        "titulo": "Manual de direito previdenciário",
+        "subtitulo": null,
+        "autores": [
+          "Castro, Carlos Alberto Pereira de"
+        ],
+        "edicao": "19. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530967925"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito previdenciário direito comparado",
+          "Direito previdenciário jurisprudência Brasil",
+          "Reforma da previdência direito comparado",
+          "Reforma da previdência Brasil",
+          "Direito previdenciário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-aaacd36cb2e9bc7f7434",
+    "titulo": "Manual de Direito previdenciário",
+    "autores": [
+      "Vieira, Marco André Ramos"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/019e43bf-1399-5e84-9cd5-4519b18932e9",
+        "data_registro_rvbi": "2026-08-04T20:46:21Z",
+        "titulo": "Manual de Direito previdenciário",
+        "subtitulo": "teoria, jurisprudência e 520 questões",
+        "autores": [
+          "Vieira, Marco André Ramos"
+        ],
+        "edicao": "3. ed., rev., ampl. e atual. até a EC 39/2002",
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Impetus"
+        ],
+        "isbns": [
+          "9788587002389"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário Brasil",
+          "Previdência social história Brasil",
+          "Previdência social Brasil",
+          "Previdência social Brasil problemas, exercícios etc",
+          "Seguridade social Brasil",
+          "Direito previdenciário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-702f5318954f89f81821",
+    "titulo": "Modelos alternativos de proteção social como meio de contornar o déficit da previdência social",
+    "autores": [
+      "Nassar, Ricardo"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02367e6a-30fc-5288-90a4-111f21f91da9",
+        "data_registro_rvbi": "2026-08-01T10:53:16Z",
+        "titulo": "Modelos alternativos de proteção social como meio de contornar o déficit da previdência social",
+        "subtitulo": null,
+        "autores": [
+          "Nassar, Ricardo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "D'Plácido"
+        ],
+        "isbns": [
+          "9786555895582"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contribuição previdenciária Brasil",
+          "Déficit orçamentário Brasil",
+          "Previdência social financiamento Brasil",
+          "Seguridade social Brasil",
+          "Reforma da previdência Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2019-11-12;103",
+            "rótulo_original": "EMC-000103 (2019)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-acd0fcbf5ef1919b7c24",
+    "titulo": "Novos estudos de custeio previdenciário",
+    "autores": [
+      "Cardoso, Alessandro Mendes"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d1afd7-4ca4-5c72-bed2-93b1f831a9bf",
+        "data_registro_rvbi": "2026-07-29T12:13:04Z",
+        "titulo": "Novos estudos de custeio previdenciário",
+        "subtitulo": null,
+        "autores": [
+          "Cardoso, Alessandro Mendes"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "D'Plácido",
+          "D'Plácido"
+        ],
+        "isbns": [
+          "9786555891058"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contribuição previdenciária base de cálculo Brasil",
+          "Reforma da previdência Brasil",
+          "Reforma trabalhista Brasil",
+          "Previdência social custo Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/150675",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-97f90505187d498a3603",
+    "titulo": "O Direito fundamental à previdência social",
+    "autores": [
+      "Rocha, Daniel Machado da"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/000dc31e-8907-5f03-8468-9789677c5d91",
+        "data_registro_rvbi": "2026-08-01T14:51:43Z",
+        "titulo": "O Direito fundamental à previdência social",
+        "subtitulo": "na perspectiva dos princípios constitucionais diretivos do sistema previdenciário brasileiro",
+        "autores": [
+          "Rocha, Daniel Machado da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Livr. do Advogado"
+        ],
+        "isbns": [
+          "9788573483086"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direitos e garantias individuais Brasil",
+          "Prerrogativa constitucional Brasil",
+          "Previdência social aspectos constitucionais Brasil",
+          "Princípio constitucional Brasil",
+          "Servidor público Brasil",
+          "Direito previdenciário aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:1998-12-15;20",
+            "rótulo_original": "EMC-000020 (1998)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-911844bed85d409ee01f",
+    "titulo": "O empregado doméstico em perguntas e respostas",
+    "autores": [
+      "Paixão, Floriceno"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00198423-0315-547d-829b-73980402c134",
+        "data_registro_rvbi": "2026-07-31T21:06:15Z",
+        "titulo": "O empregado doméstico em perguntas e respostas",
+        "subtitulo": "já de acordo com a lei 6.887, de 10-12-80",
+        "autores": [
+          "Paixão, Floriceno"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1981,
+        "editoras": [
+          "Síntese"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito do trabalho Brasil",
+          "Previdência social Brasil",
+          "Empregado doméstico legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-12-10;6887",
+            "rótulo_original": "LEI-006887 (1980)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f8705187bff94f3ac156",
+    "titulo": "O homem e o campo",
+    "autores": [],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00866ac6-9f0c-51e4-bd66-42068d1f7cde",
+        "data_registro_rvbi": "2026-07-29T13:14:34Z",
+        "titulo": "O homem e o campo",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1977,
+        "editoras": [
+          "Fundação Milton Campos"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Condições rurais Brasil",
+          "Migração interna Brasil",
+          "Previdência social rural Brasil",
+          "Produção agrícola Brasil",
+          "Reforma agrária Brasil",
+          "Terras Brasil",
+          "Economia agrícola Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d6d67c20f9ba67202e0e",
+    "titulo": "O livro negro da previdência",
+    "autores": [],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0180e5f0-e41b-5671-9fb9-84c04e37afe2",
+        "data_registro_rvbi": "2026-07-31T09:58:53Z",
+        "titulo": "O livro negro da previdência",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": "10. ed",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Associação Nacional dos Servidores da Previdência e da Seguridade Social - Anasps"
+        ],
+        "isbns": [
+          "9788598760025"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acidente do trabalho",
+          "Dívida ativa",
+          "Fundo de aposentadoria Brasil",
+          "Fundo de pensão Brasil",
+          "Previdência complementar Brasil",
+          "Sonegação",
+          "Terceirização Brasil",
+          "Previdência social Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00d67f41-2c75-52d8-8178-701e21906e8f",
+        "data_registro_rvbi": "2026-08-04T22:50:48Z",
+        "titulo": "O livro negro da previdência social",
+        "subtitulo": "2007",
+        "autores": [
+          "Associação Nacional dos Servidores da Previdência Social (ANASPS)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Associação Nacional dos Servidores da Previdência Social"
+        ],
+        "isbns": [
+          "9788598760025"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d11441586e2207c22858",
+    "titulo": "Obrigações trabalhistas do empregador rural",
+    "autores": [
+      "Rezende, Nilza Perez de"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034c75b2-6c43-5c66-9efc-38cb72d2ef73",
+        "data_registro_rvbi": "2026-08-04T10:22:22Z",
+        "titulo": "Obrigações trabalhistas do empregador rural",
+        "subtitulo": "previdencia social rural",
+        "autores": [
+          "Rezende, Nilza Perez de"
+        ],
+        "edicao": "5. ed., rev. e atual",
+        "volume": null,
+        "ano": 1984,
+        "editoras": [
+          "Ltr"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social legislação Brasil",
+          "Trabalhador rural legislação Brasil",
+          "Trabalho rural legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00599dc7-8992-566d-96b3-25bb19e84249",
+        "data_registro_rvbi": "2026-07-31T05:40:21Z",
+        "titulo": "Obrigações trabalhistas do empregador rural",
+        "subtitulo": null,
+        "autores": [
+          "Rezende, Nilza Perez de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1971,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social legislação Brasil",
+          "Trabalhador rural legislação Brasil",
+          "Trabalho rural legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1aae2f86276e2c18853d",
+    "titulo": "Petições previdenciárias",
+    "autores": [
+      "Sabóia, Maximiliano Silveira"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02b2cb80-7451-5f79-9603-9587aedcbf1f",
+        "data_registro_rvbi": "2026-08-01T12:22:36Z",
+        "titulo": "Petições previdenciárias",
+        "subtitulo": null,
+        "autores": [
+          "Sabóia, Maximiliano Silveira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Vale do Mogi"
+        ],
+        "isbns": [
+          "9788588869547"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Petição Brasil",
+          "Prática forense Brasil",
+          "Direito previdenciário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8212",
+            "rótulo_original": "LEI-008212 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d29fbce27500aed30fcc",
+    "titulo": "Plano de benefício da previdência social",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/018cc3b9-d339-5003-84b9-05fdd2964277",
+        "data_registro_rvbi": "2026-08-01T13:58:09Z",
+        "titulo": "Plano de benefício da previdência social",
+        "subtitulo": "decreto n. 357, de 7 de dezembro de 199",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1992,
+        "editoras": [
+          "Senado Federal, Centro Gráfico"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário Brasil legislação",
+          "Previdência social Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-29b3c1b6b919b8845249",
+    "titulo": "Prática previdenciária",
+    "autores": [
+      "Martins, Sérgio Pinto"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0125a444-4fac-5b5f-b9b8-674f28b5fee2",
+        "data_registro_rvbi": "2026-08-04T13:06:54Z",
+        "titulo": "Prática previdenciária",
+        "subtitulo": null,
+        "autores": [
+          "Martins, Sérgio Pinto"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788547215750"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aposentadoria Brasil",
+          "Assistência social Brasil",
+          "Auxílio-acidente Brasil",
+          "Desaposentação Brasil",
+          "Direito previdenciário Brasil",
+          "Pensão por morte Brasil",
+          "Petição modelo Brasil",
+          "Prática forense Brasil",
+          "Previdência social Brasil",
+          "Salário-maternidade Brasil",
+          "Seguridade social Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-060b626a0726452caa63",
+    "titulo": "Preparação para a aposentadoria",
+    "autores": [
+      "Tanise Amália Pazzim, Débora Staub Cano Suarez de Puga (Orgs.)"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01840d46-4d59-55e3-90e0-910350e4c330",
+        "data_registro_rvbi": "2026-07-29T15:35:28Z",
+        "titulo": "Preparação para a aposentadoria",
+        "subtitulo": "conceitos e prática",
+        "autores": [
+          "Tanise Amália Pazzim, Débora Staub Cano Suarez de Puga (Orgs.)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "CRV"
+        ],
+        "isbns": [
+          "9788544410967"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social Brasil",
+          "Seguridade social Brasil",
+          "Serviço social Brasil",
+          "Aposentadoria Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://www.tst.jus.br/documents/1295387/34411104/6.2016_pazzim_preparacao_aposentadoria_conceitos_pratica_001131252_sumario.pdf/96a6c90c-2330-3b8f-76f0-bb688a3f7e45?t=1743112601390",
+            "rótulo_original": "Sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-353a824cccec790b2eab",
+    "titulo": "Previdência social",
+    "autores": [
+      "Souza, Leny Xavier de Brito e"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01428467-3bae-56a8-96df-a87146cd68f4",
+        "data_registro_rvbi": "2026-08-01T12:33:42Z",
+        "titulo": "Previdência social",
+        "subtitulo": "normas e cálculos de benefícios",
+        "autores": [
+          "Souza, Leny Xavier de Brito e"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "LTR"
+        ],
+        "isbns": [
+          "9788536102948"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Aposentadoria especial Brasil",
+          "Aposentadoria legislação Brasil",
+          "Benefício previdenciário Brasil",
+          "Previdência social legislação Brasil",
+          "Previdência social Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1999-05-06;3048",
+            "rótulo_original": "DEC-003048 (1999)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2000-05-09;3452",
+            "rótulo_original": "DEC-003452 (2000)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2001-11-26;4032",
+            "rótulo_original": "DEC-004032 (2001)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1995-04-28;9032",
+            "rótulo_original": "LEI-009032 (1995)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4fe9564cf63e979aaa2d",
+    "titulo": "Previdência social",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01895b17-f20c-599b-9c7c-fd222bac56e8",
+        "data_registro_rvbi": "2026-07-29T03:52:55Z",
+        "titulo": "Previdência social",
+        "subtitulo": "Lei n. 8.212, de 24-7-1991 (seguridade social), Lei n. 8.213, de 24-7-1991 (plano de benefícios da previdência social), decreto n. 3.048, de 6-5-1999 (regulamento da previdência social) : atualizados e acompanhados de índice sistemático, índice alfabético-remissivo e legislação complementar",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "7. ed., atual. e aum",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502047587"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Benefício previdenciário Brasil legislação",
+          "Previdência social regulamento Brasil legislação",
+          "Seguridade social Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2006/setembro/760816.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1999-05-06;3048",
+            "rótulo_original": "DEC-003048 (1999)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2006-04-13;5756",
+            "rótulo_original": "DEC-005756 (2006)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8212",
+            "rótulo_original": "LEI-008212 (1991)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8213",
+            "rótulo_original": "LEI-008213 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f8421bacf7bd242d4923",
+    "titulo": "Previdência social do funcionário federal",
+    "autores": [
+      "Tagliolatto, Luiz"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/009d15b1-445c-52f7-b6c9-3f0c1d6ef521",
+        "data_registro_rvbi": "2025-10-30T06:44:27Z",
+        "titulo": "Previdência social do funcionário federal",
+        "subtitulo": "situação perante o SINPAS, IAPAS, INPS, INAMPS : vinculação, custeio, fiscalização, benefícios, assistência médica",
+        "autores": [
+          "Tagliolatto, Luiz"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1981,
+        "editoras": [
+          "Julex Livros"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Servidor público federal Brasil",
+          "Previdência social alteração Brasil 1978"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1973-10-11;5927",
+            "rótulo_original": "LEI-005927 (1973)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1977-09-01;6439",
+            "rótulo_original": "LEI-006439 (1977)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c704fec66ca1dcdd3948",
+    "titulo": "Previdência social em suas recentes alterações",
+    "autores": [
+      "Dias, Fernando Camargo"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01215f73-cf51-5fc2-bf76-04a468e9a49c",
+        "data_registro_rvbi": "2026-07-29T11:17:11Z",
+        "titulo": "Previdência social em suas recentes alterações",
+        "subtitulo": null,
+        "autores": [
+          "Dias, Fernando Camargo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1982,
+        "editoras": [
+          "Síntese"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f7589c83567edfba2ccf",
+    "titulo": "Previdência social rural e Sinpas",
+    "autores": [
+      "Nascimento, Tupinambá Miguel Castro do"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007144e7-de54-557a-bb0d-de908eb6f804",
+        "data_registro_rvbi": "2026-08-02T05:33:00Z",
+        "titulo": "Previdência social rural e Sinpas",
+        "subtitulo": null,
+        "autores": [
+          "Nascimento, Tupinambá Miguel Castro do"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1977,
+        "editoras": [
+          "Sintese"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social rural Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c9ced4cc1e0cbef6dead",
+    "titulo": "Propostas de reforma da seguridade social",
+    "autores": [
+      "Carvalho Filho, Celecino de"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002968da-b127-536c-9f51-174f09fb09f1",
+        "data_registro_rvbi": "2026-08-01T06:58:21Z",
+        "titulo": "Propostas de reforma da seguridade social",
+        "subtitulo": "uma visão crítica",
+        "autores": [
+          "Carvalho Filho, Celecino de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Anfip"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Reforma da previdência Brasil",
+          "Revisão constitucional Brasil",
+          "Seguridade social Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b2bf0e86f4d182c8ff6f",
+    "titulo": "Reforma fiscal",
+    "autores": [
+      "Ary Oswaldo Mattos Filho, coordenador geral"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0152b572-54d3-515e-80d8-e3c1fd44dd12",
+        "data_registro_rvbi": "2026-08-02T00:42:08Z",
+        "titulo": "Reforma fiscal",
+        "subtitulo": "coletânea de estudos técnicos",
+        "autores": [
+          "Ary Oswaldo Mattos Filho, coordenador geral"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": null,
+        "editoras": [
+          "DBA Dórea Books and Art"
+        ],
+        "isbns": [
+          "9788572340281"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Emenda constitucional Brasil",
+          "Política fiscal Brasil",
+          "Política social Brasil",
+          "Previdência social Brasil",
+          "Reforma da previdência Brasil",
+          "Seguridade social Brasil",
+          "Reforma tributária Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "http://www2.senado.leg.br/bdsf/handle/id/557745",
+            "rótulo_original": "Texto integral (PDF) na Biblioteca Digital do Senado Federal"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a1848b751d89021e20b6",
+    "titulo": "Revisão de benefícios e cálculos previdenciários",
+    "autores": [
+      "Claudini, Andréa"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029074b3-91be-516e-90e4-a057255873e4",
+        "data_registro_rvbi": "2026-08-02T18:51:48Z",
+        "titulo": "Revisão de benefícios e cálculos previdenciários",
+        "subtitulo": null,
+        "autores": [
+          "Claudini, Andréa"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Mundo Jurídico"
+        ],
+        "isbns": [
+          "9788588576711"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social Brasil",
+          "Reforma da previdência Brasil",
+          "Seguridade social aspectos constitucionais Brasil",
+          "Seguridade social Brasil",
+          "Benefício previdenciário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-25c6e11cbb39b5af7a85",
+    "titulo": "Sislex",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/027b6e53-87f3-5c2a-beae-d9731f008f52",
+        "data_registro_rvbi": "2025-10-27T23:39:51Z",
+        "titulo": "Sislex",
+        "subtitulo": "sistema de legislação, jurisprudência e pareceres",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1997,
+        "editoras": [
+          "Dataprev"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Previdência social"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f32d983b5f409ff3f9ab",
+    "titulo": "Teoria geral da previdência privada",
+    "autores": [
+      "Berbel, Fábio Lopes Vilela"
+    ],
+    "areas": [
+      "Previdenciário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00f865d0-884e-5413-a7af-37dc8e8aa775",
+        "data_registro_rvbi": "2026-07-29T13:25:14Z",
+        "titulo": "Teoria geral da previdência privada",
+        "subtitulo": null,
+        "autores": [
+          "Berbel, Fábio Lopes Vilela"
+        ],
+        "edicao": "2. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Alteridade"
+        ],
+        "isbns": [
+          "9786589533832"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contribuição previdenciária Brasil",
+          "Direito de propriedade Brasil",
+          "Fundo de aposentadoria capacidade jurídica Brasil",
+          "Fundo de aposentadoria Brasil",
+          "Pessoa jurídica Brasil",
+          "Previdência complementar natureza jurídica Brasil",
+          "Previdência social Brasil",
+          "Seguridade social Brasil",
+          "Previdência complementar Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/189161",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0ada56d1c240db80cd44",
+    "titulo": "Vade mecum Saraiva 2017",
+    "autores": [
+      "obra coletiva de autoria da editora Saraiva com a colaboração de Livia Céspedes e Fabiana Dias da Rocha"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/020bd63e-dba2-55b7-98a3-b3680d0bef78",
+        "data_registro_rvbi": "2026-07-29T18:12:56Z",
+        "titulo": "Vade mecum Saraiva 2017",
+        "subtitulo": "trabalhista e previdenciário",
+        "autores": [
+          "obra coletiva de autoria da editora Saraiva com a colaboração de Livia Céspedes e Fabiana Dias da Rocha"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788547214265"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Previdenciário",
+            "evidência": "assunto"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Jurisprudência trabalhista Brasil",
+          "Previdência social legislação Brasil",
+          "Legislação trabalhista Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c2c77f0b8de2c726807e",
+    "titulo": "Vocabulário trabalhista",
+    "autores": [
+      "Valle, Gerson"
+    ],
+    "areas": [
+      "Previdenciário",
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/032bf8a0-10cf-5df7-bac2-6d767dc6db29",
+        "data_registro_rvbi": "2026-08-04T03:40:42Z",
+        "titulo": "Vocabulário trabalhista",
+        "subtitulo": "Direito do trabalho, processo do trabalho, previdência social",
+        "autores": [
+          "Valle, Gerson"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1975,
+        "editoras": [
+          "Ed. Rio"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Previdenciário",
+            "evidência": "título"
+          },
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito do trabalho terminologia língua portuguesa",
+          "Terminologia jurídica língua portuguesa",
+          "Direito do trabalho língua portuguesa dicionário"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

@@ -4,7 +4,7 @@
 
 A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
 
-- **Encontrar livros por assunto.** Abra a seleção de livros ao buscar um tema. Para cada obra, mostre a edição, onde o tema aparece e por que a leitura ajuda. Ofereça o guia associado para quem quiser uma explicação breve.
+- **Encontrar livros por assunto.** Abra a seleção de livros ao buscar um tema. Mostre a explicação breve na própria página quando houver texto conferido. Para cada obra, reúna a edição, o trecho, a fonte e o motivo da indicação no cartão. Quando uma mudança acrescentar uma escolha ou uma tela, explique qual dificuldade isso resolve.
 - **Estudar uma área.** Organize poucas obras por finalidade. Explique para quem serve cada indicação, o que cobre e onde pode ser consultada.
 - **Resolver uma dúvida.** Ofereça uma explicação breve, uma fonte para conferência e a localização na obra quando houver evidência para aquela edição.
 - **Encontrar o material.** Identifique o tipo de acesso confirmado, como texto aberto, prévia, acesso institucional ou compra. Ordene por pertinência ao estudo. Quando houver comissão, identifique o link e mantenha a ordenação editorial.
@@ -25,6 +25,8 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 - Para coletar e revisar candidatos de outras áreas, siga o [fluxo do catálogo](data/catalogo/README.md). Mantenha a evidência e a decisão editorial junto a cada ficha.
 
 ## Código atual
+
+Prefira uma estrutura modular. Organize código e dados por responsabilidade e distribua arquivos e pastas quando começarem a concentrar assuntos independentes. Mantenha próximos os arquivos usados juntos e use nomes que indiquem seu papel. Ao ampliar o acervo ou a interface, revise se a estrutura ainda facilita localizar, editar e revisar cada parte. Extraia módulos com uma responsabilidade clara e preserve as rotas e os pontos de entrada existentes.
 
 O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o código editável e também é a pasta servida. O arquivo vercel.json configura a publicação estática da pasta dist.
 

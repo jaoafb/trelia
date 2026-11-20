@@ -1,0 +1,544 @@
+[
+  {
+    "id": "rvbi-d6d1dd71e5e199e7bc27",
+    "titulo": "Ação rescisoria no processo do trabalho",
+    "autores": [
+      "Teixeira Filho, Manoel Antonio"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/021d0c5c-ac81-56bb-ad19-62d166654107",
+        "data_registro_rvbi": "2026-08-01T13:27:45Z",
+        "titulo": "Ação rescisoria no processo do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Teixeira Filho, Manoel Antonio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1991,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo trabalhista Brasil",
+          "Ação rescisória"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2d28b67d5bb257c33f3c",
+    "titulo": "Direito processual do trabalho",
+    "autores": [
+      "Martins, Sérgio Pinto"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033404f0-3b9c-5f6f-96f3-dbe408a75ec0",
+        "data_registro_rvbi": "2026-08-04T12:38:36Z",
+        "titulo": "Direito processual do trabalho",
+        "subtitulo": "doutrina e prática forense, modelos de petições, recursos, sentenças e outros",
+        "autores": [
+          "Martins, Sérgio Pinto"
+        ],
+        "edicao": "25. ed. atual. até 20 de dezembro de 2005",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522442966"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação declaratória incidental Brasil",
+          "Ação monitória direito comparado Itália França Alemanha",
+          "Audiência (processo trabalhista) Brasil",
+          "Conflito trabalhista Brasil",
+          "Dissídio coletivo Brasil",
+          "Execução trabalhista Brasil",
+          "Justiça do trabalho Brasil",
+          "Liquidação da sentença Brasil",
+          "Medida cautelar Brasil",
+          "Nulidade no processo trabalhista Brasil",
+          "Petição (processo trabalhista) Brasil",
+          "Prazo (processo trabalhista) Brasil",
+          "Procedimento especial Brasil",
+          "Procedimento sumaríssimo Brasil",
+          "Processo trabalhista direito comparado",
+          "Prova (processo trabalhista) Brasil",
+          "Reconvenção Brasil",
+          "Recurso (processo trabalhista) Brasil",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2006/agosto/750400.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-51c9e22d610efa576ca3",
+    "titulo": "Direito processual do trabalho",
+    "autores": [
+      "Almeida, Cleber Lúcio de"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02b417dc-a73d-54fe-a87b-cf906ff61e35",
+        "data_registro_rvbi": "2026-08-31T20:42:50Z",
+        "titulo": "Direito processual do trabalho",
+        "subtitulo": "de acordo com o CPC de 2015",
+        "autores": [
+          "Almeida, Cleber Lúcio de"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788536189062"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Competência (justiça do trabalho) Brasil",
+          "Justiça do trabalho Brasil",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1943-05-01;5452",
+            "rótulo_original": "DEL-005452 (1943)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-560b1a8d4cdcd037dbeb",
+    "titulo": "Direito processual do trabalho",
+    "autores": [
+      "Gonçalves, Emílio"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0118bc49-3f34-58ff-9d39-fef8873201f4",
+        "data_registro_rvbi": "2026-07-30T03:26:26Z",
+        "titulo": "Direito processual do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Gonçalves, Emílio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1995,
+        "editoras": [
+          "Ltr"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Justiça do trabalho Brasil",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6ee4c19b03c6407c246a",
+    "titulo": "Direito processual do trabalho",
+    "autores": [
+      "Romar, Carla Teresa Martins"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00ea81e1-fbd1-5320-b605-38a96c3e8990",
+        "data_registro_rvbi": "2026-07-29T19:54:04Z",
+        "titulo": "Direito processual do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Romar, Carla Teresa Martins"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522458592"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo trabalhista Brasil problemas, exercícios etc",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1943-05-01;5452",
+            "rótulo_original": "DEL-005452 (1943)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1973-01-11;5869",
+            "rótulo_original": "LEI-005869 (1973)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ed1d951d58c9b5e0d5a5",
+    "titulo": "Direito processual do trabalho",
+    "autores": [
+      "Cavalcanti Júnior, Normando Augusto"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0231ee5d-8ad7-5b5b-bdeb-d6751e72fa02",
+        "data_registro_rvbi": "2026-07-30T19:18:04Z",
+        "titulo": "Direito processual do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Cavalcanti Júnior, Normando Augusto"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Fortium"
+        ],
+        "isbns": [
+          "9788598993843"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Prática forense Brasil",
+          "Processo trabalhista jurisprudência Brasil",
+          "Processo trabalhista modelo Brasil",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5c4fb4c34fd5ee037847",
+    "titulo": "Embargos de declaração no processo do trabalho",
+    "autores": [
+      "Vitor Salino de Moura Eça, coordenador"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00b46b73-8c9a-5aab-8e30-aba97dcea1c5",
+        "data_registro_rvbi": "2026-07-30T00:57:08Z",
+        "titulo": "Embargos de declaração no processo do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Vitor Salino de Moura Eça, coordenador"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "LTr"
+        ],
+        "isbns": [
+          "9788536116075"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Embargos de declaração Brasil coletânea",
+          "Processo trabalhista Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/41973",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3a86c939426bd0273b47",
+    "titulo": "Processo do trabalho",
+    "autores": [
+      "Cisneiros, Gustavo"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0062fd37-0e04-5f6f-a0df-4d7a79ad31c7",
+        "data_registro_rvbi": "2026-08-03T07:54:44Z",
+        "titulo": "Processo do trabalho",
+        "subtitulo": "sintetizado",
+        "autores": [
+          "Cisneiros, Gustavo"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530972776"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Jurisprudência trabalhista Brasil",
+          "Processo trabalhista Brasil problemas, exercícios etc",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4cfb1644c5618fa409fc",
+    "titulo": "Processo do trabalho",
+    "autores": [
+      "Zainaghi, Domingos Sávio"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0140375f-f90b-5e65-bc29-03415da8b11a",
+        "data_registro_rvbi": "2026-07-29T22:35:23Z",
+        "titulo": "Processo do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Zainaghi, Domingos Sávio"
+        ],
+        "edicao": "2. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2013,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520338902"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Petição (processo trabalhista) modelo Brasil",
+          "Prática forense Brasil",
+          "Processo trabalhista Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2000-01-12;9957",
+            "rótulo_original": "LEI-009957 (2000)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e19389ca96cb2294c171",
+    "titulo": "Processo do trabalho",
+    "autores": [
+      "Saraiva, Renato"
+    ],
+    "areas": [
+      "Processo do Trabalho",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/019c7a12-ac02-51b1-97c8-dd71ff262239",
+        "data_registro_rvbi": "2026-07-30T22:58:15Z",
+        "titulo": "Processo do trabalho",
+        "subtitulo": null,
+        "autores": [
+          "Saraiva, Renato"
+        ],
+        "edicao": "12. ed., rev., atua. e ampl",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788544209844"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo do Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo trabalhista Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

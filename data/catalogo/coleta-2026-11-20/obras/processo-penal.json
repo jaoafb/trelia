@@ -1,0 +1,3494 @@
+[
+  {
+    "id": "rvbi-3e4d8737844d6c5220b8",
+    "titulo": "1001 questões comentadas de direito processual penal",
+    "autores": [
+      "Tesseroli Filho, Nourmirio Bittencourt"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005d170c-2286-5a3c-8565-6cf6b2cd0b60",
+        "data_registro_rvbi": "2026-07-30T20:21:22Z",
+        "titulo": "1001 questões comentadas de direito processual penal",
+        "subtitulo": "CESPE",
+        "autores": [
+          "Tesseroli Filho, Nourmirio Bittencourt"
+        ],
+        "edicao": "3. ed., rev. e atual",
+        "volume": null,
+        "ano": 2014,
+        "editoras": [
+          "Forense",
+          "Método"
+        ],
+        "isbns": [
+          "9788530951245"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b05deae912c34ee9b912",
+    "titulo": "A função garantidora da pronúncia",
+    "autores": [
+      "Aquino, Álvaro Antônio Sagulo Borges de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010b6534-8107-5bbe-8761-c6c72d33c795",
+        "data_registro_rvbi": "2026-08-02T16:59:03Z",
+        "titulo": "A função garantidora da pronúncia",
+        "subtitulo": null,
+        "autores": [
+          "Aquino, Álvaro Antônio Sagulo Borges de"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788551928233"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Devido processo legal Brasil",
+          "Prática forense Brasil",
+          "Pronúncia (processo penal) jurisprudência Brasil",
+          "Pronúncia (processo penal) legislação Brasil",
+          "Tribunal do júri competência Brasil",
+          "Pronúncia (processo penal) Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/191136",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988 ART 00005 INC 38"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941) ART 00078 INC 01, ART 00408"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ee8fa37ee75ae295b99e",
+    "titulo": "A infiltração policial no processo penal",
+    "autores": [
+      "Faria, Renan Barboza de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0352e5ff-b199-5aa4-b49b-c7ff361d2192",
+        "data_registro_rvbi": "2025-07-30T10:21:20Z",
+        "titulo": "A infiltração policial no processo penal",
+        "subtitulo": "estudo comparado teórico e prático",
+        "autores": [
+          "Faria, Renan Barboza de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Fórum"
+        ],
+        "isbns": [
+          "9786555181593"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Persecução penal Brasil",
+          "Policial civil direitos e deveres Brasil",
+          "Prova criminal Brasil",
+          "Investigação criminal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.forumconhecimento.com.br/v2/livro/L4151/E4336",
+            "rótulo_original": "Acesso restrito aos computadores da Câmara dos Deputados"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-05df316af45817ec1d81",
+    "titulo": "ABC do processo penal",
+    "autores": [
+      "Rodrigues, Maria Stella Villela Souto Lopes"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010f8da2-dd0c-5321-bd34-65c22582cde3",
+        "data_registro_rvbi": "2026-08-01T21:47:25Z",
+        "titulo": "ABC do processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Rodrigues, Maria Stella Villela Souto Lopes"
+        ],
+        "edicao": "4. ed",
+        "volume": null,
+        "ano": 1979,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal modelo Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-68985d321bcaa527b8ff",
+    "titulo": "Apontamentos sobre o processo criminal brasileiro",
+    "autores": [
+      "São Vicente, José Antonio Pimenta Bueno"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02c9445c-15f8-5bb9-9f29-2babdeb7131c",
+        "data_registro_rvbi": "2026-07-31T04:01:30Z",
+        "titulo": "Apontamentos sobre o processo criminal brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "São Vicente, José Antonio Pimenta Bueno"
+        ],
+        "edicao": "Ed. anotada, atual. e complementar",
+        "volume": null,
+        "ano": 1959,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4241ebef0e5e711abf15",
+    "titulo": "As nulidades no processo penal",
+    "autores": [
+      "Grinover, Ada Pellegrini"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02ddcd5e-f622-5555-aabb-c119e9c93d7e",
+        "data_registro_rvbi": "2026-07-29T14:01:27Z",
+        "titulo": "As nulidades no processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Grinover, Ada Pellegrini"
+        ],
+        "edicao": "3. ed. rev. e ampl",
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Malheiros"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Nulidade no processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f2a99c5590c9cf1b98bd",
+    "titulo": "As nullidades no processo penal",
+    "autores": [
+      "Leto, Gaetano"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01b53ccc-05ad-51d5-9cb8-cef9907cf609",
+        "data_registro_rvbi": "2026-07-31T14:43:34Z",
+        "titulo": "As nullidades no processo penal",
+        "subtitulo": "estudo",
+        "autores": [
+          "Leto, Gaetano"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1911,
+        "editoras": [
+          "A. Leite"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Nulidade no processo penal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f4e9ebd65a737499b818",
+    "titulo": "Busca e apreensão penal",
+    "autores": [
+      "Dutra, Luciano"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/031e0953-06dc-5b2a-874d-dc6463106885",
+        "data_registro_rvbi": "2026-08-04T08:28:34Z",
+        "titulo": "Busca e apreensão penal",
+        "subtitulo": "da legalidade às ilegalidades cotidianas",
+        "autores": [
+          "Dutra, Luciano"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Conceito"
+        ],
+        "isbns": [
+          "9788577550142"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Medida cautelar Brasil",
+          "Busca e apreensão (processo penal) Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0e6dbe32304b86cdc6cd",
+    "titulo": "Código de processo penal",
+    "autores": [
+      "Gonçalves, Manuel Lopes Maia"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033056fc-9f20-5c2b-8e30-e2124eb05f4b",
+        "data_registro_rvbi": "2026-08-01T13:02:18Z",
+        "titulo": "Código de processo penal",
+        "subtitulo": "anotado e comentado",
+        "autores": [
+          "Gonçalves, Manuel Lopes Maia"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1972,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal legislação Portugal",
+          "Processo penal legislação Portugal 1931"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b67c3a76379841cbd01b",
+    "titulo": "Código de processo penal anotado",
+    "autores": [
+      "Jesus, Damásio Evangelista de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005003fa-1af0-5748-a07e-2aca1eec951e",
+        "data_registro_rvbi": "2026-08-04T11:03:44Z",
+        "titulo": "Código de processo penal anotado",
+        "subtitulo": null,
+        "autores": [
+          "Jesus, Damásio Evangelista de"
+        ],
+        "edicao": "25. ed., [de acordo com a lei n. 12.403, de 2011]",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502106352"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "http://www.planalto.gov.br/ccivil_03/Leis/L7210.htm",
+            "rótulo_original": "LEI-007210 (1984)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/Del3689.htm",
+            "rótulo_original": "DEL-003689 (1941)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c4d3c31b2a7bb222fd31",
+    "titulo": "Código de processo penal anotado",
+    "autores": [
+      "Bonfim, Edilson Mougenot"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/011dda93-22a7-51de-9841-26c3a7f5a275",
+        "data_registro_rvbi": "2026-08-01T03:13:48Z",
+        "titulo": "Código de processo penal anotado",
+        "subtitulo": null,
+        "autores": [
+          "Bonfim, Edilson Mougenot"
+        ],
+        "edicao": "4. ed., atual. de acordo com a Lei n. 12.403/2011 (prisão)",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502106338"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/45904",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-01-08;11900",
+            "rótulo_original": "LEI-011900 (2009)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-08-07;12016",
+            "rótulo_original": "LEI-012016 (2009)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-10-01;12037",
+            "rótulo_original": "LEI-012037 (2009)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2010-05-05;12234",
+            "rótulo_original": "LEI-012234 (2010)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-05-04;12403",
+            "rótulo_original": "LEI-012403 (2011)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-08d7286fa8a9b7af2611",
+    "titulo": "Código de processo penal anotado e comentado",
+    "autores": [
+      "Gonçalves, Manuel Lopes Maia"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00304fd5-7fea-5bdf-9404-cdf7ea4caaee",
+        "data_registro_rvbi": "2026-07-30T19:20:47Z",
+        "titulo": "Código de processo penal anotado e comentado",
+        "subtitulo": null,
+        "autores": [
+          "Gonçalves, Manuel Lopes Maia"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 1979,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal legislação Portugal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-7cf4d728fc38a2c88dd2",
+    "titulo": "Código de processo penal comentado",
+    "autores": [
+      "Nucci, Guilherme de Souza"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/028fe1b1-8284-56bd-9393-50afdfbdf858",
+        "data_registro_rvbi": "2026-07-30T13:09:37Z",
+        "titulo": "Código de processo penal comentado",
+        "subtitulo": null,
+        "autores": [
+          "Nucci, Guilherme de Souza"
+        ],
+        "edicao": "4. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2005,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520326534"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:emenda.constitucional:2004-12-08;45",
+            "rótulo_original": "EMC-000045 (2004)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2005-02-09;11101",
+            "rótulo_original": "LEI-011101 (2005)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-75598232015c3bf0ee2d",
+    "titulo": "Código de processo penal interpretado",
+    "autores": [
+      "Mirabete, Júlio Fabbrini"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/028e36ea-913c-53c2-b349-59d6689d0080",
+        "data_registro_rvbi": "2026-07-31T12:10:26Z",
+        "titulo": "Código de processo penal interpretado",
+        "subtitulo": "referências doutrinárias, indicações legais, resenha jurisprudencial",
+        "autores": [
+          "Mirabete, Júlio Fabbrini"
+        ],
+        "edicao": "4. ed., atual. até abril de 1996",
+        "volume": null,
+        "ano": 1996,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522414758"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil 1941",
+          "Processo penal legislação Brasil 1941"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e5d1e45caf1641c2c1e5",
+    "titulo": "Código de processo penal militar anotado",
+    "autores": [
+      "Assis, Jorge César de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007bad1b-e617-575b-9ea4-36e0c5f62465",
+        "data_registro_rvbi": "2026-08-21T18:30:16Z",
+        "titulo": "Código de processo penal militar anotado",
+        "subtitulo": null,
+        "autores": [
+          "Assis, Jorge César de"
+        ],
+        "edicao": "2. ed., rev. e atual. até a emenda constitucional n. 45, de 08.12.2004",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536211299"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Organização judiciária militar legislação Brasil",
+          "Processo penal militar Brasil",
+          "Direito militar Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1969-10-21;1002",
+            "rótulo_original": "DEL-001002 (1969)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-34b4de182098c5fb4241",
+    "titulo": "Codigo do processo criminal de primeira instancia do Império do Brasil",
+    "autores": [
+      "Silva, Josino do Nascimento"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0366d73e-16a3-5de0-bbd5-79378a489e12",
+        "data_registro_rvbi": "2026-08-04T00:16:45Z",
+        "titulo": "Codigo do processo criminal de primeira instancia do Império do Brasil",
+        "subtitulo": null,
+        "autores": [
+          "Silva, Josino do Nascimento"
+        ],
+        "edicao": "5. ed",
+        "volume": null,
+        "ano": 1864,
+        "editoras": [
+          "E. and H. Laemmert"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil Império (1822-1889) legislação"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b6649be2d3a0ee53512f",
+    "titulo": "Colaboração premiada como técnica especial de investigação criminal",
+    "autores": [
+      "Cabette, Eduardo Luiz Santos"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01ad016a-bb67-5c35-a9ec-78f2a1a49301",
+        "data_registro_rvbi": "2026-08-01T23:11:24Z",
+        "titulo": "Colaboração premiada como técnica especial de investigação criminal",
+        "subtitulo": null,
+        "autores": [
+          "Cabette, Eduardo Luiz Santos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "JH Mizuno"
+        ],
+        "isbns": [
+          "9786555260632"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crime organizado Brasil",
+          "Investigação criminal Brasil",
+          "Testemunha (processo penal) direitos e deveres Brasil",
+          "Delação premiada Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2021/fevereiro/1182659/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2013-08-02;12850",
+            "rótulo_original": "LEI-012850 (2013)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-64f914f7cdeccd9316ba",
+    "titulo": "Comentários ao Código de processo penal e sua jurisprudência",
+    "autores": [
+      "Oliveira, Eugênio Pacelli de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03260a14-ace3-54ea-883f-1ad6857a730e",
+        "data_registro_rvbi": "2026-07-31T23:21:09Z",
+        "titulo": "Comentários ao Código de processo penal e sua jurisprudência",
+        "subtitulo": null,
+        "autores": [
+          "Oliveira, Eugênio Pacelli de"
+        ],
+        "edicao": "7. ed., rev. e atual. até dezembro de 2014",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522498109"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-72d862023a6abf1cbffd",
+    "titulo": "Consultor Criminal Acerca de Todas as Açções Seguidas no Foro Criminal",
+    "autores": [
+      "Cordeiro, Carlos Antonio"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0257eee3-5e49-5efd-a837-27c227ecd4f5",
+        "data_registro_rvbi": "2026-07-29T17:32:33Z",
+        "titulo": "Consultor Criminal Acerca de Todas as Açções Seguidas no Foro Criminal",
+        "subtitulo": null,
+        "autores": [
+          "Cordeiro, Carlos Antonio"
+        ],
+        "edicao": "4. ed",
+        "volume": null,
+        "ano": 1909,
+        "editoras": [
+          "H. Garnier"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ato jurídico Brasil",
+          "Habeas corpus Brasil",
+          "Processo penal legislação Brasil",
+          "Ação penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6c8dce675dc7697ae47c",
+    "titulo": "Crime de homicídio",
+    "autores": [
+      "Brito, Francisco Nunes de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01de2a91-1cb0-5c1a-8911-08b2e4d72c6f",
+        "data_registro_rvbi": "2026-07-31T16:29:20Z",
+        "titulo": "Crime de homicídio",
+        "subtitulo": "análise da conduta de Caim e Abel",
+        "autores": [
+          "Brito, Francisco Nunes de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "CRV"
+        ],
+        "isbns": [
+          "9788580423389"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Homicídio doloso",
+          "Processo penal Brasil",
+          "Homicídio estudo de caso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=942341",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e428f845182b34f7fb40",
+    "titulo": "Curso de direito disciplinar militar",
+    "autores": [
+      "Assis, Jorge César de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010812c4-7f52-5579-8339-3dc5c5fcbc71",
+        "data_registro_rvbi": "2026-08-02T11:31:01Z",
+        "titulo": "Curso de direito disciplinar militar",
+        "subtitulo": "da simples transgressão ao processo administrativo",
+        "autores": [
+          "Assis, Jorge César de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536216607"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito disciplinar Brasil",
+          "Disciplina militar Brasil",
+          "Processo penal militar Brasil",
+          "Direito militar Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-218ba486c26a15bdfdf4",
+    "titulo": "Curso de processo penal",
+    "autores": [
+      "Capez, Fernando"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0316eb35-202a-5b1f-9315-733b719e0996",
+        "data_registro_rvbi": "2026-07-30T13:53:54Z",
+        "titulo": "Curso de processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Capez, Fernando"
+        ],
+        "edicao": "16. ed. de acordo com as leis n. 11.689, 11.690 e 11.719/2008, 2. tiragem",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502078055"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal fontes Brasil",
+          "Processo penal interpretação Brasil",
+          "Processo penal jurisprudência Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/fevereiro/851380/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-09;11689",
+            "rótulo_original": "LEI-011689 (2008)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-09;11690",
+            "rótulo_original": "LEI-011690 (2008)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-20;11719",
+            "rótulo_original": "LEI-011719 (2008)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6e200e34400d7556e81f",
+    "titulo": "Curso de processo penal",
+    "autores": [
+      "Oliveira, Eugênio Pacelli de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00324f4a-62e6-5a35-b352-23b433225ae4",
+        "data_registro_rvbi": "2026-08-04T16:27:18Z",
+        "titulo": "Curso de processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Oliveira, Eugênio Pacelli de"
+        ],
+        "edicao": "16. ed., atual. de acordo com as Leis n. 12.403, 12.432, 12.461, 12.483, 12.529, todas de 2011, e Lei Complementar n. 140, de 8 de dezembro de 2011",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522468515"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil",
+          "Reforma processual penal Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/25077",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-05-04;12403",
+            "rótulo_original": "LEI-012403 (2011)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-07-26;12461",
+            "rótulo_original": "LEI-012461 (2011)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-09-08;12483",
+            "rótulo_original": "LEI-012483 (2011)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-30;12529",
+            "rótulo_original": "LEI-012529 (2011)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:2011-12-08;140",
+            "rótulo_original": "LCP-000140 (2011)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/023b42b3-d390-5967-8031-c30f05923f89",
+        "data_registro_rvbi": "2026-07-29T08:41:36Z",
+        "titulo": "Curso de processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Oliveira, Eugênio Pacelli de"
+        ],
+        "edicao": "3. ed., rev., ampl. e atual. até dezembro de 2003, 2. tiragem",
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788573086775"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2c6d16c97181aadf1162",
+    "titulo": "Da prisão especial",
+    "autores": [
+      "Silva, Francisco Rodrigues da"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/011f7e2f-8ae7-5588-ab2c-0a798a887fe5",
+        "data_registro_rvbi": "2026-07-29T06:55:27Z",
+        "titulo": "Da prisão especial",
+        "subtitulo": "dos seus beneficiários : de acordo com a Lei nº 10.258/2001",
+        "autores": [
+          "Silva, Francisco Rodrigues da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "Bagaço"
+        ],
+        "isbns": [
+          "9788574094588"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Prisão especial jurisprudência Brasil",
+          "Processo penal Brasil",
+          "Prisão especial Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-152dd15dd138bcb7a4ec",
+    "titulo": "Decisões favoráveis à defesa",
+    "autores": [
+      "Capobianco, Rodrigo Julio"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/004e3efc-ee21-5ce5-a8d3-f7323a79d83e",
+        "data_registro_rvbi": "2026-08-04T22:16:04Z",
+        "titulo": "Decisões favoráveis à defesa",
+        "subtitulo": "penal e processo penal",
+        "autores": [
+          "Capobianco, Rodrigo Julio"
+        ],
+        "edicao": "5. ed., atual. e ampl",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530931155"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação penal Brasil",
+          "Coisa julgada (processo penal) Brasil",
+          "Decisão em matéria penal jurisprudência Brasil",
+          "Legislação penal Brasil",
+          "Sentença penal Brasil",
+          "Decisão em matéria penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/setembro/878828/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988 ART 00005 INC 38 INC 43 INC 69, ART 00093 INC 09"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1940-12-07;2848",
+            "rótulo_original": "DEL-002848 (1940)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1995-09-26;9099",
+            "rótulo_original": "LEI-009099 (1995)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rangel-processo-penal",
+    "titulo": "Direito Processual Penal",
+    "autores": [
+      "Paulo Rangel"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Processo Penal",
+        "obra_id": "rangel-processo-penal",
+        "titulo": "Direito Processual Penal",
+        "autoria": "Paulo Rangel",
+        "ano": "2027",
+        "numero_edicao": "31",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544279267",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/direito-processual-penal-2027-paulo-rangel",
+        "funcao_editorial": "Referência sobre prova no processo penal",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-7208d58a56ad4616b044",
+    "titulo": "Direito processual penal",
+    "autores": [
+      "Araújo, Fábio Roque"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/017c312b-3953-5d07-892b-101f4bb57b0e",
+        "data_registro_rvbi": "2026-07-29T03:15:35Z",
+        "titulo": "Direito processual penal",
+        "subtitulo": null,
+        "autores": [
+          "Araújo, Fábio Roque"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Impetus"
+        ],
+        "isbns": [
+          "9788576266242"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Exame de ordem Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c2ebce73189245d78d70",
+    "titulo": "Direito processual penal",
+    "autores": [
+      "Alexandre Barbosa Lemes [e outros]"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00b19a02-ce9d-5943-b534-a2fc71f6114b",
+        "data_registro_rvbi": "2026-08-04T07:40:47Z",
+        "titulo": "Direito processual penal",
+        "subtitulo": "parte 1",
+        "autores": [
+          "Alexandre Barbosa Lemes [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520334065",
+          "9788520334072"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação cível Brasil",
+          "Ação penal Brasil",
+          "Competência Brasil",
+          "Inquérito policial Brasil",
+          "Jurisdição Brasil",
+          "Liberdade provisória Brasil",
+          "Medida de segurança Brasil",
+          "Prisão Brasil",
+          "Prova criminal Brasil",
+          "Sentença penal Brasil",
+          "Processo penal Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3eb2f6f595a3344a2ba2",
+    "titulo": "Direito processual penal e sua conformidade constitucional",
+    "autores": [
+      "Lopes Júnior, Aury"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/03568f5a-043d-5a07-bdd7-d39d6096f814",
+        "data_registro_rvbi": "2026-08-02T03:41:08Z",
+        "titulo": "Direito processual penal e sua conformidade constitucional",
+        "subtitulo": null,
+        "autores": [
+          "Lopes Júnior, Aury"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788537508558",
+          "9788537510520"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal",
+          "Processo penal aspectos constitucionais Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/19148",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f6ec1be9378f268f363c",
+    "titulo": "Grandes julgamentos da história",
+    "autores": [
+      "Robert, Henri"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01f52b7d-b5b6-5feb-9210-4b42edb12086",
+        "data_registro_rvbi": "2026-08-02T13:09:10Z",
+        "titulo": "Grandes julgamentos da história",
+        "subtitulo": null,
+        "autores": [
+          "Robert, Henri"
+        ],
+        "edicao": "[1. ed.]",
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "Martins Fontes"
+        ],
+        "isbns": [
+          "9788533615984"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Julgamento (processo penal) história",
+          "Processos célebres França"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2006/setembro/670374.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4c90cb61057d559ee09a",
+    "titulo": "Instrucções relativas à pratica do processo concernente a policia do Districto Federal",
+    "autores": [
+      "Antonio Bento de Faria, organizador"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0163d4fc-801e-5e12-9694-1e3772f9b69e",
+        "data_registro_rvbi": "2026-07-30T00:58:18Z",
+        "titulo": "Instrucções relativas à pratica do processo concernente a policia do Districto Federal",
+        "subtitulo": "organisadas por ordem do Exmo. Sr. Dr. Antonio Augusto Cardozo de Castro",
+        "autores": [
+          "Antonio Bento de Faria, organizador"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1905,
+        "editoras": [
+          "Impr. Nacional"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Polícia legislação Distrito Federal (Brasil)",
+          "Instrução (processo penal) Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/SumarioSERE/48337_Sumario.pdf",
+            "rótulo_original": "Sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6e28d9204788d762c8f3",
+    "titulo": "Inversão do ônus da prova no processo penal brasileiro",
+    "autores": [
+      "Monnerat, Carlos Fonseca"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0005a349-22eb-55bd-9947-1ff39c791e6e",
+        "data_registro_rvbi": "2026-07-29T05:49:25Z",
+        "titulo": "Inversão do ônus da prova no processo penal brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Monnerat, Carlos Fonseca"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Comunnicar"
+        ],
+        "isbns": [
+          "9788599561119"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil",
+          "Prova criminal Brasil",
+          "Prova indiciária Brasil",
+          "Inversão do ônus da prova Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/34116",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8bb65f76efbb0d3ecb38",
+    "titulo": "Justiça em crise?",
+    "autores": [
+      "Vidal, José Marques"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0334a581-a330-5ed8-af4a-9f79e3c402e4",
+        "data_registro_rvbi": "2026-07-31T06:51:24Z",
+        "titulo": "Justiça em crise?",
+        "subtitulo": null,
+        "autores": [
+          "Vidal, José Marques"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Quetzal"
+        ],
+        "isbns": [
+          "9789725645932"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração da justiça Portugal",
+          "Interceptação telefônica Portugal",
+          "Investigação criminal Portugal",
+          "Justiça Portugal",
+          "Terrorismo Brasil",
+          "Tribunal constitucional Portugal",
+          "Processo penal Portugal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e12bf87a6e9348c45972",
+    "titulo": "Law and economics e justiça criminal",
+    "autores": [
+      "Dalmagro Junior, João Carlos"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02a91a86-8244-432d-93a1-fa7766c1ef4b",
+        "data_registro_rvbi": "2026-08-04T14:41:45Z",
+        "titulo": "Law and economics e justiça criminal",
+        "subtitulo": "uma genealogia das categorias econômicas e da sua difusão no processo penal contemporâneo",
+        "autores": [
+          "Dalmagro Junior, João Carlos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "Emais"
+        ],
+        "isbns": [
+          "9786583070890"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal aspectos econômicos",
+          "Análise econômica do direito",
+          "Neoliberalismo"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d890ffe1459ee5ccf90f",
+    "titulo": "Manual de processo penal",
+    "autores": [
+      "Polastri Lima, Marcellus"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/010a62db-af7d-5034-9355-c82fbcc8f3ec",
+        "data_registro_rvbi": "2026-07-30T20:00:08Z",
+        "titulo": "Manual de processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Polastri Lima, Marcellus"
+        ],
+        "edicao": "6. ed",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788537511671"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil",
+          "Processo penal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/27606",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d0ce885d74f0d2aaf659",
+    "titulo": "Mapa do encarceramento",
+    "autores": [],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0039dc31-754c-5a17-8c32-045afe376c3f",
+        "data_registro_rvbi": "2026-07-30T12:13:37Z",
+        "titulo": "Mapa do encarceramento",
+        "subtitulo": "os jovens do Brasil",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Presidência da República"
+        ],
+        "isbns": [
+          "9788585142629"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Jovem violência contra Brasil estatística",
+          "Medida socioeducativa Brasil",
+          "Negros homicídio Brasil",
+          "População carcerária Brasil estatística",
+          "Processo penal Brasil",
+          "População carcerária Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://bibliotecadigital.mdh.gov.br/jspui/bitstream/192/89/1/SNJ_mapa_encarceramento_2015.pdf",
+            "rótulo_original": "Versão eletrônica (PDF) Acesso em: 11 abr. 2022"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f182dbe3b0031bb31180",
+    "titulo": "Medidas cautelares pessoais",
+    "autores": [
+      "Câmara, Luiz Antonio"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0136e7b8-94ce-5e84-a41a-d5ce868b33d2",
+        "data_registro_rvbi": "2026-07-29T14:19:56Z",
+        "titulo": "Medidas cautelares pessoais",
+        "subtitulo": "prisão e liberdade provisória : de acordo com a reforma do novo Código de processo penal Lei 12.403, de 04.05.2011",
+        "autores": [
+          "Câmara, Luiz Antonio"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536233802"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direitos e garantias individuais Brasil",
+          "Liberdade provisória Brasil",
+          "Medida cautelar Brasil",
+          "Prisão legislação Brasil",
+          "Reforma processual penal Brasil",
+          "Prisão Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/40744",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-05-04;12403",
+            "rótulo_original": "LEI-012403 (2011)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-88e25f66c69ce1e65f40",
+    "titulo": "Nova reforma do código de processo penal",
+    "autores": [
+      "Mendonça, Andrey Borges de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002d333f-62fb-55a6-ac71-bf8a3c301aee",
+        "data_registro_rvbi": "2026-07-29T13:11:07Z",
+        "titulo": "Nova reforma do código de processo penal",
+        "subtitulo": "comentada artigo por artigo",
+        "autores": [
+          "Mendonça, Andrey Borges de"
+        ],
+        "edicao": "2. tiragem",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788576602989"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Reforma processual penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-09;11689",
+            "rótulo_original": "LEI-011689 (2008)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-09;11690",
+            "rótulo_original": "LEI-011690 (2008)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-20;11719",
+            "rótulo_original": "LEI-011719 (2008)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c0614f731c1f6195b1fa",
+    "titulo": "Nulidades no direito processual penal",
+    "autores": [
+      "Mossin, Heráclito Antônio"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002d0003-f059-5d29-8915-8f6582ed2bdf",
+        "data_registro_rvbi": "2026-08-04T20:21:16Z",
+        "titulo": "Nulidades no direito processual penal",
+        "subtitulo": null,
+        "autores": [
+          "Mossin, Heráclito Antônio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1998,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522418367"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Nulidade no processo penal legislação Brasil",
+          "Nulidade no processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-58afa457850ab10e0966",
+    "titulo": "Nulidades no processo penal",
+    "autores": [
+      "Fernandes, Paulo Sérgio Leite"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01b91167-71dc-58e8-8ed5-616083206ff6",
+        "data_registro_rvbi": "2026-08-02T08:34:05Z",
+        "titulo": "Nulidades no processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Fernandes, Paulo Sérgio Leite"
+        ],
+        "edicao": "4 . ed. rev., acres. e atual",
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d4afe3f003108b619199",
+    "titulo": "Nulidades no processo penal",
+    "autores": [
+      "Gloeckner, Ricardo Jacobsen"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0035e4e3-54dd-5d18-9bc0-fea2231064f8",
+        "data_registro_rvbi": "2026-07-29T13:17:15Z",
+        "titulo": "Nulidades no processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Gloeckner, Ricardo Jacobsen"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788547214678"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Nulidade no processo penal aspectos constitucionais Brasil",
+          "Nulidade no processo penal legislação Brasil",
+          "Processo penal aspectos constitucionais Brasil",
+          "Nulidade no processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/117163",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8c2cb1e6b68d7aa65910",
+    "titulo": "O agente infiltrado frente ao processo penal constitucional",
+    "autores": [
+      "Gonçalves, Vinícius Abdala"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02880aa2-b2bf-5809-b2a8-89e26017b26c",
+        "data_registro_rvbi": "2026-08-03T02:40:25Z",
+        "titulo": "O agente infiltrado frente ao processo penal constitucional",
+        "subtitulo": null,
+        "autores": [
+          "Gonçalves, Vinícius Abdala"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2014,
+        "editoras": [
+          "Arraes"
+        ],
+        "isbns": [
+          "9788582380727"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Investigação criminal direito comparado",
+          "Investigação criminal Brasil",
+          "Policial civil poderes e atribuições Brasil",
+          "Prova criminal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "http://hudoc.echr.coe.int/sites/eng/pages/search.aspx?i=001-58193#{\"itemid\":[\"001-58193\"]}",
+            "rótulo_original": "Texto integral em inglês da decisão do Tribunal Europeu dos Direitos do Homem no caso Teixeira de Castro vs. Portugal Acesso em: 14 jan. 2015"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2015/fevereiro/1015613/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9bc6a0e975724048a82c",
+    "titulo": "O julgamento de Otelo, o mouro de Veneza",
+    "autores": [
+      "René Ariel Dotti, apresentação ; Daniel Ribeiro Surdi de Avelar, coordenador ; Angela dos Prazeres e Liana de Camargo Leão, organizadoras"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02df15a4-4ac0-58c8-8131-c23e55e3c0bc",
+        "data_registro_rvbi": "2026-07-31T18:16:10Z",
+        "titulo": "O julgamento de Otelo, o mouro de Veneza",
+        "subtitulo": "direito e literatura",
+        "autores": [
+          "René Ariel Dotti, apresentação ; Daniel Ribeiro Surdi de Avelar, coordenador ; Angela dos Prazeres e Liana de Camargo Leão, organizadoras"
+        ],
+        "edicao": "1. ed. comemorativa Shakespeare 400 anos",
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Empório do direito"
+        ],
+        "isbns": [
+          "9788594771117"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Homicídio",
+          "Julgamento (processo penal)",
+          "Literatura aspectos jurídicos",
+          "Literatura crítica e interpretação Inglaterra",
+          "Peça teatral aspectos jurídicos",
+          "Psicologia forense",
+          "Racismo",
+          "Tribunal do júri",
+          "Direito aspectos culturais coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/157597",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-fcddc260779dccc1b674",
+    "titulo": "O Processo Penal",
+    "autores": [
+      "Acosta, Walter P"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02aeafcc-8413-512c-bb88-b8220559ffff",
+        "data_registro_rvbi": "2026-08-01T22:38:53Z",
+        "titulo": "O Processo Penal",
+        "subtitulo": "teoria, prática, jurisprudência, organogramas",
+        "autores": [
+          "Acosta, Walter P"
+        ],
+        "edicao": "18. ed atual",
+        "volume": null,
+        "ano": 1989,
+        "editoras": [
+          "Ed. do Autor"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil",
+          "Processo penal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002bff3a-8254-5bfc-ba3e-67419e86fbb7",
+        "data_registro_rvbi": "2026-07-29T21:15:00Z",
+        "titulo": "O Processo Penal",
+        "subtitulo": "teoria, prática, jurisprudência, organogramas",
+        "autores": [
+          "Acosta, Walter P"
+        ],
+        "edicao": "19. ed., atual. Segundo a Constituição de 1988, a nova parte geral do Código penal, a lei de execução Penal e outras Leis Ordinarias em vigor",
+        "volume": null,
+        "ano": 1989,
+        "editoras": [
+          "Ed. do Autor"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil",
+          "Processo penal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-42c6128753ad189ba56e",
+    "titulo": "O processo penal e a defesa dos direitos e garantias individuais",
+    "autores": [
+      "Cabette, Eduardo Luiz Santos"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02075c7c-4e6b-594d-9396-8633ba83b67f",
+        "data_registro_rvbi": "2026-07-31T14:05:42Z",
+        "titulo": "O processo penal e a defesa dos direitos e garantias individuais",
+        "subtitulo": null,
+        "autores": [
+          "Cabette, Eduardo Luiz Santos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "Péritas"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a28b97946822d07ca8c9",
+    "titulo": "O sistema de justiça penal visto por nós advogados",
+    "autores": [
+      "Felipe Martins Pinto, Leonardo Augusto Marinho Marques, Luciano Santos Lopes, organizadores"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0148fce1-e1a3-450c-972f-18ce7294f2c8",
+        "data_registro_rvbi": "2026-04-05T00:03:16Z",
+        "titulo": "O sistema de justiça penal visto por nós advogados",
+        "subtitulo": null,
+        "autores": [
+          "Felipe Martins Pinto, Leonardo Augusto Marinho Marques, Luciano Santos Lopes, organizadores"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9786599203541"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil coletânea",
+          "Criminalidade Brasil",
+          "Princípio da segurança jurídica Brasil",
+          "Advogado Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.forumconhecimento.com.br/v2/livro/L4292/E4488/o-sistema-de-justica-penal-visto-por-nos-advogados?tab=edicoes",
+            "rótulo_original": "Acesso restrito - AGU"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5fe556b32f7461d6fd5b",
+    "titulo": "Perigo do quarto poder",
+    "autores": [
+      "Bernardo, Moacir Fermino"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0278e02a-b6e7-535a-a36f-e4f10f501216",
+        "data_registro_rvbi": "2026-08-04T05:05:15Z",
+        "titulo": "Perigo do quarto poder",
+        "subtitulo": "de acordo com a constituição da república federativa do Brasil de 1988",
+        "autores": [
+          "Bernardo, Moacir Fermino"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1994,
+        "editoras": [
+          "Sagra-dc Luzzatto"
+        ],
+        "isbns": [
+          "9788524104312"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Delegado de polícia Brasil",
+          "Ética política Brasil",
+          "Polícia civil Brasil",
+          "Processo penal Brasil",
+          "Promotor público Brasil",
+          "Inquérito policial Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3e6e3253730b00f84a59",
+    "titulo": "Prática de processo penal",
+    "autores": [
+      "Tourinho Filho, Fernando da Costa"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/030a4df5-6b12-506f-bd28-925cbd17b9d4",
+        "data_registro_rvbi": "2026-07-29T16:09:47Z",
+        "titulo": "Prática de processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Tourinho Filho, Fernando da Costa"
+        ],
+        "edicao": "24. ed., rev., aum. e atual",
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502040687"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Apelação (processo penal) Brasil",
+          "Inquérito policial Brasil",
+          "Liberdade provisória Brasil",
+          "Prisão em flagrante Brasil",
+          "Recurso especial Brasil",
+          "Recurso ordinário Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ba82d4898cc725aed998",
+    "titulo": "Prática de processo penal",
+    "autores": [
+      "Silva, Nelson Finotti"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/019648bb-60ea-51ce-9266-e8e75b637b69",
+        "data_registro_rvbi": "2026-11-12T13:00:30Z",
+        "titulo": "Prática de processo penal",
+        "subtitulo": "noções gerais, procedimentos, modelos, provas da OAB e gabarito, súmulas do STF e STJ",
+        "autores": [
+          "Silva, Nelson Finotti"
+        ],
+        "edicao": "3. ed., rev. e atual",
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9786556051406"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação penal Brasil",
+          "Inquérito policial Brasil",
+          "Juizado especial criminal Brasil",
+          "Prática forense Brasil",
+          "Prisão Brasil",
+          "Processo penal modelo Brasil",
+          "Processo penal Brasil problemas, exercícios etc",
+          "Recurso (processo penal) Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-12-24;13964",
+            "rótulo_original": "LEI-013964 (2019)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2083a6d760528445ecb7",
+    "titulo": "Prática forense penal",
+    "autores": [
+      "Capez, Fernando"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0292ff4f-f795-58e4-bfbf-aa440582dce6",
+        "data_registro_rvbi": "2026-08-04T05:39:38Z",
+        "titulo": "Prática forense penal",
+        "subtitulo": null,
+        "autores": [
+          "Capez, Fernando"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502058149"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação penal Brasil",
+          "Apelação (processo penal) Brasil",
+          "Correição parcial Brasil",
+          "Defesa (processo penal) Brasil",
+          "Denúncia Brasil",
+          "Embargos de declaração Brasil",
+          "Embargos infringentes Brasil",
+          "Habeas corpus Brasil",
+          "Inquérito policial Brasil",
+          "Libelo crime acusatório Brasil",
+          "Liberdade provisória Brasil",
+          "Mandado de segurança Brasil",
+          "Prisão Brasil",
+          "Processo penal modelo Brasil",
+          "Recurso (processo penal) Brasil",
+          "Recurso especial Brasil",
+          "Recurso extraordinário Brasil",
+          "Revisão criminal Brasil",
+          "Sentença penal Brasil",
+          "Suspensão do processo penal Brasil",
+          "Prática forense Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1ab4d7cad084008ed4d0",
+    "titulo": "Prática processual penal",
+    "autores": [
+      "Garcia, Ismar Estulano"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0162502a-9e13-586f-a570-9467616b9e7c",
+        "data_registro_rvbi": "2026-07-29T03:34:40Z",
+        "titulo": "Prática processual penal",
+        "subtitulo": "procedimento comum ordinário",
+        "autores": [
+          "Garcia, Ismar Estulano"
+        ],
+        "edicao": "4. ed., rev. e atual",
+        "volume": null,
+        "ano": 1995,
+        "editoras": [
+          "Ab"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Citação (processo penal)",
+          "Denúncia",
+          "Inquérito policial",
+          "Intimação",
+          "Oitiva",
+          "Procedimento comum",
+          "Procedimento ordinário",
+          "Processo penal modelo Brasil",
+          "Queixa",
+          "Sentença penal",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4a01cc94787adab2a634",
+    "titulo": "Processo penal",
+    "autores": [
+      "Alves, Leonardo Barreto Moreira"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00b6ad85-bb41-5e40-b4de-b228237a1b32",
+        "data_registro_rvbi": "2026-08-04T18:37:27Z",
+        "titulo": "Processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Alves, Leonardo Barreto Moreira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788577613533",
+          "9788577614769"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação penal Brasil problemas, exercícios etc",
+          "Processo penal Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a8212e88fe5ae0fce69a",
+    "titulo": "Processo penal",
+    "autores": [
+      "Guimarães, Isaac Sabbá"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005acbee-398e-5aeb-9259-beb642cabf10",
+        "data_registro_rvbi": "2026-08-02T16:21:37Z",
+        "titulo": "Processo penal",
+        "subtitulo": "em conformidade com as alterações da Lei 13.964/2019",
+        "autores": [
+          "Guimarães, Isaac Sabbá"
+        ],
+        "edicao": "4. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9786556059877"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Competência (processo penal) Brasil",
+          "Direitos e garantias individuais Brasil",
+          "Processo penal aspectos constitucionais Brasil",
+          "Processo penal legislação Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/149688",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2019-12-24;13964",
+            "rótulo_original": "LEI-013964 (2019)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ee51980e1946510613b9",
+    "titulo": "Processo penal",
+    "autores": [
+      "Avena, Norberto Cláudio Pâncaro"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0093cec9-31f1-5eb7-96e1-1028449928e1",
+        "data_registro_rvbi": "2026-08-01T09:21:00Z",
+        "titulo": "Processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Avena, Norberto Cláudio Pâncaro"
+        ],
+        "edicao": "7. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530940805"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal Brasil problemas, exercícios etc",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-05-04;12403",
+            "rótulo_original": "LEI-012403 (2011)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-45ada55187dd4b795887",
+    "titulo": "Processo penal 2",
+    "autores": [
+      "Bonfim, Edilson Mougenot"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00ba98b8-322d-5c73-a9f4-43d7003e8729",
+        "data_registro_rvbi": "2026-08-02T10:43:02Z",
+        "titulo": "Processo penal 2",
+        "subtitulo": "dos procedimentos aos recursos",
+        "autores": [
+          "Bonfim, Edilson Mougenot"
+        ],
+        "edicao": "5. ed., reform",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502059436",
+          "9788502069893"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Juizado especial criminal Brasil",
+          "Nulidade no processo penal Brasil",
+          "Procedimento comum Brasil",
+          "Procedimento ordinário Brasil",
+          "Procedimento sumário Brasil",
+          "Processo penal Brasil problemas, exercícios etc",
+          "Recurso (processo penal) Brasil",
+          "Suspensão do processo penal Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-dbaaa1f9adf3de260cdd",
+    "titulo": "Processo penal constitucional",
+    "autores": [
+      "Fernandes, Antonio Scarance"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02f38af5-8701-5c32-818f-8de5afce30f5",
+        "data_registro_rvbi": "2026-08-04T10:49:20Z",
+        "titulo": "Processo penal constitucional",
+        "subtitulo": null,
+        "autores": [
+          "Fernandes, Antonio Scarance"
+        ],
+        "edicao": "3. ed. rev atual e ampl",
+        "volume": null,
+        "ano": 2003,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520323113"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação penal Brasil",
+          "Competência constitucional Brasil",
+          "Devido processo legal",
+          "Direito processual constitucional",
+          "Direitos e garantias individuais Brasil",
+          "Jurisdição penal Brasil",
+          "Justiça estadual competência Brasil",
+          "Justiça federal competência Brasil",
+          "Medida cautelar Brasil",
+          "Publicidade (direito) Brasil",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-07-25;8072",
+            "rótulo_original": "LEI-008072 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1995-09-26;9099",
+            "rótulo_original": "LEI-009099 (1995)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-04-17;9271",
+            "rótulo_original": "LEI-009271 (1996)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-07-24;9296",
+            "rótulo_original": "LEI-009296 (1996)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-08-07;9299",
+            "rótulo_original": "LEI-009299 (1996)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4d744c971f7430589437",
+    "titulo": "Processo penal esquematizado",
+    "autores": [
+      "Avena, Norberto Cláudio Pâncaro"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/023c57c3-2650-5385-b2be-27eba09bd66d",
+        "data_registro_rvbi": "2026-08-02T05:43:02Z",
+        "titulo": "Processo penal esquematizado",
+        "subtitulo": null,
+        "autores": [
+          "Avena, Norberto Cláudio Pâncaro"
+        ],
+        "edicao": "7. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530958534"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal jurisprudência Brasil",
+          "Processo penal legislação Brasil",
+          "Processo penal Brasil problemas, exercícios etc",
+          "Processo penal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1941-10-03;3689",
+            "rótulo_original": "DEL-003689 (1941)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2015-03-16;13105",
+            "rótulo_original": "LEI-013105 (2015)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-cf64badc9730b42511db",
+    "titulo": "Procuradoria-geral da Justiça Militar",
+    "autores": [
+      "Josephson, C. de Osiris"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e0a57f-1246-5057-9a68-acd4d8f43991",
+        "data_registro_rvbi": "2026-07-30T13:28:14Z",
+        "titulo": "Procuradoria-geral da Justiça Militar",
+        "subtitulo": "do inquérito policial militar, do processo penal militar, índice do inquérito policial militar e da prisão em flagrante no código de processo penal militar",
+        "autores": [
+          "Josephson, C. de Osiris"
+        ],
+        "edicao": "2. ed Rev",
+        "volume": null,
+        "ano": 1971,
+        "editoras": [
+          "Imprensa do Exército"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Prisão em flagrante",
+          "Processo penal militar Brasil",
+          "Inquérito policial militar Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6887f56d2139735b11d5",
+    "titulo": "Prova penal e falsas memórias",
+    "autores": [
+      "Di Gesu, Cristina"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0009e3c5-a30d-52ba-9fe9-e3f269e08417",
+        "data_registro_rvbi": "2026-07-31T15:55:35Z",
+        "titulo": "Prova penal e falsas memórias",
+        "subtitulo": null,
+        "autores": [
+          "Di Gesu, Cristina"
+        ],
+        "edicao": "2. ed ampl. e rev",
+        "volume": null,
+        "ano": 2014,
+        "editoras": [
+          "Livraria do advogado"
+        ],
+        "isbns": [
+          "9788573489095"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acusação Brasil",
+          "Depoimento (processo penal) Brasil",
+          "Falso testemunho Brasil",
+          "Interrogatório (processo penal) Brasil",
+          "Memória (psicologia)",
+          "Memória (psicologia) Brasil estudo de caso",
+          "Prova criminal Brasil",
+          "Prova testemunhal (processo penal) Brasil",
+          "Psicologia forense",
+          "Testemunha (processo penal) Brasil",
+          "Prova testemunhal (processo penal) Brasil estudo de caso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c5669f9229e4cc5a753d",
+    "titulo": "Prova testemunhal no processo penal",
+    "autores": [
+      "Fernandes, Lara Teles"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02765bc7-2fb8-566c-97cf-8a7ca124d92f",
+        "data_registro_rvbi": "2026-07-31T16:00:41Z",
+        "titulo": "Prova testemunhal no processo penal",
+        "subtitulo": "uma proposta interdisciplinar de valoração",
+        "autores": [
+          "Fernandes, Lara Teles"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2023,
+        "editoras": [
+          "Emais"
+        ],
+        "isbns": [
+          "9786585073509"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Epistemologia jurídica",
+          "Prova testemunhal (processo penal)",
+          "Reconhecimento (processo penal) Brasil",
+          "Testemunho aspectos psicológicos",
+          "Verdade (filosofia)",
+          "Prova testemunhal (processo penal) Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-7ea3ce911d68f5879fea",
+    "titulo": "Provas ilícitas e ponderação de interesses no processo penal",
+    "autores": [
+      "Campos, Gabriel Silveira de Queirós"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01aa2879-a044-5ff9-9367-963b5df6b4d7",
+        "data_registro_rvbi": "2026-08-04T13:17:00Z",
+        "titulo": "Provas ilícitas e ponderação de interesses no processo penal",
+        "subtitulo": null,
+        "autores": [
+          "Campos, Gabriel Silveira de Queirós"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788544203460"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Delação premiada Brasil",
+          "Denúncia anônima Brasil",
+          "Escuta clandestina Brasil",
+          "Princípio da proporcionalidade Brasil Alemanha",
+          "Prova ilícita direito comparado Brasil Estados Unidos",
+          "Prova ilícita Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8b4150d433e1994c7e62",
+    "titulo": "Relatorio sobre o caso do advogado gilson nogueira",
+    "autores": [],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0043cbc3-9344-53ae-a49c-0aa3f9427248",
+        "data_registro_rvbi": "2026-08-03T00:41:19Z",
+        "titulo": "Relatorio sobre o caso do advogado gilson nogueira",
+        "subtitulo": "processo crime 181/99, 2. Cartorio - Comarca de Macaiba/RN/Juiza Patricia Gondim Moreira Pereira",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "Comarca de Macaiba"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo penal relatório Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d9b54f5ea88e9c95d99c",
+    "titulo": "Revisão criminal",
+    "autores": [],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/004fb9e0-c0ba-50a0-95f6-d63edcf54ed5",
+        "data_registro_rvbi": "2026-07-29T18:38:06Z",
+        "titulo": "Revisão criminal",
+        "subtitulo": "arts. 621 a 631 do codigo de processo penal",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": null,
+        "editoras": [
+          "Edita"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Revisão criminal modelo"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-76d225c88be87bec7e08",
+    "titulo": "Sucessão de Leis Penais",
+    "autores": [
+      "Carvalho, Americo A. Taipa de"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02ef2689-6fc0-5268-8108-c174fc70f9d0",
+        "data_registro_rvbi": "2026-07-30T01:42:32Z",
+        "titulo": "Sucessão de Leis Penais",
+        "subtitulo": null,
+        "autores": [
+          "Carvalho, Americo A. Taipa de"
+        ],
+        "edicao": "3. ed., rev. e actual",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Coimbra Ed"
+        ],
+        "isbns": [
+          "9789723215946"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Coisa julgada (processo penal) Portugal",
+          "Princípio da inocência Portugal",
+          "Prisão preventiva Portugal",
+          "Processo penal Portugal",
+          "Retroatividade das leis Portugal",
+          "Legislação penal Portugal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-eb32eeaff8e326f72161",
+    "titulo": "Temas processuais penais da atualidade",
+    "autores": [
+      "Clayton da Silva Bezerra, Giovani Celso Agnoletto, organizadores"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00691bec-004a-502f-bb1b-d02522a6713c",
+        "data_registro_rvbi": "2026-08-01T12:40:05Z",
+        "titulo": "Temas processuais penais da atualidade",
+        "subtitulo": "doutrina e prática : (a visão do delegado de polícia)",
+        "autores": [
+          "Clayton da Silva Bezerra, Giovani Celso Agnoletto, organizadores"
+        ],
+        "edicao": "1. ed",
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Letras Jurídicas"
+        ],
+        "isbns": [
+          "9788582480809"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Acareação aspectos jurídicos Brasil",
+          "Busca e apreensão (processo penal) Brasil",
+          "Condução coercitiva Brasil",
+          "Delegado de polícia Brasil",
+          "Interceptação telefônica inspeção Brasil",
+          "Intimação Brasil",
+          "Investigação criminal Brasil",
+          "Perícia (processo penal) Brasil",
+          "Polícia inspeção Brasil",
+          "Prisão em flagrante Brasil",
+          "Processo penal Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2017/setembro/1074543/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-cba147075dd5e4c86104",
+    "titulo": "Toxico",
+    "autores": [],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02095dbd-3d5c-58f5-aed4-2f8d9262fa7c",
+        "data_registro_rvbi": "2026-08-01T15:45:49Z",
+        "titulo": "Toxico",
+        "subtitulo": "artigo 12, lei 6.368 de 21-10-1976",
+        "autores": [],
+        "edicao": "Ed., ampl., rev. e atual",
+        "volume": null,
+        "ano": null,
+        "editoras": [
+          "Edita"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Busca e apreensão (processo penal) modelo",
+          "Inquérito policial modelo",
+          "Tráfico de drogas"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-da8fe8035da07d7d884a",
+    "titulo": "Videoconferência no processo penal",
+    "autores": [
+      "Prado, Wagner Junqueira"
+    ],
+    "areas": [
+      "Processo Penal"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01c7a885-7146-511b-a957-6673dc90f8a7",
+        "data_registro_rvbi": "2026-08-02T17:44:15Z",
+        "titulo": "Videoconferência no processo penal",
+        "subtitulo": "aspectos jurídicos, políticos e econômicos",
+        "autores": [
+          "Prado, Wagner Junqueira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "TJDFT"
+        ],
+        "isbns": [
+          "9788560464067"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Processo Penal",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Interrogatório (processo penal) aplicação de computador Brasil",
+          "Videoconferência aspectos econômicos Brasil",
+          "Videoconferência aspectos jurídicos Brasil",
+          "Videoconferência aspectos políticos Brasil",
+          "Videoconferência Distrito Federal (Brasil)",
+          "Audiência (processo penal) aplicação de computador Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://bd.tjdft.jus.br/jspui/handle/tjdft/31331",
+            "rótulo_original": "Versão eletrônica Acesso em: 17 jan. 2022"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2016/maio/1056562/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]
