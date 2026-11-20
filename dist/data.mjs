@@ -10,8 +10,11 @@ import importedBooks from "./catalogo/rvbi/index.mjs";
 import { additionalBooks, enrichTopics } from "./catalogo/editorial.mjs";
 import expandedCourses from "./catalogo/ampliado/curadoria/index.mjs";
 import { createBibliography } from "./catalogo/ampliado/carregar.mjs";
+import { applyCuratedBooks, applyCuratedTopics, curatedCatalog, promotedIds } from "./catalogo/ampliado/curadoria-lote.mjs";
+import economicRecords from "./catalogo/ampliado/bibliografia/economico.mjs";
+import urbanRecords from "./catalogo/ampliado/bibliografia/urbanistico.mjs";
 
-export const catalog = [
+const base = [
   {
     course,
     books: penalBooks.map(book => ({ ...book, area: course.id })),
@@ -20,12 +23,15 @@ export const catalog = [
   constitucional, civil, processoCivil, administrativo, trabalho, tributario, ...expandedCourses,
 ];
 
-export const courses = catalog.map(area => area.course);
-const selectedBooks = [...catalog.flatMap(area => area.books), ...additionalBooks];
+const records = new Map([...economicRecords, ...urbanRecords]
+  .filter(book => promotedIds.has(book.id)).map(book => [book.id, book]));
+const selectedBooks = applyCuratedBooks([...base.flatMap(area => area.books), ...additionalBooks], records);
 const selectedIsbns = new Set(selectedBooks.flatMap(book => book.editions.map(edition => edition.isbn)));
 export const books = [...selectedBooks, ...importedBooks.filter(book =>
   !book.editions.some(edition => edition.isbns.some(isbn => selectedIsbns.has(isbn))))];
-export const topics = enrichTopics(catalog.flatMap(area => area.topics), books);
+export const topics = applyCuratedTopics(enrichTopics(base.flatMap(area => area.topics), books), books);
+export const catalog = curatedCatalog(base, topics, books);
+export const courses = catalog.map(area => area.course);
 export const findEntries = createSearch(courses, topics, books);
 export const bibliography = createBibliography(courses, topics, books, findEntries);
 export { course };

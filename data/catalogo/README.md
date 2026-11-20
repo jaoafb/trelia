@@ -51,3 +51,7 @@ Fontes técnicas
 
 - [Senado Federal, intercâmbio de dados bibliográficos da RVBI](https://www12.senado.leg.br/institucional/biblioteca/rvbi/vocabulario-controlado-basico-e-classificacao-decimal-de-direito)
 - [BrasilAPI, documentação](https://brasilapi.com.br/docs#tag/ISBN)
+
+### Lote ampliado de curadoria
+
+O arquivo `trelia-curadoria-ampliada-2026-11-20.json` consolida o lote editorial de 18 temas e sua expansão. O catálogo já publicado continua como base. Para regenerar os módulos estáticos por disciplina, rode `python scripts/gerar_curadoria_ampliada.py` na raiz. Para conferir consultas, ISBNs, ordem de leitura e evidência por edição, rode `node scripts/check-curadoria-ampliada.mjs`.

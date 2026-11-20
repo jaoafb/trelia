@@ -1,6 +1,7 @@
 import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
+import { orderedReadings, readingEvidence, defaultReadingEdition } from "./catalogo/leituras.mjs";
 
 const root = document.querySelector("main");
 const feedback = document.querySelector("#feedback");
@@ -86,21 +87,22 @@ function guideLink(topic, book, edition) {
 }
 
 function editionReference(topic, book, edition) {
-  const ref = topic.refs[edition.id];
-  const coverage = topic.recommendations[book.id].coverage;
-  const source = ref ?? coverage;
+  const { ref, source, specific } = readingEvidence(topic, book, edition);
+  const details = [ref?.section ?? ref?.precision, edition.isbn && "ISBN " + edition.isbn].filter(Boolean);
   return `<strong>${h(ref?.where ?? "Localização a conferir")}</strong>
-    ${edition.isbn ? `<p>${ref ? h(ref.precision) + " · " : ""}ISBN ${h(edition.isbn)}</p>` : ""}
-    ${external(source.url, ref ? "Ver fonte" : "Ver fonte da indicação")}`;
+    ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
+    ${external(source.url, specific ? source.action : ref ? "Ver fonte" : "Ver fonte da indicação")}`;
 }
 
-function readingCard(topic, book) {
-  const edition = book.editions.findLast(item => topic.refs[item.id]?.where.startsWith("Página"))
-    ?? book.editions.find(item => topic.refs[item.id]) ?? book.editions[0];
+function readingCard(topic, book, first) {
+  const recommendation = topic.recommendations[book.id];
+  const edition = defaultReadingEdition(topic, book);
+  const role = first ? "Comece por aqui" : { aprofundamento: "Aprofundamento", contexto: "Contexto" }[recommendation.role];
   return `<article class="book-card">
     ${cover(book)}
     <div class="book-details">
       <div class="book-intro">
+        ${role ? `<p class="book-type reading-role">${role}</p>` : ""}
         <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author ?? "")}</p>
         <p class="reading-reason">${h(topic.recommendations[book.id].reason)}</p>
       </div>
@@ -120,41 +122,46 @@ function readingCard(topic, book) {
 }
 
 function topicBooks(topic, query, preferredBook) {
-  const matches = books.filter(book => topic.recommendations[book.id]);
-  if (preferredBook) matches.sort((a, b) => Number(b.id === preferredBook) - Number(a.id === preferredBook));
+  const matches = orderedReadings(topic, books, preferredBook);
   const term = query || topic.readingTitle;
   const question = /^(?:o que|qual|quais|como|quando|por que)\b/i.test(term);
   const explanation = topic.answer ? `<section class="topic-explanation" id="topic-explanation" tabindex="-1" aria-labelledby="explanation-title">
     <h2 id="explanation-title">${question ? "Resposta breve" : "Entender o tema"}</h2>
     <p>${h(topic.answer)}</p>
-    <ul>${topic.sources.map(source => `<li>${external(source.url, source.title)}</li>`).join("")}</ul>
+    ${topic.sources.length ? `<details class="explanation-sources"><summary>Fontes da explicação</summary>
+      <ul>${topic.sources.map(source => `<li>${external(source.url, source.title)}</li>`).join("")}</ul>
+    </details>` : ""}
   </section>` : "";
-  return `<div class="results-page shell">
+  const related = (topic.relatedTopics ?? []).map(id => topics.find(item => item.id === id));
+  return `<div class="results-page topic-results shell">
     ${crumbs("Resultados")}${search(term)}
     <section class="results-heading"><p class="section-kicker"><a href="${courseRoute(topic.area)}">${h(courseTitle(topic.area))}</a></p>
-      <h1>Resultados para “${h(term)}”</h1>
+      <h1>${h(question ? term : topic.title)}</h1>
       <p><strong>${matches.length} ${matches.length === 1 ? "obra" : "obras"}</strong> com indicação de leitura para este assunto.</p>
     </section>
-    ${topic.answer ? `<div class="topic-shortcuts" aria-label="Nesta página">
-      ${preferredBook ? '<button class="text-link" data-topic-section="topic-explanation">Entender o tema</button>' : '<button class="text-link" data-topic-section="topic-books-title">Ver livros</button>'}
+    ${topic.answer || matches.length ? `<div class="topic-shortcuts" aria-label="Nesta página">
+      ${preferredBook && topic.answer ? '<button class="text-link" data-topic-section="topic-explanation">Entender o tema</button>' : '<button class="text-link" data-topic-section="topic-books-title">Ir às leituras</button>'}
     </div>` : ""}
     ${preferredBook ? "" : explanation}
     <section aria-label="Livros indicados" tabindex="-1" id="topic-books-title">
-      ${matches.map(book => readingCard(topic, book)).join("")}
+      ${matches.map((book, i) => readingCard(topic, book, i === 0)).join("")}
     </section>
     ${preferredBook ? explanation : ""}
+    ${related.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Temas relacionados</h2></div>
+      ${topicGrid("livros", related)}</section>` : ""}
   </div>`;
 }
 
-function locationCard(edition, ref, recommendation) {
+function locationCard(topic, book, edition) {
+  const { ref, source, specific } = readingEvidence(topic, book, edition);
   return `<div class="location-card">
-    <div class="location-top"><span>${h(editionLabel(edition))} · ${h(edition.format)} · ISBN ${h(edition.isbn)}</span>
+    <div class="location-top"><span>${h(editionLabel(edition))} · ${h(edition.format)}${edition.isbn ? " · ISBN " + h(edition.isbn) : ""}</span>
       <span class="${ref ? "confirmed" : "unconfirmed"}">${ref ? "Localização confirmada" : "Sem confirmação"}</span>
     </div>
-    ${ref ? `<div class="location-value"><div><span>Onde ler</span><strong>${h(ref.where)}</strong></div>
+    ${ref ? `<div class="location-value"><div><span>Onde ler</span><strong>${h(ref.where)}</strong>${ref.section ? `<p>${h(ref.section)}</p>` : ""}</div>
       <div><span>${h(ref.precision)}</span><strong class="detail-text">${h(ref.detail)}</strong></div></div>
       ${external(ref.url, ref.action)}` : `<p class="warning-message">Localização a conferir para esta edição.</p>
-      ${external(recommendation.coverage.url, "Ver fonte sobre a cobertura")}`}
+      ${external(source.url, specific ? source.action : "Ver fonte sobre a cobertura")}`}
   </div>`;
 }
 
@@ -167,9 +174,9 @@ function topicGuide(topic, book, edition) {
         <p class="section-kicker">Guia de leitura · ${h(courseTitle(topic.area))}</p><h1>${h(topic.title)}</h1>
         <p class="guide-intro">Abra sua edição e use esta referência para chegar ao trecho indicado.</p>
         <div class="edition-control"><label for="edition">Qual edição você tem?</label>
-          <div class="select-wrap"><select id="edition">${book.editions.map(item => `<option value="${item.id}"${item === edition ? " selected" : ""}>${h(editionLabel(item))} · ${h(item.format)} · ${h(item.isbn)}</option>`).join("")}</select>${chevron}</div>
+          <div class="select-wrap"><select id="edition">${book.editions.map(item => `<option value="${item.id}"${item === edition ? " selected" : ""}>${h(editionLabel(item))} · ${h(item.format)}${item.isbn ? " · " + h(item.isbn) : ""}</option>`).join("")}</select>${chevron}</div>
         </div>
-        <div id="edition-result" aria-live="polite">${locationCard(edition, topic.refs[edition.id], topic.recommendations[book.id])}</div>
+        <div id="edition-result" aria-live="polite">${locationCard(topic, book, edition)}</div>
         ${topic.answer ? `<div class="reading-tips"><h2 class="section-kicker">Ao ler, preste atenção</h2>
           <ol><li><span aria-hidden="true">1</span><p>${h(topic.answer)}</p></li>${topic.focus ? `<li><span aria-hidden="true">2</span><p>${h(topic.focus)}</p></li>` : ""}</ol>
         </div>` : ""}
@@ -215,7 +222,8 @@ function bookPage(book, searchedIsbn) {
   return `<div class="bibliography-page shell">${crumbs(book.title)}
     <section class="page-heading book-profile">${cover(book)}
       <div><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
-        <p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p></div></section>
+        <p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p>
+        ${book.collectionId ? `<a class="text-link" href="#livro/${h(book.collectionId)}">Ver obra da mesma coleção ${arrow}</a>` : ""}</div></section>
     <section aria-labelledby="editions-title"><div class="section-heading"><h2 id="editions-title">Edições e acesso</h2></div>
       ${editions.map(edition => `<article class="bibliography-card book-edition-card">
         <div><span class="book-type">${h(edition.format ?? "Formato a conferir")}</span><h2>${h(editionLabel(edition))}</h2>
@@ -266,15 +274,15 @@ async function render(moveFocus = true) {
     root.innerHTML = topicList();
     title = "Guias de dúvidas";
   } else if (kind === "duvida" && topic) {
-    const related = books.filter(item => topic.recommendations[item.id]);
+    const related = orderedReadings(topic, books);
     const selectedBook = related.find(item => item.id === params.get("obra")) ?? related[0];
     const selectedEdition = selectedBook.editions.find(item => item.id === params.get("edicao"))
-      ?? selectedBook.editions.find(item => topic.refs[item.id]) ?? selectedBook.editions[0];
+      ?? defaultReadingEdition(topic, selectedBook);
     root.innerHTML = topicGuide(topic, selectedBook, selectedEdition);
     title = topic.title;
     root.querySelector("#edition").addEventListener("change", event => {
       const edition = selectedBook.editions.find(item => item.id === event.target.value);
-      root.querySelector("#edition-result").innerHTML = locationCard(edition, topic.refs[edition.id], topic.recommendations[selectedBook.id]);
+      root.querySelector("#edition-result").innerHTML = locationCard(topic, selectedBook, edition);
       history.replaceState(null, "", guideLink(topic, selectedBook, edition));
     });
   } else if (kind === "livros" && topic) {
@@ -331,7 +339,7 @@ async function render(moveFocus = true) {
     submit.disabled = false;
     const queryParams = "q=" + encodeURIComponent(query);
     let target = "busca?" + queryParams;
-    if (results.length === 1) {
+    if (results.length === 1 || results[0]?.route.includes("?obra=")) {
       target = results[0].route;
       if (target.startsWith("livros/")) target += (target.includes("?") ? "&" : "?") + queryParams;
     }

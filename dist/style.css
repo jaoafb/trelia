@@ -1287,3 +1287,15 @@ main { overflow-x: clip; }
 
 .edition-access { display: grid; gap: .4rem; }
 .nav-link[aria-current="page"] { color: var(--lime); }
+
+.topic-results .results-heading { padding: 1.5rem 0 .75rem; border-bottom: 0; }
+.topic-results .results-heading h1 { font-size: clamp(1.75rem, 5vw, 2.75rem); margin-top: .35rem; }
+.topic-results .results-heading > p:last-child { margin-top: .5rem; }
+.topic-results .topic-shortcuts { margin-bottom: .5rem; }
+.topic-results .topic-explanation { padding: .85rem 1rem; margin-bottom: 1rem; }
+.topic-results .topic-explanation h2 { font-size: 1rem; }
+.topic-results .topic-explanation p { margin-top: .4rem; }
+.topic-results #topic-books-title > .book-card:first-child { margin-top: 0; }
+.reading-role { display: inline-block; margin-bottom: .65rem; color: var(--lime); }
+.explanation-sources { margin-top: .5rem; color: var(--muted); font-size: .875rem; }
+.explanation-sources summary { width: fit-content; padding: .25rem 0; cursor: pointer; }

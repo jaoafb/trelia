@@ -22,3 +22,6 @@ jobs:
           node --check dist/data.mjs
       - name: Verificar buscas principais
         run: node scripts/smoke.mjs
+
+      - name: Verificar curadoria ampliada
+        run: node scripts/check-curadoria-ampliada.mjs
