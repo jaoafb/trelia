@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from urllib.parse import urlencode
 
+GENERATED = "// GERADO por scripts/gerar_fichas_rvbi.py — não edite à mão\n"
+
 ROOT = Path(__file__).resolve().parents[1]
 BATCH = ROOT / "data/catalogo/piloto-rvbi/lote-piloto.json"
 OUT = ROOT / "dist/catalogo/rvbi"
@@ -43,13 +45,13 @@ def main():
     for index, area in enumerate(AREAS.values()):
         selected = [item for item in records if item["area"] == area]
         (OUT / f"{area}.mjs").write_text(
-            "// Gerado por scripts/gerar_fichas_rvbi.py.\nexport default "
+            GENERATED + "export default "
             + json.dumps(selected, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8",
         )
         name = f"area{index}"
         imports.append(f'import {name} from "./{area}.mjs";')
         names.append(f"...{name}")
-    (OUT / "index.mjs").write_text("\n".join(imports) + "\nexport default [" + ", ".join(names) + "];\n", encoding="utf-8")
+    (OUT / "index.mjs").write_text(GENERATED + "\n".join(imports) + "\nexport default [" + ", ".join(names) + "];\n", encoding="utf-8")
     print(f"{len(records)} fichas RVBI geradas")
 
 

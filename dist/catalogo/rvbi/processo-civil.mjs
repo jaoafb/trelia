@@ -1,4 +1,4 @@
-// Gerado por scripts/gerar_fichas_rvbi.py.
+// GERADO por scripts/gerar_fichas_rvbi.py — não edite à mão
 export default [
   {
     "id": "rvbi-007e70d9-32a8-5cae-9277-659703a22932",

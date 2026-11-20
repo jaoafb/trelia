@@ -37,9 +37,9 @@ function crumbs(current, topic) {
 const courseRoute = id => id === "penal-i" ? "#penal-i" : "#disciplina/" + id;
 const courseTitle = id => courses.find(course => course.id === id)?.title ?? "";
 
-function courseGrid(items) {
+function courseGrid(items, inProgress = false) {
   return `<ul class="topic-grid">${items.map(course => `<li><a class="topic-card" href="${courseRoute(course.id)}">
-    <span class="topic-number">${bookIcon}</span><span>${h(course.title)}</span><span class="topic-arrow">${arrow}</span>
+    <span class="topic-number">${bookIcon}</span><span>${h(course.title)}${inProgress ? '<small class="course-status">em construção</small>' : ""}</span><span class="topic-arrow">${arrow}</span>
   </a></li>`).join("")}</ul>`;
 }
 
@@ -52,6 +52,10 @@ function topicGrid(destination, items) {
 }
 
 function home() {
+  const themeCounts = new Map(catalog.map(({ course, topics }) => [course.id, topics.length]));
+  const ordered = [...courses].sort((a, b) => themeCounts.get(b.id) - themeCounts.get(a.id));
+  const featured = ordered.filter(course => themeCounts.get(course.id) >= 5);
+  const inProgress = ordered.filter(course => themeCounts.get(course.id) < 5);
   return `<section class="hero shell">
     <p class="eyebrow"><span></span> Leituras por assunto</p>
     <h1>Encontre o trecho certo.<br><em>Comece a estudar.</em></h1>
@@ -63,8 +67,8 @@ function home() {
   </section>
   <section class="catalog-section shell" aria-labelledby="topics-title">
     <div class="section-heading"><h2 id="topics-title">Explore o acervo</h2></div>
-    ${courseGrid(courses.slice(0, 7))}
-    <details class="more-courses"><summary>Mais disciplinas</summary>${courseGrid(courses.slice(7))}</details>
+    ${courseGrid(featured)}
+    ${inProgress.length ? `<details class="more-courses"><summary>Mais disciplinas</summary>${courseGrid(inProgress, true)}</details>` : ""}
   </section>
   <section class="promise-section shell" aria-labelledby="promise-title">
     <div class="promise-mark" aria-hidden="true">${bookIcon}</div>

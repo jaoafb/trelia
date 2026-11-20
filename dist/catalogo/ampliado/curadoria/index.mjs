@@ -1,3 +1,4 @@
+// GERADO por scripts/gerar_catalogo_ampliado.py — não edite à mão
 import area0 from "./economico.mjs";
 import area1 from "./ambiental.mjs";
 import area2 from "./empresarial.mjs";

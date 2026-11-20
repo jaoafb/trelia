@@ -11,6 +11,8 @@ from urllib.parse import urlencode
 from gerar_acervo import ROOT, OUTPUT, AREAS, edition_name, validate_isbn, url, require
 from gerar_fichas_rvbi import ENDPOINT
 
+GENERATED = "// GERADO por scripts/gerar_catalogo_ampliado.py — não edite à mão\n"
+
 SOURCE = ROOT / "data/catalogo/coleta-2026-11-20"
 GROUPS = SOURCE / "obras"
 PUBLIC = OUTPUT / "ampliado"
@@ -34,7 +36,7 @@ def read(path):
 def save(path, value, module=False):
     contents = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
     if module:
-        contents = "// Gerado por scripts/gerar_catalogo_ampliado.py.\nexport default " + contents.rstrip() + ";\n"
+        contents = GENERATED + "export default " + contents.rstrip() + ";\n"
     path.write_text(contents, encoding="utf-8")
 
 
@@ -105,7 +107,7 @@ def broad_catalog():
                 provenance="Rede Virtual de Bibliotecas (RVBI)" if institutional else "Ficha editorial",
             ))
         file = target / f"{area}.mjs"
-        file.write_text("// Gerado a partir da coleta institucional.\nexport default [\n"
+        file.write_text(GENERATED + "export default [\n"
                         + ",\n".join(json.dumps(book, ensure_ascii=False) for book in public) + "\n];\n", encoding="utf-8")
         name = f"area{index}"
         imports.append(f'import {name} from "./{file.name}";')
@@ -113,7 +115,7 @@ def broad_catalog():
     expected = read(SOURCE / "procedencia.json")["resumo"]
     require((len(ids), len(records), len(isbns)) == (expected["obras_agrupadas_estimativa"],
             expected["registros_rvbi_incluidos"], expected["isbns_distintos"]), "Contagens divergentes da coleta")
-    (target / "index.mjs").write_text("\n".join(imports) + "\nexport default [" + ", ".join(files) + "];\n", encoding="utf-8")
+    (target / "index.mjs").write_text(GENERATED + "\n".join(imports) + "\nexport default [" + ", ".join(files) + "];\n", encoding="utf-8")
     print(f"{len(ids)} grupos, {len(records)} registros e {len(isbns)} ISBNs na coleta")
 
 
@@ -173,7 +175,7 @@ def curated():
         name = f"area{index}"
         imports.append(f'import {name} from "./{area}.mjs";')
         names.append(name)
-    (target / "index.mjs").write_text("\n".join(imports) + "\nexport default [" + ", ".join(names) + "];\n", encoding="utf-8")
+    (target / "index.mjs").write_text(GENERATED + "\n".join(imports) + "\nexport default [" + ", ".join(names) + "];\n", encoding="utf-8")
     print(f"{len(catalog)} áreas, {len(topics)} temas e {len(references)} novas indicações")
 
 
