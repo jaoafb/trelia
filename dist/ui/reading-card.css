@@ -35,7 +35,6 @@
   background: var(--bg);
 }
 
-.book-card .reference-icon { display: none; }
 .book-card .inline-reference > span { color: var(--lime); }
 .book-card .inline-reference select { background: var(--surface-2); }
 
@@ -75,5 +74,8 @@
 
 @media (max-width: 600px) {
   .book-card { grid-template-columns: 4.5rem minmax(0, 1fr); }
+  .book-card .book-intro { display: contents; }
+  .book-card .book-identity { min-width: 0; align-self: center; }
+  .book-card .reading-reason { grid-column: 1 / -1; margin-top: 0; }
   .book-card .reading-reference { margin-top: 0; }
 }

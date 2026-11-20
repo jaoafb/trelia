@@ -1,0 +1,92 @@
+/* Keep the native select behavior and style its picker where supported. */
+@supports (appearance: base-select) {
+  select,
+  select::picker(select) {
+    appearance: base-select;
+  }
+
+  .inline-reference select,
+  #feedback select { display: flex; }
+
+  .select-wrap select {
+    appearance: base-select;
+    height: auto;
+    min-height: 3.5rem;
+    padding-inline: 1rem;
+  }
+
+  .select-wrap > svg { display: none; }
+
+  select::picker-icon {
+    color: var(--lime);
+    margin-inline-start: .75rem;
+  }
+
+  select:open::picker-icon { rotate: 180deg; }
+
+  select::picker(select) {
+    box-sizing: border-box;
+    max-inline-size: calc(100vw - 2rem);
+    max-block-size: min(18rem, 55dvh);
+    margin-block: .35rem;
+    padding: .35rem;
+    border: 1px solid var(--line);
+    border-radius: .65rem;
+    background: var(--surface-2);
+    color: var(--text);
+    box-shadow: 0 .6rem 1.5rem rgb(0 0 0 / 38%);
+  }
+
+  select option {
+    gap: .55rem;
+    min-block-size: 2.75rem;
+    padding: .55rem .65rem;
+    border: 1px solid transparent;
+    border-radius: .4rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  select option:checked {
+    background: rgb(201 242 103 / 12%);
+    color: var(--lime);
+  }
+
+  select option:is(:hover, :focus-visible) {
+    border-color: var(--lime-dark);
+    background: var(--surface-3);
+  }
+
+  select option::checkmark {
+    order: 1;
+    margin-inline-start: auto;
+    color: var(--lime);
+  }
+}
+
+.more-courses > summary,
+.explanation-sources > summary {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  list-style: none;
+}
+
+.more-courses > summary::-webkit-details-marker,
+.explanation-sources > summary::-webkit-details-marker { display: none; }
+
+.more-courses > summary::before,
+.explanation-sources > summary::before {
+  content: "";
+  flex: 0 0 auto;
+  width: .45rem;
+  aspect-ratio: 1;
+  margin-inline: .15rem;
+  border: solid var(--lime);
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(-45deg);
+}
+
+:is(.more-courses, .explanation-sources)[open] > summary::before {
+  transform: translateY(-.1rem) rotate(45deg);
+}

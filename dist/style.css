@@ -136,20 +136,6 @@ h1:focus, main:focus { outline: none; }
   padding-bottom: 122px;
   position: relative;
 }
-.hero::after {
-  content: "";
-  position: absolute;
-  width: 340px;
-  height: 340px;
-  right: -130px;
-  top: 40px;
-  border: 1px solid rgba(201, 242, 103, 0.16);
-  border-radius: 50%;
-  box-shadow:
-    0 0 0 42px rgba(201, 242, 103, 0.015),
-    0 0 0 86px rgba(201, 242, 103, 0.01);
-  pointer-events: none;
-}
 .eyebrow,
 .section-kicker {
   color: var(--lime);
@@ -567,16 +553,6 @@ h1:focus, main:focus { outline: none; }
   border-left: 2px solid var(--lime);
   background: #1a1e1b;
 }
-.reference-icon {
-  width: 42px;
-  height: 42px;
-  flex: none;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  color: var(--lime);
-  background: rgba(201, 242, 103, 0.08);
-}
 .inline-reference > span {
   color: #727a73;
   font-size: 10px;
@@ -967,11 +943,6 @@ h1:focus, main:focus { outline: none; }
     padding-top: 52px;
     padding-bottom: 58px;
   }
-  .hero::after {
-    width: 220px;
-    height: 220px;
-    right: -140px;
-  }
   .hero h1 {
     font-size: 44px;
     letter-spacing: -2.7px;
@@ -1097,13 +1068,6 @@ h1:focus, main:focus { outline: none; }
     margin-top: 24px;
     gap: 12px;
   }
-  .reference-icon {
-    width: 36px;
-    height: 36px;
-  }
-  .reference-icon svg {
-    width: 18px;
-  }
   .reading-reference strong {
     font-size: 18px;
   }
@@ -1205,7 +1169,6 @@ h1:focus, main:focus { outline: none; }
 .footer-feedback:hover { color: var(--lime); }
 .hero { isolation: isolate; }
 main { overflow-x: clip; }
-.hero::after { pointer-events: none; }
 .topic-grid { list-style: none; }
 .catalog-course-heading {
   display: flex;
@@ -1304,7 +1267,6 @@ main { overflow-x: clip; }
   .location-value { grid-template-columns: 1fr; }
   .footer .footer-feedback { margin-top: .65rem; }
   .reading-reference { margin-top: 1rem; padding: .9rem; }
-  .reading-reference .reference-icon { display: none; }
 }
 
 .edition-access { display: grid; gap: .4rem; }
