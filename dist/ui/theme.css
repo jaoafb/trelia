@@ -1,0 +1,46 @@
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f7f1;
+  --surface: #fff;
+  --surface-2: #eef2ea;
+  --surface-3: #e6ede0;
+  --line: #c9d3c6;
+  --text: #19231b;
+  --muted: #4f5d52;
+  --lime: #355810;
+  --lime-dark: #6b873e;
+  --accent-rgb: 78 115 35;
+  --action-bg: #c9ed80;
+  --action-hover: #b6df68;
+  --search-shadow: 0 12px 30px rgb(26 48 22 / 11%);
+  --header-bg: rgb(245 247 241 / 90%);
+  --orange: #8a4820;
+  --warning-text: #70401b;
+}
+
+[data-theme="light"] .brand-mark { content: url("../trelia-claro.svg"); }
+[data-theme="light"] .hero-artwork span { background-image: url("../trelia-claro.svg"); }
+
+.header-inner nav { display: flex; align-items: center; gap: .75rem; }
+.header-inner .nav-link { padding-inline-start: 0; }
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 2.75rem;
+  padding: .4rem .65rem;
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+  color: var(--text);
+  font-size: .8rem;
+}
+
+.theme-toggle:hover { border-color: var(--lime-dark); }
+.theme-toggle .icon { color: var(--lime); }
+
+@media (max-width: 380px) {
+  .theme-toggle { min-width: 2.75rem; }
+  .theme-toggle span { display: none; }
+}

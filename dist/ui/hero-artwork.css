@@ -5,7 +5,7 @@
   z-index: -1;
   inset: 0 -4rem;
   background:
-    radial-gradient(ellipse 32% 46% at 72% 43%, rgb(201 242 103 / 10%), transparent),
+    radial-gradient(ellipse 32% 46% at 72% 43%, rgb(var(--accent-rgb) / 10%), transparent),
     radial-gradient(ellipse 29% 28% at 26% 72%, rgb(114 176 145 / 6%), transparent);
   pointer-events: none;
 }
@@ -14,7 +14,7 @@
   .hero::before {
     inset-inline: -1rem;
     background:
-      radial-gradient(ellipse 61% 39% at 78% 39%, rgb(201 242 103 / 8%), transparent),
+      radial-gradient(ellipse 61% 39% at 78% 39%, rgb(var(--accent-rgb) / 8%), transparent),
       radial-gradient(ellipse 60% 28% at 19% 71%, rgb(114 176 145 / 6%), transparent);
   }
 }
@@ -37,10 +37,10 @@
     place-items: center;
     position: relative;
     aspect-ratio: 1;
-    border: 1px solid rgb(201 242 103 / 18%);
+    border: 1px solid rgb(var(--accent-rgb) / 18%);
     border-radius: 50%;
-    background: radial-gradient(circle, rgb(201 242 103 / 7%), transparent 72%);
-    box-shadow: 0 0 0 1.6rem rgb(201 242 103 / 2%), 0 0 0 3.2rem rgb(201 242 103 / 1%);
+    background: radial-gradient(circle, rgb(var(--accent-rgb) / 7%), transparent 72%);
+    box-shadow: 0 0 0 1.6rem rgb(var(--accent-rgb) / 2%), 0 0 0 3.2rem rgb(var(--accent-rgb) / 1%);
     pointer-events: none;
   }
 
@@ -48,7 +48,7 @@
     content: "";
     position: absolute;
     inset: 15%;
-    border: 1px solid rgb(201 242 103 / 13%);
+    border: 1px solid rgb(var(--accent-rgb) / 13%);
     border-radius: 50%;
   }
 
@@ -59,7 +59,7 @@
     border-radius: 50%;
     background:
       radial-gradient(circle at 50% .25rem, var(--lime) .17rem, transparent .23rem);
-    filter: drop-shadow(0 0 .35rem rgb(201 242 103 / 55%));
+    filter: drop-shadow(0 0 .35rem rgb(var(--accent-rgb) / 55%));
     transform: rotate(45deg);
   }
 

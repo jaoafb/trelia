@@ -4,7 +4,7 @@ Busque um tema, compare os livros indicados e veja onde começar a leitura na su
 
 **[Abrir a Trelia](https://trelia.vercel.app/)** · **[Planejar a expansão do acervo](data/catalogo/BRIEF-EXPANSAO.md)**
 
-O acervo reúne Direito Penal I e leituras em Constitucional, Civil, Processo Civil, Administrativo, Trabalho e Tributário. Experimente buscar **“poder constituinte”** e trocar entre o impresso e o Bookshelf do Lenza. Em **“dolo eventual”**, o guia do Nucci de **2018** aponta para as páginas **192 e 200**.
+O acervo reúne leituras em diversas áreas do Direito, incluindo Constitucional, Civil, Penal, Administrativo, Trabalho e Tributário. Experimente buscar **“poder constituinte”** e trocar entre o impresso e o Bookshelf do Lenza. Em **“dolo eventual”**, o guia do Nucci de **2018** aponta para as páginas **192 e 200**.
 
 O site usa HTML, CSS e módulos JavaScript. A Vercel serve `dist/` diretamente. O importador e a fila de curadoria ficam fora da pasta publicada.
 

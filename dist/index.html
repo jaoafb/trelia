@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#0d0f0e">
-  <meta name="description" content="Encontre livros por assunto em Direito Penal I e veja onde o tema aparece em cada edição.">
+  <meta name="description" content="Encontre livros por tema em diferentes áreas do Direito e veja em que capítulo, seção ou página começar na sua edição.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trelia.">
+  <meta property="og:title" content="Trelia. | Leituras de Direito por tema">
+  <meta property="og:description" content="Encontre livros por tema em diferentes áreas do Direito e veja em que capítulo, seção ou página começar na sua edição.">
+  <meta name="twitter:card" content="summary">
   <title>Trelia.</title>
   <link rel="icon" href="./trelia.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="./ui/theme.js"></script>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./ui/capa.css">
   <link rel="stylesheet" href="./ui/reading-card.css">
@@ -17,6 +23,7 @@
   <link rel="stylesheet" href="./ui/hero-artwork.css">
   <link rel="stylesheet" href="./ui/motion.css">
   <link rel="stylesheet" href="./ui/controls.css">
+  <link rel="stylesheet" href="./ui/theme.css">
   <script>
     if (location.protocol === "https:") {
       window.va = window.va || function () {
@@ -44,7 +51,12 @@
         <span>Trelia.</span>
       </a>
       <nav aria-label="Navegação principal">
-        <a class="nav-link" href="#duvidas">Guias</a>
+        <a class="nav-link" href="#duvidas">Temas</a>
+        <button class="theme-toggle" type="button" aria-label="Modo claro" hidden>
+          <svg class="icon theme-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+          <svg class="icon theme-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true" hidden><path d="M20 15.3A8.8 8.8 0 0 1 8.7 4a8.8 8.8 0 1 0 11.3 11.3Z"/></svg>
+          <span>Modo claro</span>
+        </button>
       </nav>
     </div>
   </header>
