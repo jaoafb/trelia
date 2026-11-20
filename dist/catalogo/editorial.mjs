@@ -21,6 +21,23 @@ export const additionalBooks = [
 ];
 
 export const editorial = {
+  "defesa-concorrencia": {
+    summary: "A defesa da concorrência protege a competição entre empresas e ajuda a preservar as opções dos consumidores.",
+    answer: "A defesa da concorrência reúne regras para manter os mercados competitivos. No Brasil, o Cade investiga práticas como cartéis, em que concorrentes combinam preços ou dividem mercados, e analisa fusões e aquisições sujeitas à sua aprovação. Para começar a estudar, separe essas duas frentes: a análise de operações entre empresas e o combate a condutas que prejudicam a concorrência.",
+    sources: [{
+      title: "Perguntas gerais sobre defesa da concorrência",
+      by: "Conselho Administrativo de Defesa Econômica (Cade)",
+      type: "Fonte oficial",
+      note: "Explica o papel do Cade na análise de operações e na investigação de condutas.",
+      url: "https://www.gov.br/cade/pt-br/acesso-a-informacao/perguntas-frequentes/perguntas-sobre-defesa-da-concorrencia",
+    }, {
+      title: "Cade Simples",
+      by: "Conselho Administrativo de Defesa Econômica (Cade)",
+      type: "Fonte oficial",
+      note: "Apresenta as duas frentes de atuação com exemplos.",
+      url: "https://www.gov.br/cade/pt-br/centrais-de-conteudo/cade-simples/cadesimples",
+    }],
+  },
   "poder-constituinte": {
     summary: "Poder constituinte é o poder de criar uma Constituição ou de modificá-la pelas formas que ela própria prevê.",
     answer: "O poder constituinte originário estabelece uma nova Constituição. O poder derivado atua dentro do quadro que ela criou. No Brasil, o poder de reforma por emendas é um exemplo de poder derivado e obedece aos procedimentos e limites do art. 60 da Constituição.",
