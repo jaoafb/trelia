@@ -1,8 +1,8 @@
-# Caderno de Leitura
+# Trelia.
 
 ## Produto
 
-O Caderno de Leitura ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
+A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
 
 - **Encontrar livros por assunto.** Abra a seleção de livros ao buscar um tema. Para cada obra, mostre a edição, onde o tema aparece e por que a leitura ajuda. Ofereça o guia associado para quem quiser uma explicação breve.
 - **Estudar uma área.** Organize poucas obras por finalidade. Explique para quem serve cada indicação, o que cobre e onde pode ser consultada.

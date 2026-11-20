@@ -1,4 +1,4 @@
-# Como trabalhamos no Caderno de Leitura
+# Como trabalhamos na Trelia
 
 O protótipo de Penal I recebeu uma reação positiva dos primeiros amigos que o viram. O próximo passo é aproveitar esse interesse para descobrir quais tarefas o site consegue resolver. O próprio teste pode ser curto. Convide a pessoa a pesquisar algo que precisava de verdade e peça a expressão usada e o ponto em que encontrou o que buscava ou travou. O botão **Dar feedback** copia o relato para ela enviar.
 

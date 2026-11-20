@@ -38,6 +38,7 @@ export const topics = [
     id: "dolo-eventual", readingTitle: "dolo eventual e culpa consciente", title: "Dolo eventual e culpa consciente", category: "Teoria do crime",
     aliases: ["dolo eventual", "culpa consciente", "dolo indireto", "diferença entre dolo e culpa", "dolo e culpa", "assumir o risco", "previsão do resultado", "artigo 18", "art 18"],
     intro: "As duas hipóteses podem envolver a previsão do resultado. A distinção está na atitude diante dessa possibilidade.",
+    summary: "A diferença está na atitude diante do resultado previsto. Assumir o risco é diferente de confiar que o resultado será evitado.",
     answer: "No dolo eventual, a pessoa prevê o resultado e assume o risco de produzi-lo. Na culpa consciente, prevê o resultado, mas confia que conseguirá evitá-lo ou que ele não ocorrerá. Ao ler um caso, procure os fatos que sustentam essa diferença. Prever o resultado, por si só, não resolve a classificação.",
     focus: "Comece pela distinção do art. 18 entre crime doloso e culposo. A comparação com a culpa consciente é desenvolvida pela doutrina.",
     sources: [
@@ -55,6 +56,7 @@ export const topics = [
     id: "omissao-impropria", readingTitle: "omissão imprópria e dever de agir", title: "Omissão imprópria e dever de agir", category: "Conduta e resultado",
     aliases: ["omissão imprópria", "crime omissivo impróprio", "crimes omissivos", "omissão própria", "dever de agir", "posição de garantidor", "garantidor", "salva-vidas", "artigo 13", "art 13"],
     intro: "Em que circunstâncias a falta de ação pode levar à responsabilização pelo resultado?",
+    summary: "A omissão pode levar à responsabilização pelo resultado quando a pessoa devia e podia agir para evitá-lo.",
     answer: "Na omissão imprópria, o ponto de partida é verificar se a pessoa devia e podia agir para evitar o resultado. O art. 13, § 2º, aponta três origens para esse dever: obrigação legal de cuidado, proteção ou vigilância, responsabilidade assumida de impedir o resultado, ou criação anterior do risco.",
     focus: "Ao ler um caso, identifique primeiro de onde viria o dever de agir. Depois, examine o que a pessoa podia fazer nas circunstâncias.",
     sources: [
@@ -70,6 +72,7 @@ export const topics = [
     id: "tentativa", readingTitle: "tentativa e desistência voluntária", title: "Tentativa e desistência voluntária", category: "Iter criminis",
     aliases: ["tentativa", "crime tentado", "desistência voluntária", "iter criminis", "circunstâncias alheias", "artigo 14", "artigo 15", "art 14", "art 15"],
     intro: "O que muda quando a execução é interrompida pela própria pessoa ou por uma circunstância externa?",
+    summary: "Para distinguir a tentativa da desistência voluntária, observe o que interrompeu a execução e se a pessoa ainda podia prosseguir.",
     answer: "Na tentativa, a execução começa e a consumação deixa de ocorrer por circunstâncias alheias à vontade da pessoa. Na desistência voluntária, a própria pessoa decide interromper a execução quando ainda podia prosseguir. Nessa hipótese, o art. 15 prevê que ela responde pelos atos já praticados.",
     focus: "Leia os arts. 14, II, e 15 juntos. No enunciado, procure o fato que interrompeu a execução.",
     sources: [

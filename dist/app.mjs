@@ -5,6 +5,7 @@ const feedback = document.querySelector("#feedback");
 const searchIcon = '<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.75" cy="10.75" r="5.75"/><path d="m15 15 4 4"/></svg>';
 const bookIcon = '<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 5.5c3.5-1.4 6-.1 7.5 1.1 1.5-1.2 4-2.5 7.5-1.1v12.8c-3.5-1.4-6-.1-7.5 1.1-1.5-1.2-4-2.5-7.5-1.1V5.5Zm7.5 1.1v12.8"/></svg>';
 const noteIcon = '<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="4.5" width="14" height="15" rx="2"/><path d="M8.5 9h7m-7 3h7m-7 3h4"/></svg>';
+const chevronIcon = '<svg class="icon disclosure-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
 
 function h(value) {
   return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
@@ -136,25 +137,45 @@ function topicBooksPage(topic) {
   })).filter(match => match.editions.length);
 
   return `${crumbs(title, true)}
-    <section class="page-hero"><p class="eyebrow">Direito Penal I · Leituras por assunto</p>
+    <div class="reading-header">
       <h1>${h(title)}</h1>
-      <p>Veja em qual edição e em que parte de cada livro o assunto aparece.</p>
-      <p class="topic-reading-link"><a class="text-link" href="#duvida/${topic.id}">Ler a explicação e ver fontes abertas</a></p>
-    </section>
-    <section class="section" aria-labelledby="topic-books-title">
-      <div class="section-head"><h2 id="topic-books-title">Obras com referência verificada</h2></div>
-      <div class="books">${matches.map(({ book, editions }) => `<article class="book-card">
-        <div class="book-card-top">${bookCover(book)}<div>
-          <h3><a href="#livro/${book.id}">${h(book.title)}</a></h3>
-          <p class="subtle author">${h(book.author)}</p>
-        </div></div>
-        <ul class="reading-editions">${editions.map(edition => `<li>
-          <p class="eyebrow">${h(editionLabel(edition))} · ${h(edition.format)}</p>
-          ${locationCard(topic.refs[edition.id])}
-        </li>`).join("")}</ul>
-        <a class="text-link" href="#livro/${book.id}">Ver ficha e opções de acesso</a>
-      </article>`).join("")}</div>
-    </section>`;
+      ${search(topic.readingTitle)}
+    </div>
+    <div class="reading-layout">
+      <aside class="reading-summary" aria-labelledby="topic-summary-title">
+        <h2 id="topic-summary-title">Resumo do tema</h2>
+        <p>${h(topic.summary)}</p>
+        <details class="reading-explanation">
+          <summary><span class="when-closed">Ler resumo completo</span><span class="when-open">Fechar resumo</span>${chevronIcon}</summary>
+          <p>${h(topic.answer)}</p>
+          <p class="subtle">${h(topic.focus)}</p>
+          <a class="text-link" href="#duvida/${topic.id}">Ler a explicação e ver fontes abertas</a>
+        </details>
+      </aside>
+      <section class="reading-books" aria-labelledby="topic-books-title">
+        <h2 id="topic-books-title">Livros indicados</h2>
+        <div class="reading-cards">${matches.map(({ book, editions }) => `<article class="reading-book">
+          <div class="reading-book-info">
+            <h3><a href="#livro/${book.id}">${h(book.title)}</a></h3>
+            <p class="subtle">${h(book.author)}</p>
+            <p>${h(book.reason)}</p>
+          </div>
+          <div class="reading-locations">
+            <p class="location-label">Onde ler</p>
+            <ul class="reading-editions">${editions.map(edition => `<li>
+              <details class="reading-edition">
+                <summary>
+                  <span><small>${h(editionLabel(edition))} · ${h(edition.format)}</small>
+                  <strong>${h(topic.refs[edition.id].where)}</strong></span>${chevronIcon}
+                </summary>
+                <p>${h(topic.refs[edition.id].detail)}</p>
+                ${external(topic.refs[edition.id].url, topic.refs[edition.id].action)}
+              </details>
+            </li>`).join("")}</ul>
+          </div>
+        </article>`).join("")}</div>
+      </section>
+    </div>`;
 }
 
 function bookPage(book) {
@@ -175,7 +196,7 @@ function resultsPage(query) {
     <section class="page-hero"><h1>Resultados da busca</h1>${search(query)}</section>
     <section class="section search-results" aria-label="Resultados">
     ${results.length ? `<ul class="sources">${results.map(item => `<li class="source-card"><div><p class="eyebrow">${h(item.type)}</p><h3><a href="#${item.route}">${h(item.title)}</a></h3><p>${h(item.note)}</p></div><a class="text-link" href="#${item.route}">Abrir</a></li>`).join("")}</ul>` :
-    `<div class="empty"><h2>Ainda não temos um guia para “${h(query)}”.</h2><p>Experimente “Penal I” ou abra um dos temas do acervo.</p><a class="primary" href="#duvidas">Ver dúvidas disponíveis</a></div>`}</section>`;
+    `<div class="empty"><h2>Ainda não temos uma indicação para “${h(query)}”.</h2><p>Experimente “Penal I” ou abra um dos temas do acervo.</p><a class="primary" href="#duvidas">Ver temas disponíveis</a></div>`}</section>`;
 }
 
 function currentRoute() {
@@ -214,7 +235,7 @@ function render(moveFocus = true) {
   } else {
     root.innerHTML = home();
   }
-  document.title = title ? title + " · Caderno de Leitura" : "Caderno de Leitura";
+  document.title = title ? title + " · Trelia." : "Trelia.";
   document.querySelector("#search-form")?.addEventListener("submit", event => {
     event.preventDefault();
     const query = new FormData(event.currentTarget).get("query").trim();
@@ -245,7 +266,7 @@ document.querySelector("#feedback-form").addEventListener("submit", async event 
   event.preventDefault();
   const form = new FormData(event.currentTarget);
   const note = form.get("note").trim();
-  const report = `Teste do Caderno de Leitura\nO que fui fazer: ${form.get("task")}\nEncontrei o que precisava? ${form.get("result")}${note ? "\nBusca ou comentário: " + note : ""}`;
+  const report = `Teste da Trelia\nO que fui fazer: ${form.get("task")}\nEncontrei o que precisava? ${form.get("result")}${note ? "\nBusca ou comentário: " + note : ""}`;
   const status = document.querySelector("#feedback-status");
   const copy = document.querySelector("#feedback-copy");
   try {
