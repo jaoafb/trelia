@@ -106,17 +106,17 @@ function readingCard(topic, book, first) {
   const recommendation = topic.recommendations[book.id];
   const edition = defaultReadingEdition(topic, book);
   const role = first ? "Comece por aqui" : { aprofundamento: "Aprofundamento", contexto: "Contexto" }[recommendation.role];
-  const preview = first && topic.id === "omissao-impropria" && book.id === "nucci";
-  return `<article class="book-card${preview ? " book-card-preview" : ""}">
+  return `<article class="book-card">
     ${cover(book)}
     <div class="book-details">
       <div class="book-intro">
-        ${role ? `<p class="book-type reading-role">${role}</p>` : ""}
-        <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author ?? "")}</p>
+        <div class="book-identity">
+          ${role ? `<p class="book-type reading-role">${role}</p>` : ""}
+          <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author ?? "")}</p>
+        </div>
         <p class="reading-reason">${h(topic.recommendations[book.id].reason)}</p>
       </div>
       <div class="reading-reference">
-        <div class="reference-icon">${bookIcon}</div>
         <div class="inline-reference">
           <span>Onde começar a ler</span>
           ${book.editions.length > 1 ? `<label for="edicao-${book.id}">Edição</label>
@@ -146,11 +146,12 @@ function topicBooks(topic, query, preferredBook) {
     ${crumbs("Resultados")}${search(term)}
     <section class="results-heading"><p class="section-kicker"><a href="${courseRoute(topic.area)}">${h(courseTitle(topic.area))}</a></p>
       <h1>${h(question ? term : topic.title)}</h1>
-      <p><strong>${matches.length} ${matches.length === 1 ? "obra" : "obras"}</strong> com indicação de leitura para este assunto.</p>
+      <div class="topic-result-meta">
+        <p>${matches.length} ${matches.length === 1 ? "obra indicada" : "obras indicadas"}</p>
+        ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>'
+          : matches.length ? '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>' : ""}
+      </div>
     </section>
-    ${topic.answer || matches.length ? `<div class="topic-shortcuts" aria-label="Nesta página">
-      ${preferredBook && topic.answer ? '<button class="text-link" data-topic-section="topic-explanation">Entender o tema</button>' : '<button class="text-link" data-topic-section="topic-books-title">Ir às leituras</button>'}
-    </div>` : ""}
     ${preferredBook ? "" : explanation}
     <section aria-label="Livros indicados" tabindex="-1" id="topic-books-title">
       ${matches.map((book, i) => readingCard(topic, book, i === 0)).join("")}
@@ -204,13 +205,21 @@ function topicGuide(topic, book, edition) {
 }
 
 function coursePage(area) {
-  return `<div class="bibliography-page shell">${crumbs(area.course.title)}
-    <section class="page-heading"><p class="section-kicker">Bibliografia guiada</p><h1>${h(area.course.title)}</h1><p>Escolha uma obra de acordo com o que você quer estudar.</p></section>
-    ${area.books.map(book => `<article class="bibliography-card">${cover(book)}
-      <div><span class="book-type">${h(book.label)}</span><h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author)}</p>
-        <p class="bibliography-desc">${h(book.reason ?? [...new Set(book.editions.map(edition => edition.access))].join(" · "))}</p></div>
-      <a class="primary-button" href="#livro/${book.id}">Ver edições ${arrow}</a></article>`).join("")}
-    <section class="bibliography-topics"><div class="section-heading"><h2>Temas cobertos</h2></div>${topicGrid("livros", area.topics)}</section>
+  return `<div class="bibliography-page discipline-page shell">${crumbs(area.course.title)}
+    <section class="page-heading"><h1>${h(area.course.title)}</h1><p>Explore os temas da disciplina ou escolha uma obra para consultar.</p>
+      ${area.books.length ? '<button class="text-link discipline-shortcut" data-page-section="discipline-books">Ir à bibliografia</button>' : ""}
+    </section>
+    <section class="discipline-section" aria-labelledby="discipline-topics">
+      <div class="section-heading"><h2 id="discipline-topics">Temas cobertos</h2></div>
+      ${topicGrid("livros", area.topics)}
+    </section>
+    ${area.books.length ? `<section class="discipline-section" aria-labelledby="discipline-books">
+      <div class="section-heading"><h2 id="discipline-books" tabindex="-1">Bibliografia guiada</h2></div>
+      ${area.books.map(book => `<article class="bibliography-card">${cover(book)}
+        <div><span class="book-type">${h(book.label)}</span><h3><a href="#livro/${book.id}">${h(book.title)}</a></h3><p class="author">${h(book.author)}</p>
+          <p class="bibliography-desc">${h(book.reason ?? [...new Set(book.editions.map(edition => edition.access))].join(" · "))}</p></div>
+        <a class="primary-button" href="#livro/${book.id}">Ver edições ${arrow}</a></article>`).join("")}
+    </section>` : ""}
   </div>`;
 }
 
@@ -263,8 +272,13 @@ function resultsPage(query, results, limited = false) {
       ${results.length > 12 ? `<details class="more-courses"><summary>Ver mais resultados (${results.length - 12})</summary>${results.slice(12).map(card).join("")}</details>` : ""}` :
       `<section class="empty-state"><div class="empty-symbol">${searchIcon}</div><p class="section-kicker">Nenhuma indicação encontrada</p>
         <h1>Ainda não temos uma referência para “${h(query)}”.</h1>
-        <p>Tente outro termo ou explore os assuntos disponíveis no acervo.</p>
-        <a class="primary-button" href="#duvidas">Ver temas disponíveis ${arrow}</a>
+        <p>Tente outro termo ou experimente um destes temas do acervo.</p>
+        <div class="search-examples empty-suggestions" aria-label="Exemplos de busca">
+          <a href="#livros/dolo-eventual">Dolo eventual</a>
+          <a href="#livros/poder-constituinte">Poder constituinte</a>
+          <a href="#livros/mercado-relevante">Mercado relevante</a>
+        </div>
+        <a class="text-link" href="#duvidas">Ver todos os temas ${arrow}</a>
       </section>`}
   </div>`;
 }
@@ -298,11 +312,6 @@ async function render(moveFocus = true) {
   } else if (kind === "livros" && topic) {
     root.innerHTML = topicBooks(topic, params.get("q"), params.get("obra"));
     title = "Livros sobre " + topic.readingTitle;
-    root.querySelectorAll("[data-topic-section]").forEach(button => button.addEventListener("click", () => {
-      const section = document.getElementById(button.dataset.topicSection);
-      section.focus({ preventScroll: true });
-      section.scrollIntoView();
-    }));
     root.querySelectorAll("[data-reading-book]").forEach(select => select.addEventListener("change", () => {
       const book = books.find(item => item.id === select.dataset.readingBook);
       const edition = book.editions.find(item => item.id === select.value);
@@ -335,6 +344,12 @@ async function render(moveFocus = true) {
   const guidesLink = document.querySelector(".nav-link");
   if (route === "duvidas") guidesLink.setAttribute("aria-current", "page");
   else guidesLink.removeAttribute("aria-current");
+
+  root.querySelectorAll("[data-page-section]").forEach(button => button.addEventListener("click", () => {
+    const section = document.getElementById(button.dataset.pageSection);
+    section.focus({ preventScroll: true });
+    section.scrollIntoView();
+  }));
 
   root.querySelector("#search-form")?.addEventListener("submit", async event => {
     event.preventDefault();
