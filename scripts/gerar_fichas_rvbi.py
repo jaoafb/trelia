@@ -12,6 +12,7 @@ AREAS = {
     "Constitucional": "constitucional", "Civil": "civil", "Processo Civil": "processo-civil",
     "Administrativo": "administrativo", "Trabalho": "trabalho", "Tributário": "tributario",
 }
+FORMATS = {"PHYSICAL": "Impresso", "DIGITAL": "Digital"}
 
 
 def record(candidate):
@@ -28,8 +29,8 @@ def record(candidate):
         editions=[dict(
             id=identifier, name=" · ".join(filter(None, [candidate["edicao"] or "Edição do registro", candidate["volume"]])),
             year=candidate["ano"], isbn=isbns[0] if len(isbns) == 1 else None, isbns=isbns,
-            format=metadata.get("format") if len(isbns) == 1 else None,
-            source=source, sourceLabel="Consultar registro MARC da RVBI",
+            format=FORMATS.get(metadata.get("format")) if len(isbns) == 1 else None,
+            source=source, sourceLabel="Ver registro na RVBI",
         )],
     )
 

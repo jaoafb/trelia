@@ -26,7 +26,7 @@ node --check dist/data.mjs
 git diff --check
 ~~~
 
-Busque por **dolo eventual**, **Penal I** e um tema fora do catálogo. Abra e feche o resumo, confira uma referência de edição e troque para a edição de 2018 do Nucci no guia do tema. Confira a composição com uma janela larga e outra estreita quando a interface mudar.
+Busque por **dolo eventual**, **Penal I** e um tema fora do catálogo. Confira a resposta breve e, no cartão do Nucci, troque para a edição de 2018. Abra a fonte da referência selecionada. Confira a composição com uma janela larga e outra estreita quando a interface mudar.
 
 ## Trabalho e publicação
 

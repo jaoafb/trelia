@@ -17,9 +17,9 @@ export default [
         "isbns": [
           "9786555107692"
         ],
-        "format": "PHYSICAL",
+        "format": "Impresso",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F0040d20f-db37-5781-852f-f8dd67f45dd2",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -40,9 +40,9 @@ export default [
         "isbns": [
           "9788575251935"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F002c036f-4544-584f-a84f-4c93defbc322",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -63,9 +63,9 @@ export default [
         "isbns": [
           "9788576991724"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F005be437-14c5-5d56-a77a-3472c328fb5d",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -86,9 +86,9 @@ export default [
         "isbns": [
           "9788502044234"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F000758c1-d852-551a-a2e6-76f267c915c0",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -109,9 +109,9 @@ export default [
         "isbns": [
           "9788544215777"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F00765f4c-8f7b-5a00-b964-f1780d34645f",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -132,9 +132,9 @@ export default [
         "isbns": [
           "9788577000272"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F009441d5-9a3d-52fc-aa62-d0e9abde2b87",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -155,9 +155,9 @@ export default [
         "isbns": [
           "9788573081374"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F00715665-1070-5b4b-9030-2425036486df",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -178,9 +178,9 @@ export default [
         "isbns": [
           "9788520345931"
         ],
-        "format": "DIGITAL",
+        "format": "Digital",
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F00328e3b-aecd-5f97-b31f-5d8f4442b7e5",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -201,7 +201,7 @@ export default [
         "isbns": [],
         "format": null,
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F0013f592-47cd-538c-9023-f3e94a73e0d0",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   },
@@ -222,7 +222,7 @@ export default [
         "isbns": [],
         "format": null,
         "source": "https://edge-rvbi.folio.ebsco.com/oai/eyJzIjoiQm13STh5dHlENCIsInQiOiJmczAwMDAxMjAyIiwidSI6IkVCU0NPRWRnZSJ9?verb=GetRecord&metadataPrefix=marc21&identifier=oai%3Aedge-rvbi.folio.ebsco.com%3Afs00001202%2F008a1603-53bf-5fb8-9e02-6d8d8180c774",
-        "sourceLabel": "Consultar registro MARC da RVBI"
+        "sourceLabel": "Ver registro na RVBI"
       }
     ]
   }
