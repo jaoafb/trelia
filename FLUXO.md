@@ -10,7 +10,7 @@ O protótipo de Penal I recebeu uma reação positiva dos primeiros amigos que o
 | 2. Delimitar | Descreva a menor mudança que resolve o problema e como verificar. Se for conteúdo, veja primeiro quais fontes existem. | Um critério de aceite que dá para testar. |
 | 3. Implementar | Faça a mudança no projeto existente e registre a evidência junto ao dado. | Uma versão em que o percurso pode ser repetido. |
 | 4. Verificar | Repita a busca ou ação original. Confira a referência. Se a mudança afetar os dois caminhos, percorra ambos. | Um resultado com o que passou e as limitações observadas. |
-| 5. Publicar e observar | Publique mudanças prontas no endereço do protótipo. Recolha retornos espontâneos ou faça um teste pontual quando ele mudar uma decisão. | Uma decisão explícita sobre o próximo ciclo com base no que aconteceu. |
+| 5. Publicar e observar | Revise o pull request e confira a prévia antes de integrar ao main. Recolha retornos espontâneos ou faça um teste pontual quando ele mudar uma decisão. | Uma decisão explícita sobre o próximo ciclo com base no que aconteceu. |
 
 ## Como decidir a próxima tarefa
 

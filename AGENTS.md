@@ -26,7 +26,7 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 
 ## Código atual
 
-O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o código editável e também é a pasta servida. A hospedagem está vinculada ao projeto em `.openai/hosting.json`.
+O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o código editável e também é a pasta servida. O arquivo vercel.json configura a publicação estática da pasta dist.
 
 | Arquivo | Responsabilidade |
 |---|---|
@@ -44,4 +44,4 @@ O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o có
 - Rode `git diff --check`. Para mudanças nos módulos, rode `node --check dist/app.mjs` e `node --check dist/data.mjs`.
 - Teste o comportamento que mudou. Quando mexer na busca ou na estrutura dos dados, confira também “Penal I”, “dolo eventual”, uma busca sem resultado e a troca de edição do Nucci.
 - Para conteúdo novo, abra os links e compare a referência mostrada com a fonte. Para mudanças na interface, verifique o percurso em desktop e celular quando houver navegador disponível.
-- Na entrega, informe o que mudou, como foi verificado e o que ficou pendente. Use o fluxo de publicação do Site existente para alterações do produto e confira a versão acessível pelo endereço compartilhado.
+- Na entrega, informe o que mudou, como foi verificado e o que ficou pendente. Trabalhe em uma branch e entregue um pull request. Quando o GitHub estiver conectado à Vercel, confira a prévia antes da integração ao main e valide as rotas pelo endereço publicado.
