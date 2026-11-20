@@ -34,13 +34,12 @@
   .hero-artwork::after {
     content: "";
     position: absolute;
-    width: .45rem;
-    height: .45rem;
+    inset: calc(15% - .25rem);
     border-radius: 50%;
-    top: 25%;
-    right: 25%;
-    background: var(--lime);
-    box-shadow: 0 0 .8rem rgb(201 242 103 / 45%);
+    background:
+      radial-gradient(circle at 50% .25rem, var(--lime) .17rem, transparent .23rem);
+    filter: drop-shadow(0 0 .35rem rgb(201 242 103 / 55%));
+    transform: rotate(45deg);
   }
 
   .hero-artwork span {
@@ -49,4 +48,13 @@
     background: url("../trelia.svg") center / contain no-repeat;
     opacity: .19;
   }
+}
+
+@media (min-width: 1050px) and (prefers-reduced-motion: no-preference) {
+  .hero-artwork::after { animation: hero-orbit 4.5s ease-out; }
+}
+
+@keyframes hero-orbit {
+  from { transform: rotate(-100deg); }
+  to { transform: rotate(45deg); }
 }
