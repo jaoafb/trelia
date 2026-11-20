@@ -1286,6 +1286,10 @@ main { overflow-x: clip; }
   margin-bottom: 1rem;
 }
 .catalog-course + .catalog-course { margin-top: 2.5rem; }
+.more-courses { margin-top: 1.5rem; }
+.more-courses summary { cursor: pointer; color: var(--lime); padding-block: .7rem; }
+.more-courses[open] summary { margin-bottom: .8rem; }
+.search-status { margin-top: 1rem; color: var(--muted); }
 .catalog-course-heading h2 { font: 600 1.45rem/1.3 "Manrope", sans-serif; }
 .topic-shortcuts { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-bottom: 1rem; }
 .topic-shortcuts button { min-height: 2.75rem; }

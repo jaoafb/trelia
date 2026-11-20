@@ -33,5 +33,6 @@ Busque por **dolo eventual**, **Penal I** e um tema fora do catálogo. Confira a
 - [AGENTS.md](AGENTS.md) reúne as instruções para trabalhar no projeto. [FLUXO.md](FLUXO.md) detalha o ciclo de produto e verificação.
 - O [catálogo piloto](data/catalogo/README.md) guarda o fluxo de coleta e revisão de fichas. O conteúdo atualmente exibido está em [dist/data.mjs](dist/data.mjs).
 - O [lote de expansão](data/catalogo/expansao/README.md) explica como validar os CSVs e regenerar os módulos estáticos por disciplina.
+- A [coleta jurídica ampliada](data/catalogo/coleta-2026-11-20/README.md) documenta a origem das fichas da RVBI, a curadoria complementar e a geração do catálogo pesquisável.
 - Abra uma branch e revise as alterações em um pull request. Em um projeto conectado à Vercel, teste o endereço de prévia antes de mesclar no main.
 - Importe o repositório na Vercel a partir da raiz. O arquivo vercel.json configura a publicação estática da pasta dist, sem etapa de build.

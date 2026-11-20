@@ -60,7 +60,7 @@ export function enrichTopics(topics, books) {
     const extra = editorial[topic.id] ?? {};
     const refs = { ...topic.refs, ...extra.refs };
     const recommendations = Object.fromEntries(books.flatMap(book => {
-      const added = extra.recommendations?.[book.id];
+      const added = extra.recommendations?.[book.id] ?? topic.recommendations?.[book.id];
       const firstRef = book.editions.map(edition => refs[edition.id]).find(Boolean);
       const coverage = added?.coverage ?? firstRef;
       if (!coverage) return [];

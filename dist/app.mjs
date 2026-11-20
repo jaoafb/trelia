@@ -1,4 +1,4 @@
-import { books, topics, catalog, courses, findEntries } from "./data.mjs";
+import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
 
 const root = document.querySelector("main");
 const feedback = document.querySelector("#feedback");
@@ -37,6 +37,12 @@ function crumbs(current, topic) {
 const courseRoute = id => id === "penal-i" ? "#penal-i" : "#disciplina/" + id;
 const courseTitle = id => courses.find(course => course.id === id)?.title ?? "";
 
+function courseGrid(items) {
+  return `<ul class="topic-grid">${items.map(course => `<li><a class="topic-card" href="${courseRoute(course.id)}">
+    <span class="topic-number">${bookIcon}</span><span>${h(course.title)}</span><span class="topic-arrow">${arrow}</span>
+  </a></li>`).join("")}</ul>`;
+}
+
 function topicGrid(destination, items) {
   return `<ul class="topic-grid">${items.map(topic => `<li>
     <a class="topic-card" href="#${destination}/${topic.id}">
@@ -57,9 +63,8 @@ function home() {
   </section>
   <section class="catalog-section shell" aria-labelledby="topics-title">
     <div class="section-heading"><h2 id="topics-title">Explore o acervo</h2></div>
-    <ul class="topic-grid">${courses.map(course => `<li><a class="topic-card" href="${courseRoute(course.id)}">
-      <span class="topic-number">${bookIcon}</span><span>${h(course.title)}</span><span class="topic-arrow">${arrow}</span>
-    </a></li>`).join("")}</ul>
+    ${courseGrid(courses.slice(0, 7))}
+    <details class="more-courses"><summary>Mais disciplinas</summary>${courseGrid(courses.slice(7))}</details>
   </section>
   <section class="promise-section shell" aria-labelledby="promise-title">
     <div class="promise-mark" aria-hidden="true">${bookIcon}</div>
@@ -198,14 +203,20 @@ function topicList() {
   </div>`;
 }
 
-function bookPage(book) {
+function bookPage(book, searchedIsbn) {
   const references = topics.filter(topic => topic.recommendations[book.id]);
+  const editions = [...book.editions];
+  if (searchedIsbn) {
+    const matches = edition => (edition.isbns ?? [edition.isbn]).includes(searchedIsbn);
+    editions.sort((first, second) => Number(matches(second)) - Number(matches(first)));
+  }
   return `<div class="bibliography-page shell">${crumbs(book.title)}
     <section class="page-heading"><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
       <p>${h(book.author)}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p></section>
     <section aria-labelledby="editions-title"><div class="section-heading"><h2 id="editions-title">Edições e acesso</h2></div>
-      ${book.editions.map(edition => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${bookIcon}</span>
+      ${editions.map(edition => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${bookIcon}</span>
         <div><span class="book-type">${h(edition.format ?? "Formato a conferir")}</span><h2>${h(editionLabel(edition))}</h2>
+          ${edition.provenance && edition.provenance !== book.provenance ? `<p class="bibliography-desc">${h(edition.provenance)}</p>` : ""}
           ${edition.isbn ? `<p class="author">ISBN ${h(edition.isbn)}</p>` : edition.isbns?.length ? `<p class="author">ISBNs do registro · ${h(edition.isbns.join(" · "))}</p>` : ""}
           ${edition.access ? `<p class="bibliography-desc">${h(edition.access)}${edition.bookAccess ? " · " + h(edition.bookAccess) : ""}</p>
             ${references.some(topic => topic.refs[edition.id]) ? "" : '<p class="bibliography-desc">Localização a conferir.</p>'}` : ""}</div>
@@ -220,13 +231,15 @@ function bookPage(book) {
   </div>`;
 }
 
-function resultsPage(query) {
-  const results = findEntries(query);
+function resultsPage(query, results, limited = false) {
+  const card = item => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>
+    <div><span class="book-type">${h(item.type)}${courseTitle(item.area) ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2><p class="author">${h(item.note)}</p></div>
+    <a class="primary-button" href="#${item.route}">Abrir ${arrow}</a></article>`;
   return `<div class="results-page shell">${crumbs("Resultados")}${search(query)}
+    ${limited ? '<p role="status" class="search-status">O catálogo bibliográfico está temporariamente indisponível.</p>' : ""}
     ${results.length ? `<section class="results-heading"><h1>Resultados para “${h(query)}”</h1></section>
-      ${results.map(item => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>
-        <div><span class="book-type">${h(item.type)}${item.area ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2><p class="author">${h(item.note)}</p></div>
-        <a class="primary-button" href="#${item.route}">Abrir ${arrow}</a></article>`).join("")}` :
+      ${results.slice(0, 12).map(card).join("")}
+      ${results.length > 12 ? `<details class="more-courses"><summary>Ver mais resultados (${results.length - 12})</summary>${results.slice(12).map(card).join("")}</details>` : ""}` :
       `<section class="empty-state"><div class="empty-symbol">${searchIcon}</div><p class="section-kicker">Nenhuma indicação encontrada</p>
         <h1>Ainda não temos uma referência para “${h(query)}”.</h1>
         <p>Tente outro termo ou explore os assuntos disponíveis no acervo.</p>
@@ -235,12 +248,12 @@ function resultsPage(query) {
   </div>`;
 }
 
-function render(moveFocus = true) {
-  const [route, rawParams] = location.hash.slice(1).split("?", 2);
+async function render(moveFocus = true) {
+  const hash = location.hash;
+  const [route, rawParams] = hash.slice(1).split("?", 2);
   const params = new URLSearchParams(rawParams);
   const [kind, id] = route.split("/");
   const topic = topics.find(item => item.id === id);
-  const book = books.find(item => item.id === id);
   const area = catalog.find(item => item.course.id === (kind === "disciplina" ? id : route));
   let title = "";
   if (area) {
@@ -274,11 +287,25 @@ function render(moveFocus = true) {
       const edition = book.editions.find(item => item.id === select.value);
       document.getElementById("referencia-" + book.id).innerHTML = editionReference(topic, book, edition);
     }));
-  } else if (kind === "livro" && book) {
-    root.innerHTML = bookPage(book);
-    title = book.title;
+  } else if (kind === "livro") {
+    let failed = false;
+    const book = await bibliography.book(id).catch(() => {
+      failed = true;
+      return books.find(item => item.id === id);
+    });
+    if (location.hash !== hash) return;
+    title = book?.title ?? (failed ? "Catálogo indisponível" : "Obra não encontrada");
+    root.innerHTML = book ? bookPage(book, params.get("isbn")) : `<section class="empty-state shell"><h1>${h(title)}</h1>
+      <a class="text-link" href="#inicio">Voltar à busca</a></section>`;
   } else if (route === "busca") {
-    root.innerHTML = resultsPage(params.get("q") ?? "");
+    const query = params.get("q") ?? "";
+    let limited = false;
+    const results = await bibliography.search(query).catch(() => {
+      limited = true;
+      return findEntries(query);
+    });
+    if (location.hash !== hash) return;
+    root.innerHTML = resultsPage(query, results, limited);
     title = "Busca";
   } else {
     root.innerHTML = home();
@@ -288,11 +315,17 @@ function render(moveFocus = true) {
   if (route === "duvidas") guidesLink.setAttribute("aria-current", "page");
   else guidesLink.removeAttribute("aria-current");
 
-  root.querySelector("#search-form")?.addEventListener("submit", event => {
+  root.querySelector("#search-form")?.addEventListener("submit", async event => {
     event.preventDefault();
-    const query = new FormData(event.currentTarget).get("query").trim();
+    const form = event.currentTarget;
+    const initialHash = location.hash;
+    const query = new FormData(form).get("query").trim();
     if (!query) return;
-    const results = findEntries(query);
+    const submit = form.querySelector('button[type="submit"]');
+    submit.disabled = true;
+    const results = await bibliography.search(query).catch(() => findEntries(query));
+    if (!form.isConnected || location.hash !== initialHash) return;
+    submit.disabled = false;
     const queryParams = "q=" + encodeURIComponent(query);
     let target = "busca?" + queryParams;
     if (results.length === 1) {

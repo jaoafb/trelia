@@ -1,0 +1,3064 @@
+[
+  {
+    "id": "rvbi-17133a5afd5c14826c0b",
+    "titulo": "1001 questões comentadas de direito tributário",
+    "autores": [
+      "Cruz, Vítor Manuel Lourenço da"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/030fe55c-9b03-57d9-857b-d5f48c4701ac",
+        "data_registro_rvbi": "2026-07-29T17:24:32Z",
+        "titulo": "1001 questões comentadas de direito tributário",
+        "subtitulo": "Esaf",
+        "autores": [
+          "Cruz, Vítor Manuel Lourenço da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Método"
+        ],
+        "isbns": [
+          "9788530932121"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-dfaa3a8625e6a5c37b96",
+    "titulo": "A mutação de conceitos constitucionais de direito tributário",
+    "autores": [
+      "Melo, Ísis Ariana Castro de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01b7663b-3ffd-4387-9ba6-d54ccb1d746d",
+        "data_registro_rvbi": "2026-09-24T17:09:05Z",
+        "titulo": "A mutação de conceitos constitucionais de direito tributário",
+        "subtitulo": "uma possibilidade",
+        "autores": [
+          "Melo, Ísis Ariana Castro de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Noeses"
+        ],
+        "isbns": [
+          "9788583102274"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "XXXX"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-252637c36e251560af29",
+    "titulo": "A reforma tributária e o agronegócio",
+    "autores": [
+      "Cruz, Vinícius Gustavo Martins da"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02f7df5d-9162-444c-9a0c-458fe81be8b6",
+        "data_registro_rvbi": "2026-08-28T13:44:44Z",
+        "titulo": "A reforma tributária e o agronegócio",
+        "subtitulo": "a tributação sobre o consumo no agronegócio após a Emenda constitucional nº 132/2023 e a Lei complementar nº 214/2025",
+        "autores": [
+          "Cruz, Vinícius Gustavo Martins da"
+        ],
+        "edicao": "1 edição",
+        "volume": null,
+        "ano": 2026,
+        "editoras": [
+          "Editora Lumen Juris"
+        ],
+        "isbns": [
+          "9788551936870"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Reforma tributária Brasil",
+          "Agronegócio tributação Brasil",
+          "Imposto federal",
+          "Imposto estadual",
+          "Tributação legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2026/janeiro/in00001595390.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1595390",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/handle/2011/211388",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0c7dcc6412255b88bad2",
+    "titulo": "Ação civil pública tributária",
+    "autores": [
+      "Rodrigues, João Paulo Souza"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034fde14-3b1b-5268-9998-14fa3651293d",
+        "data_registro_rvbi": "2026-08-03T12:47:49Z",
+        "titulo": "Ação civil pública tributária",
+        "subtitulo": "(in)constitucionalidade na Medida provisória n° 2.180-35/2001",
+        "autores": [
+          "Rodrigues, João Paulo Souza"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788551901687"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Ação civil pública Brasil",
+          "Direito tributário aspectos constitucionais Brasil",
+          "Interesse coletivo Brasil",
+          "Matéria tributária Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1985-07-24;7347",
+            "rótulo_original": "LEI-007347 (1985)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:medida.provisoria:2001-06-28;2180-33",
+            "rótulo_original": "MPV-002180 (2001)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6cf7654b78c869fcc64f",
+    "titulo": "Análise e comentários sobre a reforma tributária do Brasil",
+    "autores": [
+      "Eurico Marcos Diniz de Santi [coordenador]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00c72223-fad1-40f5-afca-c365a64f956a",
+        "data_registro_rvbi": "2026-11-19T14:59:57Z",
+        "titulo": "Análise e comentários sobre a reforma tributária do Brasil",
+        "subtitulo": "EC 132/2023 e LC 214/2025",
+        "autores": [
+          "Eurico Marcos Diniz de Santi [coordenador]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "Editora JusPODIVM"
+        ],
+        "isbns": [
+          "9788544261354"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário coletânea Brasil",
+          "Reforma tributária coletânea Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ecce3ab271894df1c0f5",
+    "titulo": "Anteprojeto de lei orgânica do processo tributário",
+    "autores": [
+      "Canto, Gilberto de Ulhôa"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01195240-eb29-5923-a628-8196e3966121",
+        "data_registro_rvbi": "2026-09-09T14:57:02Z",
+        "titulo": "Anteprojeto de lei orgânica do processo tributário",
+        "subtitulo": null,
+        "autores": [
+          "Canto, Gilberto de Ulhôa"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1966,
+        "editoras": [
+          "Fundação Getúlio Vargas"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo fiscal Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-26b1a246b99bab3be7b1",
+    "titulo": "Aspectos tributários da nova lei contábil",
+    "autores": [
+      "Coordenadores: Edison Carlos Fernandes, Marcelo Magalhães Peixoto ; Alexandre Garcia Querquilli [e outros]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d11362-33c0-56bf-95b8-196b18f2fe36",
+        "data_registro_rvbi": "2026-08-04T00:20:02Z",
+        "titulo": "Aspectos tributários da nova lei contábil",
+        "subtitulo": "Lei 11.638/07",
+        "autores": [
+          "Coordenadores: Edison Carlos Fernandes, Marcelo Magalhães Peixoto ; Alexandre Garcia Querquilli [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "MP"
+        ],
+        "isbns": [
+          "9788578980337"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contabilidade natureza fiscal Brasil",
+          "Direito tributário"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2007-12-28;11638",
+            "rótulo_original": "LEI-011638 (2007)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-05-27;11941",
+            "rótulo_original": "LEI-011941 (2009)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-89c8c13d719548e808b5",
+    "titulo": "CFEM",
+    "autores": [
+      "coordenação: Paulo Roberto Coimbra Silva ; [Leonardo André Gandara e outros]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01be0056-7a7b-581f-99ad-260a11de10a4",
+        "data_registro_rvbi": "2026-08-04T20:37:21Z",
+        "titulo": "CFEM",
+        "subtitulo": "compensação financeira pela exploração de recursos minerais : natureza jurídica e questões correlatas",
+        "autores": [
+          "coordenação: Paulo Roberto Coimbra Silva ; [Leonardo André Gandara e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Quartier Latin"
+        ],
+        "isbns": [
+          "9788576744450"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Compensação ambiental Brasil",
+          "Direito tributário Brasil",
+          "Indústria extrativa mineral regulação Brasil",
+          "Mineração impostos Brasil",
+          "Prescrição Brasil",
+          "Princípio da proporcionalidade Brasil",
+          "Royalties do petróleo Brasil",
+          "Recursos minerais exploração aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2011/agosto/870540/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1891-02-26;1",
+            "rótulo_original": "DEC-000001 (1891)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1998-08-03;2705",
+            "rótulo_original": "DEC-002705 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1989-12-28;7990",
+            "rótulo_original": "LEI-007990 (1989)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-03-13;8001",
+            "rótulo_original": "LEI-008001 (1990)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-08-06;9478",
+            "rótulo_original": "LEI-009478 (1997)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8e88896f8b5f72100a66",
+    "titulo": "Código de processo das contribuições e impostos",
+    "autores": [
+      "Carvalho, Rúben Anjos de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01f2813a-5407-5bd1-841c-1de5cd5ab41b",
+        "data_registro_rvbi": "2026-07-29T15:08:39Z",
+        "titulo": "Código de processo das contribuições e impostos",
+        "subtitulo": "anotado e comentado: Indice alfabético e remissivo, legislação complementar",
+        "autores": [
+          "Carvalho, Rúben Anjos de"
+        ],
+        "edicao": "2. ed. actual. e refundida",
+        "volume": null,
+        "ano": 1969,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Impostos Portugal",
+          "Direito tributário Portugal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0ccaaff39f2661fad8a1",
+    "titulo": "Código tributário nacional",
+    "autores": [
+      "Harada, Kiyoshi"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02c172e6-9e94-552e-97d8-a3afa5982007",
+        "data_registro_rvbi": "2026-08-03T14:30:11Z",
+        "titulo": "Código tributário nacional",
+        "subtitulo": "comentado artigo por artigo",
+        "autores": [
+          "Harada, Kiyoshi"
+        ],
+        "edicao": "5. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Rideel"
+        ],
+        "isbns": [
+          "9786557382196"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tributação legislação Brasil",
+          "Legislação tributária Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-7428bdba2e1d6a6cce44",
+    "titulo": "Código tributário nacional",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0257112b-712f-5658-b771-4c1f76ced884",
+        "data_registro_rvbi": "2026-10-21T12:05:31Z",
+        "titulo": "Código tributário nacional",
+        "subtitulo": "lei n. 5.172, de 25 de outubro de 1966, atualizada e acompanhada de legislação complementar",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "13. ed",
+        "volume": null,
+        "ano": 1984,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Legislação tributária Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-4f5a3e9e6c0e8f0d7ef3",
+    "titulo": "Código tributário nacional anotado",
+    "autores": [
+      "Castro, Alexandre Barros"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02fa9ab0-93dc-5d4e-847a-3e575dae05d5",
+        "data_registro_rvbi": "2026-03-23T22:39:42Z",
+        "titulo": "Código tributário nacional anotado",
+        "subtitulo": null,
+        "autores": [
+          "Castro, Alexandre Barros"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tributação Brasil",
+          "Legislação tributária Brasil 1966"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5917f63029976c7a6c62",
+    "titulo": "Comentários ao Código tributário nacional",
+    "autores": [
+      "Paes, P. R. Tavares"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02765bd4-3368-5dec-ba80-3989c3c48059",
+        "data_registro_rvbi": "2026-07-29T14:02:42Z",
+        "titulo": "Comentários ao Código tributário nacional",
+        "subtitulo": null,
+        "autores": [
+          "Paes, P. R. Tavares"
+        ],
+        "edicao": "6. ed., rev., ampl. e atual",
+        "volume": null,
+        "ano": 1998,
+        "editoras": [
+          "Lejus"
+        ],
+        "isbns": [
+          "9788585486167"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração fiscal",
+          "Competência tributária",
+          "Crédito tributário",
+          "Direito tributário jurisprudência Brasil",
+          "Direito tributário legislação Brasil",
+          "Obrigação tributária",
+          "Sistema tributário jurisprudência Brasil",
+          "Sistema tributário legislação Brasil",
+          "Tributo legislação Brasil",
+          "Legislação tributária Brasil 1966"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-bc97bb086b9dc44b5ba4",
+    "titulo": "Compêndio de direito tributário",
+    "autores": [
+      "Moraes, Bernardo Ribeiro de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01849d77-f52b-5353-81ad-d372820d89d7",
+        "data_registro_rvbi": "2026-07-30T15:21:42Z",
+        "titulo": "Compêndio de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Moraes, Bernardo Ribeiro de"
+        ],
+        "edicao": "2. ed., rev. aum. atual",
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário história",
+          "Tributação",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-921d2bd32857d27c7f9c",
+    "titulo": "Contabilidade básica",
+    "autores": [
+      "Ribeiro, Osni Moura"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/024c6400-26c5-4223-949a-fc2817b8852f",
+        "data_registro_rvbi": "2026-08-02T15:38:05Z",
+        "titulo": "Contabilidade básica",
+        "subtitulo": "contempla as normas brasileiras de contabilidade convergentes com os padrões internacionais de contabilidade IFRS e a reforma tributária",
+        "autores": [
+          "Ribeiro, Osni Moura"
+        ],
+        "edicao": "31. edição",
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788571442276"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Contabilidade",
+          "Balanço patrimonial",
+          "Patrimônio",
+          "Escrituração contábil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-43f0cb58960f2c402472",
+    "titulo": "Controvérsias atuais no direito tributário sancionador",
+    "autores": [
+      "Paulo Roberto Coimbra Silva (coordenador) ; Aurélio Oliveira Andrade, Samuel Giovannini Cruz Guimarães (organizadores)"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01b055f9-35f2-5740-b5e3-3afd4a4e3f61",
+        "data_registro_rvbi": "2026-08-28T14:24:12Z",
+        "titulo": "Controvérsias atuais no direito tributário sancionador",
+        "subtitulo": null,
+        "autores": [
+          "Paulo Roberto Coimbra Silva (coordenador) ; Aurélio Oliveira Andrade, Samuel Giovannini Cruz Guimarães (organizadores)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Arraes"
+        ],
+        "isbns": [
+          "9786559293810"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Infração fiscal Brasil",
+          "Multa fiscal Brasil",
+          "Poder de tributar Brasil",
+          "Sanção tributária Brasil coletânea",
+          "Direito tributário Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1259906",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2024/junho/LIVROS/1259906.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/191083",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-12418f57e7697cc3738a",
+    "titulo": "Curso completo de direito processual tributário",
+    "autores": [
+      "Nunes, Cleucio Santos"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01092144-cbcb-5d42-9070-7027cb8c1e60",
+        "data_registro_rvbi": "2026-08-02T03:35:46Z",
+        "titulo": "Curso completo de direito processual tributário",
+        "subtitulo": null,
+        "autores": [
+          "Nunes, Cleucio Santos"
+        ],
+        "edicao": "4. ed",
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Saraiva jur"
+        ],
+        "isbns": [
+          "9788553613564"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Dívida ativa natureza fiscal Brasil",
+          "Execução fiscal Brasil",
+          "Obrigação tributária Brasil",
+          "Processo administrativo fiscal Brasil",
+          "Processo fiscal jurisprudência Brasil",
+          "Processo fiscal legislação Brasil",
+          "Processo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/34359",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1ab241cebfad1ea0046b",
+    "titulo": "Curso de direito fiscal",
+    "autores": [
+      "Costa, José Manuel Cardoso da"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0356041c-a7c3-5ee4-b235-9187fc48a0e1",
+        "data_registro_rvbi": "2026-07-31T04:39:59Z",
+        "titulo": "Curso de direito fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Costa, José Manuel Cardoso da"
+        ],
+        "edicao": "2. ed. Actual",
+        "volume": null,
+        "ano": 1972,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Portugal"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0adb701f2d7b45a37e89",
+    "titulo": "Curso de direito tributário",
+    "autores": [
+      "Ávila, Alexandre Rossato da Silva"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00c76698-be68-5922-9cfb-7f01a2f57276",
+        "data_registro_rvbi": "2026-07-29T14:05:42Z",
+        "titulo": "Curso de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Ávila, Alexandre Rossato da Silva"
+        ],
+        "edicao": "4. ed., rev. e ampl",
+        "volume": null,
+        "ano": 2008,
+        "editoras": [
+          "Verbo Jurídico"
+        ],
+        "isbns": [
+          "9788576991281"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-30a5d8b91be8268a0498",
+    "titulo": "Curso de direito tributário",
+    "autores": [
+      "Machado, Hugo de Brito"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02ffcbad-85cd-43db-b509-36ccf931a1a8",
+        "data_registro_rvbi": "2026-10-19T18:10:05Z",
+        "titulo": "Curso de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Machado, Hugo de Brito"
+        ],
+        "edicao": "44. edição revista e atualizada",
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "JusPodivm",
+          "Malheiros"
+        ],
+        "isbns": [
+          "9788544256671"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Legislação tributária Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-147d7e66386377461182",
+    "titulo": "Curso de direito tributário brasileiro",
+    "autores": [
+      "Marcus Lívio Gomes, Leonardo Pietro Antonelli, coordenação ; Adilson Rodrigues Pires [e outros]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02759cb4-0f2b-5d08-b2d5-b3901fdb8043",
+        "data_registro_rvbi": "2026-07-29T12:00:58Z",
+        "titulo": "Curso de direito tributário brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Marcus Lívio Gomes, Leonardo Pietro Antonelli, coordenação ; Adilson Rodrigues Pires [e outros]"
+        ],
+        "edicao": "2. ed. especial",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Quartier Latin"
+        ],
+        "isbns": [
+          "9788576740292",
+          "9788576740308",
+          "9788576740315"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/junho/880136v.1/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/junho/880136v.2/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/junho/880136v.3/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-274d486f6c3b75a8b659",
+    "titulo": "Curso de direito tributário brasileiro",
+    "autores": [
+      "Coêlho, Sacha Calmon Navarro"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0338df9e-2a66-57aa-b80c-4a0af72b570e",
+        "data_registro_rvbi": "2026-08-04T16:59:41Z",
+        "titulo": "Curso de direito tributário brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Coêlho, Sacha Calmon Navarro"
+        ],
+        "edicao": "16. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2018,
+        "editoras": [
+          "Forense"
+        ],
+        "isbns": [
+          "9788530979867"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário aspectos constitucionais Brasil",
+          "Legislação tributária Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/82349",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "paulsen",
+    "titulo": "Curso de Direito Tributário Completo",
+    "autores": [
+      "Leandro Paulsen"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Tributário",
+        "obra_id": "paulsen",
+        "titulo": "Curso de Direito Tributário Completo",
+        "autoria": "Leandro Paulsen",
+        "ano": "2026",
+        "numero_edicao": "17",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9786551771491",
+        "acesso_publico": "Ficha pública com sumário",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "fonte_bibliografica": "https://www.grupogen.com.br/livro-curso-de-direito-tributario-completo-17-edicao-2026-leandro-paulsen-saraiva-jur-9786551771491",
+        "funcao_editorial": "Consulta sistemática da disciplina",
+        "status_revisao": "Bibliografia e indicação",
+        "pendencia": ""
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-2450f982bc18c6896e1a",
+    "titulo": "Curso de iniciação em direito tributário",
+    "autores": [
+      "Coordenadores Aires F. Barreto, Eduardo Domingos Bottallo ; Anna Emília Cordelli Alves [e outros]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02cb4c61-b0e1-5bc4-b4ee-d03b40c982d1",
+        "data_registro_rvbi": "2026-08-03T21:24:08Z",
+        "titulo": "Curso de iniciação em direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Coordenadores Aires F. Barreto, Eduardo Domingos Bottallo ; Anna Emília Cordelli Alves [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Dialética"
+        ],
+        "isbns": [
+          "9788575001011"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-55dc2c783edd1d824265",
+    "titulo": "Decadência e prescrição no direito tributário",
+    "autores": [
+      "Santi, Eurico Marcos Diniz de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/012eb527-f46b-599d-a8cd-420c9db9d7ec",
+        "data_registro_rvbi": "2026-08-02T01:58:17Z",
+        "titulo": "Decadência e prescrição no direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Santi, Eurico Marcos Diniz de"
+        ],
+        "edicao": "5. ed., rev. e ampl",
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Max Limonad"
+        ],
+        "isbns": [
+          "9786588297100"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Competência legislativa Brasil",
+          "Crédito tributário Brasil",
+          "Débito fiscal Brasil",
+          "Fisco Brasil",
+          "Prescrição extintiva (direito tributário) Brasil",
+          "Decadência (direito) Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.euricosanti.com.br/decadencia-e-prescricao-no-direito-tributario",
+            "rótulo_original": "Versão eletrônica (PDF) Acesso em: 30 jan. 2024"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/43746",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1932-01-06;20910",
+            "rótulo_original": "DEC-020910 (1932)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1991-07-24;8212",
+            "rótulo_original": "LEI-008212 (1991)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6c0e5cca1272c0ef806b",
+    "titulo": "Defesas e recursos fiscais na prática",
+    "autores": [
+      "Monteiro, Samuel"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00935ce8-7081-569b-8d71-810b8e07f080",
+        "data_registro_rvbi": "2026-07-29T02:43:25Z",
+        "titulo": "Defesas e recursos fiscais na prática",
+        "subtitulo": null,
+        "autores": [
+          "Monteiro, Samuel"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1996,
+        "editoras": [
+          "Hemus"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Infração fiscal Brasil",
+          "Processo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1996-09-13;87",
+            "rótulo_original": "LCP-000087 (1996)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-91909cc87e0b2ee8f4eb",
+    "titulo": "Desequilíbrios regionais e descentralização do poder",
+    "autores": [],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0219dc39-be53-55b6-a3a1-af21cc770ca2",
+        "data_registro_rvbi": "2025-10-30T06:44:34Z",
+        "titulo": "Desequilíbrios regionais e descentralização do poder",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1984,
+        "editoras": [
+          "OAB"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Autonomia estadual Brasil",
+          "Planejamento regional Brasil",
+          "Reforma tributária Brasil",
+          "Descentralização administrativa Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0d833edec20f698fe68c",
+    "titulo": "Direito cooperativo tributario",
+    "autores": [
+      "Lima, Reginaldo Ferreira"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/014d436d-9b65-528d-a14d-da63df4c65f2",
+        "data_registro_rvbi": "2026-08-01T02:06:41Z",
+        "titulo": "Direito cooperativo tributario",
+        "subtitulo": null,
+        "autores": [
+          "Lima, Reginaldo Ferreira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1997,
+        "editoras": [
+          "M. Limonad"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Cooperativa base de cálculo jurisprudência Brasil",
+          "Cooperativa regime jurídico Brasil",
+          "Legislação tributária Brasil",
+          "Sistema tributário aspectos constitucionais Brasil",
+          "Cooperativa legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1971-12-16;5764",
+            "rótulo_original": "LEI-005764 (1971)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-411ccf992dc8b41fda37",
+    "titulo": "Direito processual tributário brasileiro",
+    "autores": [
+      "Souza, James J. Marins de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029fef03-ac5c-55c1-b82d-99eacd46d008",
+        "data_registro_rvbi": "2026-08-02T08:01:35Z",
+        "titulo": "Direito processual tributário brasileiro",
+        "subtitulo": "administrativo e judicial",
+        "autores": [
+          "Souza, James J. Marins de"
+        ],
+        "edicao": "10. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2017,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9788520372661"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Execução fiscal Brasil",
+          "Fiscalização tributária Brasil",
+          "Lançamento tributário Brasil",
+          "Legislação tributária Brasil",
+          "Matéria tributária Brasil",
+          "Medida liminar Brasil",
+          "Processo fiscal Brasil",
+          "Tutela jurisdicional Brasil",
+          "Processo administrativo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "alexandre",
+    "titulo": "Direito Tributário",
+    "autores": [
+      "Ricardo Alexandre"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Tributário",
+        "obra_id": "alexandre",
+        "titulo": "Direito Tributário",
+        "autoria": "Ricardo Alexandre",
+        "ano": "2026",
+        "numero_edicao": "20",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544273814",
+        "acesso_publico": "Ficha pública e material parcial editorial",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/direito-tributario-2026-alexandre",
+        "funcao_editorial": "Revisão com atenção à reforma tributária",
+        "status_revisao": "Bibliografia e indicação",
+        "pendencia": ""
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-04cceefe403a5d7e67c7",
+    "titulo": "Direito tributário",
+    "autores": [
+      "Nilo, Edvaldo"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005ef388-daff-5334-9001-8fc703f1308a",
+        "data_registro_rvbi": "2026-07-29T08:57:21Z",
+        "titulo": "Direito tributário",
+        "subtitulo": "3001 questões da ESAF [comentadas]",
+        "autores": [
+          "Nilo, Edvaldo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788577614714"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração fiscal Brasil problemas, exercícios etc",
+          "Competência tributária Brasil problemas, exercícios etc",
+          "Contribuição social Brasil problemas, exercícios etc",
+          "Crédito tributário Brasil problemas, exercícios etc",
+          "Impostos Brasil problemas, exercícios etc",
+          "Legislação tributária Brasil problemas, exercícios etc",
+          "Obrigação tributária Brasil problemas, exercícios etc",
+          "Direito tributário Brasil problemas, exercícios etc"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-24d8621524b2e6a478fb",
+    "titulo": "Direito tributario",
+    "autores": [
+      "Silva, Adauto Quirino"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01dc7855-9390-5510-a3fe-338d20aedb70",
+        "data_registro_rvbi": "2026-09-24T20:51:01Z",
+        "titulo": "Direito tributario",
+        "subtitulo": "comentario ao sistema tributario constitucional brasileiro",
+        "autores": [
+          "Silva, Adauto Quirino"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1980,
+        "editoras": [
+          "Sugestões Literarias"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tributação Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-588050e5d29936f00450",
+    "titulo": "Direito tributário",
+    "autores": [
+      "Cassone, Vittorio"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0282b914-4ff2-591b-ab6d-5f0edbdf6e87",
+        "data_registro_rvbi": "2026-08-02T10:29:56Z",
+        "titulo": "Direito tributário",
+        "subtitulo": "fenomenologia da tributação, interpretação do direito tributário, crimes contra a ordem tributária, icms-análise da LC n. 87-96, doutrina, prática e jurisprudência",
+        "autores": [
+          "Cassone, Vittorio"
+        ],
+        "edicao": "10. ed",
+        "volume": null,
+        "ano": 1997,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522416165"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crédito tributário Brasil",
+          "Fato gerador Brasil",
+          "Impostos jurisprudência Brasil",
+          "Impostos Brasil",
+          "Obrigação tributária Brasil",
+          "Responsabilidade tributária Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1996-09-13;87",
+            "rótulo_original": "LCP-000087 (1996)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-5e64112219abd6d76d85",
+    "titulo": "Direito tributario",
+    "autores": [
+      "Magalhães, Roberto Barcellos de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01f84c8f-260b-5030-bd6b-9ce6e2bb62fd",
+        "data_registro_rvbi": "2026-07-30T01:57:45Z",
+        "titulo": "Direito tributario",
+        "subtitulo": null,
+        "autores": [
+          "Magalhães, Roberto Barcellos de"
+        ],
+        "edicao": "2. ed",
+        "volume": null,
+        "ano": 1993,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Competência tributária Brasil",
+          "Impostos Brasil",
+          "Tributação Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-d3a71d7755a7ef526bf7",
+    "titulo": "Direito tributário",
+    "autores": [
+      "Carvalho, Paulo de Barros"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e5cc50-0fb8-5a0a-9710-23e7af35425a",
+        "data_registro_rvbi": "2026-08-21T19:48:12Z",
+        "titulo": "Direito tributário",
+        "subtitulo": "linguagem e método",
+        "autores": [
+          "Carvalho, Paulo de Barros"
+        ],
+        "edicao": "3. ed. rev. e ampl",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Noeses"
+        ],
+        "isbns": [
+          "9788599349205"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração fiscal Brasil",
+          "Filosofia do direito",
+          "Fontes do direito Brasil",
+          "Hermenêutica",
+          "Impostos Brasil",
+          "Legislação Brasil",
+          "Lei complementar Brasil",
+          "Lógica jurídica",
+          "Princípio jurídico Brasil",
+          "Processo administrativo fiscal Brasil",
+          "Sistema tributário Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/setembro/884940/sumario.htm",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "schoueri",
+    "titulo": "Direito Tributário",
+    "autores": [
+      "Luís Eduardo Schoueri"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Tributário",
+        "obra_id": "schoueri",
+        "titulo": "Direito Tributário",
+        "autoria": "Luís Eduardo Schoueri",
+        "ano": "2026",
+        "numero_edicao": "15",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9786551771989",
+        "acesso_publico": "Ficha pública com sumário",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "fonte_bibliografica": "https://www.grupogen.com.br/livro-direito-tributario-15-edicao-2026-luis-eduardo-schoueri-saraiva-jur-9786551771989",
+        "funcao_editorial": "Aprofundamento teórico",
+        "status_revisao": "Bibliografia e indicação",
+        "pendencia": ""
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-96dc4955ccc265553673",
+    "titulo": "Direito tributário e análise econômica do direito",
+    "autores": [
+      "Fonseca, Vinícius Simões Borges Espinheira"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0084270c-1111-5a45-80e3-1dffd01453a6",
+        "data_registro_rvbi": "2026-07-30T02:50:48Z",
+        "titulo": "Direito tributário e análise econômica do direito",
+        "subtitulo": "segurança jurídica e consequencialismo nos limites da norma tributária",
+        "autores": [
+          "Fonseca, Vinícius Simões Borges Espinheira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Arraes"
+        ],
+        "isbns": [
+          "9786559290826"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Análise econômica do direito Brasil",
+          "Análise econômica filosofia Brasil",
+          "Norma jurídica natureza fiscal Brasil",
+          "Sistema tributário Brasil",
+          "Tributação aspectos econômicos Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/164188",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-04-25;13655",
+            "rótulo_original": "LEI-013655 (2018)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-85775f1dedce86db9599",
+    "titulo": "Direito tributário instrumental",
+    "autores": [
+      "Jorge, Alice de Abreu Lima"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034509ae-06cf-5bcd-a43f-42a61684fdab",
+        "data_registro_rvbi": "2026-07-29T05:21:50Z",
+        "titulo": "Direito tributário instrumental",
+        "subtitulo": null,
+        "autores": [
+          "Jorge, Alice de Abreu Lima"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Arraes"
+        ],
+        "isbns": [
+          "9786559294039"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário aspectos constitucionais Brasil",
+          "Direito tributário legislação Brasil",
+          "Igualdade perante a lei Brasil",
+          "Obrigação tributária Brasil",
+          "Preço de transferência Brasil estudo de caso",
+          "Princípio da eficiência Brasil",
+          "Princípio da legalidade Brasil",
+          "Princípio da proporcionalidade Brasil",
+          "Princípio da razoabilidade Brasil",
+          "Direito tributário doutrinas e controvérsias Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/194769",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988 ART 00005 INC 02"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2025/outubro/in00000856900.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-1d74390d8cf2d8c11a75",
+    "titulo": "Empresa individual de responsabilidade limitada - EIRELI",
+    "autores": [
+      "Montes, Marcos"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0040d30d-538e-5c81-90d0-897a9c11da9e",
+        "data_registro_rvbi": "2025-10-30T14:15:50Z",
+        "titulo": "Empresa individual de responsabilidade limitada - EIRELI",
+        "subtitulo": "Lei n. 12.441/2011, início da reforma tributária",
+        "autores": [
+          "Montes, Marcos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Câmara dos Deputados, Coordenação Edições Câmara"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Empresário individual natureza fiscal discursos etc Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-07-11;12441",
+            "rótulo_original": "LEI-012441 (2011)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a49c437ef1246ecf5cf0",
+    "titulo": "Execução fiscal",
+    "autores": [
+      "Parizatto, João Roberto"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/013b7dd4-00f9-51cc-8629-c929cad78439",
+        "data_registro_rvbi": "2026-08-02T09:04:22Z",
+        "titulo": "Execução fiscal",
+        "subtitulo": "teoria e prática",
+        "autores": [
+          "Parizatto, João Roberto"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Edipa"
+        ],
+        "isbns": [
+          "9788587101907"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Execução fiscal jurisprudência Brasil",
+          "Execução fiscal legislação Brasil",
+          "Execução fiscal modelo Brasil",
+          "Prática forense Brasil",
+          "Execução fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/41950",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1972-03-06;70235",
+            "rótulo_original": "DEC-070235 (1972)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ba675243b724ecfe97ac",
+    "titulo": "Legislação tributária do DF",
+    "autores": [
+      "Distrito Federal (Brasil)"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/032f7d10-56fd-5871-bdb0-1bd37ccfb491",
+        "data_registro_rvbi": "2026-08-04T20:31:25Z",
+        "titulo": "Legislação tributária do DF",
+        "subtitulo": null,
+        "autores": [
+          "Distrito Federal (Brasil)"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1996,
+        "editoras": [
+          "Secretaria de Fazenda e Planejamento"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-720fbb1ea0f7ddf4612b",
+    "titulo": "Limites constitucionais à glosa de créditos de ICMS em um cenário de guerra fiscal",
+    "autores": [
+      "Vogas, Rosíris Paula Cerizze"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01999aa7-7250-59b6-ae28-1d4d529930a2",
+        "data_registro_rvbi": "2026-07-29T14:01:12Z",
+        "titulo": "Limites constitucionais à glosa de créditos de ICMS em um cenário de guerra fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Vogas, Rosíris Paula Cerizze"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2011,
+        "editoras": [
+          "Del Rey"
+        ],
+        "isbns": [
+          "9788538401520"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Conflito de competência Brasil",
+          "Crédito tributário Brasil",
+          "Incentivo fiscal Brasil",
+          "Reforma tributária Brasil",
+          "Direito tributário aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/39541",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/39542",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988 ART 00155"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1975-01-07;24",
+            "rótulo_original": "LCP-000024 (1975)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6ce317a5fcaf0ddf54c0",
+    "titulo": "Manual da execução fiscal",
+    "autores": [
+      "Porto, Éderson Garin"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/000f6af9-9c8e-5322-b04c-f336cc347e87",
+        "data_registro_rvbi": "2026-09-25T16:16:43Z",
+        "titulo": "Manual da execução fiscal",
+        "subtitulo": null,
+        "autores": [
+          "Porto, Éderson Garin"
+        ],
+        "edicao": "2. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Livr. do Advogado"
+        ],
+        "isbns": [
+          "9788573487008"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crédito tributário Brasil",
+          "Dívida ativa natureza fiscal Brasil",
+          "Embargos à execução natureza fiscal Brasil",
+          "Lançamento tributário Brasil",
+          "Legitimidade ativa natureza fiscal Brasil",
+          "Legitimidade passiva natureza fiscal Brasil",
+          "Tribunal superior jurisprudência Brasil",
+          "Execução fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/31301",
+            "rótulo_original": "Sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "pontalti",
+    "titulo": "Manual de Direito Tributário",
+    "autores": [
+      "Mateus Pontalti"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Tributário",
+        "obra_id": "pontalti",
+        "titulo": "Manual de Direito Tributário",
+        "autoria": "Mateus Pontalti",
+        "ano": "2026",
+        "numero_edicao": "7",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9788544275726",
+        "acesso_publico": "Ficha pública e material parcial editorial",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "fonte_bibliografica": "https://www.editorajuspodivm.com.br/manual-de-direito-tributario-2026-pontalti",
+        "funcao_editorial": "Manual de referência com sumário analítico",
+        "status_revisao": "Bibliografia e indicação",
+        "pendencia": ""
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-062312a135233de6f299",
+    "titulo": "Manual de direito tributário",
+    "autores": [
+      "Madeira, Anderson Soares"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008074f4-e30c-5b42-8420-d983a04d1644",
+        "data_registro_rvbi": "2026-08-03T14:48:05Z",
+        "titulo": "Manual de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Madeira, Anderson Soares"
+        ],
+        "edicao": "11. ed., rev., ampl. e atual. com o novo CPC",
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788584407620"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crédito tributário Brasil",
+          "Legislação tributária Brasil",
+          "Responsabilidade tributária Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-27;8137",
+            "rótulo_original": "LEI-008137 (1990)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1975-01-07;24",
+            "rótulo_original": "LCP-000024 (1975)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      },
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02e3bfb6-cb25-5627-b665-5ad82e419ff6",
+        "data_registro_rvbi": "2026-07-30T22:36:21Z",
+        "titulo": "Manual de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Madeira, Anderson Soares"
+        ],
+        "edicao": "4. ed., rev. ampl. e atual., inclui a Súmula 375 do STJ de 30.03.2009 e MP 465 de 29.06.2009 (alteração do Decreto 70235/72 - processo administrativo fiscal) 700 questões gabaritadas",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Lumen Juris"
+        ],
+        "isbns": [
+          "9788537506417"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Crédito tributário Brasil",
+          "Legislação tributária Brasil",
+          "Obrigação tributária Brasil",
+          "Responsabilidade tributária Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+            "rótulo_original": "LEI-006830 (1980)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-27;8137",
+            "rótulo_original": "LEI-008137 (1990)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1975-01-07;24",
+            "rótulo_original": "LCP-000024 (1975)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2239aedca4601834fa1a",
+    "titulo": "Manual de direito tributário",
+    "autores": [
+      "Rosa Júnior, Luiz Emygdio Franco da"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01cc231e-5ec5-5070-b6e3-edf551cbb529",
+        "data_registro_rvbi": "2026-08-31T12:15:39Z",
+        "titulo": "Manual de direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Rosa Júnior, Luiz Emygdio Franco da"
+        ],
+        "edicao": "2. ed., rev. e atual",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Renovar"
+        ],
+        "isbns": [
+          "9788571478374"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Administração fiscal Brasil",
+          "Crédito tributário Brasil",
+          "Impostos Brasil",
+          "Infração fiscal Brasil",
+          "Legislação tributária Brasil",
+          "Obrigação tributária Brasil",
+          "Poder de tributar aspectos constitucionais Brasil",
+          "Sistema tributário Brasil",
+          "Tributo Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "sabbag",
+    "titulo": "Manual de Direito Tributário",
+    "autores": [
+      "Eduardo Sabbag"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Tributário",
+        "obra_id": "sabbag",
+        "titulo": "Manual de Direito Tributário",
+        "autoria": "Eduardo Sabbag",
+        "ano": "2026",
+        "numero_edicao": "18",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9786551771842",
+        "acesso_publico": "Ficha pública com sumário",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "fonte_bibliografica": "https://www.grupogen.com.br/livro-manual-de-direito-tributario-18-edicao-2026-eduardo-sabbag-saraiva-jur-9786551771842",
+        "funcao_editorial": "Estudo das limitações e imunidades",
+        "status_revisao": "Bibliografia e indicação",
+        "pendencia": ""
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-8439838f5168617f6053",
+    "titulo": "Manual de Processo Administrativo Tributário",
+    "autores": [
+      "Watanabe, Ippo"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02c37a85-8cb4-5f87-b8ce-4a060ec064bf",
+        "data_registro_rvbi": "2026-07-29T17:18:26Z",
+        "titulo": "Manual de Processo Administrativo Tributário",
+        "subtitulo": null,
+        "autores": [
+          "Watanabe, Ippo"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "J. de Oliveira"
+        ],
+        "isbns": [
+          "9788574530369"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil",
+          "Tributo legislação Brasil",
+          "Processo administrativo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1972-03-06;70235",
+            "rótulo_original": "DEC-070235 (1972)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:1993-12-09;1006",
+            "rótulo_original": "DEC-001006 (1993)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1969-10-21;1024",
+            "rótulo_original": "DEL-001024 (1969)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1969-10-21;1042",
+            "rótulo_original": "DEL-001042 (1969)"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1969-10-21;1060",
+            "rótulo_original": "DEL-001060 (1969)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1993-12-09;8748",
+            "rótulo_original": "LEI-008748 (1993)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-3597590331e1df8cd09f",
+    "titulo": "O princípio da realização da renda",
+    "autores": [
+      "Polizelli, Victor Borges"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00cfeac0-d6d0-5916-9c1f-e1b1136c1e81",
+        "data_registro_rvbi": "2026-07-31T11:02:04Z",
+        "titulo": "O princípio da realização da renda",
+        "subtitulo": "reconhecimento de receitas e despesas para fins do IRPJ",
+        "autores": [
+          "Polizelli, Victor Borges"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Quartier Latin"
+        ],
+        "isbns": [
+          "9788576746119"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Capacidade contributiva Brasil",
+          "Contribuinte (pessoa jurídica)",
+          "Direito tributário",
+          "Imposto de renda direito comparado",
+          "Imposto de renda aspectos jurídicos"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2015/marco/969247/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-471c5fce148870307f15",
+    "titulo": "O processo tributário no Nôvo regulamento do impôsto de consumo",
+    "autores": [
+      "Moraes, Oswaldo de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007d018d-5118-5147-b75b-fa36b8b0f12e",
+        "data_registro_rvbi": "2026-08-27T19:27:09Z",
+        "titulo": "O processo tributário no Nôvo regulamento do impôsto de consumo",
+        "subtitulo": null,
+        "autores": [
+          "Moraes, Oswaldo de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1965,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Imposto de consumo Brasil",
+          "Processo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-a1266bb1aa3bea41e727",
+    "titulo": "Planejamento tributário",
+    "autores": [
+      "Andrade, Leonardo Aguirra de"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02ed7333-3070-53c2-a5e5-a44eabb2ccd4",
+        "data_registro_rvbi": "2026-07-30T01:42:37Z",
+        "titulo": "Planejamento tributário",
+        "subtitulo": null,
+        "autores": [
+          "Andrade, Leonardo Aguirra de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2016,
+        "editoras": [
+          "Quartier Latin"
+        ],
+        "isbns": [
+          "9788576748595"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Abuso de direito",
+          "Contribuinte (pessoa física)",
+          "Elisão fiscal legislação Brasil",
+          "Evasão fiscal",
+          "Fisco",
+          "Infração fiscal",
+          "Negócio jurídico",
+          "Elisão fiscal"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/118490",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966) ART 00009, ART 00116, ART 00118"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-956c1dd491e5c6e25c3c",
+    "titulo": "Processo tributário",
+    "autores": [
+      "Cassone, Vittorio"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0039cdba-d212-52e3-8595-9fcbace58eaf",
+        "data_registro_rvbi": "2026-08-02T10:45:30Z",
+        "titulo": "Processo tributário",
+        "subtitulo": "teoria e prática",
+        "autores": [
+          "Cassone, Vittorio"
+        ],
+        "edicao": "9. ed., rev. e atual",
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522453719"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Processo administrativo fiscal Brasil",
+          "Processo cautelar Brasil",
+          "Processo fiscal Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/21138",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-ef1e0841cc780bbe2e77",
+    "titulo": "Reforma tributária e federação",
+    "autores": [
+      "Rui de Britto Alvares Affonso, Pedro Luiz Barros Silva, organizadores ; Sulamis Daim [e outros]"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01c4656a-f2e9-5874-a384-323351709a63",
+        "data_registro_rvbi": "2026-07-31T15:07:37Z",
+        "titulo": "Reforma tributária e federação",
+        "subtitulo": null,
+        "autores": [
+          "Rui de Britto Alvares Affonso, Pedro Luiz Barros Silva, organizadores ; Sulamis Daim [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1995,
+        "editoras": [
+          "Fundap",
+          "Unesp"
+        ],
+        "isbns": [
+          "9788571390911"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Política fiscal Brasil",
+          "Tributação Brasil",
+          "Reforma tributária Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-0a805bf2acae754a3212",
+    "titulo": "Reformas constitucionais",
+    "autores": [
+      "Academia Internacional de Direito e Economia"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/029cd090-cda6-57f1-9632-c1caac83a423",
+        "data_registro_rvbi": "2026-07-29T12:06:52Z",
+        "titulo": "Reformas constitucionais",
+        "subtitulo": "painel",
+        "autores": [
+          "Academia Internacional de Direito e Economia"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1999,
+        "editoras": [
+          "IBCB"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Reforma do poder judiciário Brasil congresso",
+          "Reforma tributária Brasil congresso",
+          "Sigilo bancário Brasil congresso",
+          "Reforma constitucional Brasil congresso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-75da0e7dcde478852280",
+    "titulo": "Segurança jurídica e proteção da confiança",
+    "autores": [
+      "Quintela, Guilherme Camargos"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00c3ac02-b4f4-59b4-97fd-e84a9e74fc5b",
+        "data_registro_rvbi": "2025-07-30T10:23:15Z",
+        "titulo": "Segurança jurídica e proteção da confiança",
+        "subtitulo": "a justiça prospectiva na estabilização das expectativas no direito tributário brasileiro",
+        "autores": [
+          "Quintela, Guilherme Camargos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2013,
+        "editoras": [
+          "Fórum"
+        ],
+        "isbns": [
+          "9788577007332"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Capacidade contributiva jurisprudência alteração Brasil",
+          "Conflito de leis no tempo Brasil",
+          "Contribuinte (pessoa física) direitos e deveres Brasil",
+          "Direito adquirido Brasil",
+          "Eficácia da lei no tempo Brasil",
+          "Irretroatividade das leis Brasil",
+          "Princípio da segurança jurídica Brasil",
+          "Proteção jurisdicional Brasil",
+          "Retroatividade das leis Brasil",
+          "Legislação tributária alteração Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.forumconhecimento.com.br/v2/livro/L1237/E1272",
+            "rótulo_original": "Acesso restrito aos computadores da Câmara dos Deputados"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2014/fevereiro/985145/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e2f29f5374cac9e01a6c",
+    "titulo": "Sistema tributario na constituição de 1988",
+    "autores": [
+      "Martins, Ives Gandra da Silva"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0191a224-5645-5c64-b5e4-cfaab5661a0c",
+        "data_registro_rvbi": "2026-07-31T04:26:49Z",
+        "titulo": "Sistema tributario na constituição de 1988",
+        "subtitulo": null,
+        "autores": [
+          "Martins, Ives Gandra da Silva"
+        ],
+        "edicao": "3. ed. aumentada",
+        "volume": null,
+        "ano": 1991,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502004795"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Impostos Brasil",
+          "Legislação tributária Brasil 1966",
+          "Sistema tributário anteprojeto Brasil",
+          "Sistema tributário Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-44e5b9e20119a1f00214",
+    "titulo": "Teoria e prática do direito tributário",
+    "autores": [
+      "Chimenti, Ricardo Cunha"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034705ff-9a9d-5a3b-be93-574c14483d26",
+        "data_registro_rvbi": "2026-10-08T18:59:20Z",
+        "titulo": "Teoria e prática do direito tributário",
+        "subtitulo": null,
+        "autores": [
+          "Chimenti, Ricardo Cunha"
+        ],
+        "edicao": "3. ed., rev. e atual. de acordo com as Leis Complementares n. 139/2011 e 141/2012",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [
+          "9788502176669"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário jurisprudência Brasil",
+          "Direito tributário Brasil problemas, exercícios etc",
+          "Legislação tributária Brasil",
+          "Prática forense Brasil",
+          "Processo fiscal modelo Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/49892",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "acesso a conferir",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+            "rótulo_original": "CON-001988"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+            "rótulo_original": "LEI-005172 (1966)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-450d696f8d3b42c55df7",
+    "titulo": "Uma Introdução ao direito tributario",
+    "autores": [
+      "Rodrigues, Ulysses Renato Pereira"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01d19659-302c-5e2d-aaa8-6953ef39aada",
+        "data_registro_rvbi": "2026-07-31T03:31:22Z",
+        "titulo": "Uma Introdução ao direito tributario",
+        "subtitulo": null,
+        "autores": [
+          "Rodrigues, Ulysses Renato Pereira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1979,
+        "editoras": [
+          "Jalovi"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tributação Brasil",
+          "Direito tributário Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-51cb051e06c76234f678",
+    "titulo": "Vade mecum tributário",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Tributário"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02b8a061-8032-5537-ab67-b91029f4fa10",
+        "data_registro_rvbi": "2026-08-02T07:06:19Z",
+        "titulo": "Vade mecum tributário",
+        "subtitulo": null,
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "9. ed., rev., atual. e ampl",
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "JusPODIVM"
+        ],
+        "isbns": [
+          "9788544252529"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Tributário",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito tributário Brasil jurisprudência coletânea",
+          "Legislação tributária Brasil coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

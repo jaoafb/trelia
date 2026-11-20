@@ -8,6 +8,8 @@ import tributario from "./catalogo/tributario.mjs";
 import { createSearch } from "./catalogo/busca.mjs";
 import importedBooks from "./catalogo/rvbi/index.mjs";
 import { additionalBooks, enrichTopics } from "./catalogo/editorial.mjs";
+import expandedCourses from "./catalogo/ampliado/curadoria/index.mjs";
+import { createBibliography } from "./catalogo/ampliado/carregar.mjs";
 
 export const catalog = [
   {
@@ -15,7 +17,7 @@ export const catalog = [
     books: penalBooks.map(book => ({ ...book, area: course.id })),
     topics: penalTopics.map(topic => ({ ...topic, area: course.id })),
   },
-  constitucional, civil, processoCivil, administrativo, trabalho, tributario,
+  constitucional, civil, processoCivil, administrativo, trabalho, tributario, ...expandedCourses,
 ];
 
 export const courses = catalog.map(area => area.course);
@@ -25,5 +27,6 @@ export const books = [...selectedBooks, ...importedBooks.filter(book =>
   !book.editions.some(edition => edition.isbns.some(isbn => selectedIsbns.has(isbn))))];
 export const topics = enrichTopics(catalog.flatMap(area => area.topics), books);
 export const findEntries = createSearch(courses, topics, books);
+export const bibliography = createBibliography(courses, topics, books, findEntries);
 export { course };
 export { normalize } from "./catalogo/busca.mjs";

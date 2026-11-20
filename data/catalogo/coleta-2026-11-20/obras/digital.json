@@ -1,0 +1,312 @@
+[
+  {
+    "id": "rvbi-8e15beb171e1c9bab0a2",
+    "titulo": "A nova matrix",
+    "autores": [
+      "Tavares, André Ramos"
+    ],
+    "areas": [
+      "Digital"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/012bc2eb-8a06-534d-9fce-a49485719334",
+        "data_registro_rvbi": "2026-07-30T10:32:13Z",
+        "titulo": "A nova matrix",
+        "subtitulo": "direito (re)programado na civilização plataformizada",
+        "autores": [
+          "Tavares, André Ramos"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Etheria"
+        ],
+        "isbns": [
+          "9786588879092"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Digital",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tecnologia e direito",
+          "Direito digital",
+          "Internet aspectos jurídicos"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/handle/2011/199696",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-53bbe3e7316def7e17aa",
+    "titulo": "Compliance no direito digital",
+    "autores": [
+      "Marcelo Xavier de Freitas Crespo, coordenação"
+    ],
+    "areas": [
+      "Digital"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0298719a-0b42-5dd2-acf0-e22458d0f72e",
+        "data_registro_rvbi": "2026-08-31T23:00:52Z",
+        "titulo": "Compliance no direito digital",
+        "subtitulo": null,
+        "autores": [
+          "Marcelo Xavier de Freitas Crespo, coordenação"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2020,
+        "editoras": [
+          "Revista dos Tribunais"
+        ],
+        "isbns": [
+          "9786556142784"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Digital",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Assédio moral",
+          "Assédio virtual",
+          "Comércio eletrônico aspectos jurídicos Brasil",
+          "Compliance coletânea",
+          "Ensino assistido por computador",
+          "Espaço cibernético aspectos jurídicos",
+          "Gestão de direitos digitais",
+          "Integridade (segurança da informação)",
+          "Inteligência artificial",
+          "Internet das coisas",
+          "Internet aspectos jurídicos",
+          "Proteção de dados pessoais aspectos jurídicos Brasil",
+          "Segurança da informação",
+          "Segurança de dados legislação Brasil",
+          "Tecnologia digital",
+          "Tecnologia e direito coletânea"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/153795",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-c689a7278c435a52ed84",
+    "titulo": "Direito do trabalho no limiar da 4ª revolução industrial",
+    "autores": [
+      "coordenadores: João de Lima Teixeira Filho [e outros]"
+    ],
+    "areas": [
+      "Digital",
+      "Trabalho"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00a66c76-da7d-5938-af50-57ab43f5a09e",
+        "data_registro_rvbi": "2026-07-31T13:34:27Z",
+        "titulo": "Direito do trabalho no limiar da 4ª revolução industrial",
+        "subtitulo": "desafios e conformação : anais da Academia Brasileira de Direito do Trabalho 2018",
+        "autores": [
+          "coordenadores: João de Lima Teixeira Filho [e outros]"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2019,
+        "editoras": [
+          "LexMagister"
+        ],
+        "isbns": [
+          "9788585275747"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Trabalho",
+            "evidência": "título"
+          },
+          {
+            "nome": "Digital",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Princípio da transcendência Brasil congresso",
+          "Proteção de dados pessoais Brasil congresso",
+          "Reforma trabalhista Brasil congresso",
+          "Trabalho inovação tecnológica congresso",
+          "Direito do trabalho congresso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8c2a6c6e50bd99cc0fa6",
+    "titulo": "Encarregado pelo tratamento de dados pessoais",
+    "autores": [
+      "Sabbat, Arthur Pereira"
+    ],
+    "areas": [
+      "Digital"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0313105e-bdc8-43f4-8cdb-0efa593602c8",
+        "data_registro_rvbi": "2026-07-31T10:25:25Z",
+        "titulo": "Encarregado pelo tratamento de dados pessoais",
+        "subtitulo": "comentários à Resolução CD/APND n° 18, de 16 de julho de 2024",
+        "autores": [
+          "Sabbat, Arthur Pereira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2024,
+        "editoras": [
+          "Editora Lumen Juris"
+        ],
+        "isbns": [
+          "9788551931943"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Digital",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito à privacidade Brasil",
+          "Proteção de dados pessoais Brasil",
+          "Encarregado (segurança da informação) Brasil",
+          "Compliance Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1460589",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "tamer-dados",
+    "titulo": "Manual de Direito da Proteção de Dados Pessoais",
+    "autores": [
+      "Mauricio Tamer"
+    ],
+    "areas": [
+      "Digital"
+    ],
+    "edicoes_editoriais": [
+      {
+        "area": "Digital",
+        "obra_id": "tamer-dados",
+        "titulo": "Manual de Direito da Proteção de Dados Pessoais",
+        "autoria": "Mauricio Tamer",
+        "ano": "2025",
+        "numero_edicao": "1",
+        "volume": "",
+        "formato": "Impresso",
+        "isbn13": "9786553629943",
+        "fonte_bibliografica": "https://www.grupogen.com.br/livro-manual-de-direito-da-protecao-de-dados-pessoais-1-edicao-2025-mauricio-tamer-saraiva-jur-9786553629943",
+        "funcao_editorial": "Estudo das bases legais e da LGPD",
+        "acesso_publico": "Ficha editorial pública",
+        "acesso_ao_livro": "Oferta editorial; disponibilidade variável",
+        "status_revisao": "Edição conferida em fonte editorial"
+      }
+    ],
+    "registros_rvbi": []
+  },
+  {
+    "id": "rvbi-c1abd591f444f2dc363b",
+    "titulo": "O direito das investigações digitais no Brasil",
+    "autores": [
+      "Abreu, Jacqueline de Souza"
+    ],
+    "areas": [
+      "Digital"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0003cad2-96d8-5681-9b1d-6250bbc63c0b",
+        "data_registro_rvbi": "2026-07-30T10:31:40Z",
+        "titulo": "O direito das investigações digitais no Brasil",
+        "subtitulo": "fundamentos e marcos normativos",
+        "autores": [
+          "Abreu, Jacqueline de Souza"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "InternetLab"
+        ],
+        "isbns": [
+          "9786588385135"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Digital",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Interceptação telefônica",
+          "Investigação criminal aspectos constitucionais",
+          "Proteção de dados pessoais",
+          "Investigação criminal inovação tecnológica"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "texto integral indicado",
+            "url": "https://internetlab.org.br/wp-content/uploads/2022/10/INTERNETLAB_O-DIREITO-DAS-INVESTIGACOES_PRINT_10-2022.pdf",
+            "rótulo_original": "Texto integral (PDF)"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2023/março/1229825/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/173279",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

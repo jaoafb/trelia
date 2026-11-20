@@ -1,0 +1,235 @@
+[
+  {
+    "id": "rvbi-558697ab151871803e2d",
+    "titulo": "Direito urbanístico brasileiro",
+    "autores": [
+      "Silva, José Afonso da"
+    ],
+    "areas": [
+      "Urbanístico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/034b49be-5a54-560b-9d29-30f74949c314",
+        "data_registro_rvbi": "2026-08-02T09:41:57Z",
+        "titulo": "Direito urbanístico brasileiro",
+        "subtitulo": null,
+        "autores": [
+          "Silva, José Afonso da"
+        ],
+        "edicao": "4. ed., rev. e atual",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Malheiros"
+        ],
+        "isbns": [
+          "9788574206745"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Urbanístico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Arquitetura e urbanismo (área do conhecimento) legislação Brasil",
+          "Planejamento social Brasil",
+          "Propriedade rural Brasil",
+          "Solo urbano Brasil",
+          "Uso do solo Brasil",
+          "Direito urbanístico Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2006/agosto/749562.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-f71519510495b0a784c0",
+    "titulo": "Estatuto da cidade, uma conquista histórica",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Urbanístico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01991dc4-bcb8-58d4-8c03-58014a668ee4",
+        "data_registro_rvbi": "2025-10-30T14:15:44Z",
+        "titulo": "Estatuto da cidade, uma conquista histórica",
+        "subtitulo": null,
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2006,
+        "editoras": [
+          "Câmara do Deputados, Coordenação de Serviços Gráficos"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Urbanístico",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Cidade Brasil",
+          "Planejamento municipal Brasil",
+          "Planejamento urbano Brasil",
+          "Urbanização Brasil",
+          "Política urbana Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2001-07-10;10257",
+            "rótulo_original": "LEI-010257 (2001)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-eebafc3df9612de13bfc",
+    "titulo": "Limitações urbanas ao direito de propriedade",
+    "autores": [
+      "Maluf, Adriana Caldas do Rego Freitas Dabus"
+    ],
+    "areas": [
+      "Urbanístico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/021096df-41c5-577c-9053-25d3157b478b",
+        "data_registro_rvbi": "2026-07-29T05:33:20Z",
+        "titulo": "Limitações urbanas ao direito de propriedade",
+        "subtitulo": null,
+        "autores": [
+          "Maluf, Adriana Caldas do Rego Freitas Dabus"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2010,
+        "editoras": [
+          "Atlas"
+        ],
+        "isbns": [
+          "9788522401086"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Urbanístico",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito urbanístico Brasil",
+          "Função social da propriedade Brasil",
+          "Política urbana Brasil",
+          "Proteção ambiental aspectos constitucionais Brasil",
+          "Direito de propriedade Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/34127",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca/servicos/novas_aquisicoes/aquisicoes/naquis.asp?area=0&boletim=125",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-e974fad50b7ace820247",
+    "titulo": "Política urbana e garantismo constitucional",
+    "autores": [
+      "Macedo Júnior, Gilson Santiago"
+    ],
+    "areas": [
+      "Urbanístico"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02a5b41f-44b1-5a48-846e-f60b33d55150",
+        "data_registro_rvbi": "2026-07-30T19:14:05Z",
+        "titulo": "Política urbana e garantismo constitucional",
+        "subtitulo": "uma perspectiva para além da crise",
+        "autores": [
+          "Macedo Júnior, Gilson Santiago"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2023,
+        "editoras": [
+          "Dialética"
+        ],
+        "isbns": [
+          "9786525298528"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Urbanístico",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Neoliberalismo Brasil",
+          "Política habitacional Brasil",
+          "Política urbana aspectos socioeconômicos Brasil",
+          "Política urbana avaliação Brasil",
+          "Política urbana legislação Brasil",
+          "Regularização fundiária Brasil",
+          "Política urbana aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1243696",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2001-07-10;10257",
+            "rótulo_original": "LEI-010257 (2001)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2017-07-11;13465",
+            "rótulo_original": "LEI-013465 (2017)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2021-01-12;14118",
+            "rótulo_original": "LEI-014118 (2021)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]

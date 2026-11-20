@@ -1,0 +1,686 @@
+[
+  {
+    "id": "rvbi-feb2c74abd076f7674a4",
+    "titulo": "A propriedade na ordem jurídica, econômica e ideológica",
+    "autores": [
+      "Kich, Bruno Canísio"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/024e1e2e-43fb-50f6-82d8-ffddda5d1dd5",
+        "data_registro_rvbi": "2026-08-02T23:53:35Z",
+        "titulo": "A propriedade na ordem jurídica, econômica e ideológica",
+        "subtitulo": null,
+        "autores": [
+          "Kich, Bruno Canísio"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "S.A. Fabris"
+        ],
+        "isbns": [
+          "9788575252673"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Posse da terra Brasil",
+          "Propriedade intelectual Brasil",
+          "Propriedade privada direito comparado",
+          "Propriedade aspectos jurídicos Brasil",
+          "Propriedade história Brasil",
+          "Propriedade história Estados Unidos",
+          "Propriedade história Inglaterra",
+          "Direito de propriedade"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1998-05-15;9636",
+            "rótulo_original": "LEI-009636 (1998)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2001-07-10;10257",
+            "rótulo_original": "LEI-010257 (2001)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-9bbe7ee62921255aecb6",
+    "titulo": "Contratos mercantis diferenciados",
+    "autores": [
+      "Silva, Luiz Antonio Guerra da"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02f98bdd-40cd-5744-818a-f5c7151f9af2",
+        "data_registro_rvbi": "2026-08-26T18:09:44Z",
+        "titulo": "Contratos mercantis diferenciados",
+        "subtitulo": "franquia empresarial, cartão de crédito, fomento mercantil, transferência de tecnologia, cessão de uso de marca, arrendamento mercantil",
+        "autores": [
+          "Silva, Luiz Antonio Guerra da"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2007,
+        "editoras": [
+          "Brasília Jurídica"
+        ],
+        "isbns": [
+          "9788574692777"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Cartão de crédito Brasil",
+          "Cessão de direitos Brasil",
+          "Factoring Brasil",
+          "Franquia comercial Brasil",
+          "Leasing Brasil",
+          "Marca (propriedade industrial) Brasil",
+          "Contrato comercial Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1971-12-21;5772",
+            "rótulo_original": "LEI-005772 (1971)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1994-12-15;8955",
+            "rótulo_original": "LEI-008955 (1994)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-590b41cfb25b15d3882f",
+    "titulo": "Contribuição para um tratamento da biotecnologia moderna na nova lei da propriedade industria",
+    "autores": [],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/033e383a-5916-58a5-b795-59e51c66d370",
+        "data_registro_rvbi": "2025-10-30T06:44:42Z",
+        "titulo": "Contribuição para um tratamento da biotecnologia moderna na nova lei da propriedade industria",
+        "subtitulo": null,
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 1991,
+        "editoras": [
+          "Associação Brasileira das Empresas de Biotecnologia"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Biotecnologia",
+          "Patente Brasil",
+          "Propriedade industrial projeto de lei Brasil",
+          "Propriedade industrial legislação Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-32f7b1b55c7c682250f0",
+    "titulo": "Gestão estratégica de propriedade intelectual e políticas públicas",
+    "autores": [
+      "Oliveira, Michele Cristina Souza Achcar Colla de"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0268c53f-6faa-5c88-8e39-acacc40ad91c",
+        "data_registro_rvbi": "2026-08-04T09:28:51Z",
+        "titulo": "Gestão estratégica de propriedade intelectual e políticas públicas",
+        "subtitulo": "licenciamento de patentes de medicamentos e o COVID-19",
+        "autores": [
+          "Oliveira, Michele Cristina Souza Achcar Colla de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2021,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9786556053127"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Direito à saúde Brasil",
+          "Direito de propriedade aspectos constitucionais Brasil",
+          "Função social Brasil",
+          "Medicamento patente Brasil",
+          "Propriedade industrial natureza jurídica Brasil",
+          "Propriedade industrial tratado",
+          "Propriedade industrial Brasil",
+          "Saúde pública Brasil",
+          "Propriedade intelectual Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1187857",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2021/junho/1187857/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "https://bdjur.stj.jus.br/jspui/handle/2011/155297",
+            "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-05-14;9279",
+            "rótulo_original": "LEI-009279 (1996)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-af5e9c06895bab92f6d7",
+    "titulo": "Medidas liminares e providências cautelares ínsitas",
+    "autores": [
+      "Friede, Roy Reis"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0131f2f7-3e10-5c87-9fa9-def530e3594b",
+        "data_registro_rvbi": "2026-07-29T05:31:41Z",
+        "titulo": "Medidas liminares e providências cautelares ínsitas",
+        "subtitulo": "em habeas corpus, habeas data, ação popular, ação civil pública, ADIn, ADC, ADPF, ações possessórias, desapropriação, usucapião especial, ação rescisória, na lei do inquilinato e em propriedade industrial",
+        "autores": [
+          "Friede, Roy Reis"
+        ],
+        "edicao": "3. ed., rev., atual",
+        "volume": null,
+        "ano": 2012,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9788536236209"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Medida liminar jurisprudência Brasil",
+          "Medida liminar legislação Brasil",
+          "Processo cautelar jurisprudência Brasil",
+          "Processo cautelar legislação Brasil",
+          "Processo cautelar Brasil",
+          "Medida liminar Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://bdjur.stj.jus.br/dspace/handle/2011/48945",
+            "rótulo_original": "Sumário na BDjur / Superior Tribunal de Justiça"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2002-05-07;10444",
+            "rótulo_original": "LEI-010444 (2002)"
+          },
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-08-07;12016",
+            "rótulo_original": "LEI-012016 (2009)"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-6dab799c52fe76b873fa",
+    "titulo": "Novo arranjo jurídico para núcleos de inovação tecnológica",
+    "autores": [
+      "Dias, Ludmila Meira Maia"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/01ad7317-f4ca-47d0-bfd5-98cfa9ec27bd",
+        "data_registro_rvbi": "2026-10-06T20:16:11Z",
+        "titulo": "Novo arranjo jurídico para núcleos de inovação tecnológica",
+        "subtitulo": "NIT misto e a experiência da UFMG",
+        "autores": [
+          "Dias, Ludmila Meira Maia"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2025,
+        "editoras": [
+          "Dialética"
+        ],
+        "isbns": [
+          "9786527041429"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Tecnologia e direito Brasil",
+          "Inovação tecnológica aspectos jurídicos Brasil",
+          "Instituição de pesquisa inovação tecnológica Brasil",
+          "Propriedade intelectual proteção",
+          "Parceria público-privada (PPP)"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8b41b2de0d6e722dcf4d",
+    "titulo": "O direito da propriedade intelectual",
+    "autores": [
+      "Hammes, Bruno Jorge"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0122e55c-561a-5e5c-8a52-097d18efd6d7",
+        "data_registro_rvbi": "2026-08-01T10:48:59Z",
+        "titulo": "O direito da propriedade intelectual",
+        "subtitulo": "conforme a Lei 9610 de 19.2.1998",
+        "autores": [
+          "Hammes, Bruno Jorge"
+        ],
+        "edicao": "3. ed",
+        "volume": null,
+        "ano": 2002,
+        "editoras": [
+          "Unisinos"
+        ],
+        "isbns": [
+          "9788585580483"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Concorrência desleal",
+          "Direito autoral",
+          "Patente",
+          "Propriedade intelectual"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-52a8352fe826d588b78f",
+    "titulo": "Patentes de segundo uso no Brasil",
+    "autores": [
+      "Leite, Márcio Junqueira"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02c8dd22-4af4-5c91-8de4-fa8a83c21aae",
+        "data_registro_rvbi": "2026-08-01T01:33:52Z",
+        "titulo": "Patentes de segundo uso no Brasil",
+        "subtitulo": null,
+        "autores": [
+          "Leite, Márcio Junqueira"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2015,
+        "editoras": [
+          "Almedina"
+        ],
+        "isbns": [
+          "9788584930401"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Medicamento genérico patente Brasil",
+          "Medicamento patente Brasil",
+          "Patente de invenção direito comparado",
+          "Propriedade industrial Brasil",
+          "Propriedade intelectual Brasil",
+          "Patente de invenção Brasil"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "legislação relacionada",
+            "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-05-14;9279",
+            "rótulo_original": "LEI-009279 (1996) ART 00018 INC 01"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-028946e43e99d8ba6153",
+    "titulo": "Propriedade industrial",
+    "autores": [
+      "Brasil"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0045178f-08c3-5a36-898e-dbf741987a47",
+        "data_registro_rvbi": "2026-07-29T23:40:31Z",
+        "titulo": "Propriedade industrial",
+        "subtitulo": "o Código da propriedade industrial acompanhado da legislação vigente sober propriedade industrial e de índice alfabético de toda a materia",
+        "autores": [
+          "Brasil"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 1984,
+        "editoras": [
+          "Saraiva"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Marca (propriedade industrial) Brasil legislação",
+          "Patente de invenção Brasil legislação",
+          "Propriedade industrial Brasil legislação"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-2fa547b533e779708c50",
+    "titulo": "Propriedade industrial na Constituição",
+    "autores": [
+      "Andrade, Victor Luiz Pereira de"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02bc9cb6-96ce-5c1a-985d-b5ab1f6c3212",
+        "data_registro_rvbi": "2026-07-29T13:48:21Z",
+        "titulo": "Propriedade industrial na Constituição",
+        "subtitulo": "interesse social e desenvolvimento",
+        "autores": [
+          "Andrade, Victor Luiz Pereira de"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2022,
+        "editoras": [
+          "Juruá"
+        ],
+        "isbns": [
+          "9786526300312"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Propriedade industrial aspectos constitucionais Brasil"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1224679",
+            "rótulo_original": "Capa e sumário"
+          },
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2023/agosto/1224679/sumario.pdf",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-b2d0a31dd0b40ff9b8c4",
+    "titulo": "Seminário e Congresso Internacional da Propriedade Intelectual",
+    "autores": [],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00f156f2-b236-51ca-92e8-4250336d1faf",
+        "data_registro_rvbi": "2025-10-30T14:37:40Z",
+        "titulo": "Seminário e Congresso Internacional da Propriedade Intelectual",
+        "subtitulo": "os novos rumos da propriedade intelectual : para onde vamos? : anais 2009",
+        "autores": [],
+        "edicao": null,
+        "volume": null,
+        "ano": 2009,
+        "editoras": [
+          "Associação Brasileira da Propriedade Intelectual (ABP)"
+        ],
+        "isbns": [],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "título"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Biopirataria",
+          "Biotecnologia",
+          "Franquia comercial",
+          "Inovação tecnológica",
+          "Marca (propriedade industrial)",
+          "Propriedade industrial Brasil congresso",
+          "Propriedade intelectual Brasil congresso"
+        ],
+        "tem_nota_de_conteudo": true,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-8eea8437ec842192157a",
+    "titulo": "Signos da marca",
+    "autores": [
+      "Perez, Clotilde"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/02bfaa45-91e9-50cf-ab0f-7a8c3cdddd92",
+        "data_registro_rvbi": "2026-08-01T22:30:02Z",
+        "titulo": "Signos da marca",
+        "subtitulo": "expressividade e sensorialidade",
+        "autores": [
+          "Perez, Clotilde"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2004,
+        "editoras": [
+          "Pioneira Thomson Learning"
+        ],
+        "isbns": [
+          "9788522104420"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Marketing",
+          "Publicidade",
+          "Semiótica",
+          "Marca (propriedade industrial)"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  },
+  {
+    "id": "rvbi-36ce3110f3995272a3ec",
+    "titulo": "Terrorismo de marca",
+    "autores": [
+      "Domingues, Izabela"
+    ],
+    "areas": [
+      "Propriedade Intelectual"
+    ],
+    "edicoes_editoriais": [],
+    "registros_rvbi": [
+      {
+        "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/004bbe5e-010c-5297-9d24-eae8aa1aaac9",
+        "data_registro_rvbi": "2026-08-02T03:41:51Z",
+        "titulo": "Terrorismo de marca",
+        "subtitulo": "publicidade, discurso e consumismo político na rede",
+        "autores": [
+          "Domingues, Izabela"
+        ],
+        "edicao": null,
+        "volume": null,
+        "ano": 2013,
+        "editoras": [
+          "Confraria do Vento"
+        ],
+        "isbns": [
+          "9788560676675"
+        ],
+        "areas_sugeridas": [
+          {
+            "nome": "Propriedade Intelectual",
+            "evidência": "assunto"
+          }
+        ],
+        "assuntos_rvbi": [
+          "Consumo globalização",
+          "Internet usuário",
+          "Marca (propriedade industrial) crítica",
+          "Publicidade crítica",
+          "Rede social",
+          "Sociedade de consumo aspectos políticos"
+        ],
+        "tem_nota_de_conteudo": false,
+        "links_rvbi": [
+          {
+            "tipo_indicado": "sumário",
+            "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=977071",
+            "rótulo_original": "Capa e sumário"
+          }
+        ],
+        "status": "metadados institucionais; acesso e formato a conferir"
+      }
+    ]
+  }
+]
