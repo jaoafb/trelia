@@ -24,3 +24,40 @@
   align-items: center;
   min-height: 2.75rem;
 }
+
+.catalog-section .topic-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: .75rem;
+  border: 0;
+}
+
+.catalog-section .topic-card {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-content: center;
+  align-items: center;
+  min-height: 4.75rem;
+  gap: .7rem;
+  padding: .85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--panel-radius);
+  background: var(--panel-background);
+  font-size: 1rem;
+}
+
+.catalog-section .topic-card:hover { border-color: var(--lime-dark); }
+
+.catalog-section .topic-number {
+  grid-column: auto;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .6rem;
+  background: rgb(201 242 103 / 8%);
+  color: var(--lime);
+}
+
+.catalog-section .topic-arrow {
+  width: 1.65rem;
+  height: 1.65rem;
+}
