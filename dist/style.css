@@ -27,6 +27,8 @@ h1:focus, main:focus { outline: none; }
   --lavender: #b5a6ff;
   --orange: #ffb367;
   --max-width: 1180px;
+  --panel-radius: 1rem;
+  --panel-background: linear-gradient(135deg, rgb(201 242 103 / 4%), transparent 65%), var(--surface);
 }
 
 @layer base {
@@ -371,18 +373,14 @@ h1:focus, main:focus { outline: none; }
   grid-template-columns: 160px 1.6fr 1fr;
   align-items: center;
   gap: 50px;
-  background: var(--lime);
-  color: #10130f;
-  border-radius: 3px;
-}
-.promise-section .section-kicker {
-  color: #516329;
+  color: var(--text);
 }
 .promise-mark {
   width: 128px;
   height: 128px;
   position: relative;
-  border: 1px solid rgba(16, 19, 15, 0.3);
+  border: 1px solid rgb(201 242 103 / 22%);
+  color: var(--lime);
   border-radius: 50%;
 }
 .promise-mark > .icon {
@@ -400,7 +398,7 @@ h1:focus, main:focus { outline: none; }
   left: -15px;
   width: 156px;
   height: 1px;
-  background: rgba(16, 19, 15, 0.3);
+  background: rgb(201 242 103 / 16%);
   transform: rotate(45deg);
 }
 .promise-mark::after {
@@ -420,7 +418,7 @@ h1:focus, main:focus { outline: none; }
   left: 57px;
 }
 .promise-section p:last-child {
-  color: #3d482a;
+  color: var(--muted);
   font-size: 16px;
   line-height: 1.7;
 }
@@ -521,9 +519,6 @@ h1:focus, main:focus { outline: none; }
   gap: 50px;
   padding: 52px;
   margin-top: 32px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
 }
 .book-details {
   min-width: 0;
@@ -660,8 +655,6 @@ h1:focus, main:focus { outline: none; }
 }
 .location-card {
   margin-top: 24px;
-  border: 1px solid #353c36;
-  background: var(--surface);
 }
 .location-top {
   min-height: 55px;
@@ -822,8 +815,6 @@ h1:focus, main:focus { outline: none; }
   grid-template-columns: 100px 1fr auto;
   align-items: center;
   gap: 28px;
-  background: var(--surface);
-  border: 1px solid var(--line);
 }
 .bibliography-monogram {
   width: 88px;
@@ -1012,12 +1003,10 @@ h1:focus, main:focus { outline: none; }
     height: 30px;
   }
   .promise-section {
-    width: 100%;
     margin-bottom: 75px;
     padding: 45px 24px;
     grid-template-columns: 1fr;
     gap: 31px;
-    border-radius: 0;
   }
   .promise-section > p:last-child {
     grid-column: auto;
@@ -1183,10 +1172,18 @@ main { overflow-x: clip; }
 .course-status { display: block; margin-top: .25rem; color: var(--muted); font-size: .8rem; font-weight: 400; }
 .search-status { margin-top: 1rem; color: var(--muted); }
 .catalog-course-heading h2 { font: 600 1.45rem/1.3 "Manrope", sans-serif; }
-.topic-explanation {
+.topic-explanation,
+.book-card,
+.bibliography-card,
+.location-card,
+.promise-section,
+#feedback {
   border: 1px solid var(--line);
-  border-radius: 1rem;
-  background: linear-gradient(135deg, rgb(201 242 103 / 4%), transparent 65%), var(--surface);
+  border-radius: var(--panel-radius);
+  background: var(--panel-background);
+}
+
+.topic-explanation {
   padding: clamp(1rem, 2.6vw, 1.75rem);
   margin-bottom: 1.25rem;
 }
@@ -1254,7 +1251,7 @@ main { overflow-x: clip; }
 .guide-sources li a { color: var(--lime); }
 .guide-sources .bibliography-card { align-items: start; grid-template-columns: 1fr; }
 .bibliography-card .primary-button { width: fit-content; }
-#feedback { width: min(100% - 2rem, 34rem); max-height: 90dvh; border: 1px solid var(--line); border-radius: .8rem; background: var(--surface); color: var(--text); padding: 1.4rem; }
+#feedback { width: min(100% - 2rem, 34rem); max-height: 90dvh; color: var(--text); padding: 1.4rem; }
 .dialog-head { display: flex; justify-content: space-between; align-items: start; gap: 1rem; }
 #feedback-form label { display: block; margin: 1rem 0 .35rem; font-weight: 700; }
 #feedback select, #feedback textarea { display: block; width: 100%; padding: .6rem; border: 1px solid var(--line); border-radius: .4rem; background: var(--surface-2); }
