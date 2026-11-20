@@ -23,7 +23,7 @@ O importador registra o total recebido e a seleção por área. O parâmetro `--
 
 ## Revisar uma ficha
 
-1. Confira se a área sugerida é a principal para o uso no Caderno. Adicione áreas secundárias se houver uma relação pertinente.
+1. Confira se a área sugerida é a principal para o uso na Trelia. Adicione áreas secundárias se houver uma relação pertinente.
 2. Confira título, autoria, edição, ano e volume. Use o ISBN da edição e do formato adequados. Quando houver vários ISBNs no registro, confira cada formato pela ficha editorial antes de escolher um.
 3. Abra os links e identifique o que o leitor pode acessar. Uma nota de conteúdo pode indicar capítulos. Um link associado ao registro pode levar a um sumário, a uma norma citada ou a outro recurso relacionado. Marque acesso aberto somente após conferir a disponibilidade do texto.
 4. Informe a decisão editorial e cite a fonte que sustenta a indicação. Um livro antigo pode servir a uma pesquisa histórica. Para recomendá-lo como apoio à disciplina atual, confira a edição e as mudanças legislativas relevantes à indicação.
