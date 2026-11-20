@@ -43,7 +43,7 @@ const cover = book => bookCover(book, courseTitle(book.area));
 
 function courseGrid(items, inProgress = false) {
   return `<ul class="topic-grid">${items.map(course => `<li><a class="topic-card" href="${courseRoute(course.id)}">
-    <span class="topic-number">${bookIcon}</span><span>${h(course.title)}${inProgress ? '<small class="course-status">em construção</small>' : ""}</span><span class="topic-arrow">${arrow}</span>
+    <span>${h(course.title)}${inProgress ? '<small class="course-status">em construção</small>' : ""}</span><span class="topic-arrow">${arrow}</span>
   </a></li>`).join("")}</ul>`;
 }
 

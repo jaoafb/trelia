@@ -32,7 +32,7 @@
 }
 
 .catalog-section .topic-card {
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-content: center;
   align-items: center;
   min-height: 6rem;
@@ -45,17 +45,6 @@
 }
 
 .catalog-section .topic-card:hover { border-color: var(--lime-dark); }
-
-.catalog-section .topic-number {
-  grid-column: auto;
-  display: grid;
-  place-items: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: .6rem;
-  background: rgb(201 242 103 / 8%);
-  color: var(--lime);
-}
 
 .catalog-section .topic-arrow {
   width: 1.65rem;
