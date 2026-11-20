@@ -55,22 +55,12 @@ function topicGrid(destination, items) {
   </li>`).join("")}</ul>`;
 }
 
-function homeReadingExample() {
-  const topic = topics.find(item => item.id === "erro-de-tipo");
-  const book = books.find(item => item.id === "nucci");
-  const edition = book?.editions.find(item => item.id === "nucci-18");
-  const ref = edition && topic?.refs[edition.id];
-  if (!ref) return "";
-  return `<a class="hero-reading" href="${guideLink(topic, book, edition)}">
-    <div class="hero-reading-cover">${cover(book)}</div>
-    <div class="hero-reading-info">
-      <p class="section-kicker">Uma leitura do acervo</p>
-      <h2>${h(topic.title)}</h2>
-      <p>${h(book.title)} · ${h(book.author)}</p>
-      <p class="hero-reading-reference">${h(editionLabel(edition))} <strong>${h(ref.where)}</strong></p>
-      <span class="hero-reading-link">Abrir indicação ${arrow}</span>
-    </div>
-  </a>`;
+function homeArtwork() {
+  const covers = ["nucci", "lenza", "forgioni-antitruste"]
+    .map(id => books.find(book => book.id === id)).filter(Boolean);
+  return `<div class="hero-artwork" aria-hidden="true">
+    ${covers.map(book => `<div class="hero-artwork-cover">${cover(book)}</div>`).join("")}
+  </div>`;
 }
 
 function home() {
@@ -80,15 +70,15 @@ function home() {
   const inProgress = ordered.filter(course => themeCounts.get(course.id) < 5);
   return `<section class="hero shell">
     <div class="hero-main">
-    <p class="eyebrow"><span></span> Leituras por assunto</p>
-    <h1>Encontre o trecho certo.<br><em>Comece a estudar.</em></h1>
-    <p class="hero-copy">Descubra quais livros consultar e onde começar a leitura, sem perder tempo procurando.</p>
-    ${search("", false)}
-    <div class="search-examples"><span>Experimente:</span>
-      <a href="#livros/dolo-eventual">Dolo eventual</a><a href="#livros/omissao-impropria">Omissão imprópria</a>
+      <p class="eyebrow"><span></span> Leituras por assunto</p>
+      <h1>Encontre o trecho certo.<br><em>Comece a estudar.</em></h1>
+      <p class="hero-copy">Descubra quais livros consultar e onde começar a leitura, sem perder tempo procurando.</p>
+      ${search("", false)}
+      <div class="search-examples"><span>Experimente:</span>
+        <a href="#livros/dolo-eventual">Dolo eventual</a><a href="#livros/omissao-impropria">Omissão imprópria</a>
+      </div>
     </div>
-    </div>
-    ${homeReadingExample()}
+    ${homeArtwork()}
   </section>
   <section class="catalog-section shell" aria-labelledby="topics-title">
     <div class="section-heading"><h2 id="topics-title">Explore o acervo</h2></div>

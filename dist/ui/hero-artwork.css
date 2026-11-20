@@ -1,0 +1,42 @@
+.hero-artwork { display: none; }
+
+@media (min-width: 1050px) {
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(15rem, 25vw, 19rem);
+    align-items: center;
+    gap: clamp(2rem, 4vw, 4rem);
+  }
+
+  .hero-main { min-width: 0; }
+  .hero h1 { font-size: clamp(3rem, 5.3vw, 5rem); }
+
+  .hero-artwork {
+    display: grid;
+    position: relative;
+    isolation: isolate;
+    aspect-ratio: 4 / 5;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .hero-artwork::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 2% -5%;
+    background: radial-gradient(ellipse, rgb(201 242 103 / 10%), transparent 68%);
+  }
+
+  .hero-artwork-cover {
+    grid-area: 1 / 1;
+    width: 47%;
+    filter: drop-shadow(0 .8rem 1.15rem rgb(0 0 0 / 38%));
+  }
+
+  .hero-artwork-cover:nth-child(1) { transform: translate(-39%, 8%) rotate(-17deg); }
+  .hero-artwork-cover:nth-child(2) { transform: translate(39%, 6%) rotate(14deg); }
+  .hero-artwork-cover:nth-child(3) { transform: translateY(-9%) rotate(-4deg); }
+}
