@@ -37,8 +37,7 @@
   font-size: .8rem;
 }
 
-.theme-toggle:hover,
-.theme-toggle[aria-pressed="true"] { border-color: var(--lime-dark); }
+.theme-toggle:hover { border-color: var(--lime-dark); }
 .theme-toggle .icon { color: var(--lime); }
 
 @media (max-width: 380px) {

@@ -93,13 +93,21 @@ function guideLink(topic, book, edition) {
   return `#duvida/${topic.id}?${params}`;
 }
 
+function evidenceLink({ ref, source }, edition) {
+  const number = edition.name.match(/^\d+ª edição\b/u)?.[0];
+  const action = ref?.action ?? "Ver evidência da indicação";
+  const label = ref && number && /^(?:Ver|Abrir) sumário/u.test(action)
+    ? "Ver sumário da " + number : action;
+  return external(source.url, label) + officialAlternative(source);
+}
+
 function editionReference(topic, book, edition) {
-  const { ref, source, specific } = readingEvidence(topic, book, edition);
+  const evidence = readingEvidence(topic, book, edition);
+  const { ref } = evidence;
   const details = [ref?.section ?? ref?.precision, edition.isbn && "ISBN " + edition.isbn].filter(Boolean);
   return `<strong>${h(ref?.where ?? "Localização a conferir")}</strong>
     ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
-    ${external(source.url, specific ? source.action : ref ? "Ver fonte" : "Ver fonte da indicação")}
-    ${officialAlternative(source)}`;
+    ${evidenceLink(evidence, edition)}`;
 }
 
 function readingCard(topic, book, first) {
@@ -163,16 +171,16 @@ function topicBooks(topic, query, preferredBook) {
 }
 
 function locationCard(topic, book, edition) {
-  const { ref, source, specific } = readingEvidence(topic, book, edition);
+  const evidence = readingEvidence(topic, book, edition);
+  const { ref } = evidence;
   return `<div class="location-card">
     <div class="location-top"><span>${h(editionLabel(edition))} · ${h(edition.format)}${edition.isbn ? " · ISBN " + h(edition.isbn) : ""}</span>
       <span class="${ref ? "confirmed" : "unconfirmed"}">${ref ? "Localização confirmada" : "Sem confirmação"}</span>
     </div>
     ${ref ? `<div class="location-value"><div><span>Onde ler</span><strong>${h(ref.where)}</strong>${ref.section ? `<p>${h(ref.section)}</p>` : ""}</div>
       <div><span>${h(ref.precision)}</span><strong class="detail-text">${h(ref.detail)}</strong></div></div>
-      ${external(ref.url, ref.action)}` : `<p class="warning-message">Localização a conferir para esta edição.</p>
-      ${external(source.url, specific ? source.action : "Ver fonte sobre a cobertura")}`}
-    ${officialAlternative(source)}
+      ` : `<p class="warning-message">Localização a conferir para esta edição.</p>`}
+    ${evidenceLink(evidence, edition)}
   </div>`;
 }
 

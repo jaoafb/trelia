@@ -9,10 +9,17 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     const button = document.querySelector(".theme-toggle");
+    const label = button.querySelector("span");
+    const sun = button.querySelector(".theme-sun");
+    const moon = button.querySelector(".theme-moon");
     const themeColor = document.querySelector('meta[name="theme-color"]');
     const update = () => {
       const light = root.dataset.theme === "light";
-      button.setAttribute("aria-pressed", String(light));
+      const action = light ? "Modo escuro" : "Modo claro";
+      button.setAttribute("aria-label", action);
+      label.textContent = action;
+      sun.toggleAttribute("hidden", light);
+      moon.toggleAttribute("hidden", !light);
       themeColor.content = light ? "#f5f7f1" : "#0d0f0e";
     };
     update();
