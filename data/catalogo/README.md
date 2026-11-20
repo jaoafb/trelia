@@ -1,5 +1,7 @@
 # Lote piloto do catálogo jurídico
 
+O [modelo de capas](capas/modelo-capa-trelia.html) e o [manifesto da pesquisa](capas/capas-catalogo.json) registram a origem do design e as imagens candidatas. O site compõe a capa em `dist/ui/capa.mjs` e `dist/ui/capa.css`, a partir da obra. O manifesto fica fora do site publicado.
+
 Este lote testa a expansão para Constitucional, Civil, Processo Civil, Administrativo, Trabalho e Tributário. Os registros vieram da Rede Virtual de Bibliotecas do Senado, com enriquecimento por ISBN da BrasilAPI quando havia um identificador inequívoco. O recorte é uma amostra bibliográfica sobre as áreas, com obras recentes, antigas e especializadas. A seleção para graduação ainda depende da verificação da edição e da finalidade de cada obra.
 
 ## Arquivos

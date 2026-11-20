@@ -1,0 +1,5099 @@
+{
+  "politica": {
+    "modo_exibicao": "modelo_trelia",
+    "usar_imagem_externa": false,
+    "modelo_trelia": "Compor todas as capas com título, autoria e área usando os campos da obra.",
+    "obras_sem_isbn": "Usar o modelo tipográfico associado ao ID da obra.",
+    "candidatas": "Histórico da pesquisa de capas."
+  },
+  "por_isbn": {
+    "9782802734994": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786500412987": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786500597448": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786501264585": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786501468334": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786525200538": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786525262048": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786525298528": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786526023532": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786526026892": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786526028636": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9786526028636",
+          "url_imagem": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1699788/1140709.jpg",
+          "fonte": "https://www.martinsfontespaulista.com.br/os-fundamentos-do-antitruste---2025-1140709/p",
+          "status": "imagem candidata",
+          "fonte_corrobora": "https://lireo.com.br/livro/os-fundamentos-do-antitruste-2025",
+          "evidencia": "As duas fichas do mesmo ISBN apontam para imagens idênticas."
+        }
+      ]
+    },
+    "9786526300312": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786526311905": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786527004516": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786527015758": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786527039389": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786527041429": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786527089001": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786528500055": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786528500055",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786528500055",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito do Trabalho - 21ª Edição 2026 - Editora Método",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786528500055.jpg?v=1782734695"
+        }
+      ]
+    },
+    "9786550590086": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786550652883": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786550652913": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786550652968": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "sem_candidata_na_consulta",
+      "candidatas": []
+    },
+    "9786551130410": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786551131950": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786551134630": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786551771491": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771491",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771491",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Curso de Direito Tributário Completo - 17ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771491.jpg?v=1774466509"
+        }
+      ]
+    },
+    "9786551771613": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771613",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771613",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Curso de Direito Constitucional Contemporâneo - 14ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771613.jpg?v=1773427331"
+        }
+      ]
+    },
+    "9786551771804": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771804",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771804",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Série Idp - Curso de Direito Constitucional - 21ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771804.jpg?v=1777581175"
+        }
+      ]
+    },
+    "9786551771842": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771842",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771842",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Manual de Direito Tributário - 18ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771842.jpg?v=1775742692"
+        }
+      ]
+    },
+    "9786551771866": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771866",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771866",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito Constitucional - Coleção Esquematizado - 30ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771866.jpg?v=1779988945"
+        }
+      ]
+    },
+    "9786551771873": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9786551771873",
+          "url_imagem": "https://covers.vitalbook.com/vbid/9786551771873/width/480",
+          "fonte": "https://minhabiblioteca.com.br/catalogo/livro/115919/direito-constitucional/",
+          "status": "imagem candidata"
+        }
+      ]
+    },
+    "9786551771989": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551771989",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551771989",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito Tributário - 15ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551771989.jpg?v=1776176552"
+        }
+      ]
+    },
+    "9786551772054": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9786551772054",
+          "url_imagem": "https://covers.vitalbook.com/vbid/9786551772054/width/480",
+          "fonte": "https://www.grupogen.com.br/e-book-curso-de-direito-do-trabalho-17-edicao-2026-luciano-martinez-saraiva-jur-9786551772054",
+          "status": "imagem candidata"
+        }
+      ]
+    },
+    "9786551772153": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551772153",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551772153",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Manual Didático de Direito Constitucional - 11ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551772153.jpg?v=1778263929"
+        }
+      ]
+    },
+    "9786551772276": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786551772276",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786551772276",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito do Trabalho - Coleção Esquematizado - 11ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786551772276.jpg?v=1781289195"
+        }
+      ]
+    },
+    "9786551773044": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786553625907": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786553626959": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786553628595": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9786553629943": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786553629943",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786553629943",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Manual de direito da proteção de dados pessoais - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786553629943.jpg?v=1767492079"
+        }
+      ]
+    },
+    "9786553962668": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555090123": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555090130": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555090215": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555103311": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555105773": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555107692": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555153323": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555180664": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555181333": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555181395": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555181586": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9786555181593": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555181852": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555182002": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555183238": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9786555183245": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555184068": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555185317": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555260632": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555264357": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555267242": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555596908": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555597479": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555750584": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555753752": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555891058": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555894523": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555894554": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555894615": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555895131": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555895582": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555897999": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555898224": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786555899238": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556051406": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556053127": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556053240": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556056890": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556059877": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556142784": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556147352": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556270937": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556272610": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556524764": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556760261": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556762449": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556764276": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786556765365": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786557382196": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786557382264": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786557852118": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786558631170": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559084616": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559088850": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559089413": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559290642": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559290826": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559292653": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9786559293810": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559294039": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559560301": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559567300": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559640669": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559644209": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559646494": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559647859": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559647903": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559649099": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786559649099",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786559649099",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Instituições de Direito Civil-Introd. ao Direito Civil-Teoria Geral Dir. Civil-Vol.I-35ª Edição 2024 - Editora Forense",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786559649099.jpg?v=1767485751"
+        }
+      ]
+    },
+    "9786559777389": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559777907": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786559777907",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786559777907",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito Civil - Parte Geral - Vol. 1 - 26ª Edição 2026 - Atlas",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786559777907.jpg?v=1792610561"
+        }
+      ]
+    },
+    "9786559778287": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786559778287",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786559778287",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Manual de Direito Processual Civil - 5ª Edição 2026 - Atlas",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786559778287.jpg?v=1768505563"
+        }
+      ]
+    },
+    "9786559778362": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786559778362",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786559778362",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Manual de Direito Administrativo - 40ª Edição 2026 - Atlas",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786559778362.jpg?v=1777920783"
+        }
+      ]
+    },
+    "9786559913077": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559913565": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786559913688": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786560730465": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786561203043": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786561209236": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786583070890": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786583076038": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786584004368": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786584004368",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786584004368",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito Civil Brasileiro - Parte Geral - Vol. 1 - 24ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786584004368.jpg?v=1794405178"
+        }
+      ]
+    },
+    "9786584004641": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9786584004641",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9786584004641",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Curso de Direito Comercial - Falência e Recuperação de Empresa - 16ª Edição 2026 - Saraiva Jur",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9786584004641.jpg?v=1772190244"
+        }
+      ]
+    },
+    "9786584784055": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786585073509": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786585269025": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586017625": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586025828": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586044232": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586214543": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586362176": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786586708134": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786587383477": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786587383736": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786588297100": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786588385135": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786588879092": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786589533832": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9786599203541": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502002821": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502004795": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502004870": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502007895": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502007994": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502010864": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502015579": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502015708": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502019409": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502021778": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502022119": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502023345": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502023543": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502025639": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502025653": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502026001": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502030794": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502030817": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502033504": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502037199": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502038943": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502040687": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502041943": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502043770": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502044104": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502044234": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502047587": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502054165": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502055513": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502056961": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502058149": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502059436": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502063754": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502069893": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502071902": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502073272": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502075313": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502075573": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502075948": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502076587": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502076686": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502078055": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502084339": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502085800": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502092549": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502092808": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502095069": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502096608": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502097896": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502103672": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502104358": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502106338": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502106352": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502106369": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502108271": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502130395": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502149465": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502154391": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502168732": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502176669": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502177291": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502184527": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502198043": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502208483": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502211858": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502212039": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502214934": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502217072": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788502225787": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502616394": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502618718": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502627604": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788502637283": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788503625395": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520300367": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520300374": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520300831": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520301883": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520302279": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520302378": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520302439": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303498": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303528": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303733": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303771": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303801": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303818": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520303825": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520304068": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520304150": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520304174": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520304471": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520305065": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520305348": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520305423": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520305911": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520306161": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520307021": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788520307038": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520307069": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520308035": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520309438": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520309551": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520313503": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520314852": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520314869": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520315842": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520315873": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520316146": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520316207": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520316276": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520316979": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520317013": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520317693": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520317822": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520322055": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520323113": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520323267": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520323274": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520326534": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788520326831": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520326879": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520328248": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520328811": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520329306": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520330791": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520332979": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520334065": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520334072": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520334157": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520335543": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520336410": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520336564": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520336571": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520336885": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520338902": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520339091": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520339688": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520340370": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520340660": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520341124": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520341841": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520341919": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788520343869": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520345931": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520346846": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520353431": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520359105": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520359655": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520362020": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520362129": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788520367643": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520371251": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520372661": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520373002": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520417188": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520418567": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520421680": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520430224": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788520437711": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788521802808": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788521903680": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522104420": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522401086": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788522403851": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522405824": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788522411979": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522413201": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522414758": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522416165": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522418367": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522420315": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522420575": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522421015": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522421671": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522422418": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522424566": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788522426881": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522426935": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522426959": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522426966": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522427109": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522427116": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522427383": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522430246": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522431700": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522431755": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522437160": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522439805": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522439959": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522440962": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522440979": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522440993": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522442966": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522443093": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522443345": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522446032": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522446186": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522448210": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522448951": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522452248": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "sem_candidata_na_consulta",
+      "candidatas": []
+    },
+    "9788522453719": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522454129": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522457809": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522457922": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522458592": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522462209": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522463824": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522467358": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788522468515": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522469277": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522477401": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522486526": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522493708": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522494507": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522497201": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522498109": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522498574": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522499632": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522513932": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788522518999": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788524037887": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788524104312": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788527407564": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788528606980": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788529008226": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530901295": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530901417": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530902360": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530902858": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530903176": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530903541": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530904036": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530906252": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530908461": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530909567": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530911300": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530913045": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530913274": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530913366": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530914721": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530914875": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530915087": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530916879": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530917999": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530918170": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530918606": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530920982": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530922627": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530923280": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788530923358": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530924379": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530925888": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530926526": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530927110": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530928339": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530929305": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530930813": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530931155": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530932121": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530933524": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530939168": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530940126": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530940805": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530940997": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530941819": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530943110": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530945183": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530949570": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530951245": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530952242": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530954826": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530956721": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530958534": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530960315": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530962548": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530967925": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530969745": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530970543": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530970772": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530971304": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530972776": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530973131": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530975951": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530976330": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530977009": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530977566": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530979867": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530980573": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530983536": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530986964": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530987886": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530988456": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530994334": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530995423": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530996390": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788530998288": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9788530998288",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9788530998288",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Curso de Direito Processual Civil Vol.1 - 67ª Edição 2026 - Editora Forense",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9788530998288.jpg?v=1764759862"
+        }
+      ]
+    },
+    "9788530998653": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9788530998653",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9788530998653",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Direito Administrativo - 39ª Edição 2026 - Editora Forense",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9788530998653.jpg?v=1772202104"
+        }
+      ]
+    },
+    "9788530998769": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788530998769",
+          "url_imagem": "https://covers.vitalbook.com/vbid/9788530998769/width/480",
+          "fonte": "https://www.grupogen.com.br/e-book-direito-civil-vol-1-22-edicao-2026-flavio-tartuce-editora-forense-9788530998769",
+          "status": "imagem candidata"
+        }
+      ]
+    },
+    "9788530998875": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788530998875",
+          "url_imagem": "https://covers.vitalbook.com/vbid/9788530998875/width/480",
+          "fonte": "https://minhabiblioteca.com.br/catalogo/livro/113022/curso-de-direito-constitucional/",
+          "status": "imagem candidata"
+        }
+      ]
+    },
+    "9788530999025": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9788530999025",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9788530999025",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Curso de Direito Administrativo - 14ª Edição/2026 - Editora Método",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9788530999025.jpg?v=1771609900"
+        }
+      ]
+    },
+    "9788530999698": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "grupo": "Editorial",
+          "isbn13": "9788530999698",
+          "fonte": "https://www.bookinfometadados.com.br/books/view/9788530999698",
+          "status": "imagem candidata",
+          "titulo": "Bookinfo Metadados\t\t - Recuperação Judicial, Extrajudicial e Falência - Teoria e Prática - 9ª Edição 2026 - Editora Forense",
+          "url_imagem": "https://fl-storage.bookinfometadados.com.br/uploads/book/first_cover/800_9788530999698.jpg?v=1774983830"
+        }
+      ]
+    },
+    "9788532100252": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788532100566": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533615601": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533615984": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533622746": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533901766": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533906419": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788533950757": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535215304": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535227154": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535228137": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535229929": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535233766": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535238341": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535300154": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535300178": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535302097": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788535302219": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788535303186": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536102054": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536102542": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536102948": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536103693": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536107417": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536107868": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536108322": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536109084": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536110073": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536113784": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536113869": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536116075": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536185736": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536189062": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788536191966": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536194165": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536194882": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536200286": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536200323": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536203331": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536203676": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536204949": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536205892": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536207841": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536207858": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536210636": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536210940": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536211299": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536211749": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536214023": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536215129": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536215334": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536216515": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536216607": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536217222": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536217291": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536217574": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536219936": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536220727": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536225364": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536228679": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788536229140": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536229232": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536230993": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536233802": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788536233857": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536234526": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536236209": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536239569": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536240398": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536250281": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536250571": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536254845": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536255743": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536257716": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536258201": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536259017": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536259567": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536267012": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536267920": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788536268828": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536275574": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536279596": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536285368": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536286662": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536289106": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536290119": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536290393": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788536298658": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537500002": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537501382": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537501474": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537501597": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537501955": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537505953": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537506295": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537506417": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537506622": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537507155": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537507254": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788537507377": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537508558": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537510520": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537510858": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537511671": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537521625": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788537523018": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788538400646": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788538400868": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788538401520": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788538404989": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788538405306": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788539200283": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788539200610": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788539201082": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788539201143": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788539204670": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788540206007": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544203460": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544206010": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544206669": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788544207802": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544209844": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544210116": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544210697": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544211182": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544211519": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544212912": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544215777": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544222973": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544225516": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544232200": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788544232927": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544235072": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544235492": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544238752": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544241455": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544246993": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544248522": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544249291": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544250747": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544252529": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544254028": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544256589": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544256671": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544259054": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544261354": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544269237": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544269237",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-2026-garcia",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS4950-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544269626": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544269626",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-civil-volume-unico-2026-farias-netto-rosenvald",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5023-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544269688": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544269688",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-processual-civil-2026-diniz",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/D/I/DIZ3820-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544269879": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544269879",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-didatico-de-direito-administrativo-2026-scatolino-filho",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5003-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544269961": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544269961",
+          "fonte": "https://www.editorajuspodivm.com.br/curso-de-direito-constitucional-volume-unico-2026-novelino-costa",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS4996-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544270042": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544270042",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-do-consumidor-a-luz-da-jurisprudencia-do-stj-2026-netto",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS4988-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544270516": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544270516",
+          "fonte": "https://www.editorajuspodivm.com.br/curso-de-direito-processual-civil-v1-2026-didier-jr",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5125-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544270646": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544270646",
+          "fonte": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5111-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544270745": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544270745",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-administrativo-2026-carvalho",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5102-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544270752": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544270752",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5103-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544271001": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544271001",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-processual-civil-volume-unico-2026-neves",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5079-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544271131": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544271131",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/D/I/DIZ3824-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544271858": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544271858",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-economico-2026-bensoussan-gouvea-luz",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5561-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544273098": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544273098",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5443-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544273753": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544273753",
+          "fonte": "https://www.editorajuspodivm.com.br/livro-aula-direito-do-trabalho-2026-rogerio-renzetti",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/k/i/kit0183-lado.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544273814": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544273814",
+          "fonte": "https://www.editorajuspodivm.com.br/direito-tributario-2026-alexandre",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5376-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544274026": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788544274644": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544274644",
+          "fonte": "https://www.editorajuspodivm.com.br/sinopses-para-concursos-v31-direito-economico-2026-vilela",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5300-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544275726": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544275726",
+          "fonte": "https://www.editorajuspodivm.com.br/manual-de-direito-tributario-2026-pontalti",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/D/I/DIZ3834-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544276280": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544276280",
+          "fonte": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5147-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544277362": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544277362",
+          "fonte": "https://www.editorajuspodivm.com.br/resumo-de-direito-do-trabalho-2026-correia",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5749-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544277737": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544277737",
+          "fonte": "https://www.editorajuspodivm.com.br/dano-moral-nas-relacoes-de-consumo-2026-melo",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5714-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544279267": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "candidata_pendente_de_revisao",
+      "candidatas": [
+        {
+          "isbn13": "9788544279267",
+          "fonte": "https://www.editorajuspodivm.com.br/direito-processual-penal-2027-paulo-rangel",
+          "status": "imagem editorial detectada",
+          "url_imagem": "https://www.editorajuspodivm.com.br/media/catalog/product/J/U/JUS5855-LADO.png?type=image",
+          "evidencia": "Imagem principal identificada nos metadados da ficha e URL de imagem acessível; revisão visual pendente."
+        }
+      ]
+    },
+    "9788544410967": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545000303": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545001461": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "sem_candidata_na_consulta",
+      "candidatas": []
+    },
+    "9788545001645": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545001805": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545001867": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545005292": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545006251": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788545007210": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547201753": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547206109": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547213558": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547214265": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547214678": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547214869": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547215750": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547216023": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547221782": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547222666": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547224714": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547227791": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547227906": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788547229764": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551900536": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551901687": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551904558": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551905593": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551908693": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551911808": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551913437": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551913444": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551914137": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551914786": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551915523": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551920992": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551925867": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551927236": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551928233": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551930045": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551931943": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551935224": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788551936870": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553210886": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553212033": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553216543": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553217298": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553613564": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553613717": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553618767": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553628346": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788553700394": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788554947965": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788555232800": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788555234378": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788560464067": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788560464463": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788560520237": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788560676675": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788560826124": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788560968237": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788561996048": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788562027796": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788564825079": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788565219716": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788565977005": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788566201130": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788567595238": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788569538073": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570183187": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788570270757": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570340498": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570342355": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570525284": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570530035": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570606600": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788570841421": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571064225": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571294233": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571310131": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571390911": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571442276": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571472389": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571472396": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788571473584": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788571474215": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571474291": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571475601": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788571478374": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788571478794": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788572340281": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788572823784": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788572836760": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788572837293": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573080353": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573080544": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788573081374": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573082159": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573082746": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573082777": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573083019": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573084030": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573084405": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573084757": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573086775": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573086942": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573086966": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573086973": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573088212": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573220834": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573221640": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573222050": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573226553": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573482966": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573483086": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573486209": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788573487008": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573487480": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573488289": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573488432": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573489095": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573656350": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573860313": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573872552": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573873580": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573876345": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573877267": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573878158": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573879315": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573879759": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788573942644": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788573943559": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574030197": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574094588": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574200316": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574203942": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574205724": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574206196": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574206745": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574209746": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574351148": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574360645": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788574530369": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574531069": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574532059": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574532561": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574533742": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574534190": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574534268": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574560359": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574562032": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574581453": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574691510": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574691657": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574692777": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574692906": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574903453": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574940472": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788574981161": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575001011": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575251935": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575252024": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575252673": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575254691": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575256442": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575256794": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575593288": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575630549": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788575690185": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576250036": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576261223": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576261865": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576265030": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576266242": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576268697": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788576313670": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576600664": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576601678": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576601739": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576602019": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576602347": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "sem_candidata_na_consulta",
+      "candidatas": []
+    },
+    "9788576602989": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576740292": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576740308": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576740315": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576741688": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788576743255": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788576743637": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576744450": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576744658": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576746119": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576746492": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576748595": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576931027": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576970330": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788576990819": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576991281": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576991724": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576991748": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576991854": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576995142": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576995364": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788576995425": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788577000272": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577001507": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577001996": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577006199": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577007332": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577007875": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577008445": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577212781": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577433513": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577550142": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577613335": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577613533": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577614714": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577614769": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577615056": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577615230": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577616480": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577616886": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577890040": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788577898442": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578720445": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578723248": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578741754": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578742669": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578742997": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578744090": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578980238": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578980337": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788578980818": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788579537738": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788579660702": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788579872730": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788580423389": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788580851212": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788581261348": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788581750507": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788581925547": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788582380727": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788582383919": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788582423325": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788582480809": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788583102274": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584253357": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584253708": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584401062": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584401925": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584401963": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584406920": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584407422": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584407620": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584930401": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584934751": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788584939701": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788585142629": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788585275747": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788585486143": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788585486167": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788585580483": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788586420344": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788586461057": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587002389": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587065575": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587101464": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587101617": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587101907": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587260222": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587297334": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587480248": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587945426": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788587995063": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588264199": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588264212": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588264298": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588264366": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588513150": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588576711": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588714656": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588813090": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788588869547": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788589206136": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788589251969": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788589857437": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788589857895": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788590154174": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788592749088": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788594770202": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788594771117": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788594772107": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788594774569": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788594778536": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788595240452": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9788595301832": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788597002065": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788597006889": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788597019414": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788597020182": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788598471792": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788598760025": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788598848020": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788598923215": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788598993843": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788599202937": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788599216187": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788599349205": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9788599561119": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789720061508": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789723213126": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789723213317": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789723215946": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789723219005": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724004525": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724007571": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724011806": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724040363": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724043319": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724044170": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724047102": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724057583": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724065779": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724075808": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "consulta_bookinfo_limitada",
+      "candidatas": []
+    },
+    "9789724085920": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789724611747": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789725407028": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789725645932": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789894004530": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    },
+    "9789894028345": {
+      "modo_padrao": "modelo_trelia",
+      "estado": "fonte_complementar_a_consultar",
+      "candidatas": []
+    }
+  }
+}

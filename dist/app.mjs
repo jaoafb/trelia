@@ -1,4 +1,6 @@
 import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
+import { h } from "./ui/html.mjs";
+import { bookCover } from "./ui/capa.mjs";
 
 const root = document.querySelector("main");
 const feedback = document.querySelector("#feedback");
@@ -9,10 +11,6 @@ const searchIcon = icon('<circle cx="10.75" cy="10.75" r="5.75"/><path d="m15 15
 const bookIcon = icon('<path d="M6 4.5h9.5A2.5 2.5 0 0 1 18 7v13H8.5A2.5 2.5 0 0 1 6 17.5v-13Zm0 13A2.5 2.5 0 0 1 8.5 15H18M9.5 8h5"/>');
 const externalIcon = icon('<path d="M9 5h10v10M19 5l-9 9M16 13v6H5V8h6"/>');
 const chevron = icon('<path d="m6 9 6 6 6-6"/>');
-
-function h(value) {
-  return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
-}
 
 function external(url, label) {
   return `<a class="external-link" href="${h(url)}" target="_blank" rel="noopener noreferrer"><span class="external-label">${h(label)}</span> ${externalIcon}</a>`;
@@ -36,6 +34,7 @@ function crumbs(current, topic) {
 
 const courseRoute = id => id === "penal-i" ? "#penal-i" : "#disciplina/" + id;
 const courseTitle = id => courses.find(course => course.id === id)?.title ?? "";
+const cover = book => bookCover(book, courseTitle(book.area));
 
 function courseGrid(items) {
   return `<ul class="topic-grid">${items.map(course => `<li><a class="topic-card" href="${courseRoute(course.id)}">
@@ -87,7 +86,7 @@ function editionReference(topic, book, edition) {
   const coverage = topic.recommendations[book.id].coverage;
   const source = ref ?? coverage;
   return `<strong>${h(ref?.where ?? "Localização a conferir")}</strong>
-    ${ref ? `<p>${h(ref.precision)} · ISBN ${h(edition.isbn)}</p>` : ""}
+    ${edition.isbn ? `<p>${ref ? h(ref.precision) + " · " : ""}ISBN ${h(edition.isbn)}</p>` : ""}
     ${external(source.url, ref ? "Ver fonte" : "Ver fonte da indicação")}`;
 }
 
@@ -95,13 +94,12 @@ function readingCard(topic, book) {
   const edition = book.editions.findLast(item => topic.refs[item.id]?.where.startsWith("Página"))
     ?? book.editions.find(item => topic.refs[item.id]) ?? book.editions[0];
   return `<article class="book-card">
-    <div class="book-cover" aria-hidden="true">
-      <span>${h(book.author)}</span><div class="cover-rule"></div><strong>${h(book.title)}</strong>
-      <div class="cover-publisher">Trelia<span>.</span></div>
-    </div>
+    ${cover(book)}
     <div class="book-details">
-      <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author)}</p>
-      <p class="reading-reason">${h(topic.recommendations[book.id].reason)}</p>
+      <div class="book-intro">
+        <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author ?? "")}</p>
+        <p class="reading-reason">${h(topic.recommendations[book.id].reason)}</p>
+      </div>
       <div class="reading-reference">
         <div class="reference-icon">${bookIcon}</div>
         <div class="inline-reference">
@@ -176,7 +174,7 @@ function topicGuide(topic, book, edition) {
             <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${external(source.url, "Abrir fonte")}</div></li>`).join("")}</ul>
         </section>` : ""}
       </section>
-      <aside class="guide-book"><div class="mini-cover" aria-hidden="true">${bookIcon}</div>
+      <aside class="guide-book">${cover(book)}
         <div><span>Obra</span><h2>${h(book.title)}</h2><p>${h(book.author)}</p></div>
         <a href="#livro/${book.id}">Ver edições e acesso ${arrow}</a>
       </aside>
@@ -187,7 +185,7 @@ function topicGuide(topic, book, edition) {
 function coursePage(area) {
   return `<div class="bibliography-page shell">${crumbs(area.course.title)}
     <section class="page-heading"><p class="section-kicker">Bibliografia guiada</p><h1>${h(area.course.title)}</h1><p>Escolha uma obra de acordo com o que você quer estudar.</p></section>
-    ${area.books.map(book => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${bookIcon}</span>
+    ${area.books.map(book => `<article class="bibliography-card">${cover(book)}
       <div><span class="book-type">${h(book.label)}</span><h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author)}</p>
         <p class="bibliography-desc">${h(book.reason ?? [...new Set(book.editions.map(edition => edition.access))].join(" · "))}</p></div>
       <a class="primary-button" href="#livro/${book.id}">Ver edições ${arrow}</a></article>`).join("")}
@@ -211,10 +209,11 @@ function bookPage(book, searchedIsbn) {
     editions.sort((first, second) => Number(matches(second)) - Number(matches(first)));
   }
   return `<div class="bibliography-page shell">${crumbs(book.title)}
-    <section class="page-heading"><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
-      <p>${h(book.author)}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p></section>
+    <section class="page-heading book-profile">${cover(book)}
+      <div><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
+        <p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p></div></section>
     <section aria-labelledby="editions-title"><div class="section-heading"><h2 id="editions-title">Edições e acesso</h2></div>
-      ${editions.map(edition => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${bookIcon}</span>
+      ${editions.map(edition => `<article class="bibliography-card book-edition-card">
         <div><span class="book-type">${h(edition.format ?? "Formato a conferir")}</span><h2>${h(editionLabel(edition))}</h2>
           ${edition.provenance && edition.provenance !== book.provenance ? `<p class="bibliography-desc">${h(edition.provenance)}</p>` : ""}
           ${edition.isbn ? `<p class="author">ISBN ${h(edition.isbn)}</p>` : edition.isbns?.length ? `<p class="author">ISBNs do registro · ${h(edition.isbns.join(" · "))}</p>` : ""}
@@ -232,7 +231,7 @@ function bookPage(book, searchedIsbn) {
 }
 
 function resultsPage(query, results, limited = false) {
-  const card = item => `<article class="bibliography-card"><span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>
+  const card = item => `<article class="bibliography-card">${item.editions ? cover(item) : `<span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>`}
     <div><span class="book-type">${h(item.type)}${courseTitle(item.area) ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2><p class="author">${h(item.note)}</p></div>
     <a class="primary-button" href="#${item.route}">Abrir ${arrow}</a></article>`;
   return `<div class="results-page shell">${crumbs("Resultados")}${search(query)}

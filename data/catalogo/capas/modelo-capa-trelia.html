@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo de capa da Trelia.</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f8f5ee; color: #24241e; font: 1rem/1.5 system-ui, sans-serif; }
+  main { max-width: 66rem; margin: auto; padding: clamp(1.2rem, 4vw, 3rem); }
+  h1 { margin: 0; font: 500 clamp(2rem, 5vw, 3.5rem)/1.05 Georgia, serif; }
+  .examples { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+  figure { margin: 0; max-width: 19rem; }
+  figcaption { margin-top: .75rem; font-size: .875rem; }
+  .cover {
+    --paper: #dce9e1;
+    --ink: #1a3f34;
+    aspect-ratio: 2 / 3;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    align-items: start;
+    position: relative;
+    padding: 8% 9% 8% 13%;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 3px 7px 7px 3px;
+    container-type: inline-size;
+  }
+  .cover::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5%; background: var(--ink); }
+  .cover--blue { --paper: #dee6ef; --ink: #243b5b; }
+  .cover--clay { --paper: #eeded2; --ink: #583524; }
+  .cover__area { font-size: clamp(.55rem, 6cqi, 1rem); font-weight: 700; overflow-wrap: anywhere; }
+  .cover__title {
+    align-self: center;
+    font: 600 clamp(.95rem, 13cqi, 2.35rem)/1.12 Georgia, serif;
+    overflow-wrap: anywhere;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+  }
+  .cover__title--long { font-size: clamp(.85rem, 10cqi, 1.85rem); }
+  .cover__footer { display: grid; gap: .3em; font-size: clamp(.55rem, 5.6cqi, .95rem); line-height: 1.25; }
+  .cover__author { overflow-wrap: anywhere; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  .cover__brand { border-top: 1px solid currentColor; padding-top: .5em; font-weight: 700; }
+</style>
+<main>
+  <h1>Capas do catálogo</h1>
+  <p>Modelo tipográfico da Trelia. para todas as obras do catálogo.</p>
+  <div class="examples">
+    <figure>
+      <div class="cover">
+        <div class="cover__area">Direito Econômico</div>
+        <div class="cover__title">Os Fundamentos do Antitruste</div>
+        <div class="cover__footer"><div class="cover__author">Paula A. Forgioni</div><div class="cover__brand">Trelia.</div></div>
+      </div>
+      <figcaption>Exemplo de composição com título e autora.</figcaption>
+    </figure>
+    <figure>
+      <div class="cover cover--blue">
+        <div class="cover__area">Constitucional</div>
+        <div class="cover__title cover__title--long">Curso de Direito Constitucional Contemporâneo</div>
+        <div class="cover__footer"><div class="cover__author">Luís Roberto Barroso</div><div class="cover__brand">Trelia.</div></div>
+      </div>
+      <figcaption>Exemplo com título longo.</figcaption>
+    </figure>
+    <figure>
+      <div class="cover cover--clay">
+        <div class="cover__area">Empresarial</div>
+        <div class="cover__title cover__title--long">Recuperação Judicial, Extrajudicial e Falência</div>
+        <div class="cover__footer"><div class="cover__author">Luis Felipe Salomão e Paulo Penalva Santos</div><div class="cover__brand">Trelia.</div></div>
+      </div>
+      <figcaption>Exemplo com mais de um autor.</figcaption>
+    </figure>
+  </div>
+</main>
+</html>

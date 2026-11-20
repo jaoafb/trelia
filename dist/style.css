@@ -538,50 +538,6 @@ h1:focus, main:focus { outline: none; }
   border: 1px solid var(--line);
   border-radius: 4px;
 }
-.book-cover {
-  aspect-ratio: 0.68;
-  padding: 28px 23px 20px;
-  display: flex;
-  flex-direction: column;
-  color: #141714;
-  background: #d8e9cf;
-  border-radius: 2px;
-  box-shadow:
-    12px 14px 0 #252b26,
-    0 20px 45px rgba(0, 0, 0, 0.35);
-}
-.book-cover > span {
-  font-family: "Manrope";
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1.35;
-}
-.cover-rule {
-  height: 3px;
-  width: 35px;
-  margin: 19px 0;
-  background: #182a1c;
-}
-.book-cover strong {
-  font-family: "Manrope";
-  font-size: 25px;
-  line-height: 1.04;
-  letter-spacing: -1.2px;
-}
-.book-cover small {
-  font-size: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 11px;
-}
-.cover-publisher {
-  margin-top: auto;
-  font-size: 10px;
-  font-weight: 700;
-}
-.cover-publisher span {
-  font-weight: 400;
-}
 .book-details {
   min-width: 0;
 }
@@ -827,7 +783,6 @@ h1:focus, main:focus { outline: none; }
   background: var(--surface-2);
   border: 1px solid var(--line);
 }
-.mini-cover,
 .bibliography-monogram {
   width: 72px;
   height: 98px;
@@ -974,12 +929,6 @@ h1:focus, main:focus { outline: none; }
     grid-template-columns: 160px 1fr;
     gap: 35px;
     padding: 35px;
-  }
-  .book-cover {
-    padding: 20px 17px;
-  }
-  .book-cover strong {
-    font-size: 19px;
   }
   .guide-layout {
     grid-template-columns: 1fr;
@@ -1139,25 +1088,6 @@ h1:focus, main:focus { outline: none; }
     display: block;
     padding: 22px;
     margin-top: 20px;
-  }
-  .book-cover {
-    width: 125px;
-    margin: 4px auto 38px;
-    padding: 16px 13px;
-  }
-  .book-cover > span {
-    font-size: 7px;
-  }
-  .cover-rule {
-    margin: 10px 0;
-    height: 2px;
-  }
-  .book-cover strong {
-    font-size: 15px;
-  }
-  .book-cover small {
-    font-size: 5px;
-    margin-top: 7px;
   }
   .book-details h2 {
     font-size: 27px;
@@ -1328,7 +1258,6 @@ main { overflow-x: clip; }
 .book-card + .book-card, .bibliography-card + .bibliography-card { margin-top: 1rem; }
 .book-details, .bibliography-card > div { min-width: 0; }
 .book-details h2 a:hover, .bibliography-card h2 a:hover { color: var(--lime); }
-.book-cover { color: #172118; }
 .reading-reference { margin-bottom: .85rem; }
 .reading-reference > div:last-child { min-width: 0; }
 .reading-reference p { overflow-wrap: anywhere; }
@@ -1336,7 +1265,7 @@ main { overflow-x: clip; }
 .location-value strong { overflow-wrap: anywhere; }
 .location-value .detail-text { font-size: 1rem; letter-spacing: normal; line-height: 1.5; }
 .location-card .external-link { margin: 0 1rem 1rem; }
-.guide-book .mini-cover, .bibliography-monogram { color: #18220e; }
+.bibliography-monogram { color: #18220e; }
 .guide-sources { margin-top: 2.5rem; }
 .guide-sources ul { list-style: none; }
 .guide-sources li p { color: var(--muted); margin: .5rem 0; }
@@ -1351,7 +1280,6 @@ main { overflow-x: clip; }
 @media (max-width: 600px) {
   .location-value { grid-template-columns: 1fr; }
   .footer .footer-feedback { margin-top: .65rem; }
-  .book-card .book-cover { display: none; }
   .reading-reference { margin-top: 1rem; padding: .9rem; }
   .reading-reference .reference-icon { display: none; }
 }
