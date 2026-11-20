@@ -1,0 +1,71 @@
+.trelia-cover {
+  --cover-paper: #dce9e1;
+  --cover-ink: #1a3f34;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  align-self: start;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  padding: 8% 9% 8% 13%;
+  background: var(--cover-paper);
+  color: var(--cover-ink);
+  border: 1px solid rgb(0 0 0 / 15%);
+  border-radius: 3px 7px 7px 3px;
+  container-type: inline-size;
+}
+
+.trelia-cover::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5%;
+  background: var(--cover-ink);
+}
+
+.trelia-cover[data-cover-palette="blue"] { --cover-paper: #dee6ef; --cover-ink: #243b5b; }
+.trelia-cover[data-cover-palette="clay"] { --cover-paper: #eeded2; --cover-ink: #583524; }
+.trelia-cover-area { font-size: clamp(.4rem, 6cqi, 1rem); font-weight: 700; }
+.trelia-cover-title {
+  align-self: center;
+  max-height: 100%;
+  font: 600 clamp(.55rem, 13cqi, 2.35rem)/1.12 Georgia, serif;
+  -webkit-line-clamp: 6;
+}
+.trelia-cover-title-long {
+  font-size: clamp(.5rem, 9.5cqi, 1.7rem);
+  -webkit-line-clamp: 5;
+}
+.trelia-cover-footer { display: grid; gap: .3em; font-size: clamp(.4rem, 5.6cqi, .95rem); line-height: 1.25; }
+.trelia-cover-area, .trelia-cover-author { -webkit-line-clamp: 2; }
+.trelia-cover-title, .trelia-cover-area, .trelia-cover-author {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+.trelia-cover-brand { border-top: 1px solid currentColor; padding-top: .45em; font-weight: 700; }
+
+.book-profile { display: grid; grid-template-columns: minmax(6rem, 11rem) minmax(0, 1fr); align-items: start; gap: clamp(1rem, 4vw, 3rem); }
+.book-profile h1 { margin-bottom: .75rem; }
+.book-profile .author { margin-top: 0; }
+.book-profile > div:last-child { min-width: 0; }
+.book-card .book-intro { min-width: 0; }
+.book-card h2, .book-card .author, .book-profile h1, .book-profile .author, .bibliography-card .author { overflow-wrap: anywhere; }
+.guide-book > .trelia-cover { width: 5rem; }
+.bibliography-card > .trelia-cover { width: min(100%, 5.5rem); }
+.bibliography-card.book-edition-card { grid-template-columns: minmax(0, 1fr) auto; }
+
+@media (max-width: 600px) {
+  .trelia-cover-title { -webkit-line-clamp: 4; }
+  .book-profile { grid-template-columns: 4.5rem minmax(0, 1fr); }
+  .book-profile h1 { font-size: clamp(1.5rem, 6vw, 2.15rem); letter-spacing: -.035em; }
+  .book-card { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .75rem; }
+  .book-card .book-details { display: contents; }
+  .book-card .reading-reference { grid-column: 1 / -1; margin-top: .2rem; }
+  .book-card .book-intro h2 { font-size: clamp(1.15rem, 4.8vw, 1.55rem); line-height: 1.2; letter-spacing: -.03em; }
+  .book-card .reading-reason { margin-bottom: 0; }
+  .bibliography-card > .trelia-cover { width: min(100%, 4.5rem); }
+  .bibliography-card.book-edition-card { grid-template-columns: 1fr; }
+}
