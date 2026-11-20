@@ -1,3 +1,24 @@
+/* Give the opening its own light without tinting the search controls. */
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 -4rem;
+  background:
+    radial-gradient(ellipse 32% 46% at 72% 43%, rgb(201 242 103 / 10%), transparent),
+    radial-gradient(ellipse 29% 28% at 26% 72%, rgb(114 176 145 / 6%), transparent);
+  pointer-events: none;
+}
+
+@media (max-width: 1049px) {
+  .hero::before {
+    inset-inline: -1rem;
+    background:
+      radial-gradient(ellipse 61% 39% at 78% 39%, rgb(201 242 103 / 8%), transparent),
+      radial-gradient(ellipse 60% 28% at 19% 71%, rgb(114 176 145 / 6%), transparent);
+  }
+}
+
 .hero-artwork { display: none; }
 
 @media (min-width: 1050px) {
