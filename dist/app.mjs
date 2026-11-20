@@ -224,10 +224,15 @@ function coursePage(area) {
 }
 
 function topicList() {
-  return `<div class="bibliography-page shell">${crumbs("Guias")}<section class="page-heading">
-    <h1>Guias de dúvidas</h1><p>Consulte as referências de leitura por disciplina.</p></section>
-    ${catalog.map(area => `<section class="catalog-course"><div class="catalog-course-heading"><h2>${h(area.course.title)}</h2><a class="text-link" href="${courseRoute(area.course.id)}">Ver bibliografia ${arrow}</a></div>
-      ${topicGrid("livros", area.topics)}</section>`).join("")}
+  return `<div class="bibliography-page topic-index shell">${crumbs("Temas")}
+    <section class="page-heading">
+      <h1>Temas por disciplina</h1>
+      <p>Abra uma disciplina para encontrar os assuntos com indicações de leitura.</p>
+    </section>
+    ${catalog.filter(area => area.topics.length).map(area => `<details class="topic-index-course more-courses">
+      <summary><span>${h(area.course.title)}</span><small>${area.topics.length} ${area.topics.length === 1 ? "tema" : "temas"}</small></summary>
+      ${topicGrid("livros", area.topics)}
+    </details>`).join("")}
   </div>`;
 }
 
@@ -296,7 +301,7 @@ async function render(moveFocus = true) {
     title = area.course.title;
   } else if (route === "duvidas") {
     root.innerHTML = topicList();
-    title = "Guias de dúvidas";
+    title = "Temas por disciplina";
   } else if (kind === "duvida" && topic) {
     const related = orderedReadings(topic, books);
     const selectedBook = related.find(item => item.id === params.get("obra")) ?? related[0];

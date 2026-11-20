@@ -60,3 +60,19 @@
 @media (max-width: 600px) {
   .catalog-section > .topic-grid .topic-card { min-height: 5.25rem; }
 }
+
+.topic-index-course {
+  border: 1px solid var(--line);
+  border-radius: var(--panel-radius);
+  background: var(--panel-background);
+  padding: .25rem clamp(.85rem, 3vw, 1.25rem);
+}
+
+.topic-index-course > summary {
+  min-height: 3.5rem;
+  color: var(--text);
+}
+
+.topic-index-course > summary span { flex: 1; font-weight: 600; }
+.topic-index-course > summary small { color: var(--muted); white-space: nowrap; }
+.topic-index-course > .topic-grid { margin-bottom: .9rem; }
