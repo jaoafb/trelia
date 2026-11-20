@@ -21,6 +21,8 @@ O Caderno de Leitura ajuda estudantes a escolher o que ler e a localizar fontes 
 - Guarde o link da evidência com a indicação. Diferencie fato confirmado, sugestão editorial e limitação de acesso. Prefira o texto oficial para legislação, o sumário da edição para localização e a referência doutrinária para interpretações. Indique divergências quando forem relevantes à dúvida.
 - Use explicações próprias e links para as fontes. Aproveite materiais abertos conforme as condições de reutilização. Use sinônimos e termos reais de busca como entradas adicionais para o mesmo tema.
 
+- Para coletar e revisar candidatos de outras áreas, siga o [fluxo do catálogo](data/catalogo/README.md). Mantenha a evidência e a decisão editorial junto a cada ficha.
+
 ## Código atual
 
 O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o código editável e também é a pasta servida. A hospedagem está vinculada ao projeto em `.openai/hosting.json`.

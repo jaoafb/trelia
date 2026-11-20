@@ -1,0 +1,3148 @@
+{
+  "coleta": {
+    "fonte_rvbi": "https://www12.senado.leg.br/institucional/biblioteca/rvbi/vocabulario-controlado-basico-e-classificacao-decimal-de-direito",
+    "gerado_em": "2026-11-19",
+    "paginas_rvbi": 28,
+    "registros_rvbi": 2800,
+    "monografias_identificadas_alinhadas_ao_recorte": 104,
+    "meta_por_area": 10,
+    "candidatos_por_area": {
+      "Constitucional": 10,
+      "Civil": 10,
+      "Processo Civil": 10,
+      "Administrativo": 10,
+      "Trabalho": 10,
+      "Tributário": 10
+    },
+    "candidatos_com_isbn": 50,
+    "candidatos_com_nota_de_conteudo": 33,
+    "candidatos_com_link_informado": 31,
+    "brasilapi": {
+      "encontrado": 42,
+      "multiplos_isbns": 4,
+      "sem_isbn": 10,
+      "não_encontrado": 3,
+      "indisponível": 1
+    }
+  },
+  "candidatos": [
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0040d20f-db37-5781-852f-f8dd67f45dd2",
+      "data_registro_rvbi": "2026-08-02T11:00:33Z",
+      "titulo": "Direito urbanístico luso-brasileiro",
+      "subtitulo": "cidades sustentáveis e inclusivas, direitos fundamentais e dever estatal de ordenação",
+      "autores": [
+        "Gurgel, Carlos Sérgio"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2021,
+      "editoras": [
+        "Lumen Juris"
+      ],
+      "isbns": [
+        "9786555107692"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito urbanístico direito comparado Brasil Portugal",
+        "Planejamento urbano Brasil Portugal",
+        "Regularização fundiária jurisprudência Brasil Portugal",
+        "Urbanismo jurisprudência Brasil Portugal",
+        "Direito urbanístico Brasil Portugal"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://bdjur.stj.jus.br/jspui/handle/2011/164110",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        }
+      ],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9786555107692",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito Urbanístico Luso-Brasileiro",
+          "authors": [
+            "Carlos Sérgio Gurgel"
+          ],
+          "publisher": "EDITORA LUMEN JURIS",
+          "year": 2021,
+          "format": "PHYSICAL",
+          "isbn": "9786555107692"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00573a2d-1ddb-5033-a921-6e05c95e5615",
+      "data_registro_rvbi": "2026-09-15T22:15:48Z",
+      "titulo": "Instituições de direito civil",
+      "subtitulo": null,
+      "autores": [
+        "Pereira, Caio Mário da Silva"
+      ],
+      "edicao": "34. ed., rev. e atual",
+      "volume": null,
+      "ano": 2022,
+      "editoras": [
+        "Forense"
+      ],
+      "isbns": [
+        "9786559644209",
+        "9786559647859"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito civil jurisprudência Brasil",
+        "Direito civil legislação Brasil",
+        "Direito civil Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://stj.minhabiblioteca.com.br",
+          "rótulo_original": "Versão eletrônica restrita a usuários do Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/76100",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2002-01-10;10406",
+          "rótulo_original": "LEI-010406 (2002)"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "multiplos_isbns"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007e70d9-32a8-5cae-9277-659703a22932",
+      "data_registro_rvbi": "2026-08-01T19:40:23Z",
+      "titulo": "Manual de prática dos precedentes",
+      "subtitulo": "no processo civil e do trabalho",
+      "autores": [
+        "Pritsch, Cesar Zucatti"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2018,
+      "editoras": [
+        "LTr"
+      ],
+      "isbns": [
+        "9788536194882"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Common law",
+        "Decisão judicial Brasil",
+        "Decisão judicial Estados Unidos",
+        "Efeito vinculante Estados Unidos",
+        "Efeito vinculante Estados Unidos estudo de caso",
+        "Súmula vinculante Brasil",
+        "Efeito vinculante Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://bdjur.stj.jus.br/jspui/handle/2011/129264",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788536194882",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Manual de prática dos precedentes",
+          "authors": [],
+          "publisher": "Ltr Editora",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788536194882"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/001c0da9-c049-5604-9d69-c89cb4525f02",
+      "data_registro_rvbi": "2026-07-31T15:29:50Z",
+      "titulo": "Compêndio elementar do Direito administrativo brasileiro",
+      "subtitulo": null,
+      "autores": [
+        "Delgado, Luíz"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1970,
+      "editoras": [
+        "Universidade Federal de Pernambuco"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Administração pública Brasil",
+        "Direito administrativo Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007c4aca-742e-5ecf-b03e-29c7d9c799c7",
+      "data_registro_rvbi": "2026-07-29T08:42:12Z",
+      "titulo": "Manual de direito do trabalho",
+      "subtitulo": null,
+      "autores": [
+        "Prazeres, Irley Aparecida Correia"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2018,
+      "editoras": [
+        "Rideel"
+      ],
+      "isbns": [
+        "9788533950757"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Contrato de trabalho suspensão Brasil",
+        "Contrato de trabalho Brasil",
+        "Direito internacional do trabalho",
+        "Direito sindical Brasil",
+        "Greve Brasil",
+        "Segurança do trabalho Brasil",
+        "Direito do trabalho Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788533950757",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Manual de direito do trabalho",
+          "authors": [],
+          "publisher": "Editora Rideel",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788533950757"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/000f6af9-9c8e-5322-b04c-f336cc347e87",
+      "data_registro_rvbi": "2026-09-25T16:16:43Z",
+      "titulo": "Manual da execução fiscal",
+      "subtitulo": null,
+      "autores": [
+        "Porto, Éderson Garin"
+      ],
+      "edicao": "2. ed., rev., atual. e ampl",
+      "volume": null,
+      "ano": 2010,
+      "editoras": [
+        "Livr. do Advogado"
+      ],
+      "isbns": [
+        "9788573487008"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Crédito tributário Brasil",
+        "Dívida ativa natureza fiscal Brasil",
+        "Embargos à execução natureza fiscal Brasil",
+        "Lançamento tributário Brasil",
+        "Legitimidade ativa natureza fiscal Brasil",
+        "Legitimidade passiva natureza fiscal Brasil",
+        "Tribunal superior jurisprudência Brasil",
+        "Execução fiscal Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/31301",
+          "rótulo_original": "Sumário"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+          "rótulo_original": "LEI-006830 (1980)"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "não_encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788573487008",
+        "http": 404
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002c036f-4544-584f-a84f-4c93defbc322",
+      "data_registro_rvbi": "2026-11-17T19:22:25Z",
+      "titulo": "O direito constitucional de resistência",
+      "subtitulo": null,
+      "autores": [
+        "Araújo, Cláudia de Rezende Machado de"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2002,
+      "editoras": [
+        "S.A. Fabris"
+      ],
+      "isbns": [
+        "9788575251935"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Desobediência civil",
+        "Direitos e garantias individuais",
+        "Direitos e garantias individuais Brasil",
+        "Oposição política",
+        "Resistência ao governo direito comparado França Alemanha Portugal",
+        "Resistência ao governo"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+          "rótulo_original": "CON-001988 ART 00005 PAR 02"
+        }
+      ],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788575251935",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8575251937",
+          "title": "O DIREITO CONSTITUCIONAL DA RESISTENCIA",
+          "authors": [
+            "ARAUJO, CLAUDIA DE REZENDE MACHADO DE"
+          ],
+          "publisher": "Sergio Antonio Fabris Editor",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0049ff6f-d59c-5f30-94eb-48f28e5d205e",
+      "data_registro_rvbi": "2026-08-02T17:07:25Z",
+      "titulo": "Novo curso de direito civil",
+      "subtitulo": null,
+      "autores": [
+        "Stolze, Pablo"
+      ],
+      "edicao": "7. ed",
+      "volume": null,
+      "ano": 2009,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502075573"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502075573",
+        "metadados": {
+          "provider": "cbl",
+          "title": "NOVO CURSO DE DIREITO CIVIL: RESPONSABILIDADE CIVIL",
+          "authors": [],
+          "publisher": "Editora Saraiva",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788502075573"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007b616e-ad6c-5bab-99e4-5cdd3d099109",
+      "data_registro_rvbi": "2026-10-29T22:25:10Z",
+      "titulo": "Curso avançado de processo civil",
+      "subtitulo": null,
+      "autores": [
+        "Wambier, Luiz Rodrigues"
+      ],
+      "edicao": "11. ed., rev., atual. e ampl",
+      "volume": null,
+      "ano": 2010,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788520336564",
+        "9788520336571",
+        "9788520341919"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Processo civil Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/21158",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/setembro/884034v.1/sumario.htm",
+          "rótulo_original": "Capa e sumário"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/setembro/884034v.2/sumario.htm",
+          "rótulo_original": "Capa e sumário"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1973-01-11;5869",
+          "rótulo_original": "LEI-005869 (1973)"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "multiplos_isbns"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0004a01d-44fc-5e83-b048-fe1a997cf130",
+      "data_registro_rvbi": "2026-09-09T20:38:18Z",
+      "titulo": "Direito administrativo",
+      "subtitulo": null,
+      "autores": [
+        "Di Pietro, Maria Sylvia Zanella"
+      ],
+      "edicao": "28. ed",
+      "volume": null,
+      "ano": 2015,
+      "editoras": [
+        "Atlas"
+      ],
+      "isbns": [
+        "9788522497201"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito administrativo Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/74352",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        }
+      ],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788522497201",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito administrativo",
+          "authors": [
+            "Maria Sylvia Zanella Di Pietro"
+          ],
+          "publisher": "Atlas",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788522497201"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0013ffa1-60c1-5259-be33-b4082fd9b4b9",
+      "data_registro_rvbi": "2026-07-29T23:33:21Z",
+      "titulo": "Curso de direito do trabalho",
+      "subtitulo": "história e teoria geral do direito do trabalho, relações individuais e coletivas do trabalho",
+      "autores": [
+        "Nascimento, Amauri Mascaro"
+      ],
+      "edicao": "16. ed. rev. e atual",
+      "volume": null,
+      "ano": 1999,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008074f4-e30c-5b42-8420-d983a04d1644",
+      "data_registro_rvbi": "2026-08-03T14:48:05Z",
+      "titulo": "Manual de direito tributário",
+      "subtitulo": null,
+      "autores": [
+        "Madeira, Anderson Soares"
+      ],
+      "edicao": "11. ed., rev., ampl. e atual. com o novo CPC",
+      "volume": null,
+      "ano": 2016,
+      "editoras": [
+        "Lumen Juris"
+      ],
+      "isbns": [
+        "9788584407620"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Crédito tributário Brasil",
+        "Legislação tributária Brasil",
+        "Responsabilidade tributária Brasil",
+        "Direito tributário Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+          "rótulo_original": "LEI-005172 (1966)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1980-09-22;6830",
+          "rótulo_original": "LEI-006830 (1980)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-12-27;8137",
+          "rótulo_original": "LEI-008137 (1990)"
+        },
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1975-01-07;24",
+          "rótulo_original": "LCP-000024 (1975)"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788584407620",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Manual de Direito Tributário",
+          "authors": [
+            "Anderson Soares Madeira"
+          ],
+          "publisher": "Editora Lumen Juris",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788584407620"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005be437-14c5-5d56-a77a-3472c328fb5d",
+      "data_registro_rvbi": "2026-07-29T05:40:22Z",
+      "titulo": "Constituição federal",
+      "subtitulo": "Código tributário ; Código comercial",
+      "autores": [
+        "Brasil"
+      ],
+      "edicao": "8. ed",
+      "volume": null,
+      "ano": 2009,
+      "editoras": [
+        "Verbo Jurídico"
+      ],
+      "isbns": [
+        "9788576991724"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "título"
+        },
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito comercial legislação Brasil",
+        "Legislação tributária Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+          "rótulo_original": "CON-001988"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1850-06-25;556",
+          "rótulo_original": "LEI-000556 (1850)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+          "rótulo_original": "LEI-005172 (1966)"
+        }
+      ],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788576991724",
+        "metadados": {
+          "provider": "cbl",
+          "title": "CÓDIGO TRIBUTÁRIO: CÓDIGO COMERCIAL: CONSTITUIÇÃO FEDERAL",
+          "authors": [
+            "NYLSON PAIM DE ABREU FILHO"
+          ],
+          "publisher": "Verbo Jurídico",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788576991724"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0048b605-988d-565e-a958-3ef077fcd071",
+      "data_registro_rvbi": "2026-07-29T05:07:45Z",
+      "titulo": "Curso básico de direito civil",
+      "subtitulo": "parte geral",
+      "autores": [
+        "Giordani, José Acir Lessa"
+      ],
+      "edicao": "4. ed., 2. tiragem",
+      "volume": null,
+      "ano": 2008,
+      "editoras": [
+        "Lumen Juris"
+      ],
+      "isbns": [
+        "9788537501597"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito civil classificação Brasil",
+        "Lei aspectos jurídicos interpretação Brasil",
+        "Pessoa jurídica aspectos jurídicos Brasil",
+        "Direito civil Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/23622",
+          "rótulo_original": "Sumário"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2002-01-10;10406",
+          "rótulo_original": "LEI-010406 (2002)"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788537501597",
+        "metadados": {
+          "provider": "cbl",
+          "title": "CURSO BÁSICO DE DIREITO CIVIL: PARTE GERAL",
+          "authors": [
+            "JOSÉ ACIR LESSA GIORDANI"
+          ],
+          "publisher": "EDITORA LUMEN JURIS",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788537501597"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0072ba70-15c9-5945-968f-57e3dbeda4a3",
+      "data_registro_rvbi": "2026-08-04T15:59:19Z",
+      "titulo": "Curso de direito processual civil",
+      "subtitulo": null,
+      "autores": [
+        "Theodoro Júnior, Humberto"
+      ],
+      "edicao": "4. ed",
+      "volume": null,
+      "ano": 1988,
+      "editoras": [
+        "Forense"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Processo cautelar Brasil",
+        "Processo de execução Brasil",
+        "Processo civil Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008b02ee-6acd-5853-8e41-b586f81b7c3d",
+      "data_registro_rvbi": "2026-08-02T04:42:37Z",
+      "titulo": "Direito administrativo para concurso de juiz do trabalho",
+      "subtitulo": null,
+      "autores": [
+        "Brandão Neto, João Marques"
+      ],
+      "edicao": "1. ed",
+      "volume": null,
+      "ano": 2011,
+      "editoras": [
+        "Edipro"
+      ],
+      "isbns": [
+        "9788572837293"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito administrativo Brasil problemas, exercícios etc",
+        "Juiz do trabalho concurso Brasil",
+        "Direito administrativo Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788572837293",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito administrativo",
+          "authors": [
+            "João Marques Brandão Neto"
+          ],
+          "publisher": "EDIPRO",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788572837293"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0080e98f-0cc3-4cf3-8274-7e737b39597c",
+      "data_registro_rvbi": "2026-08-18T20:43:14Z",
+      "titulo": "O direito do trabalho",
+      "subtitulo": "na crise da covid-19",
+      "autores": [
+        "Alexandre Agra Belmonte, Luciano Martinez e Ney Maranhão [coordenadores]"
+      ],
+      "edicao": "Reedição",
+      "volume": null,
+      "ano": 2024,
+      "editoras": [
+        "JusPodivm"
+      ],
+      "isbns": [
+        "9788544254028"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito do trabalho Brasil coletânea",
+        "Covid-19 aspectos jurídicos Brasil",
+        "Pandemia aspectos jurídicos Brasil",
+        "Direito do trabalho aspectos constitucionais Brasil",
+        "Direito do trabalho legislação Brasil",
+        "Relação de trabalho Brasil",
+        "Fato do príncipe Brasil",
+        "Força maior Brasil",
+        "Teletrabalho Brasil",
+        "Sindicalismo Brasil",
+        "Doença profissional Brasil",
+        "Processo trabalhista Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788544254028",
+        "metadados": {
+          "provider": "cbl",
+          "title": "O Direito do Trabalho na Crise da Covid-19",
+          "authors": [
+            "Alexandre Agra Belmonte",
+            "Luciano Martinez",
+            "Ney Maranhão"
+          ],
+          "publisher": "Editora Juspodivm",
+          "year": 2024,
+          "format": "PHYSICAL",
+          "isbn": "9788544254028"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0084270c-1111-5a45-80e3-1dffd01453a6",
+      "data_registro_rvbi": "2026-07-30T02:50:48Z",
+      "titulo": "Direito tributário e análise econômica do direito",
+      "subtitulo": "segurança jurídica e consequencialismo nos limites da norma tributária",
+      "autores": [
+        "Fonseca, Vinícius Simões Borges Espinheira"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2021,
+      "editoras": [
+        "Arraes"
+      ],
+      "isbns": [
+        "9786559290826"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Análise econômica do direito Brasil",
+        "Análise econômica filosofia Brasil",
+        "Norma jurídica natureza fiscal Brasil",
+        "Sistema tributário Brasil",
+        "Tributação aspectos econômicos Brasil",
+        "Direito tributário Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://bdjur.stj.jus.br/jspui/handle/2011/164188",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-04-25;13655",
+          "rótulo_original": "LEI-013655 (2018)"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9786559290826",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito tributário e análise econômica do direito",
+          "authors": [
+            "Vinícius Simões Borges Espinheira Fonseca"
+          ],
+          "publisher": "Arraes Editores",
+          "year": 2021,
+          "format": "PHYSICAL",
+          "isbn": "9786559290826"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/000758c1-d852-551a-a2e6-76f267c915c0",
+      "data_registro_rvbi": "2026-08-02T05:09:43Z",
+      "titulo": "Jurisdição constitucional",
+      "subtitulo": "o controle abstrato de normas no Brasil e na Alemanha",
+      "autores": [
+        "Mendes, Gilmar Ferreira"
+      ],
+      "edicao": "4. ed",
+      "volume": null,
+      "ano": 2004,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502044234"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Controle de constitucionalidade Alemanha",
+        "Controle de constitucionalidade Brasil",
+        "Declaração de inconstitucionalidade Brasil",
+        "Tribunal constitucional Alemanha",
+        "Tribunal supremo Alemanha",
+        "Tribunal supremo Brasil",
+        "Jurisdição constitucional Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502044234",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8502044230",
+          "title": "JURISDIÇAO CONSTITUCIONAL",
+          "authors": [],
+          "publisher": "Editora Saraiva",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00521126-be97-567b-8423-c0e8c770cfc6",
+      "data_registro_rvbi": "2026-11-18T15:43:14Z",
+      "titulo": "Direito civil punitivo",
+      "subtitulo": "do dano moral punitivo à causa geral de multa civil",
+      "autores": [
+        "Feijó, Arthur Nogueira"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2019,
+      "editoras": [
+        "Juruá"
+      ],
+      "isbns": [
+        "9788536286662"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        },
+        {
+          "nome": "Processo Civil",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Dano moral doutrinas e controvérsias",
+        "Indenização (direito civil) Brasil",
+        "Responsabilidade civil doutrinas e controvérsias",
+        "Responsabilidade civil Brasil",
+        "Sanção (processo civil) Brasil",
+        "Dano moral Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1143956",
+          "rótulo_original": "Capa e sumário"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://bdjur.stj.jus.br/jspui/handle/2011/131305",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788536286662",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito civil punitivo: do dano moral punitivo à causa geral de multa civil",
+          "authors": [
+            "Arthur Nogueira Feijó"
+          ],
+          "publisher": "Juruá",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788536286662"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007a512a-d03e-5b28-a3da-cc6b36c4aa7b",
+      "data_registro_rvbi": "2026-07-29T11:41:28Z",
+      "titulo": "Manual de direito falimentar",
+      "subtitulo": "com a adaptação ao novo codigo de processo civil, de 1973, pela lei n. 6.014, de 27-12-1973",
+      "autores": [
+        "Lacerda, J. C. Sampaio de"
+      ],
+      "edicao": "11. ed., rev. e atual",
+      "volume": null,
+      "ano": 1982,
+      "editoras": [
+        "Freitas Bastos"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito falimentar",
+        "Falência legislação Brasil",
+        "Falência"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0077c778-b0eb-5295-b737-a562d01f43bd",
+      "data_registro_rvbi": "2026-07-30T16:58:14Z",
+      "titulo": "Do poder de polícia",
+      "subtitulo": null,
+      "autores": [
+        "Cretella Júnior, José"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1999,
+      "editoras": [
+        "Forense"
+      ],
+      "isbns": [
+        "9788530908461"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Competência administrativa Brasil",
+        "Poder administrativo Brasil",
+        "Polícia administrativa Brasil",
+        "Poder de polícia Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788530908461",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8530908465",
+          "title": "DO PODER DE POLICIA",
+          "authors": [],
+          "publisher": "Editora Forense",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00719716-ada1-5f8b-9d6d-9708e9804b82",
+      "data_registro_rvbi": "2026-08-04T04:01:13Z",
+      "titulo": "O direito do trabalho como sistema imunológico da sociedade",
+      "subtitulo": null,
+      "autores": [
+        "Supioni, Adriana Jardim Alexandre"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2024,
+      "editoras": [
+        "Dialética"
+      ],
+      "isbns": [
+        "9786527015758"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito do trabalho Brasil",
+        "Ordenamento jurídico aspectos sociais Brasil",
+        "Direito do trabalho aspectos históricos Brasil",
+        "Bem-estar",
+        "Sistema social",
+        "Conflito social",
+        "Trabalho e capital"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9786527015758",
+        "metadados": {
+          "provider": "cbl",
+          "title": "O Direito do Trabalho como sistema imunológico da sociedade",
+          "authors": [
+            "Adriana Jardim Alexandre Supioni"
+          ],
+          "publisher": "Editora Dialética",
+          "year": 2023,
+          "format": "PHYSICAL",
+          "isbn": "9786527015758"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008227b0-d9c4-556e-9a5e-ea861746fd29",
+      "data_registro_rvbi": "2026-07-29T04:57:44Z",
+      "titulo": "Filosofia do direito tributário",
+      "subtitulo": null,
+      "autores": [
+        "Becho, Renato Lopes"
+      ],
+      "edicao": "1. ed., 2. tiragem",
+      "volume": null,
+      "ano": 2010,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502084339"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Axiologia jurídica",
+        "Confisco tributário",
+        "Direito financeiro",
+        "Direito natural",
+        "Direito positivo",
+        "Direito tributário aspectos constitucionais",
+        "Direito tributário ética",
+        "Direitos humanos",
+        "Filosofia do direito",
+        "Gnoseologia jurídica",
+        "Receita tributária legislação Brasil",
+        "Tributo",
+        "Direito tributário filosofia"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://bdjur.stj.jus.br/handle/2011/186164",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1966-10-25;5172",
+          "rótulo_original": "LEI-005172 (1966) ART 00004"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502084339",
+        "metadados": {
+          "provider": "cbl",
+          "title": "FILOSOFIA DO DIREITO TRIBUTÁRIO",
+          "authors": [],
+          "publisher": "Editora Saraiva",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788502084339"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00765f4c-8f7b-5a00-b964-f1780d34645f",
+      "data_registro_rvbi": "2026-07-29T04:20:25Z",
+      "titulo": "Remédios constitucionais",
+      "subtitulo": "teoria geral, habeas corpus, mandado de segurança individual e coletivo, mandado de injunção, habeas data e ação popular",
+      "autores": [
+        "Fonteles, Samuel Sales"
+      ],
+      "edicao": "3. ed. rev., ampl., e atual",
+      "volume": null,
+      "ano": 2017,
+      "editoras": [
+        "JusPODIVM"
+      ],
+      "isbns": [
+        "9788544215777"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Ação popular Brasil",
+        "Direitos e garantias individuais Brasil",
+        "Habeas corpus Brasil",
+        "Habeas data Brasil",
+        "Mandado de injunção Brasil",
+        "Mandado de segurança coletivo Brasil",
+        "Mandado de segurança Brasil",
+        "Direito constitucional Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1965-06-29;4717",
+          "rótulo_original": "LEI-004717 (1965)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1997-11-12;9507",
+          "rótulo_original": "LEI-009507 (1997)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2009-08-07;12016",
+          "rótulo_original": "LEI-012016 (2009)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2016-06-23;13300",
+          "rótulo_original": "LEI-013300 (2016)"
+        }
+      ],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788544215777",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Remédios constitucionais para concursos",
+          "authors": [],
+          "publisher": "Editora Juspodivm",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788544215777"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0088d9e3-09f4-57c0-816b-b37679398520",
+      "data_registro_rvbi": "2026-07-30T19:06:48Z",
+      "titulo": "Poder familiar e a guarda compartilhada",
+      "subtitulo": "novos paradigmas do direito de família",
+      "autores": [
+        "Ramos, Patricia Pimentel de Oliveira Chambers"
+      ],
+      "edicao": "2. ed",
+      "volume": null,
+      "ano": 2016,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502637283"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Alienação parental Brasil",
+        "Criança proteção Brasil",
+        "Direito de família Brasil",
+        "Guarda compartilhada Brasil",
+        "Guarda de menor Brasil",
+        "Poder familiar Brasil",
+        "Relações familiares Brasil",
+        "Guarda compartilhada"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502637283",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Poder familiar e a guarda compartilhada: novos paradigmas do direito de família",
+          "authors": [],
+          "publisher": "Editora Saraiva",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788502637283"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00319621-62f8-569b-bab6-d0a6e43ea5a8",
+      "data_registro_rvbi": "2026-07-31T06:38:17Z",
+      "titulo": "Diretivas antecipadas de vontade e processo civil",
+      "subtitulo": "a proteção da vontade do paciente",
+      "autores": [
+        "Cunha, Mariana Forbeck"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2018,
+      "editoras": [
+        "Juruá"
+      ],
+      "isbns": [
+        "9788536285368"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Autonomia da vontade Brasil",
+        "Direitos do paciente decisão judicial Brasil",
+        "Recusa do paciente ao tratamento Brasil",
+        "Tutela jurisdicional Brasil",
+        "Direito sobre o próprio corpo Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "http://www.portalmedico.org.br/resolucoes/cfm/2006/1805_2006.htm",
+          "rótulo_original": "RES-1805 (2006) CFM"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "http://www.portalmedico.org.br/resolucoes/CFM/2012/1995_2012.pdf",
+          "rótulo_original": "RES-1995 (2012) CFM"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.senado.gov.br/senado/biblioteca-rotinas/servicos/getDocumento.asp?num=1141524",
+          "rótulo_original": "Capa e sumário"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788536285368",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Diretivas antecipadas de vontade e processo civil: a proteção da vontade do paciente",
+          "authors": [
+            "Mariana Forbeck Cunha"
+          ],
+          "publisher": "Juruá",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788536285368"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/006c064f-1957-5424-919a-cfed054f4792",
+      "data_registro_rvbi": "2026-08-04T04:46:19Z",
+      "titulo": "Licitações, contratos e convênios públicos",
+      "subtitulo": "coletânea de legislação",
+      "autores": [
+        "Brasil"
+      ],
+      "edicao": "2. ed",
+      "volume": null,
+      "ano": 2020,
+      "editoras": [
+        "Senado Federal, Coordenação de Edições Técnicas"
+      ],
+      "isbns": [
+        "9786556760261"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Contrato administrativo Brasil legislação coletânea",
+        "Licitação Brasil legislação coletânea"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "texto integral indicado",
+          "url": "https://www2.senado.leg.br/bdsf/handle/id/574157",
+          "rótulo_original": "Texto integral (PDF) na Biblioteca Digital do Senado Federal"
+        }
+      ],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9786556760261",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Licitações, contratos e convênios públicos",
+          "authors": [
+            "BRASIL"
+          ],
+          "publisher": "Senado Federal",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9786556760261"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00229b47-c073-5666-b635-bc46a0ee04c5",
+      "data_registro_rvbi": "2026-08-02T14:03:54Z",
+      "titulo": "Guia prático de direito do trabalho",
+      "subtitulo": null,
+      "autores": [
+        "Prata, Geancarlos Lacerda"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2018,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788553212033"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Contrato de trabalho suspensão Brasil",
+        "Contrato de trabalho Brasil",
+        "Direito sindical Brasil",
+        "Empregador Brasil",
+        "Greve Brasil",
+        "Relação de trabalho Brasil",
+        "Direito do trabalho Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://next-proview.thomsonreuters.com/launchapp/title/rt/monografias/157881074/v1/document/161195148/anchor/a-161195148",
+          "rótulo_original": "Acesso somente para usuários da biblioteca do Tribunal de Justiça do Distrito Federal e dos Territórios Acesso em: 27 maio 2024"
+        }
+      ],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788553212033",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Guia prático de direito do trabalho",
+          "authors": [
+            "Vander Brusso da Silva",
+            "Geancarlos Lacerda Prata",
+            "Vera Lucia"
+          ],
+          "publisher": "Thomson Reuters Brasil",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788553212033"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00345919-f505-5526-877d-50f96e6e7663",
+      "data_registro_rvbi": "2026-07-29T16:38:17Z",
+      "titulo": "Sistema tributário nacional",
+      "subtitulo": "interpretação das leis tributárias, controle de constitucionalidade - efeitos, substituição tributária - possibilidades, doutrina comparada",
+      "autores": [
+        "Cassone, Vittorio"
+      ],
+      "edicao": "4. ed",
+      "volume": null,
+      "ano": 1995,
+      "editoras": [
+        "Atlas"
+      ],
+      "isbns": [
+        "9788522413201"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        },
+        {
+          "nome": "Constitucional",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito tributário comparado Alemanha Itália",
+        "Direito tributário Brasil",
+        "Impostos Brasil",
+        "Sistema tributário Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788522413201",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8522413207",
+          "title": "SISTEMA TRIBUTARIO NACIONAL",
+          "authors": [
+            "CASSONE, VITTORIO"
+          ],
+          "publisher": "Atlas",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/009441d5-9a3d-52fc-aa62-d0e9abde2b87",
+      "data_registro_rvbi": "2026-08-02T03:52:12Z",
+      "titulo": "Coisa julgada inconstitucional",
+      "subtitulo": null,
+      "autores": [
+        "Carlos Valder do Nascimento, José Augusto Delgado (organizadores)"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2006,
+      "editoras": [
+        "Fórum"
+      ],
+      "isbns": [
+        "9788577000272"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Controle de constitucionalidade Brasil",
+        "Inconstitucionalidade das leis Brasil",
+        "Princípio constitucional Brasil",
+        "Princípio da segurança jurídica Brasil",
+        "Coisa julgada aspectos constitucionais Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2007/abril/773270.pdf",
+          "rótulo_original": "Capa e sumário"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2005-12-22;11232",
+          "rótulo_original": "LEI-011232 (2005)"
+        }
+      ],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788577000272",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8577000273",
+          "title": "COISA JULGADA INCONSTITUCIONAL",
+          "authors": [],
+          "publisher": "Editora Fórum",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/004d384b-1b19-5afe-a380-15549ebe10b7",
+      "data_registro_rvbi": "2026-07-30T22:00:37Z",
+      "titulo": "O direito de empresa à luz do novo código civil",
+      "subtitulo": null,
+      "autores": [
+        "Campinho, Sérgio"
+      ],
+      "edicao": "4. ed., ampl. e atual",
+      "volume": null,
+      "ano": 2004,
+      "editoras": [
+        "Renovar"
+      ],
+      "isbns": [
+        "9788571474291"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito civil Brasil",
+        "Direito comercial Brasil",
+        "Empresa Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788571474291",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "857147429X",
+          "title": "DANO MORAL: CRITERIOS DE FIXACAO DE VALOR",
+          "authors": [
+            "BERNARDO, WESLEY, DE OLIVEIRA LOUZADA"
+          ],
+          "publisher": "RENOVAR",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0068dc22-b8e6-5487-8455-f20111d95764",
+      "data_registro_rvbi": "2026-07-30T03:51:49Z",
+      "titulo": "Escrituras públicas",
+      "subtitulo": "separação, divórcio, inventário e partilha consensuais: análise civil, processual civil, tributária e notarial",
+      "autores": [
+        "Francisco José Cahali [e outros]"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2007,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788520330791"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        },
+        {
+          "nome": "Civil",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Divórcio Brasil",
+        "Herança Brasil",
+        "Inventário (direito das sucessões) Brasil",
+        "Partilha de bens Brasil",
+        "Reconciliação Brasil",
+        "Registro civil Brasil",
+        "Transmissão de propriedade impostos Brasil",
+        "Registro público Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.stf.jus.br/arquivo/biblioteca/capassumarios/novasaquisicoes/2007/julho/786050.pdf",
+          "rótulo_original": "Capa e sumário"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788520330791",
+        "metadados": {
+          "provider": "cbl",
+          "title": "ESCRITURAS PÚBLICAS: SEPARAÇÃO, DIVÓRCIO, INVENTÁRIO E PARTILHA CONSENSUAL: ANÁLISE CIVIL, PROCESSUAL CIVIL, TRIBUTÁRIO E NOTORIAL",
+          "authors": [
+            "ANTONIO HERANCE FILHO",
+            "FRANCISCO JOSÉ CAHALI",
+            "KARIN REGINA RICK ROSA"
+          ],
+          "publisher": "Revista dos Tribunais",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788520330791"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00696443-93f5-5485-804a-37005fe0915f",
+      "data_registro_rvbi": "2026-08-03T15:14:54Z",
+      "titulo": "Lei de improbidade administrativa",
+      "subtitulo": "(comentários e anotações jurisprudenciais)",
+      "autores": [
+        "Medeiros, Sérgio Monteiro"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2003,
+      "editoras": [
+        "J. de Oliveira"
+      ],
+      "isbns": [
+        "9788574534268"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Corrupção passiva Brasil",
+        "Enriquecimento ilícito Brasil",
+        "Inquérito administrativo Brasil",
+        "Probidade administrativa jurisprudência Brasil",
+        "Probidade administrativa Brasil",
+        "Processo administrativo Brasil",
+        "Probidade administrativa legislação Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1992-06-02;8429",
+          "rótulo_original": "LEI-008429 (1992)"
+        }
+      ],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788574534268",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8574534269",
+          "title": "LEI DE IMPROBIDADE ADMINSTRATIVA",
+          "authors": [
+            "MEDEIROS, SERGIO MONTEIRO"
+          ],
+          "publisher": "JUAREZ DE OLIVEIRA",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0062fd37-0e04-5f6f-a0df-4d7a79ad31c7",
+      "data_registro_rvbi": "2026-08-03T07:54:44Z",
+      "titulo": "Processo do trabalho",
+      "subtitulo": "sintetizado",
+      "autores": [
+        "Cisneiros, Gustavo"
+      ],
+      "edicao": "1. ed",
+      "volume": null,
+      "ano": 2017,
+      "editoras": [
+        "Método"
+      ],
+      "isbns": [
+        "9788530972776"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Jurisprudência trabalhista Brasil",
+        "Processo trabalhista Brasil problemas, exercícios etc",
+        "Processo trabalhista Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788530972776",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Processo do trabalho sintetizado",
+          "authors": [],
+          "publisher": "Editora Forense ",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788530972776"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005ef388-daff-5334-9001-8fc703f1308a",
+      "data_registro_rvbi": "2026-07-29T08:57:21Z",
+      "titulo": "Direito tributário",
+      "subtitulo": "3001 questões da ESAF [comentadas]",
+      "autores": [
+        "Nilo, Edvaldo"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2012,
+      "editoras": [
+        "JusPODIVM"
+      ],
+      "isbns": [
+        "9788577614714"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Administração fiscal Brasil problemas, exercícios etc",
+        "Competência tributária Brasil problemas, exercícios etc",
+        "Contribuição social Brasil problemas, exercícios etc",
+        "Crédito tributário Brasil problemas, exercícios etc",
+        "Impostos Brasil problemas, exercícios etc",
+        "Legislação tributária Brasil problemas, exercícios etc",
+        "Obrigação tributária Brasil problemas, exercícios etc",
+        "Direito tributário Brasil problemas, exercícios etc"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788577614714",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito tributário",
+          "authors": [
+            "Cristiane Mussi",
+            "Wagner Balera"
+          ],
+          "publisher": "Edições Juspodivm",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788577614714"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00715665-1070-5b4b-9030-2425036486df",
+      "data_registro_rvbi": "2026-08-02T03:36:58Z",
+      "titulo": "Devido processo legal =",
+      "subtitulo": "Due process of law",
+      "autores": [
+        "Moraes, Paulo Fernando Q. de"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1996,
+      "editoras": [
+        "Del Rey"
+      ],
+      "isbns": [
+        "9788573081374"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Devido processo legal direito comparado Inglaterra Estados Unidos Brasil",
+        "Devido processo legal história",
+        "Direitos e garantias individuais",
+        "Federalismo (direito constitucional)",
+        "Poder judiciário",
+        "Separação de poderes",
+        "Devido processo legal"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788573081374",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8573081376",
+          "title": "DEVIDO PROCESSO LEGAL",
+          "authors": [
+            "SILVEIRA, PAULO FERNANDO"
+          ],
+          "publisher": "DEL REY",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008434c7-fdb8-5f5b-b6ac-9c7895cb909d",
+      "data_registro_rvbi": "2026-07-31T06:43:52Z",
+      "titulo": "Comissão de permanência & justiça contratual",
+      "subtitulo": "[código civil 2002, legislação específica, tutela individual e coletiva do mutuário]",
+      "autores": [
+        "Barbosa, Edgard Fernando"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2003,
+      "editoras": [
+        "Juruá"
+      ],
+      "isbns": [
+        "9788503625395"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Comissão de permanência jurisprudência Brasil",
+        "Comissão de permanência Brasil",
+        "Correção monetária Brasil",
+        "Empréstimo bancário Brasil",
+        "Instituição financeira taxas Brasil",
+        "Mutuário Brasil",
+        "Proteção e defesa do consumidor Brasil",
+        "Proteção jurisdicional Brasil",
+        "Serviços e operações bancárias Brasil",
+        "Contrato bancário Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1964-12-31;4595",
+          "rótulo_original": "LEI-004595 (1964)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2002-01-10;10406",
+          "rótulo_original": "LEI-010406 (2002)"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "não_encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788503625395",
+        "http": 404
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0039b1c7-77c9-5110-b29c-777c2848b2a8",
+      "data_registro_rvbi": "2026-07-31T19:15:10Z",
+      "titulo": "Direito processual civil resumido",
+      "subtitulo": null,
+      "autores": [
+        "Savino Filho, Cármine Antônio"
+      ],
+      "edicao": "8. ed",
+      "volume": null,
+      "ano": 2010,
+      "editoras": [
+        "Lumen Juris"
+      ],
+      "isbns": [
+        "9788537507254"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Processo civil legislação Brasil",
+        "Processo civil Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/34207",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1973-01-11;5869",
+          "rótulo_original": "LEI-005869 (1973)"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788537507254",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito Processual Civil Resumido",
+          "authors": [
+            "Cármine Antonio Savino Filho"
+          ],
+          "publisher": "EDITORA LUMEN JURIS",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788537507254"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005c53fe-4194-5bf7-ae76-c071f7901411",
+      "data_registro_rvbi": "2026-07-31T08:29:04Z",
+      "titulo": "Licitações e contratos administrativos",
+      "subtitulo": null,
+      "autores": [
+        "organizadores: Iracema A. Valverde, Patrícia de Castro Almeida e Angela Clara F. Gonçalves"
+      ],
+      "edicao": "3. ed",
+      "volume": null,
+      "ano": 2003,
+      "editoras": [
+        "Esplanada"
+      ],
+      "isbns": [
+        "9788570342355"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Licitação jurisprudência Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788570342355",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8570342357",
+          "title": "LICITACOES E CONTRATOS ADMINISTRATIVOS",
+          "authors": [],
+          "publisher": "ADCOAS",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/001e9b64-549e-580c-950f-d230987d33fc",
+      "data_registro_rvbi": "2026-07-31T02:58:04Z",
+      "titulo": "Direito do trabalho",
+      "subtitulo": null,
+      "autores": [
+        "Saraiva, Renato"
+      ],
+      "edicao": "14. ed., rev. e atual",
+      "volume": null,
+      "ano": 2012,
+      "editoras": [
+        "Método"
+      ],
+      "isbns": [
+        "9788530941819"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito do trabalho Brasil problemas, exercícios etc",
+        "Direito do trabalho Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788530941819",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Direito do trabalho",
+          "authors": [
+            "Renato Saraiva"
+          ],
+          "publisher": "Não definido",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788530941819"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0039cdba-d212-52e3-8595-9fcbace58eaf",
+      "data_registro_rvbi": "2026-08-02T10:45:30Z",
+      "titulo": "Processo tributário",
+      "subtitulo": "teoria e prática",
+      "autores": [
+        "Cassone, Vittorio"
+      ],
+      "edicao": "9. ed., rev. e atual",
+      "volume": null,
+      "ano": 2009,
+      "editoras": [
+        "Atlas"
+      ],
+      "isbns": [
+        "9788522453719"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Processo administrativo fiscal Brasil",
+        "Processo cautelar Brasil",
+        "Processo fiscal Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/dspace/handle/2011/21138",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788522453719",
+        "metadados": {
+          "provider": "cbl",
+          "title": "PROCESSO TRIBUTÁRIO",
+          "authors": [
+            "MARIA EUGENIA TEIXEIRA CASSONE",
+            "VITTORIO CASSONE"
+          ],
+          "publisher": "Atlas",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788522453719"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00328e3b-aecd-5f97-b31f-5d8f4442b7e5",
+      "data_registro_rvbi": "2026-07-30T02:55:58Z",
+      "titulo": "Constituição da República Federativa do Brasil",
+      "subtitulo": null,
+      "autores": [
+        "Brasil"
+      ],
+      "edicao": "18. ed., rev., ampl. e atual. até 17.12.2012",
+      "volume": null,
+      "ano": 2013,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788520345931"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito constitucional Brasil 1988 legislação"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788520345931",
+        "metadados": {
+          "provider": "cbl",
+          "title": "Constituição da república federativa do Brasil",
+          "authors": [
+            "Equipe RT"
+          ],
+          "publisher": "Revista dos Tribunais",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788520345931"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00704c79-5be4-59ad-961c-1ff3600a499a",
+      "data_registro_rvbi": "2026-07-31T18:44:40Z",
+      "titulo": "Direito das sucessões no novo Código civil brasileiro",
+      "subtitulo": null,
+      "autores": [
+        "Magalhães, Rui Ribeiro de"
+      ],
+      "edicao": "1. ed",
+      "volume": null,
+      "ano": 2003,
+      "editoras": [
+        "J. de Oliveira"
+      ],
+      "isbns": [
+        "9788574533742"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Colação Brasil",
+        "Direito de representação Brasil",
+        "Herança jacente Brasil",
+        "Herança Brasil",
+        "Herdeiro necessário Brasil",
+        "Legado direito comparado",
+        "Partilha de bens Brasil",
+        "Sucessão legítima Brasil",
+        "Sucessão testamentária Brasil",
+        "Testamento Brasil",
+        "Direito das sucessões Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788574533742",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8574533742",
+          "title": "DIREITO DAS SUCESSOES NO NOVO CODIGO CIVIL BRASILEIRO",
+          "authors": [
+            "MAGALHAES, RUI RIBEIRO DE"
+          ],
+          "publisher": "JUAREZ DE OLIVEIRA",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00648871-a2dc-5197-a7b1-ea67363623f5",
+      "data_registro_rvbi": "2026-08-02T17:04:49Z",
+      "titulo": "Jurisdição e competência",
+      "subtitulo": "exposição didática, área do direito processual civil",
+      "autores": [
+        "Carneiro, Athos Gusmão"
+      ],
+      "edicao": "14. ed., atual., inclusive em face da emenda constitucional n. 45/2004",
+      "volume": null,
+      "ano": 2005,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502054165"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Ato administrativo Brasil",
+        "Ato legislativo Brasil",
+        "Ato processual Brasil",
+        "Competência (processo civil) Brasil",
+        "Competência internacional Brasil",
+        "Competência por prevenção Brasil",
+        "Competência territorial Brasil",
+        "Competência controle Brasil",
+        "Contencioso administrativo Brasil",
+        "Foro de eleição Brasil",
+        "Jurisdição civil Brasil",
+        "Jurisdição voluntária Brasil",
+        "Jurisdição classificação Brasil",
+        "Jurisdição Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "não_encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502054165",
+        "http": 404
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/005e5f8b-bb62-5dad-af3b-8b13d4e4ed2f",
+      "data_registro_rvbi": "2026-07-31T05:44:11Z",
+      "titulo": "Interesses difusos em espécie",
+      "subtitulo": "temas de direito do consumidor, ambiental e da Lei de improbidade administrativa",
+      "autores": [
+        "Souza, Motauri Ciocchetti de"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2000,
+      "editoras": [
+        "Saraiva"
+      ],
+      "isbns": [
+        "9788502030817"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direitos difusos Brasil",
+        "Probidade administrativa Brasil",
+        "Proteção e defesa do consumidor Brasil",
+        "Direito ambiental Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:constituicao:1988-10-05;1988",
+          "rótulo_original": "CON-001988 ART 00225"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-09-11;8078",
+          "rótulo_original": "LEI-008078 (1990)"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1992-06-02;8429",
+          "rótulo_original": "LEI-008429 (1992)"
+        }
+      ],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788502030817",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8502030817",
+          "title": "INTERESSES DIFUSOS EM ESPECIE",
+          "authors": [],
+          "publisher": "Editora Saraiva",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0062ed9a-4b47-5ff8-b4f7-f4dc28123146",
+      "data_registro_rvbi": "2026-07-31T21:58:10Z",
+      "titulo": "Estudos de direito do trabalho e processual do trabalho",
+      "subtitulo": null,
+      "autores": [
+        "Costa, Orlando Teixeira da"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1980,
+      "editoras": [
+        "LTr"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Justiça do trabalho Brasil",
+        "Processo trabalhista Brasil",
+        "Direito do trabalho Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0040d30d-538e-5c81-90d0-897a9c11da9e",
+      "data_registro_rvbi": "2025-10-30T14:15:50Z",
+      "titulo": "Empresa individual de responsabilidade limitada - EIRELI",
+      "subtitulo": "Lei n. 12.441/2011, início da reforma tributária",
+      "autores": [
+        "Montes, Marcos"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2011,
+      "editoras": [
+        "Câmara dos Deputados, Coordenação Edições Câmara"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Empresário individual natureza fiscal discursos etc Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-07-11;12441",
+          "rótulo_original": "LEI-012441 (2011)"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0013f592-47cd-538c-9023-f3e94a73e0d0",
+      "data_registro_rvbi": "2025-12-17T01:47:39Z",
+      "titulo": "O projeto da Constituição e os transportes terrestres",
+      "subtitulo": "considerações e sugestões",
+      "autores": [
+        "Federação das Empresas de Transportes Rodoviarios do Estado do Rio Grande do Sul"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1987,
+      "editoras": [
+        "Fetergs"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito constitucional projeto de lei Brasil",
+        "Transporte terrestre Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008183e7-86d1-511a-a215-8f9699c3d1de",
+      "data_registro_rvbi": "2026-08-01T18:43:37Z",
+      "titulo": "Direito das obrigações",
+      "subtitulo": "teoria geral e responsabilidade civil",
+      "autores": [
+        "Podestá, Fabio Henrique"
+      ],
+      "edicao": "3. ed. atual. de acordo com o novo Código civil, Lei n. 10.406, de 10 de janeiro de 2002",
+      "volume": null,
+      "ano": 2002,
+      "editoras": [
+        "Atlas"
+      ],
+      "isbns": [
+        "9788522431700"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        },
+        {
+          "nome": "Processo Civil",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Arbitragem (processo civil) legislação Brasil",
+        "Arbitragem (processo civil) Brasil",
+        "Consignação em pagamento Brasil",
+        "Dação em pagamento Brasil",
+        "Novação Brasil",
+        "Obrigação solidária Brasil",
+        "Pagamento com sub-rogação Brasil",
+        "Perdas e danos Brasil",
+        "Responsabilidade civil Brasil",
+        "Responsabilidade contratual Brasil",
+        "Responsabilidade do transportador Brasil",
+        "Responsabilidade profissional Brasil",
+        "Direito das obrigações Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1996-09-23;9307",
+          "rótulo_original": "LEI-009307 (1996)"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788522431700",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8522431701",
+          "title": "DIREITO DAS OBRIGACOES: TEORIA GERAL E RESPONSABILIDADE CIVIL",
+          "authors": [
+            "PODESTA, FABIO HENRIQUE"
+          ],
+          "publisher": "Atlas",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0061117a-fb8e-5db1-8383-398372833a0e",
+      "data_registro_rvbi": "2026-08-04T12:31:37Z",
+      "titulo": "Resumo de processo civil",
+      "subtitulo": null,
+      "autores": [
+        "Führer, Maximilianus Cláudio Américo"
+      ],
+      "edicao": "25. ed",
+      "volume": null,
+      "ano": 2002,
+      "editoras": [
+        "Malheiros"
+      ],
+      "isbns": [
+        "9788574203942"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Arbitragem (processo civil) Brasil",
+        "Juizado especial cível Brasil",
+        "Procedimento ordinário Brasil",
+        "Procedimento sumário Brasil",
+        "Recurso (processo civil) Brasil",
+        "Processo civil Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788574203942",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8574203947",
+          "title": "RESUMO DE PROCESSO CIVIL",
+          "authors": [
+            "FUHRER, MAXIMILIANUS CLAUDIO AMERICO"
+          ],
+          "publisher": "Editora Malheiros",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/002328c5-6a42-5a1b-8a6d-ef8864754896",
+      "data_registro_rvbi": "2026-08-04T05:29:10Z",
+      "titulo": "Estudos de direito administrativo",
+      "subtitulo": null,
+      "autores": [
+        "Lazzarini, Álvaro"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1995,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788520313503"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "título"
+        },
+        {
+          "nome": "Civil",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Ato administrativo Brasil",
+        "Corpo de bombeiros Brasil",
+        "Direito ambiental Brasil",
+        "Ordem pública Brasil",
+        "Poder de polícia Brasil",
+        "Poder disciplinar (direito administrativo) Brasil",
+        "Poder regulamentar Brasil",
+        "Polícia de trânsito Brasil",
+        "Responsabilidade civil do Estado Brasil",
+        "Revisão constitucional Brasil 1993",
+        "Segurança pública Brasil",
+        "Direito administrativo Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788520313503",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "8520313507",
+          "title": "ESTUDOS DE DIREITO ADMINISTRATIVO",
+          "authors": [],
+          "publisher": "Revista dos Tribunais",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0029feff-ca2e-5155-aafc-46ababb2faa7",
+      "data_registro_rvbi": "2026-10-20T19:10:41Z",
+      "titulo": "Manual do poder diretivo do empregador",
+      "subtitulo": null,
+      "autores": [
+        "Nascimento, Nilson de Oliveira"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2009,
+      "editoras": [
+        "LTr"
+      ],
+      "isbns": [
+        "9788536113784"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Contrato de trabalho Brasil",
+        "Empregador direitos e deveres Brasil",
+        "Relação de emprego Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:decreto.lei:1943-05-01;5452",
+          "rótulo_original": "DEL-005452 (1943)"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "https://www.tst.jus.br/documents/1295387/30931406/000855056_nascimento_sumario_manual_poder_directivo.pdf/6f3e7d79-0b8c-1016-9af1-c8690b4daf05?t=1658432360474",
+          "rótulo_original": "Sumário"
+        }
+      ],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788536113784",
+        "metadados": {
+          "provider": "cbl",
+          "title": "MANUAL DOPODER DIRETIVO DO EMPREGADOR",
+          "authors": [],
+          "publisher": "Ltr Editora",
+          "year": null,
+          "format": "DIGITAL",
+          "isbn": "9788536113784"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/007d018d-5118-5147-b75b-fa36b8b0f12e",
+      "data_registro_rvbi": "2026-08-27T19:27:09Z",
+      "titulo": "O processo tributário no Nôvo regulamento do impôsto de consumo",
+      "subtitulo": null,
+      "autores": [
+        "Moraes, Oswaldo de"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1965,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Imposto de consumo Brasil",
+        "Processo fiscal Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/008a1603-53bf-5fb8-9e02-6d8d8180c774",
+      "data_registro_rvbi": "2025-12-17T01:09:43Z",
+      "titulo": "Proposta constitucional por uma nova sociedade",
+      "subtitulo": null,
+      "autores": [
+        "Della Giustina, Osvaldo"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1986,
+      "editoras": [
+        "Mercado Aberto"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Constitucional",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito constitucional Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [],
+      "area_piloto": "Constitucional",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00642edf-476f-5b81-a62a-e6544515c7e6",
+      "data_registro_rvbi": "2026-08-04T12:29:28Z",
+      "titulo": "Direito civil",
+      "subtitulo": null,
+      "autores": [
+        "Venosa, Sílvio de Salvo"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2001,
+      "editoras": [
+        "Atlas"
+      ],
+      "isbns": [
+        "9788522426881",
+        "9788522426935",
+        "9788522426959",
+        "9788522426966",
+        "9788522427109",
+        "9788522427116",
+        "9788522427383",
+        "9788522457809"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Contrato Brasil",
+        "Direito das sucessões Brasil",
+        "Direito romano",
+        "Direitos reais Brasil",
+        "Responsabilidade civil Brasil",
+        "Usucapião Brasil",
+        "Usufruto Brasil",
+        "Direito civil Brasil"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/21140",
+          "rótulo_original": "Sumário na BDJur / Superior Tribunal de Justiça"
+        },
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://www.stf.jus.br/arquivo/biblioteca/CapasSumarios/novasaquisicoes/2010/julho/589012/sumario.htm",
+          "rótulo_original": "Capa e sumário v. 8"
+        }
+      ],
+      "area_piloto": "Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "multiplos_isbns"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0040a5e2-3fa3-5e91-888e-40143beef0ec",
+      "data_registro_rvbi": "2026-09-09T20:37:45Z",
+      "titulo": "Código de processo civil",
+      "subtitulo": null,
+      "autores": [
+        "Brasil"
+      ],
+      "edicao": "4. ed. rev., atual. e ampl",
+      "volume": null,
+      "ano": 1999,
+      "editoras": [
+        "Revista dos Tribunais"
+      ],
+      "isbns": [
+        "9788520316979",
+        "9788520317013"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Processo Civil",
+          "evidência": "título"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Processo civil Brasil legislação"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1973-01-11;5869",
+          "rótulo_original": "LEI-005869 (1973)"
+        }
+      ],
+      "area_piloto": "Processo Civil",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "multiplos_isbns"
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/001410e4-1088-5b4e-93c3-91b211e28c81",
+      "data_registro_rvbi": "2026-08-02T12:49:00Z",
+      "titulo": "Parcerias público-privadas e responsabilidade fiscal",
+      "subtitulo": "uma conciliação possível",
+      "autores": [
+        "Valle, Vanice Regina Lírio do"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2005,
+      "editoras": [
+        "Lumen Juris"
+      ],
+      "isbns": [
+        "9788573877267"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Administrativo",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Administração pública Brasil",
+        "Agência reguladora Brasil",
+        "Concessão de serviços públicos Brasil",
+        "Execução orçamentária Brasil",
+        "Licitação Brasil",
+        "Parceria público-privada (PPP) responsabilidade tributária Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "sumário",
+          "url": "http://bdjur.stj.jus.br/xmlui/handle/2011/2184",
+          "rótulo_original": "Sumário"
+        },
+        {
+          "tipo_indicado": "legislação relacionada",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2004-12-30;11079",
+          "rótulo_original": "LEI-011079 (2004)"
+        }
+      ],
+      "area_piloto": "Administrativo",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "encontrado",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9788573877267",
+        "metadados": {
+          "provider": "cbl",
+          "isbn": "857387726X",
+          "title": "PARCERIAS PÚBLICO-PRIVADAS E RESPONSABILIDADE FISCAL: UMA CONCILIAÇÃO POSSÍVEL",
+          "authors": [
+            "VANICE LIRIO DO VALE"
+          ],
+          "publisher": "EDITORA LUMEN JURIS",
+          "year": null,
+          "format": "DIGITAL"
+        }
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/0002747d-042f-45bd-8333-f389c6eb842b",
+      "data_registro_rvbi": "2026-08-04T02:56:08Z",
+      "titulo": "Negociação coletiva transnacional na União Europeia",
+      "subtitulo": null,
+      "autores": [
+        "Buggenhout, Gothardo Backx van"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 2025,
+      "editoras": [
+        "Almedina"
+      ],
+      "isbns": [
+        "9789894028345"
+      ],
+      "areas_sugeridas": [
+        {
+          "nome": "Trabalho",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Negociação coletiva de trabalho Países da União Europeia",
+        "Direito do trabalho história Países da União Europeia",
+        "Direito do trabalho aspectos políticos Países da União Europeia",
+        "Direito comunitário Países da União Europeia",
+        "Dumping social Países da União Europeia",
+        "Empresa multinacional Países da União Europeia",
+        "Relação de trabalho Países da União Europeia",
+        "Trabalhador proteção Países da União Europeia",
+        "Sindicato Países da União Europeia"
+      ],
+      "tem_nota_de_conteudo": true,
+      "links_rvbi": [],
+      "area_piloto": "Trabalho",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "indisponível",
+        "url": "https://brasilapi.com.br/api/isbn/v1/9789894028345",
+        "http": 400
+      }
+    },
+    {
+      "id_rvbi": "oai:edge-rvbi.folio.ebsco.com:fs00001202/00935ce8-7081-569b-8d71-810b8e07f080",
+      "data_registro_rvbi": "2026-07-29T02:43:25Z",
+      "titulo": "Defesas e recursos fiscais na prática",
+      "subtitulo": null,
+      "autores": [
+        "Monteiro, Samuel"
+      ],
+      "edicao": null,
+      "volume": null,
+      "ano": 1996,
+      "editoras": [
+        "Hemus"
+      ],
+      "isbns": [],
+      "areas_sugeridas": [
+        {
+          "nome": "Tributário",
+          "evidência": "assunto"
+        }
+      ],
+      "assuntos_rvbi": [
+        "Direito tributário Brasil",
+        "Infração fiscal Brasil",
+        "Processo fiscal Brasil"
+      ],
+      "tem_nota_de_conteudo": false,
+      "links_rvbi": [
+        {
+          "tipo_indicado": "acesso a conferir",
+          "url": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei.complementar:1996-09-13;87",
+          "rótulo_original": "LCP-000087 (1996)"
+        }
+      ],
+      "area_piloto": "Tributário",
+      "status_editorial": "candidato",
+      "brasilapi": {
+        "status": "sem_isbn"
+      }
+    }
+  ]
+}
