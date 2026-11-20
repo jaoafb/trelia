@@ -26,6 +26,8 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 
 ## Código atual
 
+Prefira uma estrutura modular. Organize código e dados por responsabilidade e distribua arquivos e pastas quando começarem a concentrar assuntos independentes. Mantenha próximos os arquivos usados juntos e use nomes que indiquem seu papel. Ao ampliar o acervo ou a interface, revise se a estrutura ainda facilita localizar, editar e revisar cada parte. Extraia módulos com uma responsabilidade clara e preserve as rotas e os pontos de entrada existentes.
+
 O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o código editável e também é a pasta servida. O arquivo vercel.json configura a publicação estática da pasta dist.
 
 | Arquivo | Responsabilidade |
