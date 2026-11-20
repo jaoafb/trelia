@@ -12,6 +12,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./ui/capa.css">
+  <script>
+    if (location.protocol === "https:") {
+      window.va = window.va || function () {
+        (window.vaq = window.vaq || []).push(arguments);
+      };
+      window.va("beforeSend", event => {
+        const url = new URL(event.url);
+        url.search = "";
+        url.hash = "";
+        return { ...event, url: url.href };
+      });
+      const analytics = document.createElement("script");
+      analytics.src = "/_vercel/insights/script.js";
+      document.head.append(analytics);
+    }
+  </script>
   <script type="module" src="./app.mjs"></script>
 </head>
 <body>

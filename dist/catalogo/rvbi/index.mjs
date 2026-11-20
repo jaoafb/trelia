@@ -1,3 +1,4 @@
+// GERADO por scripts/gerar_fichas_rvbi.py — não edite à mão
 import area0 from "./constitucional.mjs";
 import area1 from "./civil.mjs";
 import area2 from "./processo-civil.mjs";
