@@ -146,11 +146,12 @@ function topicBooks(topic, query, preferredBook) {
     ${crumbs("Resultados")}${search(term)}
     <section class="results-heading"><p class="section-kicker"><a href="${courseRoute(topic.area)}">${h(courseTitle(topic.area))}</a></p>
       <h1>${h(question ? term : topic.title)}</h1>
-      <p><strong>${matches.length} ${matches.length === 1 ? "obra" : "obras"}</strong> com indicação de leitura para este assunto.</p>
+      <div class="topic-result-meta">
+        <p>${matches.length} ${matches.length === 1 ? "obra indicada" : "obras indicadas"}</p>
+        ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>'
+          : matches.length ? '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>' : ""}
+      </div>
     </section>
-    ${topic.answer || matches.length ? `<div class="topic-shortcuts" aria-label="Nesta página">
-      ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>' : '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>'}
-    </div>` : ""}
     ${preferredBook ? "" : explanation}
     <section aria-label="Livros indicados" tabindex="-1" id="topic-books-title">
       ${matches.map((book, i) => readingCard(topic, book, i === 0)).join("")}
