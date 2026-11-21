@@ -1,0 +1,30 @@
+.access-badge {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: .45rem;
+  padding: .25rem .6rem;
+  border: 1px solid var(--lime-dark);
+  border-radius: .55rem;
+  color: var(--lime);
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.free-readings { margin-block: clamp(1.75rem, 4vw, 3rem); }
+.free-readings ul { list-style: none; }
+.free-readings .free-reading {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .85rem 1.5rem;
+  padding: clamp(1rem, 2.5vw, 1.65rem);
+}
+.free-reading h3 { margin-top: .35rem; overflow-wrap: anywhere; }
+.free-reading p:not(.book-type) { margin-top: .45rem; line-height: 1.5; }
+.free-reading .external-link { max-width: 100%; }
+.free-reading-actions { display: flex; flex-direction: column; align-items: flex-start; gap: .35rem; }
+.free-reading-actions .external-link { margin-top: 0; }
+.free-reading-actions .external-link:first-child { color: var(--lime); }
+#topic-books-title > .section-heading { margin-bottom: 1rem; }
+
+@media (max-width: 600px) {
+  .free-readings .free-reading { grid-template-columns: minmax(0, 1fr); }
+}

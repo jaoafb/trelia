@@ -1,3 +1,4 @@
+import { addFreeMaterials, addFreeReadings } from "./catalogo/leituras-gratuitas.mjs";
 import { books as penalBooks, topics as penalTopics, course } from "./catalogo/penal-i.mjs";
 import constitucional from "./catalogo/constitucional.mjs";
 import civil from "./catalogo/civil.mjs";
@@ -27,9 +28,9 @@ const records = new Map([...economicRecords, ...urbanRecords]
   .filter(book => promotedIds.has(book.id)).map(book => [book.id, book]));
 const selectedBooks = applyCuratedBooks([...base.flatMap(area => area.books), ...additionalBooks], records);
 const selectedIsbns = new Set(selectedBooks.flatMap(book => book.editions.map(edition => edition.isbn)));
-export const books = [...selectedBooks, ...importedBooks.filter(book =>
-  !book.editions.some(edition => edition.isbns.some(isbn => selectedIsbns.has(isbn))))];
-export const topics = applyCuratedTopics(enrichTopics(base.flatMap(area => area.topics), books), books);
+export const books = addFreeMaterials([...selectedBooks, ...importedBooks.filter(book =>
+  !book.editions.some(edition => edition.isbns.some(isbn => selectedIsbns.has(isbn))))]);
+export const topics = addFreeReadings(applyCuratedTopics(enrichTopics(base.flatMap(area => area.topics), books), books));
 export const catalog = curatedCatalog(base, topics, books);
 export const courses = catalog.map(area => area.course);
 export const findEntries = createSearch(courses, topics, books);
