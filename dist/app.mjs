@@ -1,3 +1,4 @@
+import { legislationSection } from "./ui/legislacao.mjs";
 import { editionAccess, bookAccess, accessBadge, freeReadingSection } from "./ui/acesso.mjs";
 import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
 import { h } from "./ui/html.mjs";
@@ -153,7 +154,8 @@ function topicBooks(topic, query, preferredBook) {
     .map(item => item.bookId));
   const matches = orderedReadings(topic, books, preferredBook).filter(book => !supplements.has(book.id));
   const recommended = new Set(matches.map(book => book.id));
-  const free = topic.freeReadings.filter(item => !recommended.has(item.bookId));
+  const free = topic.freeReadings.filter(item => item.material.tipo !== "legislacao" && !recommended.has(item.bookId));
+  const legislation = topic.freeReadings.filter(item => item.material.tipo === "legislacao");
   const term = query || topic.readingTitle;
   const question = /^(?:o que|qual|quais|como|quando|por que)\b/i.test(term);
   const explanation = topic.answer ? `<section class="topic-explanation" id="topic-explanation" tabindex="-1" aria-labelledby="explanation-title">
@@ -181,6 +183,7 @@ function topicBooks(topic, query, preferredBook) {
     </section>` : ""}
     ${preferredBook ? explanation : ""}
     ${freeReadingSection(free, external)}
+    ${legislationSection(legislation, external)}
     ${related.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Temas relacionados</h2></div>
       ${topicGrid("livros", related)}</section>` : ""}
   </div>`;

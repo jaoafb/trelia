@@ -1,3 +1,4 @@
+import { lexaArticle } from "../dist/ui/legislacao.mjs";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { bibliography, books, topics } from "../dist/data.mjs";
@@ -58,3 +59,10 @@ assert.equal(editionAccess({ ...fixture, access: "Registro institucional" }), un
 assert.equal(editionAccess({ ...fixture, access: "Sumário aberto" }), undefined);
 assert.equal(bookAccess({ editions: [...guide.editions, fixture] }).label, "Tem edição gratuita");
 console.log("Leituras gratuitas: vínculos, reimportação, buscas, edições e tipos de acesso passaram.");
+
+const findLaw = (topicId, materialId) => topics.find(topic => topic.id === topicId).freeReadings.find(reading => reading.material.id === materialId);
+const omission = findLaw("omissao-impropria", "br-codigo-penal");
+assert.equal(lexaArticle(omission.material, omission.onde_comecar).url, "https://jaoafb.github.io/lexa./#/penal/13");
+const economy = findLaw("ordem-economica", "br-constituicao-federal");
+assert.equal(lexaArticle(economy.material, economy.onde_comecar).url, "https://jaoafb.github.io/lexa./#/cf/170");
+assert.equal(lexaArticle({ id: "br-lgpd" }, { rotulo: "Art. 7º" }), undefined);
