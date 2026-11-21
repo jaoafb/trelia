@@ -29,6 +29,14 @@ assert.equal(mergers.sources.filter(source => source.url.includes("perguntas-sob
 const guide = await bibliography.book("cade-guia-h");
 assert.equal(guide.editions[0].id, "cade-guia-h-2016-pdf");
 assert.equal(bookAccess(guide).label, "Gratuito · texto integral");
+const cadeFiles = lot.materiais.filter(material => new URL(material.link_leitura).hostname === "cdn.cade.gov.br");
+assert.equal(cadeFiles.length, 6);
+for (const material of cadeFiles) {
+  const access = editionAccess({ readingMaterial: material });
+  assert.equal(access.unavailableUrl, material.link_leitura);
+  assert.equal(new URL(access.url).hostname, "www.gov.br");
+  assert.notEqual(access.action, "Ler gratuitamente");
+}
 const chapter = await bibliography.book("senado-intervencao-economia-mattos");
 assert.equal(bookAccess(chapter).label, "Gratuito · capítulo integral");
 const fixture = { source: "https://example.org/material" };

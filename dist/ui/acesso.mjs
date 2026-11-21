@@ -1,16 +1,22 @@
 import { h } from "./html.mjs";
 import { materialType } from "../catalogo/leituras-gratuitas.mjs";
 
-const filesInMaintenance = new Set(["cade-guia-h", "cade-guia-v-mais"]);
+// Temporary replacement paths while the Cade CDN serves its maintenance page.
+const filesInMaintenance = new Set([
+  "cade-guia-h", "cade-guia-v-mais", "cade-guia-gun-jumping", "cade-guia-remedios",
+  "cade-guia-cartel-licitacoes", "cade-analise-condutas",
+]);
+const cadeConductPage = "https://www.gov.br/cade/pt-br/acesso-a-informacao/perguntas-frequentes/perguntas-sobre-infracoes-a-ordem-economica";
 
 export function editionAccess(edition) {
   const material = edition?.readingMaterial;
   if (material) {
     const maintenance = filesInMaintenance.has(material.id);
+    const conductFallback = maintenance && material.id === "cade-analise-condutas";
     return {
       label: material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
-      action: maintenance ? "Ver publicação no Cade" : "Ler gratuitamente",
-      url: maintenance ? material.link_origem : material.link_leitura,
+      action: conductFallback ? "Consultar tema no Cade" : maintenance ? "Ver publicação no Cade" : "Ler gratuitamente",
+      url: conductFallback ? cadeConductPage : maintenance ? material.link_origem : material.link_leitura,
       unavailableUrl: maintenance ? material.link_leitura : undefined,
       free: true,
     };
@@ -61,7 +67,8 @@ export function freeReadingSection(readings, external) {
             : '<p class="author">Localização a conferir</p>'}
         </div>
         <div class="free-reading-actions">${external(access.url, access.action)}
-          ${material.link_origem !== access.url ? external(material.link_origem, "Ver publicação de origem") : ""}</div>
+          ${material.link_origem !== access.url && material.link_origem !== access.unavailableUrl
+            ? external(material.link_origem, "Ver publicação de origem") : ""}</div>
       </li>`;
     }).join("")}</ul>
   </section>`;
