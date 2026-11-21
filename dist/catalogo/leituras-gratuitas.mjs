@@ -5,6 +5,7 @@ import { normalize } from "./busca.mjs";
 
 const byMaterial = new Map(materials.map(item => [item.id, item]));
 const variants = new Map(editorial.variants);
+const explanationSources = new Set(["atos-concentracao/cade-perguntas-concentracao"]);
 const bookId = material => material.integracao.obra_id_existente ?? material.id;
 const urlKey = url => url?.split("#")[0].replace(/\/$/, "");
 const types = {
@@ -58,7 +59,14 @@ export function addFreeReadings(topics) {
     grouped.set(row.tema_id, group);
   }
   return [...existing.values()].map(topic => {
-    const freeReadings = [...(grouped.get(topic.id)?.values() ?? [])].sort((a, b) =>
+    const readings = [...(grouped.get(topic.id)?.values() ?? [])];
+    const isExplanationSource = row => explanationSources.has(topic.id + "/" + row.material_id);
+    const sources = readings.filter(isExplanationSource).map(({ material }) => ({
+      title: material.titulo, by: material.autoria_ou_instituicao,
+      type: materialType(material), url: material.link_leitura,
+      note: "Perguntas e respostas usadas para contextualizar o tema.",
+    }));
+    const freeReadings = readings.filter(row => !isExplanationSource(row)).sort((a, b) =>
       Number(b.papel_editorial === "primeira_leitura") - Number(a.papel_editorial === "primeira_leitura"));
     const duplicateSource = source => freeReadings.some(({ material }) => {
       const urls = [material.link_leitura, material.link_origem].map(urlKey);
@@ -66,7 +74,8 @@ export function addFreeReadings(topics) {
       const norm = material.integracao.referencia_normativa_na_base;
       return Boolean(norm && normalize(source.title).includes(normalize(norm)));
     });
-    return { ...topic, freeReadings, sources: topic.sources.filter(source => !duplicateSource(source)),
+    return { ...topic, freeReadings, sources: [...topic.sources.filter(source => !duplicateSource(source)
+        && !sources.some(item => urlKey(item.url) === urlKey(source.url))), ...sources],
       aliases: [...new Set([...topic.aliases, ...(variants.get(topic.id) ?? [])])] };
   });
 }

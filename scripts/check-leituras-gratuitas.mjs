@@ -6,8 +6,8 @@ import { editionAccess, bookAccess } from "../dist/ui/acesso.mjs";
 
 const lot = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-leituras-gratuitas-2026-11-20.json", import.meta.url)));
 const links = topics.flatMap(topic => topic.freeReadings.map(reading => [topic.id, reading.material.id]));
-assert.equal(new Set(links.map(pair => pair.join("/"))).size, 312);
-assert.equal(new Set(links.map(pair => pair[1])).size, 123);
+assert.equal(new Set(links.map(pair => pair.join("/"))).size, 311);
+assert.equal(new Set(links.map(pair => pair[1])).size, 122);
 assert.deepEqual(addFreeMaterials(books), books);
 assert.deepEqual(addFreeReadings(topics), topics);
 for (const item of lot.temas_existentes) assert.ok(topics.find(topic => topic.id === item.id).freeReadings.length);
@@ -20,6 +20,11 @@ for (const [query, route] of [
   ["Guia H do Cade", "livro/cade-guia-h"],
   ["9786555181333", "livro/rvbi-c594d1bd1a33ee406034?isbn=9786555181333"],
 ]) assert.equal((await bibliography.search(query))[0]?.route, route, query);
+
+const mergers = topics.find(topic => topic.id === "atos-concentracao");
+assert.equal(mergers.freeReadings.length, 5);
+assert.ok(!mergers.freeReadings.some(item => item.material.id === "cade-perguntas-concentracao"));
+assert.equal(mergers.sources.filter(source => source.url.includes("perguntas-sobre-atos-de-concentracao-economica")).length, 1);
 
 const guide = await bibliography.book("cade-guia-h");
 assert.equal(guide.editions[0].id, "cade-guia-h-2016-pdf");
