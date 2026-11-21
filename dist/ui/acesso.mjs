@@ -13,9 +13,10 @@ export function editionAccess(edition) {
   if (material) {
     const maintenance = filesInMaintenance.has(material.id);
     const conductFallback = maintenance && material.id === "cade-analise-condutas";
+    const action = { anexo: "Baixar PDF na fonte", arquivo: "Abrir PDF na fonte" }[material.pdf_entrega];
     return {
       label: material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
-      action: conductFallback ? "Consultar tema no Cade" : maintenance ? "Ver publicação no Cade" : "Ler gratuitamente",
+      action: conductFallback ? "Consultar tema no Cade" : maintenance ? "Ver publicação no Cade" : action ?? "Ler gratuitamente",
       url: conductFallback ? cadeConductPage : maintenance ? material.link_origem : material.link_leitura,
       unavailableUrl: maintenance ? material.link_leitura : undefined,
       free: true,

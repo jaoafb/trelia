@@ -37,6 +37,18 @@ for (const material of cadeFiles) {
   assert.equal(new URL(access.url).hostname, "www.gov.br");
   assert.notEqual(access.action, "Ler gratuitamente");
 }
+const correctedPdfs = lot.materiais.filter(material => material.pdf_entrega);
+assert.equal(correctedPdfs.length, 8);
+for (const material of correctedPdfs) {
+  const access = editionAccess({ readingMaterial: material });
+  assert.equal(access.url, material.link_leitura);
+  assert.equal(access.action, material.pdf_entrega === "anexo" ? "Baixar PDF na fonte" : "Abrir PDF na fonte");
+}
+const anpd = await bibliography.book("anpd-guia-legitimo-interesse");
+const anpdEdition = anpd.editions.find(edition => edition.id === "anpd-guia-legitimo-interesse-2024-pdf");
+assert.equal(anpdEdition.source, editionAccess(anpdEdition).url);
+const cnj = await bibliography.book("cnj-manual-reconhecimento");
+assert.match(cnj.editions[0].name, /v9/);
 const chapter = await bibliography.book("senado-intervencao-economia-mattos");
 assert.equal(bookAccess(chapter).label, "Gratuito · capítulo integral");
 const fixture = { source: "https://example.org/material" };
