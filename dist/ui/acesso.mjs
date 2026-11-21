@@ -1,12 +1,20 @@
 import { h } from "./html.mjs";
 import { materialType } from "../catalogo/leituras-gratuitas.mjs";
 
+const filesInMaintenance = new Set(["cade-guia-h", "cade-guia-v-mais"]);
+
 export function editionAccess(edition) {
   const material = edition?.readingMaterial;
-  if (material) return {
-    label: material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
-    action: "Ler gratuitamente", url: material.link_leitura, free: true,
-  };
+  if (material) {
+    const maintenance = filesInMaintenance.has(material.id);
+    return {
+      label: material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
+      action: maintenance ? "Ver publicação no Cade" : "Ler gratuitamente",
+      url: maintenance ? material.link_origem : material.link_leitura,
+      unavailableUrl: maintenance ? material.link_leitura : undefined,
+      free: true,
+    };
+  }
   if (!edition?.source) return;
   if (edition.access === "Texto integral aberto") return {
     label: "Gratuito · texto integral", action: "Ler gratuitamente", url: edition.source, free: true,
@@ -29,7 +37,8 @@ export function bookAccess(book) {
   return accesses.every(item => item?.label === accesses[0]?.label) ? accesses[0] : undefined;
 }
 
-export const accessBadge = access => access ? `<span class="access-badge">${h(access.label)}</span>` : "";
+export const accessBadge = access => access ? `<span class="access-badge">${h(access.label)}</span>
+  ${access.unavailableUrl ? '<p class="author">PDF temporariamente indisponível no Cade.</p>' : ""}` : "";
 
 const roleLabels = {
   primeira_leitura: "Primeira leitura", aprofundamento: "Aprofundamento", consulta_oficial: "Consulta oficial",
@@ -47,7 +56,7 @@ export function freeReadingSection(readings, external) {
           <h3><a href="#livro/${h(bookId)}">${h(material.titulo)}</a></h3>
           ${accessBadge(access)}<p class="author">${h(material.autoria_ou_instituicao)}</p>
           <p><strong>Por que ler?</strong> ${h(por_que_ler)}</p>
-          ${onde_comecar ? `<p><strong>Onde começar</strong> ${onde_comecar.url_especifica
+          ${onde_comecar ? `<p><strong>Onde começar</strong> ${onde_comecar.url_especifica && !access.unavailableUrl
             ? external(onde_comecar.url_especifica, onde_comecar.rotulo) : h(onde_comecar.rotulo)}</p>`
             : '<p class="author">Localização a conferir</p>'}
         </div>

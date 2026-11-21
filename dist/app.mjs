@@ -95,6 +95,10 @@ function guideLink(topic, book, edition) {
 }
 
 function evidenceLink({ ref, source }, edition) {
+  const access = editionAccess(edition);
+  if (access?.unavailableUrl && source.url.split("#")[0] === access.unavailableUrl) {
+    return external(access.url, access.action);
+  }
   const number = edition.name.match(/^\d+ª edição\b/u)?.[0];
   const action = ref?.action ?? "Ver evidência da indicação";
   const label = ref && number && /^(?:Ver|Abrir) sumário/u.test(action)
@@ -113,7 +117,7 @@ function editionReference(topic, book, edition) {
     ${start?.url_especifica ? external(start.url_especifica, "Abrir no trecho indicado") : ""}
     ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
     ${access ? external(access.url, access.action) : ""}
-    ${source.url !== access?.url ? evidenceLink(evidence, edition) : officialAlternative(source)}`;
+    ${source.url !== access?.url && source.url.split("#")[0] !== access?.unavailableUrl ? evidenceLink(evidence, edition) : ""}`;
 }
 
 function readingCard(topic, book, first) {
@@ -277,7 +281,7 @@ function bookPage(book, searchedIsbn) {
           ${edition.access ? `<p class="bibliography-desc">${h(edition.access)}${edition.bookAccess ? " · " + h(edition.bookAccess) : ""}</p>
             ${references.some(topic => topic.refs[edition.id]) ? "" : '<p class="bibliography-desc">Localização a conferir.</p>'}` : ""}</div>
         <div class="edition-access">${editionAccess(edition) ? external(editionAccess(edition).url, editionAccess(edition).action) : ""}
-          ${edition.source !== editionAccess(edition)?.url ? external(edition.source, edition.sourceLabel) : ""}${officialAlternative(edition)}
+          ${edition.source !== editionAccess(edition)?.url && edition.source !== editionAccess(edition)?.unavailableUrl ? external(edition.source, edition.sourceLabel) : ""}${officialAlternative(edition)}
           ${edition.isbn && !book.imported && !book.provenance ? external("https://www.amazon.com.br/s?k=" + edition.isbn, "Buscar na Amazon") : ""}</div></article>`).join("")}
     </section>
     ${references.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Guias que usam esta obra</h2></div>
