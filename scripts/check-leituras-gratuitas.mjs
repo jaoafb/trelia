@@ -43,7 +43,8 @@ assert.equal(correctedPdfs.length, 8);
 for (const material of correctedPdfs) {
   const access = editionAccess({ readingMaterial: material });
   assert.equal(access.url, material.link_leitura);
-  assert.equal(access.action, material.pdf_entrega === "anexo" ? "Baixar PDF na fonte" : "Abrir PDF na fonte");
+  assert.equal(access.action, "Ler gratuitamente");
+  assert.equal(access.downloadsPdf, material.pdf_entrega === "anexo");
 }
 const anpd = await bibliography.book("anpd-guia-legitimo-interesse");
 const anpdEdition = anpd.editions.find(edition => edition.id === "anpd-guia-legitimo-interesse-2024-pdf");
