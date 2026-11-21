@@ -55,3 +55,7 @@ Fontes técnicas
 ### Lote ampliado de curadoria
 
 O arquivo `trelia-curadoria-ampliada-2026-11-20.json` consolida o lote editorial de 18 temas e sua expansão. O catálogo já publicado continua como base. Para regenerar os módulos estáticos por disciplina, rode `python scripts/gerar_curadoria_ampliada.py` na raiz. Para conferir consultas, ISBNs, ordem de leitura e evidência por edição, rode `node scripts/check-curadoria-ampliada.mjs`.
+
+### Lote de leituras gratuitas
+
+O arquivo `trelia-leituras-gratuitas-2026-11-20.json` guarda o lote original, incluindo as pendências editoriais. Rode `node scripts/gerar_leituras_gratuitas.mjs` para gerar os módulos estáticos e `node scripts/check-leituras-gratuitas.mjs` para verificar os vínculos, a reimportação, os tipos de acesso e as buscas. Os PDFs são ligados na origem.

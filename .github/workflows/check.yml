@@ -25,3 +25,6 @@ jobs:
 
       - name: Verificar curadoria ampliada
         run: node scripts/check-curadoria-ampliada.mjs
+
+      - name: Verificar leituras gratuitas
+        run: node scripts/check-leituras-gratuitas.mjs

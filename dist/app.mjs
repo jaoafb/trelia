@@ -1,3 +1,5 @@
+import { legislationSection } from "./ui/legislacao.mjs";
+import { editionAccess, bookAccess, accessBadge, freeReadingSection } from "./ui/acesso.mjs";
 import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
@@ -94,6 +96,10 @@ function guideLink(topic, book, edition) {
 }
 
 function evidenceLink({ ref, source }, edition) {
+  const access = editionAccess(edition);
+  if (access?.unavailableUrl && source.url.split("#")[0] === access.unavailableUrl) {
+    return external(access.url, access.action);
+  }
   const number = edition.name.match(/^\d+ª edição\b/u)?.[0];
   const action = ref?.action ?? "Ver evidência da indicação";
   const label = ref && number && /^(?:Ver|Abrir) sumário/u.test(action)
@@ -103,11 +109,16 @@ function evidenceLink({ ref, source }, edition) {
 
 function editionReference(topic, book, edition) {
   const evidence = readingEvidence(topic, book, edition);
-  const { ref } = evidence;
+  const { ref, source } = evidence;
+  const access = editionAccess(edition);
+  const linked = topic.freeReadings.find(item => item.material === edition.readingMaterial);
+  const start = linked?.onde_comecar;
   const details = [ref?.section ?? ref?.precision, edition.isbn && "ISBN " + edition.isbn].filter(Boolean);
-  return `<strong>${h(ref?.where ?? "Localização a conferir")}</strong>
+  return `<strong>${h(start?.rotulo ?? ref?.where ?? "Localização a conferir")}</strong>
+    ${start?.url_especifica ? external(start.url_especifica, "Abrir no trecho indicado") : ""}
     ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
-    ${evidenceLink(evidence, edition)}`;
+    ${access ? external(access.url, access.action) : ""}
+    ${source.url !== access?.url && source.url.split("#")[0] !== access?.unavailableUrl ? evidenceLink(evidence, edition) : ""}`;
 }
 
 function readingCard(topic, book, first) {
@@ -120,13 +131,13 @@ function readingCard(topic, book, first) {
       <div class="book-intro">
         <div class="book-identity">
           ${role ? `<p class="book-type reading-role">${role}</p>` : ""}
-          <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><p class="author">${h(book.author ?? "")}</p>
+          <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><div id="acesso-${book.id}">${accessBadge(editionAccess(edition))}</div><p class="author">${h(book.author ?? "")}</p>
         </div>
-        <p class="reading-reason">${h(topic.recommendations[book.id].reason)}</p>
+        <p class="reading-reason">${edition.readingMaterial ? "<strong>Por que ler?</strong> " : ""}${h(topic.freeReadings.find(item => item.material === edition.readingMaterial)?.por_que_ler ?? recommendation.reason)}</p>
       </div>
       <div class="reading-reference">
         <div class="inline-reference">
-          <span>Onde começar a ler</span>
+          <span>Onde começar</span>
           ${book.editions.length > 1 ? `<label for="edicao-${book.id}">Edição</label>
           <select id="edicao-${book.id}" data-reading-book="${book.id}">
             ${book.editions.map(item => `<option value="${item.id}"${item === edition ? " selected" : ""}>${h(editionLabel(item))} · ${h(item.format)}</option>`).join("")}
@@ -139,7 +150,12 @@ function readingCard(topic, book, first) {
 }
 
 function topicBooks(topic, query, preferredBook) {
-  const matches = orderedReadings(topic, books, preferredBook);
+  const supplements = new Set(topic.freeReadings.filter(item => item.material.tipo !== "livro")
+    .map(item => item.bookId));
+  const matches = orderedReadings(topic, books, preferredBook).filter(book => !supplements.has(book.id));
+  const recommended = new Set(matches.map(book => book.id));
+  const free = topic.freeReadings.filter(item => item.material.tipo !== "legislacao" && !recommended.has(item.bookId));
+  const legislation = topic.freeReadings.filter(item => item.material.tipo === "legislacao");
   const term = query || topic.readingTitle;
   const question = /^(?:o que|qual|quais|como|quando|por que)\b/i.test(term);
   const explanation = topic.answer ? `<section class="topic-explanation" id="topic-explanation" tabindex="-1" aria-labelledby="explanation-title">
@@ -155,16 +171,19 @@ function topicBooks(topic, query, preferredBook) {
     <section class="results-heading"><p class="section-kicker"><a href="${courseRoute(topic.area)}">${h(courseTitle(topic.area))}</a></p>
       <h1>${h(question ? term : topic.title)}</h1>
       <div class="topic-result-meta">
-        <p>${matches.length} ${matches.length === 1 ? "obra indicada" : "obras indicadas"}</p>
+        ${matches.length ? `<p>${matches.length} ${matches.length === 1 ? "obra recomendada" : "obras recomendadas"}</p>` : ""}
         ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>'
           : matches.length ? '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>' : ""}
       </div>
     </section>
     ${preferredBook ? "" : explanation}
-    <section aria-label="Livros indicados" tabindex="-1" id="topic-books-title">
+    ${matches.length ? `<section aria-labelledby="recommended-books" tabindex="-1" id="topic-books-title">
+      <div class="section-heading"><h2 id="recommended-books">Livros recomendados</h2></div>
       ${matches.map((book, i) => readingCard(topic, book, i === 0)).join("")}
-    </section>
+    </section>` : ""}
     ${preferredBook ? explanation : ""}
+    ${freeReadingSection(free, external)}
+    ${legislationSection(legislation, external)}
     ${related.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Temas relacionados</h2></div>
       ${topicGrid("livros", related)}</section>` : ""}
   </div>`;
@@ -247,6 +266,7 @@ function topicList() {
 function bookPage(book, searchedIsbn) {
   const references = topics.filter(topic => topic.recommendations[book.id]);
   const editions = [...book.editions];
+  const access = bookAccess(book);
   if (searchedIsbn) {
     const matches = edition => (edition.isbns ?? [edition.isbn]).includes(searchedIsbn);
     editions.sort((first, second) => Number(matches(second)) - Number(matches(first)));
@@ -254,16 +274,17 @@ function bookPage(book, searchedIsbn) {
   return `<div class="bibliography-page shell">${crumbs(book.title)}
     <section class="page-heading book-profile">${cover(book)}
       <div><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
-        <p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p>
+        ${accessBadge(access)}${access?.label === "Tem edição gratuita" ? external(access.url, access.action) : ""}<p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p>
         ${book.collectionId ? `<a class="text-link" href="#livro/${h(book.collectionId)}">Ver obra da mesma coleção ${arrow}</a>` : ""}</div></section>
     <section aria-labelledby="editions-title"><div class="section-heading"><h2 id="editions-title">Edições e acesso</h2></div>
       ${editions.map(edition => `<article class="bibliography-card book-edition-card">
-        <div><span class="book-type">${h(edition.format ?? "Formato a conferir")}</span><h2>${h(editionLabel(edition))}</h2>
+        <div><span class="book-type">${h(edition.format ?? "Formato a conferir")}</span><h2>${h(editionLabel(edition))}</h2>${accessBadge(editionAccess(edition))}
           ${edition.provenance && edition.provenance !== book.provenance ? `<p class="bibliography-desc">${h(edition.provenance)}</p>` : ""}
           ${edition.isbn ? `<p class="author">ISBN ${h(edition.isbn)}</p>` : edition.isbns?.length ? `<p class="author">ISBNs do registro · ${h(edition.isbns.join(" · "))}</p>` : ""}
           ${edition.access ? `<p class="bibliography-desc">${h(edition.access)}${edition.bookAccess ? " · " + h(edition.bookAccess) : ""}</p>
             ${references.some(topic => topic.refs[edition.id]) ? "" : '<p class="bibliography-desc">Localização a conferir.</p>'}` : ""}</div>
-        <div class="edition-access">${external(edition.source, edition.sourceLabel)}${officialAlternative(edition)}
+        <div class="edition-access">${editionAccess(edition) ? external(editionAccess(edition).url, editionAccess(edition).action) : ""}
+          ${edition.source !== editionAccess(edition)?.url && edition.source !== editionAccess(edition)?.unavailableUrl ? external(edition.source, edition.sourceLabel) : ""}${officialAlternative(edition)}
           ${edition.isbn && !book.imported && !book.provenance ? external("https://www.amazon.com.br/s?k=" + edition.isbn, "Buscar na Amazon") : ""}</div></article>`).join("")}
     </section>
     ${references.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Guias que usam esta obra</h2></div>
@@ -276,8 +297,8 @@ function bookPage(book, searchedIsbn) {
 
 function resultsPage(query, results, limited = false) {
   const card = item => `<article class="bibliography-card">${item.editions ? cover(item) : `<span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>`}
-    <div><span class="book-type">${h(item.type)}${courseTitle(item.area) ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2><p class="author">${h(item.note)}</p></div>
-    <a class="primary-button" href="#${item.route}">Abrir ${arrow}</a></article>`;
+    <div><span class="book-type">${h(item.type)}${courseTitle(item.area) ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2>${accessBadge(bookAccess(item))}<p class="author">${h(item.note)}</p></div>
+    ${bookAccess(item) ? external(bookAccess(item).url, bookAccess(item).action) : `<a class="primary-button" href="#${item.route}">Abrir ${arrow}</a>`}</article>`;
   return `<div class="results-page shell">${crumbs("Resultados")}${search(query)}
     ${limited ? '<p role="status" class="search-status">O catálogo bibliográfico está temporariamente indisponível.</p>' : ""}
     ${results.length ? `<section class="results-heading"><h1>Resultados para “${h(query)}”</h1></section>
@@ -310,7 +331,7 @@ async function render(moveFocus = true) {
   } else if (route === "duvidas") {
     root.innerHTML = topicList();
     title = "Temas por disciplina";
-  } else if (kind === "duvida" && topic) {
+  } else if (kind === "duvida" && topic && Object.keys(topic.recommendations).length) {
     const related = orderedReadings(topic, books);
     const selectedBook = related.find(item => item.id === params.get("obra")) ?? related[0];
     const selectedEdition = selectedBook.editions.find(item => item.id === params.get("edicao"))
@@ -322,12 +343,13 @@ async function render(moveFocus = true) {
       root.querySelector("#edition-result").innerHTML = locationCard(topic, selectedBook, edition);
       history.replaceState(null, "", guideLink(topic, selectedBook, edition));
     });
-  } else if (kind === "livros" && topic) {
+  } else if ((kind === "livros" || kind === "duvida") && topic) {
     root.innerHTML = topicBooks(topic, params.get("q"), params.get("obra"));
-    title = "Livros sobre " + topic.readingTitle;
+    title = (Object.keys(topic.recommendations).length ? "Livros sobre " : "Leituras sobre ") + topic.readingTitle;
     root.querySelectorAll("[data-reading-book]").forEach(select => select.addEventListener("change", () => {
       const book = books.find(item => item.id === select.dataset.readingBook);
       const edition = book.editions.find(item => item.id === select.value);
+      document.getElementById("acesso-" + book.id).innerHTML = accessBadge(editionAccess(edition));
       document.getElementById("referencia-" + book.id).innerHTML = editionReference(topic, book, edition);
     }));
   } else if (kind === "livro") {
@@ -377,7 +399,7 @@ async function render(moveFocus = true) {
     submit.disabled = false;
     const queryParams = "q=" + encodeURIComponent(query);
     let target = "busca?" + queryParams;
-    if (results.length === 1 || results[0]?.route.includes("?obra=")) {
+    if ((results.length === 1 && (!bookAccess(results[0]) || results[0].route.includes("?isbn="))) || results[0]?.route.includes("?obra=")) {
       target = results[0].route;
       if (target.startsWith("livros/")) target += (target.includes("?") ? "&" : "?") + queryParams;
     }
