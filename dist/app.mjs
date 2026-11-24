@@ -1,5 +1,5 @@
 import { legislationSection } from "./ui/legislacao.mjs";
-import { editionAccess, bookAccess, accessBadge, freeReadingSection } from "./ui/acesso.mjs";
+import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs";
 import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
@@ -98,7 +98,7 @@ function guideLink(topic, book, edition) {
 function evidenceLink({ ref, source }, edition) {
   const access = editionAccess(edition);
   if (access?.unavailableUrl && source.url.split("#")[0] === access.unavailableUrl) {
-    return external(access.url, access.action);
+    return accessLink(access, external);
   }
   const number = edition.name.match(/^\d+ª edição\b/u)?.[0];
   const action = ref?.action ?? "Ver evidência da indicação";
@@ -117,7 +117,7 @@ function editionReference(topic, book, edition) {
   return `<strong>${h(start?.rotulo ?? ref?.where ?? "Localização a conferir")}</strong>
     ${start?.url_especifica ? external(start.url_especifica, "Abrir no trecho indicado") : ""}
     ${details.length ? `<p>${h(details.join(" · "))}</p>` : ""}
-    ${access ? external(access.url, access.action) : ""}
+    ${accessLink(access, external)}
     ${source.url !== access?.url && source.url.split("#")[0] !== access?.unavailableUrl ? evidenceLink(evidence, edition) : ""}`;
 }
 
@@ -174,6 +174,7 @@ function topicBooks(topic, query, preferredBook) {
         ${matches.length ? `<p>${matches.length} ${matches.length === 1 ? "obra recomendada" : "obras recomendadas"}</p>` : ""}
         ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>'
           : matches.length ? '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>' : ""}
+        ${free.length ? '<button class="text-link" data-page-section="free-reading-title">Leituras gratuitas</button>' : ""}
       </div>
     </section>
     ${preferredBook ? "" : explanation}
@@ -274,7 +275,7 @@ function bookPage(book, searchedIsbn) {
   return `<div class="bibliography-page shell">${crumbs(book.title)}
     <section class="page-heading book-profile">${cover(book)}
       <div><p class="section-kicker">${h(book.label)}</p><h1>${h(book.title)}</h1>
-        ${accessBadge(access)}${access?.label === "Tem edição gratuita" ? external(access.url, access.action) : ""}<p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p>
+        ${accessBadge(access)}${access?.label === "Tem edição gratuita" ? accessLink(access, external) : ""}<p class="author">${h(book.author ?? "")}</p><p>${h(book.provenance ?? book.reason ?? courseTitle(book.area))}</p>
         ${book.collectionId ? `<a class="text-link" href="#livro/${h(book.collectionId)}">Ver obra da mesma coleção ${arrow}</a>` : ""}</div></section>
     <section aria-labelledby="editions-title"><div class="section-heading"><h2 id="editions-title">Edições e acesso</h2></div>
       ${editions.map(edition => `<article class="bibliography-card book-edition-card">
@@ -283,7 +284,7 @@ function bookPage(book, searchedIsbn) {
           ${edition.isbn ? `<p class="author">ISBN ${h(edition.isbn)}</p>` : edition.isbns?.length ? `<p class="author">ISBNs do registro · ${h(edition.isbns.join(" · "))}</p>` : ""}
           ${edition.access ? `<p class="bibliography-desc">${h(edition.access)}${edition.bookAccess ? " · " + h(edition.bookAccess) : ""}</p>
             ${references.some(topic => topic.refs[edition.id]) ? "" : '<p class="bibliography-desc">Localização a conferir.</p>'}` : ""}</div>
-        <div class="edition-access">${editionAccess(edition) ? external(editionAccess(edition).url, editionAccess(edition).action) : ""}
+        <div class="edition-access">${accessLink(editionAccess(edition), external)}
           ${edition.source !== editionAccess(edition)?.url && edition.source !== editionAccess(edition)?.unavailableUrl ? external(edition.source, edition.sourceLabel) : ""}${officialAlternative(edition)}
           ${edition.isbn && !book.imported && !book.provenance ? external("https://www.amazon.com.br/s?k=" + edition.isbn, "Buscar na Amazon") : ""}</div></article>`).join("")}
     </section>
@@ -298,7 +299,7 @@ function bookPage(book, searchedIsbn) {
 function resultsPage(query, results, limited = false) {
   const card = item => `<article class="bibliography-card">${item.editions ? cover(item) : `<span class="bibliography-monogram" aria-hidden="true">${searchIcon}</span>`}
     <div><span class="book-type">${h(item.type)}${courseTitle(item.area) ? " · " + h(courseTitle(item.area)) : ""}</span><h2><a href="#${item.route}">${h(item.title)}</a></h2>${accessBadge(bookAccess(item))}<p class="author">${h(item.note)}</p></div>
-    ${bookAccess(item) ? external(bookAccess(item).url, bookAccess(item).action) : `<a class="primary-button" href="#${item.route}">Abrir ${arrow}</a>`}</article>`;
+    ${bookAccess(item) ? accessLink(bookAccess(item), external) : `<a class="primary-button" href="#${item.route}">Abrir ${arrow}</a>`}</article>`;
   return `<div class="results-page shell">${crumbs("Resultados")}${search(query)}
     ${limited ? '<p role="status" class="search-status">O catálogo bibliográfico está temporariamente indisponível.</p>' : ""}
     ${results.length ? `<section class="results-heading"><h1>Resultados para “${h(query)}”</h1></section>

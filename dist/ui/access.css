@@ -28,3 +28,7 @@
 @media (max-width: 600px) {
   .free-readings .free-reading { grid-template-columns: minmax(0, 1fr); }
 }
+
+.material-access { min-width: 0; max-width: 18rem; }
+.access-note { color: var(--muted); font-size: .8rem; line-height: 1.4; margin-top: .25rem; }
+#free-reading-title { scroll-margin-top: 1rem; }
