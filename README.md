@@ -1,65 +1,55 @@
 # Trelia.
 
-A **Trelia** ajuda estudantes de Direito a descobrir **quais livros tratam do assunto que desejam estudar** e **onde começar a leitura** em cada edição, quando houver uma referência conferida.
+**Encontre o assunto que você precisa estudar e descubra por onde começar a leitura.**
 
-**[Abrir a Trelia](https://trelia.vercel.app/)** · [Política de curadoria](docs/CURADORIA_PARA_INICIANTES.md) · [Como contribuir](CONTRIBUTING.md)
+A **Trelia** é uma plataforma gratuita de orientação bibliográfica para estudantes de Direito. Ela reúne temas jurídicos, indica livros e ajuda a localizar capítulos, seções ou páginas em edições específicas, sempre que essa informação foi confirmada.
 
-## O que você encontra
+**[Acessar a Trelia](https://trelia.vercel.app/)**
 
-- **Busca por temas e perguntas:** explicações breves e recomendações para dúvidas de estudo.
-- **Referências por edição:** capítulo, seção ou página, somente quando o material consultado permite essa precisão.
-- **Pesquisas sobre o tema:** artigos científicos como leituras complementares, com autoria e fonte identificadas.
-- **Minhas leituras:** salve referências e retome a edição escolhida. Os itens ficam no armazenamento local **deste navegador**, sem conta nem sincronização entre dispositivos; limpar os dados do site pode apagá-los.
-- **Avisos editoriais:** informações ainda pendentes de revisão e indicações sem comprovação bibliográfica aparecem identificadas.
+## O que você pode fazer
 
-Com a integração de novembro de 2026 ([PR #16](https://github.com/jaoafb/trelia/pull/16)), o catálogo chegou a **308 temas em 19 áreas jurídicas**. Essa é a contagem daquela entrega, não um número atualizado automaticamente.
+- **Pesquisar temas e dúvidas:** encontre assuntos jurídicos a partir de termos ou perguntas em linguagem natural, acompanhados de explicações introdutórias.
+- **Descobrir leituras:** compare indicações de obras e entenda por que cada uma pode ser útil para o estudo.
+- **Saber onde começar:** consulte a localização verificada do assunto em uma edição — capítulo, seção ou página, conforme a evidência disponível.
+- **Explorar pesquisas acadêmicas:** acesse artigos e estudos relacionados aos temas do catálogo.
+- **Salvar em Minhas leituras:** guarde referências para consultá-las novamente.
 
-> A Trelia é uma ferramenta de orientação de estudo. Ela não substitui a consulta à legislação vigente, à obra citada ou à bibliografia exigida pela disciplina.
+O catálogo chegou a **308 temas distribuídos em 19 áreas do Direito** na expansão de novembro de 2026.
 
-## Estrutura do repositório
+## Como funciona
 
-| Caminho | Responsabilidade |
-|---|---|
-| `dist/` | Aplicação estática em HTML, CSS e módulos JavaScript; é a pasta publicada na Vercel. |
-| `dist/leituras-salvas.mjs` | Armazenamento local de **Minhas leituras**. |
-| `data/catalogo/` | Dados editoriais, obras, fontes, lotes e pendências de revisão. |
-| `scripts/` | Geração de módulos e verificações automatizadas. |
-| `docs/CURADORIA_PARA_INICIANTES.md` | Política para seleção de leituras. |
-| `AGENTS.md` e `FLUXO.md` | Orientações e processo de manutenção. |
+1. **Busque** um assunto, como *dolo eventual* ou *poder constituinte*.
+2. **Explore** as explicações, os livros indicados e as pesquisas relacionadas.
+3. **Escolha** uma leitura e confira a referência disponível para a edição que você pretende consultar.
 
-Alguns módulos de `dist/` são gerados a partir das fontes em `data/catalogo/`. Use os respectivos geradores, descritos em [data/catalogo/README.md](data/catalogo/README.md), em vez de editar manualmente os arquivos gerados.
+A Trelia informa quando uma indicação, localização ou informação editorial ainda precisa de revisão. A ausência de página ou capítulo confirmado **não deve ser preenchida com suposições**.
 
-## Executar localmente
+## Minhas leituras
 
-É necessário um servidor HTTP para carregar os módulos JavaScript. Com Python 3 instalado, na raiz:
+Você pode salvar referências sem criar uma conta. As leituras ficam armazenadas **no navegador em que foram salvas**, sem sincronização entre dispositivos. Se os dados do site forem apagados, as referências salvas também poderão ser perdidas.
 
-```bash
-python -m http.server 8000 --bind 127.0.0.1 --directory dist
-```
+## Nosso compromisso com a curadoria
 
-Acesse [http://127.0.0.1:8000/](http://127.0.0.1:8000/). Dependendo do ambiente, o comando pode ser `python3`.
+A prioridade da Trelia não é simplesmente reunir o maior número possível de livros, mas ajudar o estudante a escolher **uma leitura pertinente e verificável**.
 
-## Verificar alterações
+As recomendações procuram distinguir obras introdutórias, leituras para acompanhar a disciplina e materiais de aprofundamento, respeitando o conteúdo e a edição efetivamente consultados.
 
-Com Node.js instalado, na raiz do projeto:
+O projeto é um recurso de apoio ao estudo. **Não substitui a leitura das obras, a legislação vigente ou a orientação acadêmica.**
 
-```bash
-node --check dist/app.mjs
-node --check dist/data.mjs
-node scripts/smoke.mjs
-node scripts/check-curadoria-ampliada.mjs
-node scripts/check-leituras-gratuitas.mjs
-node scripts/check-curadoria-novembro.mjs
-node scripts/check-expansao-iii.mjs
-git diff --check
-```
+Saiba mais na [política de curadoria para iniciantes](docs/CURADORIA_PARA_INICIANTES.md).
 
-Além dos testes, mudanças em recomendações precisam de verificação de edição, ISBN, capítulos, links e legislação. Alterações de interface exigem testes de navegação por teclado, desktop e celular. Trabalhe em uma branch e revise a prévia da Vercel em pull request antes de mesclar à `main`.
+## Sobre o projeto
 
-## Manutenção e condições de uso
+A Trelia é um projeto independente em evolução. Sugestões de melhoria, correções de referências e contribuições são bem-vindas.
 
-- [CONTRIBUTING.md](CONTRIBUTING.md): contribuições, correções editoriais e critérios de revisão.
-- [SECURITY.md](SECURITY.md): como comunicar falhas de segurança sem divulgação pública.
-- [CHANGELOG.md](CHANGELOG.md): principais marcos do projeto.
-- **Código-fonte:** [licença MIT](LICENSE.md), permitindo estudo, uso, modificação e redistribuição conforme seus termos.
-- **Curadoria e demais materiais:** [escopo de licenciamento](LICENSING.md). Textos editoriais, bases de dados, imagens, marca e materiais de terceiros **não são liberados pela MIT**, mesmo quando aparecem em arquivos que também contêm código.
+- [Como contribuir](CONTRIBUTING.md)
+- [Histórico de atualizações](CHANGELOG.md)
+- [Licença MIT para o código-fonte](LICENSE.md)
+- [Condições de uso da curadoria e dos demais materiais](LICENSING.md)
+- [Orientações técnicas para colaboradores](AGENTS.md)
+
+**A licença MIT se aplica ao código original, não aos textos editoriais, às bases de curadoria, à identidade visual ou a materiais de terceiros.** Consulte o documento de licenciamento para conhecer os limites.
+
+---
+
+**[Comece a explorar a Trelia](https://trelia.vercel.app/)**
