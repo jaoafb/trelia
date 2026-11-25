@@ -1,6 +1,12 @@
 import third from "./novembro/expansao-iii.mjs";
+import consolidation from "./novembro/consolidacao-i.mjs";
+import checked from "./novembro/verificacao-complementar.mjs";
+const validUrls = new Map(checked.fontes_oficiais.map(item => [item.id, item.url_conferida]));
 import expansion from "./novembro/expansao.mjs";
 import balanced from "./novembro/equilibrada.mjs";
+import editorialRelations from "./novembro/relacoes-editoriais.mjs";
+import searchVariations from "./novembro/termos-busca.mjs";
+const curatedSearchTerms = new Map(searchVariations.entradas.map(item => [item.tema_id, item.termos_busca]));
 
 const thirdTopics = new Set(third.temas.map(topic => topic.id));
 const canonicalTopics = {
@@ -31,6 +37,10 @@ const thirdBookId = id => id === "tartuce-neves-manual-consumidor-2026" ? "tartu
 
 export function addNovemberBooks(books) {
   const entries = new Map(addExpansionBooks(books).map(book => [book.id, book]));
+  for (const item of checked.livros_novos) {
+    if (entries.has(item.id)) throw new Error("Obra verificada duplicada: " + item.id);
+    entries.set(item.id, item);
+  }
   for (const item of third.obras) {
     if (item.status_editorial !== "obra_e_edicao_verificadas") continue;
     const id = thirdBookId(item.id_sugerido);
@@ -65,7 +75,7 @@ function topicSources(item) {
       pagina_institucional_com_acesso_ao_manual: "Página institucional",
     };
     return {
-      title: source.titulo, url: source.url, by: source.instituicao,
+      title: source.titulo, url: validUrls.get(source.id) ?? source.url, by: source.instituicao,
       type: types[source.formato] ?? "Fonte oficial", note: link.onde_comecar,
       unavailable: source.url.endsWith("/guia-compliance-versao-oficial.pdf"),
     };
@@ -88,7 +98,7 @@ export function addNovemberTopics(topics, books) {
       focus: previous?.focus ?? item.como_estudar,
       studyOrientation: previous?.studyOrientation ?? item.como_estudar,
       aliases: unique([...(previous?.aliases ?? []), item.titulo, item.pergunta,
-        ...(item.termos_busca ?? item.aliases ?? [])]),
+        ...(item.termos_busca ?? item.aliases ?? []), ...(curatedSearchTerms.get(item.id) ?? [])]),
       sources: [...(previous?.sources ?? []), ...sources.filter(source =>
         !previous?.sources?.some(old => source.url === old.url && source.note === old.note)
         && !previous?.freeReadings?.some(({ material }) =>
@@ -98,7 +108,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));
@@ -122,6 +132,16 @@ export function addNovemberTopics(topics, books) {
       coverage: { url: item.evidencia.url, action: ref.action },
       ...previous, coverageByEdition: { ...previous?.coverageByEdition, [edition.id]: ref },
     };
+  }
+  for (const pair of editorialRelations.pares) {
+    const a = novemberTopicId(pair.tema_a);
+    const b = novemberTopicId(pair.tema_b);
+    if (a === b) throw new Error("Relação com mesmo destino: " + a);
+    const first = entries.get(a);
+    const second = entries.get(b);
+    if (!first || !second) throw new Error("Relação editorial com tema inexistente: " + a + "/" + b);
+    entries.set(a, { ...first, relatedTopics: unique([...(first.relatedTopics ?? []), b]) });
+    entries.set(b, { ...second, relatedTopics: unique([...(second.relatedTopics ?? []), a]) });
   }
   for (const topic of entries.values()) {
     if (topic.relatedTopics?.some(id => !entries.has(id))) throw new Error("Tema relacionado ausente: " + topic.id);

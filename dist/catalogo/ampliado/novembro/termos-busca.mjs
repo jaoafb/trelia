@@ -1,0 +1,541 @@
+// GERADO por scripts/gerar_curadoria_novembro.py — não edite à mão
+export default {
+  "id": "trelia-termos-busca-consolidacao-2026-11-24",
+  "data_curadoria": "2026-11-24",
+  "escopo": "76 temas da Expansão III, com duas expressões adicionais de busca por tema, preservando os títulos e perguntas originais.",
+  "criterio": "Expressões de linguagem comum e variantes jurídicas específicas; não confundem institutos distintos, nem certificam revisão do conteúdo normativo.",
+  "entradas": [
+    {
+      "tema_id": "controle-externo-tribunais-contas",
+      "termos_busca": [
+        "fiscalização dos gastos públicos pelos tribunais de contas",
+        "diferença entre contas de governo e contas de gestão"
+      ]
+    },
+    {
+      "tema_id": "regime-juridico-bens-publicos",
+      "termos_busca": [
+        "bens dominicais e bens de uso comum",
+        "diferença entre bens públicos de uso especial e dominicais"
+      ]
+    },
+    {
+      "tema_id": "desapropriacao-utilidade-publica",
+      "termos_busca": [
+        "indenização na desapropriação por utilidade pública",
+        "procedimento para desapropriar imóvel"
+      ]
+    },
+    {
+      "tema_id": "concessao-permissao-servico-publico",
+      "termos_busca": [
+        "diferença entre concessão e permissão de serviço público",
+        "delegação de serviço público a particulares"
+      ]
+    },
+    {
+      "tema_id": "competencia-ambiental-lc140",
+      "termos_busca": [
+        "licenciamento ambiental união estados municípios",
+        "competência fiscalizatória ambiental lei complementar 140"
+      ]
+    },
+    {
+      "tema_id": "pagamento-servicos-ambientais",
+      "termos_busca": [
+        "incentivos por conservação ambiental lei 14119",
+        "quem recebe pagamento por serviços ecossistêmicos"
+      ]
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "termos_busca": [
+        "crime ambiental cometido por empresa",
+        "empresa pode ser responsabilizada criminalmente por poluição"
+      ]
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "termos_busca": [
+        "diferença entre precaução e prevenção ambiental",
+        "princípio da precaução em risco ambiental"
+      ]
+    },
+    {
+      "tema_id": "regimes-bens-casamento",
+      "termos_busca": [
+        "comunhão parcial e separação de bens no casamento",
+        "regime de bens entre cônjuges"
+      ]
+    },
+    {
+      "tema_id": "uniao-estavel-efeitos-patrimoniais",
+      "termos_busca": [
+        "partilha de bens na união estável",
+        "direitos patrimoniais dos companheiros"
+      ]
+    },
+    {
+      "tema_id": "guarda-compartilhada-convivencia",
+      "termos_busca": [
+        "convivência dos filhos na guarda compartilhada",
+        "guarda conjunta e direito de convivência"
+      ]
+    },
+    {
+      "tema_id": "eviccao-contratos",
+      "termos_busca": [
+        "perda de bem comprado por direito de terceiro",
+        "garantia contra evicção na compra e venda"
+      ]
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "termos_busca": [
+        "quando a união intervém em estado",
+        "hipóteses constitucionais de intervenção federal"
+      ]
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "termos_busca": [
+        "projeto de lei apresentado por cidadãos",
+        "assinaturas necessárias para iniciativa popular federal"
+      ]
+    },
+    {
+      "tema_id": "comissao-parlamentar-inquerito",
+      "termos_busca": [
+        "poderes de investigação de cpi",
+        "limites constitucionais das comissões parlamentares de inquérito"
+      ]
+    },
+    {
+      "tema_id": "direito-fundamental-educacao",
+      "termos_busca": [
+        "educação como direito fundamental e dever estatal",
+        "obrigação do poder público com ensino"
+      ]
+    },
+    {
+      "tema_id": "praticas-abusivas-art39",
+      "termos_busca": [
+        "venda casada e outras práticas abusivas",
+        "artigo 39 do código de defesa do consumidor"
+      ]
+    },
+    {
+      "tema_id": "cobranca-indebita-consumo",
+      "termos_busca": [
+        "devolução em dobro de cobrança indevida",
+        "repetição do indébito no cdc"
+      ]
+    },
+    {
+      "tema_id": "recall-produtos-seguranca",
+      "termos_busca": [
+        "chamamento de produto defeituoso para correção",
+        "dever de segurança do fornecedor no recall"
+      ]
+    },
+    {
+      "tema_id": "contratos-adesao-consumo",
+      "termos_busca": [
+        "cláusulas abusivas em contratos de adesão",
+        "contrato padronizado no direito do consumidor"
+      ]
+    },
+    {
+      "tema_id": "relatorio-impacto-protecao-dados",
+      "termos_busca": [
+        "quando fazer ripd na lgpd",
+        "relatório de impacto ao tratamento de dados pessoais"
+      ]
+    },
+    {
+      "tema_id": "transferencia-internacional-dados-lgpd",
+      "termos_busca": [
+        "envio de dados pessoais para fora do brasil",
+        "regras de transferência internacional na lgpd"
+      ]
+    },
+    {
+      "tema_id": "revisao-decisoes-automatizadas-lgpd",
+      "termos_busca": [
+        "direito de revisão de decisão automatizada",
+        "decisões por algoritmos e direitos do titular de dados"
+      ]
+    },
+    {
+      "tema_id": "seguranca-desde-concepcao-lgpd",
+      "termos_busca": [
+        "privacy by design na lgpd",
+        "proteção de dados desde a concepção do sistema"
+      ]
+    },
+    {
+      "tema_id": "remedios-antitruste-concentracoes",
+      "termos_busca": [
+        "condições do cade para aprovar fusões",
+        "remédios estruturais e comportamentais antitruste"
+      ]
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "termos_busca": [
+        "compartilhamento de preços entre concorrentes",
+        "troca de informações comerciais sensíveis no antitruste"
+      ]
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "termos_busca": [
+        "venda abaixo do custo para excluir concorrentes",
+        "preço predatório e posição dominante"
+      ]
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "termos_busca": [
+        "exclusividade em contratos de distribuição comercial",
+        "acordos verticais e defesa da concorrência"
+      ]
+    },
+    {
+      "tema_id": "condutas-vedadas-agentes-publicos",
+      "termos_busca": [
+        "uso da máquina pública em campanha eleitoral",
+        "condutas vedadas a servidores em ano eleitoral"
+      ]
+    },
+    {
+      "tema_id": "abuso-poder-economico-eleitoral",
+      "termos_busca": [
+        "uso abusivo de recursos econômicos na eleição",
+        "investigação de abuso de poder econômico eleitoral"
+      ]
+    },
+    {
+      "tema_id": "doacoes-financiamento-campanha",
+      "termos_busca": [
+        "regras de arrecadação de campanha eleitoral",
+        "financiamento eleitoral e prestação de contas"
+      ]
+    },
+    {
+      "tema_id": "cotas-genero-candidaturas",
+      "termos_busca": [
+        "fraude à cota feminina nas eleições",
+        "percentual mínimo de candidaturas por gênero"
+      ]
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "termos_busca": [
+        "proteção do nome empresarial na junta comercial",
+        "diferença entre nome empresarial e marca registrada"
+      ]
+    },
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "termos_busca": [
+        "direitos essenciais de acionistas da sa",
+        "direitos dos sócios acionistas na lei das s a"
+      ]
+    },
+    {
+      "tema_id": "duplicata-mercantil",
+      "termos_busca": [
+        "emissão e circulação de duplicata",
+        "título de crédito duplicata de compra e venda"
+      ]
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "termos_busca": [
+        "plano de recuperação extrajudicial com credores",
+        "acordo extrajudicial de recuperação de empresa"
+      ]
+    },
+    {
+      "tema_id": "limites-despesa-pessoal-lrf",
+      "termos_busca": [
+        "limite de gasto com pessoal na lei de responsabilidade fiscal",
+        "despesa de pessoal em relação à receita corrente líquida"
+      ]
+    },
+    {
+      "tema_id": "receita-corrente-liquida",
+      "termos_busca": [
+        "cálculo da receita corrente líquida na lrf",
+        "rcl usada nos limites de gastos públicos"
+      ]
+    },
+    {
+      "tema_id": "regra-ouro-orcamento",
+      "termos_busca": [
+        "regra de ouro das operações de crédito",
+        "artigo 167 inciso terceiro da constituição"
+      ]
+    },
+    {
+      "tema_id": "divida-publica-operacoes-credito",
+      "termos_busca": [
+        "endividamento público e empréstimos governamentais",
+        "limites para operações de crédito do estado"
+      ]
+    },
+    {
+      "tema_id": "imunidades-diplomaticas",
+      "termos_busca": [
+        "imunidade de embaixador e diplomata",
+        "convenção de viena sobre relações diplomáticas imunidades"
+      ]
+    },
+    {
+      "tema_id": "extradicao-lei-migracao",
+      "termos_busca": [
+        "regras para extradição de estrangeiro no brasil",
+        "extradição e garantias constitucionais"
+      ]
+    },
+    {
+      "tema_id": "solucao-pacifica-controversias",
+      "termos_busca": [
+        "meios pacíficos para resolver conflitos internacionais",
+        "negociação mediação arbitragem internacional"
+      ]
+    },
+    {
+      "tema_id": "cooperacao-juridica-internacional-cpc",
+      "termos_busca": [
+        "auxílio direto e carta rogatória no cpc",
+        "pedidos de cooperação internacional entre judiciários"
+      ]
+    },
+    {
+      "tema_id": "tentativa-punivel",
+      "termos_busca": [
+        "início da execução e tentativa de crime",
+        "diferença entre atos preparatórios e executórios"
+      ]
+    },
+    {
+      "tema_id": "desistencia-voluntaria-crime",
+      "termos_busca": [
+        "desistência voluntária no artigo 15 do código penal",
+        "agente desiste de continuar a execução do crime"
+      ]
+    },
+    {
+      "tema_id": "crime-preterdoloso",
+      "termos_busca": [
+        "dolo na conduta e culpa no resultado",
+        "crime qualificado pelo resultado preterdoloso"
+      ]
+    },
+    {
+      "tema_id": "legitima-defesa-putativa",
+      "termos_busca": [
+        "legítima defesa imaginária erro sobre agressão",
+        "descriminante putativa por erro de fato"
+      ]
+    },
+    {
+      "tema_id": "segurado-especial-rural",
+      "termos_busca": [
+        "quem é segurado especial na previdência rural",
+        "benefício previdenciário do trabalhador rural"
+      ]
+    },
+    {
+      "tema_id": "salario-maternidade-rgps",
+      "termos_busca": [
+        "salário maternidade requisitos do inss",
+        "benefício previdenciário por maternidade"
+      ]
+    },
+    {
+      "tema_id": "auxilio-acidente-sequela",
+      "termos_busca": [
+        "auxílio acidente por sequela permanente",
+        "indenização previdenciária por redução da capacidade laboral"
+      ]
+    },
+    {
+      "tema_id": "recurso-administrativo-inss",
+      "termos_busca": [
+        "como recorrer decisão do inss administrativamente",
+        "recurso ao conselho de recursos da previdência social"
+      ]
+    },
+    {
+      "tema_id": "producao-antecipada-prova-cpc",
+      "termos_busca": [
+        "produção antecipada de provas antes da ação",
+        "artigo 381 do código de processo civil"
+      ]
+    },
+    {
+      "tema_id": "acao-monitoria",
+      "termos_busca": [
+        "ação monitória com prova escrita",
+        "cobrança por ação monitória no cpc"
+      ]
+    },
+    {
+      "tema_id": "irdr-demandas-repetitivas",
+      "termos_busca": [
+        "incidente de resolução de demandas repetitivas",
+        "teses jurídicas em casos repetitivos no cpc"
+      ]
+    },
+    {
+      "tema_id": "execucao-alimentos-prisao-civil",
+      "termos_busca": [
+        "prisão civil por pensão alimentícia atrasada",
+        "cumprimento de sentença de alimentos pelo rito de prisão"
+      ]
+    },
+    {
+      "tema_id": "interceptacao-telefonica-prova",
+      "termos_busca": [
+        "interceptação telefônica autorizada por juiz",
+        "requisitos judiciais para interceptar comunicações"
+      ]
+    },
+    {
+      "tema_id": "colaboracao-premiada",
+      "termos_busca": [
+        "delação premiada e prova de corroboração",
+        "acordo de colaboração premiada na investigação penal"
+      ]
+    },
+    {
+      "tema_id": "tribunal-juri-quesitacao",
+      "termos_busca": [
+        "perguntas aos jurados no tribunal do júri",
+        "ordem de quesitos do júri no cpp"
+      ]
+    },
+    {
+      "tema_id": "assistente-acusacao",
+      "termos_busca": [
+        "atuação do assistente do ministério público no processo penal",
+        "vítima como assistente da acusação"
+      ]
+    },
+    {
+      "tema_id": "dominio-publico-direitos-autorais",
+      "termos_busca": [
+        "quando uma obra entra em domínio público",
+        "fim do prazo de proteção dos direitos patrimoniais"
+      ]
+    },
+    {
+      "tema_id": "coautoria-obras-intelectuais",
+      "termos_busca": [
+        "direitos de coautores de obra intelectual",
+        "obra artística criada em conjunto e direitos autorais"
+      ]
+    },
+    {
+      "tema_id": "licenciamento-programas-computador",
+      "termos_busca": [
+        "contrato de licença de uso de software",
+        "diferença entre licença e titularidade do programa"
+      ]
+    },
+    {
+      "tema_id": "nulidade-registro-marca",
+      "termos_busca": [
+        "anulação de registro de marca no inpi",
+        "causas de nulidade de marca registrada"
+      ]
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "termos_busca": [
+        "requisitos para equiparação salarial na clt",
+        "igual salário para trabalho de igual valor"
+      ]
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "termos_busca": [
+        "contrato intermitente e convocação para trabalho",
+        "direitos do empregado em trabalho intermitente"
+      ]
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "termos_busca": [
+        "proteção contra demissão de empregada gestante",
+        "estabilidade provisória da gestante no emprego"
+      ]
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "termos_busca": [
+        "limites de acordo e convenção coletiva de trabalho",
+        "negociado sobre legislado na clt"
+      ]
+    },
+    {
+      "tema_id": "imposto-bens-servicos-cbs-ibs",
+      "termos_busca": [
+        "diferença entre ibs e cbs na reforma tributária",
+        "imposto sobre bens e serviços e contribuição sobre bens e serviços"
+      ]
+    },
+    {
+      "tema_id": "imposto-seletivo-reforma",
+      "termos_busca": [
+        "imposto seletivo sobre produtos prejudiciais",
+        "finalidade extrafiscal do imposto seletivo"
+      ]
+    },
+    {
+      "tema_id": "contribuicao-melhoria-tributo",
+      "termos_busca": [
+        "tributo por valorização imobiliária decorrente de obra pública",
+        "cobrança de contribuição de melhoria"
+      ]
+    },
+    {
+      "tema_id": "responsabilidade-tributaria-administradores",
+      "termos_busca": [
+        "responsabilidade tributária de sócios administradores",
+        "artigo 135 ctn responsabilidade de gerentes"
+      ]
+    },
+    {
+      "tema_id": "zeis-zonas-especiais-interesse-social",
+      "termos_busca": [
+        "zonas especiais destinadas a moradia popular",
+        "zeis na política urbana e no plano diretor"
+      ]
+    },
+    {
+      "tema_id": "transferencia-direito-construir",
+      "termos_busca": [
+        "transferência de potencial construtivo no estatuto da cidade",
+        "transferir direito de construir entre imóveis"
+      ]
+    },
+    {
+      "tema_id": "usucapiao-especial-urbana",
+      "termos_busca": [
+        "usucapião urbana para moradia de até 250 metros",
+        "usucapião especial urbana individual requisitos"
+      ]
+    },
+    {
+      "tema_id": "consorcio-imobiliario-estatuto-cidade",
+      "termos_busca": [
+        "consórcio imobiliário previsto no estatuto da cidade",
+        "parceria imobiliária entre proprietário e município"
+      ]
+    }
+  ]
+};

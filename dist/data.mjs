@@ -12,7 +12,7 @@ import { additionalBooks, enrichTopics } from "./catalogo/editorial.mjs";
 import expandedCourses from "./catalogo/ampliado/curadoria/index.mjs";
 import { createBibliography } from "./catalogo/ampliado/carregar.mjs";
 import { applyCuratedBooks, applyCuratedTopics, curatedCatalog, promotedIds } from "./catalogo/ampliado/curadoria-lote.mjs";
-import { addNovemberBooks, addNovemberTopics } from "./catalogo/ampliado/curadoria-novembro.mjs?v=expansao-iii";
+import { addNovemberBooks, addNovemberTopics } from "./catalogo/ampliado/curadoria-novembro.mjs?v=consolidacao-completa";
 import economicRecords from "./catalogo/ampliado/bibliografia/economico.mjs";
 import urbanRecords from "./catalogo/ampliado/bibliografia/urbanistico.mjs";
 

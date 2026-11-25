@@ -1,5 +1,7 @@
-import { expansionIIIArticles, novemberArticles, novemberTopicId } from "../catalogo/ampliado/curadoria-novembro.mjs?v=expansao-iii";
+import { expansionIIIArticles, novemberArticles, novemberTopicId } from "../catalogo/ampliado/curadoria-novembro.mjs?v=consolidacao-completa";
 import pilot from "../catalogo/piloto-artigos.mjs";
+import policies from "../catalogo/ampliado/novembro/politicas-periodicos.mjs";
+const peerPolicyByJournal = new Map(policies.periodicos.map(row => [row.periodico, row]));
 import { h } from "./html.mjs";
 
 const pilotArticles = pilot.artigos
@@ -32,6 +34,11 @@ const stableSciElo = url => url?.replace("https://new.scielo.br/", "https://www.
 const thirdArticles = expansionIIIArticles.filter(article => article.status_editorial === "aprovado_para_integracao")
   .map(article => ({
     ...article,
+    revisao_por_pares: peerPolicyByJournal.has(article.periodico)
+      ? { ...article.revisao_por_pares,
+          status: "politica_publica_do_periodico_localizada",
+          url_politica: peerPolicyByJournal.get(article.periodico).url_politica }
+      : article.revisao_por_pares,
     url_publicacao: stableSciElo(article.url_publicacao),
     url_texto_integral: publicationOnly.has(article.id) ? undefined
       : fullTextOverrides[article.id] ?? stableSciElo(article.url_texto_integral),

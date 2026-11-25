@@ -80,3 +80,43 @@ A entrada é `trelia-expansao-editorial-iii-2026-11-24-revisado.json`, com o han
 - A edição de 2026 de Tartuce e Neves fica na ficha de consumidor existente. Os demais ISBNs já cadastrados foram reutilizados.
 - Os endereços de resumos da SciELO foram substituídos por links de texto integral na apresentação. Nos três casos com destino na página do periódico, o botão descreve essa página. O endereço alternativo da SciELO para cotas de gênero conserva a mesma publicação.
 - As explicações novas ficam identificadas como em revisão editorial. Permanecem por revisar a vigência e as âncoras restantes, os acessos das seis fichas editoriais que responderam 405 na checagem automatizada e as políticas de revisão por pares sem URL comprovada. Os JSONs originais preservam as pendências bibliográficas e de Qualis.
+
+
+### Ciclo de consolidação bibliográfica I (24/11/2026)
+
+O arquivo `trelia-consolidacao-bibliografica-01-2026-11-24.json` acrescenta **três indicações de leitura** para temas de Propriedade Intelectual, reutilizando uma obra e uma edição já existentes: *Uma introdução à propriedade intelectual*, 2ª edição digital, de Denis Borges Barbosa. A fonte integral foi consultada na instituição hospedeira, com referências às páginas impressas **305** (ideia versus expressão), **124** (direitos morais versus patrimoniais) e **121** (tratamento constitucional do software). A obra possui valor doutrinário/histórico; os temas continuam acompanhados de legislação atual para conferência.
+
+Não confundir esta atualização pontual com revisão integral da obra ou da legislação. O tema `protecao-software-direito-autoral` recebe leitura **histórica de apoio**; a pendência de indicação especializada **atual** sobre registro de software no INPI permanece. O PDF está disponível na instituição de origem sob CC BY-NC-ND 2.0; o projeto não redistribui cópias nem modifica seu conteúdo. Os lotes históricos de 22 e 24/11 foram preservados intactos.
+
+Para regenerar os módulos estáticos e verificar os dois vínculos: `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-consolidacao-bibliografica-i.mjs`.
+
+
+### Políticas editoriais dos periódicos (24/11/2026)
+
+O arquivo `trelia-politicas-periodicos-2026-11-24.json` registra **14 páginas de políticas de periódicos**, provenientes dos próprios editores ou do SciELO. Elas abrangem os 19 artigos da Expansão Editorial III. O módulo `dist/catalogo/ampliado/novembro/politicas-periodicos.mjs` é gerado por `python scripts/gerar_curadoria_novembro.py`.
+
+A interface mostra um link para a **política do periódico** nos detalhes de cada pesquisa, mas não afirma que o fluxo específico de cada artigo foi confirmado. Algumas políticas foram atualizadas depois do ano do artigo; o caso da Revista do IBRAC admite exceções para artigos convidados. Verifique o histórico individual antes de declarar arbitragem específica do texto. Execute `node scripts/check-politicas-periodicos.mjs` para conferir os 19 vínculos e a presença dos links no HTML renderizado.
+
+
+### Relações editoriais de navegação (24/11/2026)
+
+O arquivo `trelia-relacoes-editoriais-2026-11-24.json` registra **31 pares** de assuntos relacionados, selecionados por pertinência pedagógica. São vínculos para navegar e comparar institutos, **não** declarações de equivalência jurídica nem recomendações de livro. O gerador `python scripts/gerar_curadoria_novembro.py` publica `relacoes-editoriais.mjs`; o teste `node scripts/check-relacoes-editoriais.mjs` exige existência de todos os temas, ausência de duplicações e reciprocidade.
+
+
+### Relatório integral de consolidação (24/11/2026)
+
+A auditoria executada sobre as 19 áreas e os 308 temas, com indicadores por área, lacunas editoriais, normas para revalidação e fila nominal de 93 temas sem livro específico, está em [docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md](../../docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md). O retrato estruturado fica em `auditoria-snapshot-2026-11-24.json`. Reexecute `node scripts/auditar-catalogo.mjs --strict` após alterações; os dados do snapshot não se atualizam automaticamente.
+
+
+### Expressões adicionais de busca (24/11/2026)
+
+O arquivo `trelia-termos-busca-consolidacao-2026-11-24.json` registra **152 expressões de busca adicionais para os 76 temas da Expansão III**, contemplando as 19 áreas. São variantes linguísticas de descoberta, e não novas fichas ou afirmações jurídicas. O gerador produz `novembro/termos-busca.mjs`, a aplicação agrega os termos aos aliases existentes e `node scripts/check-termos-busca.mjs` verifica vínculos, buscas e colisões de expressões.
+
+
+### Verificação externa suplementar de fontes e bibliografia (24/11/2026)
+
+O arquivo `trelia-verificacao-complementar-2026-11-24.json` registra as **33 fontes oficiais** da Expansão III antes marcadas para reabrir, com status de acesso e distinção expressa entre **fonte localizada** e **revisão normativa substantiva pendente**. Para o tema `recuperacao-extrajudicial-empresa`, o endereço anterior da Lei nº 11.101/2005 não respondeu na consulta externa; a aplicação passa a usar o endereço oficial compilado acessível, sem sobrescrever o lote histórico.
+
+O mesmo arquivo inclui **quatro indicações bibliográficas confirmadas**, de duas edições digitais novas e uma edição impressa já existente: *Manual de Direito Financeiro* (Harrison Leite, 15ª ed. 2026, pp. 343 e 567), *Lei Geral de Proteção de Dados Pessoais Comentada* (Mendes, Rosal e Fernandes, 1ª ed. 2026, cap. V) e *Relatório de Impacto à Proteção de Dados Pessoais* (Maria Cecília Oliveira Gomes, 1ª ed. 2027, seção 2.1). A edição 2027 foi anunciada e publicada no catálogo em 2026. Os livros ficam vinculados às suas fichas de editoras ou sumários, sem reproduzir o conteúdo protegido.
+
+Também foram apontadas cinco normas de atenção especial à **produção de efeitos e vigência**, inclusive regras publicadas em 2026 com entrada em vigor futura. A revalidação de links não elimina o aviso de revisão dos 74 temas. Regenerar com `python scripts/gerar_curadoria_novembro.py` e testar com `node scripts/check-verificacao-complementar.mjs`.

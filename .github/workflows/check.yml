@@ -34,3 +34,21 @@ jobs:
 
       - name: Verificar Expansao Editorial III
         run: node scripts/check-expansao-iii.mjs
+
+      - name: Verificar consolidacao bibliografica I
+        run: node scripts/check-consolidacao-bibliografica-i.mjs
+
+      - name: Auditar catálogo completo
+        run: node scripts/auditar-catalogo.mjs --strict
+
+      - name: Verificar politicas editoriais dos periodicos
+        run: node scripts/check-politicas-periodicos.mjs
+
+      - name: Verificar relacoes editoriais
+        run: node scripts/check-relacoes-editoriais.mjs
+
+      - name: Verificar termos adicionais de busca
+        run: node scripts/check-termos-busca.mjs
+
+      - name: Verificar fontes oficiais e bibliografia adicional
+        run: node scripts/check-verificacao-complementar.mjs
