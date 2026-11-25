@@ -23,7 +23,7 @@ for (const item of lot.indicacoes_de_livro) {
   assert.equal(ref?.where, "Página " + item.localizacao.pagina, item.tema_id);
   assert.equal(ref?.url, item.evidencia.url, item.tema_id);
   assert.equal(topic.recommendations[book.id]?.reason, item.por_que_ler);
-  assert.ok(findEntries(item.tema_id).length > 0, "A pesquisa permanece funcional");
+  assert.ok(findEntries(topic.title).some(hit => hit.route === "livros/" + topic.id), "A pesquisa pelo título permanece funcional: " + topic.title);
 }
 assert.ok(!lot.indicacoes_de_livro.some(item => item.tema_id === "protecao-software-direito-autoral"));
 console.log("Consolidação I: duas referências da 2ª edição do Barbosa e pendência de software preservadas.");
