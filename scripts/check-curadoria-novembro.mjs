@@ -3,6 +3,8 @@ import { readFileSync } from "node:fs";
 import { bibliography, books, catalog, findEntries, topics } from "../dist/data.mjs";
 import { novemberTopicId } from "../dist/catalogo/ampliado/curadoria-novembro.mjs";
 import { readingEvidence } from "../dist/catalogo/leituras.mjs";
+import cycle2 from "../dist/catalogo/ampliado/novembro/ciclo-2.mjs";
+const newlyCovered = new Map(cycle2.indicacoes_novas.map(item => [item.tema_id, item.obra_id]));
 
 const read = name => JSON.parse(readFileSync(new URL("../data/catalogo/" + name, import.meta.url)));
 const expansion = read("trelia-expansao-temas-2026-11-22.json");
@@ -20,7 +22,9 @@ for (const item of [...expansion.temas, ...balanced.temas]) {
   assert.ok(topic.answer && topic.studyOrientation, id);
   assert.ok(findEntries(item.pergunta).some(hit => hit.route === "livros/" + id), item.pergunta);
   if (item.status_editorial === "texto_preparado_com_base_normativa_verificada" && id === item.id) {
-    assert.deepEqual(topic.recommendations, {});
+    const addedBook = newlyCovered.get(id);
+    if (addedBook) assert.ok(topic.recommendations[addedBook], "Nova indicação documentada ausente: " + id);
+    else assert.deepEqual(topic.recommendations, {}, "Indicação não documentada no lote posterior: " + id);
   }
 }
 for (const item of expansion.verificacao_busca.consultas) {

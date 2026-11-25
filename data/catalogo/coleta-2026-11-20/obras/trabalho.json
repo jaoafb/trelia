@@ -1805,6 +1805,7 @@
     "id": "renzetti",
     "titulo": "Livro Aula: Direito do Trabalho",
     "autores": [
+      "Renato Saraiva",
       "Rogério Renzetti"
     ],
     "areas": [
@@ -1815,7 +1816,7 @@
         "area": "Trabalho",
         "obra_id": "renzetti",
         "titulo": "Livro Aula: Direito do Trabalho",
-        "autoria": "Rogério Renzetti",
+        "autoria": "Renato Saraiva; Rogério Renzetti",
         "ano": "2026",
         "numero_edicao": "27",
         "volume": "",

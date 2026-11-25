@@ -129,3 +129,10 @@ A fonte editorial `trelia-ciclo1-qualidade-bibliografica-2026-11-25.json` regist
 O vínculo por livro e edição registra somente **capítulo**, pois as fichas oficiais não forneceram páginas. Duas lacunas permanecem sem indicação específica: `restricoes-verticais-distribuicao` e `estabilidade-gestante-emprego`. A fonte do livro histórico de Denis Borges Barbosa apresentou timeout nesta consulta; sua recomendação anterior não foi alterada, mas deve passar por nova conferência de acesso. As 25 consultas do piloto são reaproveitadas como expressões de busca e possuem testes de destino.
 
 Executar `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-ciclo1-bibliografia.mjs`. O relatório de amostragem registra o que foi confirmado, o que não foi e a origem editorial; não representa leitura integral de todos os livros.
+
+
+### Ciclo 2 — Redução das lacunas (25/11/2026)
+
+O lote `trelia-ciclo2-bibliografia-2026-11-25.json` registra **25 temas sem indicação** em cinco áreas, com **17 vínculos aprovados** por sumários das edições de 2026 e **8 pendências preservadas**. O catálogo reutiliza três obras já existentes e acrescenta só duas novas. A autoria de `renzetti` foi corrigida para Renato Saraiva e Rogério Renzetti a partir da ficha e sumário da edição indicada. Não são criados temas nem novas interfaces. A página informada corresponde à paginação do livro mostrada no sumário, não ao número da página visual do PDF.
+
+O módulo `novembro/ciclo-2.mjs` é gerado por `python scripts/gerar_curadoria_novembro.py`. O teste `node scripts/check-ciclo2-bibliografia.mjs` preserva os campos verificáveis, as buscas e os casos não comprovados.

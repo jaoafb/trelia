@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "id": "trelia-ciclo2-bibliografia-2026-11-25",
+  "data_curadoria": "2026-11-25",
+  "base": "main pós PR #21",
+  "objetivo": "Resolver lacunas específicas do catálogo a partir da evidência da edição, sem adicionar temas nem novas funcionalidades.",
+  "escopo": "25 temas sem recomendações nas áreas prioritárias Empresarial, Trabalho, Econômico, Constitucional e Ambiental.",
+  "metodologia": "ISBN e edição conferidos nas fichas de editoras; secao e pagina no sumário da edição. As localizações referem-se à paginação impressa indicada no sumário; não implica leitura integral. Um assunto mais amplo não comprova recorte especializado. Foram reutilizadas as obras já presentes no catálogo quando possível.",
+  "amostra": [
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "titulo": "Direitos essenciais dos acionistas",
+      "area_id": "empresarial",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "O sumário encontrado indica 'o acionista' (p. 217), mas não comprova seção especificamente dedicada aos direitos essenciais dos acionistas; não presumir equivalência."
+    },
+    {
+      "tema_id": "duplicata-mercantil",
+      "titulo": "Duplicata mercantil e sua circulação",
+      "area_id": "empresarial",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "localizacao": {
+        "pagina": 357,
+        "secao": "Capítulo 3, V — Duplicata"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+      "justificativa": "A seção específica sobre duplicata, com itens de emissão, circulação, aceite e duplicata escritural, ajuda a localizar o regime cambiário em uma única leitura."
+    },
+    {
+      "tema_id": "estabelecimento-empresarial",
+      "titulo": "Estabelecimento empresarial",
+      "area_id": "empresarial",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "localizacao": {
+        "pagina": 98,
+        "secao": "Capítulo 1, VII — Estabelecimento e seu regime jurídico"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+      "justificativa": "A seção trata da caracterização, dos elementos e dos negócios sobre o estabelecimento, útil para diferenciar a organização de bens da própria sociedade empresária."
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "titulo": "Nome empresarial e sua proteção",
+      "area_id": "empresarial",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "localizacao": {
+        "pagina": 85,
+        "secao": "Capítulo 1, VI — Nome empresarial"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+      "justificativa": "A seção identifica firma, denominação, registro e efeitos, oferecendo um ponto de partida específico para compreender a proteção do nome empresarial."
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "titulo": "Recuperação extrajudicial de empresas",
+      "area_id": "empresarial",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "localizacao": {
+        "pagina": 816,
+        "secao": "Capítulo sobre falência e recuperação, V — Recuperação extrajudicial"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+      "justificativa": "A seção aborda requisitos, plano, modalidades, procedimento e homologação, permitindo diferenciar a recuperação extrajudicial do procedimento judicial."
+    },
+    {
+      "tema_id": "titulos-credito-requisitos",
+      "titulo": "Títulos de crédito e seus requisitos",
+      "area_id": "empresarial",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "localizacao": {
+        "pagina": 323,
+        "secao": "Capítulo 3, I — Conceito e princípios dos títulos de crédito"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+      "justificativa": "A abertura do capítulo trabalha conceito, princípios cambiais, classificação e formalismo, preparando a leitura dos títulos em espécie."
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "titulo": "Contrato de trabalho intermitente",
+      "area_id": "trabalho",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "localizacao": {
+        "pagina": 104,
+        "secao": "Capítulo 2, item 2.6.7 — Contrato intermitente"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+      "justificativa": "O item está dedicado ao contrato intermitente dentro das modalidades contratuais, útil para localizá-lo e compará-lo ao contrato por prazo determinado."
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "titulo": "Equiparação salarial e trabalho de igual valor",
+      "area_id": "trabalho",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "localizacao": {
+        "pagina": 183,
+        "secao": "Capítulo 5, item 5.4 — Equiparação salarial"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+      "justificativa": "O item de equiparação aparece no capítulo sobre remuneração e salário, permitindo estudar o instituto junto às regras de proteção salarial."
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "titulo": "Negociação coletiva e limites legais",
+      "area_id": "trabalho",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "A seção sobre validade e formalidades de acordo coletivo (p. 352) não demonstra cobertura precisa dos limites materiais legais à negociação; a hipótese permanece candidata."
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "titulo": "Proteção da gestante contra dispensa arbitrária",
+      "area_id": "trabalho",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "localizacao": {
+        "pagina": 280,
+        "secao": "Capítulo 8, item 8.3.3.3 — Gestante"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+      "justificativa": "A parte de estabilidade provisória separa expressamente a proteção da gestante de outras hipóteses de garantia do emprego."
+    },
+    {
+      "tema_id": "teletrabalho-clt",
+      "titulo": "Teletrabalho e trabalho remoto",
+      "area_id": "trabalho",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "localizacao": {
+        "pagina": 69,
+        "secao": "Capítulo 2, item 2.3.1.3 — Trabalho em domicílio e teletrabalho"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+      "justificativa": "A seção relaciona o teletrabalho às modalidades de prestação do trabalho e ajuda a distinguir local de execução e vínculo empregatício."
+    },
+    {
+      "tema_id": "proposta-negociacao-coletiva",
+      "titulo": "Acordo e convenção coletiva de trabalho",
+      "area_id": "trabalho",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "localizacao": {
+        "pagina": 348,
+        "secao": "Capítulo 11, item 11.3 — Convenção e acordo coletivo de trabalho"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+      "justificativa": "A seção apresenta convenção e acordo coletivo com conceito, sujeitos, natureza jurídica, formalidades e controvérsias."
+    },
+    {
+      "tema_id": "discriminacao-acesso-trabalho",
+      "titulo": "Discriminação no acesso e manutenção do trabalho",
+      "area_id": "trabalho",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "Ainda sem trecho de edição identificado com recorte de discriminação no ingresso e manutenção da relação de trabalho."
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "titulo": "Acordos verticais e distribuição exclusiva",
+      "area_id": "economico",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "bensoussan-gouvea-luz",
+      "edicao_id": "9788544271858",
+      "localizacao": {
+        "pagina": 798,
+        "secao": "Capítulo 12, item 2.4 — Acordos verticais"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf",
+      "justificativa": "O item específico de acordos verticais permite iniciar o estudo de restrições entre agentes em etapas distintas da cadeia de distribuição; a aplicação a uma cláusula concreta exige leitura da obra."
+    },
+    {
+      "tema_id": "exclusividade-plataformas-digitais",
+      "titulo": "Cláusulas de exclusividade em plataformas digitais",
+      "area_id": "economico",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "A seção 'Exclusividade' (p. 817) aborda a prática concorrencial em geral, não comprova capítulo sobre cláusulas de exclusividade de plataformas digitais."
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "titulo": "Preços predatórios e abuso de posição dominante",
+      "area_id": "economico",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "O sumário usa 'Práticas predatórias' (p. 806), sem confirmar especificamente preços predatórios e abuso de posição dominante."
+    },
+    {
+      "tema_id": "compliance-concorrencial",
+      "titulo": "Programas de compliance concorrencial",
+      "area_id": "economico",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "A obra trata de direito antitruste, mas o sumário não demonstra seção sobre programas de compliance concorrencial."
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "titulo": "Remédios antitruste no controle de fusões",
+      "area_id": "economico",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "O sumário lista aprovação condicionada de concentrações (p. 780), porém não descreve remédios antitruste com precisão suficiente para o tema."
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "titulo": "Troca de informações sensíveis entre concorrentes",
+      "area_id": "economico",
+      "estado": "pendente_sem_evidencia_especifica",
+      "motivo_pendencia": "A seção de acordos entre empresas não comprova discussão específica sobre intercâmbio de informações sensíveis entre concorrentes."
+    },
+    {
+      "tema_id": "direito-reuniao-manifestacao",
+      "titulo": "Direito de reunião e manifestação",
+      "area_id": "constitucional",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "localizacao": {
+        "pagina": 226,
+        "secao": "Capítulo 5, item 5.7 — Liberdade de reunião"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+      "justificativa": "O sumário identifica uma seção dedicada à liberdade de reunião, localizada no conjunto das liberdades individuais e da manifestação do pensamento."
+    },
+    {
+      "tema_id": "estado-defesa-estado-sitio",
+      "titulo": "Estado de defesa e estado de sítio",
+      "area_id": "constitucional",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "localizacao": {
+        "pagina": 1079,
+        "secao": "Capítulo 19, itens 3 e 4 — Estado de Defesa e Estado de Sítio"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+      "justificativa": "As duas seções consecutivas permitem comparar pressupostos, procedimentos, medidas e controles dos estados excepcionais."
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "titulo": "Iniciativa popular de projetos de lei",
+      "area_id": "constitucional",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "localizacao": {
+        "pagina": 343,
+        "secao": "Capítulo sobre Direitos Políticos, item 4.1.4 — Iniciativa popular de leis"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+      "justificativa": "A iniciativa popular de leis aparece no contexto da soberania popular e dos direitos políticos positivos, com seção expressa no sumário."
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "titulo": "Intervenção federal nos estados",
+      "area_id": "constitucional",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "localizacao": {
+        "pagina": 545,
+        "secao": "Capítulo 11, item 4.1 — Intervenção federal"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+      "justificativa": "A seção do capítulo sobre intervenção distingue modalidade federal e estadual e permite estudar seus pressupostos a partir de um recorte específico."
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "titulo": "Prevenção e precaução no Direito Ambiental",
+      "area_id": "ambiental",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "localizacao": {
+        "pagina": 63,
+        "secao": "Capítulo 2, item 4 — Princípios da prevenção e da precaução"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+      "justificativa": "O item reúne expressamente prevenção e precaução e oferece quadro comparativo indicado na página 70, útil para distingui-los."
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "titulo": "Responsabilidade penal da pessoa jurídica por crime ambiental",
+      "area_id": "ambiental",
+      "estado": "aprovado_para_integracao",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "localizacao": {
+        "pagina": 627,
+        "secao": "Capítulo 12, item 2 — Responsabilidade penal ambiental"
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+      "justificativa": "O capítulo de tutela penal ambiental trata de responsabilidade penal e inclui penas aplicáveis às pessoas jurídicas na página 639; recomenda-se ler as duas seções em conjunto."
+    }
+  ],
+  "obras_novas": [
+    {
+      "id": "bensoussan-boiteux-empresarial-2026",
+      "title": "Manual de Direito Empresarial",
+      "author": "Fabio Guimarães Bensoussan; Fernando Netto Boiteux",
+      "area": "empresarial",
+      "editions": [
+        {
+          "id": "9788544276334",
+          "isbn": "9788544276334",
+          "name": "5ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Editora Juspodivm",
+          "access": "Ficha editorial e sumário",
+          "source": "https://www.editorajuspodivm.com.br/manual-de-direito-empresarial-2026-bensoussan-boiteux",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "nathalia-masson-constitucional-2026",
+      "title": "Manual de Direito Constitucional",
+      "author": "Nathalia Masson",
+      "area": "constitucional",
+      "editions": [
+        {
+          "id": "9788544269848",
+          "isbn": "9788544269848",
+          "name": "14ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Editora Juspodivm",
+          "access": "Ficha editorial e sumário",
+          "source": "https://www.editorajuspodivm.com.br/manual-de-direito-constitucional-2026-curso-de-atualizacao-masson",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    }
+  ],
+  "indicacoes_novas": [
+    {
+      "tema_id": "duplicata-mercantil",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "isbn": "9788544276334",
+      "localizacao": {
+        "pagina": 357,
+        "secao": "Capítulo 3, V — Duplicata"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 3, V — Duplicata",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção específica sobre duplicata, com itens de emissão, circulação, aceite e duplicata escritural, ajuda a localizar o regime cambiário em uma única leitura."
+    },
+    {
+      "tema_id": "estabelecimento-empresarial",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "isbn": "9788544276334",
+      "localizacao": {
+        "pagina": 98,
+        "secao": "Capítulo 1, VII — Estabelecimento e seu regime jurídico"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 1, VII — Estabelecimento e seu regime jurídico",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção trata da caracterização, dos elementos e dos negócios sobre o estabelecimento, útil para diferenciar a organização de bens da própria sociedade empresária."
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "isbn": "9788544276334",
+      "localizacao": {
+        "pagina": 85,
+        "secao": "Capítulo 1, VI — Nome empresarial"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 1, VI — Nome empresarial",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção identifica firma, denominação, registro e efeitos, oferecendo um ponto de partida específico para compreender a proteção do nome empresarial."
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "isbn": "9788544276334",
+      "localizacao": {
+        "pagina": 816,
+        "secao": "Capítulo sobre falência e recuperação, V — Recuperação extrajudicial"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo sobre falência e recuperação, V — Recuperação extrajudicial",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção aborda requisitos, plano, modalidades, procedimento e homologação, permitindo diferenciar a recuperação extrajudicial do procedimento judicial."
+    },
+    {
+      "tema_id": "titulos-credito-requisitos",
+      "obra_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_id": "9788544276334",
+      "isbn": "9788544276334",
+      "localizacao": {
+        "pagina": 323,
+        "secao": "Capítulo 3, I — Conceito e princípios dos títulos de crédito"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 3, I — Conceito e princípios dos títulos de crédito",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A abertura do capítulo trabalha conceito, princípios cambiais, classificação e formalismo, preparando a leitura dos títulos em espécie."
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "isbn": "9788544273753",
+      "localizacao": {
+        "pagina": 104,
+        "secao": "Capítulo 2, item 2.6.7 — Contrato intermitente"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 2, item 2.6.7 — Contrato intermitente",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O item está dedicado ao contrato intermitente dentro das modalidades contratuais, útil para localizá-lo e compará-lo ao contrato por prazo determinado."
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "isbn": "9788544273753",
+      "localizacao": {
+        "pagina": 183,
+        "secao": "Capítulo 5, item 5.4 — Equiparação salarial"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 5, item 5.4 — Equiparação salarial",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O item de equiparação aparece no capítulo sobre remuneração e salário, permitindo estudar o instituto junto às regras de proteção salarial."
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "isbn": "9788544273753",
+      "localizacao": {
+        "pagina": 280,
+        "secao": "Capítulo 8, item 8.3.3.3 — Gestante"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 8, item 8.3.3.3 — Gestante",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A parte de estabilidade provisória separa expressamente a proteção da gestante de outras hipóteses de garantia do emprego."
+    },
+    {
+      "tema_id": "teletrabalho-clt",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "isbn": "9788544273753",
+      "localizacao": {
+        "pagina": 69,
+        "secao": "Capítulo 2, item 2.3.1.3 — Trabalho em domicílio e teletrabalho"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 2, item 2.3.1.3 — Trabalho em domicílio e teletrabalho",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção relaciona o teletrabalho às modalidades de prestação do trabalho e ajuda a distinguir local de execução e vínculo empregatício."
+    },
+    {
+      "tema_id": "proposta-negociacao-coletiva",
+      "obra_id": "renzetti",
+      "edicao_id": "9788544273753",
+      "isbn": "9788544273753",
+      "localizacao": {
+        "pagina": 348,
+        "secao": "Capítulo 11, item 11.3 — Convenção e acordo coletivo de trabalho"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 11, item 11.3 — Convenção e acordo coletivo de trabalho",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção apresenta convenção e acordo coletivo com conceito, sujeitos, natureza jurídica, formalidades e controvérsias."
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "obra_id": "bensoussan-gouvea-luz",
+      "edicao_id": "9788544271858",
+      "isbn": "9788544271858",
+      "localizacao": {
+        "pagina": 798,
+        "secao": "Capítulo 12, item 2.4 — Acordos verticais"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 12, item 2.4 — Acordos verticais",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O item específico de acordos verticais permite iniciar o estudo de restrições entre agentes em etapas distintas da cadeia de distribuição; a aplicação a uma cláusula concreta exige leitura da obra."
+    },
+    {
+      "tema_id": "direito-reuniao-manifestacao",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "isbn": "9788544269848",
+      "localizacao": {
+        "pagina": 226,
+        "secao": "Capítulo 5, item 5.7 — Liberdade de reunião"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 5, item 5.7 — Liberdade de reunião",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O sumário identifica uma seção dedicada à liberdade de reunião, localizada no conjunto das liberdades individuais e da manifestação do pensamento."
+    },
+    {
+      "tema_id": "estado-defesa-estado-sitio",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "isbn": "9788544269848",
+      "localizacao": {
+        "pagina": 1079,
+        "secao": "Capítulo 19, itens 3 e 4 — Estado de Defesa e Estado de Sítio"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 19, itens 3 e 4 — Estado de Defesa e Estado de Sítio",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "As duas seções consecutivas permitem comparar pressupostos, procedimentos, medidas e controles dos estados excepcionais."
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "isbn": "9788544269848",
+      "localizacao": {
+        "pagina": 343,
+        "secao": "Capítulo sobre Direitos Políticos, item 4.1.4 — Iniciativa popular de leis"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo sobre Direitos Políticos, item 4.1.4 — Iniciativa popular de leis",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A iniciativa popular de leis aparece no contexto da soberania popular e dos direitos políticos positivos, com seção expressa no sumário."
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "obra_id": "nathalia-masson-constitucional-2026",
+      "edicao_id": "9788544269848",
+      "isbn": "9788544269848",
+      "localizacao": {
+        "pagina": 545,
+        "secao": "Capítulo 11, item 4.1 — Intervenção federal"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 11, item 4.1 — Intervenção federal",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "A seção do capítulo sobre intervenção distingue modalidade federal e estadual e permite estudar seus pressupostos a partir de um recorte específico."
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "isbn": "9788544275641",
+      "localizacao": {
+        "pagina": 63,
+        "secao": "Capítulo 2, item 4 — Princípios da prevenção e da precaução"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 2, item 4 — Princípios da prevenção e da precaução",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O item reúne expressamente prevenção e precaução e oferece quadro comparativo indicado na página 70, útil para distingui-los."
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "isbn": "9788544275641",
+      "localizacao": {
+        "pagina": 627,
+        "secao": "Capítulo 12, item 2 — Responsabilidade penal ambiental"
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo 12, item 2 — Responsabilidade penal ambiental",
+        "conferido_em": "2026-11-25"
+      },
+      "por_que_ler": "O capítulo de tutela penal ambiental trata de responsabilidade penal e inclui penas aplicáveis às pessoas jurídicas na página 639; recomenda-se ler as duas seções em conjunto."
+    }
+  ],
+  "consultas_editoriais": [
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "consulta": "Direitos essenciais dos acionistas"
+    },
+    {
+      "tema_id": "duplicata-mercantil",
+      "consulta": "Duplicata mercantil e sua circulação"
+    },
+    {
+      "tema_id": "estabelecimento-empresarial",
+      "consulta": "Estabelecimento empresarial"
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "consulta": "Nome empresarial e sua proteção"
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "consulta": "Recuperação extrajudicial de empresas"
+    },
+    {
+      "tema_id": "titulos-credito-requisitos",
+      "consulta": "Títulos de crédito e seus requisitos"
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "consulta": "Contrato de trabalho intermitente"
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "consulta": "Equiparação salarial e trabalho de igual valor"
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "consulta": "Negociação coletiva e limites legais"
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "consulta": "Proteção da gestante contra dispensa arbitrária"
+    },
+    {
+      "tema_id": "teletrabalho-clt",
+      "consulta": "Teletrabalho e trabalho remoto"
+    },
+    {
+      "tema_id": "proposta-negociacao-coletiva",
+      "consulta": "Acordo e convenção coletiva de trabalho"
+    },
+    {
+      "tema_id": "discriminacao-acesso-trabalho",
+      "consulta": "Discriminação no acesso e manutenção do trabalho"
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "consulta": "Acordos verticais e distribuição exclusiva"
+    },
+    {
+      "tema_id": "exclusividade-plataformas-digitais",
+      "consulta": "Cláusulas de exclusividade em plataformas digitais"
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "consulta": "Preços predatórios e abuso de posição dominante"
+    },
+    {
+      "tema_id": "compliance-concorrencial",
+      "consulta": "Programas de compliance concorrencial"
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "consulta": "Remédios antitruste no controle de fusões"
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "consulta": "Troca de informações sensíveis entre concorrentes"
+    },
+    {
+      "tema_id": "direito-reuniao-manifestacao",
+      "consulta": "Direito de reunião e manifestação"
+    },
+    {
+      "tema_id": "estado-defesa-estado-sitio",
+      "consulta": "Estado de defesa e estado de sítio"
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "consulta": "Iniciativa popular de projetos de lei"
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "consulta": "Intervenção federal nos estados"
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "consulta": "Prevenção e precaução no Direito Ambiental"
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "consulta": "Responsabilidade penal da pessoa jurídica por crime ambiental"
+    }
+  ],
+  "fontes_editoriais": [
+    {
+      "livro_id": "bensoussan-boiteux-empresarial-2026",
+      "edicao_isbn": "9788544276334",
+      "url_ficha": "https://www.editorajuspodivm.com.br/manual-de-direito-empresarial-2026-bensoussan-boiteux",
+      "url_sumario": "https://juspodivmdigital.com.br/cdn/pdf/JUS5143-Sumario.pdf"
+    },
+    {
+      "livro_id": "renzetti",
+      "edicao_isbn": "9788544273753",
+      "url_ficha": "https://www.editorajuspodivm.com.br/livro-aula-direito-do-trabalho-2026-rogerio-renzetti",
+      "url_sumario": "https://juspodivmdigital.com.br/cdn/pdf/JUS5381-Sumario.pdf"
+    },
+    {
+      "livro_id": "bensoussan-gouvea-luz",
+      "edicao_isbn": "9788544271858",
+      "url_ficha": "https://www.editorajuspodivm.com.br/manual-de-direito-economico-2026-bensoussan-gouvea-luz",
+      "url_sumario": "https://juspodivmdigital.com.br/cdn/pdf/JUS5561-Sumario.pdf"
+    },
+    {
+      "livro_id": "nathalia-masson-constitucional-2026",
+      "edicao_isbn": "9788544269848",
+      "url_ficha": "https://www.editorajuspodivm.com.br/manual-de-direito-constitucional-2026-curso-de-atualizacao-masson",
+      "url_sumario": "https://juspodivmdigital.com.br/cdn/pdf/JUS5006-Sumario.pdf"
+    },
+    {
+      "livro_id": "thome-manual-ambiental-2026",
+      "edicao_isbn": "9788544275641",
+      "url_ficha": "https://www.editorajuspodivm.com.br/manual-de-direito-ambiental-2026-thome",
+      "url_sumario": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf"
+    }
+  ],
+  "pendencias": [
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "motivo": "O sumário encontrado indica 'o acionista' (p. 217), mas não comprova seção especificamente dedicada aos direitos essenciais dos acionistas; não presumir equivalência."
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "motivo": "A seção sobre validade e formalidades de acordo coletivo (p. 352) não demonstra cobertura precisa dos limites materiais legais à negociação; a hipótese permanece candidata."
+    },
+    {
+      "tema_id": "discriminacao-acesso-trabalho",
+      "motivo": "Ainda sem trecho de edição identificado com recorte de discriminação no ingresso e manutenção da relação de trabalho."
+    },
+    {
+      "tema_id": "exclusividade-plataformas-digitais",
+      "motivo": "A seção 'Exclusividade' (p. 817) aborda a prática concorrencial em geral, não comprova capítulo sobre cláusulas de exclusividade de plataformas digitais."
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "motivo": "O sumário usa 'Práticas predatórias' (p. 806), sem confirmar especificamente preços predatórios e abuso de posição dominante."
+    },
+    {
+      "tema_id": "compliance-concorrencial",
+      "motivo": "A obra trata de direito antitruste, mas o sumário não demonstra seção sobre programas de compliance concorrencial."
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "motivo": "O sumário lista aprovação condicionada de concentrações (p. 780), porém não descreve remédios antitruste com precisão suficiente para o tema."
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "motivo": "A seção de acordos entre empresas não comprova discussão específica sobre intercâmbio de informações sensíveis entre concorrentes."
+    }
+  ]
+}

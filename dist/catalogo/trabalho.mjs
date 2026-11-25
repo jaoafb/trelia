@@ -72,7 +72,7 @@ export default {
       "id": "renzetti",
       "area": "trabalho",
       "title": "Livro Aula: Direito do Trabalho",
-      "author": "Rogério Renzetti",
+      "author": "Renato Saraiva; Rogério Renzetti",
       "label": "Revisão organizada por aula",
       "editions": [
         {

@@ -1,6 +1,7 @@
 import third from "./novembro/expansao-iii.mjs";
 import consolidation from "./novembro/consolidacao-i.mjs";
 import ciclo1 from "./novembro/ciclo-1.mjs";
+import ciclo2 from "./novembro/ciclo-2.mjs";
 import checked from "./novembro/verificacao-complementar.mjs";
 const validUrls = new Map(checked.fontes_oficiais.map(item => [item.id, item.url_conferida]));
 import expansion from "./novembro/expansao.mjs";
@@ -40,6 +41,10 @@ export function addNovemberBooks(books) {
   const entries = new Map(addExpansionBooks(books).map(book => [book.id, book]));
   for (const item of ciclo1.obras_novas) {
     if (entries.has(item.id)) throw new Error("Obra duplicada no Ciclo 1: " + item.id);
+    entries.set(item.id, item);
+  }
+  for (const item of ciclo2.obras_novas) {
+    if (entries.has(item.id) || [...entries.values()].some(book => book.editions.some(ed => ed.isbn === item.editions[0].isbn))) throw new Error("Obra ou ISBN duplicado no Ciclo 2: " + item.id);
     entries.set(item.id, item);
   }
   for (const item of checked.livros_novos) {
@@ -113,7 +118,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas, ...ciclo2.indicacoes_novas]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));
