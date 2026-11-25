@@ -1,8 +1,9 @@
+import { starterReading } from "./ui/orientacao-disciplina.mjs?v=marco1-3";
 import { bindSavedReadings, readingSaver, savedReadingsPage } from "./ui/minhas-leituras.mjs?v=ux-review";
 import { researchSection } from "./ui/pesquisas.mjs?v=ciclo1-bibliografia";
 import { legislationSection } from "./ui/legislacao.mjs?v=card-alignment";
 import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs?v=card-alignment";
-import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=ciclo1-bibliografia";
+import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=marco1-3";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
 import { orderedReadings, readingEvidence, defaultReadingEdition } from "./catalogo/leituras.mjs";
@@ -274,6 +275,7 @@ function coursePage(area) {
     <section class="page-heading"><h1>${h(area.course.title)}</h1><p>Explore os temas da disciplina ou escolha uma obra para consultar.</p>
       ${area.books.length ? '<button class="text-link discipline-shortcut" data-page-section="discipline-books">Ir à bibliografia</button>' : ""}
     </section>
+    ${starterReading(area.course.id, books, external)}
     <section class="discipline-section" aria-labelledby="discipline-topics">
       <div class="section-heading"><h2 id="discipline-topics">Temas cobertos</h2></div>
       ${topicGrid("livros", area.topics)}

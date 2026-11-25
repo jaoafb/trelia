@@ -19,7 +19,7 @@ for (const row of lot.indicacoes) {
 for (const material of materials.values()) {
   if (sources.get(material.fonte_id)?.material_id !== material.id
       || material.login_necessario !== false
-      || !["texto_integral_aberto", "capitulo_integral_aberto"].includes(material.tipo_acesso)
+      || !["texto_integral_aberto", "capitulo_integral_aberto", "pagina_institucional_aberta"].includes(material.tipo_acesso)
       || sources.get(material.fonte_id).url_leitura_conferida !== material.link_leitura
       || ![material.link_leitura, material.link_origem].every(url => /^https:\/\//.test(url))) {
     throw new Error("Acesso ou procedência inválida: " + material.id);

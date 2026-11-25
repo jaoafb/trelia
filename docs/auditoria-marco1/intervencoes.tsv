@@ -1,0 +1,75 @@
+tema_id	escopo_da_revisao	decisao	fonte
+regime-juridico-bens-publicos	Três categorias, alienação e imprescritibilidade aquisitiva; CC 98–103.	validada	https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+concessao-permissao	Licitação, contrato, precariedade e distinções; CF 175, Lei 8.987/95. Alias concessao-permissao-servico-publico.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8987compilada.htm
+controle-externo-tribunais-contas	Competências Legislativo/TC; contas anuais e tomada de contas especial; CF 70–75, STF Temas 157, 835, 1287.	Cruzar alcance dos três temas do STF para prestação de contas, tomada especial e efeitos eleitorais.	—
+desapropriacao-utilidade-publica	Indenização prévia, justa, em dinheiro e exceções; CF 5º XXIV, DL 3.365/41.	validada	https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm
+competencia-ambiental-lc140	Licenciamento/fiscalização, atuação supletiva e subsidiária; LC 140/11, leis 15.190/25 e 15.300/25; atualização pendente.	Conciliar a LC 140 com as alterações recentes no licenciamento e conferir vigência e controle judicial.	—
+pagamento-servicos-ambientais	Pagador, provedor e serviço; Lei 14.119/21 arts. 2–7.	validada	https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14119.htm
+principios-prevencao-precaucao-ambiental	Risco conhecido versus incerteza científica; distinção doutrinária, não definição legal universal; CF 225, Lei 6.938/81.	validada	https://www.planalto.gov.br/ccivil_03/leis/l6938.htm
+responsabilidade-penal-pessoa-juridica-ambiental	Requisitos de imputação, sem dupla imputação obrigatória; CF 225 §3º, Lei 9.605/98 arts. 2–4, RE 548.181.	validada	https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=225&abrirBase=CF
+eviccao-contratos	Garantia por direito de terceiro, distinta de vício redibitório; CC 447–457.	validada	https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+guarda-compartilhada-convivencia	Risco de violência doméstica ou familiar; CC 1.583–1.584, Lei 14.713/23.	validada	https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+regimes-bens-casamento	Regime supletivo e separação obrigatória acima de 70 anos; CC 1.639–1.688, Tema 1236 STF.	validada	https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=6096433&numeroTema=1236
+uniao-estavel-efeitos-patrimoniais	Requisitos e comunhão parcial salvo contrato escrito; CC 1.723–1.727; Tema 1236.	validada	https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=6096433&numeroTema=1236
+comissao-parlamentar-inquerito	1/3 dos membros, fato determinado, prazo certo, reserva de jurisdição; CF 58 §3º.	validada	https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF
+direito-fundamental-educacao	Direito público subjetivo ao ensino obrigatório e gratuito; CF 205–214, especialmente 208.	validada	https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+iniciativa-popular-projeto-lei	1% eleitorado nacional, pelo menos cinco estados, 0,3% de cada um; CF 14, 61 §2º.	validada	https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+intervencao-federal	Hipóteses, provocação, decreto, controle; CF 34–36.	validada	https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+cobranca-indebita-consumo	Pagamento indevido, dobro, engano justificável, boa-fé objetiva; CDC 42 par. único, STJ Tema 929; efeitos temporais pendentes.	Confirmar estado do repetitivo 929 e efeitos temporais do entendimento da Corte Especial.	—
+contratos-adesao-consumo	Interpretação favorável, cláusulas limitativas; CDC 46–54.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm
+praticas-abusivas-art39	Rol exemplificativo e venda casada; CDC 39.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm
+recall-produtos-seguranca	Comunicação, prevenção e reparação; CDC 8–12.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm
+relatorio-impacto-protecao-dados	Controlador, conteúdo mínimo e hipóteses de exigência; LGPD 5 XVII, 10 §3º, 38; ANPD.	validada	https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd
+revisao-decisoes-automatizadas-lgpd	Direito de solicitar revisão não implica obrigação geral de revisão humana; LGPD 20.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+seguranca-desde-concepcao-lgpd	Medidas técnicas e administrativas desde concepção até execução; LGPD 46 §2º.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+transferencia-internacional-dados-lgpd	Adequação, cláusulas e outros mecanismos; LGPD 33–36, Res. ANPD 19/2024.	validada	https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024
+restricoes-verticais-distribuicao	Poder de mercado, efeitos, eficiências; Lei 12.529/11 art. 36.	validada	https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm
+precos-predatorios-concorrencia	Distinguir competição de exclusão; custos/contexto, Lei 12.529 art. 36.	validada	https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm
+proposta-remedios-antitruste	Estruturais/comportamentais, proporcionalidade, monitoramento; arts. 61 e 88, guias Cade. Alias remedios-antitruste-concentracoes.	validada	https://www.gov.br/cade/pt-br/assuntos/noticias/cade-lanca-guia-sobre-remedios-antitruste/
+troca-informacoes-sensiveis-concorrentes	Dados estratégicos e contextos legítimos; art. 36 e guias Cade.	validada	https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm
+abuso-poder-economico-eleitoral	Gravidade, sem necessidade de mudança de resultado; LC 64/90 art. 22.	validada	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm
+condutas-vedadas-agentes-publicos	Condutas, prazos e sanções; Lei 9.504/97 arts. 73–78.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9504.htm
+cotas-genero-candidaturas	30% mínimo, consequências de fraude; Lei 9.504 art. 10 §3º, Súmula 73 TSE.	validada	https://sintse.tse.jus.br/documentos/2024/Jun/3/diario-da-justica-eletronico-tse/pa-no-0000323-45-2013-6-00-0000-df-o-tribunal-por-maioria-aprovou-a-criacao-da-sumula-no-73-do-tse
+doacoes-financiamento-campanha	Fontes, doações, recursos próprios, fundos e vedações; arts. 20–32, normas eleitorais 2026.	validada	https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-759-de-26-de-fevereiro-de-2026
+direitos-acionistas-sociedade-anonima	Direitos essenciais versus voto; Lei 6.404/76 art. 109.	validada	https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm
+duplicata-mercantil	Emissão, aceite, circulação e protesto; Lei 5.474/68 e Lei 13.775/18.	validada	https://www.planalto.gov.br/ccivil_03/leis/l5474.htm
+nome-empresarial-protecao	Nome versus marca, regimes e proteção; CC 1.155–1.168, LPI 122/129.	validada	https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+recuperacao-extrajudicial-empresa	Créditos, requisitos, homologação consensual e extensão; Lei 11.101 arts. 161–167.	validada	https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm
+divida-publica-operacoes-credito	Dívida consolidada/mobiliária e operações; LRF 29–38.	validada	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm
+limites-despesa-pessoal-lrf	Limites globais, repartição e controle; LRF 18–23.	validada	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm
+receita-corrente-liquida	Base de cálculo e janela de apuração; LRF 2º IV e §3º.	validada	https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm
+regra-ouro-orcamento	Limite operações de crédito/despesas de capital e exceção; CF 167 III.	validada	https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+cooperacao-juridica-internacional-cpc	Auxílio direto, rogatória, homologação; CPC 26–41.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
+extradicao-lei-migracao	Nacionalidade, natureza do crime, requisitos; CF 5º LI/LII, Lei 13.445 arts. 81–99.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm
+imunidades-diplomaticas	Inviolabilidade, jurisdição, exceções e renúncia; Convenção de Viena 29–32 e 41, Decreto 56.435/65.	validada	https://www.planalto.gov.br/ccivil_03/decreto/antigos/d56435.htm
+solucao-pacifica-controversias	Métodos diplomáticos e jurisdicionais, consentimento; Carta ONU art. 2 §3º, 33–38.	validada	https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d19841.htm
+crime-preterdoloso	Dolo antecedente e culpa no resultado; afastar responsabilidade objetiva; CP 19.	validada	https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
+legitima-defesa-putativa	Erro fático e erro sobre existência/limites jurídicos; CP 20 §1º, 21, 25; preservar controvérsia dogmática.	validada	https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
+auxilio-acidente-sequela	Indenizatório, redução da capacidade habitual; Lei 8.213 art. 86.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm
+recurso-administrativo-inss	CRPS, instâncias e prazo 30 dias; Lei 8.213 art. 126, normas administrativas vigentes.	validada	https://www.gov.br/inss/pt-br/direitos-e-deveres/recurso/recurso-administrativo-de-beneficio-previdenciario
+salario-maternidade-rgps	Dispensa de carência; qualidade de segurado, hipóteses legais; ADIs 2110/2111, IN 188/25, Lei 15.222/25.	Confrontar ADIs 2110/2111, instrução do INSS e alcance da mudança no caso de internação.	—
+segurado-especial-rural	Atividade e economia familiar, filiação e prova; Lei 8.213 art. 11 VII, Lei 8.212 art. 12 VII.	validada	https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm
+acao-monitoria	Prova escrita sem eficácia executiva, mandado e embargos; CPC 700–702.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
+execucao-alimentos-prisao-civil	Coerção pessoal/patrimonial e parcelas; CPC 528–533, Súmula 309 STJ; art. 529-A futuro, conferir.	Conferir situação legislativa do art. 529-A e alcance frente ao CPC e à Súmula 309.	—
+irdr-demandas-repetitivas	Requisitos cumulativos, procedimento e tese; CPC 976–987.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
+producao-antecipada-prova-cpc	Hipóteses independentes de urgência; CPC 381–383.	validada	https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm
+assistente-acusacao	Legitimados, habilitação, poderes; CPP 268–273.	validada	https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm
+colaboracao-premiada	Acordo, meio de obtenção de prova, corroboração; Lei 12.850 arts. 3-A–7 e 4 §16.	validada	https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm
+interceptacao-telefonica-prova	Reserva de jurisdição, finalidade criminal e admissibilidade; CF 5 XII, Lei 9.296/96.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9296.htm
+tribunal-juri-quesitacao	Ordem dos quesitos, absolvição genérica e recurso/clemência; CPP 482–491, STF Tema 1087.	validada	https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=5745131&numeroProcesso=1225185&numeroTema=1087
+coautoria-obras-intelectuais	Contribuição intelectual versus assistência/organização; Lei 9.610 arts. 15–17.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9610.htm
+dominio-publico-direitos-autorais	Prazo patrimonial, exceções, autoria; Lei 9.610 arts. 41–45 e 96.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9610.htm
+licenciamento-programas-computador	Titularidade, licença e transferência; Lei 9.609 arts. 2–9.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9609.htm
+nulidade-registro-marca	Vias administrativa/judicial e prazos; LPI 165–175.	validada	https://www.planalto.gov.br/ccivil_03/leis/l9279.htm
+trabalho-intermitente-clt	Alternância, forma e remuneração; CLT 443 §3º e 452-A, ADIs 5826/5829/6154.	validada	https://noticias.stf.jus.br/postsnoticias/contrato-de-trabalho-intermitente-e-constitucional-afirma-stf/
+equiparacao-salarial-clt	Requisitos trabalho de igual valor, discriminação; CLT 461 e Lei 14.611/23.	validada	https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm
+negociacao-coletiva-limites	Direitos negociáveis/absolutamente indisponíveis; CLT 611-A/B, STF Tema 1046.	validada	https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5415427&numeroProcesso=1121633&numeroTema=1046
+estabilidade-gestante-emprego	Período, proteção objetiva, vínculos públicos; ADCT 10 II b, CLT 391-A, STF Temas 497/542.	Conferir separadamente hipóteses do Tema 497 e os vínculos públicos do Tema 542.	—
+contribuicao-melhoria-tributo	Valorização por obra e limites global/individual; CF 145 III, CTN 81–82.	validada	https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm
+imposto-bens-servicos-cbs-ibs	Competências, transição e regime definitivo; LC 214/25 e LC 227/26; conferir efeitos atuais.	Conciliar competências, transição e datas de eficácia previstas na LC 214 e suas alterações.	—
+imposto-seletivo-reforma	Extrafiscalidade, instituição, regulamentação, cobrança; CF 153 VIII §6º, LC 214/25, MP 1399/26 (revalidar).	Conferir vigência, conversão e efeitos da MP mencionada no pacote.	—
+responsabilidade-tributaria-administradores	Mero inadimplemento versus excesso de poderes/infração; CTN 135, Súmula 430 STJ.	validada	https://processo.stj.jus.br/SCON/pesquisar.jsp?b=SUMU&livre=SUMULA+INPATH%28TIPO%29+AND+430+INPATH%28NUM%29
+consorcio-imobiliario-estatuto-cidade	Transferência ao município e contrapartida em unidades; Estatuto da Cidade 46.	validada	https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm
+transferencia-direito-construir	Hipóteses, plano diretor e legislação local; Estatuto 35.	validada	https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm
+usucapiao-especial-urbana	Área, tempo, moradia, ausência de outra propriedade e vedação a bens públicos; CF 183, Estatuto 9.	validada	https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm
+zeis-zonas-especiais-interesse-social	Planejamento, habitação e regularização; Estatuto 2 e 4 V f, Lei 13.465/17.	validada	https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm

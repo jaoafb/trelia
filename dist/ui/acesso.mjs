@@ -1,5 +1,5 @@
 import { h } from "./html.mjs";
-import { materialType } from "../catalogo/leituras-gratuitas.mjs";
+import { materialType } from "../catalogo/leituras-gratuitas.mjs?v=marco1-3";
 
 // Temporary replacement paths while the Cade CDN serves its maintenance page.
 const filesInMaintenance = new Set([
@@ -10,6 +10,10 @@ const cadeConductPage = "https://www.gov.br/cade/pt-br/acesso-a-informacao/pergu
 
 export function editionAccess(edition) {
   const material = edition?.readingMaterial;
+  if (material?.tipo_acesso === "pagina_institucional_aberta") {
+    return { label: "Publicação institucional", action: material.acao_acesso,
+      url: material.link_leitura, free: false };
+  }
   if (material) {
     const maintenance = filesInMaintenance.has(material.id);
     const conductFallback = maintenance && material.id === "cade-analise-condutas";

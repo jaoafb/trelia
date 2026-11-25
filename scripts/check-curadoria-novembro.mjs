@@ -4,6 +4,8 @@ import { bibliography, books, catalog, findEntries, topics } from "../dist/data.
 import { novemberTopicId } from "../dist/catalogo/ampliado/curadoria-novembro.mjs";
 import { readingEvidence } from "../dist/catalogo/leituras.mjs";
 
+import marco1 from "../dist/catalogo/ampliado/novembro/marco-1.mjs";
+
 const read = name => JSON.parse(readFileSync(new URL("../data/catalogo/" + name, import.meta.url)));
 const expansion = read("trelia-expansao-temas-2026-11-22.json");
 const balanced = read("trelia-curadoria-equilibrada-2026-11-24.json");
@@ -20,7 +22,9 @@ for (const item of [...expansion.temas, ...balanced.temas]) {
   assert.ok(topic.answer && topic.studyOrientation, id);
   assert.ok(findEntries(item.pergunta).some(hit => hit.route === "livros/" + id), item.pergunta);
   if (item.status_editorial === "texto_preparado_com_base_normativa_verificada" && id === item.id) {
-    assert.deepEqual(topic.recommendations, {});
+    // A curadoria original não aprova livros; vínculos posteriores têm evidência própria.
+    const later = new Set([...marco1.indicacoes_novas, ...marco1.indicacoes_adicionais].filter(row => row.tema_id === id).map(row => row.obra_id));
+    assert.deepEqual(Object.keys(topic.recommendations).filter(book => !later.has(book)), []);
   }
 }
 for (const item of expansion.verificacao_busca.consultas) {
