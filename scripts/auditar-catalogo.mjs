@@ -145,6 +145,17 @@ for (const article of articles) {
     addPending(article.id, "Política específica de revisão por pares a conferir");
   }
 }
+const filaSemLivro = topics.filter(topic => !Object.keys(topic.recommendations ?? {}).length)
+  .map(topic => ({
+    id: topic.id,
+    titulo: topic.title,
+    area_id: topic.area,
+    revisao_editorial_pendente: Boolean(topic.editorialPending),
+    fontes_associadas: topic.sources?.length ?? 0,
+    leituras_gratuitas: topic.freeReadings?.length ?? 0,
+    temas_relacionados: topic.relatedTopics?.length ?? 0,
+  }))
+  .sort((a, b) => a.area_id.localeCompare(b.area_id) || a.titulo.localeCompare(b.titulo, "pt-BR"));
 const report = {
   meta: {
     base: "main + consolidação bibliográfica",
@@ -152,6 +163,7 @@ const report = {
     escopo: "Estruturas e vínculos carregados pela aplicação. Não comprova vigência jurídica nem disponibilidade dos links externos.",
   },
   resumo: summary,
+  fila_sem_indicacao_bibliografica_especifica: filaSemLivro,
   cobertura_por_area: Object.entries(byArea).map(([id, stats]) => ({ id, ...stats }))
     .sort((a, b) => b.sem_livro - a.sem_livro || a.id.localeCompare(b.id)),
   erros_estruturais: problems,
