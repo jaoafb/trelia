@@ -156,6 +156,12 @@ const filaSemLivro = topics.filter(topic => !Object.keys(topic.recommendations ?
     temas_relacionados: topic.relatedTopics?.length ?? 0,
   }))
   .sort((a, b) => a.area_id.localeCompare(b.area_id) || a.titulo.localeCompare(b.titulo, "pt-BR"));
+const filaRevisao = topics.filter(topic => topic.editorialPending)
+  .map(topic => ({
+    id: topic.id, titulo: topic.title, area_id: topic.area,
+    fontes: (topic.sources ?? []).map(source => ({ titulo: source.title, url: source.url, recorte: source.note })),
+    status: "necessita_revisao_editorial_substantiva",
+  })).sort((a, b) => a.area_id.localeCompare(b.area_id) || a.titulo.localeCompare(b.titulo, "pt-BR"));
 const report = {
   meta: {
     base: "main + consolidação bibliográfica",
@@ -164,6 +170,7 @@ const report = {
   },
   resumo: summary,
   fila_sem_indicacao_bibliografica_especifica: filaSemLivro,
+  fila_revisao_editorial_substantiva: filaRevisao,
   cobertura_por_area: Object.entries(byArea).map(([id, stats]) => ({ id, ...stats }))
     .sort((a, b) => b.sem_livro - a.sem_livro || a.id.localeCompare(b.id)),
   erros_estruturais: problems,

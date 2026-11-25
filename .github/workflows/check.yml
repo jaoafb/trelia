@@ -49,3 +49,6 @@ jobs:
 
       - name: Verificar termos adicionais de busca
         run: node scripts/check-termos-busca.mjs
+
+      - name: Verificar fontes oficiais e bibliografia adicional
+        run: node scripts/check-verificacao-complementar.mjs

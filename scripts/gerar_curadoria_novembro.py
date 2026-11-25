@@ -53,3 +53,5 @@ if __name__ == "__main__":
     write("relacoes-editoriais", links)
     search = json.loads((SOURCE / "trelia-termos-busca-consolidacao-2026-11-24.json").read_text(encoding="utf-8-sig"))
     write("termos-busca", search)
+    checked = json.loads((SOURCE / "trelia-verificacao-complementar-2026-11-24.json").read_text(encoding="utf-8-sig"))
+    write("verificacao-complementar", checked)

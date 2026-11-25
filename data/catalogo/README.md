@@ -111,3 +111,12 @@ A auditoria executada sobre as 19 áreas e os 308 temas, com indicadores por ár
 ### Expressões adicionais de busca (24/11/2026)
 
 O arquivo `trelia-termos-busca-consolidacao-2026-11-24.json` registra **152 expressões de busca adicionais para os 76 temas da Expansão III**, contemplando as 19 áreas. São variantes linguísticas de descoberta, e não novas fichas ou afirmações jurídicas. O gerador produz `novembro/termos-busca.mjs`, a aplicação agrega os termos aos aliases existentes e `node scripts/check-termos-busca.mjs` verifica vínculos, buscas e colisões de expressões.
+
+
+### Verificação externa suplementar de fontes e bibliografia (24/11/2026)
+
+O arquivo `trelia-verificacao-complementar-2026-11-24.json` registra as **33 fontes oficiais** da Expansão III antes marcadas para reabrir, com status de acesso e distinção expressa entre **fonte localizada** e **revisão normativa substantiva pendente**. Para o tema `recuperacao-extrajudicial-empresa`, o endereço anterior da Lei nº 11.101/2005 não respondeu na consulta externa; a aplicação passa a usar o endereço oficial compilado acessível, sem sobrescrever o lote histórico.
+
+O mesmo arquivo inclui **quatro indicações bibliográficas confirmadas**, de duas edições digitais novas e uma edição impressa já existente: *Manual de Direito Financeiro* (Harrison Leite, 15ª ed. 2026, pp. 343 e 567), *Lei Geral de Proteção de Dados Pessoais Comentada* (Mendes, Rosal e Fernandes, 1ª ed. 2026, cap. V) e *Relatório de Impacto à Proteção de Dados Pessoais* (Maria Cecília Oliveira Gomes, 1ª ed. 2027, seção 2.1). A edição 2027 foi anunciada e publicada no catálogo em 2026. Os livros ficam vinculados às suas fichas de editoras ou sumários, sem reproduzir o conteúdo protegido.
+
+Também foram apontadas cinco normas de atenção especial à **produção de efeitos e vigência**, inclusive regras publicadas em 2026 com entrada em vigor futura. A revalidação de links não elimina o aviso de revisão dos 74 temas. Regenerar com `python scripts/gerar_curadoria_novembro.py` e testar com `node scripts/check-verificacao-complementar.mjs`.
