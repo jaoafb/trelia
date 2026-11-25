@@ -2,7 +2,7 @@
 
 ## Produto
 
-A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. A primeira versão cobre Direito Penal I. Um futuro curso ou área deve aproveitar as mesmas estruturas de obra, edição, tema e fonte.
+A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem estudar. O projeto começou com Direito Penal I e agora reúne 308 temas em 19 áreas jurídicas (marco do PR #16). A expansão deve aproveitar as estruturas de obra, edição, tema e fonte.
 
 - **Encontrar livros por assunto.** Abra a seleção de livros ao buscar um tema. Mostre a explicação breve na própria página quando houver texto conferido. Para cada obra, reúna a edição, o trecho, a fonte e o motivo da indicação no cartão. Quando uma mudança acrescentar uma escolha ou uma tela, explique qual dificuldade isso resolve.
 - **Estudar uma área.** Organize poucas obras por finalidade. Explique para quem serve cada indicação, o que cobre e onde pode ser consultada.
@@ -26,6 +26,12 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 
 - Consulte obrigatoriamente a [política de curadoria para iniciantes](docs/CURADORIA_PARA_INICIANTES.md) ao criar, revisar ou ampliar recomendações de livros, especialmente as destinadas a estudantes iniciantes.
 
+## Licenciamento e leituras salvas
+
+- O **código-fonte original** é disponibilizado sob [MIT](LICENSE.md), dentro dos limites de [LICENSING.md](LICENSING.md). Essa licença **não se estende automaticamente** a textos editoriais, bases de curadoria, identidade visual e materiais de terceiros, inclusive quando incorporados a módulos JavaScript.
+- **Minhas leituras** armazena referências localmente no navegador. Não introduza contas, sincronização ou coleta de dados sem uma decisão explícita do produto.
+- Consulte [CONTRIBUTING.md](CONTRIBUTING.md) e [SECURITY.md](SECURITY.md) para contribuições e relatos de vulnerabilidades.
+
 ## Código atual
 
 Prefira uma estrutura modular. Organize código e dados por responsabilidade e distribua arquivos e pastas quando começarem a concentrar assuntos independentes. Mantenha próximos os arquivos usados juntos e use nomes que indiquem seu papel. Ao ampliar o acervo ou a interface, revise se a estrutura ainda facilita localizar, editar e revisar cada parte. Extraia módulos com uma responsabilidade clara e preserve as rotas e os pontos de entrada existentes.
@@ -38,6 +44,8 @@ O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o có
 | `dist/app.mjs` | Rotas por hash, telas, seletor de edição e formulário que copia o feedback. |
 | `dist/index.html` | Estrutura da página, navegação e diálogo de feedback. |
 | `dist/style.css` | Tipografia, layout responsivo e estados de interação. |
+| `dist/leituras-salvas.mjs` | Persistência local de referências salvas. |
+| `scripts/gerar_curadoria_novembro.py` | Geração dos módulos de curadoria de novembro. |
 
 - Preserve os links compartilhados quando alterar rotas ou identificadores. Se precisar trocar um endereço, mantenha um caminho para o destino equivalente.
 - Renderize entradas do usuário como texto. Preserve navegação por teclado, rótulos dos controles e leitura no celular.

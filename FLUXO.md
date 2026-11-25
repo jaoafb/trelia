@@ -1,6 +1,6 @@
 # Como trabalhamos na Trelia
 
-O protótipo de Penal I recebeu uma reação positiva dos primeiros amigos que o viram. O próximo passo é aproveitar esse interesse para descobrir quais tarefas o site consegue resolver. O próprio teste pode ser curto. Convide a pessoa a pesquisar algo que precisava de verdade e peça a expressão usada e o ponto em que encontrou o que buscava ou travou. O botão **Dar feedback** copia o relato para ela enviar.
+A Trelia evoluiu do piloto de Penal I para um catálogo com 308 temas em 19 áreas jurídicas e o recurso **Minhas leituras**. A prioridade atual é consolidar indicações bibliográficas, revisar pendências e verificar como o estudante encontra e retoma leituras. O próprio teste pode ser curto. Convide a pessoa a pesquisar algo que precisava de verdade e peça a expressão usada e o ponto em que encontrou o que buscava ou travou. O botão **Dar feedback** copia o relato para ela enviar.
 
 ## Um ciclo por mudança
 
@@ -41,6 +41,6 @@ Resultados vazios, cliques e feedback podem ajudar a priorizar se forem coletado
 
 **Exemplo.** O estudante digitou “posição de garantidor”. O aceite é abrir as leituras sobre omissão imprópria como primeiro resultado e conseguir chegar ao guia e ao art. 13, § 2º, pela lista de livros.
 
-## Primeiro ciclo sugerido
+## Próximo ciclo sugerido
 
-Revise os dois percursos em Penal I com o mesmo link que os amigos receberam. Use até três buscas reais que surgirem dos relatos ou da própria rotina de estudo. Se o conteúdo existe, ajuste a descoberta. Se aparecer uma dúvida bem definida que falta no acervo, publique um guia adicional com uma fonte confirmada. Use o resultado dessa rodada para escolher o primeiro recorte de expansão.
+Priorize a revisão das indicações bibliográficas pendentes, a busca por linguagem natural e o percurso de **Minhas leituras**: salvar, filtrar, retomar a edição e entender que os dados ficam neste navegador. Registre lacunas de assunto, mas só publique novos guias com fonte verificável.
