@@ -1,0 +1,12 @@
+.verification-history { margin: 1rem 0 1.25rem; border: 1px solid var(--line); border-radius: var(--panel-radius); background: var(--surface); font-size: .9rem; }
+.verification-history > summary { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem; cursor: pointer; padding: .9rem 1.1rem; font-weight: 650; list-style-position: inside; }
+.verification-history > summary:hover { color: var(--lime); }
+.verification-history > summary:focus-visible { outline-offset: -3px; }
+.verification-state { color: var(--muted); font-size: .78rem; font-weight: 550; }
+.verification-content { padding: 0 1.1rem 1.1rem; display: grid; gap: .7rem; color: var(--muted); line-height: 1.55; }
+.verification-content strong { color: var(--text); }
+.verification-date { font-size: .78rem; }
+.verification-links { margin: .2rem 0; padding-left: 1.2rem; }
+.verification-links li { margin: .35rem 0; }
+.verification-links a { color: var(--lime); text-decoration: underline; text-underline-offset: .2rem; }
+.verification-disclaimer { font-size: .8rem; border-top: 1px solid var(--line); padding-top: .75rem; }

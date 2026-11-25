@@ -57,3 +57,11 @@ O site é estático e usa HTML, CSS e módulos JavaScript. `dist/` contém o có
 - Teste o comportamento que mudou. Quando mexer na busca ou na estrutura dos dados, confira também “Penal I”, “dolo eventual”, uma busca sem resultado e a troca de edição do Nucci.
 - Para conteúdo novo, abra os links e compare a referência mostrada com a fonte. Para mudanças na interface, verifique o percurso em desktop e celular quando houver navegador disponível.
 - Na entrega, informe o que mudou, como foi verificado e o que ficou pendente. Trabalhe em uma branch e entregue um pull request. Quando o GitHub estiver conectado à Vercel, confira a prévia antes da integração ao main e valide as rotas pelo endereço publicado.
+
+
+## Histórico de verificação jurídica
+
+- A fonte editorial é `data/catalogo/trelia-revisao-juridica-2026-11-24.json`, com **um registro por tema pendente** na data-base. Registre apenas eventos efetivamente executados, com data, escopo, resumo da evidência, links oficiais e pontos não concluídos.
+- Use `pendente_revisao_juridica` quando não houver revisão substantiva; `revisao_parcial` para verificação delimitada; `revisao_concluida_no_escopo` **somente** quando a síntese introdutória inteira, dentro do escopo declarado, tiver sido confrontada com fontes oficiais relevantes. A conclusão não é atestado de validade jurídica eterna.
+- Não remova `editorialPending` com base em mero funcionamento de URL, notícia isolada ou verificação de bibliografia. Registre mudanças legislativas com marco temporal de produção de efeitos e fontes; preserve dúvidas sobre a aplicabilidade dos precedentes.
+- Mantenha o histórico de eventos anteriores; não sobrescreva registros passados. Regere o módulo com `python scripts/gerar_curadoria_novembro.py`, valide com `node scripts/check-revisao-juridica.mjs` e confira a seção acessível em desktop e celular.

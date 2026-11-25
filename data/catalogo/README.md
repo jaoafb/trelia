@@ -120,3 +120,10 @@ O arquivo `trelia-verificacao-complementar-2026-11-24.json` registra as **33 fon
 O mesmo arquivo inclui **quatro indicações bibliográficas confirmadas**, de duas edições digitais novas e uma edição impressa já existente: *Manual de Direito Financeiro* (Harrison Leite, 15ª ed. 2026, pp. 343 e 567), *Lei Geral de Proteção de Dados Pessoais Comentada* (Mendes, Rosal e Fernandes, 1ª ed. 2026, cap. V) e *Relatório de Impacto à Proteção de Dados Pessoais* (Maria Cecília Oliveira Gomes, 1ª ed. 2027, seção 2.1). A edição 2027 foi anunciada e publicada no catálogo em 2026. Os livros ficam vinculados às suas fichas de editoras ou sumários, sem reproduzir o conteúdo protegido.
 
 Também foram apontadas cinco normas de atenção especial à **produção de efeitos e vigência**, inclusive regras publicadas em 2026 com entrada em vigor futura. A revalidação de links não elimina o aviso de revisão dos 74 temas. Regenerar com `python scripts/gerar_curadoria_novembro.py` e testar com `node scripts/check-verificacao-complementar.mjs`.
+
+
+### Revisão jurídica rastreável I (24/11/2026)
+
+A nova fonte `trelia-revisao-juridica-2026-11-24.json` registra o estado jurídico de **74 temas** anteriormente assinalados para revisão. O histórico registra **3 verificações concluídas em escopo introdutório delimitado**, **8 parciais** e **63 pendentes sem revisão substantiva**. A aplicação identifica esse status na página do tema, com data, escopo, ressalvas e as fontes oficiais; os avisos dos casos não concluídos permanecem.
+
+O processo não publica automaticamente o conteúdo de fontes externas nem substitui orientação profissional. O módulo `dist/catalogo/ampliado/novembro/revisao-juridica.mjs` é gerado por `python scripts/gerar_curadoria_novembro.py`, e `node scripts/check-revisao-juridica.mjs` verifica a integridade, os status e a apresentação do histórico. A execução de um teste comprova a consistência do dado, não a suficiência da interpretação jurídica.

@@ -6,6 +6,7 @@ import expansion from "./novembro/expansao.mjs";
 import balanced from "./novembro/equilibrada.mjs";
 import editorialRelations from "./novembro/relacoes-editoriais.mjs";
 import searchVariations from "./novembro/termos-busca.mjs";
+import legalReview from "./novembro/revisao-juridica.mjs";
 const curatedSearchTerms = new Map(searchVariations.entradas.map(item => [item.tema_id, item.termos_busca]));
 
 const thirdTopics = new Set(third.temas.map(topic => topic.id));
@@ -142,6 +143,40 @@ export function addNovemberTopics(topics, books) {
     if (!first || !second) throw new Error("Relação editorial com tema inexistente: " + a + "/" + b);
     entries.set(a, { ...first, relatedTopics: unique([...(first.relatedTopics ?? []), b]) });
     entries.set(b, { ...second, relatedTopics: unique([...(second.relatedTopics ?? []), a]) });
+  }
+  // A conferência jurídica tem escopo e evidências próprios: acesso à fonte não elimina pendência editorial.
+  for (const row of legalReview.registros) {
+    const id = novemberTopicId(row.tema_id);
+    const previous = entries.get(id);
+    if (!previous) throw new Error("Revisão jurídica sem tema: " + id);
+    const verified = row.status === "revisao_concluida_no_escopo";
+    const entry = row.historico.at(-1);
+    if (verified && (!entry?.fontes?.length || !entry?.resposta_revisada)) {
+      throw new Error("Revisão sem prova de conclusão no escopo: " + id);
+    }
+    if (entry?.fontes?.some(source => !/^https:\/\//.test(source.url))) {
+      throw new Error("Fonte de revisão jurídica inválida: " + id);
+    }
+    const additionalSources = (entry?.fontes ?? []).filter(source =>
+      !previous.sources?.some(existing => existing.url === source.url))
+      .map(source => ({
+        title: source.titulo, url: source.url, by: "Fonte institucional",
+        type: "Verificação jurídica", note: source.recorte,
+      }));
+    entries.set(id, {
+      ...previous,
+      ...(entry?.resposta_revisada ? { answer: entry.resposta_revisada } : {}),
+      ...(entry?.orientacao ? { studyOrientation: entry.orientacao } : {}),
+      editorialPending: !verified,
+      verification: {
+        status: row.status,
+        historico: row.historico,
+        aviso: verified
+          ? "Síntese introdutória verificada no escopo declarado; novas alterações podem exigir atualização."
+          : "Revisão jurídica ainda não concluída; fontes e hipóteses específicas continuam em conferência.",
+      },
+      sources: [...(previous.sources ?? []), ...additionalSources],
+    });
   }
   for (const topic of entries.values()) {
     if (topic.relatedTopics?.some(id => !entries.has(id))) throw new Error("Tema relacionado ausente: " + topic.id);

@@ -55,3 +55,5 @@ if __name__ == "__main__":
     write("termos-busca", search)
     checked = json.loads((SOURCE / "trelia-verificacao-complementar-2026-11-24.json").read_text(encoding="utf-8-sig"))
     write("verificacao-complementar", checked)
+    reviews = json.loads((SOURCE / "trelia-revisao-juridica-2026-11-24.json").read_text(encoding="utf-8-sig"))
+    write("revisao-juridica", reviews)

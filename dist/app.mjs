@@ -1,8 +1,9 @@
 import { bindSavedReadings, readingSaver, savedReadingsPage } from "./ui/minhas-leituras.mjs?v=ux-review";
 import { researchSection } from "./ui/pesquisas.mjs?v=consolidacao-completa";
+import { verificationSection } from "./ui/verificacao.mjs?v=revisao-juridica-i";
 import { legislationSection } from "./ui/legislacao.mjs?v=card-alignment";
 import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs?v=card-alignment";
-import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=consolidacao-completa";
+import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=revisao-juridica-i";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
 import { orderedReadings, readingEvidence, defaultReadingEdition } from "./catalogo/leituras.mjs";
@@ -188,6 +189,7 @@ function topicBooks(topic, query, preferredBook, save) {
       <ul>${topic.sources.map(source => `<li>${source.unavailable ? `<span>${h(source.title)} · PDF indisponível no Cade</span>` : external(source.url, source.title)}${source.note ? ` <span>${h(source.note)}</span>` : ""}${source.note && source.type ? ` <span>· ${h(source.type)}</span>` : ""}${officialAlternative(source)}</li>`).join("")}</ul>
     </details>` : ""}
   </section>` : "";
+  const verification = verificationSection(topic, external);
   const research = researchSection(topic.id, external, save);
   const extras = [
     free.length && ["free-reading-title", "Leituras gratuitas"],
@@ -212,11 +214,13 @@ function topicBooks(topic, query, preferredBook, save) {
       </div>
     </section>
     ${preferredBook ? "" : explanation}
+    ${preferredBook ? "" : verification}
     ${matches.length ? `<section aria-labelledby="recommended-books" id="topic-books-title">
       <div class="section-heading"><h2 id="recommended-books" tabindex="-1">Livros recomendados</h2></div>
       ${matches.map((book, i) => readingCard(topic, book, i === 0, save)).join("")}
     </section>` : ""}
     ${preferredBook ? explanation : ""}
+    ${preferredBook ? verification : ""}
     ${topic.editorialPending && !matches.length ? '<p class="author">Indicações de livros em curadoria.</p>' : ""}
     ${freeReadingSection(free, external, save)}
     ${legislationSection(legislation, external, save)}
@@ -255,6 +259,7 @@ function topicGuide(topic, book, edition, save) {
         ${topic.answer ? `<div class="reading-tips"><h2 class="section-kicker">Ao ler, preste atenção</h2>
           <ol><li><span aria-hidden="true">1</span><p>${h(topic.answer)}</p></li>${topic.focus ? `<li><span aria-hidden="true">2</span><p>${h(topic.focus)}</p></li>` : ""}</ol>
         </div>` : ""}
+        ${verificationSection(topic, external)}
         ${topic.sources.length ? `<section class="guide-sources" aria-labelledby="sources-title"><div class="section-heading"><h2 id="sources-title">Fontes abertas</h2></div>
           <ul>${topic.sources.map(source => `<li class="bibliography-card"><div><span class="book-type">${h(source.type)}</span>
             <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${source.unavailable ? "<p>PDF indisponível no Cade.</p>" : external(source.url, "Abrir fonte")}${officialAlternative(source)}</div></li>`).join("")}</ul>
