@@ -62,6 +62,13 @@ export function addNovemberBooks(books) {
       ...existing, editions: [...(existing?.editions ?? []), edition],
     });
   }
+  for (const { obra_id, edicao } of marco1.edicoes_adicionais) {
+    const book = entries.get(obra_id);
+    if (!book || book.editions.some(edition => edition.id === edicao.id || edition.isbn === edicao.isbn)) {
+      throw new Error("Edição adicional inválida: " + obra_id + "/" + edicao.id);
+    }
+    entries.set(obra_id, { ...book, editions: [...book.editions, edicao] });
+  }
   return [...entries.values()];
 }
 
@@ -114,7 +121,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas, ...marco1.indicacoes_novas]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas, ...marco1.indicacoes_novas, ...marco1.indicacoes_adicionais]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));

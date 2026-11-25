@@ -15,7 +15,7 @@ assert.equal(topics.length,308,"Ciclo 1 não cria novos temas");
 assert.equal(catalog.length,19);
 // Reconstitui o recorte histórico antes das novas indicações do Marco 1.
 const laterBooks = new Set(marco1.obras_novas.map(book => book.id));
-const laterPairs = new Set(marco1.indicacoes_novas.map(item => novemberTopicId(item.tema_id) + "/" + item.obra_id));
+const laterPairs = new Set([...marco1.indicacoes_novas, ...marco1.indicacoes_adicionais].map(item => novemberTopicId(item.tema_id) + "/" + item.obra_id));
 const hadBookInCycle = topic => Object.keys(topic.recommendations ?? {}).some(id => !laterPairs.has(topic.id + "/" + id));
 assert.equal(books.filter(book => !laterBooks.has(book.id)).length,snapshot.resumo.obras+2);
 assert.equal(cycle.indicacoes_novas.length,3);
