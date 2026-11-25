@@ -1,5 +1,5 @@
 import { h } from "./html.mjs";
-import { materialType } from "../catalogo/leituras-gratuitas.mjs";
+import { materialType } from "../catalogo/leituras-gratuitas.mjs?v=marco1-2";
 
 // Temporary replacement paths while the Cade CDN serves its maintenance page.
 const filesInMaintenance = new Set([

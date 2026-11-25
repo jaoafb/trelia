@@ -1,5 +1,5 @@
-import materials from "./gratuitas/materiais.mjs?v=marco1";
-import indications from "./gratuitas/indicacoes.mjs";
+import materials from "./gratuitas/materiais.mjs?v=marco1-2";
+import indications from "./gratuitas/indicacoes.mjs?v=marco1-2";
 import editorial from "./gratuitas/temas.mjs";
 import { normalize } from "./busca.mjs";
 

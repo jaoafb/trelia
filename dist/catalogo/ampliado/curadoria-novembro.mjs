@@ -1,4 +1,4 @@
-import marco1 from "./novembro/marco-1.mjs";
+import marco1 from "./novembro/marco-1.mjs?v=marco1-2";
 import third from "./novembro/expansao-iii.mjs";
 import consolidation from "./novembro/consolidacao-i.mjs";
 import ciclo1 from "./novembro/ciclo-1.mjs";
