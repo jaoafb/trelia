@@ -7,6 +7,8 @@ import { researchSection } from "../dist/ui/pesquisas.mjs";
 
 const lot = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-expansao-editorial-iii-2026-11-24-revisado.json", import.meta.url)));
 const byId = new Map(topics.map(topic => [topic.id, topic]));
+const updatedReviews = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-revisao-juridica-2026-11-24.json", import.meta.url)));
+const reviewsById = new Map(updatedReviews.registros.map(item => [item.tema_id, item]));
 assert.equal(topics.length, 308);
 assert.equal(byId.size, topics.length);
 for (const theme of lot.temas) {
@@ -15,8 +17,9 @@ for (const theme of lot.temas) {
   assert.equal(topic?.area, theme.area_id);
   assert.ok(findEntries(theme.pergunta).some(result => result.route === "livros/" + id), theme.pergunta);
   if (id === theme.id) {
-    assert.equal(topic.editorialPending, true);
-    assert.equal(topic.answer, theme.resposta);
+    const review = reviewsById.get(id);
+    assert.equal(topic.editorialPending, review?.status !== "revisao_concluida_no_escopo", id);
+    assert.equal(topic.answer, review?.historico.at(-1)?.resposta_revisada ?? theme.resposta, id);
   }
 }
 
