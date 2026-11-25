@@ -1,5 +1,393 @@
 // GERADO por scripts/gerar_curadoria_novembro.py — não edite à mão
 export default {
+  "amostra": [
+    {
+      "tema_id": "regime-juridico-bens-publicos",
+      "titulo": "Bens públicos e suas espécies",
+      "area_id": "administrativo",
+      "consulta": "bens públicos",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "oliveira",
+      "edicao_id": "9788530999025",
+      "localizacao": {
+        "secao": "Cap. 22, Bens Públicos",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-curso-de-direito-administrativo-14-edicao-2026-rafael-oliveira-editora-metodo-9788530999025",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "desapropriacao-utilidade-publica",
+      "titulo": "Desapropriação por utilidade pública",
+      "area_id": "administrativo",
+      "consulta": "desapropriação por utilidade pública",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "oliveira",
+      "edicao_id": "9788530999025",
+      "localizacao": {
+        "secao": "Cap. 21, Desapropriação",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-curso-de-direito-administrativo-14-edicao-2026-rafael-oliveira-editora-metodo-9788530999025",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "app-reserva-legal",
+      "titulo": "Área de Preservação Permanente e Reserva Legal",
+      "area_id": "ambiental",
+      "consulta": "reserva legal",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "localizacao": {
+        "secao": "Cap. 6, item 3, Área de Preservação Permanente, e item 4, Área de Reserva Legal",
+        "pagina": 268
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "eviccao-contratos",
+      "titulo": "Evicção nos contratos onerosos",
+      "area_id": "civil",
+      "consulta": "evicção",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "pablo-rodolfo-manual-civil-2026",
+      "edicao_id": "9786551771255",
+      "localizacao": {
+        "secao": "Cap. XIX, Evicção",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-civil-10-edicao-2026-pablo-stolze-gagliano-rodolfo-pamplona-filho-saraiva-jur-9786551771255",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "guarda-compartilhada-convivencia",
+      "titulo": "Guarda compartilhada e convivência familiar",
+      "area_id": "civil",
+      "consulta": "guarda compartilhada",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "pablo-rodolfo-manual-civil-2026",
+      "edicao_id": "9786551771255",
+      "localizacao": {
+        "secao": "Cap. LXXXII, Poder Familiar e Guarda de Filhos",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-civil-10-edicao-2026-pablo-stolze-gagliano-rodolfo-pamplona-filho-saraiva-jur-9786551771255",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "praticas-abusivas-art39",
+      "titulo": "Práticas abusivas nas relações de consumo",
+      "area_id": "consumidor",
+      "consulta": "práticas abusivas no consumo",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "tartuce-neves-consumidor",
+      "edicao_id": "9788530999087",
+      "localizacao": {
+        "secao": "Parte 1, cap. 7, O abuso de direito consumerista e as práticas abusivas",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-do-consumidor-vol-unico-15-edicao-2026-flavio-tartuce-daniel-neves-editora-metodo-9788530999087",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "contratos-adesao-consumo",
+      "titulo": "Contratos de adesão no consumo",
+      "area_id": "consumidor",
+      "consulta": "contratos de adesão",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "tartuce-neves-consumidor",
+      "edicao_id": "9788530999087",
+      "localizacao": {
+        "secao": "Parte 1, cap. 5, Proteção contratual pelo CDC",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-do-consumidor-vol-unico-15-edicao-2026-flavio-tartuce-daniel-neves-editora-metodo-9788530999087",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "transferencia-internacional-dados-lgpd",
+      "titulo": "Transferência internacional de dados pessoais",
+      "area_id": "digital",
+      "consulta": "transferência internacional de dados",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "mendes-rosal-fernandes-lgpd-comentada-2026",
+      "edicao_id": "9788530997809",
+      "localizacao": {
+        "secao": "Capítulo V — Da Transferência Internacional de Dados",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/e-book-lei-geral-de-protecao-de-dados-pessoais-comentada-1-edicao-2026-laura-schertel-mendes-isabela-maria-rosal-e-elora-fernandes-editora-forense-9788530997809",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "cotas-genero-candidaturas",
+      "titulo": "Cotas de gênero e candidaturas proporcionais",
+      "area_id": "eleitoral",
+      "consulta": "cotas de gênero",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "zilio-eleitoral",
+      "edicao_id": "9788544273098",
+      "localizacao": {
+        "secao": "Cap. 20, item 2, Número de vagas e reserva por gênero",
+        "pagina": 439
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5443-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "desconsideracao-personalidade-juridica",
+      "titulo": "Desconsideração da personalidade jurídica",
+      "area_id": "empresarial",
+      "consulta": "desconsideração da personalidade jurídica",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "mamede-manual-empresarial-2026",
+      "edicao_id": "9786559778126",
+      "localizacao": {
+        "secao": "Cap. 15, Desconsideração da personalidade jurídica",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-empresarial-20-edicao-2026-gladston-mamede-e-roberta-cotta-mamede-editora-atlas-9786559778126",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "decretacao-falencia",
+      "titulo": "Hipóteses de decretação da falência",
+      "area_id": "empresarial",
+      "consulta": "decretação da falência",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "campinho-falencia",
+      "edicao_id": "9786584004641",
+      "localizacao": {
+        "secao": "Cap. 18, Decretação judicial da falência",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-curso-de-direito-comercial-falencia-e-recuperacao-de-empresa-16-edicao-2026-sergio-campinho-saraiva-jur-9786584004641",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "receita-corrente-liquida",
+      "titulo": "Receita corrente líquida como indicador fiscal",
+      "area_id": "financeiro",
+      "consulta": "receita corrente líquida",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "leite-financeiro",
+      "edicao_id": "9788544270752",
+      "localizacao": {
+        "secao": "Receita Corrente Líquida — seção 7.1",
+        "pagina": 343
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "limites-despesa-pessoal-lrf",
+      "titulo": "Limites de despesa com pessoal na LRF",
+      "area_id": "financeiro",
+      "consulta": "limites de despesa com pessoal",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "leite-financeiro",
+      "edicao_id": "9788544270752",
+      "localizacao": {
+        "secao": "Despesas com pessoal — seção 11.6",
+        "pagina": 567
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "interpretacao-tratados",
+      "titulo": "Interpretação de tratados",
+      "area_id": "internacional",
+      "consulta": "interpretação de tratados",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "portela-internacional",
+      "edicao_id": "9788544270646",
+      "localizacao": {
+        "secao": "Interpretação dos tratados",
+        "pagina": 122
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "segurado-especial-rural",
+      "titulo": "Segurado especial rural",
+      "area_id": "previdenciario",
+      "consulta": "segurado especial",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "garcia-previdenciario",
+      "edicao_id": "9788544269237",
+      "localizacao": {
+        "secao": "Cap. 4, item 4.3.5, Segurado especial",
+        "pagina": 213
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JUS4950-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "acao-monitoria",
+      "titulo": "Ação monitória",
+      "area_id": "processo-civil",
+      "consulta": "ação monitória",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "gediel-pratica-processo-civil-2026",
+      "edicao_id": "9786559778065",
+      "localizacao": {
+        "secao": "Cap. 39, Ação Monitória",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-pratica-no-processo-civil-28-edicao-2026-gediel-claudino-de-araujo-junior-editora-atlas-9786559778065",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "producao-antecipada-prova-cpc",
+      "titulo": "Produção antecipada de prova",
+      "area_id": "processo-civil",
+      "consulta": "produção antecipada de prova",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "gediel-pratica-processo-civil-2026",
+      "edicao_id": "9786559778065",
+      "localizacao": {
+        "secao": "Cap. 45, Ação de Produção Antecipada de Prova",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-pratica-no-processo-civil-28-edicao-2026-gediel-claudino-de-araujo-junior-editora-atlas-9786559778065",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "direitos-autorais-ideia-expressao",
+      "titulo": "Ideias e obras protegidas por direitos autorais",
+      "area_id": "propriedade-intelectual",
+      "consulta": "proteção de ideias direito autoral",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "pendente_revalidacao_da_fonte",
+      "obra_id": "barbosa-introducao-pi",
+      "edicao_id": "barbosa-intro-2-pdf",
+      "localizacao": {
+        "secao": "Criações abstratas — Então, como se protegem as ideias abstratas?",
+        "pagina": 305
+      },
+      "evidencia_url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf",
+      "observacao": "O PDF institucional utilizado no lote anterior não respondeu na tentativa atual; referência histórica preservada, sem certificar acesso contemporâneo."
+    },
+    {
+      "tema_id": "contribuicao-melhoria-tributo",
+      "titulo": "Contribuição de melhoria",
+      "area_id": "tributario",
+      "consulta": "contribuição de melhoria",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "sabbag",
+      "edicao_id": "9786551771842",
+      "localizacao": {
+        "secao": "Cap. 17, Contribuição de Melhoria",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-de-direito-tributario-18-edicao-2026-eduardo-sabbag-saraiva-jur-9786551771842",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "outorga-onerosa-direito-construir",
+      "titulo": "Outorga onerosa do direito de construir",
+      "area_id": "urbanistico",
+      "consulta": "outorga onerosa do direito de construir",
+      "situacao_inicial": "com_indicacao_especifica",
+      "resultado_ciclo1": "sumario_editorial_confirmado_na_amostra",
+      "obra_id": "rvbi-558697ab151871803e2d",
+      "edicao_id": "9788544247648",
+      "localizacao": {
+        "secao": "O Estatuto da Cidade e a outorga onerosa do direito de construir",
+        "pagina": 234
+      },
+      "evidencia_url": "https://juspodivmdigital.com.br/cdn/pdf/JMA0080-Sumario.pdf",
+      "observacao": "A edição e o recorte foram confrontados com sumário PDF oficial da editora ou ficha editorial específica; não há alegação de leitura integral."
+    },
+    {
+      "tema_id": "comissao-parlamentar-inquerito",
+      "titulo": "Comissões parlamentares de inquérito",
+      "area_id": "constitucional",
+      "consulta": "comissão parlamentar de inquérito",
+      "situacao_inicial": "sem_indicacao_especifica",
+      "resultado_ciclo1": "lacuna_preenchida_com_capitulo",
+      "obra_id": "mendes-cavalcante",
+      "edicao_id": "9786551772153",
+      "localizacao": {
+        "secao": "Capítulo 16 — Comissões Parlamentares de Inquérito",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-manual-didatico-de-direito-constitucional-11-edicao-2026-gilmar-mendes-e-joao-trindade-cavalcante-filho-saraiva-jur-9786551772153",
+      "observacao": "Nova indicação com edição, ISBN e capítulo confirmado pela editora; sem página presumida."
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "titulo": "Acordos verticais e distribuição exclusiva",
+      "area_id": "economico",
+      "consulta": "acordos verticais",
+      "situacao_inicial": "sem_indicacao_especifica",
+      "resultado_ciclo1": "permanece_sem_capitulo_confirmado",
+      "observacao": "Nenhuma recomendação específica foi aprovada com evidência suficiente neste ciclo; lacuna preservada."
+    },
+    {
+      "tema_id": "crime-preterdoloso",
+      "titulo": "Crime preterdoloso e agravação pelo resultado",
+      "area_id": "penal-i",
+      "consulta": "crime preterdoloso",
+      "situacao_inicial": "sem_indicacao_especifica",
+      "resultado_ciclo1": "lacuna_preenchida_com_capitulo",
+      "obra_id": "masson-parte-geral-21ed-2026",
+      "edicao_id": "9786528500222",
+      "localizacao": {
+        "secao": "Capítulo 14 — Crime preterdoloso",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-direito-penal-parte-geral-arts-1-a-120-vol-1-21-edicao-2026-cleber-masson-editora-metodo-9786528500222",
+      "observacao": "Nova indicação com edição, ISBN e capítulo confirmado pela editora; sem página presumida."
+    },
+    {
+      "tema_id": "assistente-acusacao",
+      "titulo": "Assistente de acusação no processo penal",
+      "area_id": "processo-penal",
+      "consulta": "assistente de acusação",
+      "situacao_inicial": "sem_indicacao_especifica",
+      "resultado_ciclo1": "lacuna_preenchida_com_capitulo",
+      "obra_id": "aury-lopes-processo-penal-23ed-2026",
+      "edicao_id": "9786551771668",
+      "localizacao": {
+        "secao": "Capítulo X — Sujeitos e partes do processo; do assistente da acusação",
+        "pagina": null
+      },
+      "evidencia_url": "https://www.grupogen.com.br/livro-direito-processual-penal-23-edicao-2026-aury-lopes-junior-saraiva-jur-9786551771668",
+      "observacao": "Nova indicação com edição, ISBN e capítulo confirmado pela editora; sem página presumida."
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "titulo": "Proteção da gestante contra dispensa arbitrária",
+      "area_id": "trabalho",
+      "consulta": "estabilidade da gestante",
+      "situacao_inicial": "sem_indicacao_especifica",
+      "resultado_ciclo1": "permanece_sem_capitulo_confirmado",
+      "observacao": "Nenhuma recomendação específica foi aprovada com evidência suficiente neste ciclo; lacuna preservada."
+    }
+  ],
   "obras_novas": [
     {
       "id": "masson-parte-geral-21ed-2026",

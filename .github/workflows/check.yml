@@ -52,3 +52,6 @@ jobs:
 
       - name: Verificar fontes oficiais e bibliografia adicional
         run: node scripts/check-verificacao-complementar.mjs
+
+      - name: Verificar piloto bibliografico Ciclo 1
+        run: node scripts/check-ciclo1-bibliografia.mjs

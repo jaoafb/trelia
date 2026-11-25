@@ -120,3 +120,12 @@ O arquivo `trelia-verificacao-complementar-2026-11-24.json` registra as **33 fon
 O mesmo arquivo inclui **quatro indicações bibliográficas confirmadas**, de duas edições digitais novas e uma edição impressa já existente: *Manual de Direito Financeiro* (Harrison Leite, 15ª ed. 2026, pp. 343 e 567), *Lei Geral de Proteção de Dados Pessoais Comentada* (Mendes, Rosal e Fernandes, 1ª ed. 2026, cap. V) e *Relatório de Impacto à Proteção de Dados Pessoais* (Maria Cecília Oliveira Gomes, 1ª ed. 2027, seção 2.1). A edição 2027 foi anunciada e publicada no catálogo em 2026. Os livros ficam vinculados às suas fichas de editoras ou sumários, sem reproduzir o conteúdo protegido.
 
 Também foram apontadas cinco normas de atenção especial à **produção de efeitos e vigência**, inclusive regras publicadas em 2026 com entrada em vigor futura. A revalidação de links não elimina o aviso de revisão dos 74 temas. Regenerar com `python scripts/gerar_curadoria_novembro.py` e testar com `node scripts/check-verificacao-complementar.mjs`.
+
+
+### Ciclo 1 — Qualidade bibliográfica (25/11/2026)
+
+A fonte editorial `trelia-ciclo1-qualidade-bibliografica-2026-11-25.json` registra uma amostra intencional de **25 temas das 19 áreas**, sendo 20 com recomendação específica prévia e 5 sem livro. Houve três lacunas resolvidas com capítulos conferidos nas edições de **Gilmar Mendes e João Trindade Cavalcante Filho (11ª ed., 2026), Cleber Masson (21ª ed., 2026) e Aury Lopes Junior (23ª ed., 2026)**. A primeira obra e a respectiva edição já estavam no catálogo, evitando duplicação; as duas restantes foram cadastradas com ISBNs confirmados nas editoras.
+
+O vínculo por livro e edição registra somente **capítulo**, pois as fichas oficiais não forneceram páginas. Duas lacunas permanecem sem indicação específica: `restricoes-verticais-distribuicao` e `estabilidade-gestante-emprego`. A fonte do livro histórico de Denis Borges Barbosa apresentou timeout nesta consulta; sua recomendação anterior não foi alterada, mas deve passar por nova conferência de acesso. As 25 consultas do piloto são reaproveitadas como expressões de busca e possuem testes de destino.
+
+Executar `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-ciclo1-bibliografia.mjs`. O relatório de amostragem registra o que foi confirmado, o que não foi e a origem editorial; não representa leitura integral de todos os livros.

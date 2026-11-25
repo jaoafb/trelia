@@ -2,7 +2,7 @@ import { bindSavedReadings, readingSaver, savedReadingsPage } from "./ui/minhas-
 import { researchSection } from "./ui/pesquisas.mjs?v=consolidacao-completa";
 import { legislationSection } from "./ui/legislacao.mjs?v=card-alignment";
 import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs?v=card-alignment";
-import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=consolidacao-completa";
+import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=ciclo1-bibliografia";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
 import { orderedReadings, readingEvidence, defaultReadingEdition } from "./catalogo/leituras.mjs";
