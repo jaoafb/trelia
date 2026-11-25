@@ -34,7 +34,8 @@ for(const item of cycle.amostra) {
   const hasBook=Object.keys(topic.recommendations??{}).length>0;
   if(item.situacao_inicial==="sem_indicacao_especifica") {
     assert.ok(baselineMissing.has(id),"O tema deveria constar como lacuna inicial: "+id);
-    assert.equal(hasBook,isNew,"Nova cobertura incompatível com status: "+id);
+    const newlyCoveredLater = cycle2.indicacoes_novas.some(indication => indication.tema_id === item.tema_id);
+    assert.equal(hasBook,isNew || newlyCoveredLater,"Nova cobertura incompatível com status: "+id);
   } else {
     assert.ok(!baselineMissing.has(id),"Indicação prévia contradiz snapshot: "+id);
     assert.ok(hasBook,id);
