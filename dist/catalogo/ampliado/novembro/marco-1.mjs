@@ -95,6 +95,291 @@ export default {
           "sourceLabel": "Ver ficha editorial"
         }
       ]
+    },
+    {
+      "id": "mulheres-antitruste-v4",
+      "title": "Mulheres no Antitruste, vol. 4",
+      "author": "Diversas autoras",
+      "area": "economico",
+      "editions": [
+        {
+          "id": "9786586352528",
+          "isbn": "9786586352528",
+          "name": "Volume 4",
+          "year": 2021,
+          "format": "E-book",
+          "publisher": "Singular",
+          "access": "Registro bibliográfico institucional",
+          "source": "https://biblioteca.cade.gov.br/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3869",
+          "sourceLabel": "Consultar registro no Cade"
+        }
+      ]
+    },
+    {
+      "id": "schapiro-marinho-compliance-concorrencial",
+      "title": "Compliance concorrencial: cooperação regulatória na defesa da concorrência",
+      "author": "Mario Gomes Schapiro; Sarah Morganna Matos Marinho",
+      "area": "economico",
+      "editions": [
+        {
+          "id": "9788584933990",
+          "isbn": "9788584933990",
+          "name": "Edição de 2019",
+          "year": 2019,
+          "format": "Impresso",
+          "publisher": "Almedina",
+          "access": "Registro bibliográfico institucional",
+          "source": "https://www.gov.br/anatel/pt-br/composicao/ceadi/repositorio/compliance-concorrencial-cooperacao-regulatoria-na-defesa-da-concorrencia",
+          "sourceLabel": "Consultar registro na Anatel"
+        }
+      ]
+    },
+    {
+      "id": "correia-matos-sutti-trabalho-antidiscriminatorio",
+      "title": "Direito do Trabalho Antidiscriminatório",
+      "author": "Elise Correia; Larissa Matos; Erazê Sutti (orgs.)",
+      "area": "trabalho",
+      "editions": [
+        {
+          "id": "9788577897353",
+          "isbn": "9788577897353",
+          "name": "1ª edição",
+          "year": 2025,
+          "format": "Impresso",
+          "publisher": "Mizuno",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editoramizuno.com.br/products/livro-direito-do-trabalho-antidiscriminatorio",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "conti-divida-publica",
+      "title": "Dívida pública",
+      "author": "José Maurício Conti e colaboradores",
+      "area": "financeiro",
+      "editions": [
+        {
+          "id": "9788580393897",
+          "isbn": "9788580393897",
+          "name": "1ª edição",
+          "year": 2019,
+          "format": "E-book",
+          "publisher": "Blucher",
+          "access": "Publicação editorial",
+          "source": "https://www.blucher.com.br/divida-publica_9788580393897",
+          "sourceLabel": "Ver publicação na Blucher"
+        }
+      ]
+    },
+    {
+      "id": "polizio-lei-acesso-informacao",
+      "title": "Lei de Acesso à Informação: manual teórico e prático",
+      "author": "Vladimir Polízio Júnior",
+      "area": "administrativo",
+      "editions": [
+        {
+          "id": "9788536252421",
+          "isbn": "9788536252421",
+          "name": "Edição de 2015",
+          "year": 2015,
+          "format": "Impresso",
+          "publisher": "Juruá",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.jurua.com.br/shop_item.asp?id=24041",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "braga-netto-responsabilidade-civil",
+      "title": "Novo Manual de Responsabilidade Civil",
+      "author": "Felipe Braga Netto",
+      "area": "civil",
+      "editions": [
+        {
+          "id": "9788544266038",
+          "isbn": "9788544266038",
+          "name": "6ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Juspodivm",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editorajuspodivm.com.br/novo-manual-de-responsabilidade-civil-2026-netto",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "campilongo-pfeiffer-evolucao-antitruste",
+      "title": "Evolução do antitruste no Brasil",
+      "author": "Celso Fernandes Campilongo; Roberto Pfeiffer (orgs.)",
+      "area": "economico",
+      "editions": [
+        {
+          "id": "9788553066049",
+          "isbn": "9788553066049",
+          "name": "Edição de 2018",
+          "year": 2018,
+          "format": "Impresso",
+          "publisher": "Singular",
+          "access": "Registro bibliográfico institucional",
+          "source": "https://biblioteca.cade.gov.br/cgi-bin/koha/opac-detail.pl?biblionumber=3300&shelfbrowse_itemnumber=2281",
+          "sourceLabel": "Consultar registro no Cade"
+        }
+      ]
+    },
+    {
+      "id": "paulo-alexandrino-resumo-constitucional",
+      "title": "Resumo de Direito Constitucional Descomplicado",
+      "author": "Vicente Paulo; Marcelo Alexandrino",
+      "area": "constitucional",
+      "editions": [
+        {
+          "id": "9786559648580",
+          "isbn": "9786559648580",
+          "name": "Edição de 2023",
+          "year": 2023,
+          "format": "Impresso",
+          "publisher": "Método",
+          "access": "Sumário editorial",
+          "source": "https://sumarios.grupogen.com.br/jur/MET/9786559648580_SUM.pdf",
+          "sourceLabel": "Consultar sumário"
+        }
+      ]
+    },
+    {
+      "id": "carvalho-oliveira-rocha-licitacoes",
+      "title": "Nova Lei de Licitações Comentada e Comparada",
+      "author": "Matheus Carvalho; João Paulo Oliveira; Paulo Germano Rocha",
+      "area": "administrativo",
+      "editions": [
+        {
+          "id": "9788544271193",
+          "isbn": "9788544271193",
+          "name": "6ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Juspodivm",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editorajuspodivm.com.br/nova-lei-de-licitacoes-comentada-e-comparada-2026-carvalho-oliveira-rocha",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "venosa-familia-sucessoes-v5",
+      "title": "Direito Civil: Família e Sucessões, vol. 5",
+      "author": "Sílvio de Salvo Venosa",
+      "area": "civil",
+      "editions": [
+        {
+          "id": "9786559778058",
+          "isbn": "9786559778058",
+          "name": "26ª edição",
+          "year": 2026,
+          "format": "E-book",
+          "publisher": "Atlas",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.grupogen.com.br/e-book-direito-civil-familia-e-sucessoes-vol-5-26-edicao-2026-silvio-de-salvo-venosa-editora-atlas-9786559778058",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "bordalo-direito-urbanistico",
+      "title": "Direito Urbanístico",
+      "author": "Rodrigo Bordalo",
+      "area": "urbanistico",
+      "editions": [
+        {
+          "id": "9786559644643",
+          "isbn": "9786559644643",
+          "name": "2ª edição",
+          "year": 2022,
+          "format": "Impresso",
+          "publisher": "Método",
+          "access": "Sumário editorial",
+          "source": "https://sumarios.grupogen.com.br/jur/MET/9786559644643_SUM.pdf",
+          "sourceLabel": "Consultar sumário"
+        }
+      ]
+    },
+    {
+      "id": "cni-propriedade-industrial-magistrado",
+      "title": "Propriedade Industrial Aplicada: Reflexões para o Magistrado",
+      "author": "Confederação Nacional da Indústria",
+      "area": "propriedade-intelectual",
+      "editions": [
+        {
+          "id": "9788579570896",
+          "isbn": "9788579570896",
+          "name": "Edição de 2013",
+          "year": 2013,
+          "format": "PDF",
+          "publisher": "CNI",
+          "access": "Texto integral aberto",
+          "source": "https://www.gov.br/inpi/pt-br/servicos/a-academia/arquivo/arquivo-publicacoes/producao-tecnica/propriedade-industrial-aplicada_reflexoes-para-o-magistrado.pdf",
+          "sourceLabel": "Ler gratuitamente"
+        }
+      ]
+    },
+    {
+      "id": "castilho-logistica-reversa-embalagens",
+      "title": "Créditos de Logística Reversa de Embalagens: regulação no Brasil e no Reino Unido",
+      "author": "André Ferreira de Castilho",
+      "area": "ambiental",
+      "editions": [
+        {
+          "id": "9788551939543",
+          "isbn": "9788551939543",
+          "name": "Edição de 2026",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Lumen Juris",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.lumenjuris.com.br/direito-agrario-e-ambiental/creditos-de-logistica-reversa-de-embalagens-2026-5178/p",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "lopes-direito-software",
+      "title": "Direito e Software: engenharia jurídica",
+      "author": "Alan Moreira Lopes; Felipe Cepluki Lopes",
+      "area": "propriedade-intelectual",
+      "editions": [
+        {
+          "id": "9788567120584",
+          "isbn": "9788567120584",
+          "name": "Edição de 2023",
+          "year": 2023,
+          "format": "Impresso",
+          "publisher": "Rumo Jurídico",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editorarumojuridico.com.br/direito-e-software",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "ruscheinsky-educacao-ambiental",
+      "title": "Educação ambiental: abordagens múltiplas",
+      "author": "Aloisio Ruscheinsky (org.)",
+      "area": "ambiental",
+      "editions": [
+        {
+          "id": "9788563899866",
+          "isbn": "9788563899866",
+          "name": "2ª edição",
+          "year": 2012,
+          "format": "E-book",
+          "publisher": "Penso",
+          "access": "Ficha editorial comercial",
+          "source": "https://m.artmed360.com.br/educacao-ambiental-abordagens-multiplas-2ed-9788563899866-p990687",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
     }
   ],
   "indicacoes_novas": [
@@ -721,6 +1006,448 @@ export default {
         "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5419-Sumario.pdf",
         "tipo": "sumario_da_editora",
         "secao": "Título III, cap. I, seção I — Sinais registráveis como marca"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "obra_id": "burnier-concorrencia",
+      "edicao_id": "9788530991159",
+      "isbn": "9788530991159",
+      "localizacao": {
+        "secao": "Seção 2.2.4 — Remédios em atos de concentração",
+        "pagina": null
+      },
+      "por_que_ler": "A seção situa os remédios depois da análise concorrencial e das eficiências.",
+      "evidencia": {
+        "url": "https://biblioteca.cade.gov.br/cgi-bin/koha/opac-detail.pl?biblionumber=3247&shelfbrowse_itemnumber=2168",
+        "tipo": "sumario_catalogo_institucional",
+        "secao": "Seção 2.2.4 — Remédios em atos de concentração"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "exclusividade-plataformas-digitais",
+      "obra_id": "mulheres-antitruste-v4",
+      "edicao_id": "9786586352528",
+      "isbn": "9786586352528",
+      "localizacao": {
+        "secao": "Capítulo de Fernanda Lopes Martins e Isabella Dorigheto Miranda sobre exclusividade e o caso iFood",
+        "pagina": null
+      },
+      "por_que_ler": "Martins e Miranda usam o caso iFood para estudar acordos de exclusividade em plataformas digitais.",
+      "evidencia": {
+        "url": "https://biblioteca.cade.gov.br/cgi-bin/koha/opac-MARCdetail.pl?biblionumber=3869",
+        "tipo": "sumario_catalogo_institucional",
+        "secao": "Capítulo de Fernanda Lopes Martins e Isabella Dorigheto Miranda sobre exclusividade e o caso iFood"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "compliance-concorrencial",
+      "obra_id": "schapiro-marinho-compliance-concorrencial",
+      "edicao_id": "9788584933990",
+      "isbn": "9788584933990",
+      "localizacao": {
+        "secao": null,
+        "pagina": null
+      },
+      "por_que_ler": "A obra discute como empresas estruturam seus programas e como as autoridades incentivam sua adoção.",
+      "evidencia": {
+        "url": "https://www.gov.br/anatel/pt-br/composicao/ceadi/repositorio/compliance-concorrencial-cooperacao-regulatoria-na-defesa-da-concorrencia",
+        "tipo": "ficha_institucional",
+        "secao": null
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "discriminacao-acesso-trabalho",
+      "obra_id": "correia-matos-sutti-trabalho-antidiscriminatorio",
+      "edicao_id": "9788577897353",
+      "isbn": "9788577897353",
+      "localizacao": {
+        "secao": "Cap. 5, item 5.2 — Recrutamento",
+        "pagina": null
+      },
+      "por_que_ler": "O recorte permite identificar formas de discriminação já na seleção de candidatos.",
+      "evidencia": {
+        "url": "https://www.editoramizuno.com.br/products/livro-direito-do-trabalho-antidiscriminatorio",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 5, item 5.2 — Recrutamento"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "regra-ouro-orcamento",
+      "obra_id": "conti-divida-publica",
+      "edicao_id": "9788580393897",
+      "isbn": "9788580393897",
+      "localizacao": {
+        "secao": "Caps. 22, 23 e 25 — Regra de ouro",
+        "pagina": null
+      },
+      "por_que_ler": "Compare as abordagens sobre a regra de ouro e confira o texto constitucional e as regras fiscais vigentes.",
+      "evidencia": {
+        "url": "https://www.blucher.com.br/divida-publica_9788580393897",
+        "tipo": "sumario_da_editora",
+        "secao": "Caps. 22, 23 e 25 — Regra de ouro"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "acesso-informacao-lai",
+      "obra_id": "polizio-lei-acesso-informacao",
+      "edicao_id": "9788536252421",
+      "isbn": "9788536252421",
+      "localizacao": {
+        "secao": null,
+        "pagina": null
+      },
+      "por_que_ler": "Use o manual para acompanhar a estrutura dos pedidos de acesso e confronte a exposição com os procedimentos atuais e a LGPD.",
+      "evidencia": {
+        "url": "https://www.jurua.com.br/shop_item.asp?id=24041",
+        "tipo": "ficha_editorial",
+        "secao": null
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "cooperacao-juridica-internacional-cpc",
+      "obra_id": "portela-internacional",
+      "edicao_id": "9788544270646",
+      "isbn": "9788544270646",
+      "localizacao": {
+        "secao": "Cap. IV — Cooperação jurídica internacional no campo cível",
+        "pagina": 763
+      },
+      "por_que_ler": "Compare a carta rogatória e o auxílio direto dentro da cooperação internacional em matéria cível.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. IV — Cooperação jurídica internacional no campo cível"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "sucessao-responsabilidade-tributaria",
+      "obra_id": "pontalti",
+      "edicao_id": "9788544275726",
+      "isbn": "9788544275726",
+      "localizacao": {
+        "secao": "Item 7.6.3.1 — Responsabilidade dos sucessores",
+        "pagina": 376
+      },
+      "por_que_ler": "A seção distingue a sucessão na aquisição de bens e as hipóteses de sucessão de pessoas físicas e jurídicas.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3834-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Item 7.6.3.1 — Responsabilidade dos sucessores"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "registro-desenho-industrial",
+      "obra_id": "tauk-santos-propriedade-industrial",
+      "edicao_id": "9788544273371",
+      "isbn": "9788544273371",
+      "localizacao": {
+        "secao": "Título II, caps. II e III — Registrabilidade e pedido de registro",
+        "pagina": 357
+      },
+      "por_que_ler": "Comece pelos requisitos de registrabilidade e avance ao procedimento de pedido no capítulo seguinte.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5419-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Título II, caps. II e III — Registrabilidade e pedido de registro"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "obra_id": "thome-manual-ambiental-2026",
+      "edicao_id": "9788544275641",
+      "isbn": "9788544275641",
+      "localizacao": {
+        "secao": "Cap. 2, item 4 — Princípios da prevenção e da precaução",
+        "pagina": 63
+      },
+      "por_que_ler": "Estude os dois princípios na mesma seção para comparar como cada um orienta decisões sobre riscos ambientais.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5204-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 2, item 4 — Princípios da prevenção e da precaução"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "publicidade-enganosa-abusiva",
+      "obra_id": "braga-netto-responsabilidade-civil",
+      "edicao_id": "9788544266038",
+      "isbn": "9788544266038",
+      "localizacao": {
+        "secao": "Itens 8.4 e 8.5 — Publicidade enganosa e abusiva",
+        "pagina": 609
+      },
+      "por_que_ler": "Compare as duas modalidades no mesmo capítulo. A seção sobre publicidade abusiva começa na p. 613.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS4846-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Itens 8.4 e 8.5 — Publicidade enganosa e abusiva"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "recall-produtos-seguranca",
+      "obra_id": "braga-netto-responsabilidade-civil",
+      "edicao_id": "9788544266038",
+      "isbn": "9788544266038",
+      "localizacao": {
+        "secao": "Item 8.4.2 — A questão do recall",
+        "pagina": 611
+      },
+      "por_que_ler": "Estude o recall no contexto da informação ao consumidor e da responsabilidade civil.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS4846-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Item 8.4.2 — A questão do recall"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "obra_id": "campilongo-pfeiffer-evolucao-antitruste",
+      "edicao_id": "9788553066049",
+      "isbn": "9788553066049",
+      "localizacao": {
+        "secao": "Capítulo de Leonor Cordovil e Carolina Saito sobre troca de informações",
+        "pagina": null
+      },
+      "por_que_ler": "O capítulo investiga quando uma troca de informações entre concorrentes pode ser examinada como conduta autônoma.",
+      "evidencia": {
+        "url": "https://biblioteca.cade.gov.br/cgi-bin/koha/opac-detail.pl?biblionumber=3300&shelfbrowse_itemnumber=2281",
+        "tipo": "sumario_catalogo_institucional",
+        "secao": "Capítulo de Leonor Cordovil e Carolina Saito sobre troca de informações"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "obra_id": "paulo-alexandrino-resumo-constitucional",
+      "edicao_id": "9786559648580",
+      "isbn": "9786559648580",
+      "localizacao": {
+        "secao": "Cap. 6, item 3.1.2 — Iniciativa popular",
+        "pagina": 217
+      },
+      "por_que_ler": "A seção situa a iniciativa popular na fase inicial do processo legislativo ordinário.",
+      "evidencia": {
+        "url": "https://sumarios.grupogen.com.br/jur/MET/9786559648580_SUM.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 6, item 3.1.2 — Iniciativa popular"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "nulidade-registro-marca",
+      "obra_id": "tauk-santos-propriedade-industrial",
+      "edicao_id": "9788544273371",
+      "isbn": "9788544273371",
+      "localizacao": {
+        "secao": "Título III, cap. XI — Nulidade do registro",
+        "pagina": 680
+      },
+      "por_que_ler": "Acompanhe os comentários sobre nulidade do registro e compare as vias administrativa e judicial.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5419-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Título III, cap. XI — Nulidade do registro"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "negocio-juridico-processual",
+      "obra_id": "didier",
+      "edicao_id": "9788544270516",
+      "isbn": "9788544270516",
+      "localizacao": {
+        "secao": "Cap. 9, seção 5 — Negócios processuais",
+        "pagina": 503
+      },
+      "por_que_ler": "Comece pelas espécies de negócios processuais para situar a convenção entre as partes.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5125-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 9, seção 5 — Negócios processuais"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "irdr-demandas-repetitivas",
+      "obra_id": "neves",
+      "edicao_id": "9788544271001",
+      "isbn": "9788544271001",
+      "localizacao": {
+        "secao": "Item 64 — Incidente de resolução de demandas repetitivas",
+        "pagina": 1049
+      },
+      "por_que_ler": "A seção organiza o cabimento do incidente antes dos efeitos de sua decisão.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5079-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Item 64 — Incidente de resolução de demandas repetitivas"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "repeticao-indebito-tributario",
+      "obra_id": "pontalti",
+      "edicao_id": "9788544275726",
+      "isbn": "9788544275726",
+      "localizacao": {
+        "secao": "Item 8.6 — Restituição do pagamento indevido",
+        "pagina": 470
+      },
+      "por_que_ler": "Comece pelos fundamentos da restituição para distinguir a recuperação de tributo pago indevidamente de outras formas de extinção do crédito.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3834-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Item 8.6 — Restituição do pagamento indevido"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "herdeiros-necessarios-legitima",
+      "obra_id": "venosa-familia-sucessoes-v5",
+      "edicao_id": "9786559778058",
+      "isbn": "9786559778058",
+      "localizacao": {
+        "secao": "Cap. 29 — Herdeiros necessários e porção legítima",
+        "pagina": null
+      },
+      "por_que_ler": "Comece pela definição de herdeiros necessários e pela parte da herança reservada a eles.",
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-direito-civil-familia-e-sucessoes-vol-5-26-edicao-2026-silvio-de-salvo-venosa-editora-atlas-9786559778058",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 29 — Herdeiros necessários e porção legítima"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "sucessao-legitima-testamentaria",
+      "obra_id": "venosa-familia-sucessoes-v5",
+      "edicao_id": "9786559778058",
+      "isbn": "9786559778058",
+      "localizacao": {
+        "secao": "Cap. 28 — Vocação hereditária e sucessão legítima e testamentária",
+        "pagina": null
+      },
+      "por_que_ler": "Compare os dois modos de sucessão no mesmo capítulo e consulte a ordem de vocação hereditária.",
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-direito-civil-familia-e-sucessoes-vol-5-26-edicao-2026-silvio-de-salvo-venosa-editora-atlas-9786559778058",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 28 — Vocação hereditária e sucessão legítima e testamentária"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "sancoes-licitacoes-contratos",
+      "obra_id": "carvalho-oliveira-rocha-licitacoes",
+      "edicao_id": "9788544271193",
+      "isbn": "9788544271193",
+      "localizacao": {
+        "secao": "Cap. I — Infrações e sanções administrativas",
+        "pagina": 794
+      },
+      "por_que_ler": "Comece pelos comentários aos arts. 155 a 163 para relacionar infrações e sanções.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5065-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. I — Infrações e sanções administrativas"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "zeis-zonas-especiais-interesse-social",
+      "obra_id": "bordalo-direito-urbanistico",
+      "edicao_id": "9786559644643",
+      "isbn": "9786559644643",
+      "localizacao": {
+        "secao": "Item 5.15.2 — Zonas especiais de interesse social",
+        "pagina": 92
+      },
+      "por_que_ler": "Estude o instrumento no conjunto das regras urbanísticas e confira a legislação municipal aplicável.",
+      "evidencia": {
+        "url": "https://sumarios.grupogen.com.br/jur/MET/9786559644643_SUM.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Item 5.15.2 — Zonas especiais de interesse social"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "segredo-industrial-concorrencia-desleal",
+      "obra_id": "cni-propriedade-industrial-magistrado",
+      "edicao_id": "9788579570896",
+      "isbn": "9788579570896",
+      "localizacao": {
+        "secao": "Cap. 7 — Segredos de negócio e de indústria",
+        "pagina": 151
+      },
+      "por_que_ler": "O capítulo situa a proteção de informações empresariais sigilosas e sua relação com a concorrência desleal. Use a legislação atual em paralelo.",
+      "evidencia": {
+        "url": "https://www.gov.br/inpi/pt-br/servicos/a-academia/arquivo/arquivo-publicacoes/producao-tecnica/propriedade-industrial-aplicada_reflexoes-para-o-magistrado.pdf",
+        "tipo": "texto_integral",
+        "secao": "Cap. 7 — Segredos de negócio e de indústria"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "logistica-reversa-pnrs",
+      "obra_id": "castilho-logistica-reversa-embalagens",
+      "edicao_id": "9788551939543",
+      "isbn": "9788551939543",
+      "localizacao": {
+        "secao": null,
+        "pagina": null
+      },
+      "por_que_ler": "Use o recorte de embalagens para estudar os créditos de logística reversa e a responsabilidade compartilhada no ciclo de vida do produto.",
+      "evidencia": {
+        "url": "https://www.lumenjuris.com.br/direito-agrario-e-ambiental/creditos-de-logistica-reversa-de-embalagens-2026-5178/p",
+        "tipo": "ficha_editorial",
+        "secao": null
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "licenciamento-programas-computador",
+      "obra_id": "lopes-direito-software",
+      "edicao_id": "9788567120584",
+      "isbn": "9788567120584",
+      "localizacao": {
+        "secao": null,
+        "pagina": null
+      },
+      "por_que_ler": "A obra trata dos tipos de licença no contexto dos contratos de software. Use como leitura aplicada em paralelo à legislação.",
+      "evidencia": {
+        "url": "https://www.editorarumojuridico.com.br/direito-e-software",
+        "tipo": "ficha_editorial",
+        "secao": null
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "educacao-ambiental-politica-nacional",
+      "obra_id": "ruscheinsky-educacao-ambiental",
+      "edicao_id": "9788563899866",
+      "isbn": "9788563899866",
+      "localizacao": {
+        "secao": "Capítulo sobre Política Nacional de Educação Ambiental e cidadania",
+        "pagina": null
+      },
+      "por_que_ler": "O capítulo oferece contexto pedagógico e histórico. Consulte separadamente as mudanças legais posteriores à edição.",
+      "evidencia": {
+        "url": "https://m.artmed360.com.br/educacao-ambiental-abordagens-multiplas-2ed-9788563899866-p990687",
+        "tipo": "ficha_editorial",
+        "secao": "Capítulo sobre Política Nacional de Educação Ambiental e cidadania"
       },
       "verificacao": "2026-11-25"
     }
