@@ -1,5 +1,6 @@
 import third from "./novembro/expansao-iii.mjs";
 import consolidation from "./novembro/consolidacao-i.mjs";
+import ciclo1 from "./novembro/ciclo-1.mjs";
 import checked from "./novembro/verificacao-complementar.mjs";
 const validUrls = new Map(checked.fontes_oficiais.map(item => [item.id, item.url_conferida]));
 import expansion from "./novembro/expansao.mjs";
@@ -37,6 +38,10 @@ const thirdBookId = id => id === "tartuce-neves-manual-consumidor-2026" ? "tartu
 
 export function addNovemberBooks(books) {
   const entries = new Map(addExpansionBooks(books).map(book => [book.id, book]));
+  for (const item of ciclo1.obras_novas) {
+    if (entries.has(item.id)) throw new Error("Obra duplicada no Ciclo 1: " + item.id);
+    entries.set(item.id, item);
+  }
   for (const item of checked.livros_novos) {
     if (entries.has(item.id)) throw new Error("Obra verificada duplicada: " + item.id);
     entries.set(item.id, item);
@@ -108,7 +113,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));
@@ -132,6 +137,15 @@ export function addNovemberTopics(topics, books) {
       coverage: { url: item.evidencia.url, action: ref.action },
       ...previous, coverageByEdition: { ...previous?.coverageByEdition, [edition.id]: ref },
     };
+  }
+  // Consultas reais do piloto passam a ser expressões de descoberta, sem duplicar fichas.
+  for (const item of ciclo1.amostra) {
+    const id = novemberTopicId(item.tema_id);
+    const previous = entries.get(id);
+    if (!previous) throw new Error("Tema de piloto ausente: " + id);
+    entries.set(id, {
+      ...previous, aliases: unique([...(previous.aliases ?? []), item.consulta]),
+    });
   }
   for (const pair of editorialRelations.pares) {
     const a = novemberTopicId(pair.tema_a);

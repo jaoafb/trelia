@@ -55,3 +55,5 @@ if __name__ == "__main__":
     write("termos-busca", search)
     checked = json.loads((SOURCE / "trelia-verificacao-complementar-2026-11-24.json").read_text(encoding="utf-8-sig"))
     write("verificacao-complementar", checked)
+    ciclo1 = json.loads((SOURCE / "trelia-ciclo1-qualidade-bibliografica-2026-11-25.json").read_text(encoding="utf-8-sig"))
+    write("ciclo-1", {key: ciclo1[key] for key in ("amostra", "obras_novas", "indicacoes_novas")})
