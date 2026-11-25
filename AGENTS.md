@@ -28,7 +28,7 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 
 ## Licenciamento e leituras salvas
 
-- A consulta ao código público não concede automaticamente direitos de reutilização. Consulte [LICENSE.md](LICENSE.md) e respeite os materiais de terceiros.
+- O **código-fonte original** é disponibilizado sob [MIT](LICENSE.md), dentro dos limites de [LICENSING.md](LICENSING.md). Essa licença **não se estende automaticamente** a textos editoriais, bases de curadoria, identidade visual e materiais de terceiros, inclusive quando incorporados a módulos JavaScript.
 - **Minhas leituras** armazena referências localmente no navegador. Não introduza contas, sincronização ou coleta de dados sem uma decisão explícita do produto.
 - Consulte [CONTRIBUTING.md](CONTRIBUTING.md) e [SECURITY.md](SECURITY.md) para contribuições e relatos de vulnerabilidades.
 

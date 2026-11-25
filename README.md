@@ -61,4 +61,5 @@ Além dos testes, mudanças em recomendações precisam de verificação de edi�
 - [CONTRIBUTING.md](CONTRIBUTING.md): contribuições, correções editoriais e critérios de revisão.
 - [SECURITY.md](SECURITY.md): como comunicar falhas de segurança sem divulgação pública.
 - [CHANGELOG.md](CHANGELOG.md): principais marcos do projeto.
-- [LICENSE.md](LICENSE.md): condições atuais. **Repositório público não significa projeto de código aberto**. Materiais de terceiros mantêm seus próprios direitos.
+- **Código-fonte:** [licença MIT](LICENSE.md), permitindo estudo, uso, modificação e redistribuição conforme seus termos.
+- **Curadoria e demais materiais:** [escopo de licenciamento](LICENSING.md). Textos editoriais, bases de dados, imagens, marca e materiais de terceiros **não são liberados pela MIT**, mesmo quando aparecem em arquivos que também contêm código.

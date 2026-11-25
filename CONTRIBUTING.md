@@ -40,4 +40,4 @@ Registre na PR o que passou, o que foi inspecionado manualmente e o que ainda es
 
 ## Direitos
 
-O repositório **não possui licença de código aberto** nesta etapa; consulte [LICENSE.md](LICENSE.md). Envie apenas contribuições de sua autoria ou para as quais tenha autorização. O envio de uma contribuição não transfere direitos autorais automaticamente; a incorporação de material de terceiros exige confirmação das permissões necessárias com o mantenedor.
+O **código-fonte original** da Trelia é disponibilizado sob a [licença MIT](LICENSE.md). O [escopo de licenciamento](LICENSING.md) exclui textos e dados editoriais, imagens, marca e conteúdos de terceiros dessa autorização. Envie somente materiais de sua autoria ou para os quais tenha direitos e permissões suficientes. Ao propor código para incorporação, confirme na PR que ele pode ser distribuído sob MIT; propostas de novos textos e dados editoriais dependem de autorização própria. O envio de uma contribuição não transfere automaticamente seus direitos autorais.

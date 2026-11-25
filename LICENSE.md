@@ -1,13 +1,15 @@
-# Direitos autorais e condições de uso
+# MIT License — código-fonte da Trelia
 
-Copyright © 2026 jaoafb. Todos os direitos reservados.
+A licença MIT abaixo se aplica **somente ao código-fonte original** definido em [LICENSING.md](LICENSING.md). Não licencia a curadoria, os dados editoriais, os textos, a identidade visual nem materiais de terceiros, mesmo quando incorporados a arquivos que também contêm código.
 
-Este repositório é disponibilizado publicamente para consulta, transparência editorial e acompanhamento do desenvolvimento da **Trelia**. A disponibilização do código-fonte e dos materiais originais **não concede, por si só, licença geral** para copiar, modificar, redistribuir, sublicenciar ou explorar comercialmente esses materiais, ressalvadas as permissões legais e as condições aplicáveis da plataforma de hospedagem.
+---
 
-Esta declaração se aplica apenas aos materiais cujos direitos pertençam aos responsáveis pela Trelia. **Não altera os direitos de terceiros** sobre livros, artigos científicos, imagens, capas, marcas, bibliografias e outros conteúdos citados. Legislação, textos oficiais e informações submetidas a regimes próprios continuam sujeitos às respectivas regras.
+MIT License
 
-Referências bibliográficas ou links externos não representam autorização para reproduzir a obra indicada.
+Copyright (c) 2026 jaoafb
 
-**Este documento é uma declaração de reserva de direitos, e não uma licença de código aberto.** Adotar MIT, Apache-2.0, GPL ou outra licença requer uma decisão expressa dos titulares, com atenção às contribuições e aos conteúdos de terceiros.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Para discutir licenciamento, procure o responsável por este repositório pelo perfil do GitHub.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
