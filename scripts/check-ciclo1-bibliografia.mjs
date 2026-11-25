@@ -4,6 +4,7 @@ import { books, topics, catalog, findEntries } from "../dist/data.mjs";
 import { readingEvidence } from "../dist/catalogo/leituras.mjs";
 import { novemberTopicId } from "../dist/catalogo/ampliado/curadoria-novembro.mjs";
 import cycle from "../dist/catalogo/ampliado/novembro/ciclo-1.mjs";
+import cycle2 from "../dist/catalogo/ampliado/novembro/ciclo-2.mjs";
 const original = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-ciclo1-qualidade-bibliografica-2026-11-25.json", import.meta.url)));
 const snapshot = JSON.parse(readFileSync(new URL("../data/catalogo/auditoria-snapshot-2026-11-24.json", import.meta.url)));
 assert.deepEqual(cycle, {amostra:original.amostra,obras_novas:original.obras_novas,indicacoes_novas:original.indicacoes_novas},"Módulo gerado deve seguir a fonte editorial");
@@ -12,7 +13,7 @@ assert.equal(new Set(cycle.amostra.map(x=>x.tema_id)).size,25);
 assert.equal(new Set(cycle.amostra.map(x=>x.area_id)).size,19);
 assert.equal(topics.length,308,"Ciclo 1 não cria novos temas");
 assert.equal(catalog.length,19);
-assert.equal(books.length,snapshot.resumo.obras+2);
+assert.equal(books.length,snapshot.resumo.obras+2+cycle2.obras_novas.length);
 assert.equal(cycle.indicacoes_novas.length,3);
 assert.equal(cycle.obras_novas.length,2);
 const byId=new Map(topics.map(t=>[t.id,t]));
@@ -53,5 +54,5 @@ for(const indication of cycle.indicacoes_novas) {
 }
 assert.equal(books.filter(b=>b.editions.some(e=>e.isbn==="9786551772153")).length,1,"Evitar duplicar a edição preexistente de Mendes/Cavalcante");
 assert.deepEqual(statuses,{sumario_editorial_confirmado_na_amostra:19,pendente_revalidacao_da_fonte:1,lacuna_preenchida_com_capitulo:3,permanece_sem_capitulo_confirmado:2});
-assert.equal(topics.filter(t=>!Object.keys(t.recommendations??{}).length).length,snapshot.resumo.temas_sem_livro_indicado-3);
+assert.equal(topics.filter(t=>!Object.keys(t.recommendations??{}).length).length,snapshot.resumo.temas_sem_livro_indicado-3-cycle2.indicacoes_novas.length);
 console.log("Ciclo 1: 25 temas/19 áreas, 20 registros prévios, 3 capítulos novos, 2 lacunas mantidas, 25 consultas naturais funcionais.");

@@ -55,3 +55,6 @@ jobs:
 
       - name: Verificar piloto bibliografico Ciclo 1
         run: node scripts/check-ciclo1-bibliografia.mjs
+
+      - name: Verificar Ciclo 2 bibliografico
+        run: node scripts/check-ciclo2-bibliografia.mjs
