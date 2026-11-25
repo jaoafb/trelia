@@ -12,6 +12,7 @@ import { additionalBooks, enrichTopics } from "./catalogo/editorial.mjs";
 import expandedCourses from "./catalogo/ampliado/curadoria/index.mjs";
 import { createBibliography } from "./catalogo/ampliado/carregar.mjs";
 import { applyCuratedBooks, applyCuratedTopics, curatedCatalog, promotedIds } from "./catalogo/ampliado/curadoria-lote.mjs";
+import { addNovemberBooks, addNovemberTopics } from "./catalogo/ampliado/curadoria-novembro.mjs?v=expansao-iii";
 import economicRecords from "./catalogo/ampliado/bibliografia/economico.mjs";
 import urbanRecords from "./catalogo/ampliado/bibliografia/urbanistico.mjs";
 
@@ -26,11 +27,12 @@ const base = [
 
 const records = new Map([...economicRecords, ...urbanRecords]
   .filter(book => promotedIds.has(book.id)).map(book => [book.id, book]));
-const selectedBooks = applyCuratedBooks([...base.flatMap(area => area.books), ...additionalBooks], records);
+const selectedBooks = addNovemberBooks(applyCuratedBooks([...base.flatMap(area => area.books), ...additionalBooks], records));
 const selectedIsbns = new Set(selectedBooks.flatMap(book => book.editions.map(edition => edition.isbn)));
 export const books = addFreeMaterials([...selectedBooks, ...importedBooks.filter(book =>
   !book.editions.some(edition => edition.isbns.some(isbn => selectedIsbns.has(isbn))))]);
-export const topics = addFreeReadings(applyCuratedTopics(enrichTopics(base.flatMap(area => area.topics), books), books));
+const curatedTopics = applyCuratedTopics(enrichTopics(base.flatMap(area => area.topics), books), books);
+export const topics = addNovemberTopics(addFreeReadings(curatedTopics), books);
 export const catalog = curatedCatalog(base, topics, books);
 export const courses = catalog.map(area => area.course);
 export const findEntries = createSearch(courses, topics, books);

@@ -1,0 +1,2077 @@
+{
+  "versao": 1,
+  "data_curadoria": "2026-11-22",
+  "base": {
+    "repositorio": "jaoafb/trelia",
+    "branch": "main",
+    "commit": "f8176fddd0d4b0687ab523ee918945196844b317",
+    "total_areas": 19,
+    "total_temas": 169
+  },
+  "total": {
+    "areas_ampliadas": 8,
+    "areas_novas": 0,
+    "temas_novos": 32,
+    "respostas_novas": 32,
+    "termos_de_busca": 98,
+    "perguntas_indexaveis": 32,
+    "total_temas_projetado": 201,
+    "temas_com_livro": 23,
+    "indicacoes_de_livro": 23,
+    "obras_nas_indicacoes": 9,
+    "obras_novas": 1,
+    "edicoes_novas": 1,
+    "fontes_oficiais": 36,
+    "artigos_abertos": 2
+  },
+  "cobertura": [
+    {
+      "area_id": "ambiental",
+      "nome": "Direito Ambiental",
+      "temas_antes": 1,
+      "temas_adicionados": 4,
+      "temas_depois": 5,
+      "temas_novos_com_livro": 2,
+      "artigos": 1
+    },
+    {
+      "area_id": "financeiro",
+      "nome": "Direito Financeiro",
+      "temas_antes": 1,
+      "temas_adicionados": 4,
+      "temas_depois": 5,
+      "temas_novos_com_livro": 4,
+      "artigos": 0
+    },
+    {
+      "area_id": "eleitoral",
+      "nome": "Direito Eleitoral",
+      "temas_antes": 1,
+      "temas_adicionados": 4,
+      "temas_depois": 5,
+      "temas_novos_com_livro": 2,
+      "artigos": 0
+    },
+    {
+      "area_id": "internacional",
+      "nome": "Direito Internacional",
+      "temas_antes": 1,
+      "temas_adicionados": 4,
+      "temas_depois": 5,
+      "temas_novos_com_livro": 4,
+      "artigos": 0
+    },
+    {
+      "area_id": "empresarial",
+      "nome": "Direito Empresarial",
+      "temas_antes": 2,
+      "temas_adicionados": 4,
+      "temas_depois": 6,
+      "temas_novos_com_livro": 3,
+      "artigos": 0
+    },
+    {
+      "area_id": "previdenciario",
+      "nome": "Direito Previdenciário",
+      "temas_antes": 2,
+      "temas_adicionados": 4,
+      "temas_depois": 6,
+      "temas_novos_com_livro": 4,
+      "artigos": 0
+    },
+    {
+      "area_id": "urbanistico",
+      "nome": "Direito Urbanístico",
+      "temas_antes": 3,
+      "temas_adicionados": 4,
+      "temas_depois": 7,
+      "temas_novos_com_livro": 3,
+      "artigos": 1
+    },
+    {
+      "area_id": "propriedade-intelectual",
+      "nome": "Propriedade Intelectual",
+      "temas_antes": 3,
+      "temas_adicionados": 4,
+      "temas_depois": 7,
+      "temas_novos_com_livro": 1,
+      "artigos": 0
+    }
+  ],
+  "temas": [
+    {
+      "id": "eia-rima",
+      "area_id": "ambiental",
+      "titulo": "EIA e Rima",
+      "pergunta": "Quando se exige EIA/Rima no licenciamento ambiental?",
+      "termos_busca": [
+        "estudo de impacto ambiental",
+        "diferença entre EIA e Rima",
+        "relatório de impacto ambiental"
+      ],
+      "resposta": "O EIA é o estudo técnico prévio dos impactos de atividade ou empreendimento efetiva ou potencialmente causador de significativa degradação ambiental. O Rima apresenta suas conclusões em linguagem acessível. Confira o critério da degradação significativa e a forma de licenciamento aplicável ao caso.",
+      "como_estudar": "Ao estudar um projeto de grande porte, localize o critério de exigência e compare o estudo técnico com o relatório destinado ao público.",
+      "fontes": [
+        {
+          "fonte_id": "lga",
+          "onde_comecar": "Art. 3º, XVIII e XIX, e arts. 18 e 19"
+        },
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Art. 225, § 1º, IV"
+        },
+        {
+          "fonte_id": "eia",
+          "onde_comecar": "Análise técnica do licenciamento federal"
+        }
+      ],
+      "temas_relacionados": [
+        "licenciamento-ambiental"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "app-reserva-legal",
+      "area_id": "ambiental",
+      "titulo": "Área de Preservação Permanente e Reserva Legal",
+      "pergunta": "Qual a diferença entre APP e Reserva Legal?",
+      "termos_busca": [
+        "app e reserva legal",
+        "mata ciliar e reserva legal",
+        "área de preservação permanente"
+      ],
+      "resposta": "A APP protege áreas ambientalmente sensíveis, como determinadas margens de cursos d’água, estejam elas cobertas ou não por vegetação nativa. A Reserva Legal é uma área localizada no interior da propriedade ou posse rural destinada à conservação e ao uso sustentável nos termos da lei. A presença das duas no mesmo imóvel pede a leitura das regras próprias de cada instituto.",
+      "como_estudar": "Compare as definições legais e use um curso d’água dentro de um imóvel rural como exemplo.",
+      "fontes": [
+        {
+          "fonte_id": "florestal",
+          "onde_comecar": "Arts. 3º, II e III, 4º, 12 e 15"
+        }
+      ],
+      "temas_relacionados": [
+        "licenciamento-ambiental"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "unidades-de-conservacao",
+      "area_id": "ambiental",
+      "titulo": "Unidades de conservação",
+      "pergunta": "Qual a diferença entre proteção integral e uso sustentável?",
+      "termos_busca": [
+        "snuc",
+        "categorias de unidades de conservação",
+        "proteção integral e uso sustentável",
+        "apa e parque nacional"
+      ],
+      "resposta": "O SNUC reúne unidades de proteção integral, voltadas à preservação e ao uso indireto dos recursos como regra, e unidades de uso sustentável, voltadas a conciliar conservação e uso sustentável de parte dos recursos. As regras concretas dependem da categoria. Parque Nacional e Área de Proteção Ambiental pertencem a grupos diferentes.",
+      "como_estudar": "Compare o objetivo dos dois grupos e depois escolha uma categoria de cada um para verificar os usos admitidos.",
+      "fontes": [
+        {
+          "fonte_id": "snuc",
+          "onde_comecar": "Arts. 7º a 14"
+        },
+        {
+          "fonte_id": "snuc_icmbio",
+          "onde_comecar": "Grupos e categorias de unidades de conservação"
+        }
+      ],
+      "temas_relacionados": [
+        "licenciamento-ambiental"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "responsabilidade-ambiental",
+      "area_id": "ambiental",
+      "titulo": "Responsabilidade por dano ambiental",
+      "pergunta": "A multa ambiental substitui a reparação do dano?",
+      "termos_busca": [
+        "responsabilidade civil ambiental",
+        "multa ambiental e reparação",
+        "esferas ambiental civil penal administrativa"
+      ],
+      "resposta": "A Constituição prevê sanções penais e administrativas por condutas lesivas ao meio ambiente independentemente da obrigação de reparar. Na esfera civil, a Política Nacional do Meio Ambiente impõe ao poluidor o dever de reparar ou indenizar o dano independentemente de culpa. Para resolver um caso, identifique a esfera de responsabilidade e seus requisitos.",
+      "como_estudar": "Separe as perguntas sobre reparação, sanção administrativa e crime ambiental antes de analisar o mesmo fato.",
+      "fontes": [
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Art. 225, § 3º"
+        },
+        {
+          "fonte_id": "pnma",
+          "onde_comecar": "Art. 14, § 1º"
+        }
+      ],
+      "temas_relacionados": [
+        "licenciamento-ambiental"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "etapas-receita-publica",
+      "area_id": "financeiro",
+      "titulo": "Etapas da receita pública",
+      "pergunta": "Quais são as etapas da receita pública?",
+      "termos_busca": [
+        "previsão lançamento arrecadação recolhimento",
+        "estágios da receita",
+        "arrecadação e recolhimento"
+      ],
+      "resposta": "Previsão estima a receita no planejamento. Na execução, o lançamento, quando cabível, identifica o crédito e o devedor, a arrecadação é o recebimento pelos agentes arrecadadores e o recolhimento leva os valores ao Tesouro. A natureza da receita determina quais etapas se aplicam.",
+      "como_estudar": "Trace o percurso de uma receita desde a estimativa orçamentária até o ingresso no caixa do Tesouro.",
+      "fontes": [
+        {
+          "fonte_id": "l4320",
+          "onde_comecar": "Arts. 29 a 35 e 52 a 57"
+        },
+        {
+          "fonte_id": "mcasp",
+          "onde_comecar": "Parte I, procedimentos contábeis orçamentários, etapas da receita"
+        }
+      ],
+      "temas_relacionados": [
+        "orcamento-publico"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "etapas-despesa-publica",
+      "area_id": "financeiro",
+      "titulo": "Etapas da despesa pública",
+      "pergunta": "Qual a diferença entre empenho, liquidação e pagamento?",
+      "termos_busca": [
+        "estágios da despesa pública",
+        "empenho liquidação pagamento",
+        "execução da despesa orçamentária"
+      ],
+      "resposta": "O empenho formaliza o compromisso de despesa. A liquidação verifica, com base nos documentos, o direito do credor, o valor e a quem se deve pagar. O pagamento entrega o valor devido após a regular liquidação e a ordem de pagamento.",
+      "como_estudar": "Use a compra de material por um órgão público para identificar em que momento surge o compromisso, se confere a entrega e se efetua o pagamento.",
+      "fontes": [
+        {
+          "fonte_id": "l4320",
+          "onde_comecar": "Arts. 58 a 65"
+        },
+        {
+          "fonte_id": "mcasp",
+          "onde_comecar": "Parte I, procedimentos contábeis orçamentários, etapas da despesa"
+        }
+      ],
+      "temas_relacionados": [
+        "orcamento-publico"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "creditos-adicionais",
+      "area_id": "financeiro",
+      "titulo": "Créditos adicionais",
+      "pergunta": "Como diferenciar crédito suplementar, especial e extraordinário?",
+      "termos_busca": [
+        "tipos de créditos adicionais",
+        "suplementar especial extraordinário",
+        "dotação suplementar"
+      ],
+      "resposta": "O crédito suplementar reforça uma dotação existente. O especial atende despesa sem dotação específica. O extraordinário é reservado a despesa imprevisível e urgente, nos termos da Constituição.",
+      "como_estudar": "Classifique primeiro a situação e depois confira a forma de abertura e os recursos exigidos para cada espécie.",
+      "fontes": [
+        {
+          "fonte_id": "l4320",
+          "onde_comecar": "Arts. 40 a 46"
+        },
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Art. 167, V e § 3º"
+        }
+      ],
+      "temas_relacionados": [
+        "orcamento-publico"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "renuncia-receita",
+      "area_id": "financeiro",
+      "titulo": "Renúncia de receita na LRF",
+      "pergunta": "O que a LRF exige de um benefício tributário que reduz a arrecadação?",
+      "termos_busca": [
+        "renúncia fiscal artigo 14",
+        "estimativa de impacto e compensação",
+        "benefício tributário renúncia de receita"
+      ],
+      "resposta": "O art. 14 da LRF exige estimativa do impacto orçamentário-financeiro no exercício de início e nos dois seguintes, compatibilidade com a LDO e o atendimento de uma das condições legais. Conforme a hipótese, examina-se a incorporação da renúncia à estimativa de receita e a preservação das metas fiscais, ou medidas de compensação. O § 3º contém exceções.",
+      "como_estudar": "Leia os dois incisos do art. 14 lado a lado para identificar qual demonstração cabe no exemplo estudado.",
+      "fontes": [
+        {
+          "fonte_id": "lrf",
+          "onde_comecar": "Art. 14, caput, incisos I e II e §§ 1º a 3º"
+        }
+      ],
+      "temas_relacionados": [
+        "orcamento-publico"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "alistamento-eleitoral",
+      "area_id": "eleitoral",
+      "titulo": "Alistamento eleitoral e voto facultativo",
+      "pergunta": "A partir de que idade o voto é obrigatório e quando é facultativo?",
+      "termos_busca": [
+        "título eleitoral 16 anos",
+        "idade eleitoral",
+        "quem tem voto facultativo",
+        "alistamento obrigatório"
+      ],
+      "resposta": "A Constituição torna alistamento e voto obrigatórios para maiores de 18 anos, com hipóteses de facultatividade para pessoas analfabetas, maiores de 70 anos e quem tem 16 ou 17 anos. Estrangeiros e conscritos durante o serviço militar obrigatório não podem alistar-se.",
+      "como_estudar": "Compare idade, facultatividade e impedimento de alistamento usando o mesmo dispositivo constitucional.",
+      "fontes": [
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Art. 14, §§ 1º e 2º"
+        }
+      ],
+      "temas_relacionados": [
+        "inelegibilidades"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "registro-candidatura",
+      "area_id": "eleitoral",
+      "titulo": "Registro de candidatura",
+      "pergunta": "O que a Justiça Eleitoral analisa no registro de candidatura?",
+      "termos_busca": [
+        "registro de candidato",
+        "quem pede registro de candidatura",
+        "convenção e registro eleitoral"
+      ],
+      "resposta": "O pedido de registro leva à Justiça Eleitoral a candidatura escolhida na convenção. Na análise, a Justiça verifica condições de elegibilidade, causas de inelegibilidade e os requisitos do pedido. A Lei das Eleições disciplina também a hipótese de pedido individual quando o partido deixa de requerer o registro.",
+      "como_estudar": "Acompanhe a sequência entre convenção, pedido e exame do registro. A resolução do TSE detalha a documentação e o procedimento.",
+      "fontes": [
+        {
+          "fonte_id": "leieleitoral",
+          "onde_comecar": "Art. 11"
+        },
+        {
+          "fonte_id": "registro",
+          "onde_comecar": "Capítulos sobre convenções e pedido de registro"
+        }
+      ],
+      "temas_relacionados": [
+        "inelegibilidades"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "propaganda-eleitoral",
+      "area_id": "eleitoral",
+      "titulo": "Propaganda eleitoral e pré-campanha",
+      "pergunta": "O que diferencia pré-campanha de propaganda eleitoral?",
+      "termos_busca": [
+        "propaganda antecipada",
+        "pedido explícito de voto",
+        "pré-campanha eleitoral art 36-a"
+      ],
+      "resposta": "A propaganda eleitoral tem início no período definido em lei. O art. 36-A descreve atos admitidos antes desse período sob condições, entre elas a ausência de pedido explícito de voto nas hipóteses do caput. Para aplicação concreta, confira o meio de divulgação e as normas da eleição correspondente.",
+      "como_estudar": "Compare os arts. 36 e 36-A e use uma manifestação de pré-candidatura como exemplo de leitura.",
+      "fontes": [
+        {
+          "fonte_id": "leieleitoral",
+          "onde_comecar": "Arts. 36 e 36-A"
+        },
+        {
+          "fonte_id": "propaganda",
+          "onde_comecar": "Regras da eleição de 2026, como exemplo datado"
+        }
+      ],
+      "temas_relacionados": [
+        "inelegibilidades"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "prestacao-contas-eleitorais",
+      "area_id": "eleitoral",
+      "titulo": "Prestação de contas eleitorais",
+      "pergunta": "O que a prestação de contas de campanha demonstra?",
+      "termos_busca": [
+        "contas de campanha",
+        "arrecadação e gastos eleitorais",
+        "fiscalização financiamento eleitoral"
+      ],
+      "resposta": "A prestação de contas registra a origem dos recursos arrecadados e as despesas de campanha. É um procedimento de controle pela Justiça Eleitoral, que segue as regras legais e a regulamentação do TSE sobre documentos, prazos, análise e julgamento.",
+      "como_estudar": "Acompanhe uma receita e uma despesa de campanha para entender quais informações permitem à Justiça Eleitoral fiscalizar cada operação.",
+      "fontes": [
+        {
+          "fonte_id": "leieleitoral",
+          "onde_comecar": "Arts. 28 a 32"
+        },
+        {
+          "fonte_id": "contas",
+          "onde_comecar": "Capítulos de prestação de contas e julgamento"
+        }
+      ],
+      "temas_relacionados": [
+        "inelegibilidades"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "incorporacao-tratados",
+      "area_id": "internacional",
+      "titulo": "Incorporação de tratados no Brasil",
+      "pergunta": "Qual a diferença entre aprovação pelo Congresso, ratificação e promulgação?",
+      "termos_busca": [
+        "como tratado entra em vigor no Brasil",
+        "aprovação ratificação promulgação tratado",
+        "internalização tratado internacional"
+      ],
+      "resposta": "No procedimento usual dos tratados submetidos ao Congresso, a aprovação legislativa autoriza a continuidade do processo. A ratificação é um ato internacional de consentimento quando exigida pelo tratado. A promulgação no Brasil dá publicidade ao texto para sua execução interna, conforme o procedimento adotado. A entrada em vigor internacional segue as cláusulas do próprio tratado.",
+      "como_estudar": "Trace uma linha do tempo do acordo e marque quais atos ocorrem no plano interno e quais produzem efeitos internacionais.",
+      "fontes": [
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Arts. 49, I, e 84, VIII"
+        },
+        {
+          "fonte_id": "tratados",
+          "onde_comecar": "Etapas após as negociações, exemplo de acordos comerciais"
+        }
+      ],
+      "temas_relacionados": [
+        "internacional-publico-privado"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "interpretacao-tratados",
+      "area_id": "internacional",
+      "titulo": "Interpretação de tratados",
+      "pergunta": "Como se interpreta um tratado pela Convenção de Viena?",
+      "termos_busca": [
+        "artigo 31 Convenção de Viena",
+        "interpretação tratados boa fé",
+        "trabalhos preparatórios tratado"
+      ],
+      "resposta": "A regra geral combina boa-fé, sentido comum dos termos, contexto e objeto e finalidade do tratado. O art. 32 prevê meios suplementares, como trabalhos preparatórios, para confirmar o sentido ou ajudar em hipóteses previstas no próprio dispositivo.",
+      "como_estudar": "Leia primeiro o art. 31 como um conjunto de elementos e depois veja quando o art. 32 entra na análise.",
+      "fontes": [
+        {
+          "fonte_id": "viena",
+          "onde_comecar": "Convenção de Viena, arts. 31 a 33"
+        }
+      ],
+      "temas_relacionados": [
+        "internacional-publico-privado"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "jurisdicao-internacional-cpc",
+      "area_id": "internacional",
+      "titulo": "Jurisdição internacional no CPC",
+      "pergunta": "Quando a Justiça brasileira pode julgar uma causa com elemento estrangeiro?",
+      "termos_busca": [
+        "jurisdição internacional concorrente e exclusiva",
+        "competência internacional cpc",
+        "foro estrangeiro cláusula"
+      ],
+      "resposta": "O CPC prevê situações em que a autoridade judiciária brasileira pode julgar uma causa, como certas obrigações a cumprir no Brasil, e situações reservadas à jurisdição nacional, como ações relativas a imóveis no Brasil. A cláusula de foro estrangeiro exclusivo segue regra própria, com limites previstos no CPC.",
+      "como_estudar": "Aplique os arts. 21 a 25 a dois exemplos, um contrato internacional e uma controvérsia sobre imóvel brasileiro.",
+      "fontes": [
+        {
+          "fonte_id": "cpc",
+          "onde_comecar": "Arts. 21 a 25"
+        }
+      ],
+      "temas_relacionados": [
+        "internacional-publico-privado"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "homologacao-decisao-estrangeira",
+      "area_id": "internacional",
+      "titulo": "Homologação de decisão estrangeira",
+      "pergunta": "Quando uma decisão estrangeira precisa ser homologada no Brasil?",
+      "termos_busca": [
+        "sentença estrangeira stj",
+        "homologação decisão estrangeira",
+        "divórcio estrangeiro consensual stj"
+      ],
+      "resposta": "Em regra, a decisão estrangeira depende de homologação para produzir efeitos no Brasil, ressalvadas previsões legais ou convencionais. O STJ é competente para homologá-la. O CPC prevê uma exceção para a sentença estrangeira de divórcio consensual, nos termos do art. 961, § 5º.",
+      "como_estudar": "Separe a pergunta sobre reconhecer efeitos de uma decisão estrangeira da pergunta sobre onde ajuizar a causa originalmente.",
+      "fontes": [
+        {
+          "fonte_id": "cf",
+          "onde_comecar": "Art. 105, I, i"
+        },
+        {
+          "fonte_id": "cpc",
+          "onde_comecar": "Arts. 960 a 965"
+        },
+        {
+          "fonte_id": "homologa",
+          "onde_comecar": "Orientações do STJ"
+        }
+      ],
+      "temas_relacionados": [
+        "internacional-publico-privado"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "empresario-e-sociedade-empresaria",
+      "area_id": "empresarial",
+      "titulo": "Empresário e sociedade empresária",
+      "pergunta": "Qual a diferença entre empresário individual e sociedade empresária?",
+      "termos_busca": [
+        "conceito de empresário",
+        "empresário individual e sociedade empresária",
+        "atividade empresarial artigo 966"
+      ],
+      "resposta": "O Código Civil caracteriza como empresário quem exerce profissionalmente atividade econômica organizada para produzir ou circular bens ou serviços. A sociedade empresária tem por objeto atividade própria de empresário, ressalvadas as regras de enquadramento em razão do tipo societário. As profissões intelectuais seguem a regra especial do parágrafo único do art. 966.",
+      "como_estudar": "Leia o conceito de atividade empresarial antes de comparar a atuação individual com o exercício da empresa por sociedade.",
+      "fontes": [
+        {
+          "fonte_id": "cc",
+          "onde_comecar": "Arts. 966, 967 e 982"
+        }
+      ],
+      "temas_relacionados": [
+        "recuperacao-judicial"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "sociedade-limitada-responsabilidade",
+      "area_id": "empresarial",
+      "titulo": "Responsabilidade dos sócios na limitada",
+      "pergunta": "Até onde vai a responsabilidade dos sócios de uma sociedade limitada?",
+      "termos_busca": [
+        "responsabilidade sociedade limitada",
+        "subscrição e integralização de capital",
+        "quotas e responsabilidade ltda"
+      ],
+      "resposta": "Na sociedade limitada, a responsabilidade de cada sócio é restrita ao valor de suas quotas, com responsabilidade solidária pela integralização do capital social. Subscrição é a assunção do compromisso de aportar capital. Integralização é o cumprimento desse compromisso.",
+      "como_estudar": "Compare um capital apenas subscrito com um capital já integralizado e aplique a regra do art. 1.052.",
+      "fontes": [
+        {
+          "fonte_id": "cc",
+          "onde_comecar": "Art. 1.052"
+        },
+        {
+          "fonte_id": "manual_limitada",
+          "onde_comecar": "Constituição, capital social e integralização"
+        }
+      ],
+      "temas_relacionados": [
+        "recuperacao-judicial"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "desconsideracao-personalidade-juridica",
+      "area_id": "empresarial",
+      "titulo": "Desconsideração da personalidade jurídica",
+      "pergunta": "Quando o patrimônio de sócios ou administradores pode ser atingido?",
+      "termos_busca": [
+        "art 50 código civil",
+        "desvio de finalidade e confusão patrimonial",
+        "desconsideração teoria maior"
+      ],
+      "resposta": "Pela regra geral do Código Civil, o abuso da personalidade jurídica pode ser caracterizado por desvio de finalidade ou confusão patrimonial. A desconsideração permite estender efeitos de determinadas obrigações aos bens de administradores ou sócios beneficiados pelo abuso, observados os requisitos legais. O CPC disciplina o incidente.",
+      "como_estudar": "Leia o art. 50 para os requisitos materiais e depois o CPC para o procedimento. O tema trata da regra civil aplicada à empresa.",
+      "fontes": [
+        {
+          "fonte_id": "cc",
+          "onde_comecar": "Arts. 49-A e 50"
+        },
+        {
+          "fonte_id": "cpc",
+          "onde_comecar": "Arts. 133 a 137"
+        }
+      ],
+      "temas_relacionados": [
+        "recuperacao-judicial"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "decretacao-falencia",
+      "area_id": "empresarial",
+      "titulo": "Hipóteses de decretação da falência",
+      "pergunta": "Em quais situações a falência pode ser decretada?",
+      "termos_busca": [
+        "causas decretação falência",
+        "art 94 lei de falências",
+        "impontualidade execução frustrada atos falimentares"
+      ],
+      "resposta": "Entre as hipóteses do art. 94 estão a impontualidade injustificada em obrigações que atendam aos requisitos legais, a execução frustrada e os atos de falência previstos na lei. Cada hipótese tem requisitos próprios. A Lei nº 11.101 também disciplina a convolação da recuperação judicial em falência.",
+      "como_estudar": "Compare as três hipóteses do art. 94 e depois veja como a situação muda quando já existe recuperação judicial em curso.",
+      "fontes": [
+        {
+          "fonte_id": "falencia",
+          "onde_comecar": "Arts. 73, 94 e 99"
+        }
+      ],
+      "temas_relacionados": [
+        "recuperacao-judicial"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "qualidade-segurado-periodo-graca",
+      "area_id": "previdenciario",
+      "titulo": "Qualidade de segurado e período de graça",
+      "pergunta": "Quem para de contribuir perde imediatamente a qualidade de segurado?",
+      "termos_busca": [
+        "período de graça inss",
+        "manutenção qualidade de segurado",
+        "quando perde a qualidade de segurado"
+      ],
+      "resposta": "O RGPS mantém a qualidade de segurado por determinados períodos mesmo sem contribuições, nas hipóteses da lei. Esses períodos são chamados de período de graça e variam conforme a situação. A perda ocorre segundo o marco legal, que precisa ser verificado no caso.",
+      "como_estudar": "Identifique a situação do segurado e consulte o inciso e os parágrafos aplicáveis do art. 15.",
+      "fontes": [
+        {
+          "fonte_id": "rgps",
+          "onde_comecar": "Art. 15"
+        },
+        {
+          "fonte_id": "qualidade",
+          "onde_comecar": "Qualidade de segurado e período de graça"
+        }
+      ],
+      "temas_relacionados": [
+        "regimes-previdenciarios"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "carencia-previdenciaria",
+      "area_id": "previdenciario",
+      "titulo": "Carência previdenciária",
+      "pergunta": "Carência e tempo de contribuição são a mesma coisa?",
+      "termos_busca": [
+        "carência inss",
+        "número mínimo de contribuições",
+        "diferença carência tempo contribuição"
+      ],
+      "resposta": "Carência é o número mínimo de contribuições mensais exigido para determinado benefício, conforme a lei. Tempo de contribuição atende a outros requisitos e segue regras próprias. As exigências de carência variam por benefício e há hipóteses legais de dispensa.",
+      "como_estudar": "Escolha um benefício e leia os arts. 24 a 26 para verificar como a carência é definida, exigida ou dispensada.",
+      "fontes": [
+        {
+          "fonte_id": "rgps",
+          "onde_comecar": "Arts. 24 a 26"
+        },
+        {
+          "fonte_id": "carencia",
+          "onde_comecar": "Diferença entre tempo de contribuição e carência"
+        }
+      ],
+      "temas_relacionados": [
+        "regimes-previdenciarios"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "incapacidade-temporaria-ou-permanente",
+      "area_id": "previdenciario",
+      "titulo": "Benefícios por incapacidade temporária e permanente",
+      "pergunta": "Qual a diferença entre auxílio por incapacidade temporária e aposentadoria por incapacidade permanente?",
+      "termos_busca": [
+        "auxílio-doença e aposentadoria por invalidez",
+        "perícia médica inss",
+        "benefício por incapacidade temporária e permanente"
+      ],
+      "resposta": "O auxílio cobre incapacidade temporária para o trabalho ou a atividade habitual, observadas as condições legais. A aposentadoria por incapacidade permanente exige incapacidade e impossibilidade de reabilitação para atividade que garanta a subsistência, conforme avaliação e demais requisitos do RGPS. O foco do estudo é identificar como a incapacidade afeta a atividade habitual.",
+      "como_estudar": "Compare os critérios dos arts. 42 e 59 e as descrições dos dois benefícios no INSS.",
+      "fontes": [
+        {
+          "fonte_id": "rgps",
+          "onde_comecar": "Arts. 42 e 59"
+        },
+        {
+          "fonte_id": "temp",
+          "onde_comecar": "Auxílio por incapacidade temporária"
+        },
+        {
+          "fonte_id": "perm",
+          "onde_comecar": "Aposentadoria por incapacidade permanente"
+        }
+      ],
+      "temas_relacionados": [
+        "regimes-previdenciarios"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "pensao-por-morte-rgps",
+      "area_id": "previdenciario",
+      "titulo": "Pensão por morte no RGPS",
+      "pergunta": "Quem pode receber pensão por morte?",
+      "termos_busca": [
+        "pensão por morte dependentes",
+        "classes de dependentes inss",
+        "duração pensão por morte"
+      ],
+      "resposta": "A pensão por morte é destinada aos dependentes que atendam aos requisitos do RGPS. O art. 16 organiza as classes de dependentes e trata da dependência econômica. O termo inicial e a duração variam conforme a hipótese e devem ser estudados nos dispositivos próprios.",
+      "como_estudar": "Identifique primeiro a classe do dependente. Em seguida, consulte os arts. 74 e 77 para estudar o início e a duração do benefício.",
+      "fontes": [
+        {
+          "fonte_id": "rgps",
+          "onde_comecar": "Arts. 16 e 74 a 77"
+        },
+        {
+          "fonte_id": "pensao",
+          "onde_comecar": "Dependentes e duração"
+        }
+      ],
+      "temas_relacionados": [
+        "regimes-previdenciarios"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "loteamento-e-desmembramento",
+      "area_id": "urbanistico",
+      "titulo": "Loteamento e desmembramento",
+      "pergunta": "Qual a diferença entre loteamento e desmembramento?",
+      "termos_busca": [
+        "parcelamento do solo urbano",
+        "loteamento desmembramento",
+        "abertura de vias loteamento"
+      ],
+      "resposta": "Ambos subdividem uma gleba em lotes. O loteamento envolve abertura de novas vias ou logradouros, ou prolongamento, modificação ou ampliação dos existentes. O desmembramento aproveita o sistema viário existente sem essas intervenções. Confira as regras municipais aplicáveis ao parcelamento.",
+      "como_estudar": "Compare os §§ 1º e 2º com duas plantas hipotéticas, uma que cria via e outra que aproveita a malha viária.",
+      "fontes": [
+        {
+          "fonte_id": "parcelamento",
+          "onde_comecar": "Art. 2º, caput e §§ 1º e 2º"
+        }
+      ],
+      "temas_relacionados": [
+        "plano-diretor"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "estudo-impacto-vizinhanca",
+      "area_id": "urbanistico",
+      "titulo": "Estudo de Impacto de Vizinhança",
+      "pergunta": "O que um EIV avalia e quando o município pode exigi-lo?",
+      "termos_busca": [
+        "eiv e eia",
+        "estudo prévio impacto vizinhança",
+        "impacto no trânsito e serviços"
+      ],
+      "resposta": "O EIV analisa os efeitos de empreendimentos ou atividades sobre a qualidade de vida na vizinhança. A lei municipal define quais casos dependem do estudo. O Estatuto da Cidade aponta aspectos a avaliar e prevê que o EIV não substitui o estudo de impacto ambiental quando este for exigido.",
+      "como_estudar": "Use o exemplo de um empreendimento que aumenta a demanda por transporte e serviços do bairro. Confira os impactos mínimos e a lei local.",
+      "fontes": [
+        {
+          "fonte_id": "cidade",
+          "onde_comecar": "Arts. 36 a 38"
+        },
+        {
+          "fonte_id": "eiv",
+          "onde_comecar": "Instrumento 15, Estudo de Impacto de Vizinhança"
+        }
+      ],
+      "temas_relacionados": [
+        "plano-diretor"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "outorga-onerosa-direito-construir",
+      "area_id": "urbanistico",
+      "titulo": "Outorga onerosa do direito de construir",
+      "pergunta": "O que significa construir acima do coeficiente básico mediante contrapartida?",
+      "termos_busca": [
+        "outorga onerosa",
+        "solo criado",
+        "coeficiente aproveitamento básico máximo"
+      ],
+      "resposta": "O plano diretor pode fixar áreas em que se admite construir acima do coeficiente de aproveitamento básico mediante contrapartida. O plano diretor fixa limites máximos e lei municipal específica estabelece as condições da outorga. O Estatuto da Cidade também disciplina a destinação dos recursos.",
+      "como_estudar": "Distinga coeficiente básico, limite máximo e contrapartida ao ler os arts. 28 a 31.",
+      "fontes": [
+        {
+          "fonte_id": "cidade",
+          "onde_comecar": "Arts. 28 a 31"
+        }
+      ],
+      "temas_relacionados": [
+        "plano-diretor"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "reurb-s-reurb-e",
+      "area_id": "urbanistico",
+      "titulo": "Regularização fundiária urbana de interesse social e específico",
+      "pergunta": "Qual a diferença entre Reurb-S e Reurb-E?",
+      "termos_busca": [
+        "reurb interesse social e específico",
+        "regularização fundiária urbana",
+        "diferença reurb s reurb e"
+      ],
+      "resposta": "A Reurb combina medidas jurídicas, urbanísticas, ambientais e sociais para incorporar núcleos urbanos informais ao ordenamento territorial e titular ocupantes. A Reurb-S é voltada aos núcleos ocupados predominantemente por população de baixa renda declarados pelo Executivo municipal ou distrital. A Reurb-E cobre a hipótese de ocupação por população que não se enquadra na modalidade social.",
+      "como_estudar": "Comece pela finalidade comum, compare as modalidades no art. 13 e só depois consulte os efeitos específicos de cada uma.",
+      "fontes": [
+        {
+          "fonte_id": "reurb",
+          "onde_comecar": "Arts. 9º a 13"
+        }
+      ],
+      "temas_relacionados": [
+        "plano-diretor"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "direitos-autorais-ideia-expressao",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Ideias e obras protegidas por direitos autorais",
+      "pergunta": "Direito autoral protege uma ideia ou a sua expressão?",
+      "termos_busca": [
+        "direito autoral protege ideia",
+        "ideia e expressão da obra",
+        "registro da obra e proteção autoral"
+      ],
+      "resposta": "A Lei de Direitos Autorais protege criações do espírito expressas ou fixadas em suporte. Ideias, métodos e sistemas como tais estão entre as exclusões legais. A proteção da obra independe de registro nos termos do art. 18.",
+      "como_estudar": "Compare uma ideia de enredo com o texto escrito para entender qual objeto está em discussão.",
+      "fontes": [
+        {
+          "fonte_id": "lda",
+          "onde_comecar": "Arts. 7º, 8º e 18"
+        }
+      ],
+      "temas_relacionados": [
+        "marca-vs-patente"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "direitos-morais-e-patrimoniais",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Direitos morais e patrimoniais do autor",
+      "pergunta": "O que muda entre direitos morais e patrimoniais do autor?",
+      "termos_busca": [
+        "direito moral do autor",
+        "direito patrimonial do autor",
+        "licença cessão direitos autorais"
+      ],
+      "resposta": "Direitos morais ligam o autor à obra, como o direito de reivindicar a autoria e preservar sua integridade. Direitos patrimoniais dizem respeito à utilização e exploração econômica da obra. A lei trata os direitos morais como inalienáveis e irrenunciáveis e estabelece regras próprias para autorizar usos ou transferir direitos patrimoniais.",
+      "como_estudar": "Compare o crédito ao autor com a autorização de reprodução para identificar que direito está em jogo em cada situação.",
+      "fontes": [
+        {
+          "fonte_id": "lda",
+          "onde_comecar": "Arts. 22 a 29 e 49"
+        }
+      ],
+      "temas_relacionados": [
+        "marca-vs-patente"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "protecao-software-direito-autoral",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Proteção jurídica de programas de computador",
+      "pergunta": "Como funciona a proteção autoral de software e para que serve o registro?",
+      "termos_busca": [
+        "direito autoral software",
+        "registro programa de computador inpi",
+        "lei do software proteção código"
+      ],
+      "resposta": "A Lei do Software aplica aos programas o regime de proteção das obras literárias, com as particularidades legais. A proteção independe de registro. O registro no INPI é facultativo e pode servir à prova das informações declaradas sobre o programa.",
+      "como_estudar": "Compare o nascimento da proteção jurídica com a finalidade probatória do registro.",
+      "fontes": [
+        {
+          "fonte_id": "software",
+          "onde_comecar": "Arts. 2º e 3º"
+        },
+        {
+          "fonte_id": "software_inpi",
+          "onde_comecar": "Perguntas sobre proteção e registro"
+        }
+      ],
+      "temas_relacionados": [
+        "marca-vs-patente"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    },
+    {
+      "id": "indicacao-geografica-ip-do",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Indicação de procedência e denominação de origem",
+      "pergunta": "O que distingue indicação de procedência de denominação de origem?",
+      "termos_busca": [
+        "indicação geográfica IP DO",
+        "indicação procedência denominação origem",
+        "proteção indicação geográfica inpi"
+      ],
+      "resposta": "A indicação de procedência aponta um local que se tornou conhecido pela produção, extração, fabricação ou prestação de determinado serviço. Na denominação de origem, qualidades ou características devem decorrer exclusiva ou essencialmente do meio geográfico, incluindo fatores naturais e humanos.",
+      "como_estudar": "Compare o requisito de reputação do local com o vínculo entre o meio geográfico e as características do produto ou serviço.",
+      "fontes": [
+        {
+          "fonte_id": "lpi",
+          "onde_comecar": "Arts. 176 a 182"
+        },
+        {
+          "fonte_id": "ig",
+          "onde_comecar": "Tipos de indicação geográfica reconhecidos pelo INPI"
+        }
+      ],
+      "temas_relacionados": [
+        "registro-de-marca"
+      ],
+      "status_editorial": "conferido_na_fonte",
+      "revisado_em": "2026-11-22"
+    }
+  ],
+  "fontes_oficiais": [
+    {
+      "id": "cf",
+      "titulo": "Constituição Federal de 1988",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "pnma",
+      "titulo": "Lei nº 6.938/1981 — Política Nacional do Meio Ambiente",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "florestal",
+      "titulo": "Lei nº 12.651/2012 — Proteção da vegetação nativa",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "snuc",
+      "titulo": "Lei nº 9.985/2000 — Sistema Nacional de Unidades de Conservação",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9985.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "snuc_icmbio",
+      "titulo": "Unidades de conservação",
+      "instituicao": "ICMBio",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "eia",
+      "titulo": "Análise técnica do licenciamento ambiental federal",
+      "instituicao": "Ibama",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/laf/procedimentos-e-servicos/etapas/analise-tecnica",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "lga",
+      "titulo": "Lei nº 15.190/2025 — Lei Geral do Licenciamento Ambiental",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15190-8-agosto-2025-797833-normaatualizada-pl.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "l4320",
+      "titulo": "Lei nº 4.320/1964 — Normas gerais de Direito Financeiro",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320compilado.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "lrf",
+      "titulo": "Lei Complementar nº 101/2000 — Lei de Responsabilidade Fiscal",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "mcasp",
+      "titulo": "Manual de Contabilidade Aplicada ao Setor Público, 11ª edição",
+      "instituicao": "Secretaria do Tesouro Nacional",
+      "tipo": "manual",
+      "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+      "formato": "pagina_institucional_com_acesso_ao_manual",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "leieleitoral",
+      "titulo": "Lei nº 9.504/1997 — Lei das Eleições",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504compilado.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "registro",
+      "titulo": "Resolução TSE nº 23.609/2019 — Escolha e registro de candidaturas",
+      "instituicao": "Tribunal Superior Eleitoral",
+      "tipo": "legislacao",
+      "url": "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-609-de-18-de-dezembro-de-2019",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "propaganda",
+      "titulo": "Por Dentro das Eleições — propaganda eleitoral em 2026",
+      "instituicao": "Tribunal Superior Eleitoral",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/saiba-quando-comeca-a-propaganda-eleitoral-e-conheca-as-novas-regras-para-as-eleicoes-2026",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "contas",
+      "titulo": "Resolução TSE nº 23.607/2019 — Arrecadação, gastos e prestação de contas",
+      "instituicao": "Tribunal Superior Eleitoral",
+      "tipo": "legislacao",
+      "url": "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-607-de-17-de-dezembro-de-2019",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "tratados",
+      "titulo": "Etapas após a conclusão das negociações até a entrada em vigor do acordo",
+      "instituicao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/mdic/pt-br/acesso-a-informacao/perguntas-frequentes-faq/secretaria-de-comercio-exterior/negociacoes-internacionais-quais-sao-as",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "viena",
+      "titulo": "Decreto nº 7.030/2009 — Convenção de Viena sobre o Direito dos Tratados",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/decreto/d7030.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "cpc",
+      "titulo": "Lei nº 13.105/2015 — Código de Processo Civil",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "homologa",
+      "titulo": "Sentença estrangeira",
+      "instituicao": "Superior Tribunal de Justiça",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.stj.jus.br/sites/portalp/Paginas/Sob-medida/Advogado/sentenca-estrangeira.aspx",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "cc",
+      "titulo": "Lei nº 10.406/2002 — Código Civil",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10406-10-janeiro-2002-432893-normaatualizada-pl.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "falencia",
+      "titulo": "Lei nº 11.101/2005 — Recuperação e falência",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101compilado.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "manual_limitada",
+      "titulo": "Manual de Registro de Sociedade Limitada",
+      "instituicao": "Departamento Nacional de Registro Empresarial e Integração",
+      "tipo": "manual",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/drei/legislacao/instrucoes-normativas/arquivos-instrucoes-normativas-em-vigor/AnexoIVManualdeRegistrodeSociedadeLimitada.pdf/%40%40download/file",
+      "formato": "pdf_direto",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "rgps",
+      "titulo": "Lei nº 8.213/1991 — Planos de benefícios da Previdência Social",
+      "instituicao": "Sistema Nacional de Informações de Registro Civil",
+      "tipo": "legislacao",
+      "url": "https://www.sirc.gov.br/lei-no-8-213-de-24-de-julho-de-1991/",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "qualidade",
+      "titulo": "Qualidade de segurado",
+      "instituicao": "Instituto Nacional do Seguro Social",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inss/pt-br/saiba-mais/seus-direitos-e-deveres/qualidade-de-segurado",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "carencia",
+      "titulo": "Tempo de contribuição não garante cumprimento de carência",
+      "instituicao": "Instituto Nacional do Seguro Social",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inss/pt-br/noticias/inss-tempo-de-contribuicao-nao-garante-cumprimento-de-carencia",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "temp",
+      "titulo": "Auxílio por incapacidade temporária",
+      "instituicao": "Instituto Nacional do Seguro Social",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-por-incapacidade/auxilio-por-incapacidade-temporaria",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "perm",
+      "titulo": "Aposentadoria por incapacidade permanente",
+      "instituicao": "Instituto Nacional do Seguro Social",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/aposentadorias/aposentadoria-por-incapacidade-permanente",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "pensao",
+      "titulo": "Pensão por morte",
+      "instituicao": "Instituto Nacional do Seguro Social",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/pensoes/pensao-por-morte",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "parcelamento",
+      "titulo": "Lei nº 6.766/1979 — Parcelamento do Solo Urbano",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6766-19-dezembro-1979-366130-normaatualizada-pl.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "cidade",
+      "titulo": "Lei nº 10.257/2001 — Estatuto da Cidade",
+      "instituicao": "Câmara dos Deputados",
+      "tipo": "legislacao",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2001/lei-10257-10-julho-2001-327901-normaatualizada-pl.html",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "reurb",
+      "titulo": "Lei nº 13.465/2017 — Regularização fundiária",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13465.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "eiv",
+      "titulo": "Guia para Elaboração e Revisão de Planos Diretores",
+      "instituicao": "Ministério das Cidades",
+      "tipo": "guia",
+      "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/desenvolvimento-urbano-e-metropolitano/projeto-andus/GuiaparaElaboraoeRevisodePlanosDiretores_compressed.pdf",
+      "formato": "pdf_direto",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "lda",
+      "titulo": "Lei nº 9.610/1998 — Lei de Direitos Autorais",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "software",
+      "titulo": "Lei nº 9.609/1998 — Lei do Software",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "software_inpi",
+      "titulo": "Programas de computador — perguntas frequentes",
+      "instituicao": "Instituto Nacional da Propriedade Industrial",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inpi/pt-br/acesso-a-informacao/perguntas-frequentes/programas-de-computador",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "lpi",
+      "titulo": "Lei nº 9.279/1996 — Lei da Propriedade Industrial",
+      "instituicao": "Presidência da República",
+      "tipo": "legislacao",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9279.htm",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    },
+    {
+      "id": "ig",
+      "titulo": "Indicação Geográfica no Brasil",
+      "instituicao": "Instituto Nacional da Propriedade Industrial",
+      "tipo": "orientacao_institucional",
+      "url": "https://www.gov.br/inpi/pt-br/servicos/indicacoes-geograficas/indicacao-geografica-no-brasil",
+      "formato": "texto_em_html",
+      "acesso": "aberto",
+      "verificacao": "2026-11-22"
+    }
+  ],
+  "obras_novas": [
+    {
+      "id": "manual-empresarial-sacramone",
+      "titulo": "Manual de Direito Empresarial",
+      "autor": "Marcelo Barbosa Sacramone",
+      "area_id": "empresarial",
+      "edicoes": [
+        {
+          "id": "9786551771545",
+          "isbn": "9786551771545",
+          "numero": 7,
+          "ano": 2026,
+          "formato": "E-book",
+          "editora": "SaraivaJur",
+          "acesso": "compra",
+          "url_ficha": "https://www.grupogen.com.br/e-book-manual-de-direito-empresarial-7-edicao-2026-marcelo-barbosa-sacramone-saraiva-jur-9786551771545"
+        }
+      ]
+    }
+  ],
+  "indicacoes_de_livro": [
+    {
+      "tema_id": "etapas-receita-publica",
+      "obra_id": "leite-financeiro",
+      "titulo_obra": "Manual de Direito Financeiro",
+      "autoria": "Harrison Leite",
+      "edicao_id": "9788544270752",
+      "ano": 2026,
+      "isbn": "9788544270752",
+      "formato": "Impresso",
+      "por_que_ler": "Compare as quatro fases no mesmo capítulo e veja como previsão e lançamento se distinguem.",
+      "localizacao": {
+        "secao": "Fases da receita",
+        "pagina": 339
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Fases da receita"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "etapas-despesa-publica",
+      "obra_id": "leite-financeiro",
+      "titulo_obra": "Manual de Direito Financeiro",
+      "autoria": "Harrison Leite",
+      "edicao_id": "9788544270752",
+      "ano": 2026,
+      "isbn": "9788544270752",
+      "formato": "Impresso",
+      "por_que_ler": "Use as três seções consecutivas para acompanhar o caminho entre a assunção do compromisso e o pagamento.",
+      "localizacao": {
+        "secao": "Empenho, liquidação e pagamento",
+        "pagina": 435
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Empenho, liquidação e pagamento"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "creditos-adicionais",
+      "obra_id": "leite-financeiro",
+      "titulo_obra": "Manual de Direito Financeiro",
+      "autoria": "Harrison Leite",
+      "edicao_id": "9788544270752",
+      "ano": 2026,
+      "isbn": "9788544270752",
+      "formato": "Impresso",
+      "por_que_ler": "A seção coloca a alteração das dotações no contexto do orçamento e complementa a leitura da Lei nº 4.320.",
+      "localizacao": {
+        "secao": "Dos créditos adicionais",
+        "pagina": 208
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Dos créditos adicionais"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "renuncia-receita",
+      "obra_id": "leite-financeiro",
+      "titulo_obra": "Manual de Direito Financeiro",
+      "autoria": "Harrison Leite",
+      "edicao_id": "9788544270752",
+      "ano": 2026,
+      "isbn": "9788544270752",
+      "formato": "Impresso",
+      "por_que_ler": "Leia a renúncia junto dos deveres de eficiência arrecadatória e responsabilidade fiscal.",
+      "localizacao": {
+        "secao": "Renúncia de receita",
+        "pagina": 359
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5103-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Renúncia de receita"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-financeiro-2026-leite"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "propaganda-eleitoral",
+      "obra_id": "zilio-eleitoral",
+      "titulo_obra": "Manual de Direito Eleitoral",
+      "autoria": "Rodrigo López Zilio",
+      "edicao_id": "9788544273098",
+      "ano": 2026,
+      "isbn": "9788544273098",
+      "formato": "Impresso",
+      "por_que_ler": "Aprofunde as particularidades da divulgação na internet depois de consultar as regras gerais da pré-campanha.",
+      "localizacao": {
+        "secao": "Propaganda eleitoral na internet",
+        "pagina": 580
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5443-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Propaganda eleitoral na internet"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "prestacao-contas-eleitorais",
+      "obra_id": "zilio-eleitoral",
+      "titulo_obra": "Manual de Direito Eleitoral",
+      "autoria": "Rodrigo López Zilio",
+      "edicao_id": "9788544273098",
+      "ano": 2026,
+      "isbn": "9788544273098",
+      "formato": "Impresso",
+      "por_que_ler": "Entenda o procedimento e quem tem o dever de prestar contas antes de consultar a resolução do TSE.",
+      "localizacao": {
+        "secao": "Prestação de contas",
+        "pagina": 695
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5443-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Prestação de contas"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-eleitoral-volume-unico-2026-zilio"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "incorporacao-tratados",
+      "obra_id": "portela-internacional",
+      "titulo_obra": "Direito Internacional Público e Privado",
+      "autoria": "Paulo Henrique Gonçalves Portela",
+      "edicao_id": "9788544270646",
+      "ano": 2026,
+      "isbn": "9788544270646",
+      "formato": "Impresso",
+      "por_que_ler": "Compare a formação do consentimento internacional com os passos que levam à aplicação interna.",
+      "localizacao": {
+        "secao": "Ratificação e incorporação ao Direito interno",
+        "pagina": 137
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Ratificação e incorporação ao Direito interno"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "interpretacao-tratados",
+      "obra_id": "portela-internacional",
+      "titulo_obra": "Direito Internacional Público e Privado",
+      "autoria": "Paulo Henrique Gonçalves Portela",
+      "edicao_id": "9788544270646",
+      "ano": 2026,
+      "isbn": "9788544270646",
+      "formato": "Impresso",
+      "por_que_ler": "Leia a interpretação no contexto do Direito dos Tratados e volte aos arts. 31 e 32 da Convenção de Viena para conferir a regra.",
+      "localizacao": {
+        "secao": "Interpretação dos tratados",
+        "pagina": 122
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Interpretação dos tratados"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "jurisdicao-internacional-cpc",
+      "obra_id": "portela-internacional",
+      "titulo_obra": "Direito Internacional Público e Privado",
+      "autoria": "Paulo Henrique Gonçalves Portela",
+      "edicao_id": "9788544270646",
+      "ano": 2026,
+      "isbn": "9788544270646",
+      "formato": "Impresso",
+      "por_que_ler": "Comece pelo recorte dedicado ao CPC de 2015 para organizar as hipóteses em que a Justiça brasileira pode julgar.",
+      "localizacao": {
+        "secao": "Competência internacional no CPC de 2015",
+        "pagina": 755
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Competência internacional no CPC de 2015"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "homologacao-decisao-estrangeira",
+      "obra_id": "portela-internacional",
+      "titulo_obra": "Direito Internacional Público e Privado",
+      "autoria": "Paulo Henrique Gonçalves Portela",
+      "edicao_id": "9788544270646",
+      "ano": 2026,
+      "isbn": "9788544270646",
+      "formato": "Impresso",
+      "por_que_ler": "A seção aproxima competência do STJ e requisitos para o reconhecimento de uma decisão estrangeira.",
+      "localizacao": {
+        "secao": "Homologação da sentença estrangeira no Brasil",
+        "pagina": 806
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5111-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Homologação da sentença estrangeira no Brasil"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-internacional-publico-e-privado-2026-portela"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "decretacao-falencia",
+      "obra_id": "campinho-falencia",
+      "titulo_obra": "Curso de Direito Comercial — Falência e Recuperação de Empresa",
+      "autoria": "Sérgio Campinho",
+      "edicao_id": "9786584004641",
+      "ano": 2026,
+      "isbn": "9786584004641",
+      "formato": "Impresso",
+      "por_que_ler": "Leia o capítulo sobre a decretação e recorra ao capítulo 14 para estudar a passagem da recuperação judicial à falência.",
+      "localizacao": {
+        "secao": "Cap. 18, Decretação judicial da falência",
+        "pagina": null
+      },
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/livro-curso-de-direito-comercial-falencia-e-recuperacao-de-empresa-16-edicao-2026-sergio-campinho-saraiva-jur-9786584004641",
+        "tipo": "sumario_da_edicao",
+        "secao": "Cap. 18, Decretação judicial da falência"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.grupogen.com.br/livro-curso-de-direito-comercial-falencia-e-recuperacao-de-empresa-16-edicao-2026-sergio-campinho-saraiva-jur-9786584004641"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "qualidade-segurado-periodo-graca",
+      "obra_id": "cardoso-previdenciario",
+      "titulo_obra": "Manual de Direito Previdenciário",
+      "autoria": "Phelipe Cardoso",
+      "edicao_id": "9788544271131",
+      "ano": 2026,
+      "isbn": "9788544271131",
+      "formato": "Impresso",
+      "por_que_ler": "Acompanhe a manutenção da qualidade de segurado e localize a seção sobre o momento da perda dessa qualidade.",
+      "localizacao": {
+        "secao": "Período de graça",
+        "pagina": 157
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3824-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Período de graça"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "carencia-previdenciaria",
+      "obra_id": "cardoso-previdenciario",
+      "titulo_obra": "Manual de Direito Previdenciário",
+      "autoria": "Phelipe Cardoso",
+      "edicao_id": "9788544271131",
+      "ano": 2026,
+      "isbn": "9788544271131",
+      "formato": "Impresso",
+      "por_que_ler": "Estude a contagem, os prazos e as exceções de carência no mesmo capítulo, depois de conferir o benefício que interessa.",
+      "localizacao": {
+        "secao": "Carência",
+        "pagina": 167
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3824-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Carência"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "incapacidade-temporaria-ou-permanente",
+      "obra_id": "cardoso-previdenciario",
+      "titulo_obra": "Manual de Direito Previdenciário",
+      "autoria": "Phelipe Cardoso",
+      "edicao_id": "9788544271131",
+      "ano": 2026,
+      "isbn": "9788544271131",
+      "formato": "Impresso",
+      "por_que_ler": "Depois da visão geral, compare as seções sobre aposentadoria por incapacidade permanente e auxílio por incapacidade temporária.",
+      "localizacao": {
+        "secao": "Aspectos gerais dos benefícios por incapacidade",
+        "pagina": 296
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3824-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Aspectos gerais dos benefícios por incapacidade"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "pensao-por-morte-rgps",
+      "obra_id": "cardoso-previdenciario",
+      "titulo_obra": "Manual de Direito Previdenciário",
+      "autoria": "Phelipe Cardoso",
+      "edicao_id": "9788544271131",
+      "ano": 2026,
+      "isbn": "9788544271131",
+      "formato": "Impresso",
+      "por_que_ler": "Use a seção de RGPS para relacionar a condição de dependente às regras específicas da pensão por morte.",
+      "localizacao": {
+        "secao": "Pensão por morte, parte de RGPS",
+        "pagina": 336
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/DIZ3824-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Pensão por morte, parte de RGPS"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/manual-de-direito-previdenciario-volume-unico-2026-cardoso"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "loteamento-e-desmembramento",
+      "obra_id": "rvbi-558697ab151871803e2d",
+      "titulo_obra": "Direito urbanístico brasileiro",
+      "autoria": "Silva, José Afonso da",
+      "edicao_id": "9788544247648",
+      "ano": 2025,
+      "isbn": "9788544247648",
+      "formato": "Impresso",
+      "por_que_ler": "Compare o papel do sistema viário na seção sobre loteamento e na seção sobre desmembramento, que começa na p. 299 desta edição.",
+      "localizacao": {
+        "secao": "Arruamento e loteamento",
+        "pagina": 287
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JMA0080-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Arruamento e loteamento"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-urbanistico-brasileiro-2025-silva"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "outorga-onerosa-direito-construir",
+      "obra_id": "rvbi-558697ab151871803e2d",
+      "titulo_obra": "Direito urbanístico brasileiro",
+      "autoria": "Silva, José Afonso da",
+      "edicao_id": "9788544247648",
+      "ano": 2025,
+      "isbn": "9788544247648",
+      "formato": "Impresso",
+      "por_que_ler": "Entenda como o instrumento se encaixa no regime urbanístico e complemente a leitura com a lei municipal.",
+      "localizacao": {
+        "secao": "O Estatuto da Cidade e a outorga onerosa do direito de construir",
+        "pagina": 234
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JMA0080-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "O Estatuto da Cidade e a outorga onerosa do direito de construir"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-urbanistico-brasileiro-2025-silva"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "reurb-s-reurb-e",
+      "obra_id": "rvbi-558697ab151871803e2d",
+      "titulo_obra": "Direito urbanístico brasileiro",
+      "autoria": "Silva, José Afonso da",
+      "edicao_id": "9788544247648",
+      "ano": 2025,
+      "isbn": "9788544247648",
+      "formato": "Impresso",
+      "por_que_ler": "Comece pela comparação entre modalidades e continue no capítulo para ver os instrumentos e o procedimento de regularização.",
+      "localizacao": {
+        "secao": "Modalidades da Reurb",
+        "pagina": 340
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JMA0080-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Modalidades da Reurb"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/direito-urbanistico-brasileiro-2025-silva"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "eia-rima",
+      "obra_id": "farias-licenciamento",
+      "titulo_obra": "Licenciamento Ambiental: Aspectos Teóricos e Práticos",
+      "autoria": "Talden Farias",
+      "edicao_id": "9788544276280",
+      "ano": 2026,
+      "isbn": "9788544276280",
+      "formato": "Impresso",
+      "por_que_ler": "Depois da leitura da lei, veja como o impacto aparece na doutrina e como a presença do estudo interfere na participação do ICMBio. Esse exemplo está na p. 253 desta edição.",
+      "localizacao": {
+        "secao": "Impacto ambiental e ciência do ICMBio em licenciamentos sem EIA/Rima",
+        "pagina": 57
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5147-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Impacto ambiental e ciência do ICMBio em licenciamentos sem EIA/Rima"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "responsabilidade-ambiental",
+      "obra_id": "farias-licenciamento",
+      "titulo_obra": "Licenciamento Ambiental: Aspectos Teóricos e Práticos",
+      "autoria": "Talden Farias",
+      "edicao_id": "9788544276280",
+      "ano": 2026,
+      "isbn": "9788544276280",
+      "formato": "Impresso",
+      "por_que_ler": "Aprofunde a esfera administrativa com exemplos de responsabilidades no licenciamento, depois de estudar a regra geral de reparação.",
+      "localizacao": {
+        "secao": "Responsabilidade administrativa e licenciamento ambiental",
+        "pagina": null
+      },
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5147-Sumario.pdf",
+        "tipo": "sumario_da_edicao",
+        "secao": "Responsabilidade administrativa e licenciamento ambiental"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.editorajuspodivm.com.br/licenciamento-ambiental-aspectos-teoricos-e-praticos-2026-farias"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "indicacao-geografica-ip-do",
+      "obra_id": "barbosa-introducao-pi",
+      "titulo_obra": "Uma introdução à propriedade intelectual",
+      "autoria": "Denis Borges Barbosa",
+      "edicao_id": "barbosa-intro-2-pdf",
+      "ano": null,
+      "isbn": null,
+      "formato": "PDF",
+      "por_que_ler": "Leia o capítulo para contextualizar a proteção dos nomes geográficos e use a Lei da Propriedade Industrial e o INPI para conferir os requisitos atuais.",
+      "localizacao": {
+        "secao": "Indicações geográficas",
+        "pagina": null
+      },
+      "evidencia": {
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf/@@download/file/Uma%2520Introducao%2520a%2520Propriedade%2520Intelectual.pdf",
+        "tipo": "texto_integral",
+        "secao": "Indicações geográficas"
+      },
+      "acesso": {
+        "tipo": "texto_integral_aberto",
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf/@@download/file/Uma%2520Introducao%2520a%2520Propriedade%2520Intelectual.pdf"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "empresario-e-sociedade-empresaria",
+      "obra_id": "manual-empresarial-sacramone",
+      "titulo_obra": "Manual de Direito Empresarial",
+      "autoria": "Marcelo Barbosa Sacramone",
+      "edicao_id": "9786551771545",
+      "ano": 2026,
+      "isbn": "9786551771545",
+      "formato": "E-book",
+      "por_que_ler": "Use o capítulo de abertura para compreender o conceito de empresa e o seu exercício pelo empresário antes de estudar os tipos societários.",
+      "localizacao": {
+        "secao": "Cap. 1, Empresa e Empresário",
+        "pagina": null
+      },
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-manual-de-direito-empresarial-7-edicao-2026-marcelo-barbosa-sacramone-saraiva-jur-9786551771545",
+        "tipo": "sumario_da_edicao",
+        "secao": "Cap. 1, Empresa e Empresário"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.grupogen.com.br/e-book-manual-de-direito-empresarial-7-edicao-2026-marcelo-barbosa-sacramone-saraiva-jur-9786551771545"
+      },
+      "verificacao": "2026-11-22"
+    },
+    {
+      "tema_id": "sociedade-limitada-responsabilidade",
+      "obra_id": "manual-empresarial-sacramone",
+      "titulo_obra": "Manual de Direito Empresarial",
+      "autoria": "Marcelo Barbosa Sacramone",
+      "edicao_id": "9786551771545",
+      "ano": 2026,
+      "isbn": "9786551771545",
+      "formato": "E-book",
+      "por_que_ler": "Use o manual para situar a sociedade limitada entre os tipos societários e aprofundar o caso da limitada com sócio único.",
+      "localizacao": {
+        "secao": "Capítulo de sociedades, com cobertura de sociedade limitada unipessoal",
+        "pagina": null
+      },
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-manual-de-direito-empresarial-7-edicao-2026-marcelo-barbosa-sacramone-saraiva-jur-9786551771545",
+        "tipo": "sumario_da_edicao",
+        "secao": "Capítulo de sociedades, com cobertura de sociedade limitada unipessoal"
+      },
+      "acesso": {
+        "tipo": "ficha_editorial_compra",
+        "url": "https://www.grupogen.com.br/e-book-manual-de-direito-empresarial-7-edicao-2026-marcelo-barbosa-sacramone-saraiva-jur-9786551771545"
+      },
+      "verificacao": "2026-11-22"
+    }
+  ],
+  "artigos": [
+    {
+      "id": "inguaggiato-stanganini-melanda-eiv-2021",
+      "tema_id": "estudo-impacto-vizinhanca",
+      "titulo": "O Estudo de Impacto de Vizinhança como ferramenta de Gestão Urbana em Municípios Paulistas de Médio Porte (100 mil a 400 mil habitantes)",
+      "autores": [
+        "Felipe Facci Inguaggiato",
+        "Fábio Noel Stanganini",
+        "Edson Augusto Melanda"
+      ],
+      "periodico": "urbe. Revista Brasileira de Gestão Urbana",
+      "ano": 2021,
+      "doi": "10.1590/2175-3369.013.e20200059",
+      "url_publicacao": "https://www.scielo.br/j/urbe/a/j5tGKSwPh5MSkmT5tFnHSNc/?lang=pt",
+      "url_texto_integral": "https://www.scielo.br/j/urbe/a/j5tGKSwPh5MSkmT5tFnHSNc/?lang=pt",
+      "acesso": "texto_integral_aberto",
+      "formato": "html",
+      "revisao_por_pares": {
+        "url_politica": "https://new.scielo.br/journal/urbe/about/?ilang=pt_BR",
+        "evidencia": "A política pública descreve avaliação duplo-cega após triagem editorial e opções de abertura."
+      },
+      "pergunta_investigada": "Como municípios paulistas de 100 mil a 400 mil habitantes regulamentaram o Estudo de Impacto de Vizinhança?",
+      "metodo": "Os autores revisaram a bibliografia e levantaram a legislação municipal para comparar as diferenças de regulamentação.",
+      "por_que_ler": "Ajuda a entender o papel das leis municipais na aplicação dos arts. 36 a 38 do Estatuto da Cidade. Leia depois da lei federal, para ver exemplos concretos e diferenças entre municípios.",
+      "onde_comecar": "Resumo e seção de resultados",
+      "como_abrir": "Abra o texto integral em HTML na SciELO. A página exibe o artigo em português.",
+      "nota_temporal": "Levantamento publicado em 2021. Consulte a legislação local vigente ao estudar um município específico.",
+      "qualis": null,
+      "qualis_status": "nao_confirmado",
+      "verificacao": "2026-11-22",
+      "status_editorial": "validado_para_integracao"
+    },
+    {
+      "id": "goncalves-branquinho-felzenszwalb-apa-petropolis-2011",
+      "tema_id": "unidades-de-conservacao",
+      "titulo": "Uma análise contextual do funcionamento efetivo e participação popular em uma unidade de conservação: o caso da área de proteção ambiental de Petrópolis (Rio de Janeiro: Brasil)",
+      "autores": [
+        "Marco Pinheiro Gonçalves",
+        "Fátima Teresa Braga Branquinho",
+        "Israel Felzenszwalb"
+      ],
+      "periodico": "Sociedade & Natureza",
+      "ano": 2011,
+      "doi": "10.1590/S1982-45132011000200014",
+      "url_publicacao": "https://seer.ufu.br/index.php/sociedadenatureza/article/view/10023",
+      "url_texto_integral": "https://www.scielo.br/j/sn/a/CYzyNQ8CqYQfvqLhnqCPRsd/?format=html&lang=pt",
+      "acesso": "texto_integral_aberto",
+      "formato": "html",
+      "revisao_por_pares": {
+        "url_politica": "https://seer.ufu.br/index.php/sociedadenatureza/about",
+        "evidencia": "A política pública vigente descreve avaliação por pares duplo-cega. A ficha do fascículo de 2011 confirma a publicação na seção de artigos."
+      },
+      "pergunta_investigada": "Como a gestão pública e a participação dos moradores influenciaram o funcionamento da Área de Proteção Ambiental de Petrópolis?",
+      "metodo": "Os autores fizeram um estudo de caso que analisa em conjunto a história local, a gestão, os conflitos ambientais e a participação social.",
+      "por_que_ler": "Depois de conhecer a categoria APA no SNUC, use o caso para entender como conflitos de interesse e decisões sobre zoneamento podem afetar a gestão da unidade.",
+      "onde_comecar": "Resumo e discussão sobre gestão e participação social",
+      "como_abrir": "Abra o texto integral em português na SciELO ou use o PDF oferecido na página do periódico.",
+      "nota_temporal": "Use como estudo de caso histórico sobre a governança da APA de Petrópolis.",
+      "qualis": null,
+      "qualis_status": "nao_confirmado",
+      "verificacao": "2026-11-22",
+      "status_editorial": "validado_para_integracao"
+    }
+  ],
+  "pendencias": {
+    "confirmar_livro": [
+      "app-reserva-legal",
+      "unidades-de-conservacao",
+      "alistamento-eleitoral",
+      "registro-candidatura",
+      "desconsideracao-personalidade-juridica",
+      "estudo-impacto-vizinhanca",
+      "direitos-autorais-ideia-expressao",
+      "direitos-morais-e-patrimoniais",
+      "protecao-software-direito-autoral"
+    ],
+    "qualis": [
+      {
+        "artigo_id": "inguaggiato-stanganini-melanda-eiv-2021",
+        "status": "nao_confirmado"
+      },
+      {
+        "artigo_id": "goncalves-branquinho-felzenszwalb-apa-petropolis-2011",
+        "status": "nao_confirmado"
+      }
+    ]
+  },
+  "verificacao_busca": {
+    "ambiente": "Função createSearch do repositório executada localmente com as fichas candidatas e a base de 169 temas.",
+    "consultas": [
+      {
+        "consulta": "APP e Reserva Legal",
+        "resultado_esperado": "app-reserva-legal",
+        "rota": "livros/app-reserva-legal"
+      },
+      {
+        "consulta": "empenho, liquidação e pagamento",
+        "resultado_esperado": "etapas-despesa-publica",
+        "rota": "livros/etapas-despesa-publica"
+      },
+      {
+        "consulta": "pré-campanha eleitoral",
+        "resultado_esperado": "propaganda-eleitoral",
+        "rota": "livros/propaganda-eleitoral"
+      },
+      {
+        "consulta": "como se interpreta um tratado pela convenção de viena?",
+        "resultado_esperado": "interpretacao-tratados",
+        "rota": "livros/interpretacao-tratados"
+      },
+      {
+        "consulta": "sociedade limitada",
+        "resultado_esperado": "sociedade-limitada-responsabilidade",
+        "rota": "livros/sociedade-limitada-responsabilidade"
+      },
+      {
+        "consulta": "período de graça",
+        "resultado_esperado": "qualidade-segurado-periodo-graca",
+        "rota": "livros/qualidade-segurado-periodo-graca"
+      },
+      {
+        "consulta": "EIV",
+        "resultado_esperado": "estudo-impacto-vizinhanca",
+        "rota": "livros/estudo-impacto-vizinhanca"
+      },
+      {
+        "consulta": "IP e DO no INPI",
+        "resultado_esperado": "indicacao-geografica-ip-do",
+        "rota": "livros/indicacao-geografica-ip-do"
+      },
+      {
+        "consulta": "controle de fusões",
+        "resultado_esperado": "atos-concentracao",
+        "rota": "livros/atos-concentracao"
+      },
+      {
+        "consulta": "9788544247648",
+        "resultado_esperado": "rvbi-558697ab151871803e2d",
+        "rota": "livro/rvbi-558697ab151871803e2d?isbn=9788544247648"
+      },
+      {
+        "consulta": "9786551771545",
+        "resultado_esperado": "manual-empresarial-sacramone",
+        "rota": "livro/manual-empresarial-sacramone?isbn=9786551771545"
+      },
+      {
+        "consulta": "9788551903612",
+        "resultado_esperado": "barbosa-protecao-marcas",
+        "rota": "livro/barbosa-protecao-marcas?isbn=9788551903612"
+      }
+    ],
+    "todas_as_fichas_sem_colisao_exata": true
+  }
+}

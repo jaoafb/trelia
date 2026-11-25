@@ -1,0 +1,26 @@
+.research-panel {
+  margin-block: clamp(1.75rem, 4vw, 3rem);
+  padding: 0 clamp(.9rem, 3vw, 1.5rem);
+  background: var(--panel-background);
+  border: 1px solid var(--line);
+  border-radius: var(--panel-radius);
+}
+
+.research-panel > summary {
+  min-block-size: 3.5rem;
+  font-weight: 700;
+}
+
+.research-panel > ul { list-style: none; padding-bottom: 1rem; }
+.research-card { min-width: 0; padding-block: 1rem; overflow-wrap: anywhere; }
+.research-card + .research-card { border-top: 1px solid var(--line); }
+.research-card h3 { font: 600 clamp(1.1rem, 2vw, 1.4rem)/1.35 "Manrope", sans-serif; }
+.research-journal, .research-metadata { color: var(--muted); }
+.research-description { max-width: 75ch; display: grid; gap: .3rem; }
+.research-description dt { font-weight: 700; }
+.research-description dd { margin: 0 0 .5rem; }
+.research-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+.research-links .external-link, .research-metadata .external-link { margin-top: 0; max-width: 100%; }
+.research-links .external-link:first-child { color: var(--lime); }
+.research-metadata { font-size: .875rem; margin-top: .65rem; }
+.research-metadata p { margin-bottom: .55rem; }

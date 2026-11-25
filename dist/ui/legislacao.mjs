@@ -1,5 +1,5 @@
 import { h } from "./html.mjs";
-import { accessBadge, editionAccess } from "./acesso.mjs";
+import { accessBadge, editionAccess } from "./acesso.mjs?v=card-alignment";
 
 const lexa = "https://jaoafb.github.io/lexa./#/";
 const collections = new Map([
@@ -23,15 +23,20 @@ export function lexaArticle(material, location) {
   return { url: lexa + collection + "/" + id, label: "Ler art. " + article + " no Lexa" };
 }
 
-export function legislationSection(readings, external) {
+export function legislationSection(readings, external, save) {
   if (!readings.length) return "";
   return `<section class="free-readings legislation" aria-labelledby="legislation-title">
-    <div class="section-heading"><h2 id="legislation-title">Legislação</h2></div>
+    <div class="section-heading"><h2 id="legislation-title" tabindex="-1">Legislação</h2></div>
     <ul>${readings.map(({ material, por_que_ler, onde_comecar }) => {
       const reader = lexaArticle(material, onde_comecar);
       const official = onde_comecar?.url_especifica ?? material.link_leitura;
       return `<li class="bibliography-card free-reading">
-        <div><h3>${h(material.titulo)}</h3>
+        <div class="reading-card-title"><div class="reading-title-row"><h3>${h(material.titulo)}</h3>
+          ${save({
+            materialId: material.id, title: material.titulo, author: material.autoria_ou_instituicao,
+            edition: material.ano_ou_versao, location: onde_comecar?.rotulo, url: official,
+          })}</div></div>
+        <div>
           ${accessBadge(editionAccess({ readingMaterial: material }))}
           <p><strong>Por que ler?</strong> ${h(por_que_ler)}</p>
           ${onde_comecar ? `<p><strong>Onde começar</strong> ${h(onde_comecar.rotulo)}</p>` : ""}

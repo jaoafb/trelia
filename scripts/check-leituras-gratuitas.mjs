@@ -29,7 +29,7 @@ assert.equal(mergers.sources.filter(source => source.url.includes("perguntas-sob
 
 const guide = await bibliography.book("cade-guia-h");
 assert.equal(guide.editions[0].id, "cade-guia-h-2016-pdf");
-assert.equal(bookAccess(guide).label, "Gratuito · texto integral");
+assert.equal(bookAccess(guide).label, "Publicação institucional");
 const cadeFiles = lot.materiais.filter(material => new URL(material.link_leitura).hostname === "cdn.cade.gov.br");
 assert.equal(cadeFiles.length, 6);
 for (const material of cadeFiles) {
@@ -37,6 +37,8 @@ for (const material of cadeFiles) {
   assert.equal(access.unavailableUrl, material.link_leitura);
   assert.equal(new URL(access.url).hostname, "www.gov.br");
   assert.notEqual(access.action, "Ler gratuitamente");
+  assert.equal(access.label, "Publicação institucional");
+  assert.equal(access.free, false);
 }
 const correctedPdfs = lot.materiais.filter(material => material.pdf_entrega);
 assert.equal(correctedPdfs.length, 8);
@@ -58,7 +60,7 @@ assert.equal(editionAccess({ ...fixture, access: "Prévia" }).action, "Ver prév
 assert.equal(editionAccess({ ...fixture, access: "Acesso institucional" }).action, "Consultar acesso institucional");
 assert.equal(editionAccess({ ...fixture, access: "Registro institucional" }), undefined);
 assert.equal(editionAccess({ ...fixture, access: "Sumário aberto" }), undefined);
-assert.equal(bookAccess({ editions: [...guide.editions, fixture] }).label, "Tem edição gratuita");
+assert.equal(bookAccess({ editions: [{ ...fixture, access: "Texto integral aberto" }, fixture] }).label, "Tem edição gratuita");
 console.log("Leituras gratuitas: vínculos, reimportação, buscas, edições e tipos de acesso passaram.");
 
 const findLaw = (topicId, materialId) => topics.find(topic => topic.id === topicId).freeReadings.find(reading => reading.material.id === materialId);

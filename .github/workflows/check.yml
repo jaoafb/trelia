@@ -28,3 +28,9 @@ jobs:
 
       - name: Verificar leituras gratuitas
         run: node scripts/check-leituras-gratuitas.mjs
+
+      - name: Verificar curadoria de novembro
+        run: node scripts/check-curadoria-novembro.mjs
+
+      - name: Verificar Expansao Editorial III
+        run: node scripts/check-expansao-iii.mjs

@@ -1,12 +1,15 @@
-import { legislationSection } from "./ui/legislacao.mjs";
-import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs";
-import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs";
+import { bindSavedReadings, readingSaver, savedReadingsPage } from "./ui/minhas-leituras.mjs?v=ux-review";
+import { researchSection } from "./ui/pesquisas.mjs?v=expansao-iii";
+import { legislationSection } from "./ui/legislacao.mjs?v=card-alignment";
+import { editionAccess, bookAccess, accessBadge, accessLink, freeReadingSection } from "./ui/acesso.mjs?v=card-alignment";
+import { books, topics, catalog, courses, findEntries, bibliography } from "./data.mjs?v=expansao-iii";
 import { h } from "./ui/html.mjs";
 import { bookCover } from "./ui/capa.mjs";
 import { orderedReadings, readingEvidence, defaultReadingEdition } from "./catalogo/leituras.mjs";
 
 const root = document.querySelector("main");
 const feedback = document.querySelector("#feedback");
+const updateSavedList = bindSavedReadings(root, document.querySelector("#reading-save-status"), external);
 const icon = path => `<svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">${path}</svg>`;
 const arrow = icon('<path d="M5 12h14m-6-6 6 6-6 6"/>');
 const back = icon('<path d="M19 12H5m6 6-6-6 6-6"/>');
@@ -107,6 +110,23 @@ function evidenceLink({ ref, source }, edition) {
   return external(source.url, label) + officialAlternative(source);
 }
 
+function saveBookReading(topic, book, edition, save) {
+  const { ref, source } = readingEvidence(topic, book, edition);
+  const access = editionAccess(edition);
+  const linked = topic.freeReadings.find(item => item.material === edition.readingMaterial);
+  const start = linked?.onde_comecar;
+  const unavailable = access?.unavailableUrl;
+  const url = (unavailable ? undefined : start?.url_especifica)
+    ?? (source?.url?.split("#")[0] === unavailable ? access?.url : source?.url)
+    ?? access?.url ?? edition.source;
+  return save({
+    materialId: book.id, editionId: edition.id, title: book.title, author: book.author,
+    edition: [editionLabel(edition), edition.format, edition.isbn && "ISBN " + edition.isbn].filter(Boolean).join(" · "),
+    location: start?.rotulo ?? [ref?.where, ref?.section].filter(Boolean).join(" · "),
+    url, guide: true,
+  });
+}
+
 function editionReference(topic, book, edition) {
   const evidence = readingEvidence(topic, book, edition);
   const { ref, source } = evidence;
@@ -121,7 +141,7 @@ function editionReference(topic, book, edition) {
     ${source.url !== access?.url && source.url.split("#")[0] !== access?.unavailableUrl ? evidenceLink(evidence, edition) : ""}`;
 }
 
-function readingCard(topic, book, first) {
+function readingCard(topic, book, first, save) {
   const recommendation = topic.recommendations[book.id];
   const edition = defaultReadingEdition(topic, book);
   const role = first ? "Comece por aqui" : { aprofundamento: "Aprofundamento", contexto: "Contexto" }[recommendation.role];
@@ -131,7 +151,8 @@ function readingCard(topic, book, first) {
       <div class="book-intro">
         <div class="book-identity">
           ${role ? `<p class="book-type reading-role">${role}</p>` : ""}
-          <h2><a href="#livro/${book.id}">${h(book.title)}</a></h2><div id="acesso-${book.id}">${accessBadge(editionAccess(edition))}</div><p class="author">${h(book.author ?? "")}</p>
+          <div class="reading-title-row"><h2><a href="#livro/${book.id}">${h(book.title)}</a></h2>
+            <div id="salvar-${book.id}">${saveBookReading(topic, book, edition, save)}</div></div><div id="acesso-${book.id}">${accessBadge(editionAccess(edition))}</div><p class="author">${h(book.author ?? "")}</p>
         </div>
         <p class="reading-reason">${edition.readingMaterial ? "<strong>Por que ler?</strong> " : ""}${h(topic.freeReadings.find(item => item.material === edition.readingMaterial)?.por_que_ler ?? recommendation.reason)}</p>
       </div>
@@ -140,7 +161,7 @@ function readingCard(topic, book, first) {
           <span>Onde começar</span>
           ${book.editions.length > 1 ? `<label for="edicao-${book.id}">Edição</label>
           <select id="edicao-${book.id}" data-reading-book="${book.id}">
-            ${book.editions.map(item => `<option value="${item.id}"${item === edition ? " selected" : ""}>${h(editionLabel(item))} · ${h(item.format)}</option>`).join("")}
+            ${book.editions.map(item => `<option value="${item.id}"${item === edition ? " selected" : ""}>${h([editionLabel(item), item.format].filter(Boolean).join(" · "))}</option>`).join("")}
           </select>` : `<p>${h(editionLabel(edition))} · ${h(edition.format)}</p>`}
           <div id="referencia-${book.id}" class="inline-reference-result" aria-live="polite">${editionReference(topic, book, edition)}</div>
         </div>
@@ -149,7 +170,7 @@ function readingCard(topic, book, first) {
   </article>`;
 }
 
-function topicBooks(topic, query, preferredBook) {
+function topicBooks(topic, query, preferredBook, save) {
   const supplements = new Set(topic.freeReadings.filter(item => item.material.tipo !== "livro")
     .map(item => item.bookId));
   const matches = orderedReadings(topic, books, preferredBook).filter(book => !supplements.has(book.id));
@@ -159,12 +180,20 @@ function topicBooks(topic, query, preferredBook) {
   const term = query || topic.readingTitle;
   const question = /^(?:o que|qual|quais|como|quando|por que)\b/i.test(term);
   const explanation = topic.answer ? `<section class="topic-explanation" id="topic-explanation" tabindex="-1" aria-labelledby="explanation-title">
-    <h2 id="explanation-title">${question ? "Resposta breve" : "Entender o tema"}</h2>
+    <h2 id="explanation-title" tabindex="-1">${question ? "Resposta breve" : "Entender o tema"}</h2>
+    ${topic.editorialPending ? '<p class="author">Explicação em revisão editorial.</p>' : ""}
     <p>${h(topic.answer)}</p>
+    ${topic.studyOrientation ? `<p><strong>Como estudar</strong><br>${h(topic.studyOrientation)}</p>` : ""}
     ${topic.sources.length ? `<details class="explanation-sources"><summary>Fontes da explicação</summary>
-      <ul>${topic.sources.map(source => `<li>${external(source.url, source.title)}${officialAlternative(source)}</li>`).join("")}</ul>
+      <ul>${topic.sources.map(source => `<li>${source.unavailable ? `<span>${h(source.title)} · PDF indisponível no Cade</span>` : external(source.url, source.title)}${source.note ? ` <span>${h(source.note)}</span>` : ""}${source.note && source.type ? ` <span>· ${h(source.type)}</span>` : ""}${officialAlternative(source)}</li>`).join("")}</ul>
     </details>` : ""}
   </section>` : "";
+  const research = researchSection(topic.id, external, save);
+  const extras = [
+    free.length && ["free-reading-title", "Leituras gratuitas"],
+    legislation.length && ["legislation-title", "Legislação"],
+    research && ["research-title", "Pesquisas sobre o tema"],
+  ].filter(Boolean);
   const related = (topic.relatedTopics ?? []).map(id => topics.find(item => item.id === id));
   return `<div class="results-page topic-results shell">
     ${crumbs("Resultados")}${search(term)}
@@ -172,19 +201,26 @@ function topicBooks(topic, query, preferredBook) {
       <h1>${h(question ? term : topic.title)}</h1>
       <div class="topic-result-meta">
         ${matches.length ? `<p>${matches.length} ${matches.length === 1 ? "obra recomendada" : "obras recomendadas"}</p>` : ""}
-        ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="topic-explanation">Entender o tema</button>'
-          : matches.length ? '<button class="text-link" data-page-section="topic-books-title">Ir às leituras</button>' : ""}
-        ${free.length ? '<button class="text-link" data-page-section="free-reading-title">Leituras gratuitas</button>' : ""}
+        <div class="topic-shortcuts">
+        ${preferredBook && topic.answer ? '<button class="text-link" data-page-section="explanation-title">Entender o tema</button>' : ""}
+        ${matches.length ? '<button class="text-link" data-page-section="recommended-books">Ir às leituras</button>' : ""}
+        ${extras.length === 1 ? `<button class="text-link" data-page-section="${extras[0][0]}">${extras[0][1]}</button>` : ""}
+        ${extras.length > 1 ? `<details class="topic-extra-links"><summary class="text-link">Mais materiais ${chevron}</summary>
+          <ul>${extras.map(([id, label]) => `<li><button class="text-link" data-page-section="${id}">${label}</button></li>`).join("")}</ul>
+        </details>` : ""}
+        </div>
       </div>
     </section>
     ${preferredBook ? "" : explanation}
-    ${matches.length ? `<section aria-labelledby="recommended-books" tabindex="-1" id="topic-books-title">
-      <div class="section-heading"><h2 id="recommended-books">Livros recomendados</h2></div>
-      ${matches.map((book, i) => readingCard(topic, book, i === 0)).join("")}
+    ${matches.length ? `<section aria-labelledby="recommended-books" id="topic-books-title">
+      <div class="section-heading"><h2 id="recommended-books" tabindex="-1">Livros recomendados</h2></div>
+      ${matches.map((book, i) => readingCard(topic, book, i === 0, save)).join("")}
     </section>` : ""}
     ${preferredBook ? explanation : ""}
-    ${freeReadingSection(free, external)}
-    ${legislationSection(legislation, external)}
+    ${topic.editorialPending && !matches.length ? '<p class="author">Indicações de livros em curadoria.</p>' : ""}
+    ${freeReadingSection(free, external, save)}
+    ${legislationSection(legislation, external, save)}
+    ${research}
     ${related.length ? `<section class="bibliography-topics"><div class="section-heading"><h2>Temas relacionados</h2></div>
       ${topicGrid("livros", related)}</section>` : ""}
   </div>`;
@@ -204,7 +240,7 @@ function locationCard(topic, book, edition) {
   </div>`;
 }
 
-function topicGuide(topic, book, edition) {
+function topicGuide(topic, book, edition, save) {
   return `<div class="guide-page shell">
     ${crumbs("Guia de leitura", topic)}
     <a class="back-link" href="#livros/${topic.id}">${back} Voltar aos resultados</a>
@@ -221,11 +257,12 @@ function topicGuide(topic, book, edition) {
         </div>` : ""}
         ${topic.sources.length ? `<section class="guide-sources" aria-labelledby="sources-title"><div class="section-heading"><h2 id="sources-title">Fontes abertas</h2></div>
           <ul>${topic.sources.map(source => `<li class="bibliography-card"><div><span class="book-type">${h(source.type)}</span>
-            <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${external(source.url, "Abrir fonte")}${officialAlternative(source)}</div></li>`).join("")}</ul>
+            <h3>${h(source.title)}</h3><p>${h(source.by)} · ${h(source.note)}</p>${source.unavailable ? "<p>PDF indisponível no Cade.</p>" : external(source.url, "Abrir fonte")}${officialAlternative(source)}</div></li>`).join("")}</ul>
         </section>` : ""}
       </section>
       <aside class="guide-book">${cover(book)}
-        <div><span>Obra</span><h2>${h(book.title)}</h2><p>${h(book.author)}</p></div>
+        <div><span>Obra</span><div class="reading-title-row"><h2>${h(book.title)}</h2>
+          <div id="guide-save-reading">${saveBookReading(topic, book, edition, save)}</div></div><p>${h(book.author)}</p></div>
         <a href="#livro/${book.id}">Ver edições e acesso ${arrow}</a>
       </aside>
     </div>
@@ -325,10 +362,15 @@ async function render(moveFocus = true) {
   const [kind, id] = route.split("/");
   const topic = topics.find(item => item.id === id);
   const area = catalog.find(item => item.course.id === (kind === "disciplina" ? id : route));
+  const save = topic && readingSaver(topic, courseTitle(topic.area));
   let title = "";
   if (area) {
     root.innerHTML = coursePage(area);
     title = area.course.title;
+  } else if (route === "minhas-leituras") {
+    root.innerHTML = savedReadingsPage();
+    updateSavedList();
+    title = "Minhas leituras";
   } else if (route === "duvidas") {
     root.innerHTML = topicList();
     title = "Temas por disciplina";
@@ -337,21 +379,23 @@ async function render(moveFocus = true) {
     const selectedBook = related.find(item => item.id === params.get("obra")) ?? related[0];
     const selectedEdition = selectedBook.editions.find(item => item.id === params.get("edicao"))
       ?? defaultReadingEdition(topic, selectedBook);
-    root.innerHTML = topicGuide(topic, selectedBook, selectedEdition);
+    root.innerHTML = topicGuide(topic, selectedBook, selectedEdition, save);
     title = topic.title;
     root.querySelector("#edition").addEventListener("change", event => {
       const edition = selectedBook.editions.find(item => item.id === event.target.value);
       root.querySelector("#edition-result").innerHTML = locationCard(topic, selectedBook, edition);
+      root.querySelector("#guide-save-reading").innerHTML = saveBookReading(topic, selectedBook, edition, readingSaver(topic, courseTitle(topic.area)));
       history.replaceState(null, "", guideLink(topic, selectedBook, edition));
     });
   } else if ((kind === "livros" || kind === "duvida") && topic) {
-    root.innerHTML = topicBooks(topic, params.get("q"), params.get("obra"));
+    root.innerHTML = topicBooks(topic, params.get("q"), params.get("obra"), save);
     title = (Object.keys(topic.recommendations).length ? "Livros sobre " : "Leituras sobre ") + topic.readingTitle;
     root.querySelectorAll("[data-reading-book]").forEach(select => select.addEventListener("change", () => {
       const book = books.find(item => item.id === select.dataset.readingBook);
       const edition = book.editions.find(item => item.id === select.value);
       document.getElementById("acesso-" + book.id).innerHTML = accessBadge(editionAccess(edition));
       document.getElementById("referencia-" + book.id).innerHTML = editionReference(topic, book, edition);
+      document.getElementById("salvar-" + book.id).innerHTML = saveBookReading(topic, book, edition, readingSaver(topic, courseTitle(topic.area)));
     }));
   } else if (kind === "livro") {
     let failed = false;
@@ -377,14 +421,17 @@ async function render(moveFocus = true) {
     root.innerHTML = home();
   }
   document.title = title ? title + " · Trelia." : "Trelia.";
-  const guidesLink = document.querySelector(".nav-link");
-  if (route === "duvidas") guidesLink.setAttribute("aria-current", "page");
-  else guidesLink.removeAttribute("aria-current");
+  for (const link of document.querySelectorAll(".nav-link")) {
+    if (link.hash === "#" + route) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  }
 
   root.querySelectorAll("[data-page-section]").forEach(button => button.addEventListener("click", () => {
     const section = document.getElementById(button.dataset.pageSection);
+    if (section.matches("summary")) section.parentElement.open = true;
+    button.closest(".topic-extra-links")?.removeAttribute("open");
     section.focus({ preventScroll: true });
-    section.scrollIntoView();
+    section.scrollIntoView({ block: "start" });
   }));
 
   root.querySelector("#search-form")?.addEventListener("submit", async event => {

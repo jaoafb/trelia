@@ -40,7 +40,9 @@
 .theme-toggle:hover { border-color: var(--lime-dark); }
 .theme-toggle .icon { color: var(--lime); }
 
-@media (max-width: 380px) {
+@media (max-width: 600px) {
+  .header-inner { gap: .75rem; }
+  .header-inner .brand { flex: 0 0 auto; }
   .theme-toggle { min-width: 2.75rem; }
   .theme-toggle span { display: none; }
 }
