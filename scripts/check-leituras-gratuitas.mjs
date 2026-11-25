@@ -69,3 +69,9 @@ assert.equal(lexaArticle(omission.material, omission.onde_comecar).url, "https:/
 const economy = findLaw("ordem-economica", "br-constituicao-federal");
 assert.equal(lexaArticle(economy.material, economy.onde_comecar).url, "https://jaoafb.github.io/lexa./#/cf/170");
 assert.equal(lexaArticle({ id: "br-lgpd" }, { rotulo: "Art. 7º" }), undefined);
+
+const lei9784 = lot.materiais.find(material => material.id === "br-lei-processo-administrativo");
+assert.match(lei9784.link_leitura, /lei-9784-29-janeiro-1999-322239-normaatualizada-pl\.html$/);
+const administrativo = topics.flatMap(topic => topic.freeReadings.filter(reading => reading.material.id === lei9784.id));
+assert.equal(administrativo.length, 4);
+assert.ok(administrativo.every(reading => reading.material.link_leitura === lei9784.link_leitura));
