@@ -1,3 +1,4 @@
+import marco1 from "./novembro/marco-1.mjs";
 import third from "./novembro/expansao-iii.mjs";
 import consolidation from "./novembro/consolidacao-i.mjs";
 import ciclo1 from "./novembro/ciclo-1.mjs";
@@ -38,8 +39,8 @@ const thirdBookId = id => id === "tartuce-neves-manual-consumidor-2026" ? "tartu
 
 export function addNovemberBooks(books) {
   const entries = new Map(addExpansionBooks(books).map(book => [book.id, book]));
-  for (const item of ciclo1.obras_novas) {
-    if (entries.has(item.id)) throw new Error("Obra duplicada no Ciclo 1: " + item.id);
+  for (const item of [...ciclo1.obras_novas, ...marco1.obras_novas]) {
+    if (entries.has(item.id)) throw new Error("Obra duplicada na consolidação: " + item.id);
     entries.set(item.id, item);
   }
   for (const item of checked.livros_novos) {
@@ -113,7 +114,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes, ...checked.indicacoes_bibliograficas, ...ciclo1.indicacoes_novas, ...marco1.indicacoes_novas]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));
@@ -137,6 +138,12 @@ export function addNovemberTopics(topics, books) {
       coverage: { url: item.evidencia.url, action: ref.action },
       ...previous, coverageByEdition: { ...previous?.coverageByEdition, [edition.id]: ref },
     };
+  }
+  for (const item of marco1.revisoes) {
+    const topic = entries.get(item.tema_id);
+    if (!topic) throw new Error("Tema de revisão ausente: " + item.tema_id);
+    const sources = topic.sources.filter(source => source.url !== item.fonte.url || source.note !== item.fonte.note);
+    entries.set(topic.id, { ...topic, answer: item.resposta, editorialPending: false, sources: [...sources, item.fonte] });
   }
   // Consultas reais do piloto passam a ser expressões de descoberta, sem duplicar fichas.
   for (const item of ciclo1.amostra) {

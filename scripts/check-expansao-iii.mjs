@@ -5,6 +5,9 @@ import { readingEvidence } from "../dist/catalogo/leituras.mjs";
 import { novemberTopicId } from "../dist/catalogo/ampliado/curadoria-novembro.mjs";
 import { researchSection } from "../dist/ui/pesquisas.mjs";
 
+import marco1 from "../dist/catalogo/ampliado/novembro/marco-1.mjs";
+
+const revisions = new Map(marco1.revisoes.map(item => [item.tema_id, item]));
 const lot = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-expansao-editorial-iii-2026-11-24-revisado.json", import.meta.url)));
 const byId = new Map(topics.map(topic => [topic.id, topic]));
 assert.equal(topics.length, 308);
@@ -15,8 +18,10 @@ for (const theme of lot.temas) {
   assert.equal(topic?.area, theme.area_id);
   assert.ok(findEntries(theme.pergunta).some(result => result.route === "livros/" + id), theme.pergunta);
   if (id === theme.id) {
-    assert.equal(topic.editorialPending, true);
-    assert.equal(topic.answer, theme.resposta);
+    const revision = revisions.get(id);
+    assert.equal(topic.editorialPending, !revision);
+    assert.equal(topic.answer, revision?.resposta ?? theme.resposta);
+    if (revision) assert.ok(topic.sources.some(source => source.url === revision.fonte.url && source.note === revision.fonte.note));
   }
 }
 

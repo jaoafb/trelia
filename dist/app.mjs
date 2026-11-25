@@ -1,3 +1,4 @@
+import { starterReading } from "./ui/orientacao-disciplina.mjs";
 import { bindSavedReadings, readingSaver, savedReadingsPage } from "./ui/minhas-leituras.mjs?v=ux-review";
 import { researchSection } from "./ui/pesquisas.mjs?v=ciclo1-bibliografia";
 import { legislationSection } from "./ui/legislacao.mjs?v=card-alignment";
@@ -274,6 +275,7 @@ function coursePage(area) {
     <section class="page-heading"><h1>${h(area.course.title)}</h1><p>Explore os temas da disciplina ou escolha uma obra para consultar.</p>
       ${area.books.length ? '<button class="text-link discipline-shortcut" data-page-section="discipline-books">Ir à bibliografia</button>' : ""}
     </section>
+    ${starterReading(area.course.id, books, external)}
     <section class="discipline-section" aria-labelledby="discipline-topics">
       <div class="section-heading"><h2 id="discipline-topics">Temas cobertos</h2></div>
       ${topicGrid("livros", area.topics)}
