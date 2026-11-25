@@ -3,6 +3,8 @@ import consolidation from "./novembro/consolidacao-i.mjs";
 import expansion from "./novembro/expansao.mjs";
 import balanced from "./novembro/equilibrada.mjs";
 import editorialRelations from "./novembro/relacoes-editoriais.mjs";
+import searchVariations from "./novembro/termos-busca.mjs";
+const curatedSearchTerms = new Map(searchVariations.entradas.map(item => [item.tema_id, item.termos_busca]));
 
 const thirdTopics = new Set(third.temas.map(topic => topic.id));
 const canonicalTopics = {
@@ -90,7 +92,7 @@ export function addNovemberTopics(topics, books) {
       focus: previous?.focus ?? item.como_estudar,
       studyOrientation: previous?.studyOrientation ?? item.como_estudar,
       aliases: unique([...(previous?.aliases ?? []), item.titulo, item.pergunta,
-        ...(item.termos_busca ?? item.aliases ?? [])]),
+        ...(item.termos_busca ?? item.aliases ?? []), ...(curatedSearchTerms.get(item.id) ?? [])]),
       sources: [...(previous?.sources ?? []), ...sources.filter(source =>
         !previous?.sources?.some(old => source.url === old.url && source.note === old.note)
         && !previous?.freeReadings?.some(({ material }) =>

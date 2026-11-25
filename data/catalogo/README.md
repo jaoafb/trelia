@@ -106,3 +106,8 @@ O arquivo `trelia-relacoes-editoriais-2026-11-24.json` registra **31 pares** de 
 ### Relatório integral de consolidação (24/11/2026)
 
 A auditoria executada sobre as 19 áreas e os 308 temas, com indicadores por área, lacunas editoriais, normas para revalidação e fila nominal de 93 temas sem livro específico, está em [docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md](../../docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md). O retrato estruturado fica em `auditoria-snapshot-2026-11-24.json`. Reexecute `node scripts/auditar-catalogo.mjs --strict` após alterações; os dados do snapshot não se atualizam automaticamente.
+
+
+### Expressões adicionais de busca (24/11/2026)
+
+O arquivo `trelia-termos-busca-consolidacao-2026-11-24.json` registra **152 expressões de busca adicionais para os 76 temas da Expansão III**, contemplando as 19 áreas. São variantes linguísticas de descoberta, e não novas fichas ou afirmações jurídicas. O gerador produz `novembro/termos-busca.mjs`, a aplicação agrega os termos aos aliases existentes e `node scripts/check-termos-busca.mjs` verifica vínculos, buscas e colisões de expressões.

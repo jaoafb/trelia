@@ -46,3 +46,6 @@ jobs:
 
       - name: Verificar relacoes editoriais
         run: node scripts/check-relacoes-editoriais.mjs
+
+      - name: Verificar termos adicionais de busca
+        run: node scripts/check-termos-busca.mjs
