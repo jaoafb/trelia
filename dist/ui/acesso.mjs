@@ -14,12 +14,12 @@ export function editionAccess(edition) {
     const maintenance = filesInMaintenance.has(material.id);
     const conductFallback = maintenance && material.id === "cade-analise-condutas";
     return {
-      label: material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
+      label: maintenance ? "Publicação institucional" : material.tipo_acesso === "capitulo_integral_aberto" ? "Gratuito · capítulo integral" : "Gratuito · texto integral",
       action: conductFallback ? "Ver página do Cade" : maintenance ? "Ver publicação no Cade" : "Ler gratuitamente",
       downloadsPdf: !maintenance && material.pdf_entrega === "anexo",
       url: conductFallback ? cadeConductPage : maintenance ? material.link_origem : material.link_leitura,
       unavailableUrl: maintenance ? material.link_leitura : undefined,
-      free: true,
+      free: !maintenance,
     };
   }
   if (!edition?.source) return;
@@ -59,15 +59,21 @@ const roleLabels = {
   jurisprudencia: "Jurisprudência", contexto_historico: "Contexto histórico",
 };
 
-export function freeReadingSection(readings, external) {
+export function freeReadingSection(readings, external, save) {
   if (!readings.length) return "";
   return `<section class="free-readings" aria-labelledby="free-reading-title">
     <div class="section-heading"><h2 id="free-reading-title" tabindex="-1">Leituras gratuitas</h2></div>
     <ul>${readings.map(({ material, bookId, papel_editorial, por_que_ler, onde_comecar }) => {
       const access = editionAccess({ readingMaterial: material });
       return `<li class="bibliography-card free-reading">
-        <div><p class="book-type">${h(roleLabels[papel_editorial])} · ${h(materialType(material))}</p>
-          <h3><a href="#livro/${h(bookId)}">${h(material.titulo)}</a></h3>
+        <div class="reading-card-title"><p class="book-type">${h(roleLabels[papel_editorial])} · ${h(materialType(material))}</p>
+          <div class="reading-title-row"><h3><a href="#livro/${h(bookId)}">${h(material.titulo)}</a></h3>
+          ${save({
+            materialId: material.id, title: material.titulo, author: material.autoria_ou_instituicao,
+            edition: [material.ano_ou_versao, material.formato, material.isbn && "ISBN " + material.isbn].filter(Boolean).join(" · "),
+            location: onde_comecar?.rotulo, url: (!access.unavailableUrl && onde_comecar?.url_especifica) || access.url,
+          })}</div></div>
+        <div>
           ${accessBadge(access)}<p class="author">${h(material.autoria_ou_instituicao)}</p>
           <p><strong>Por que ler?</strong> ${h(por_que_ler)}</p>
           ${onde_comecar ? `<p><strong>Onde começar</strong> ${onde_comecar.url_especifica && !access.unavailableUrl
@@ -76,7 +82,8 @@ export function freeReadingSection(readings, external) {
         </div>
         <div class="free-reading-actions">${accessLink(access, external)}
           ${material.link_origem !== access.url && material.link_origem !== access.unavailableUrl
-            ? external(material.link_origem, "Ver publicação de origem") : ""}</div>
+            ? external(material.link_origem, "Ver publicação de origem") : ""}
+        </div>
       </li>`;
     }).join("")}</ul>
   </section>`;

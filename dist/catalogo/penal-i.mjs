@@ -92,6 +92,6 @@ export const topics = [
 ];
 
 export const course = {
-  id: "penal-i", title: "Direito Penal I",
-  aliases: ["penal 1", "penal i", "direito penal", "primeiro semestre penal", "livro de direito penal", "manual de penal", "teoria geral do crime", "parte geral", "dpu0206"],
+  id: "penal-i", title: "Direito Penal",
+  aliases: ["Direito Penal I", "penal 1", "penal i", "direito penal", "primeiro semestre penal", "livro de direito penal", "manual de penal", "teoria geral do crime", "parte geral", "dpu0206"],
 };

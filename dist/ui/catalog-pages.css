@@ -25,13 +25,15 @@
   min-height: 2.75rem;
 }
 
-.catalog-section .topic-grid {
+.catalog-section .topic-grid,
+[aria-labelledby="discipline-topics"] .topic-grid {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
   gap: .75rem;
   border: 0;
 }
 
-.catalog-section .topic-card {
+.catalog-section .topic-card,
+[aria-labelledby="discipline-topics"] .topic-card {
   grid-template-columns: minmax(0, 1fr) auto;
   align-content: center;
   align-items: center;
@@ -44,9 +46,11 @@
   font-size: 1rem;
 }
 
-.catalog-section .topic-card:hover { border-color: var(--lime-dark); }
+.catalog-section .topic-card:hover,
+[aria-labelledby="discipline-topics"] .topic-card:hover { border-color: var(--lime-dark); }
 
-.catalog-section .topic-arrow {
+.catalog-section .topic-arrow,
+[aria-labelledby="discipline-topics"] .topic-arrow {
   width: 1.65rem;
   height: 1.65rem;
 }
@@ -57,8 +61,12 @@
   background: var(--surface);
 }
 
+[aria-labelledby="discipline-topics"] .topic-number { display: none; }
+[aria-labelledby="discipline-topics"] .topic-card > span:not(.topic-arrow) { overflow-wrap: anywhere; }
+
 @media (max-width: 600px) {
-  .catalog-section > .topic-grid .topic-card { min-height: 5.25rem; }
+  .catalog-section > .topic-grid .topic-card,
+  [aria-labelledby="discipline-topics"] .topic-card { min-height: 5.25rem; }
 }
 
 .topic-index-course {

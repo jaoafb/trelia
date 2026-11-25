@@ -29,6 +29,8 @@ O importador registra o total recebido e a seleção por área. O parâmetro `--
 
 ## Revisar uma ficha
 
+Para selecionar leituras que ajudem o estudante a iniciar uma área, siga a [política de curadoria para iniciantes](../../docs/CURADORIA_PARA_INICIANTES.md).
+
 1. Confira se a área sugerida é a principal para o uso na Trelia. Adicione áreas secundárias se houver uma relação pertinente.
 2. Confira título, autoria, edição, ano e volume. Use o ISBN da edição e do formato adequados. Quando houver vários ISBNs no registro, confira cada formato pela ficha editorial antes de escolher um.
 3. Abra os links e identifique o que o leitor pode acessar. Uma nota de conteúdo pode indicar capítulos. Um link associado ao registro pode levar a um sumário, a uma norma citada ou a outro recurso relacionado. Marque acesso aberto somente após conferir a disponibilidade do texto.
@@ -59,3 +61,22 @@ O arquivo `trelia-curadoria-ampliada-2026-11-20.json` consolida o lote editorial
 ### Lote de leituras gratuitas
 
 O arquivo `trelia-leituras-gratuitas-2026-11-20.json` guarda o lote original, incluindo as pendências editoriais. Rode `node scripts/gerar_leituras_gratuitas.mjs` para gerar os módulos estáticos e `node scripts/check-leituras-gratuitas.mjs` para verificar os vínculos, a reimportação, os tipos de acesso e as buscas. Os PDFs são ligados na origem.
+
+### Lotes editoriais de 22 e 24 de novembro
+
+Os JSONs originais e seus handoffs ficam nesta pasta. Rode `python scripts/gerar_curadoria_novembro.py` para atualizar os módulos estáticos. As pré-seleções bibliográficas do lote de 24/11 continuam nas fontes editoriais e não geram recomendações.
+
+Rode `node scripts/check-curadoria-novembro.mjs` para verificar as buscas e as evidências específicas por edição.
+
+Dos 70 temas propostos, 67 ganharam páginas. Os outros três foram incorporados às rotas existentes de dolo eventual, omissão imprópria e agentes de tratamento na LGPD. Os handoffs e os JSONs originais preservam os vínculos candidatos e as pendências.
+
+Na conferência de links, o artigo sobre exclusividade em plataformas digitais e o PDF do guia de compliance do Cade retornaram HTTP 503. O artigo permanece no JSON editorial, fora da seção de pesquisas, e a fonte do guia aparece com aviso de indisponibilidade. O artigo sobre federações aponta para o endereço HTTPS da SciELO com o mesmo título. Parte dos links do Planalto e de editoras não respondeu à verificação automatizada e ainda precisa ser reaberta.
+
+### Expansão Editorial III
+
+A entrada é `trelia-expansao-editorial-iii-2026-11-24-revisado.json`, com o handoff revisado ao lado. Rode `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-expansao-iii.mjs`.
+
+- Tentativa e desistência voluntária compartilham a rota existente; concessão e permissão e remédios antitruste também reaproveitam suas rotas anteriores. Outorga onerosa e transferência do direito de construir têm fichas próprias.
+- A edição de 2026 de Tartuce e Neves fica na ficha de consumidor existente. Os demais ISBNs já cadastrados foram reutilizados.
+- Os endereços de resumos da SciELO foram substituídos por links de texto integral na apresentação. Nos três casos com destino na página do periódico, o botão descreve essa página. O endereço alternativo da SciELO para cotas de gênero conserva a mesma publicação.
+- As explicações novas ficam identificadas como em revisão editorial. Permanecem por revisar a vigência e as âncoras restantes, os acessos das seis fichas editoriais que responderam 405 na checagem automatizada e as políticas de revisão por pares sem URL comprovada. Os JSONs originais preservam as pendências bibliográficas e de Qualis.

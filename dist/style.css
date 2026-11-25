@@ -276,7 +276,7 @@ h1:focus, main:focus { outline: none; }
 
 .catalog-section {
   padding-top: 90px;
-  padding-bottom: 120px;
+  padding-bottom: clamp(1.5rem, 4vw, 3rem);
   border-top: 1px solid var(--line);
 }
 .section-heading {
@@ -376,8 +376,8 @@ h1:focus, main:focus { outline: none; }
 }
 
 .promise-section {
-  margin-bottom: 120px;
-  padding: 70px;
+  margin-bottom: clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
   display: grid;
   grid-template-columns: 160px 1.6fr 1fr;
   align-items: center;
@@ -438,7 +438,7 @@ h1:focus, main:focus { outline: none; }
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 30px;
 }
@@ -446,11 +446,6 @@ h1:focus, main:focus { outline: none; }
   font-size: 20px;
 }
 .footer .brand-mark { width: 30px; height: 30px; }
-.footer p {
-  color: var(--muted);
-  text-align: center;
-  font-size: 13px;
-}
 .footer .footer-feedback {
   display: flex;
   justify-content: flex-end;
@@ -982,7 +977,6 @@ h1:focus, main:focus { outline: none; }
   }
   .catalog-section {
     padding-top: 65px;
-    padding-bottom: 75px;
   }
   .section-heading {
     align-items: flex-start;
@@ -1012,8 +1006,8 @@ h1:focus, main:focus { outline: none; }
     height: 30px;
   }
   .promise-section {
-    margin-bottom: 75px;
-    padding: 45px 24px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
     grid-template-columns: 1fr;
     gap: 31px;
   }
@@ -1028,9 +1022,6 @@ h1:focus, main:focus { outline: none; }
   }
   .footer-inner {
     grid-template-columns: 1fr auto;
-  }
-  .footer p {
-    display: none;
   }
 
   .results-page,

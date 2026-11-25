@@ -24,6 +24,8 @@ A Trelia ajuda estudantes a descobrir quais livros tratam do assunto que querem 
 
 - Para coletar e revisar candidatos de outras áreas, siga o [fluxo do catálogo](data/catalogo/README.md). Mantenha a evidência e a decisão editorial junto a cada ficha.
 
+- Consulte obrigatoriamente a [política de curadoria para iniciantes](docs/CURADORIA_PARA_INICIANTES.md) ao criar, revisar ou ampliar recomendações de livros, especialmente as destinadas a estudantes iniciantes.
+
 ## Código atual
 
 Prefira uma estrutura modular. Organize código e dados por responsabilidade e distribua arquivos e pastas quando começarem a concentrar assuntos independentes. Mantenha próximos os arquivos usados juntos e use nomes que indiquem seu papel. Ao ampliar o acervo ou a interface, revise se a estrutura ainda facilita localizar, editar e revisar cada parte. Extraia módulos com uma responsabilidade clara e preserve as rotas e os pontos de entrada existentes.

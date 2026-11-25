@@ -15,6 +15,11 @@
     padding-inline: 1rem;
   }
 
+  :is(.inline-reference, .select-wrap) select,
+  :is(.inline-reference, .select-wrap) select option {
+    align-items: center;
+  }
+
   .select-wrap > svg { display: none; }
 
   select::picker-icon {

@@ -44,6 +44,7 @@ export function addFreeMaterials(existing) {
 export function addFreeReadings(topics) {
   const existing = new Map(topics.map(topic => [topic.id, topic]));
   for (const item of editorial.proposals) {
+    if (existing.has(item.id)) continue;
     existing.set(item.id, {
       id: item.id, area: item.area_id, title: item.titulo, readingTitle: item.titulo,
       aliases: item.termos_busca, sources: [], refs: {}, recommendations: {},
