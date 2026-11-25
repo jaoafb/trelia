@@ -101,3 +101,8 @@ A interface mostra um link para a **política do periódico** nos detalhes de ca
 ### Relações editoriais de navegação (24/11/2026)
 
 O arquivo `trelia-relacoes-editoriais-2026-11-24.json` registra **31 pares** de assuntos relacionados, selecionados por pertinência pedagógica. São vínculos para navegar e comparar institutos, **não** declarações de equivalência jurídica nem recomendações de livro. O gerador `python scripts/gerar_curadoria_novembro.py` publica `relacoes-editoriais.mjs`; o teste `node scripts/check-relacoes-editoriais.mjs` exige existência de todos os temas, ausência de duplicações e reciprocidade.
+
+
+### Relatório integral de consolidação (24/11/2026)
+
+A auditoria executada sobre as 19 áreas e os 308 temas, com indicadores por área, lacunas editoriais, normas para revalidação e fila nominal de 93 temas sem livro específico, está em [docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md](../../docs/CONSOLIDACAO_EDITORIAL_2026-11-24.md). O retrato estruturado fica em `auditoria-snapshot-2026-11-24.json`. Reexecute `node scripts/auditar-catalogo.mjs --strict` após alterações; os dados do snapshot não se atualizam automaticamente.
