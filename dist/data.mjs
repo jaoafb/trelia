@@ -1,4 +1,4 @@
-import { addFreeMaterials, addFreeReadings } from "./catalogo/leituras-gratuitas.mjs";
+import { addFreeMaterials, addFreeReadings } from "./catalogo/leituras-gratuitas.mjs?v=marco1";
 import { books as penalBooks, topics as penalTopics, course } from "./catalogo/penal-i.mjs";
 import constitucional from "./catalogo/constitucional.mjs";
 import civil from "./catalogo/civil.mjs";
