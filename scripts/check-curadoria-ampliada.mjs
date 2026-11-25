@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { bibliography, books, catalog, findEntries, topics } from "../dist/data.mjs";
 import { orderedReadings, readingEvidence } from "../dist/catalogo/leituras.mjs";
+import marco1 from "../dist/catalogo/ampliado/novembro/marco-1.mjs";
 
 const lot = JSON.parse(readFileSync(new URL("../data/catalogo/trelia-curadoria-ampliada-2026-11-20.json", import.meta.url)));
 const topicById = new Map(topics.map(topic => [topic.id, topic]));
@@ -26,7 +27,9 @@ for (const item of lot.temas) {
   }
 }
 for (const { tema_id, obra_ids } of lot.ordem_das_leituras) {
-  assert.deepEqual(orderedReadings(topicById.get(tema_id), books).map(book => book.id), obra_ids, tema_id);
+  const additional = new Set(marco1.indicacoes_adicionais.filter(item => item.tema_id === tema_id).map(item => item.obra_id));
+  const actual = orderedReadings(topicById.get(tema_id), books).map(book => book.id);
+  assert.deepEqual(actual.filter(id => !additional.has(id) || obra_ids.includes(id)), obra_ids, tema_id);
 }
 for (const item of lot.testes_referencias) {
   const book = bookById.get(item.obra_id);

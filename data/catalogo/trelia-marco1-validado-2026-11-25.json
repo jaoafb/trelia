@@ -37,6 +37,63 @@
           "sourceLabel": "Consultar registro no Cade"
         }
       ]
+    },
+    {
+      "id": "cavalcanti-tributacao-consumo",
+      "title": "Tributação sobre o Consumo: CBS, IBS e Imposto Seletivo",
+      "author": "Eduardo Muniz Machado Cavalcanti",
+      "area": "tributario",
+      "editions": [
+        {
+          "id": "9788530999933",
+          "isbn": "9788530999933",
+          "name": "2ª edição",
+          "year": 2026,
+          "format": "E-book (Bookshelf)",
+          "publisher": "Forense",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.grupogen.com.br/e-book-tributacao-sobre-o-consumo-cbs-ibs-e-imposto-seletivo-2-edicao-2026-eduardo-muniz-machado-cavalcanti-editora-forense-9788530999933",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "tauk-santos-propriedade-industrial",
+      "title": "Lei da Propriedade Industrial Interpretada",
+      "author": "Caroline Somesom Tauk; Celso Araújo Santos",
+      "area": "propriedade-intelectual",
+      "editions": [
+        {
+          "id": "9788544273371",
+          "isbn": "9788544273371",
+          "name": "3ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Juspodivm",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editorajuspodivm.com.br/lei-da-propriedade-industrial-interpretada-comentarios-e-jurisprudencia-2026-tauk-santos",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
+    },
+    {
+      "id": "francisco-goldfinger-urbanistico",
+      "title": "Direito Urbanístico — Sinopses para Concursos, vol. 44",
+      "author": "Ronaldo Vieira Francisco; Fábio Goldfinger",
+      "area": "urbanistico",
+      "editions": [
+        {
+          "id": "9788544271698",
+          "isbn": "9788544271698",
+          "name": "10ª edição",
+          "year": 2026,
+          "format": "Impresso",
+          "publisher": "Juspodivm",
+          "access": "Ficha editorial comercial",
+          "source": "https://www.editorajuspodivm.com.br/sinopses-para-concursos-v44-direito-urbanistico-2026-francisco-goldfinger",
+          "sourceLabel": "Ver ficha editorial"
+        }
+      ]
     }
   ],
   "indicacoes_novas": [
@@ -470,6 +527,30 @@
       },
       "verificacao": "2026-11-25",
       "escopo": "Recorte limitado ao texto normativo indicado. A explicação não afirma tese jurisprudencial."
+    },
+    {
+      "tema_id": "eviccao-contratos",
+      "resposta": "A evicção ocorre quando o adquirente perde total ou parcialmente o bem porque prevalece um direito anterior de terceiro. Nos contratos onerosos, o alienante responde pela evicção nos termos do Código Civil. O vício redibitório envolve um defeito oculto do próprio bem, que o torna impróprio para uso ou reduz seu valor.",
+      "fonte": {
+        "title": "Código Civil — Lei nº 10.406/2002",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 441 e 447 a 457"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Recorte conferido no Código Civil compilado."
+    },
+    {
+      "tema_id": "guarda-compartilhada-convivencia",
+      "resposta": "Se não houver acordo e ambos os genitores estiverem aptos a exercer o poder familiar, aplica-se a guarda compartilhada. A lei excepciona a regra quando um deles declara ao juiz que não deseja a guarda ou há elementos que indiquem probabilidade de risco de violência doméstica ou familiar. Compartilhar a guarda envolve dividir responsabilidades e organizar a convivência conforme as condições da família e os interesses dos filhos.",
+      "fonte": {
+        "title": "Código Civil — Lei nº 10.406/2002",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 1.583 e 1.584, com a redação da Lei nº 14.713/2023"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Recorte conferido no Código Civil compilado."
     }
   ],
   "edicoes_adicionais": [
@@ -588,6 +669,57 @@
         "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5126-Sumario.pdf",
         "tipo": "sumario_da_editora",
         "secao": "Item 4 — Deveres gerais dos tribunais no sistema de precedentes"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "imposto-bens-servicos-cbs-ibs",
+      "obra_id": "cavalcanti-tributacao-consumo",
+      "edicao_id": "9788530999933",
+      "isbn": "9788530999933",
+      "localizacao": {
+        "secao": "Cap. 6 — IVA Dual: IBS e CBS",
+        "pagina": null
+      },
+      "por_que_ler": "Compare a estrutura de IBS e CBS no modelo de IVA dual e confira as regras de transição na legislação vigente.",
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-tributacao-sobre-o-consumo-cbs-ibs-e-imposto-seletivo-2-edicao-2026-eduardo-muniz-machado-cavalcanti-editora-forense-9788530999933",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 6 — IVA Dual: IBS e CBS"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "imposto-seletivo-reforma",
+      "obra_id": "cavalcanti-tributacao-consumo",
+      "edicao_id": "9788530999933",
+      "isbn": "9788530999933",
+      "localizacao": {
+        "secao": "Cap. 10 — Imposto Seletivo",
+        "pagina": null
+      },
+      "por_que_ler": "Use o capítulo para estudar a posição do Imposto Seletivo na reforma e consulte a legislação atual para os efeitos de aplicação.",
+      "evidencia": {
+        "url": "https://www.grupogen.com.br/e-book-tributacao-sobre-o-consumo-cbs-ibs-e-imposto-seletivo-2-edicao-2026-eduardo-muniz-machado-cavalcanti-editora-forense-9788530999933",
+        "tipo": "sumario_da_editora",
+        "secao": "Cap. 10 — Imposto Seletivo"
+      },
+      "verificacao": "2026-11-25"
+    },
+    {
+      "tema_id": "registro-de-marca",
+      "obra_id": "tauk-santos-propriedade-industrial",
+      "edicao_id": "9788544273371",
+      "isbn": "9788544273371",
+      "localizacao": {
+        "secao": "Título III, cap. I, seção I — Sinais registráveis como marca",
+        "pagina": 416
+      },
+      "por_que_ler": "Aprofunde os requisitos da registrabilidade nos comentários aos arts. 122 e 123 da Lei da Propriedade Industrial.",
+      "evidencia": {
+        "url": "https://juspodivmdigital.com.br/cdn/pdf/JUS5419-Sumario.pdf",
+        "tipo": "sumario_da_editora",
+        "secao": "Título III, cap. I, seção I — Sinais registráveis como marca"
       },
       "verificacao": "2026-11-25"
     }
