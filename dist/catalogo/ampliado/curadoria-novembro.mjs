@@ -1,4 +1,5 @@
 import third from "./novembro/expansao-iii.mjs";
+import consolidation from "./novembro/consolidacao-i.mjs";
 import expansion from "./novembro/expansao.mjs";
 import balanced from "./novembro/equilibrada.mjs";
 
@@ -98,7 +99,7 @@ export function addNovemberTopics(topics, books) {
       refs: { ...previous?.refs },
     });
   }
-  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications]) {
+  for (const item of [...expansion.indicacoes_de_livro, ...thirdIndications, ...consolidation.indicacoes]) {
     const topic = entries.get(novemberTopicId(item.tema_id));
     const book = bookIndex.get(item.obra_id);
     const edition = book?.editions.find(entry => entry.id === item.edicao_id && (!item.isbn || entry.isbn === item.isbn));

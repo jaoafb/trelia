@@ -80,3 +80,12 @@ A entrada é `trelia-expansao-editorial-iii-2026-11-24-revisado.json`, com o han
 - A edição de 2026 de Tartuce e Neves fica na ficha de consumidor existente. Os demais ISBNs já cadastrados foram reutilizados.
 - Os endereços de resumos da SciELO foram substituídos por links de texto integral na apresentação. Nos três casos com destino na página do periódico, o botão descreve essa página. O endereço alternativo da SciELO para cotas de gênero conserva a mesma publicação.
 - As explicações novas ficam identificadas como em revisão editorial. Permanecem por revisar a vigência e as âncoras restantes, os acessos das seis fichas editoriais que responderam 405 na checagem automatizada e as políticas de revisão por pares sem URL comprovada. Os JSONs originais preservam as pendências bibliográficas e de Qualis.
+
+
+### Ciclo de consolidação bibliográfica I (24/11/2026)
+
+O arquivo `trelia-consolidacao-bibliografica-01-2026-11-24.json` acrescenta **duas indicações de leitura** para temas de Propriedade Intelectual, reutilizando uma obra e uma edição já existentes: *Uma introdução à propriedade intelectual*, 2ª edição digital, de Denis Borges Barbosa. A fonte integral foi consultada na instituição hospedeira, com referências às páginas impressas **305** (ideia versus expressão) e **124** (direitos morais versus patrimoniais). A obra possui valor doutrinário/histórico; os temas continuam acompanhados de legislação atual para conferência.
+
+Não confundir esta atualização pontual com revisão integral da obra ou da legislação. A pendência `protecao-software-direito-autoral` **continua sem indicação de livro confirmada**. O PDF está disponível na instituição de origem sob CC BY-NC-ND 2.0; o projeto não redistribui cópias nem modifica seu conteúdo. Os lotes históricos de 22 e 24/11 foram preservados intactos.
+
+Para regenerar os módulos estáticos e verificar os dois vínculos: `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-consolidacao-bibliografica-i.mjs`.

@@ -34,3 +34,6 @@ jobs:
 
       - name: Verificar Expansao Editorial III
         run: node scripts/check-expansao-iii.mjs
+
+      - name: Verificar consolidacao bibliografica I
+        run: node scripts/check-consolidacao-bibliografica-i.mjs

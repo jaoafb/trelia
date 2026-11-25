@@ -45,3 +45,5 @@ if __name__ == "__main__":
         fields = ("temas", "artigos", "fontes_oficiais", "obras_novas", "indicacoes_de_livro")
         write(name, {key: batch[key] for key in fields if key in batch})
     expansion_iii()
+    consolidation = json.loads((SOURCE / "trelia-consolidacao-bibliografica-01-2026-11-24.json").read_text(encoding="utf-8-sig"))
+    write("consolidacao-i", {"indicacoes": consolidation["indicacoes_de_livro"]})
