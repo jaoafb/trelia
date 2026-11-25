@@ -3,7 +3,7 @@
   "id": "trelia-consolidacao-bibliografica-01-2026-11-24",
   "data_curadoria": "2026-11-24",
   "base": "Trelia — 308 temas pós PR #16",
-  "objetivo": "Resolver apenas as pendências cuja cobertura exata na edição já existente pôde ser verificada em texto integral, sem inventar novas edições ou conclusões jurídicas atuais.",
+  "objetivo": "Consolidar três indicações de leitura histórica e específica em Propriedade Intelectual, mantendo separadas as orientações atuais das normas e do INPI.",
   "obra_existente": {
     "id": "barbosa-introducao-pi",
     "edicao_id": "barbosa-intro-2-pdf",
@@ -66,15 +66,41 @@
         "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf"
       },
       "verificacao": "2026-11-24"
+    },
+    {
+      "tema_id": "protecao-software-direito-autoral",
+      "obra_id": "barbosa-introducao-pi",
+      "titulo_obra": "Uma introdução à propriedade intelectual",
+      "autoria": "Denis Borges Barbosa",
+      "edicao_id": "barbosa-intro-2-pdf",
+      "ano": null,
+      "isbn": null,
+      "formato": "PDF — 2ª edição revista e atualizada",
+      "por_que_ler": "A seção discute o fundamento constitucional da tutela dos programas de computador e sua relação com o direito autoral. É doutrina histórica e não um guia atual de registro: para a proteção vigente e os procedimentos do INPI, confira a Lei nº 9.609/1998 e a orientação oficial do instituto.",
+      "localizacao": {
+        "secao": "Regime constitucional dos programas de computador",
+        "pagina": 121
+      },
+      "evidencia": {
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf",
+        "tipo": "texto_integral",
+        "secao": "2ª edição digital, p. 121, seção Regime constitucional dos programas de computador (paginação impressa no PDF)"
+      },
+      "acesso": {
+        "tipo": "texto_integral_aberto",
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf"
+      },
+      "verificacao": "2026-11-24"
     }
   ],
   "pendencia_mantida": [
-    "protecao-software-direito-autoral"
+    "protecao-software-direito-autoral: falta uma leitura especializada atual sobre registro e procedimentos administrativos no INPI; a indicação histórica da p. 121 não substitui essa verificação."
   ],
   "critério": "Manter a falta de indicação verificada no tema de software. O guia do INPI e a Lei nº 9.609/1998 continuam como fontes institucionais, mas não equivalem a capítulo de livro aprovado.",
   "verificacao": {
     "fonte_aberta": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf",
     "paginas_impressas": [
+      121,
       124,
       305
     ],

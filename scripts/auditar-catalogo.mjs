@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { books, catalog, topics, findEntries, normalize } from "../dist/data.mjs";
 import { expansionIIIArticles, novemberArticles, novemberTopicId } from "../dist/catalogo/ampliado/curadoria-novembro.mjs";
 import pilot from "../dist/catalogo/piloto-artigos.mjs";
+import peerPolicies from "../dist/catalogo/ampliado/novembro/politicas-periodicos.mjs";
+const policyIndex = new Map(peerPolicies.periodicos.map(row => [row.periodico, row]));
 
 const problems = [];
 const pending = [];
@@ -22,6 +24,7 @@ const summary = {
   indicacoes_de_obra: 0, indicacoes_com_localizacao: 0,
   edicoes: 0, fontes_de_tema: 0, leituras_gratuitas: 0,
   artigos_em_lotes: 0, artigos_sem_doi: 0,
+  artigos_expansao_iii_com_politica_do_periodico: 0,
 };
 const byArea = Object.fromEntries(catalog.map(item => [item.course.id, {
   area: item.course.title, temas: 0, sem_livro: 0,
@@ -136,7 +139,9 @@ for (const article of articles) {
   if (!isUrl(publication)) addProblem(article.id, "Link de periódico malformado");
   if (article.url_texto_integral && !isUrl(article.url_texto_integral)) addProblem(article.id, "Link de acesso malformado");
   if (!article.doi) addPending(article.id, "DOI não identificado");
-  if (article.revisao_por_pares?.status?.includes("a_conferir")) {
+  if (expansionIIIArticles.includes(article) && policyIndex.has(article.periodico)) {
+    summary.artigos_expansao_iii_com_politica_do_periodico++;
+  } else if (article.revisao_por_pares?.status?.includes("a_conferir")) {
     addPending(article.id, "Política específica de revisão por pares a conferir");
   }
 }

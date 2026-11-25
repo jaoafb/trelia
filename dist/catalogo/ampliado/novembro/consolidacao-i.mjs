@@ -50,6 +50,31 @@ export default {
         "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf"
       },
       "verificacao": "2026-11-24"
+    },
+    {
+      "tema_id": "protecao-software-direito-autoral",
+      "obra_id": "barbosa-introducao-pi",
+      "titulo_obra": "Uma introdução à propriedade intelectual",
+      "autoria": "Denis Borges Barbosa",
+      "edicao_id": "barbosa-intro-2-pdf",
+      "ano": null,
+      "isbn": null,
+      "formato": "PDF — 2ª edição revista e atualizada",
+      "por_que_ler": "A seção discute o fundamento constitucional da tutela dos programas de computador e sua relação com o direito autoral. É doutrina histórica e não um guia atual de registro: para a proteção vigente e os procedimentos do INPI, confira a Lei nº 9.609/1998 e a orientação oficial do instituto.",
+      "localizacao": {
+        "secao": "Regime constitucional dos programas de computador",
+        "pagina": 121
+      },
+      "evidencia": {
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf",
+        "tipo": "texto_integral",
+        "secao": "2ª edição digital, p. 121, seção Regime constitucional dos programas de computador (paginação impressa no PDF)"
+      },
+      "acesso": {
+        "tipo": "texto_integral_aberto",
+        "url": "https://www2.ifam.edu.br/diretorias-sistemicas/institucional/uma-introducao-a-propriedade-intelectual.pdf"
+      },
+      "verificacao": "2026-11-24"
     }
   ]
 };
