@@ -41,7 +41,14 @@ for (const material of cadeFiles) {
   assert.equal(access.free, false);
 }
 const correctedPdfs = lot.materiais.filter(material => material.pdf_entrega);
-assert.equal(correctedPdfs.length, 8);
+assert.equal(correctedPdfs.length, 7);
+for (const id of ["senado-poder-constituinte", "ril-baracho-teoria-constitucionalismo", "senado-eficacia-aplicabilidade-const"]) {
+  const material = lot.materiais.find(item => item.id === id);
+  const access = editionAccess({ readingMaterial: material });
+  assert.equal(access.action, "Ver publicação no Senado");
+  assert.equal(access.free, false);
+  assert.equal(access.url, material.link_leitura);
+}
 for (const material of correctedPdfs) {
   const access = editionAccess({ readingMaterial: material });
   assert.equal(access.url, material.link_leitura);

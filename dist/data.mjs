@@ -1,4 +1,4 @@
-import { addFreeMaterials, addFreeReadings } from "./catalogo/leituras-gratuitas.mjs?v=marco1-2";
+import { addFreeMaterials, addFreeReadings } from "./catalogo/leituras-gratuitas.mjs?v=marco1-3";
 import { books as penalBooks, topics as penalTopics, course } from "./catalogo/penal-i.mjs";
 import constitucional from "./catalogo/constitucional.mjs";
 import civil from "./catalogo/civil.mjs";
@@ -12,7 +12,7 @@ import { additionalBooks, enrichTopics } from "./catalogo/editorial.mjs";
 import expandedCourses from "./catalogo/ampliado/curadoria/index.mjs";
 import { createBibliography } from "./catalogo/ampliado/carregar.mjs";
 import { applyCuratedBooks, applyCuratedTopics, curatedCatalog, promotedIds } from "./catalogo/ampliado/curadoria-lote.mjs";
-import { addNovemberBooks, addNovemberTopics } from "./catalogo/ampliado/curadoria-novembro.mjs?v=marco1-2";
+import { addNovemberBooks, addNovemberTopics } from "./catalogo/ampliado/curadoria-novembro.mjs?v=marco1-3";
 import economicRecords from "./catalogo/ampliado/bibliografia/economico.mjs";
 import urbanRecords from "./catalogo/ampliado/bibliografia/urbanistico.mjs";
 

@@ -3211,13 +3211,13 @@
       "area_id": "constitucional",
       "isbn": null,
       "doi": null,
-      "formato": "PDF",
-      "link_origem": "https://www2.senado.leg.br/bdsf/handle/id/854",
-      "link_leitura": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/854/R158-10.pdf",
-      "tipo_acesso": "texto_integral_aberto",
+      "formato": "HTML",
+      "link_origem": "https://www2.senado.leg.br/bdsf/item/id/854",
+      "link_leitura": "https://www2.senado.leg.br/bdsf/item/id/854",
+      "tipo_acesso": "pagina_institucional_aberta",
       "login_necessario": false,
-      "escopo_do_conteudo": "Texto da publicação indicada.",
-      "data_verificacao": "2026-11-20",
+      "escopo_do_conteudo": "Ficha institucional. O download do texto integral não foi confirmado no acesso de revalidação.",
+      "data_verificacao": "2026-11-25",
       "status_revisao": "verificado_editorialmente",
       "fonte_id": "fonte-senado-poder-constituinte",
       "licenca_informada": null,
@@ -3228,7 +3228,8 @@
         "edicao_id_existente": null,
         "temas_com_mesmo_link_na_base": [],
         "referencia_normativa_na_base": null
-      }
+      },
+      "acao_acesso": "Ver publicação no Senado"
     },
     {
       "id": "senado-eficacia-aplicabilidade-const",
@@ -3239,12 +3240,12 @@
       "area_id": "constitucional",
       "isbn": "9786556760063",
       "doi": null,
-      "formato": "PDF",
-      "link_origem": "https://www2.senado.leg.br/bdsf/handle/id/570639",
-      "link_leitura": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/570639/Eficacia_aplicabilidade_normas_constitucionais.pdf?isAllowed=y&sequence=3",
-      "tipo_acesso": "texto_integral_aberto",
+      "formato": "HTML",
+      "link_origem": "https://livraria.senado.leg.br/product/eficacia-e-aplicabilidade-das-normas-constitucionais/",
+      "link_leitura": "https://livraria.senado.leg.br/product/eficacia-e-aplicabilidade-das-normas-constitucionais/",
+      "tipo_acesso": "pagina_institucional_aberta",
       "login_necessario": false,
-      "escopo_do_conteudo": "Texto da publicação indicada.",
+      "escopo_do_conteudo": "Ficha institucional. O download do texto integral não foi confirmado no acesso de revalidação.",
       "data_verificacao": "2026-11-25",
       "status_revisao": "verificado_editorialmente",
       "fonte_id": "fonte-senado-eficacia-aplicabilidade-const",
@@ -3257,7 +3258,7 @@
         "temas_com_mesmo_link_na_base": [],
         "referencia_normativa_na_base": null
       },
-      "pdf_entrega": "arquivo"
+      "acao_acesso": "Ver publicação no Senado"
     },
     {
       "id": "tjdft-dolo-eventual-culpa-consciente",
@@ -5950,12 +5951,12 @@
       "area_id": "constitucional",
       "isbn": null,
       "doi": null,
-      "formato": "PDF",
-      "link_origem": "https://www2.senado.leg.br/bdsf/handle/id/181702",
-      "link_leitura": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/181702/000424691.pdf?isAllowed=y&sequence=3",
-      "tipo_acesso": "texto_integral_aberto",
+      "formato": "HTML",
+      "link_origem": "https://www2.senado.leg.br/jspui/handle/id/181702",
+      "link_leitura": "https://www2.senado.leg.br/jspui/handle/id/181702",
+      "tipo_acesso": "pagina_institucional_aberta",
       "login_necessario": false,
-      "escopo_do_conteudo": "Texto da publicação indicada.",
+      "escopo_do_conteudo": "Ficha institucional. O download do texto integral não foi confirmado no acesso de revalidação.",
       "data_verificacao": "2026-11-25",
       "status_revisao": "verificado_editorialmente",
       "fonte_id": "fonte-ril-baracho-teoria-constitucionalismo",
@@ -5967,7 +5968,8 @@
         "edicao_id_existente": null,
         "temas_com_mesmo_link_na_base": [],
         "referencia_normativa_na_base": null
-      }
+      },
+      "acao_acesso": "Ver publicação no Senado"
     },
     {
       "id": "trt4-schnell-continuidade-emprego",
@@ -6350,8 +6352,8 @@
     {
       "id": "fonte-senado-poder-constituinte",
       "material_id": "senado-poder-constituinte",
-      "url_origem": "https://www2.senado.leg.br/bdsf/handle/id/854",
-      "url_leitura_conferida": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/854/R158-10.pdf",
+      "url_origem": "https://www2.senado.leg.br/bdsf/item/id/854",
+      "url_leitura_conferida": "https://www2.senado.leg.br/bdsf/item/id/854",
       "data_verificacao": "2026-11-20",
       "metodo": "leitura anonima de HTML ou PDF de origem e inspeção de conteúdo pertinente",
       "resultado": "conteudo_acessivel"
@@ -6359,8 +6361,8 @@
     {
       "id": "fonte-senado-eficacia-aplicabilidade-const",
       "material_id": "senado-eficacia-aplicabilidade-const",
-      "url_origem": "https://www2.senado.leg.br/bdsf/handle/id/570639",
-      "url_leitura_conferida": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/570639/Eficacia_aplicabilidade_normas_constitucionais.pdf?isAllowed=y&sequence=3",
+      "url_origem": "https://livraria.senado.leg.br/product/eficacia-e-aplicabilidade-das-normas-constitucionais/",
+      "url_leitura_conferida": "https://livraria.senado.leg.br/product/eficacia-e-aplicabilidade-das-normas-constitucionais/",
       "data_verificacao": "2026-11-20",
       "metodo": "leitura anonima de HTML ou PDF de origem e inspeção de conteúdo pertinente",
       "resultado": "conteudo_acessivel"
@@ -7205,8 +7207,8 @@
     {
       "id": "fonte-ril-baracho-teoria-constitucionalismo",
       "material_id": "ril-baracho-teoria-constitucionalismo",
-      "url_origem": "https://www2.senado.leg.br/bdsf/handle/id/181702",
-      "url_leitura_conferida": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/181702/000424691.pdf?isAllowed=y&sequence=3",
+      "url_origem": "https://www2.senado.leg.br/jspui/handle/id/181702",
+      "url_leitura_conferida": "https://www2.senado.leg.br/jspui/handle/id/181702",
       "data_verificacao": "2026-11-20",
       "metodo": "leitura anonima de HTML ou PDF de origem e inspeção de conteúdo pertinente",
       "resultado": "conteudo_acessivel"

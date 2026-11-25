@@ -1,4 +1,4 @@
-import marco1 from "../catalogo/ampliado/novembro/marco-1.mjs?v=marco1-2";
+import marco1 from "../catalogo/ampliado/novembro/marco-1.mjs?v=marco1-3";
 import { h } from "./html.mjs";
 
 const byArea = new Map(marco1.orientacoes.map(item => [item.area, item]));
