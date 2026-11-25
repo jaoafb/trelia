@@ -2,6 +2,7 @@ import third from "./novembro/expansao-iii.mjs";
 import consolidation from "./novembro/consolidacao-i.mjs";
 import expansion from "./novembro/expansao.mjs";
 import balanced from "./novembro/equilibrada.mjs";
+import editorialRelations from "./novembro/relacoes-editoriais.mjs";
 
 const thirdTopics = new Set(third.temas.map(topic => topic.id));
 const canonicalTopics = {
@@ -123,6 +124,16 @@ export function addNovemberTopics(topics, books) {
       coverage: { url: item.evidencia.url, action: ref.action },
       ...previous, coverageByEdition: { ...previous?.coverageByEdition, [edition.id]: ref },
     };
+  }
+  for (const pair of editorialRelations.pares) {
+    const a = novemberTopicId(pair.tema_a);
+    const b = novemberTopicId(pair.tema_b);
+    if (a === b) throw new Error("Relação com mesmo destino: " + a);
+    const first = entries.get(a);
+    const second = entries.get(b);
+    if (!first || !second) throw new Error("Relação editorial com tema inexistente: " + a + "/" + b);
+    entries.set(a, { ...first, relatedTopics: unique([...(first.relatedTopics ?? []), b]) });
+    entries.set(b, { ...second, relatedTopics: unique([...(second.relatedTopics ?? []), a]) });
   }
   for (const topic of entries.values()) {
     if (topic.relatedTopics?.some(id => !entries.has(id))) throw new Error("Tema relacionado ausente: " + topic.id);

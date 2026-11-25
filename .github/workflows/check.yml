@@ -43,3 +43,6 @@ jobs:
 
       - name: Verificar politicas editoriais dos periodicos
         run: node scripts/check-politicas-periodicos.mjs
+
+      - name: Verificar relacoes editoriais
+        run: node scripts/check-relacoes-editoriais.mjs

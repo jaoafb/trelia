@@ -49,3 +49,5 @@ if __name__ == "__main__":
     write("consolidacao-i", {"indicacoes": consolidation["indicacoes_de_livro"]})
     policies = json.loads((SOURCE / "trelia-politicas-periodicos-2026-11-24.json").read_text(encoding="utf-8-sig"))
     write("politicas-periodicos", policies)
+    links = json.loads((SOURCE / "trelia-relacoes-editoriais-2026-11-24.json").read_text(encoding="utf-8-sig"))
+    write("relacoes-editoriais", links)

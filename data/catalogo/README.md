@@ -96,3 +96,8 @@ Para regenerar os módulos estáticos e verificar os dois vínculos: `python scr
 O arquivo `trelia-politicas-periodicos-2026-11-24.json` registra **14 páginas de políticas de periódicos**, provenientes dos próprios editores ou do SciELO. Elas abrangem os 19 artigos da Expansão Editorial III. O módulo `dist/catalogo/ampliado/novembro/politicas-periodicos.mjs` é gerado por `python scripts/gerar_curadoria_novembro.py`.
 
 A interface mostra um link para a **política do periódico** nos detalhes de cada pesquisa, mas não afirma que o fluxo específico de cada artigo foi confirmado. Algumas políticas foram atualizadas depois do ano do artigo; o caso da Revista do IBRAC admite exceções para artigos convidados. Verifique o histórico individual antes de declarar arbitragem específica do texto. Execute `node scripts/check-politicas-periodicos.mjs` para conferir os 19 vínculos e a presença dos links no HTML renderizado.
+
+
+### Relações editoriais de navegação (24/11/2026)
+
+O arquivo `trelia-relacoes-editoriais-2026-11-24.json` registra **31 pares** de assuntos relacionados, selecionados por pertinência pedagógica. São vínculos para navegar e comparar institutos, **não** declarações de equivalência jurídica nem recomendações de livro. O gerador `python scripts/gerar_curadoria_novembro.py` publica `relacoes-editoriais.mjs`; o teste `node scripts/check-relacoes-editoriais.mjs` exige existência de todos os temas, ausência de duplicações e reciprocidade.
