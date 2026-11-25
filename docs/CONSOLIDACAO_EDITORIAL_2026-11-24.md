@@ -72,6 +72,8 @@ A ausência de `topic.sources` não é sinônimo de ausência de `freeReadings` 
 
 **Assuntos relacionados.** Foram selecionados **31 pares temáticos bidirecionais**, com justificativa de pertinência pedagógica, checagem de existência e teste de reciprocidade. As conexões ajudam a comparar institutos sem apresentá-los como equivalentes.
 
+**Busca em linguagem natural.** Foram acrescentadas **152 expressões alternativas**, duas para cada um dos **76 temas da Expansão III**, distribuídos pelas **19 áreas**. São consultas que estudantes podem digitar sem conhecer o título exato, preservando os temas já cadastrados. As expressões são documentadas em `data/catalogo/trelia-termos-busca-consolidacao-2026-11-24.json`, carregadas pelos módulos gerados e testadas contra as rotas corretas. Não representam a validação jurídica automática das explicações.
+
 **Testes e rastreabilidade.** A PR traz scripts de verificação dos três blocos acima, auditoria do catálogo completo e módulos gerados reproduzíveis. Os JSONs de lotes históricos anteriores foram preservados.
 
 ## 5. Lacunas e pendências que permanecem
@@ -262,6 +264,7 @@ python scripts/gerar_curadoria_novembro.py
 node scripts/check-consolidacao-bibliografica-i.mjs
 node scripts/check-politicas-periodicos.mjs
 node scripts/check-relacoes-editoriais.mjs
+node scripts/check-termos-busca.mjs
 node scripts/auditar-catalogo.mjs --strict
 ```
 
