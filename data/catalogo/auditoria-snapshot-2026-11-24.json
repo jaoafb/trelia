@@ -1,7 +1,7 @@
 {
-  "descricao": "Fotografia auditada da branch da PR #19 em 24/11/2026; reproduza com node scripts/auditar-catalogo.mjs --strict após alterações.",
+  "descricao": "Auditoria da PR #19 após verificação suplementar das 33 fontes e 4 novas indicações, em 24/11/2026",
   "pr": 19,
-  "workflow_url": "https://github.com/jaoafb/trelia/actions/runs/45530510390",
+  "workflow_url": "https://github.com/jaoafb/trelia/actions/runs/45531711925",
   "meta": {
     "base": "main + consolidação bibliográfica",
     "gerado_por": "scripts/auditar-catalogo.mjs",
@@ -10,15 +10,15 @@
   "resumo": {
     "areas": 19,
     "temas": 308,
-    "obras": 267,
-    "temas_sem_livro_indicado": 93,
+    "obras": 269,
+    "temas_sem_livro_indicado": 89,
     "temas_com_revisao_pendente": 74,
     "temas_sem_fontes_normativas": 78,
     "temas_sem_relacionados": 133,
     "temas_sem_termos_alternativos": 0,
-    "indicacoes_de_obra": 388,
-    "indicacoes_com_localizacao": 386,
-    "edicoes": 284,
+    "indicacoes_de_obra": 392,
+    "indicacoes_com_localizacao": 390,
+    "edicoes": 286,
     "fontes_de_tema": 331,
     "leituras_gratuitas": 311,
     "artigos_em_lotes": 33,
@@ -207,15 +207,6 @@
       "temas_relacionados": 1
     },
     {
-      "id": "relatorio-impacto-protecao-dados",
-      "titulo": "Relatório de impacto à proteção de dados (RIPD)",
-      "area_id": "digital",
-      "revisao_editorial_pendente": true,
-      "fontes_associadas": 1,
-      "leituras_gratuitas": 0,
-      "temas_relacionados": 2
-    },
-    {
       "id": "revisao-decisoes-automatizadas-lgpd",
       "titulo": "Revisão de decisões automatizadas na LGPD",
       "area_id": "digital",
@@ -232,15 +223,6 @@
       "fontes_associadas": 1,
       "leituras_gratuitas": 0,
       "temas_relacionados": 1
-    },
-    {
-      "id": "transferencia-internacional-dados-lgpd",
-      "titulo": "Transferência internacional de dados pessoais",
-      "area_id": "digital",
-      "revisao_editorial_pendente": true,
-      "fontes_associadas": 1,
-      "leituras_gratuitas": 0,
-      "temas_relacionados": 0
     },
     {
       "id": "proposta-dados-criancas-lgpd",
@@ -423,15 +405,6 @@
       "temas_relacionados": 1
     },
     {
-      "id": "limites-despesa-pessoal-lrf",
-      "titulo": "Limites de despesa com pessoal na LRF",
-      "area_id": "financeiro",
-      "revisao_editorial_pendente": true,
-      "fontes_associadas": 1,
-      "leituras_gratuitas": 0,
-      "temas_relacionados": 2
-    },
-    {
       "id": "ppa-ldo-loa",
       "titulo": "PPA, LDO e LOA",
       "area_id": "financeiro",
@@ -439,15 +412,6 @@
       "fontes_associadas": 2,
       "leituras_gratuitas": 0,
       "temas_relacionados": 0
-    },
-    {
-      "id": "receita-corrente-liquida",
-      "titulo": "Receita corrente líquida como indicador fiscal",
-      "area_id": "financeiro",
-      "revisao_editorial_pendente": true,
-      "fontes_associadas": 1,
-      "leituras_gratuitas": 0,
-      "temas_relacionados": 1
     },
     {
       "id": "regra-ouro-orcamento",
@@ -864,16 +828,1111 @@
       "temas_relacionados": 1
     }
   ],
-  "cobertura_por_area": [
+  "fila_revisao_editorial_substantiva": [
     {
-      "id": "digital",
-      "area": "Direito Digital",
-      "temas": 11,
-      "sem_livro": 7,
-      "em_revisao": 4,
-      "sem_relacionados": 2,
-      "indicacoes": 8
+      "id": "regime-juridico-bens-publicos",
+      "titulo": "Bens públicos e suas espécies",
+      "area_id": "administrativo",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 98 a 103"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
     },
+    {
+      "id": "concessao-permissao",
+      "titulo": "Concessão e permissão",
+      "area_id": "administrativo",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 175"
+        },
+        {
+          "titulo": "Lei de Concessões e Permissões, Lei nº 8.987/1995",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm",
+          "recorte": "arts. 2º, 6º e 40"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "controle-externo-tribunais-contas",
+      "titulo": "Controle externo e tribunais de contas",
+      "area_id": "administrativo",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 70 a 75"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "desapropriacao-utilidade-publica",
+      "titulo": "Desapropriação por utilidade pública",
+      "area_id": "administrativo",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, XXIV"
+        },
+        {
+          "titulo": "Decreto-Lei nº 3.365/1941 — Desapropriação por utilidade pública",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm",
+          "recorte": "arts. 1º, 2º e 10"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "competencia-ambiental-lc140",
+      "titulo": "Competências ambientais entre União, estados e municípios",
+      "area_id": "ambiental",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 23, VI e VII"
+        },
+        {
+          "titulo": "Lei Complementar nº 140/2011 — Cooperação federativa ambiental",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp140.htm",
+          "recorte": "arts. 3º, 7º a 9º e 13 a 17"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "pagamento-servicos-ambientais",
+      "titulo": "Pagamento por serviços ambientais",
+      "area_id": "ambiental",
+      "fontes": [
+        {
+          "titulo": "Lei nº 14.119/2021 — Política Nacional de Pagamento por Serviços Ambientais",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14119.htm",
+          "recorte": "arts. 2º a 7º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "principios-prevencao-precaucao-ambiental",
+      "titulo": "Prevenção e precaução no Direito Ambiental",
+      "area_id": "ambiental",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 225"
+        },
+        {
+          "titulo": "Política Nacional do Meio Ambiente, Lei nº 6.938/1981",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+          "recorte": "arts. 2º e 4º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "titulo": "Responsabilidade penal da pessoa jurídica por crime ambiental",
+      "area_id": "ambiental",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 225, § 3º"
+        },
+        {
+          "titulo": "Lei de Crimes Ambientais, Lei nº 9.605/1998",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9605.htm",
+          "recorte": "arts. 2º a 4º"
+        },
+        {
+          "titulo": "Política Nacional do Meio Ambiente, Lei nº 6.938/1981",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+          "recorte": "art. 14, § 1º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "eviccao-contratos",
+      "titulo": "Evicção nos contratos onerosos",
+      "area_id": "civil",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 447 a 457"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "guarda-compartilhada-convivencia",
+      "titulo": "Guarda compartilhada e convivência familiar",
+      "area_id": "civil",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 1.583 e 1.584"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 227"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "regimes-bens-casamento",
+      "titulo": "Regimes de bens no casamento",
+      "area_id": "civil",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 1.639 a 1.688"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "uniao-estavel-efeitos-patrimoniais",
+      "titulo": "União estável e efeitos patrimoniais",
+      "area_id": "civil",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 1.723 a 1.727"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 226, § 3º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "comissao-parlamentar-inquerito",
+      "titulo": "Comissões parlamentares de inquérito",
+      "area_id": "constitucional",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 58, § 3º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "direito-fundamental-educacao",
+      "titulo": "Direito à educação e dever do Estado",
+      "area_id": "constitucional",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 205 a 214"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "iniciativa-popular-projeto-lei",
+      "titulo": "Iniciativa popular de projetos de lei",
+      "area_id": "constitucional",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 14 e 61, § 2º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "intervencao-federal",
+      "titulo": "Intervenção federal nos estados",
+      "area_id": "constitucional",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 34 a 36"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "cobranca-indebita-consumo",
+      "titulo": "Cobrança indevida e repetição do indébito",
+      "area_id": "consumidor",
+      "fontes": [
+        {
+          "titulo": "Código de Defesa do Consumidor, Lei nº 8.078/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+          "recorte": "art. 42 e parágrafo único"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "contratos-adesao-consumo",
+      "titulo": "Contratos de adesão no consumo",
+      "area_id": "consumidor",
+      "fontes": [
+        {
+          "titulo": "Código de Defesa do Consumidor, Lei nº 8.078/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+          "recorte": "arts. 46 a 54"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "praticas-abusivas-art39",
+      "titulo": "Práticas abusivas nas relações de consumo",
+      "area_id": "consumidor",
+      "fontes": [
+        {
+          "titulo": "Código de Defesa do Consumidor, Lei nº 8.078/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+          "recorte": "arts. 6º, IV, e 39"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "recall-produtos-seguranca",
+      "titulo": "Recall e dever de segurança do fornecedor",
+      "area_id": "consumidor",
+      "fontes": [
+        {
+          "titulo": "Código de Defesa do Consumidor, Lei nº 8.078/1990",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+          "recorte": "arts. 8º a 10 e 12"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "relatorio-impacto-protecao-dados",
+      "titulo": "Relatório de impacto à proteção de dados (RIPD)",
+      "area_id": "digital",
+      "fontes": [
+        {
+          "titulo": "Lei Geral de Proteção de Dados, Lei nº 13.709/2018",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "recorte": "arts. 5º, XVII, 10, § 3º, e 38"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "revisao-decisoes-automatizadas-lgpd",
+      "titulo": "Revisão de decisões automatizadas na LGPD",
+      "area_id": "digital",
+      "fontes": [
+        {
+          "titulo": "Lei Geral de Proteção de Dados, Lei nº 13.709/2018",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "recorte": "arts. 6º, VI e IX, e 20"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "seguranca-desde-concepcao-lgpd",
+      "titulo": "Segurança desde a concepção no tratamento de dados",
+      "area_id": "digital",
+      "fontes": [
+        {
+          "titulo": "Lei Geral de Proteção de Dados, Lei nº 13.709/2018",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "recorte": "arts. 6º, VII e VIII, 46 e 50"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "transferencia-internacional-dados-lgpd",
+      "titulo": "Transferência internacional de dados pessoais",
+      "area_id": "digital",
+      "fontes": [
+        {
+          "titulo": "Lei Geral de Proteção de Dados, Lei nº 13.709/2018",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+          "recorte": "arts. 33 a 36"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "restricoes-verticais-distribuicao",
+      "titulo": "Acordos verticais e distribuição exclusiva",
+      "area_id": "economico",
+      "fontes": [
+        {
+          "titulo": "Lei de Defesa da Concorrência, Lei nº 12.529/2011",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+          "recorte": "art. 36"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "precos-predatorios-concorrencia",
+      "titulo": "Preços predatórios e abuso de posição dominante",
+      "area_id": "economico",
+      "fontes": [
+        {
+          "titulo": "Lei de Defesa da Concorrência, Lei nº 12.529/2011",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+          "recorte": "art. 36, caput e § 3º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "proposta-remedios-antitruste",
+      "titulo": "Remédios antitruste no controle de fusões",
+      "area_id": "economico",
+      "fontes": [
+        {
+          "titulo": "Lei de Defesa da Concorrência, Lei nº 12.529/2011",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+          "recorte": "arts. 61 e 88"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "troca-informacoes-sensiveis-concorrentes",
+      "titulo": "Troca de informações sensíveis entre concorrentes",
+      "area_id": "economico",
+      "fontes": [
+        {
+          "titulo": "Lei de Defesa da Concorrência, Lei nº 12.529/2011",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+          "recorte": "art. 36"
+        },
+        {
+          "titulo": "Guias do Cade — publicações institucionais",
+          "url": "https://www.gov.br/cade/pt-br/centrais-de-conteudo/publicacoes-institucionais/guias-do-cade",
+          "recorte": "Guias de compliance e prevenção de gun jumping"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "abuso-poder-economico-eleitoral",
+      "titulo": "Abuso de poder econômico nas eleições",
+      "area_id": "eleitoral",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 14, § 9º"
+        },
+        {
+          "titulo": "Lei Complementar nº 64/1990 — Inelegibilidades",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+          "recorte": "art. 22"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "condutas-vedadas-agentes-publicos",
+      "titulo": "Condutas vedadas a agentes públicos em campanha",
+      "area_id": "eleitoral",
+      "fontes": [
+        {
+          "titulo": "Lei das Eleições, Lei nº 9.504/1997",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+          "recorte": "arts. 73 a 78"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "cotas-genero-candidaturas",
+      "titulo": "Cotas de gênero e candidaturas proporcionais",
+      "area_id": "eleitoral",
+      "fontes": [
+        {
+          "titulo": "Lei das Eleições, Lei nº 9.504/1997",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+          "recorte": "art. 10, § 3º"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 14"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "doacoes-financiamento-campanha",
+      "titulo": "Doações e financiamento das campanhas",
+      "area_id": "eleitoral",
+      "fontes": [
+        {
+          "titulo": "Lei das Eleições, Lei nº 9.504/1997",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+          "recorte": "arts. 20 a 32"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "direitos-acionistas-sociedade-anonima",
+      "titulo": "Direitos essenciais dos acionistas",
+      "area_id": "empresarial",
+      "fontes": [
+        {
+          "titulo": "Lei das Sociedades por Ações, Lei nº 6.404/1976",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm",
+          "recorte": "arts. 109 a 120"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "duplicata-mercantil",
+      "titulo": "Duplicata mercantil e sua circulação",
+      "area_id": "empresarial",
+      "fontes": [
+        {
+          "titulo": "Lei nº 5.474/1968 — Duplicatas",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5474.htm",
+          "recorte": "arts. 1º a 13"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "nome-empresarial-protecao",
+      "titulo": "Nome empresarial e sua proteção",
+      "area_id": "empresarial",
+      "fontes": [
+        {
+          "titulo": "Código Civil, Lei nº 10.406/2002",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+          "recorte": "arts. 1.155 a 1.168"
+        },
+        {
+          "titulo": "Lei da Propriedade Industrial, Lei nº 9.279/1996",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9279.htm",
+          "recorte": "arts. 122 e 129"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "recuperacao-extrajudicial-empresa",
+      "titulo": "Recuperação extrajudicial de empresas",
+      "area_id": "empresarial",
+      "fontes": [
+        {
+          "titulo": "Lei de Recuperação e Falências, Lei nº 11.101/2005",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101compilado.htm",
+          "recorte": "arts. 161 a 167"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "divida-publica-operacoes-credito",
+      "titulo": "Dívida pública e operações de crédito",
+      "area_id": "financeiro",
+      "fontes": [
+        {
+          "titulo": "Lei de Responsabilidade Fiscal, LC nº 101/2000",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+          "recorte": "arts. 29 a 38"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "limites-despesa-pessoal-lrf",
+      "titulo": "Limites de despesa com pessoal na LRF",
+      "area_id": "financeiro",
+      "fontes": [
+        {
+          "titulo": "Lei de Responsabilidade Fiscal, LC nº 101/2000",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+          "recorte": "arts. 18 a 23"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "receita-corrente-liquida",
+      "titulo": "Receita corrente líquida como indicador fiscal",
+      "area_id": "financeiro",
+      "fontes": [
+        {
+          "titulo": "Lei de Responsabilidade Fiscal, LC nº 101/2000",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+          "recorte": "art. 2º, IV, e § 3º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "regra-ouro-orcamento",
+      "titulo": "Regra de ouro das finanças públicas",
+      "area_id": "financeiro",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 167, III"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "cooperacao-juridica-internacional-cpc",
+      "titulo": "Cooperação jurídica internacional no processo civil",
+      "area_id": "internacional",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Civil, Lei nº 13.105/2015",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+          "recorte": "arts. 26 a 41"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "extradicao-lei-migracao",
+      "titulo": "Extradição no Direito brasileiro",
+      "area_id": "internacional",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, LI e LII"
+        },
+        {
+          "titulo": "Lei de Migração, Lei nº 13.445/2017",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+          "recorte": "arts. 81 a 99"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "imunidades-diplomaticas",
+      "titulo": "Imunidades diplomáticas e limites",
+      "area_id": "internacional",
+      "fontes": [
+        {
+          "titulo": "Convenção de Viena sobre Relações Diplomáticas, Decreto nº 56.435/1965",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d56435.htm",
+          "recorte": "arts. 29 a 32 e 41"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "solucao-pacifica-controversias",
+      "titulo": "Solução pacífica de controvérsias internacionais",
+      "area_id": "internacional",
+      "fontes": [
+        {
+          "titulo": "Carta das Nações Unidas, Decreto nº 19.841/1945",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d19841.htm",
+          "recorte": "art. 2º, § 3º, e arts. 33 a 38"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "crime-preterdoloso",
+      "titulo": "Crime preterdoloso e agravação pelo resultado",
+      "area_id": "penal-i",
+      "fontes": [
+        {
+          "titulo": "Código Penal, Decreto-Lei nº 2.848/1940",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "recorte": "art. 19"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "legitima-defesa-putativa",
+      "titulo": "Legítima defesa putativa e erro sobre situação justificante",
+      "area_id": "penal-i",
+      "fontes": [
+        {
+          "titulo": "Código Penal, Decreto-Lei nº 2.848/1940",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+          "recorte": "arts. 20, § 1º, e 25"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "auxilio-acidente-sequela",
+      "titulo": "Auxílio-acidente e sequelas consolidadas",
+      "area_id": "previdenciario",
+      "fontes": [
+        {
+          "titulo": "Lei nº 8.213/1991 — Planos de Benefícios da Previdência Social",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+          "recorte": "art. 86"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "recurso-administrativo-inss",
+      "titulo": "Recursos administrativos contra decisões do INSS",
+      "area_id": "previdenciario",
+      "fontes": [
+        {
+          "titulo": "Lei nº 8.213/1991 — Planos de Benefícios da Previdência Social",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+          "recorte": "art. 126"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, XXXV"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "salario-maternidade-rgps",
+      "titulo": "Salário-maternidade no RGPS",
+      "area_id": "previdenciario",
+      "fontes": [
+        {
+          "titulo": "Lei nº 8.213/1991 — Planos de Benefícios da Previdência Social",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+          "recorte": "arts. 71 a 73"
+        },
+        {
+          "titulo": "Consolidação das Leis do Trabalho",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+          "recorte": "art. 392"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "segurado-especial-rural",
+      "titulo": "Segurado especial rural",
+      "area_id": "previdenciario",
+      "fontes": [
+        {
+          "titulo": "Lei nº 8.213/1991 — Planos de Benefícios da Previdência Social",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+          "recorte": "art. 11, VII"
+        },
+        {
+          "titulo": "Lei nº 8.212/1991 — Seguridade social e custeio",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm",
+          "recorte": "art. 12, VII"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "acao-monitoria",
+      "titulo": "Ação monitória",
+      "area_id": "processo-civil",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Civil, Lei nº 13.105/2015",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+          "recorte": "arts. 700 a 702"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "execucao-alimentos-prisao-civil",
+      "titulo": "Cumprimento de sentença de alimentos e prisão civil",
+      "area_id": "processo-civil",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Civil, Lei nº 13.105/2015",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+          "recorte": "arts. 528 a 533"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, LXVII"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "irdr-demandas-repetitivas",
+      "titulo": "Incidente de Resolução de Demandas Repetitivas (IRDR)",
+      "area_id": "processo-civil",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Civil, Lei nº 13.105/2015",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+          "recorte": "arts. 976 a 987"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "producao-antecipada-prova-cpc",
+      "titulo": "Produção antecipada de prova",
+      "area_id": "processo-civil",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Civil, Lei nº 13.105/2015",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+          "recorte": "arts. 381 a 383"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "assistente-acusacao",
+      "titulo": "Assistente de acusação no processo penal",
+      "area_id": "processo-penal",
+      "fontes": [
+        {
+          "titulo": "Código de Processo Penal, Decreto-Lei nº 3.689/1941",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+          "recorte": "arts. 268 a 273"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "colaboracao-premiada",
+      "titulo": "Colaboração premiada e corroboração",
+      "area_id": "processo-penal",
+      "fontes": [
+        {
+          "titulo": "Lei nº 12.850/2013 — Organizações criminosas",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+          "recorte": "arts. 3º-A a 7º e 4º, § 16"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "interceptacao-telefonica-prova",
+      "titulo": "Interceptação telefônica e reserva de jurisdição",
+      "area_id": "processo-penal",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, XII"
+        },
+        {
+          "titulo": "Lei nº 9.296/1996 — Interceptação de comunicações",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+          "recorte": "arts. 1º a 10"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "tribunal-juri-quesitacao",
+      "titulo": "Quesitação no Tribunal do Júri",
+      "area_id": "processo-penal",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 5º, XXXVIII"
+        },
+        {
+          "titulo": "Código de Processo Penal, Decreto-Lei nº 3.689/1941",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+          "recorte": "arts. 482 a 491"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "coautoria-obras-intelectuais",
+      "titulo": "Coautoria de obras intelectuais",
+      "area_id": "propriedade-intelectual",
+      "fontes": [
+        {
+          "titulo": "Lei de Direitos Autorais, Lei nº 9.610/1998",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+          "recorte": "arts. 15 a 17"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "dominio-publico-direitos-autorais",
+      "titulo": "Domínio público e fim da proteção patrimonial",
+      "area_id": "propriedade-intelectual",
+      "fontes": [
+        {
+          "titulo": "Lei de Direitos Autorais, Lei nº 9.610/1998",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+          "recorte": "arts. 41 a 45 e 96"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "licenciamento-programas-computador",
+      "titulo": "Licenciamento de programas de computador",
+      "area_id": "propriedade-intelectual",
+      "fontes": [
+        {
+          "titulo": "Lei do Software, Lei nº 9.609/1998",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+          "recorte": "arts. 2º a 9º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "nulidade-registro-marca",
+      "titulo": "Nulidade de registro de marca",
+      "area_id": "propriedade-intelectual",
+      "fontes": [
+        {
+          "titulo": "Lei da Propriedade Industrial, Lei nº 9.279/1996",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9279.htm",
+          "recorte": "arts. 165 a 175"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "trabalho-intermitente-clt",
+      "titulo": "Contrato de trabalho intermitente",
+      "area_id": "trabalho",
+      "fontes": [
+        {
+          "titulo": "Consolidação das Leis do Trabalho",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+          "recorte": "arts. 443, § 3º, e 452-A"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "equiparacao-salarial-clt",
+      "titulo": "Equiparação salarial e trabalho de igual valor",
+      "area_id": "trabalho",
+      "fontes": [
+        {
+          "titulo": "Consolidação das Leis do Trabalho",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+          "recorte": "art. 461"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 7º, XXX"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "negociacao-coletiva-limites",
+      "titulo": "Negociação coletiva e limites legais",
+      "area_id": "trabalho",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 7º, XXVI"
+        },
+        {
+          "titulo": "Consolidação das Leis do Trabalho",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+          "recorte": "arts. 611-A e 611-B"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "estabilidade-gestante-emprego",
+      "titulo": "Proteção da gestante contra dispensa arbitrária",
+      "area_id": "trabalho",
+      "fontes": [
+        {
+          "titulo": "ADCT — Ato das Disposições Constitucionais Transitórias",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct",
+          "recorte": "art. 10, II, b"
+        },
+        {
+          "titulo": "Consolidação das Leis do Trabalho",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+          "recorte": "art. 391-A"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "contribuicao-melhoria-tributo",
+      "titulo": "Contribuição de melhoria",
+      "area_id": "tributario",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 145, III"
+        },
+        {
+          "titulo": "Código Tributário Nacional, Lei nº 5.172/1966",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+          "recorte": "arts. 81 e 82"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "imposto-bens-servicos-cbs-ibs",
+      "titulo": "IBS e CBS na reforma da tributação do consumo",
+      "area_id": "tributario",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 156-A e 195, V"
+        },
+        {
+          "titulo": "Lei Complementar nº 214/2025 — IBS, CBS e Imposto Seletivo",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+          "recorte": "parte inicial e disposições transitórias"
+        },
+        {
+          "titulo": "Lei Complementar nº 227/2026 — CGIBS e regulamentação tributária",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+          "recorte": "alterações pertinentes"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "imposto-seletivo-reforma",
+      "titulo": "Imposto Seletivo e finalidade extrafiscal",
+      "area_id": "tributario",
+      "fontes": [
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "art. 153, VIII e § 6º"
+        },
+        {
+          "titulo": "Lei Complementar nº 214/2025 — IBS, CBS e Imposto Seletivo",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+          "recorte": "dispositivos do Imposto Seletivo"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "responsabilidade-tributaria-administradores",
+      "titulo": "Responsabilidade tributária de administradores",
+      "area_id": "tributario",
+      "fontes": [
+        {
+          "titulo": "Código Tributário Nacional, Lei nº 5.172/1966",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+          "recorte": "arts. 128 e 135"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "consorcio-imobiliario-estatuto-cidade",
+      "titulo": "Consórcio imobiliário como instrumento urbanístico",
+      "area_id": "urbanistico",
+      "fontes": [
+        {
+          "titulo": "Estatuto da Cidade, Lei nº 10.257/2001",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+          "recorte": "art. 46"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "transferencia-direito-construir",
+      "titulo": "Transferência do direito de construir",
+      "area_id": "urbanistico",
+      "fontes": [
+        {
+          "titulo": "Estatuto da Cidade, Lei nº 10.257/2001",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+          "recorte": "art. 35"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "usucapiao-especial-urbana",
+      "titulo": "Usucapião especial urbana individual",
+      "area_id": "urbanistico",
+      "fontes": [
+        {
+          "titulo": "Estatuto da Cidade, Lei nº 10.257/2001",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+          "recorte": "art. 9º"
+        },
+        {
+          "titulo": "Constituição Federal de 1988",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "recorte": "arts. 183 e 183, § 3º"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    },
+    {
+      "id": "zeis-zonas-especiais-interesse-social",
+      "titulo": "Zonas Especiais de Interesse Social (ZEIS)",
+      "area_id": "urbanistico",
+      "fontes": [
+        {
+          "titulo": "Estatuto da Cidade, Lei nº 10.257/2001",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+          "recorte": "arts. 2º e 4º, V, f"
+        },
+        {
+          "titulo": "Lei nº 13.465/2017 — Regularização fundiária",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13465.htm",
+          "recorte": "dispositivos sobre regularização urbana"
+        }
+      ],
+      "status": "necessita_revisao_editorial_substantiva"
+    }
+  ],
+  "cobertura_por_area": [
     {
       "id": "empresarial",
       "area": "Direito Empresarial",
@@ -909,15 +1968,6 @@
       "em_revisao": 4,
       "sem_relacionados": 9,
       "indicacoes": 29
-    },
-    {
-      "id": "financeiro",
-      "area": "Direito Financeiro",
-      "temas": 11,
-      "sem_livro": 6,
-      "em_revisao": 4,
-      "sem_relacionados": 3,
-      "indicacoes": 5
     },
     {
       "id": "internacional",
@@ -956,6 +2006,15 @@
       "indicacoes": 10
     },
     {
+      "id": "digital",
+      "area": "Direito Digital",
+      "temas": 11,
+      "sem_livro": 5,
+      "em_revisao": 4,
+      "sem_relacionados": 2,
+      "indicacoes": 10
+    },
+    {
       "id": "eleitoral",
       "area": "Direito Eleitoral",
       "temas": 11,
@@ -981,6 +2040,15 @@
       "em_revisao": 4,
       "sem_relacionados": 4,
       "indicacoes": 11
+    },
+    {
+      "id": "financeiro",
+      "area": "Direito Financeiro",
+      "temas": 11,
+      "sem_livro": 4,
+      "em_revisao": 4,
+      "sem_relacionados": 3,
+      "indicacoes": 7
     },
     {
       "id": "processo-civil",
