@@ -1,0 +1,819 @@
+{
+  "schema": 1,
+  "projeto": "Trelia",
+  "data_base": "2026-11-24",
+  "base": "PR #19 mesclada na main",
+  "metodo": "Síntese editorial baseada em fontes jurídicas oficiais acessadas em 24/11/2026, com escopo individual e pendências explicitadas. Não constitui parecer jurídico nem certificação geral da legislação.",
+  "status_permitidos": [
+    "pendente_revisao_juridica",
+    "revisao_parcial",
+    "revisao_concluida_no_escopo"
+  ],
+  "total_temais": 74,
+  "registros": [
+    {
+      "tema_id": "regime-juridico-bens-publicos",
+      "area_id": "administrativo",
+      "titulo": "Bens públicos e suas espécies",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "concessao-permissao",
+      "area_id": "administrativo",
+      "titulo": "Concessão e permissão",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "controle-externo-tribunais-contas",
+      "area_id": "administrativo",
+      "titulo": "Controle externo e tribunais de contas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "desapropriacao-utilidade-publica",
+      "area_id": "administrativo",
+      "titulo": "Desapropriação por utilidade pública",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "competencia-ambiental-lc140",
+      "area_id": "ambiental",
+      "titulo": "Competências ambientais entre União, estados e municípios",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "pagamento-servicos-ambientais",
+      "area_id": "ambiental",
+      "titulo": "Pagamento por serviços ambientais",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "area_id": "ambiental",
+      "titulo": "Prevenção e precaução no Direito Ambiental",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "area_id": "ambiental",
+      "titulo": "Responsabilidade penal da pessoa jurídica por crime ambiental",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "eviccao-contratos",
+      "area_id": "civil",
+      "titulo": "Evicção nos contratos onerosos",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "guarda-compartilhada-convivencia",
+      "area_id": "civil",
+      "titulo": "Guarda compartilhada e convivência familiar",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "regimes-bens-casamento",
+      "area_id": "civil",
+      "titulo": "Regimes de bens no casamento",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "uniao-estavel-efeitos-patrimoniais",
+      "area_id": "civil",
+      "titulo": "União estável e efeitos patrimoniais",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "comissao-parlamentar-inquerito",
+      "area_id": "constitucional",
+      "titulo": "Comissões parlamentares de inquérito",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "direito-fundamental-educacao",
+      "area_id": "constitucional",
+      "titulo": "Direito à educação e dever do Estado",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "iniciativa-popular-projeto-lei",
+      "area_id": "constitucional",
+      "titulo": "Iniciativa popular de projetos de lei",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "area_id": "constitucional",
+      "titulo": "Intervenção federal nos estados",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "cobranca-indebita-consumo",
+      "area_id": "consumidor",
+      "titulo": "Cobrança indevida e repetição do indébito",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "contratos-adesao-consumo",
+      "area_id": "consumidor",
+      "titulo": "Contratos de adesão no consumo",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "praticas-abusivas-art39",
+      "area_id": "consumidor",
+      "titulo": "Práticas abusivas nas relações de consumo",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "recall-produtos-seguranca",
+      "area_id": "consumidor",
+      "titulo": "Recall e dever de segurança do fornecedor",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "relatorio-impacto-protecao-dados",
+      "area_id": "digital",
+      "titulo": "Relatório de impacto à proteção de dados (RIPD)",
+      "status": "revisao_concluida_no_escopo",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Definição, responsável pela elaboração, situações de recomendação e hipóteses de requisição do RIPD.",
+          "resultado": "Comparados arts. 5º, XVII, 10, §3º, 32 e 38 da LGPD com as perguntas e respostas institucionais da ANPD.",
+          "pendencias": "Rever se forem editadas normas específicas adicionais para alto risco e elaboração de RIPD.",
+          "fontes": [
+            {
+              "titulo": "LGPD compilada",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+              "recorte": "arts. 5º, XVII, 10 §3º, 32 e 38",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "ANPD — Perguntas e respostas sobre RIPD",
+              "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd",
+              "recorte": "Definição, controlador, recomendação e requisição",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) descreve operações de tratamento que podem gerar alto risco aos direitos e liberdades dos titulares e as medidas para mitigar esses riscos. A ANPD orienta que o controlador o elabore preferencialmente antes de iniciar tratamentos de alto risco; a autoridade também pode exigir sua apresentação nas hipóteses legais. A LGPD não estabelece uma obrigação universal de RIPD para todo tratamento de dados.",
+          "orientacao": "Distinga a recomendação preventiva de elaborar o RIPD da possibilidade de requisição pela ANPD; confira os arts. 5º, XVII, e 38 da LGPD."
+        }
+      ]
+    },
+    {
+      "tema_id": "revisao-decisoes-automatizadas-lgpd",
+      "area_id": "digital",
+      "titulo": "Revisão de decisões automatizadas na LGPD",
+      "status": "revisao_concluida_no_escopo",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Direito à revisão de decisões unicamente automatizadas e dever de informar critérios, conforme art. 20 da LGPD.",
+          "resultado": "Confrontados o texto compilado da LGPD e a orientação pública da ANPD aos titulares.",
+          "pendencias": "Casos concretos de discriminação algorítmica e eventuais normas setoriais exigem análise própria.",
+          "fontes": [
+            {
+              "titulo": "LGPD compilada",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+              "recorte": "art. 20, caput e §§",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "ANPD — Direito dos titulares",
+              "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares",
+              "recorte": "Revisão e solicitação de explicações",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "O art. 20 da LGPD assegura ao titular o direito de pedir revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, inclusive a definição de perfis. O controlador deve prestar informações claras e adequadas sobre critérios e procedimentos, observados os segredos comercial e industrial e as demais disposições legais. A lei não determina automaticamente uma revisão por pessoa humana em todo caso.",
+          "orientacao": "Use um exemplo de análise de crédito automatizada para separar pedido de revisão, transparência dos critérios e eventual questionamento discriminatório."
+        }
+      ]
+    },
+    {
+      "tema_id": "seguranca-desde-concepcao-lgpd",
+      "area_id": "digital",
+      "titulo": "Segurança desde a concepção no tratamento de dados",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Princípios da segurança e prevenção e medidas previstas na LGPD.",
+          "resultado": "As âncoras dos arts. 6º, 46 e 50 foram verificadas no texto compilado; aprofundar regulamentações técnicas aplicáveis.",
+          "pendencias": "Conferir guias setoriais atualizados, padrões técnicos mínimos e alcance de obrigações por agente.",
+          "fontes": [
+            {
+              "titulo": "LGPD compilada",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+              "recorte": "arts. 6º VII–VIII, 46 e 50",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "A LGPD adota os princípios da segurança e da prevenção e exige medidas técnicas e administrativas aptas a proteger dados pessoais contra acessos não autorizados e incidentes acidentais ou ilícitos. O art. 46 prevê que os sistemas sejam estruturados para atender a requisitos de segurança, padrões de boas práticas e governança. A expressão 'segurança desde a concepção' ajuda a estudar esse dever preventivo, mas não substitui a análise das medidas adequadas a cada tratamento."
+        }
+      ]
+    },
+    {
+      "tema_id": "transferencia-internacional-dados-lgpd",
+      "area_id": "digital",
+      "titulo": "Transferência internacional de dados pessoais",
+      "status": "revisao_concluida_no_escopo",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Síntese introdutória das hipóteses legais e mecanismos de transferência internacional, normas e adequação até 24/11/2026.",
+          "resultado": "A LGPD arts. 33–36, a Resolução ANPD 19/2024 e a decisão de adequação 32/2026 foram confrontadas com as orientações oficiais.",
+          "pendencias": "Acompanhar novas decisões da ANPD; não inferir que decisões estrangeiras de adequação se aplicam automaticamente no Brasil.",
+          "fontes": [
+            {
+              "titulo": "LGPD compilada",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm",
+              "recorte": "arts. 3º e 33 a 36",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "ANPD — Transferência internacional",
+              "url": "https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/transferencia-internacional-de-dados",
+              "recorte": "Mecanismos, cláusulas e decisão UE de 2026",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Resolução ANPD 19/2024",
+              "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024",
+              "recorte": "Regulamento de transferência internacional",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Resolução ANPD 32/2026 — registro oficial",
+              "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/",
+              "recorte": "Reconhecimento de adequação da União Europeia",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "A LGPD (arts. 33 a 36) admite transferência internacional de dados pessoais nas hipóteses previstas em lei e com as salvaguardas cabíveis. A Resolução ANPD nº 19/2024 regulamenta mecanismos como cláusulas-padrão contratuais e decisões de adequação. Em 2026, a ANPD reconheceu a adequação da União Europeia pela Resolução nº 32/2026. A localização física do servidor, por si só, não define o regime jurídico da operação; é preciso identificar agentes, fluxo de dados e mecanismo aplicável.",
+          "orientacao": "Compare o art. 33 da LGPD com a Resolução nº 19/2024; depois identifique o alcance da decisão de adequação da União Europeia."
+        }
+      ]
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "area_id": "economico",
+      "titulo": "Acordos verticais e distribuição exclusiva",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "area_id": "economico",
+      "titulo": "Preços predatórios e abuso de posição dominante",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "area_id": "economico",
+      "titulo": "Remédios antitruste no controle de fusões",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "area_id": "economico",
+      "titulo": "Troca de informações sensíveis entre concorrentes",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "abuso-poder-economico-eleitoral",
+      "area_id": "eleitoral",
+      "titulo": "Abuso de poder econômico nas eleições",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Base constitucional do abuso de poder e alteração do regime de inelegibilidades em 2025.",
+          "resultado": "Lei Complementar 219/2025 alterou regras de duração e marcos de inelegibilidade na LC 64/1990; não equivale a validar qualquer prazo em concreto.",
+          "pendencias": "Revisar art. 22 da LC 64/1990, tipificação eleitoral e precedentes atuais por hipótese antes de liberar aviso.",
+          "fontes": [
+            {
+              "titulo": "TSE — LC 219/2025",
+              "url": "https://www.tse.jus.br/legislacao/compilada/lei/complementar/lei-complementar-no-219-de-29-de-setembro-de-2025?texto=compilado",
+              "recorte": "Modificações dos prazos e termos de inelegibilidade",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "TSE — Lei das Eleições",
+              "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-das-eleicoes/lei-das-eleicoes-lei-nb0-9.504-de-30-de-setembro-de-1997",
+              "recorte": "Regras gerais do pleito",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "O abuso de poder econômico na eleição envolve uso indevido de recursos ou influência econômica com gravidade suficiente para afetar a normalidade e legitimidade do pleito. Deve ser distinguido de mera irregularidade na prestação de contas. A análise das consequências e dos prazos de inelegibilidade deve considerar a LC nº 64/1990 na redação modificada, entre outras normas, pela LC nº 219/2025 e a jurisprudência eleitoral aplicável ao caso."
+        }
+      ]
+    },
+    {
+      "tema_id": "condutas-vedadas-agentes-publicos",
+      "area_id": "eleitoral",
+      "titulo": "Condutas vedadas a agentes públicos em campanha",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Identificação das proibições legais e regulamento para o pleito de 2026.",
+          "resultado": "Consulta à Lei das Eleições e à Resolução TSE 23.735/2024 com alterações de 2026; condutas e períodos de incidência variam por inciso.",
+          "pendencias": "Revisão individual da tipicidade, prazos e sanções dos arts. 73 a 78 por conduta ainda pendente.",
+          "fontes": [
+            {
+              "titulo": "Lei das Eleições — TSE",
+              "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-das-eleicoes/lei-das-eleicoes-lei-nb0-9.504-de-30-de-setembro-de-1997",
+              "recorte": "arts. 73 a 78",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Resolução TSE 23.735 consolidada",
+              "url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-735-de-27-de-fevereiro-de-2024?texto=compilado",
+              "recorte": "Condutas vedadas em campanha",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "A Lei das Eleições proíbe determinadas condutas de agentes públicos que possam comprometer a igualdade de oportunidades entre candidaturas, em especial o uso eleitoral da estrutura estatal. Os prazos de incidência e as sanções não são uniformes: dependem da conduta tipificada nos arts. 73 a 78 da Lei nº 9.504/1997. Para o pleito de 2026, consulte também a Resolução TSE nº 23.735/2024 na redação atualizada."
+        }
+      ]
+    },
+    {
+      "tema_id": "cotas-genero-candidaturas",
+      "area_id": "eleitoral",
+      "titulo": "Cotas de gênero e candidaturas proporcionais",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Regra de candidaturas, resolução do TSE e mudança jurisprudencial divulgada em novembro de 2026.",
+          "resultado": "A Súmula 73 publicada na página do TSE contém consequências anteriores; notícia oficial de 5/11/2026 relata entendimento que preserva DRAP e votos de candidatas não participantes. Há divergência temporal entre as fontes públicas; não generalizar sem ler o acórdão.",
+          "pendencias": "Conferir publicação do acórdão e eventuais ajustes da Súmula 73/Resolução 23.735 antes de homologar consequências jurídicas.",
+          "fontes": [
+            {
+              "titulo": "Lei das Eleições — TSE",
+              "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-das-eleicoes/lei-das-eleicoes-lei-nb0-9.504-de-30-de-setembro-de-1997",
+              "recorte": "art. 10, § 3º",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Resolução TSE 23.735/2024 consolidada",
+              "url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-735-de-27-de-fevereiro-de-2024?texto=compilado",
+              "recorte": "Fraude às cotas e sanções",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Súmula TSE 73",
+              "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/sumulas/sumulas-do-tse/sumula-tse-n-73",
+              "recorte": "Redação publicada na página institucional",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "TSE — julgamento 5/11/2026",
+              "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Novembro/fraude-a-cota-de-genero-candidatas-que-nao-participaram-do-ilicito-terao-mandatos-preservados",
+              "recorte": "Preservação das candidaturas femininas não envolvidas",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "A Lei nº 9.504/1997 prevê um percentual mínimo de candidaturas por sexo nas eleições proporcionais. O TSE identifica fraude à cota de gênero por elementos como votação inexpressiva, ausência de campanha e movimentação financeira incompatível, conforme as circunstâncias. Em novembro de 2026, o Tribunal divulgou novo entendimento voltado à preservação de mandatos e votos de mulheres eleitas que não participaram do ilícito. Como a página da Súmula 73 ainda registra consequências formuladas anteriormente, o alcance da decisão deve ser conferido no acórdão e nas regras aplicáveis ao pleito."
+        }
+      ]
+    },
+    {
+      "tema_id": "doacoes-financiamento-campanha",
+      "area_id": "eleitoral",
+      "titulo": "Doações e financiamento das campanhas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "area_id": "empresarial",
+      "titulo": "Direitos essenciais dos acionistas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "duplicata-mercantil",
+      "area_id": "empresarial",
+      "titulo": "Duplicata mercantil e sua circulação",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "area_id": "empresarial",
+      "titulo": "Nome empresarial e sua proteção",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "area_id": "empresarial",
+      "titulo": "Recuperação extrajudicial de empresas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "divida-publica-operacoes-credito",
+      "area_id": "financeiro",
+      "titulo": "Dívida pública e operações de crédito",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "limites-despesa-pessoal-lrf",
+      "area_id": "financeiro",
+      "titulo": "Limites de despesa com pessoal na LRF",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "receita-corrente-liquida",
+      "area_id": "financeiro",
+      "titulo": "Receita corrente líquida como indicador fiscal",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "regra-ouro-orcamento",
+      "area_id": "financeiro",
+      "titulo": "Regra de ouro das finanças públicas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "cooperacao-juridica-internacional-cpc",
+      "area_id": "internacional",
+      "titulo": "Cooperação jurídica internacional no processo civil",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "extradicao-lei-migracao",
+      "area_id": "internacional",
+      "titulo": "Extradição no Direito brasileiro",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "imunidades-diplomaticas",
+      "area_id": "internacional",
+      "titulo": "Imunidades diplomáticas e limites",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "solucao-pacifica-controversias",
+      "area_id": "internacional",
+      "titulo": "Solução pacífica de controvérsias internacionais",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "crime-preterdoloso",
+      "area_id": "penal-i",
+      "titulo": "Crime preterdoloso e agravação pelo resultado",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "legitima-defesa-putativa",
+      "area_id": "penal-i",
+      "titulo": "Legítima defesa putativa e erro sobre situação justificante",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "auxilio-acidente-sequela",
+      "area_id": "previdenciario",
+      "titulo": "Auxílio-acidente e sequelas consolidadas",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "recurso-administrativo-inss",
+      "area_id": "previdenciario",
+      "titulo": "Recursos administrativos contra decisões do INSS",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "salario-maternidade-rgps",
+      "area_id": "previdenciario",
+      "titulo": "Salário-maternidade no RGPS",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Benefício e atualização legislativa de 2026, separada da licença-paternidade futura.",
+          "resultado": "INSS confirma critérios de salário-maternidade e Lei 15.415/2026 alterou prazos de concessão; Lei 15.371/2026 disciplina salário-paternidade a partir de 2027.",
+          "pendencias": "Conferir carência por categoria e todos os efeitos da Lei 15.415/2026; não confundir com salário-paternidade ainda futuro em 2026.",
+          "fontes": [
+            {
+              "titulo": "INSS — salário-maternidade",
+              "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/salario-maternidade/salario-maternidade",
+              "recorte": "Requisitos e hipóteses",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "INSS — atualização de agosto/2026",
+              "url": "https://www.gov.br/inss/pt-br/assuntos/noticias/salario-maternidade-protecao-previdenciaria-no-momento-da-chegada-de-mais-uma-vida",
+              "recorte": "Benefício vigente e paternidade em 2027",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Lei 15.415/2026",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15415.htm",
+              "recorte": "Atualização do benefício",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Lei 15.371/2026",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15371.htm",
+              "recorte": "Salário-paternidade: vigência futura",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "O salário-maternidade é benefício do RGPS nas hipóteses legais de parto, adoção, guarda judicial para adoção e outras situações previstas na legislação, com exigências que variam conforme o segurado. A concessão e os prazos devem observar as mudanças legislativas de 2026, inclusive a Lei nº 15.415/2026. Não confunda o benefício vigente com o salário-paternidade instituído pela Lei nº 15.371/2026, cuja entrada em vigor está prevista para 2027."
+        }
+      ]
+    },
+    {
+      "tema_id": "segurado-especial-rural",
+      "area_id": "previdenciario",
+      "titulo": "Segurado especial rural",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "acao-monitoria",
+      "area_id": "processo-civil",
+      "titulo": "Ação monitória",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "execucao-alimentos-prisao-civil",
+      "area_id": "processo-civil",
+      "titulo": "Cumprimento de sentença de alimentos e prisão civil",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "irdr-demandas-repetitivas",
+      "area_id": "processo-civil",
+      "titulo": "Incidente de Resolução de Demandas Repetitivas (IRDR)",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "producao-antecipada-prova-cpc",
+      "area_id": "processo-civil",
+      "titulo": "Produção antecipada de prova",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "assistente-acusacao",
+      "area_id": "processo-penal",
+      "titulo": "Assistente de acusação no processo penal",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "colaboracao-premiada",
+      "area_id": "processo-penal",
+      "titulo": "Colaboração premiada e corroboração",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "interceptacao-telefonica-prova",
+      "area_id": "processo-penal",
+      "titulo": "Interceptação telefônica e reserva de jurisdição",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "tribunal-juri-quesitacao",
+      "area_id": "processo-penal",
+      "titulo": "Quesitação no Tribunal do Júri",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "coautoria-obras-intelectuais",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Coautoria de obras intelectuais",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "dominio-publico-direitos-autorais",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Domínio público e fim da proteção patrimonial",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "licenciamento-programas-computador",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Licenciamento de programas de computador",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "nulidade-registro-marca",
+      "area_id": "propriedade-intelectual",
+      "titulo": "Nulidade de registro de marca",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "area_id": "trabalho",
+      "titulo": "Contrato de trabalho intermitente",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "area_id": "trabalho",
+      "titulo": "Equiparação salarial e trabalho de igual valor",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "area_id": "trabalho",
+      "titulo": "Negociação coletiva e limites legais",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Base constitucional da negociação coletiva e tese de repercussão geral 1046.",
+          "resultado": "O STF admite acordos e convenções que limitem ou afastem direitos em adequação setorial negociada, preservados direitos absolutamente indisponíveis; cotejar com CLT 611-A/B.",
+          "pendencias": "Verificar jurisprudência posterior e a natureza do direito específico em cada cláusula antes de concluir.",
+          "fontes": [
+            {
+              "titulo": "STF — Tema 1046 da repercussão geral",
+              "url": "https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=1046",
+              "recorte": "Tese de adequação setorial negociada",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "CLT",
+              "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+              "recorte": "arts. 611-A e 611-B",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "Convenções e acordos coletivos são reconhecidos constitucionalmente, e a CLT disciplina seus espaços e limites nos arts. 611-A e 611-B. No Tema 1046, o STF reconheceu a constitucionalidade de limitações ou afastamentos de direitos trabalhistas por negociação coletiva, observada a adequação setorial negociada e o respeito aos direitos absolutamente indisponíveis. A validade de cláusula concreta exige examinar o direito envolvido e o entendimento jurisprudencial aplicável."
+        }
+      ]
+    },
+    {
+      "tema_id": "estabilidade-gestante-emprego",
+      "area_id": "trabalho",
+      "titulo": "Proteção da gestante contra dispensa arbitrária",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "contribuicao-melhoria-tributo",
+      "area_id": "tributario",
+      "titulo": "Contribuição de melhoria",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "imposto-bens-servicos-cbs-ibs",
+      "area_id": "tributario",
+      "titulo": "IBS e CBS na reforma da tributação do consumo",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Modelo dual e cronograma de transição em 2026, sem conferir toda a LC 214/2025 artigo a artigo.",
+          "resultado": "Receita Federal confirma 2026 como ano de teste, com alíquotas de referência e regras condicionadas para recolhimento; LC 227/2026 consta da relação oficial.",
+          "pendencias": "Analisar efeitos por dispositivo, obrigações acessórias atuais e legislação infralegal posterior.",
+          "fontes": [
+            {
+              "titulo": "Receita Federal — legislação da reforma",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria-do-consumo/legislacao/",
+              "recorte": "LC 214/2025 e LC 227/2026",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Receita Federal — fases de transição",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria-do-consumo/entenda/",
+              "recorte": "2026 como fase de testes",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "IBS e CBS compõem o modelo de IVA dual da reforma do consumo, disciplinado pela Constituição e pelas LC nº 214/2025 e nº 227/2026. Em 2026, vigora uma fase de testes e adaptação, com regras e alíquotas próprias, que não se confunde com a cobrança definitiva nem com a extinção imediata do sistema anterior. É necessário conferir separadamente o cronograma, as obrigações acessórias e a data de produção de efeitos de cada dispositivo."
+        }
+      ]
+    },
+    {
+      "tema_id": "imposto-seletivo-reforma",
+      "area_id": "tributario",
+      "titulo": "Imposto Seletivo e finalidade extrafiscal",
+      "status": "revisao_parcial",
+      "historico": [
+        {
+          "data": "2026-11-24",
+          "tipo": "revisao_normativa_de_conteudo",
+          "escopo": "Previsão constitucional do Imposto Seletivo e marco de transição.",
+          "resultado": "Fonte da Receita Federal indica instituição do Imposto Seletivo no cronograma de 2027.",
+          "pendencias": "Revisar todas as hipóteses de incidência, exceções, alíquotas e datas de produção de efeitos antes de concluir.",
+          "fontes": [
+            {
+              "titulo": "Receita Federal — cronograma da reforma",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria-do-consumo/entenda/",
+              "recorte": "Transição 2027 e 2028",
+              "access": "texto_institucional_consultado"
+            },
+            {
+              "titulo": "Receita Federal — legislação",
+              "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria-do-consumo/legislacao/",
+              "recorte": "LC 214/2025 e alterações",
+              "access": "texto_institucional_consultado"
+            }
+          ],
+          "resposta_revisada": "O Imposto Seletivo foi previsto pela reforma tributária para desestimular o consumo de bens e serviços prejudiciais à saúde ou ao meio ambiente, segundo a Constituição e a legislação complementar. A Receita Federal apresenta sua instituição no cronograma de 2027, e não como cobrança geral já em vigor em 2026. Sua incidência concreta, alíquotas e exceções exigem conferência da redação e da produção de efeitos dos dispositivos correspondentes."
+        }
+      ]
+    },
+    {
+      "tema_id": "responsabilidade-tributaria-administradores",
+      "area_id": "tributario",
+      "titulo": "Responsabilidade tributária de administradores",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "consorcio-imobiliario-estatuto-cidade",
+      "area_id": "urbanistico",
+      "titulo": "Consórcio imobiliário como instrumento urbanístico",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "transferencia-direito-construir",
+      "area_id": "urbanistico",
+      "titulo": "Transferência do direito de construir",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "usucapiao-especial-urbana",
+      "area_id": "urbanistico",
+      "titulo": "Usucapião especial urbana individual",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    },
+    {
+      "tema_id": "zeis-zonas-especiais-interesse-social",
+      "area_id": "urbanistico",
+      "titulo": "Zonas Especiais de Interesse Social (ZEIS)",
+      "status": "pendente_revisao_juridica",
+      "historico": []
+    }
+  ]
+}
