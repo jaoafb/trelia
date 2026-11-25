@@ -837,6 +837,726 @@ export default {
       },
       "verificacao": "2026-11-25",
       "escopo": "Recorte conferido no Código Civil compilado."
+    },
+    {
+      "tema_id": "contratos-adesao-consumo",
+      "resposta": "No contrato de adesão, o fornecedor estabelece previamente as cláusulas, com pouca margem para o consumidor alterar seu conteúdo. O Código exige redação clara, manda interpretar as cláusulas da forma mais favorável ao consumidor e exige destaque para limitações de direitos.",
+      "fonte": {
+        "title": "Código de Defesa do Consumidor",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 46, 47 e 54"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "praticas-abusivas-art39",
+      "resposta": "O Código enumera práticas abusivas em uma lista aberta. Entre elas está a venda casada, que ocorre quando o fornecedor condiciona o fornecimento de um produto ou serviço à aquisição de outro.",
+      "fonte": {
+        "title": "Código de Defesa do Consumidor",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "type": "Texto oficial",
+        "note": "Art. 39, caput e I"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "recall-produtos-seguranca",
+      "resposta": "Se descobrir depois da comercialização que um produto ou serviço oferece perigo, o fornecedor deve comunicar imediatamente às autoridades e aos consumidores. Esse dever de prevenção convive com a responsabilidade por danos nas hipóteses previstas no Código.",
+      "fonte": {
+        "title": "Código de Defesa do Consumidor",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 8 a 12, em especial art. 10, §§ 1º a 3º"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "revisao-decisoes-automatizadas-lgpd",
+      "resposta": "O titular pode solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses. Pode pedir informações claras sobre os critérios e procedimentos, observados os segredos comercial e industrial. O artigo não exige revisão humana em todos os casos.",
+      "fonte": {
+        "title": "Lei Geral de Proteção de Dados Pessoais",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "type": "Texto oficial",
+        "note": "Art. 20"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "seguranca-desde-concepcao-lgpd",
+      "resposta": "Os agentes de tratamento devem adotar medidas técnicas e administrativas para proteger os dados pessoais. A proteção deve ser considerada desde a concepção do produto ou serviço e durante sua execução.",
+      "fonte": {
+        "title": "Lei Geral de Proteção de Dados Pessoais",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "type": "Texto oficial",
+        "note": "Art. 46, caput e § 2º"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "cooperacao-juridica-internacional-cpc",
+      "resposta": "A cooperação permite que autoridades de países diferentes pratiquem atos processuais e compartilhem informações. No CPC, o auxílio direto se aplica quando a medida não decorre diretamente de decisão estrangeira submetida a delibação. Carta rogatória e homologação seguem procedimentos próprios.",
+      "fonte": {
+        "title": "Código de Processo Civil",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 26 a 41 e 960 a 965"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "acao-monitoria",
+      "resposta": "A ação monitória permite exigir uma obrigação com base em prova escrita sem eficácia de título executivo. Se o direito parecer evidente, o juiz expede mandado. A parte ré pode apresentar embargos e, sem cumprimento nem embargos no prazo, constitui-se o título executivo judicial.",
+      "fonte": {
+        "title": "Código de Processo Civil",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 700 a 702"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "irdr-demandas-repetitivas",
+      "resposta": "O incidente exige repetição efetiva de processos sobre a mesma questão exclusivamente de direito e risco à isonomia ou à segurança jurídica. O tribunal julga a questão comum e a tese orienta os processos abrangidos pelo incidente na forma do CPC.",
+      "fonte": {
+        "title": "Código de Processo Civil",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 976 a 987"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "producao-antecipada-prova-cpc",
+      "resposta": "É possível produzir prova antes da ação quando houver risco de perder sua disponibilidade, quando ela ajudar a resolver o conflito por acordo ou quando conhecer os fatos puder justificar ou evitar o ajuizamento. A urgência é exigida apenas na primeira hipótese.",
+      "fonte": {
+        "title": "Código de Processo Civil",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 381 a 383"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "divida-publica-operacoes-credito",
+      "resposta": "A Lei de Responsabilidade Fiscal distingue dívida consolidada, dívida representada por títulos e operações de crédito. Operações como empréstimos e financiamentos estão sujeitas a condições, limites e controles fiscais próprios.",
+      "fonte": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 29 a 38"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "limites-despesa-pessoal-lrf",
+      "resposta": "A LRF calcula a despesa total com pessoal em relação à receita corrente líquida. Estabelece limites globais por ente, reparte os limites entre Poderes e órgãos e prevê medidas quando a despesa se aproxima ou supera os limites.",
+      "fonte": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 18 a 23"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "receita-corrente-liquida",
+      "resposta": "A receita corrente líquida soma receitas correntes previstas na lei e aplica as deduções legais de cada ente. A apuração usa o mês de referência e os onze anteriores, excluídas as duplicidades.",
+      "fonte": {
+        "title": "Lei de Responsabilidade Fiscal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+        "type": "Texto oficial",
+        "note": "Art. 2º, IV e § 3º"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "nulidade-registro-marca",
+      "resposta": "O registro concedido em desacordo com a lei pode ser anulado. O processo administrativo tem prazo de 180 dias a partir da expedição do certificado. A ação judicial prescreve em cinco anos a partir da concessão do registro.",
+      "fonte": {
+        "title": "Lei da Propriedade Industrial",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9279.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 165 a 175"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "coautoria-obras-intelectuais",
+      "resposta": "A coautoria pressupõe contribuição criativa à obra. Revisão, atualização, fiscalização ou direção editorial, por si sós, não tornam quem as realiza coautor. A lei trata separadamente as contribuições individuais e os direitos sobre o conjunto de uma obra coletiva.",
+      "fonte": {
+        "title": "Lei nº 9.610/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 15 a 17"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "dominio-publico-direitos-autorais",
+      "resposta": "Em regra, os direitos patrimoniais de autor duram 70 anos a partir de 1º de janeiro do ano seguinte à morte. A lei prevê regras próprias para obras anônimas, audiovisuais e fotográficas, e para direitos conexos. Ao usar obra em domínio público, preserve a autoria quando conhecida.",
+      "fonte": {
+        "title": "Lei nº 9.610/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 41 a 45 e 96"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "licenciamento-programas-computador",
+      "resposta": "A licença define as condições de uso do programa. Ela pode permitir o uso sem transferir a titularidade. A lei prevê regras específicas sobre os direitos em programas desenvolvidos durante vínculo de trabalho ou prestação de serviços e sobre contratos de transferência de tecnologia.",
+      "fonte": {
+        "title": "Lei nº 9.609/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 2º a 4º, 9º e 11"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "consorcio-imobiliario-estatuto-cidade",
+      "resposta": "No consórcio imobiliário, o proprietário transfere o imóvel ao município para viabilizar obras de urbanização, regularização ou edificação. Depois das obras, recebe unidades urbanizadas ou edificadas em contrapartida, conforme o valor do imóvel antes da intervenção.",
+      "fonte": {
+        "title": "Estatuto da Cidade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+        "type": "Texto oficial",
+        "note": "Art. 46"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "transferencia-direito-construir",
+      "resposta": "A lei municipal, baseada no plano diretor, pode permitir que o proprietário exerça em outro local ou aliene o direito de construir. O Estatuto prevê hipóteses como preservação de imóvel de interesse público, equipamentos urbanos e programas de regularização ou habitação social.",
+      "fonte": {
+        "title": "Estatuto da Cidade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+        "type": "Texto oficial",
+        "note": "Art. 35"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "usucapiao-especial-urbana",
+      "resposta": "A modalidade individual exige área urbana de até 250 m², posse como dono por cinco anos contínuos e sem oposição, uso para moradia própria ou da família e ausência de outro imóvel urbano ou rural. Imóveis públicos não podem ser adquiridos por usucapião.",
+      "fonte": {
+        "title": "Estatuto da Cidade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+        "type": "Texto oficial",
+        "note": "Art. 9º e Constituição, art. 183"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "direitos-acionistas-sociedade-anonima",
+      "resposta": "O acionista conserva direitos essenciais como participar dos lucros, fiscalizar a gestão nos termos legais e exercer preferência nos casos previstos em lei. O voto segue regras próprias e pode variar conforme a classe das ações.",
+      "fonte": {
+        "title": "Lei das Sociedades por Ações",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm",
+        "type": "Texto oficial",
+        "note": "Art. 109"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "contribuicao-melhoria-tributo",
+      "resposta": "A contribuição de melhoria pode decorrer da valorização de imóvel provocada por obra pública. O limite total é a despesa realizada e o limite individual é o acréscimo de valor que a obra trouxe ao imóvel.",
+      "fonte": {
+        "title": "Código Tributário Nacional",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 81 e 82 e Constituição, art. 145, III"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "assistente-acusacao",
+      "resposta": "Na ação penal pública, a vítima, seu representante legal ou os sucessores previstos no CPP podem atuar como assistentes do Ministério Público. A habilitação depende de decisão judicial e permite, nos limites do Código, propor provas, participar dos debates e recorrer nas hipóteses previstas.",
+      "fonte": {
+        "title": "Código de Processo Penal",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689compilado.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 268 a 273"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "crime-preterdoloso",
+      "resposta": "No crime preterdoloso, o agente age com dolo na conduta antecedente e causa um resultado mais grave por culpa. Para atribuir o resultado agravador é preciso demonstrar pelo menos culpa. A ocorrência do resultado, sozinha, não basta.",
+      "fonte": {
+        "title": "Código Penal",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "type": "Texto oficial",
+        "note": "Art. 19"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "legitima-defesa-putativa",
+      "resposta": "A legítima defesa putativa envolve uma defesa baseada em situação imaginada. O Código distingue o erro sobre os fatos que, se verdadeiros, justificariam a reação do erro sobre a existência ou os limites da permissão jurídica. A classificação dogmática do primeiro erro é controvertida.",
+      "fonte": {
+        "title": "Código Penal",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 20, § 1º, 21 e 25"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "auxilio-acidente-sequela",
+      "resposta": "O auxílio-acidente tem natureza indenizatória. A lei o prevê quando, após a consolidação de lesões por acidente, restam sequelas que reduzem a capacidade para o trabalho habitual.",
+      "fonte": {
+        "title": "Lei nº 8.213/1991",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+        "type": "Texto oficial",
+        "note": "Art. 86"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "pagamento-servicos-ambientais",
+      "resposta": "No pagamento por serviços ambientais, um pagador transfere recursos ou outra forma de remuneração a um provedor, segundo condições acordadas. A política distingue os serviços oferecidos pelos ecossistemas das atividades humanas que ajudam a conservá-los, recuperá-los ou melhorá-los.",
+      "fonte": {
+        "title": "Lei nº 14.119/2021",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14119.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 2º a 7º"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "colaboracao-premiada",
+      "resposta": "A colaboração premiada é um negócio jurídico processual e um meio de obter prova. As declarações do colaborador exigem corroboração para as decisões indicadas na lei, incluindo o recebimento da acusação e a condenação.",
+      "fonte": {
+        "title": "Lei nº 12.850/2013",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 3º-A a 7º, em especial art. 4º, § 16"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "interceptacao-telefonica-prova",
+      "resposta": "A interceptação telefônica depende de ordem judicial e se destina à investigação criminal ou à instrução processual penal. A lei exige indícios razoáveis e necessidade da medida, entre outros requisitos, e exige fundamentação da decisão.",
+      "fonte": {
+        "title": "Lei nº 9.296/1996",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 1º a 5º e Constituição, art. 5º, XII"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "intervencao-federal",
+      "resposta": "A intervenção federal é excepcional e só cabe nas hipóteses constitucionais. A forma de iniciar o procedimento depende do fundamento. O decreto define alcance, prazo e condições e, em regra, é submetido ao controle do Congresso, com as exceções do art. 36.",
+      "fonte": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 34 a 36"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "regra-ouro-orcamento",
+      "resposta": "A regra de ouro limita as operações de crédito ao montante das despesas de capital. A Constituição excepciona as operações autorizadas por créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta.",
+      "fonte": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "type": "Texto oficial",
+        "note": "Art. 167, III"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "abuso-poder-economico-eleitoral",
+      "resposta": "O abuso de poder econômico exige análise da gravidade das circunstâncias. A lei dispensa demonstrar que a conduta teria mudado o resultado da eleição.",
+      "fonte": {
+        "title": "LC nº 64/1990",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+        "type": "Texto oficial",
+        "note": "Art. 22, em especial inciso XVI"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "condutas-vedadas-agentes-publicos",
+      "resposta": "A lei restringe condutas de agentes públicos que possam comprometer a igualdade entre candidaturas. As proibições têm períodos e condições diferentes. Para aplicar uma delas, identifique o ato, o período e a sanção do dispositivo correspondente.",
+      "fonte": {
+        "title": "Lei nº 9.504/1997",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 73 a 78"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "duplicata-mercantil",
+      "resposta": "A duplicata mercantil decorre de venda mercantil faturada. O aceite segue as regras do título e pode ser recusado nas hipóteses legais. A lei prevê protesto por falta de aceite, devolução ou pagamento. Na forma escritural, emissão e circulação são registradas no sistema de escrituração.",
+      "fonte": {
+        "title": "Lei nº 5.474/1968",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l5474.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 2º, 6º a 8º e 13. Forma escritural na Lei nº 13.775/2018"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "recuperacao-extrajudicial-empresa",
+      "resposta": "O devedor que preenche os requisitos pode negociar um plano com credores elegíveis e pedir homologação. O plano consensual obriga os aderentes. A extensão aos restantes de cada espécie abrangida depende dos requisitos e do quórum do art. 163. Há créditos excluídos e regra própria para créditos trabalhistas.",
+      "fonte": {
+        "title": "Lei nº 11.101/2005",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 161 a 167"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "extradicao-lei-migracao",
+      "resposta": "Extradição é a entrega solicitada para processo penal ou execução de condenação. Brasileiros natos não são extraditados. Para naturalizados, valem as exceções constitucionais relativas a crime comum anterior à naturalização e envolvimento comprovado em tráfico ilícito de entorpecentes. Crime político ou de opinião e as demais hipóteses legais impedem a entrega.",
+      "fonte": {
+        "title": "Lei nº 13.445/2017",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13445.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 81 a 99 e Constituição, art. 5º, LI e LII"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "imunidades-diplomaticas",
+      "resposta": "O agente diplomático goza de inviolabilidade pessoal e imunidade penal no Estado receptor. A imunidade civil e administrativa admite as exceções previstas na Convenção. O Estado acreditante pode renunciar expressamente à imunidade. O agente deve respeitar as leis do Estado receptor.",
+      "fonte": {
+        "title": "Convenção de Viena sobre Relações Diplomáticas",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d56435.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 29 a 32 e 41"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "solucao-pacifica-controversias",
+      "resposta": "As partes devem buscar solução pacífica para suas controvérsias. Podem recorrer a negociação, mediação, conciliação, arbitragem e solução judicial, entre outros meios. Para mecanismos jurisdicionais, confira o fundamento da competência, que pode decorrer de consentimento já assumido em tratado ou declaração.",
+      "fonte": {
+        "title": "Carta das Nações Unidas",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d19841.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 2º, § 3º, e 33 a 38"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "desapropriacao-utilidade-publica",
+      "resposta": "Na desapropriação por utilidade pública, a regra constitucional é indenização justa, prévia e em dinheiro. As exceções dependem de previsão constitucional. O decreto-lei disciplina a declaração de utilidade pública e as vias para efetivar a desapropriação.",
+      "fonte": {
+        "title": "Decreto-Lei nº 3.365/1941",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm",
+        "type": "Texto oficial",
+        "note": "Constituição, art. 5º, XXIV, e Decreto-Lei nº 3.365/1941"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "segurado-especial-rural",
+      "resposta": "O segurado especial inclui quem exerce atividade rural ou pesca artesanal nas condições legais, individualmente ou em regime de economia familiar. Nesse regime, o trabalho da família é indispensável e prestado em colaboração. A forma de comprovar a atividade depende da situação e das regras aplicáveis ao benefício.",
+      "fonte": {
+        "title": "Lei nº 8.213/1991",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 11, VII, e 106. Lei nº 8.212/1991, art. 12, VII"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "restricoes-verticais-distribuicao",
+      "resposta": "Restrições verticais podem limitar como distribuidores compram ou vendem produtos. Para avaliar se a prática é anticoncorrencial, examine o poder de mercado, a possibilidade de excluir rivais, os efeitos sobre a concorrência e as eficiências do arranjo.",
+      "fonte": {
+        "title": "Lei nº 12.529/2011",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+        "type": "Texto oficial",
+        "note": "Art. 36, caput e § 3º, IX a XII"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "precos-predatorios-concorrencia",
+      "resposta": "Preços baixos podem decorrer da competição. A análise de preços predatórios considera custos, condições de mercado e se a estratégia pode excluir concorrentes. A lei inclui a venda injustificada abaixo do custo entre as condutas que podem configurar infração quando atendidos os critérios do art. 36.",
+      "fonte": {
+        "title": "Lei nº 12.529/2011",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+        "type": "Texto oficial",
+        "note": "Art. 36, caput e § 3º, XV"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "troca-informacoes-sensiveis-concorrentes",
+      "resposta": "A análise concorrencial considera o tipo de informação, o grau de detalhe, a atualidade e o contexto da troca. Dados estratégicos individualizados, como intenções futuras de preço, podem facilitar a coordenação. Trocas com finalidade legítima também exigem avaliar necessidade, salvaguardas e efeitos.",
+      "fonte": {
+        "title": "Lei nº 12.529/2011",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12529.htm",
+        "type": "Texto oficial",
+        "note": "Art. 36, caput e § 3º"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "equiparacao-salarial-clt",
+      "resposta": "A equiparação exige identidade de função e trabalho de igual valor para o mesmo empregador e no mesmo estabelecimento. A CLT considera produtividade, perfeição técnica e diferenças de tempo de serviço e função. As regras de igualdade salarial e de combate à discriminação também devem ser observadas.",
+      "fonte": {
+        "title": "Consolidação das Leis do Trabalho",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+        "type": "Texto oficial",
+        "note": "Art. 461. Lei nº 14.611/2023"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "zeis-zonas-especiais-interesse-social",
+      "resposta": "ZEIS são áreas delimitadas pelo município para aplicar regras urbanísticas voltadas à habitação de interesse social e à regularização. A delimitação e os parâmetros dependem da legislação local. A legislação federal prevê que a Reurb não depende da existência de ZEIS.",
+      "fonte": {
+        "title": "Estatuto da Cidade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+        "type": "Texto oficial",
+        "note": "Arts. 2º e 4º, V, f. Lei nº 13.465/2017"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "principios-prevencao-precaucao-ambiental",
+      "resposta": "Uma distinção doutrinária frequente associa prevenção ao risco já conhecido e precaução à incerteza científica diante de possível dano relevante. A distinção orienta a leitura dos instrumentos ambientais, mas o alcance de cada princípio depende do regime jurídico aplicável.",
+      "fonte": {
+        "title": "Lei nº 6.938/1981",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+        "type": "Texto oficial",
+        "note": "Art. 2º e Constituição, art. 225"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte nos dispositivos indicados."
+    },
+    {
+      "tema_id": "regimes-bens-casamento",
+      "resposta": "Sem pacto válido, a comunhão parcial é o regime supletivo. Para maiores de 70 anos, o Código Civil prevê separação de bens, que pode ser afastada por manifestação expressa das partes em escritura pública, segundo o STF.",
+      "fonte": {
+        "title": "STF — Tema 1236",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=6096433&numeroTema=1236",
+        "type": "Fonte oficial",
+        "note": "Código Civil, arts. 1.639 a 1.641. STF, ARE 1.309.642"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "uniao-estavel-efeitos-patrimoniais",
+      "resposta": "A união estável exige convivência pública, contínua e duradoura com objetivo de constituir família. Em regra, aplica-se a comunhão parcial, salvo contrato escrito. Quando incidir a separação legal por idade superior a 70 anos, o STF admite afastá-la mediante escritura pública.",
+      "fonte": {
+        "title": "STF — Tema 1236",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=6096433&numeroTema=1236",
+        "type": "Fonte oficial",
+        "note": "Código Civil, arts. 1.723 a 1.727. STF, ARE 1.309.642"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "cotas-genero-candidaturas",
+      "resposta": "Nas eleições proporcionais, as listas devem observar a proporção legal, com mínimo de 30% de candidaturas de cada sexo. A fraude pode resultar em cassação do registro da chapa ou dos diplomas a ele vinculados, nulidade dos votos da legenda e inelegibilidade de quem praticou ou anuiu com a conduta, conforme a via processual.",
+      "fonte": {
+        "title": "TSE — Súmula 73",
+        "url": "https://sintse.tse.jus.br/documentos/2024/Jun/3/diario-da-justica-eletronico-tse/pa-no-0000323-45-2013-6-00-0000-df-o-tribunal-por-maioria-aprovou-a-criacao-da-sumula-no-73-do-tse",
+        "type": "Fonte oficial",
+        "note": "Lei nº 9.504/1997, art. 10, § 3º. Súmula 73 do TSE"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "responsabilidade-tributaria-administradores",
+      "resposta": "O mero inadimplemento pela sociedade não torna o sócio-gerente responsável pelo tributo. O art. 135 do CTN prevê responsabilidade pessoal pelas obrigações decorrentes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos.",
+      "fonte": {
+        "title": "STJ — Súmula 430",
+        "url": "https://processo.stj.jus.br/SCON/pesquisar.jsp?b=SUMU&livre=SUMULA+INPATH%28TIPO%29+AND+430+INPATH%28NUM%29",
+        "type": "Fonte oficial",
+        "note": "CTN, art. 135, III. Súmula 430 do STJ"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "negociacao-coletiva-limites",
+      "resposta": "A negociação coletiva pode limitar ou afastar direitos trabalhistas nas hipóteses admitidas, mesmo sem explicitar uma contrapartida específica. O STF preserva os direitos absolutamente indisponíveis. A análise exige identificar o direito e examinar a cláusula coletiva e o regime legal aplicável.",
+      "fonte": {
+        "title": "STF — Tema 1046",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5415427&numeroProcesso=1121633&numeroTema=1046",
+        "type": "Fonte oficial",
+        "note": "CLT, arts. 611-A e 611-B. STF, ARE 1.121.633"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "transferencia-internacional-dados-lgpd",
+      "resposta": "Para transferir dados pessoais internacionalmente, identifique uma base legal do tratamento e um mecanismo válido de transferência. O regulamento trata de decisão de adequação, cláusulas-padrão, cláusulas específicas e normas corporativas globais, além das hipóteses previstas em lei.",
+      "fonte": {
+        "title": "ANPD — Resolução CD/ANPD nº 19/2024",
+        "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-19-de-23-de-agosto-de-2024",
+        "type": "Fonte oficial",
+        "note": "LGPD, arts. 33 a 36. Resolução CD/ANPD nº 19/2024"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "responsabilidade-penal-pessoa-juridica-ambiental",
+      "resposta": "A pessoa jurídica pode responder por crime ambiental quando a infração resulta de decisão de representante ou órgão colegiado tomada no interesse ou benefício da entidade. O STF admite a persecução penal da pessoa jurídica sem exigir que uma pessoa física também seja processada.",
+      "fonte": {
+        "title": "STF — Constituição e jurisprudência",
+        "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=225&abrirBase=CF",
+        "type": "Fonte oficial",
+        "note": "Constituição, art. 225, § 3º. Lei nº 9.605/1998, arts. 2º a 4º. RE 548.181"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "comissao-parlamentar-inquerito",
+      "resposta": "A CPI é criada por requerimento de um terço dos membros da casa legislativa, para apurar fato determinado em prazo certo. Seus poderes de investigação respeitam a reserva de jurisdição. Medidas como interceptação telefônica e busca domiciliar fora das exceções constitucionais exigem ordem judicial.",
+      "fonte": {
+        "title": "STF — Constituição e jurisprudência",
+        "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF",
+        "type": "Fonte oficial",
+        "note": "Constituição, art. 58, § 3º. Jurisprudência sobre reserva de jurisdição"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "relatorio-impacto-protecao-dados",
+      "resposta": "O controlador documenta tratamentos que possam gerar riscos a direitos e as medidas para mitigá-los. O relatório deve descrever, entre outros pontos, os dados coletados, a metodologia e as salvaguardas. A ANPD pode solicitá-lo, inclusive em hipóteses de tratamento baseado em legítimo interesse.",
+      "fonte": {
+        "title": "ANPD — Relatório de Impacto à Proteção de Dados Pessoais",
+        "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd",
+        "type": "Fonte oficial",
+        "note": "LGPD, arts. 5º, XVII, 10, § 3º, e 38"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "proposta-remedios-antitruste",
+      "resposta": "Remédios são condições para enfrentar problemas concorrenciais identificados em uma concentração. Podem alterar a estrutura do negócio, como alienar ativos, ou impor obrigações de conduta. O desenho deve responder ao problema identificado e permitir implementação e monitoramento.",
+      "fonte": {
+        "title": "Cade — Guia de Remédios Antitruste",
+        "url": "https://www.gov.br/cade/pt-br/assuntos/noticias/cade-lanca-guia-sobre-remedios-antitruste/",
+        "type": "Fonte oficial",
+        "note": "Lei nº 12.529/2011, arts. 61 e 88. Guia do Cade"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "doacoes-financiamento-campanha",
+      "resposta": "A campanha pode receber doações de pessoas físicas e recursos públicos previstos em lei. Recursos próprios da candidatura têm limite específico, e doações empresariais são vedadas. Consulte a resolução aplicável à eleição para limites, identificação, meios de recebimento e prestação de contas.",
+      "fonte": {
+        "title": "TSE — Resolução nº 23.759/2026",
+        "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-759-de-26-de-fevereiro-de-2026",
+        "type": "Fonte oficial",
+        "note": "Lei nº 9.504/1997, arts. 20 a 32. Resoluções TSE nº 23.607/2019 e nº 23.759/2026"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "nome-empresarial-protecao",
+      "resposta": "O nome empresarial identifica o empresário ou a sociedade e tem proteção ligada à inscrição no registro empresarial. A marca distingue produto ou serviço e segue o regime de registro no INPI. Os regimes podem incidir sobre sinais parecidos, com alcance e requisitos próprios.",
+      "fonte": {
+        "title": "Código Civil",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "type": "Fonte oficial",
+        "note": "Arts. 1.155 a 1.168. Lei nº 9.279/1996, arts. 122 e 129"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "recurso-administrativo-inss",
+      "resposta": "O recurso ordinário contra decisão do INSS pode ser apresentado em até 30 dias da ciência. O julgamento cabe às Juntas de Recursos do CRPS. Conforme o caso e os requisitos aplicáveis, a decisão pode ser discutida por recurso especial às Câmaras de Julgamento.",
+      "fonte": {
+        "title": "INSS — Recurso Administrativo de Benefício Previdenciário",
+        "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/recurso/recurso-administrativo-de-beneficio-previdenciario",
+        "type": "Fonte oficial",
+        "note": "Lei nº 8.213/1991, art. 126. Orientação do INSS"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "tribunal-juri-quesitacao",
+      "resposta": "A quesitação segue a ordem do CPP, começando por materialidade e autoria ou participação. O STF admite apelação contra absolvição pelo quesito genérico quando a acusação aponta decisão manifestamente contrária às provas. A tese limita a determinação de novo júri quando a clemência foi sustentada e registrada, nos termos fixados pelo Tribunal.",
+      "fonte": {
+        "title": "STF — Tema 1087",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=ARE&incidente=5745131&numeroProcesso=1225185&numeroTema=1087",
+        "type": "Fonte oficial",
+        "note": "CPP, arts. 482 a 491 e 593, III, d. STF, ARE 1.225.185"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
+    },
+    {
+      "tema_id": "trabalho-intermitente-clt",
+      "resposta": "O trabalho intermitente alterna períodos de prestação de serviços e inatividade. O contrato deve ser escrito e indicar o valor da hora. Ao fim de cada período de prestação, o trabalhador recebe a remuneração e as parcelas proporcionais previstas na CLT. O STF reconheceu a constitucionalidade da modalidade.",
+      "fonte": {
+        "title": "STF — Julgamento sobre trabalho intermitente",
+        "url": "https://noticias.stf.jus.br/postsnoticias/contrato-de-trabalho-intermitente-e-constitucional-afirma-stf/",
+        "type": "Fonte oficial",
+        "note": "CLT, arts. 443, § 3º, e 452-A. ADIs 5826, 5829 e 6154"
+      },
+      "verificacao": "2026-11-25",
+      "escopo": "Conferência do recorte normativo e da fonte oficial indicada."
     }
   ],
   "edicoes_adicionais": [
