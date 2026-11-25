@@ -89,3 +89,10 @@ O arquivo `trelia-consolidacao-bibliografica-01-2026-11-24.json` acrescenta **tr
 Não confundir esta atualização pontual com revisão integral da obra ou da legislação. O tema `protecao-software-direito-autoral` recebe leitura **histórica de apoio**; a pendência de indicação especializada **atual** sobre registro de software no INPI permanece. O PDF está disponível na instituição de origem sob CC BY-NC-ND 2.0; o projeto não redistribui cópias nem modifica seu conteúdo. Os lotes históricos de 22 e 24/11 foram preservados intactos.
 
 Para regenerar os módulos estáticos e verificar os dois vínculos: `python scripts/gerar_curadoria_novembro.py` e `node scripts/check-consolidacao-bibliografica-i.mjs`.
+
+
+### Políticas editoriais dos periódicos (24/11/2026)
+
+O arquivo `trelia-politicas-periodicos-2026-11-24.json` registra **14 páginas de políticas de periódicos**, provenientes dos próprios editores ou do SciELO. Elas abrangem os 19 artigos da Expansão Editorial III. O módulo `dist/catalogo/ampliado/novembro/politicas-periodicos.mjs` é gerado por `python scripts/gerar_curadoria_novembro.py`.
+
+A interface mostra um link para a **política do periódico** nos detalhes de cada pesquisa, mas não afirma que o fluxo específico de cada artigo foi confirmado. Algumas políticas foram atualizadas depois do ano do artigo; o caso da Revista do IBRAC admite exceções para artigos convidados. Verifique o histórico individual antes de declarar arbitragem específica do texto. Execute `node scripts/check-politicas-periodicos.mjs` para conferir os 19 vínculos e a presença dos links no HTML renderizado.

@@ -40,3 +40,6 @@ jobs:
 
       - name: Auditar catálogo completo
         run: node scripts/auditar-catalogo.mjs --strict
+
+      - name: Verificar politicas editoriais dos periodicos
+        run: node scripts/check-politicas-periodicos.mjs

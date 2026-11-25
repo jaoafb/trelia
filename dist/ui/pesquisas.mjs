@@ -1,4 +1,4 @@
-import { expansionIIIArticles, novemberArticles, novemberTopicId } from "../catalogo/ampliado/curadoria-novembro.mjs?v=expansao-iii";
+import { expansionIIIArticles, novemberArticles, novemberTopicId } from "../catalogo/ampliado/curadoria-novembro.mjs?v=consolidacao-completa";
 import pilot from "../catalogo/piloto-artigos.mjs";
 import policies from "../catalogo/ampliado/novembro/politicas-periodicos.mjs";
 const peerPolicyByJournal = new Map(policies.periodicos.map(row => [row.periodico, row]));
